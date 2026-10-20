@@ -196,6 +196,18 @@ dialog::backdrop { background: rgba(10, 14, 18, 0.55); }
 .linkbtn { border: 0; background: none; color: var(--info); cursor: pointer; font-size: 13px; padding: 2px 4px; font-weight: 600; }
 ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
 .stream { font-family: var(--mono); font-size: 12px; color: var(--muted); white-space: pre-wrap; max-height: 180px; overflow: auto; }
+/* people */
+.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 14px; align-items: start; }
+.people-grid > .card { min-width: 0; gap: 10px; }
+.btn.small { padding: 4px 10px; font-size: 12.5px; }
+.links { display: flex; flex-wrap: wrap; gap: 6px; }
+.askline { font-size: 13px; padding: 8px 10px; background: var(--raised); border-radius: 6px; overflow-wrap: anywhere; }
+.msgbox { display: grid; gap: 8px; }
+.msgbox input[type="text"] { border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 6px 9px; font-size: 13px; min-width: 0; }
+.msgbox .copyable { font-size: 13px; }
+#people-body { display: grid; gap: 18px; grid-template-columns: minmax(0, 1fr); }
+.copyable { overflow-wrap: anywhere; }
+.card, .msgbox, .block, .stack, .drill, .sheet-body { grid-template-columns: minmax(0, 1fr); }
 @media (prefers-reduced-motion: no-preference) {
   .row { transition: border-color 0.15s ease; }
   .row:hover { border-color: var(--muted); }
@@ -209,6 +221,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
       <button class="tab" role="tab" id="tab-tonight" data-view="tonight" aria-selected="true">Tonight</button>
       <button class="tab" role="tab" id="tab-board" data-view="board" aria-selected="false">All roles</button>
       <button class="tab" role="tab" id="tab-pipeline" data-view="pipeline" aria-selected="false">Pipeline</button>
+      <button class="tab" role="tab" id="tab-people" data-view="people" aria-selected="false">People</button>
       <button class="tab" role="tab" id="tab-profile" data-view="profile" aria-selected="false">Resume</button>
     </nav>
   </div>
@@ -271,6 +284,10 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     <div class="lanes" id="lanes"></div>
   </section>
 
+  <section class="view" id="view-people" hidden>
+    <div id="people-body"><div class="notice">Loading…</div></div>
+  </section>
+
   <section class="view" id="view-profile" hidden>
     <div class="stack">
       <h2 style="font-size:24px">Your resume</h2>
@@ -321,6 +338,9 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     ["Full mock loop", "45 minutes: one design, one metrics, one behavioural.", "Run a 45-minute mock onsite: one product design, one metrics and one behavioural question. End with a hire / no-hire verdict and the top 3 fixes."]
   ];
 
+  // replaceChildren turns null and false into the text "null"/"false"; skip them so optional blocks can pass null.
+  const nativeReplace = Element.prototype.replaceChildren;
+  Element.prototype.replaceChildren = function (...kids) { return nativeReplace.apply(this, kids.flat().filter((k) => k != null && k !== false)); };
   const $ = (s) => document.querySelector(s);
   const h = (tag, attrs = {}, ...kids) => {
     const el = document.createElement(tag);
@@ -454,7 +474,12 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     $("#synced").textContent = `${S.board.total_open} OPEN · SYNCED ${u ? u.toLocaleString(undefined, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).toUpperCase() : "—"}`;
   }
 
-  function renderAll() { renderSynced(); renderNight(); renderShortlist(); if (S.view === "board") renderBoard(); if (S.view === "pipeline") renderPipeline(); }
+  function renderAll() {
+    renderSynced(); renderNight(); renderShortlist();
+    if (S.view === "board") renderBoard();
+    if (S.view === "pipeline") renderPipeline();
+    if (S.view === "people" && !document.activeElement?.closest?.("#view-people")) renderPeople();
+  }
 
   // ---------- writes ----------
   async function saveNight(patch) {
@@ -509,7 +534,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
       !S.profile?.resume ? h("div", { class: "notice" }, "Add your resume on the Resume tab first; tailoring needs it.") : null,
       h("div", { class: "bar-row" }, h("button", { class: "btn primary", id: "gen", disabled: !S.profile?.resume || !S.sample, onclick: () => generate(j) }, "Generate application pack"),
         !S.sample ? h("span", { class: "note" }, "Asking Claude isn't available in this view.") : null),
-      docsBlock(j));
+      docsBlock(j), peopleBlock(j));
   }
   async function generate(j, regenerate = false) {
     const body = $("#sheet-body");
@@ -558,7 +583,7 @@ ${S.profile.master ? JSON.stringify(S.profile.master) : S.profile.resume}`;
         h("button", { class: "btn primary", onclick: () => { setStatus(j, "applied"); $("#sheet").close(); toast("Marked as applied. Now ask for a referral."); } }, "I've applied"),
         S.sample && S.profile?.resume ? h("button", { class: "btn", onclick: () => generate(j, true) }, "Regenerate") : null,
         h("span", { class: "note" }, p.jdUsed === false ? "Written without the full job description." : "")),
-      docsBlock(j));
+      docsBlock(j), peopleBlock(j));
   }
 
   // ---------- tailored resume + cover letter ----------
@@ -749,13 +774,201 @@ ${JSON.stringify(m)}`;
     return k.doc.output("blob");
   }
 
+  // ---------- people to ask for referrals ----------
+  const CITY = { LON: "London", DUB: "Dublin", ORK: "Cork", EDI: "Edinburgh", MAN: "Manchester", AMS: "Amsterdam", BER: "Berlin", MUC: "Munich",
+    HAM: "Hamburg", FRA: "Frankfurt", ZRH: "Zurich", PAR: "Paris", MAD: "Madrid", BCN: "Barcelona", LIS: "Lisbon", STO: "Stockholm", CPH: "Copenhagen",
+    WAW: "Warsaw", KRK: "Krakow", PRG: "Prague", TLL: "Tallinn", BUD: "Budapest", BUH: "Bucharest", LUX: "Luxembourg", DUS: "Dusseldorf", OSL: "Oslo",
+    SYD: "Sydney", MEL: "Melbourne", BNE: "Brisbane", BKK: "Bangkok", KUL: "Kuala Lumpur", PEN: "Penang", SIN: "Singapore", BLR: "Bengaluru",
+    HYD: "Hyderabad", DEL: "Delhi", BOM: "Mumbai", PNQ: "Pune", MAA: "Chennai" };
+  const CITY_CHOICES = ["London", "Dublin", "Amsterdam", "Berlin", "Stockholm", "Zurich", "Sydney", "Singapore", "Bangkok", "Kuala Lumpur"];
+  const CITIES_OR = "(" + CITY_CHOICES.map((c) => (c.includes(" ") ? '"' + c + '"' : c)).join(" OR ") + ")";
+  const cityOf = (j) => CITY[j.code] || String(j.location || "").split(/[,;]/)[0].trim() || "abroad";
+  const liPeople = (kw, mine) => "https://www.linkedin.com/search/results/people/?keywords=" + encodeURIComponent(kw)
+    + (mine ? "&network=" + encodeURIComponent('["F","S"]') : "") + "&origin=GLOBAL_SEARCH_HEADER";
+  const gX = (q) => "https://www.google.com/search?q=" + encodeURIComponent(q);
+  const INDIA_BG = "(Policybazaar OR Flipkart OR Paytm OR Zomato OR Swiggy OR PhonePe OR Razorpay OR CRED OR Meesho OR Airtel OR Infosys OR HCLTech OR IIM OR IIT OR ISB OR BITS)";
+  const INDIA_PRODUCT_COS = "(Policybazaar OR Flipkart OR Paytm OR Zomato OR Swiggy OR PhonePe OR Razorpay OR CRED OR Meesho OR Airtel OR Ola OR Myntra)";
+  const KINDS = [["india", "Indian PM who moved abroad"], ["pb", "Ex-Policybazaar colleague"], ["iimn", "IIM Nagpur alum"], ["hm", "Hiring manager"], ["rec", "Recruiter"]];
+  let uidn = 0; const uid = () => "u" + (++uidn);
+  const shortRole = (t, max = 48) => { const x = String(t || "").replace(/\s+/g, " ").trim(); return x.length <= max ? x : x.slice(0, max).replace(/\s+\S*$/, "") + "…"; };
+  const jobMeta = (j) => ({ company: j.company, title: j.title, url: j.url, code: j.code, location: j.location, score: j.score });
+
+  function compLinks(j) {
+    const c = '"' + j.company + '"', city = cityOf(j);
+    return [
+      ["Indian-origin PMs at " + j.company, liPeople(`"product manager" ${c} ${INDIA_BG}`)],
+      ["Your alumni there (1st and 2nd connections)", liPeople(`${c} (Policybazaar OR "IIM Nagpur")`, true)],
+      ["Hiring managers in " + city, liPeople(`("group product manager" OR "director of product" OR "head of product" OR "principal product manager") ${c} ${city}`)],
+      ["Recruiters", liPeople(`(recruiter OR "talent acquisition" OR "talent partner") ${c} ${city} (product OR technology)`)],
+      ["Same search on Google", gX(`site:linkedin.com/in "product manager" ${c} ${city} ("India" OR "Policybazaar" OR "IIM")`)],
+      ["Open this role on LinkedIn (see the hiring team)", "https://www.linkedin.com/jobs/search/?keywords=" + encodeURIComponent(j.title + " " + j.company)]
+    ];
+  }
+
+  function drafts(kind, j, n, city) {
+    const where = j ? j.company : "product teams there";
+    const role = j ? shortRole(j.title) : "senior product roles";   // short form for the 200-character connection note
+    const roleLong = j ? shortRole(j.title, 120) : "senior product roles";
+    const at = j ? ` at ${j.company}` : "";
+    const intro = "I'm a Senior PM at Policybazaar (PB Partners), leading service products for 125,000+ insurance partners. I shipped an LLM service chatbot, a WhatsApp bot and voicebots, and I'm building a claims platform across 6 insurers. ";
+    const peerAsk = j
+      ? `I'm applying for ${roleLong} at ${j.company} (${j.url}). Two questions: what is the team like and what do they screen for? And if my profile looks like a fit, would you be open to referring me? I can send a 3-line summary and my resume. `
+      : `I'm exploring roles in ${city}. Two questions: how did you make the move, and which teams or companies would you look at for my profile? If you hear of anything, an intro would mean a lot. `;
+    const T = {
+      pb: { connect: `Hi ${n}, fellow Policybazaar alum here (Senior PM, PB Partners). Planning a move to ${city} and looking at ${where}. Could I ask you two quick questions about your move?`,
+            ask: `Thanks for connecting, ${n}! Quick context: ${intro}${peerAsk}Happy to keep it to 10 minutes. Thank you!` },
+      iimn: { connect: `Hi ${n}, fellow IIM Nagpur alum here (Senior PM, Policybazaar). Planning a move to ${city} and looking at ${where}. Could I ask you two quick questions about your move?`,
+              ask: `Thanks for connecting, ${n}! Quick context: ${intro}${peerAsk}Happy to keep it to 10 minutes. Thank you!` },
+      india: { connect: `Hi ${n}, I'm a Senior PM in India (insurance, conversational AI) planning a move to ${city}. You made a similar move${at}. Could I ask two quick questions on how you did it?`,
+               ask: `Thanks for connecting, ${n}! Quick context: ${intro}${peerAsk}Happy to keep it to 10 minutes. Thank you!` },
+      hm: { connect: `Hi ${n}, I'm a Senior PM (insurance platforms, LLM chatbots and voicebots) interested in the ${role} role${at} in ${city}. Happy to share a short summary if useful.`,
+            ask: `Thanks for connecting, ${n}. I'm a Senior PM at Policybazaar (PB Partners): 125,000+ partners served, an LLM chatbot and voicebots shipped, a 6-insurer claims platform in build. I've applied for ${roleLong}${j ? ` (${j.url})` : ""} and think my background fits your team's work. May I send a 3-line summary and my resume?` },
+      rec: { connect: `Hi ${n}, I'm a Senior PM (9+ yrs, insurance and conversational AI) relocating to ${city}. I've applied for ${role}${at}. If it isn't yours, could you point me to the right person? Visa sponsorship needed.`,
+             ask: `Thanks for connecting, ${n}. I applied for ${roleLong}${at}${j ? ` (${j.url})` : ""}. Quick profile: Senior PM, 9+ years, insurance platforms and conversational AI at Policybazaar. I'd need visa sponsorship and can relocate to ${city}. Could you confirm the next step, or who the hiring manager is?` }
+    };
+    return T[kind] || T.india;
+  }
+
+  function msgPicker(j, city, firstKind) {
+    const wrap = h("div", { class: "msgbox" });
+    const id = uid();
+    const kinds = j ? KINDS : KINDS.slice(0, 3);
+    const sel = h("select", { class: "status", id: "kind-" + id, "aria-label": "Who you're writing to", onchange: () => draw() },
+      ...kinds.map(([k, l]) => h("option", { value: k, selected: k === firstKind }, l)));
+    const nameIn = h("input", { type: "text", id: "nm-" + id, placeholder: "Their first name", "aria-label": "Their first name", autocomplete: "off" });
+    const body = h("div", { class: "msgbox" });
+    function draw() {
+      const d = drafts(sel.value, j, nameIn.value.trim() || "{name}", city);
+      const cnt = h("span", { class: "chip" + (d.connect.length > 200 ? " bad" : "") }, d.connect.length + " chars");
+      body.replaceChildren(
+        h("div", { class: "block-head" }, h("span", { class: "eyebrow" }, "Connection note"), cnt, copyBtn(d.connect)),
+        h("div", { class: "copyable" }, d.connect),
+        d.connect.length > 200 ? h("div", { class: "note" }, "Free LinkedIn accounts allow about 200 characters in a connection note. Shorten the first line, or send this after they accept.") : null,
+        h("div", { class: "block-head" }, h("span", { class: "eyebrow" }, "After they accept"), copyBtn(d.ask)),
+        h("div", { class: "copyable" }, d.ask));
+    }
+    nameIn.addEventListener("input", draw);
+    draw();
+    wrap.append(h("div", { class: "bar-row" }, sel, nameIn), body,
+      h("button", { class: "btn small", onclick: () => { saveNight({ asks: ((S.nights[nightKey()] || {}).asks || 0) + 1 }); toast("Counted as one referral ask tonight."); } }, "I sent this: add 1 to tonight's asks"));
+    return wrap;
+  }
+
+  function linkButtons(items) {
+    return h("div", { class: "links" }, ...items.map(([label, href]) => h("a", { class: "btn small", href, target: "_blank", rel: "noopener" }, label + " ↗")));
+  }
+
+  function topTargets(n) {
+    const by = new Map();
+    for (const j of S.board.jobs) {
+      if (j.region === "India" || j.score < 60) continue;
+      const e = by.get(j.company) || { company: j.company, best: j, count: 0 };
+      e.count++; if (j.score > e.best.score) e.best = j; by.set(j.company, e);
+    }
+    const rank = (e) => e.best.score + Math.min(10, e.count * 2);
+    return [...by.values()].sort((a, b) => rank(b) - rank(a)).slice(0, n);
+  }
+
+  function renderPeople() {
+    const box = $("#people-body");
+    if (!S.board) { box.replaceChildren(h("div", { class: "notice" }, "Companies and roles appear here once the board syncs.")); return; }
+    const city = S.city;
+    const sel = h("select", { class: "status", id: "city-sel", "aria-label": "Target city", onchange: (e) => { S.city = e.target.value; store.set("city", S.city); renderPeople(); } },
+      ...CITY_CHOICES.map((c) => h("option", { value: c, selected: c === city }, c)));
+    const community = [
+      { tag: "Your own network", title: "Ex-Policybazaar and PB Partners colleagues now abroad", kind: "pb",
+        why: "The warmest route: they know the brand and can vouch for how Policybazaar teams work.",
+        links: [["Colleagues in your 1st and 2nd connections", liPeople(`Policybazaar ${CITIES_OR}`, true)],
+                ["Anyone ex-Policybazaar in " + city, liPeople(`Policybazaar ${city}`)]] },
+      { tag: "Your own network", title: "IIM Nagpur alumni in product roles abroad", kind: "iimn",
+        why: "Alumni answer messages far more often than strangers do.",
+        links: [["Alumni in product, in " + city, liPeople(`"IIM Nagpur" (product OR "product manager") ${city}`)],
+                ["Alumni in any target city", liPeople(`"IIM Nagpur" ("product manager" OR "product owner") ${CITIES_OR}`)]] },
+      { tag: "Made your move", title: "Indian PMs who moved abroad from Indian product companies", kind: "india",
+        why: "They solved the same visa, level and interview problems you face. Ask how they did it first and for a referral second.",
+        links: [["PMs in " + city + " from Indian product companies", liPeople(`"product manager" ${INDIA_PRODUCT_COS} ${city}`)],
+                ["Same search on Google", gX(`site:linkedin.com/in "product manager" ${INDIA_PRODUCT_COS} "${city}"`)]] },
+      { tag: "Made your move", title: "People posting about their India-to-" + city + " move", kind: "india",
+        why: "People who write about their move are usually glad to be asked. Comment on the post, then message them.",
+        links: [["Recent posts on LinkedIn", "https://www.linkedin.com/search/results/content/?keywords=" + encodeURIComponent(`"moved to ${city}" "product manager" India`) + "&origin=GLOBAL_SEARCH_HEADER"],
+                ["Search Google for posts", gX(`site:linkedin.com/posts "product manager" "moved to ${city}" India`)]] }
+    ];
+    const card = ({ tag, title, why, links, kind, j }) => h("article", { class: "card" },
+      h("span", { class: "eyebrow" }, tag), h("div", { class: "title" }, title), h("div", { class: "note" }, why),
+      j ? h("div", { class: "askline" }, h("b", {}, "Ask about: "), `${j.title} (${cityOf(j)}, score ${j.score})`) : null,
+      linkButtons(links), msgPicker(j || null, j ? cityOf(j) : city, kind),
+      j ? h("div", { class: "links" },
+        h("a", { class: "btn small", href: j.url, target: "_blank", rel: "noopener" }, "Open posting ↗"),
+        h("button", { class: "btn small primary", onclick: () => openSheet(j) }, "Tailor + log people")) : null);
+    const companies = topTargets(6).map((e) => card({ tag: `At ${e.company} · ${e.count} fitting role${e.count > 1 ? "s" : ""}`,
+      title: `Ask for a referral to: ${e.best.title}`, kind: "india", j: e.best,
+      why: "Message two or three people here. Lead with Indian PMs who made the move; use alumni and hiring managers as backups.",
+      links: compLinks(e.best).slice(0, 5) }));
+    box.replaceChildren(h("div", { class: "stack" },
+      h("p", { class: "note", style: "margin:0;max-width:70ch" }, "Ten outreach slots: four from your own network and six at the companies where you have the best-fit roles. Each one opens a LinkedIn search that returns real people. Pick two or three who look right, send the connection note, and send the longer message after they accept. Aim for four or five asks a night and change the wording a little each time."),
+      h("div", { class: "bar-row" }, h("label", { class: "toggle", for: "city-sel" }, "City for the first four"), sel),
+      h("div", { class: "note" }, "LinkedIn search needs you signed in, and a free account limits searches and personal notes each month.")),
+      h("div", { class: "eyebrow" }, "Start with your own network and people who made the same move"),
+      h("div", { class: "people-grid" }, ...community.map(card)),
+      h("div", { class: "eyebrow" }, "At the companies with your best-fit roles"),
+      h("div", { class: "people-grid" }, ...companies));
+  }
+
+  // per-role block inside the tailoring sheet: search links, notes, and a log of who you contacted
+  const CONTACT_STAGES = [["to_message", "To message"], ["messaged", "Messaged"], ["replied", "Replied"], ["referred", "Referred me"], ["declined", "No reply or declined"]];
+  function peopleBlock(j) {
+    return h("div", { class: "block" }, h("span", { class: "eyebrow" }, "People to ask for this role"),
+      linkButtons(compLinks(j)), msgPicker(j, cityOf(j), "india"), contactsBlock(j));
+  }
+  function contactsBlock(j) {
+    const wrap = h("div", { class: "block" });
+    const key = uid();
+    const write = (contacts) => {
+      const prev = S.track[j.id] || {};
+      const reached = new Set(prev.reached || []);
+      if (contacts.some((c) => c.stage === "referred")) { reached.add("referral_asked"); reached.add("referred"); }
+      saveTrack(j.id, { ...prev, contacts, reached: [...reached], updated: new Date().toISOString(), job: jobMeta(j) });
+      draw();
+    };
+    const setStage = (i, stage) => {
+      const cs = [...((S.track[j.id] || {}).contacts || [])]; const old = cs[i].stage;
+      cs[i] = { ...cs[i], stage, updated: new Date().toISOString() };
+      if (stage === "messaged" && old === "to_message") saveNight({ asks: ((S.nights[nightKey()] || {}).asks || 0) + 1 });
+      write(cs);
+    };
+    function draw() {
+      const cs = (S.track[j.id] || {}).contacts || [];
+      const nm = h("input", { type: "text", id: "ct-name-" + key, placeholder: "Name", "aria-label": "Name" });
+      const url = h("input", { type: "text", id: "ct-url-" + key, placeholder: "LinkedIn profile link", "aria-label": "LinkedIn profile link" });
+      const how = h("input", { type: "text", id: "ct-how-" + key, placeholder: "How you're connected (optional)", "aria-label": "How you're connected" });
+      const add = h("button", { class: "btn small", onclick: () => {
+        const name = nm.value.trim(); if (!name) { nm.focus(); return; }
+        let link = url.value.trim(); if (link && !/^https?:\/\//i.test(link)) link = "https://" + link;
+        write([...cs, { name, url: link, how: how.value.trim(), stage: "to_message", updated: new Date().toISOString() }]);
+      } }, "Add person");
+      wrap.replaceChildren(h("span", { class: "eyebrow" }, "Who you've contacted for this role"),
+        ...(cs.length ? cs.map((c, i) => h("div", { class: "card" },
+          h("div", { class: "block-head" },
+            c.url ? h("a", { class: "title", href: c.url, target: "_blank", rel: "noopener" }, c.name) : h("strong", {}, c.name),
+            h("select", { class: "status", id: `cs-${key}-${i}`, "aria-label": "Stage for " + c.name, onchange: (e) => setStage(i, e.target.value) },
+              ...CONTACT_STAGES.map(([k, l]) => h("option", { value: k, selected: c.stage === k }, l)))),
+          c.how ? h("div", { class: "note" }, c.how) : null,
+          h("button", { class: "linkbtn", onclick: () => write(cs.filter((_, x) => x !== i)) }, "Remove")))
+          : [h("div", { class: "empty" }, "Nobody logged yet. Add each person you find so you remember who to follow up with.")]),
+        h("div", { class: "msgbox" }, nm, url, how, add));
+    }
+    draw();
+    return wrap;
+  }
+
   // ---------- wiring ----------
   function show(view) {
     S.view = view; store.set("view", view);
     for (const t of document.querySelectorAll(".tab")) t.setAttribute("aria-selected", String(t.dataset.view === view));
-    for (const v of ["tonight", "board", "pipeline", "profile"]) $("#view-" + v).hidden = v !== view;
+    for (const v of ["tonight", "board", "pipeline", "people", "profile"]) $("#view-" + v).hidden = v !== view;
     if (view === "board") renderBoard();
     if (view === "pipeline") renderPipeline();
+    if (view === "people") renderPeople();
   }
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => show(t.dataset.view)));
   $("#q").addEventListener("input", (e) => { S.q = e.target.value; S.limit = 40; renderBoard(); });
@@ -775,7 +988,8 @@ ${JSON.stringify(m)}`;
 
   S.region = store.get("region", "All");
   const hash = location.hash.slice(1);
-  show(["tonight", "board", "pipeline", "profile"].includes(hash) ? hash : store.get("view", "tonight"));
+  S.city = store.get("city", "London");
+  show(["tonight", "board", "pipeline", "people", "profile"].includes(hash) ? hash : store.get("view", "tonight"));
   renderNight();
 
   (async () => {

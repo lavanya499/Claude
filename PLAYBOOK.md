@@ -44,7 +44,7 @@ instant phone push for top-50 roles      them to the dashboard
 |---|---|---|
 | 0:00–0:10 | **Triage** | Open the Command Center. Star tonight's 3 roles: highest score, posted most recently, best fit. Skip roles marked "no sponsorship" unless you already have the right to work there. |
 | 0:10–0:55 | **Apply ×3** (15 min each) | Click *Tailor with Claude* → paste the summary and the 3 rewritten bullets into your resume → export PDF → apply on the company's own site (not LinkedIn Easy Apply). Log it as *Applied*. |
-| 0:55–1:25 | **Referrals ×4–5** | For each role applied to tonight (and last night's), find 2 people on LinkedIn: a PM or EM on that team or in that city, ideally ex-colleagues, alumni, or Indians who relocated there. Send the connection note below. Log it as *Referral asked*. |
+| 0:55–1:25 | **Referrals ×4–5** | Open the Command Center's **People** tab. Use its LinkedIn searches to find 2–3 people per role: Indian PMs who moved abroad first, then ex-Policybazaar colleagues, IIM Nagpur alumni and hiring managers. Send the drafted note, then log each person in the role's sheet. |
 | 1:25–1:55 | **Interview drill** | One 30-minute drill per night from the rotation below, done with Claude as the interviewer. |
 | 1:55–2:00 | **Log** | Update statuses. Anything with no response for 7 days → send one polite follow-up. |
 
