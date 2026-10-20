@@ -5,9 +5,13 @@ and optionally desc (plain-text job description). `want(title)` lets a fetcher s
 expensive detail calls for titles we will throw away anyway.
 """
 import datetime as dt
+import http.cookiejar
+import threading
 import html
 import json
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -15,7 +19,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 
 
-def http(url, data=None, headers=None, timeout=30):
+def http(url, data=None, headers=None, timeout=30, opener=None):
     h = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
          "Accept-Language": "en-GB,en;q=0.9"}
     h.update(headers or {})
@@ -27,7 +31,7 @@ def http(url, data=None, headers=None, timeout=30):
         else:
             body = data.encode() if isinstance(data, str) else data
     req = urllib.request.Request(url, data=body, headers=h)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
+    with (opener.open if opener else urllib.request.urlopen)(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
 
 
@@ -267,18 +271,22 @@ def google(locations, want=_always, q='"product manager"', max_pages=8, **_):
                        "url": "https://www.google.com/about/careers/applications/jobs/"
                               f"results/{r[0]}-{slug}",
                        "posted": None,
-                       "desc": "\n".join(s for s in _strings(r[3:8], []) if len(s) > 30)[:6000]}
+                       "desc": text("\n".join(s for s in _strings(r[3:8], []) if len(s) > 30))[:6000]}
             if len(rows) < 20:
                 break
 
 
 def microsoft(locations, want=_always, q="product manager", **_):
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    http("https://apply.careers.microsoft.com/careers?domain=microsoft.com", opener=opener,
+         headers={"Accept": "text/html"})
     for loc in locations:
         for start in range(0, 200, 20):
             qs = urllib.parse.urlencode({"domain": "microsoft.com", "query": q,
                                          "location": loc, "start": start,
                                          "sort_by": "timestamp"})
-            d = get_json(f"https://apply.careers.microsoft.com/api/pcsx/search?{qs}")
+            d = get_json(f"https://apply.careers.microsoft.com/api/pcsx/search?{qs}", opener=opener,
+                         headers={"Referer": "https://apply.careers.microsoft.com/careers?domain=microsoft.com"})
             pos = (d.get("data") or {}).get("positions") or []
             for p in pos:
                 yield {"id": str(p.get("id")), "title": p.get("name", ""),
@@ -293,16 +301,18 @@ def microsoft(locations, want=_always, q="product manager", **_):
 
 
 def eightfold(host, domain, want=_always, q="product manager", **_):
-    for start in range(0, 300, 50):
+    start = 0
+    while start < 300:
         qs = urllib.parse.urlencode({"domain": domain, "query": q, "start": start, "num": 50})
         d = get_json(f"https://{host}/api/apply/v2/jobs?{qs}")
         pos = d.get("positions") or []
+        start += len(pos)
         for p in pos:
             yield {"id": str(p.get("id")), "title": p.get("name", ""),
                    "location": "; ".join(p.get("locations") or [p.get("location", "")]),
                    "url": p.get("canonicalPositionUrl") or f"https://{host}/careers/job/{p.get('id')}",
                    "posted": iso(p.get("t_create"))}
-        if len(pos) < 50:
+        if not pos or start >= d.get("count", 0):
             break
 
 
@@ -334,17 +344,44 @@ def atlassian(want=_always, **_):
                             + "\n" + (j.get("qualifications") or ""))}
 
 
-def linkedin(keywords, location, want=_always, hours=24, pages=1, **_):
+_LI_LOCK = threading.Lock()
+_LI = {"last": 0.0, "blocked": False}
+
+
+def _linkedin_get(url):
+    """Serialise LinkedIn calls (polite pacing) and stop for the run after a 429."""
+    with _LI_LOCK:
+        if _LI["blocked"]:
+            raise RuntimeError("LinkedIn rate-limited earlier in this run")
+        wait = 1.5 - (time.time() - _LI["last"])
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            return http(url, headers={"Accept": "text/html"})
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                _LI["blocked"] = True
+            raise
+        finally:
+            _LI["last"] = time.time()
+
+
+def linkedin(keywords, location="", want=_always, hours=24, pages=1, company_id=None,
+             geo_id=None, **_):
     """LinkedIn's public (logged-out) job search. Covers every company."""
-    for page in range(pages):
-        qs = urllib.parse.urlencode({"keywords": keywords, "location": location,
-                                     "f_TPR": f"r{hours * 3600}", "sortBy": "DD",
-                                     "start": page * 25})
-        src = http(f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?{qs}",
-                   headers={"Accept": "text/html"})
-        cards = src.split("<li")
+    start = 0
+    for _page in range(pages):
+        params = {"keywords": keywords, "f_TPR": f"r{hours * 3600}", "sortBy": "DD", "start": start}
+        if location:
+            params["location"] = location
+        if geo_id:
+            params["geoId"] = geo_id
+        if company_id:
+            params["f_C"] = company_id
+        src = _linkedin_get("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?"
+                            + urllib.parse.urlencode(params))
         n = 0
-        for c in cards:
+        for c in src.split("<li"):
             m = re.search(r"urn:li:jobPosting:(\d+)", c)
             if not m:
                 continue
@@ -357,13 +394,40 @@ def linkedin(keywords, location, want=_always, hours=24, pages=1, **_):
                    "location": g(r'job-search-card__location">(.*?)</span>'),
                    "url": f"https://www.linkedin.com/jobs/view/{m.group(1)}/",
                    "posted": g(r'<time[^>]*datetime="([^"]+)"')}
-        if n < 25:
+        if n == 0:
+            break
+        start += n
+
+
+def linkedin_company(names, li_id=None, want=_always, hours=72, pages=3, **_):
+    """One company's recent PM postings worldwide via LinkedIn; keeps only that company's cards."""
+    keep = {re.sub(r"[^a-z0-9]", "", n.lower()) for n in names}
+    kw = "product manager" if li_id else f"{names[0]} product manager"
+    for r in linkedin(kw, want=want, hours=hours, pages=pages, company_id=li_id, geo_id="92000000"):
+        if re.sub(r"[^a-z0-9]", "", r["company"].lower()) in keep:
+            yield r
+
+
+def jibe(host, want=_always, q="product manager", **_):
+    """Jibe-hosted career sites (e.g. jobs.booking.com)."""
+    for page in range(1, 8):
+        d = get_json(f"https://{host}/api/jobs?" + urllib.parse.urlencode(
+            {"keywords": q, "page": page, "limit": 100}))
+        rows = d.get("jobs") or []
+        for row in rows:
+            j = row.get("data", row)
+            yield {"id": str(j.get("req_id") or j.get("slug")), "title": j.get("title", ""),
+                   "location": j.get("full_location") or ", ".join(
+                       x for x in (j.get("city"), j.get("country")) if x),
+                   "url": j.get("apply_url") or f"https://{host}/jobs/{j.get('slug') or j.get('req_id')}",
+                   "posted": iso(j.get("posted_date") or j.get("create_date")),
+                   "desc": text(j.get("description", ""))}
+        if len(rows) < 100:
             break
 
 
 def linkedin_desc(job_id):
-    src = http(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job_id}",
-               headers={"Accept": "text/html"})
+    src = _linkedin_get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job_id}")
     m = re.search(r'show-more-less-html__markup[^>]*>(.*?)</div>', src, re.S)
     return text(m.group(1)) if m else ""
 
@@ -380,6 +444,9 @@ FETCHERS = {
     "eightfold": lambda c, w: eightfold(c["host"], c["domain"], w),
     "uber": lambda c, w: uber(w),
     "atlassian": lambda c, w: atlassian(w),
+    "jibe": lambda c, w: jibe(c["host"], w),
+    "linkedin_company": lambda c, w: linkedin_company([c["name"]] + c.get("aliases", []),
+                                                      c.get("li_id"), w),
 }
 
 DETAIL = {

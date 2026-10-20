@@ -1,8 +1,6 @@
 name: probe
 on:
   workflow_dispatch:
-  push:
-    paths: ["radar/probe.py", ".github/workflows/probe.yml"]
 jobs:
   probe:
     runs-on: ubuntu-latest

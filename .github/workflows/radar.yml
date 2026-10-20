@@ -1,0 +1,31 @@
+name: radar
+on:
+  schedule:
+    - cron: "23 * * * *"   # hourly; the 15:23 UTC run (~20:53 IST) also sends the nightly digest
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: radar
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - id: scan
+        run: python radar/scan.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      - name: Commit results
+        if: steps.scan.outputs.changed == 'true'
+        run: |
+          git config user.name "spm-radar"
+          git config user.email "spm-radar@users.noreply.github.com"
+          git add data/jobs.json data/health.json JOBS.md
+          git diff --cached --quiet && exit 0
+          git commit -m "radar: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase -X theirs origin "$GITHUB_REF_NAME" && git push && break; sleep 5; done

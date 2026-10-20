@@ -1,0 +1,494 @@
+[
+ {
+  "name": "Google",
+  "tier": 1,
+  "ats": "google",
+  "locations": [
+   "United Kingdom",
+   "Ireland",
+   "Switzerland",
+   "Germany",
+   "Netherlands",
+   "France",
+   "Poland",
+   "Sweden",
+   "Denmark",
+   "Spain",
+   "Australia",
+   "Singapore",
+   "Malaysia",
+   "Thailand",
+   "India"
+  ],
+  "aliases": [
+   "Google DeepMind",
+   "DeepMind",
+   "YouTube"
+  ],
+  "hubs": "London, Dublin, Zurich, Munich, Warsaw, Sydney, Singapore, Bengaluru, Hyderabad, Gurugram",
+  "why": "Your #1 target. SPM = L6. Sponsors UK/IE/CH/AU visas routinely; India→EMEA internal mobility after ~12 months is a known path."
+ },
+ {
+  "name": "Microsoft",
+  "tier": 1,
+  "ats": "microsoft",
+  "locations": [
+   "United Kingdom",
+   "Ireland",
+   "Netherlands",
+   "Germany",
+   "Czech Republic",
+   "Australia",
+   "Singapore",
+   "India"
+  ],
+  "fallback": {
+   "ats": "linkedin_company",
+   "li_id": "1035"
+  },
+  "aliases": [
+   "Microsoft AI"
+  ],
+  "hubs": "Dublin, London, Prague, Amsterdam, Sydney, Singapore, Hyderabad, Bengaluru",
+  "why": "Huge PM bench (Senior PM = L63-64). Dublin is the EMEA hub and sponsors Critical Skills permits."
+ },
+ {
+  "name": "Amazon",
+  "tier": 1,
+  "ats": "amazon",
+  "countries": [
+   "GBR",
+   "IRL",
+   "DEU",
+   "NLD",
+   "FRA",
+   "ESP",
+   "ITA",
+   "LUX",
+   "POL",
+   "SWE",
+   "AUS",
+   "SGP",
+   "IND"
+  ],
+  "aliases": [
+   "Amazon Web Services (AWS)",
+   "AWS",
+   "Amazon Web Services"
+  ],
+  "hubs": "London, Dublin, Berlin, Luxembourg, Madrid, Sydney, Singapore, Bengaluru, Hyderabad",
+  "why": "Most SPM openings of any big tech (Sr. PM / Sr. PM-Tech). Bar-raiser loop is learnable; relocation packages standard."
+ },
+ {
+  "name": "Meta",
+  "tier": 1,
+  "ats": "linkedin_company",
+  "li_id": "10667",
+  "aliases": [
+   "Meta"
+  ],
+  "hubs": "London, Dublin, Singapore, Gurugram, Bengaluru",
+  "why": "London is Meta's largest engineering hub outside the US. Titles are unlevelled ('Product Manager') — level is set in the loop."
+ },
+ {
+  "name": "Apple",
+  "tier": 1,
+  "ats": "linkedin_company",
+  "li_id": "162479",
+  "hubs": "London, Cork, Munich, Sydney, Singapore, Bengaluru, Hyderabad",
+  "why": "Fewer pure PM roles abroad, but high-signal when they appear."
+ },
+ {
+  "name": "Netflix",
+  "tier": 1,
+  "ats": "eightfold",
+  "host": "explore.jobs.netflix.net",
+  "domain": "netflix.com",
+  "hubs": "Amsterdam, London, Madrid, Singapore",
+  "why": "Top-of-market pay; EMEA HQ Amsterdam (30% ruling for expats)."
+ },
+ {
+  "name": "LinkedIn",
+  "tier": 1,
+  "ats": "smartrecruiters",
+  "token": "LinkedIn3",
+  "hubs": "Dublin, London, Bengaluru, Singapore, Sydney",
+  "why": "Microsoft-owned; Dublin is EMEA HQ. Bengaluru is a large PM hub."
+ },
+ {
+  "name": "Salesforce",
+  "tier": 1,
+  "ats": "workday",
+  "host": "salesforce.wd12.myworkdayjobs.com",
+  "tenant": "salesforce",
+  "site": "External_Career_Site",
+  "hubs": "London, Dublin, Hyderabad, Bengaluru, Sydney, Singapore",
+  "why": "Large Dublin & Hyderabad product orgs; sponsors."
+ },
+ {
+  "name": "Adobe",
+  "tier": 1,
+  "ats": "workday",
+  "host": "adobe.wd5.myworkdayjobs.com",
+  "tenant": "adobe",
+  "site": "external_experienced",
+  "hubs": "London, Noida, Bengaluru, Sydney, Bucharest",
+  "why": "Big Noida/Bengaluru PM org — a credible stepping stone to big-tech EMEA roles."
+ },
+ {
+  "name": "Uber",
+  "tier": 1,
+  "ats": "linkedin_company",
+  "li_id": "1815218",
+  "hubs": "Amsterdam, London, Bengaluru, Hyderabad, Sydney",
+  "why": "Amsterdam EMEA HQ relocates many PMs from India."
+ },
+ {
+  "name": "Atlassian",
+  "tier": 1,
+  "ats": "atlassian",
+  "hubs": "Sydney, Bengaluru, Remote (EMEA/APAC)",
+  "why": "Australia's flagship tech employer; sponsors 482/SID visas; strong remote-friendly culture."
+ },
+ {
+  "name": "Stripe",
+  "tier": 1,
+  "ats": "greenhouse",
+  "token": "stripe",
+  "hubs": "Dublin, London, Bengaluru, Singapore, Sydney",
+  "why": "Payments gold standard; Dublin is its largest office outside SF."
+ },
+ {
+  "name": "Airbnb",
+  "tier": 1,
+  "ats": "greenhouse",
+  "token": "airbnb",
+  "hubs": "Dublin, London, Bengaluru, Singapore",
+  "why": "Strong brand; small but senior PM teams outside the US."
+ },
+ {
+  "name": "Booking.com",
+  "tier": 1,
+  "ats": "jibe",
+  "host": "jobs.booking.com",
+  "fallback": {
+   "ats": "linkedin_company"
+  },
+  "aliases": [
+   "Booking Holdings"
+  ],
+  "hubs": "Amsterdam, Manchester, Bangalore (via Agoda)",
+  "why": "Amsterdam relocates 100+ nationalities; Dutch highly-skilled-migrant visa is fast."
+ },
+ {
+  "name": "Spotify",
+  "tier": 1,
+  "ats": "lever",
+  "token": "spotify",
+  "hubs": "Stockholm, London",
+  "why": "Sweden work permits are straightforward with an offer; strong PM craft culture."
+ },
+ {
+  "name": "Revolut",
+  "tier": 2,
+  "ats": "linkedin_company",
+  "hubs": "London, Dublin, Barcelona, Kraków, Bengaluru",
+  "why": "Hires PMs ('Product Owner/Manager') fast, sponsors UK visas; intense but a strong CV line."
+ },
+ {
+  "name": "Wise",
+  "tier": 2,
+  "ats": "smartrecruiters",
+  "token": "Wise",
+  "hubs": "London, Tallinn, Budapest, Singapore, Hyderabad",
+  "why": "Explicit visa + relocation support; Tallinn/Budapest are easier visa routes."
+ },
+ {
+  "name": "Monzo",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "monzo",
+  "hubs": "London",
+  "why": "UK sponsor-licensed; product-led culture."
+ },
+ {
+  "name": "Adyen",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "adyen",
+  "hubs": "Amsterdam, London, Madrid, Singapore, Bengaluru",
+  "why": "Amsterdam HQ, relocates internationally, 30% ruling."
+ },
+ {
+  "name": "Klarna",
+  "tier": 2,
+  "ats": "linkedin_company",
+  "hubs": "Stockholm, Berlin, London",
+  "why": "Swedish fintech; relocation common."
+ },
+ {
+  "name": "N26",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "n26",
+  "hubs": "Berlin, Barcelona",
+  "why": "EU Blue Card route via Germany; English-first workplace."
+ },
+ {
+  "name": "SumUp",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "sumup",
+  "hubs": "London, Berlin, Barcelona",
+  "why": "Fintech scale-up hiring senior PMs across EU hubs."
+ },
+ {
+  "name": "Tide",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "tide",
+  "hubs": "London, Hyderabad",
+  "why": "UK SME banking; large Hyderabad hub — easy entry, later UK move."
+ },
+ {
+  "name": "PayPal",
+  "tier": 2,
+  "ats": "workday",
+  "host": "paypal.wd1.myworkdayjobs.com",
+  "tenant": "paypal",
+  "site": "jobs",
+  "hubs": "London, Dublin, Berlin, Bengaluru, Chennai, Singapore",
+  "why": "Sr/Lead PM roles in Bengaluru + EMEA."
+ },
+ {
+  "name": "Visa",
+  "tier": 2,
+  "ats": "workday",
+  "host": "visa.wd5.myworkdayjobs.com",
+  "tenant": "visa",
+  "site": "Visa",
+  "hubs": "London, Dublin, Singapore, Bengaluru, Kuala Lumpur",
+  "why": "Payments network; Singapore is APAC HQ."
+ },
+ {
+  "name": "Mastercard",
+  "tier": 2,
+  "ats": "workday",
+  "host": "mastercard.wd1.myworkdayjobs.com",
+  "tenant": "mastercard",
+  "site": "CorporateCareers",
+  "hubs": "Dublin, London, Pune, Singapore, Sydney",
+  "why": "Dublin tech hub; sponsors."
+ },
+ {
+  "name": "Zalando",
+  "tier": 2,
+  "ats": "linkedin_company",
+  "aliases": [
+   "Zalando SE"
+  ],
+  "hubs": "Berlin, Dublin",
+  "why": "Europe's #1 fashion e-commerce; Berlin relocation + Blue Card."
+ },
+ {
+  "name": "Delivery Hero",
+  "tier": 2,
+  "ats": "smartrecruiters",
+  "token": "DeliveryHero",
+  "aliases": [
+   "foodpanda",
+   "Talabat",
+   "Glovo"
+  ],
+  "hubs": "Berlin, Barcelona, Singapore, Bangkok, Kuala Lumpur (foodpanda)",
+  "why": "Covers Germany + foodpanda in TH/MY."
+ },
+ {
+  "name": "Deliveroo",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "deliveroo",
+  "hubs": "London, Hyderabad",
+  "why": "Consumer marketplace; UK sponsor."
+ },
+ {
+  "name": "HelloFresh",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "hellofresh",
+  "hubs": "Berlin, Dublin, Warsaw, Sydney",
+  "why": "D2C / subscription commerce — good fit for consumer/D2C PMs."
+ },
+ {
+  "name": "GetYourGuide",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "getyourguide",
+  "hubs": "Berlin, Zurich",
+  "why": "Travel marketplace; Berlin relocation."
+ },
+ {
+  "name": "Expedia Group",
+  "tier": 2,
+  "ats": "workday",
+  "host": "expedia.wd108.myworkdayjobs.com",
+  "tenant": "expedia",
+  "site": "search",
+  "aliases": [
+   "Expedia"
+  ],
+  "hubs": "London, Gurugram, Bengaluru",
+  "why": "Large London product org; Gurugram hub."
+ },
+ {
+  "name": "eBay",
+  "tier": 2,
+  "ats": "workday",
+  "host": "ebay.wd5.myworkdayjobs.com",
+  "tenant": "ebay",
+  "site": "apply",
+  "hubs": "London, Berlin, Dublin, Bengaluru",
+  "why": "Marketplace PM roles across EU + India."
+ },
+ {
+  "name": "Skyscanner",
+  "tier": 2,
+  "ats": "linkedin_company",
+  "hubs": "Edinburgh, London, Barcelona",
+  "why": "UK sponsor; travel search."
+ },
+ {
+  "name": "Datadog",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "datadog",
+  "hubs": "Dublin, Paris, Amsterdam, Sydney, Singapore",
+  "why": "Fast-growing B2B; Dublin + Paris hubs."
+ },
+ {
+  "name": "Cloudflare",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "cloudflare",
+  "hubs": "London, Lisbon, Sydney, Singapore, Bengaluru",
+  "why": "Infra PM; Lisbon/London hubs."
+ },
+ {
+  "name": "Databricks",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "databricks",
+  "hubs": "Amsterdam, London, Bengaluru, Sydney, Singapore",
+  "why": "AI/data platform; Amsterdam R&D sponsors."
+ },
+ {
+  "name": "MongoDB",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "mongodb",
+  "hubs": "Dublin, London, Gurugram, Sydney",
+  "why": "Dublin is a core product hub."
+ },
+ {
+  "name": "Intercom",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "intercom",
+  "hubs": "Dublin, London",
+  "why": "Product-led SaaS; Dublin R&D HQ, sponsors."
+ },
+ {
+  "name": "Celonis",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "celonis",
+  "hubs": "Munich, Madrid, Amsterdam",
+  "why": "German decacorn; Blue Card route."
+ },
+ {
+  "name": "ServiceNow",
+  "tier": 2,
+  "ats": "smartrecruiters",
+  "token": "ServiceNow",
+  "hubs": "London, Amsterdam, Hyderabad, Sydney, Dublin",
+  "why": "Enterprise SaaS with big Hyderabad + EMEA PM orgs."
+ },
+ {
+  "name": "OpenAI",
+  "tier": 2,
+  "ats": "ashby",
+  "token": "openai",
+  "hubs": "London, Dublin, Singapore, Sydney (growing)",
+  "why": "Hiring PMs internationally as offices open."
+ },
+ {
+  "name": "Anthropic",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "anthropic",
+  "hubs": "London, Dublin, Sydney, Bengaluru (growing)",
+  "why": "International PM roles opening in London/Dublin."
+ },
+ {
+  "name": "Canva",
+  "tier": 2,
+  "ats": "linkedin_company",
+  "hubs": "Sydney, Melbourne, London",
+  "why": "Australia's design-tech leader; sponsors and relocates."
+ },
+ {
+  "name": "Agoda",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "agoda",
+  "hubs": "Bangkok, Singapore, Gurugram",
+  "why": "Best-known relocator to Thailand: visa, flights, housing support for PMs (Booking Holdings company)."
+ },
+ {
+  "name": "Grab",
+  "tier": 2,
+  "ats": "smartrecruiters",
+  "token": "Grab",
+  "hubs": "Singapore, Kuala Lumpur / Petaling Jaya, Bangkok, Bengaluru",
+  "why": "SE Asia super-app; KL and Bengaluru tech centres sponsor Employment Passes."
+ },
+ {
+  "name": "Airwallex",
+  "tier": 2,
+  "ats": "ashby",
+  "token": "airwallex",
+  "hubs": "Melbourne, Sydney, Singapore, Kuala Lumpur, London",
+  "why": "Fintech with AU + SEA hubs."
+ },
+ {
+  "name": "Shopee",
+  "tier": 2,
+  "ats": "linkedin_company",
+  "aliases": [
+   "Sea Limited",
+   "Sea",
+   "Garena",
+   "Monee"
+  ],
+  "hubs": "Singapore, Kuala Lumpur, Bangkok",
+  "why": "Largest e-commerce in SEA; Malaysia/Thailand PM roles."
+ },
+ {
+  "name": "Xendit",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "xendit",
+  "hubs": "Bangkok, Kuala Lumpur, Singapore, Jakarta",
+  "why": "Payments in SEA; hires PMs in TH/MY."
+ },
+ {
+  "name": "LINE MAN Wongnai",
+  "tier": 2,
+  "ats": "linkedin_company",
+  "aliases": [
+   "LINE MAN"
+  ],
+  "hubs": "Bangkok",
+  "why": "Thailand's leading consumer tech unicorn; English-speaking product org."
+ }
+]

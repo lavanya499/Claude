@@ -1,0 +1,57 @@
+{
+  "ntfy_topic": "spm-radar-6c5765428ef955ca",
+  "timezone_note": "Daily digest is sent on the run at 15:xx UTC (~20:50 IST), before the nightly session.",
+  "digest_hour_utc": 15,
+  "push_min_score": 65,
+  "keep_days": 30,
+  "detail_fetch_limit": 60,
+  "titles": {
+    "must": "product manager|product lead|head of product|product owner|director,? product|director of product",
+    "exclude": "\\bintern\\b|internship|graduate|junior|\\bjr\\b|associate product manager|\\bapm\\b|product marketing|marketing manager|program manager|project manager|designer|analyst|assistant|\\bproduct manager,? i\\b|\\bproduct manager 1\\b|working student|werkstudent|apprentice|trainee|sales|account manager|customer success",
+    "senior": "senior|\\bsr\\b|\\bsr\\.|lead|principal|staff|group product|\\biii\\b|\\bl6\\b|\\bl7\\b",
+    "mid": "\\bii\\b|\\b2\\b",
+    "stretch": "head of product|director|vp|vice president"
+  },
+  "regions": {
+    "UK": "united kingdom|\\buk\\b|england|scotland|wales|northern ireland|london|manchester|edinburgh|glasgow|cambridge, (uk|eng)|bristol|belfast|leeds|birmingham|reading, (uk|eng)|oxford|\\bgb\\b|\\bgbr\\b",
+    "Europe": "ireland|dublin|cork|netherlands|amsterdam|rotterdam|utrecht|the hague|eindhoven|germany|deutschland|berlin|munich|münchen|hamburg|frankfurt|cologne|köln|france|paris|spain|madrid|barcelona|portugal|lisbon|porto|italy|milan|switzerland|zurich|zürich|geneva|austria|vienna|belgium|brussels|luxembourg|sweden|stockholm|gothenburg|denmark|copenhagen|norway|oslo|finland|helsinki|poland|warsaw|krakow|kraków|wroclaw|wrocław|czech|prague|estonia|tallinn|lithuania|vilnius|latvia|riga|greece|athens|romania|bucharest|hungary|budapest|emea|europe|\\birl\\b|\\bdeu\\b|\\bnld\\b|\\b(ie|de|nl|fr|es|pt|se|dk|pl|ch|at|be)\\b$",
+    "Australia": "australia|sydney|melbourne|brisbane|perth|adelaide|canberra|\\baus\\b|new south wales|\\bnsw\\b|victoria, au",
+    "Thailand": "thailand|bangkok|\\btha\\b",
+    "Malaysia": "malaysia|kuala lumpur|penang|cyberjaya|petaling jaya|\\bmys\\b",
+    "Singapore": "singapore|\\bsgp\\b",
+    "India": "india|bengaluru|bangalore|hyderabad|gurgaon|gurugram|noida|delhi|mumbai|pune|chennai|\\bind\\b"
+  },
+  "region_points": {
+    "UK": 15,
+    "Europe": 15,
+    "Australia": 15,
+    "Thailand": 15,
+    "Malaysia": 15,
+    "Singapore": 12,
+    "India": 8
+  },
+  "linkedin": {
+    "keywords": [
+      "Senior Product Manager",
+      "Lead Product Manager"
+    ],
+    "locations": [
+      "United Kingdom",
+      "Ireland",
+      "Netherlands",
+      "Germany",
+      "Switzerland",
+      "Sweden",
+      "Spain",
+      "France",
+      "Poland",
+      "Denmark",
+      "Portugal",
+      "Australia",
+      "Singapore",
+      "Malaysia",
+      "Thailand"
+    ],
+    "hours": 24
+  }
+}
