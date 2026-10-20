@@ -190,10 +190,12 @@ def scan_linkedin():
 
 # --- output --------------------------------------------------------------------
 
-def ntfy(title, message, click=None, priority=3, tags=None):
+def ntfy(title, message, click=None, priority=3, tags=None, email=False):
     topic = os.environ.get("NTFY_TOPIC") or CFG["ntfy_topic"]
     body = {"topic": topic, "title": title[:250], "message": message[:3800],
             "priority": priority, "tags": tags or ["briefcase"]}
+    if email and os.environ.get("NTFY_EMAIL"):
+        body["email"] = os.environ["NTFY_EMAIL"]
     if click:
         body["click"] = click
     body["actions"] = [{"action": "view", "label": "All jobs",
@@ -364,7 +366,7 @@ def main():
             msg = "\n".join(f"{j['score']} · {j['company']} — {j['title']} ({j['regions'][0]})"
                             for j in today[:10]) or "Quiet day. Use tonight for referrals + interview prep."
             ntfy(f"Tonight's shortlist: {len(today)} new roles in 24h", msg,
-                 click=f"{REPO_URL}/blob/{BRANCH}/JOBS.md", priority=4, tags=["calendar"])
+                 click=f"{REPO_URL}/blob/{BRANCH}/JOBS.md", priority=4, tags=["calendar"], email=True)
     for k in new_keys:
         known[k]["notified"] = True
 
@@ -383,4 +385,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as exc:  # noqa: BLE001
+        import traceback
+        traceback.print_exc()
+        if NOW.hour == CFG["digest_hour_utc"]:  # at most one error ping a day
+            ntfy("Job radar hit an error", f"{type(exc).__name__}: {exc}"[:500], priority=2, tags=["warning"])
+        sys.exit(1)

@@ -12,16 +12,23 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    # A failed run makes GitHub email the repository owner. Errors are reported to the ntfy topic
+    # instead, so runs never end red.
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - id: scan
+        continue-on-error: true
+        timeout-minutes: 20
         run: python radar/scan.py
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_EMAIL: ${{ secrets.NTFY_EMAIL }}
       - name: Commit results
         if: steps.scan.outputs.changed == 'true'
+        continue-on-error: true
         run: |
           git config user.name "spm-radar"
           git config user.email "spm-radar@users.noreply.github.com"

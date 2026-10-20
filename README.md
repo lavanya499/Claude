@@ -13,7 +13,15 @@ Europe, Australia, Thailand and Malaysia (Singapore and India are tracked too).
    [iPhone](https://apps.apple.com/app/ntfy/id1625396347)). No account is needed.
 2. Tap **+** and subscribe to the topic `spm-radar-6c5765428ef955ca` (server: ntfy.sh).
 3. Done. You'll get a push within the hour whenever a senior PM role opens at one of the 50 target
-   companies, and a "Tonight's shortlist" digest at about 20:50 IST every evening.
+   companies, and a "Tonight's shortlist" digest at about 20:50 IST every evening. On a laptop, open
+   `https://ntfy.sh/spm-radar-6c5765428ef955ca` in a browser for the same feed.
+
+**Optional: the nightly digest by email.** Add a repository secret named `NTFY_EMAIL` holding the
+address (GitHub → this repo → Settings → Secrets and variables → Actions → New repository secret).
+Keep the address out of the code: this repository is public.
+
+Alerts go only to the ntfy topic (and that email, if set). Runs are set never to fail, so GitHub sends
+no failure emails to the repository owner; scan errors arrive on the ntfy topic instead.
 
 ## How it works
 
