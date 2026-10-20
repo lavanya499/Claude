@@ -30,6 +30,7 @@ TODAY = NOW.date().isoformat()
 
 T = {k: re.compile(v, re.I) for k, v in CFG["titles"].items()}
 REGIONS = {k: re.compile(v, re.I) for k, v in CFG["regions"].items()}
+PENALTY = re.compile(CFG["titles"].get("penalty", "$^"), re.I)
 VISA_YES = re.compile(r"visa sponsorship (is )?(available|provided|offered)|we (can|will|do) sponsor|"
                       r"sponsorship (is )?available|relocation (support|package|assistance|bonus)|"
                       r"help(ing)? you relocate|relocate to", re.I)
@@ -81,6 +82,8 @@ def score(job):
     s += {1: 25, 2: 18}.get(job["tier"], 5)
     s += max([CFG["region_points"].get(r, 0) for r in job["regions"]] or [0])
     s += {"yes": 10, "no": -15}.get(job.get("visa"), 0)
+    if PENALTY.search(job["title"]):
+        s -= 20
     posted = job.get("posted") or job.get("first_seen")
     try:
         age = (NOW.date() - dt.date.fromisoformat(posted[:10])).days
@@ -92,18 +95,39 @@ def score(job):
 
 # --- collection ----------------------------------------------------------------
 
+def linkedin_plan():
+    """LinkedIn throttles bursts, so each hourly run takes the next few queries in a fixed rotation."""
+    li = CFG["linkedin"]
+    plan = [f"co:{c['name']}" for c in COMPANIES
+            if c["ats"] == "linkedin_company" or c.get("fallback", {}).get("ats") == "linkedin_company"]
+    plan += [f"loc:{loc}|{kw}" for loc in li["locations"] for kw in li["keywords"]]
+    n = li.get("per_run", 6)
+    slot = int(NOW.timestamp() // 3600) if "--all-linkedin" not in sys.argv else 0
+    if "--all-linkedin" in sys.argv:
+        return set(plan)
+    return {plan[(slot * n + i) % len(plan)] for i in range(min(n, len(plan)))}
+
+
+LI_PLAN = linkedin_plan()
+
+
 def want(title):
     return seniority(title) is not None
 
 
 def scan_company(c):
     via = c["ats"]
+    skip = {"ok": True, "via": "linkedin_company", "skipped": True}
     try:
+        if via == "linkedin_company" and f"co:{c['name']}" not in LI_PLAN:
+            return c, [], skip
         rows = list(sources.FETCHERS[via](c, want))
     except Exception as e:  # noqa: BLE001
         if not c.get("fallback"):
             return c, [], {"ok": False, "via": via, "error": f"{type(e).__name__}: {str(e)[:160]}"}
         via = c["fallback"]["ats"]
+        if via == "linkedin_company" and f"co:{c['name']}" not in LI_PLAN:
+            return c, [], skip | {"ok": False, "error": f"{type(e).__name__}: {str(e)[:120]} (LinkedIn fallback queued)"}
         try:
             rows = list(sources.FETCHERS[via](c | c["fallback"], want))
         except Exception as e2:  # noqa: BLE001
@@ -142,6 +166,8 @@ def scan_linkedin():
     found, health = [], {"ok": True, "calls": 0, "errors": 0, "cards": 0}
     for loc in li["locations"]:
         for kw in li["keywords"]:
+            if f"loc:{loc}|{kw}" not in LI_PLAN:
+                continue
             health["calls"] += 1
             try:
                 rows = list(sources.linkedin(kw, loc, hours=li.get("hours", 24)))
@@ -158,8 +184,7 @@ def scan_linkedin():
                 regs = region(r["location"]) or region(loc)
                 if lvl and regs:
                     found.append(r | {"level": lvl, "regions": regs})
-            time.sleep(1.5)
-    health["ok"] = health["errors"] < health["calls"]
+    health["ok"] = health["errors"] == 0
     return found, health
 
 
@@ -241,15 +266,18 @@ def main():
                 found.append((c, r))
     li_rows, health["LinkedIn (all companies)"] = scan_linkedin()
 
-    ok_companies = {n for n, h in health.items() if h.get("ok")}
+    ok_companies = {n for n, h in health.items() if h.get("ok") and not h.get("skipped")}
+    baselined = set(state.get("baselined", []))
+    fresh_sources = {n for n in ok_companies if n not in baselined and n != "LinkedIn (all companies)"}
     by_fingerprint = {}
     for c, r in found:
-        key = f"{slug(c['name'])}:{r['id']}"
+        from_li = r.get("_detail", ("",))[0] == "linkedin"
+        key = f"linkedin:{r['id']}" if from_li else f"{slug(c['name'])}:{r['id']}"
         by_fingerprint[(slug(c["name"]), slug(r["title"]))] = key
         rec = known.get(key) or {"first_seen": TODAY, "key": key}
         rec.update({"company": c["name"], "tier": c.get("tier", 2), "title": r["title"],
                     "location": r.get("location", ""), "url": r["url"],
-                    "source": "linkedin" if r.get("_detail", ("",))[0] == "linkedin" else c["ats"],
+                    "source": "linkedin" if from_li else c["ats"],
                     "posted": r.get("posted") or rec.get("posted"), "level": r["level"],
                     "regions": r["regions"], "last_seen": TODAY, "active": True})
         if r.get("desc") and not rec.get("desc"):
@@ -282,6 +310,10 @@ def main():
             del known[key]
 
     new_keys = [k for k, r in known.items() if r["first_seen"] == TODAY and not r.get("notified")]
+    for k in new_keys:  # first successful scan of a source = baseline, not news
+        if known[k]["company"] in fresh_sources and known[k]["source"] != "linkedin":
+            known[k]["notified"] = True
+    state["baselined"] = sorted(baselined | fresh_sources)
 
     # Pull descriptions for new rows that lack one (visa/relocation signal + tailoring later).
     budget, li_budget = CFG["detail_fetch_limit"], CFG.get("linkedin_detail_limit", 15)
@@ -308,7 +340,8 @@ def main():
     write_report(jobs, health, new_keys)
     HEALTH.write_text(json.dumps(health, indent=1, sort_keys=True))
 
-    fresh = sorted((known[k] for k in new_keys if known[k]["active"]), key=lambda j: -j["score"])
+    fresh = sorted((known[k] for k in new_keys if known[k]["active"] and not known[k].get("notified")),
+                   key=lambda j: -j["score"])
     if push and first_run:
         ntfy("SPM radar is live", f"Tracking {len(jobs)} open SPM roles across "
              f"{len(ok_companies)} sources. You'll get a ping when a new one appears.",
@@ -337,6 +370,7 @@ def main():
 
     changed = json.dumps(dict(sorted(known.items())), sort_keys=True) != before or NOW.hour == CFG["digest_hour_utc"]
     STATE.write_text(json.dumps({"updated": NOW.isoformat(timespec="minutes"),
+                                 "baselined": state["baselined"],
                                  "jobs": dict(sorted(known.items()))}, indent=1, ensure_ascii=False))
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:

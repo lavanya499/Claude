@@ -10,7 +10,8 @@
     "exclude": "\\bintern\\b|internship|graduate|junior|\\bjr\\b|associate product manager|\\bapm\\b|product marketing|marketing manager|program manager|project manager|designer|analyst|assistant|\\bproduct manager,? i\\b|\\bproduct manager 1\\b|working student|werkstudent|apprentice|trainee|sales|account manager|customer success",
     "senior": "senior|\\bsr\\b|\\bsr\\.|lead|principal|staff|group product|\\biii\\b|\\bl6\\b|\\bl7\\b",
     "mid": "\\bii\\b|\\b2\\b",
-    "stretch": "head of product|director|vp|vice president"
+    "stretch": "head of product|director|vp|vice president",
+    "penalty": "contract|fixed[- ]term|temporary|maternity|parental leave|interim|secondment"
   },
   "regions": {
     "UK": "united kingdom|\\buk\\b|england|scotland|wales|northern ireland|london|manchester|edinburgh|glasgow|cambridge, (uk|eng)|bristol|belfast|leeds|birmingham|reading, (uk|eng)|oxford|\\bgb\\b|\\bgbr\\b",
@@ -52,6 +53,7 @@
       "Malaysia",
       "Thailand"
     ],
-    "hours": 24
+    "hours": 24,
+    "per_run": 6
   }
 }

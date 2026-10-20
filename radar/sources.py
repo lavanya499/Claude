@@ -5,10 +5,11 @@ and optionally desc (plain-text job description). `want(title)` lets a fetcher s
 expensive detail calls for titles we will throw away anyway.
 """
 import datetime as dt
-import http.cookiejar
+import http.cookiejar as cookiejar
 import threading
 import html
 import json
+import random
 import re
 import time
 import urllib.error
@@ -74,14 +75,26 @@ def _always(_title):
 
 # --- ATS platforms -----------------------------------------------------------
 
+VAGUE = re.compile(r"^\s*(hybrid|remote|distributed|flexible|multiple locations|anywhere)?\s*$", re.I)
+
+
 def greenhouse(token, want=_always, **_):
     d = get_json(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs")
     for j in d.get("jobs", []):
-        yield {"id": str(j["id"]), "title": j["title"],
+        job = {"id": str(j["id"]), "title": j["title"],
                "location": (j.get("location") or {}).get("name", ""),
                "url": j.get("absolute_url"),
                "posted": iso(j.get("first_published") or j.get("updated_at")),
                "_detail": ("greenhouse", token, j["id"])}
+        if VAGUE.match(job["location"]) and want(job["title"]):
+            try:
+                det = get_json(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs/{j['id']}")
+                offices = [o.get("location") or o.get("name", "") for o in det.get("offices") or []]
+                job["location"] = "; ".join(x for x in [job["location"]] + offices if x)
+                job["desc"] = text(det.get("content", ""))
+            except Exception:
+                pass
+        yield job
 
 
 def greenhouse_desc(token, job_id):
@@ -277,7 +290,7 @@ def google(locations, want=_always, q='"product manager"', max_pages=8, **_):
 
 
 def microsoft(locations, want=_always, q="product manager", **_):
-    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cookiejar.CookieJar()))
     http("https://apply.careers.microsoft.com/careers?domain=microsoft.com", opener=opener,
          headers={"Accept": "text/html"})
     for loc in locations:
@@ -353,7 +366,7 @@ def _linkedin_get(url):
     with _LI_LOCK:
         if _LI["blocked"]:
             raise RuntimeError("LinkedIn rate-limited earlier in this run")
-        wait = 1.5 - (time.time() - _LI["last"])
+        wait = 4 + 3 * random.random() - (time.time() - _LI["last"])
         if wait > 0:
             time.sleep(wait)
         try:
@@ -422,6 +435,8 @@ def jibe(host, want=_always, q="product manager", **_):
                    "url": j.get("apply_url") or f"https://{host}/jobs/{j.get('slug') or j.get('req_id')}",
                    "posted": iso(j.get("posted_date") or j.get("create_date")),
                    "desc": text(j.get("description", ""))}
+        if not rows and page == 1:
+            raise RuntimeError("no jobs returned")
         if len(rows) < 100:
             break
 
