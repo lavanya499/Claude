@@ -1,0 +1,298 @@
+{
+ "Adobe": {
+  "matched": 1,
+  "ok": true,
+  "total": 306,
+  "via": "workday"
+ },
+ "Adyen": {
+  "matched": 8,
+  "ok": true,
+  "total": 245,
+  "via": "greenhouse"
+ },
+ "Agoda": {
+  "matched": 7,
+  "ok": true,
+  "total": 312,
+  "via": "greenhouse"
+ },
+ "Airbnb": {
+  "matched": 0,
+  "ok": true,
+  "total": 179,
+  "via": "greenhouse"
+ },
+ "Airwallex": {
+  "matched": 10,
+  "ok": true,
+  "total": 499,
+  "via": "ashby"
+ },
+ "Amazon": {
+  "matched": 88,
+  "ok": true,
+  "total": 195,
+  "via": "amazon"
+ },
+ "Anthropic": {
+  "matched": 0,
+  "ok": true,
+  "total": 667,
+  "via": "greenhouse"
+ },
+ "Apple": {
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "Atlassian": {
+  "matched": 4,
+  "ok": true,
+  "total": 356,
+  "via": "atlassian"
+ },
+ "Booking.com": {
+  "matched": 0,
+  "ok": true,
+  "total": 0,
+  "via": "jibe"
+ },
+ "Canva": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "Celonis": {
+  "matched": 3,
+  "ok": true,
+  "total": 203,
+  "via": "greenhouse"
+ },
+ "Cloudflare": {
+  "matched": 0,
+  "ok": true,
+  "total": 436,
+  "via": "greenhouse"
+ },
+ "Databricks": {
+  "matched": 5,
+  "ok": true,
+  "total": 899,
+  "via": "greenhouse"
+ },
+ "Datadog": {
+  "matched": 3,
+  "ok": true,
+  "total": 432,
+  "via": "greenhouse"
+ },
+ "Deliveroo": {
+  "matched": 7,
+  "ok": true,
+  "total": 228,
+  "via": "greenhouse"
+ },
+ "Delivery Hero": {
+  "matched": 3,
+  "ok": true,
+  "total": 600,
+  "via": "smartrecruiters"
+ },
+ "Expedia Group": {
+  "matched": 7,
+  "ok": true,
+  "total": 66,
+  "via": "workday"
+ },
+ "GetYourGuide": {
+  "matched": 5,
+  "ok": true,
+  "total": 71,
+  "via": "greenhouse"
+ },
+ "Google": {
+  "matched": 15,
+  "ok": true,
+  "total": 56,
+  "via": "google"
+ },
+ "Grab": {
+  "matched": 11,
+  "ok": true,
+  "total": 433,
+  "via": "smartrecruiters"
+ },
+ "HelloFresh": {
+  "matched": 5,
+  "ok": true,
+  "total": 389,
+  "via": "greenhouse"
+ },
+ "Intercom": {
+  "matched": 5,
+  "ok": true,
+  "total": 106,
+  "via": "greenhouse"
+ },
+ "Klarna": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "LINE MAN Wongnai": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "LinkedIn": {
+  "matched": 1,
+  "ok": true,
+  "total": 224,
+  "via": "smartrecruiters"
+ },
+ "LinkedIn (all companies)": {
+  "calls": 30,
+  "cards": 0,
+  "errors": 30,
+  "last_error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false
+ },
+ "Mastercard": {
+  "matched": 10,
+  "ok": true,
+  "total": 400,
+  "via": "workday"
+ },
+ "Meta": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "Microsoft": {
+  "error": "AttributeError: 'function' object has no attribute 'cookiejar' / fallback RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "MongoDB": {
+  "matched": 5,
+  "ok": true,
+  "total": 394,
+  "via": "greenhouse"
+ },
+ "Monzo": {
+  "matched": 2,
+  "ok": true,
+  "total": 70,
+  "via": "greenhouse"
+ },
+ "N26": {
+  "matched": 7,
+  "ok": true,
+  "total": 32,
+  "via": "greenhouse"
+ },
+ "Netflix": {
+  "matched": 1,
+  "ok": true,
+  "total": 166,
+  "via": "eightfold"
+ },
+ "OpenAI": {
+  "matched": 0,
+  "ok": true,
+  "total": 807,
+  "via": "ashby"
+ },
+ "PayPal": {
+  "matched": 3,
+  "ok": true,
+  "total": 337,
+  "via": "workday"
+ },
+ "Revolut": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "Salesforce": {
+  "matched": 3,
+  "ok": true,
+  "total": 400,
+  "via": "workday"
+ },
+ "ServiceNow": {
+  "matched": 6,
+  "ok": true,
+  "total": 600,
+  "via": "smartrecruiters"
+ },
+ "Shopee": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "Skyscanner": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "Spotify": {
+  "matched": 7,
+  "ok": true,
+  "total": 81,
+  "via": "lever"
+ },
+ "Stripe": {
+  "matched": 10,
+  "ok": true,
+  "total": 728,
+  "via": "greenhouse"
+ },
+ "SumUp": {
+  "matched": 2,
+  "ok": true,
+  "total": 335,
+  "via": "greenhouse"
+ },
+ "Tide": {
+  "matched": 4,
+  "ok": true,
+  "total": 106,
+  "via": "greenhouse"
+ },
+ "Uber": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "Visa": {
+  "matched": 9,
+  "ok": true,
+  "total": 400,
+  "via": "workday"
+ },
+ "Wise": {
+  "matched": 15,
+  "ok": true,
+  "total": 408,
+  "via": "smartrecruiters"
+ },
+ "Xendit": {
+  "matched": 2,
+  "ok": true,
+  "total": 27,
+  "via": "greenhouse"
+ },
+ "Zalando": {
+  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
+  "ok": false,
+  "via": "linkedin_company"
+ },
+ "eBay": {
+  "matched": 9,
+  "ok": true,
+  "total": 192,
+  "via": "workday"
+ }
+}
