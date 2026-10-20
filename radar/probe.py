@@ -101,6 +101,8 @@ def raw(label, url, data=None, headers=None, find=None, n=1500):
 def main():
     if "--companies" in sys.argv:  # health-check the configured top-50 list
         cands = json.load(open(__file__.rsplit("/", 1)[0] + "/companies.json"))
+    elif "--experiments" in sys.argv:
+        cands = []
     else:
         cands = CANDIDATES
     ok, bad = [], []
@@ -112,31 +114,17 @@ def main():
     for lab, n, npm, sample, err in sorted(bad):
         print(f"BAD {lab:55s} {err or 'empty'}")
 
-    print("\n=== EXPERIMENTS: companies without a known public API ===")
-    raw("apple-html", "https://jobs.apple.com/en-gb/search?search=product%20manager&sort=newest&location=united-kingdom-GBR",
-        find="hydration")
-    raw("apple-api", "https://jobs.apple.com/api/v1/search", data={"query": "product manager", "filters": {"locations": ["postLocation-GBR"]}, "page": 1, "locale": "en-gb", "sort": "newest"}, find="")
-    raw("meta-html", "https://www.metacareers.com/jobs?q=product%20manager&offices[0]=London%2C%20UK", find="Product Manager")
-    raw("revolut", "https://www.revolut.com/careers/?query=product%20owner", find="__NEXT_DATA__")
-    raw("revolut-api", "https://www.revolut.com/api/careers/positions", find="")
-    raw("booking-jibe", "https://jobs.booking.com/api/jobs?keywords=product%20manager&page=1", find="")
-    raw("booking-careers", "https://jobs.booking.com/booking/jobs?keywords=product%20manager", find="Product Manager")
-    raw("zalando", "https://jobs.zalando.com/api/jobs/?limit=20&offset=0&query=product%20manager", find="")
-    raw("uber-html", "https://www.uber.com/global/en/careers/list/?query=product%20manager", find="Product Manager")
-    raw("canva-sr-titles", "https://api.smartrecruiters.com/v1/companies/Canva/postings?limit=100", find="product", n=600)
-    raw("shopee", "https://careers.shopee.sg/api/v1/job/list?keyword=product%20manager&limit=20&offset=0", find="")
-    for site in ["Klarna", "klarna", "External", "Klarna_Careers_External"]:
-        raw(f"klarna-wd-{site}", f"https://klarna.wd3.myworkdayjobs.com/wday/cxs/klarna/{site}/jobs",
-            data={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": "product"}, find="", n=300)
-    for t in ["skyscanner", "linemanwongnai", "lmwn", "canva", "klarna", "revolut", "uber", "booking", "zalando", "shopee"]:
-        for ats, url in [("ashby", f"https://api.ashbyhq.com/posting-api/job-board/{t}"),
-                         ("lever", f"https://api.lever.co/v0/postings/{t}?mode=json&limit=1"),
-                         ("gh", f"https://boards-api.greenhouse.io/v1/boards/{t}/jobs")]:
-            try:
-                src = sources.http(url)
-                print(f"OK  {ats}:{t} len={len(src)} {src[:120]!r}")
-            except Exception as e:  # noqa: BLE001
-                pass
+    print("\n=== EXPERIMENTS ===")
+    for i, body in enumerate([
+        {"query": "product manager", "filters": {}, "page": 1, "locale": "en-gb", "sort": "newest"},
+        {"query": "product manager", "filters": {"postingpostLocation": ["postLocation-GBR"]}, "page": 1, "locale": "en-gb", "sort": "newest"},
+        {"query": "product manager", "filters": {"locations": ["postLocation-GBR"]}, "page": 1, "locale": "en-gb", "sort": "newest", "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}},
+    ]):
+        raw(f"apple-v1-{i}", "https://jobs.apple.com/api/v1/search", data=body, n=700)
+    raw("apple-role", "https://jobs.apple.com/api/role/search", data={"query": "product manager", "filters": {"postingpostLocation": ["postLocation-GBR"]}, "page": 1, "locale": "en-gb", "sort": "newest"}, n=400)
+    for q in ["", "keywords=product&", "keywords=product%20manager&internal=false&", "q=product%20manager&"]:
+        raw(f"booking-{q[:12]}", f"https://jobs.booking.com/api/jobs?{q}page=1&limit=5&sortBy=relevance&descending=false", n=500)
+    raw("booking-sub", "https://jobs.booking.com/booking/api/jobs?keywords=product&page=1", n=300)
     print("\n=== LINKEDIN ===")
     try:
         rows = list(sources.linkedin("Senior Product Manager", "United Kingdom"))
