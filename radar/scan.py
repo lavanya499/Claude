@@ -30,6 +30,8 @@ TODAY = NOW.date().isoformat()
 
 T = {k: re.compile(v, re.I) for k, v in CFG["titles"].items()}
 REGIONS = {k: re.compile(v, re.I) for k, v in CFG["regions"].items()}
+DOMAIN = re.compile(CFG["profile"]["domain"], re.I)
+YEARS = re.compile(r"(\d{1,2})\+?\s*(?:\+\s*)?(?:years?|yrs)\b[^.]{0,60}?experience", re.I)
 PENALTY = re.compile(CFG["titles"].get("penalty", "$^"), re.I)
 VISA_YES = re.compile(r"visa sponsorship (is )?(available|provided|offered)|we (can|will|do) sponsor|"
                       r"sponsorship (is )?available|relocation (support|package|assistance|bonus)|"
@@ -50,6 +52,8 @@ def seniority(title):
         return None
     if T["stretch"].search(t):
         return "stretch"
+    if T["reach"].search(t):
+        return "reach"
     if T["senior"].search(t):
         return "senior"
     if T["mid"].search(t):
@@ -78,8 +82,20 @@ def visa_flag(desc):
 
 
 def score(job):
-    s = {"senior": 40, "stretch": 22, "mid": 26, "unlevelled": 22}[job["level"]]
+    lp = CFG["profile"]["level_points"]
+    lvl = job["level"]
+    if lvl == "unlevelled" and job["tier"] == 1:
+        lvl = "unlevelled_tier1"  # big tech titles like Google "Product Manager" (L5) fit ~5 yrs PM
+    s = lp.get(lvl, 24)
     s += {1: 25, 2: 18}.get(job["tier"], 5)
+    desc = job.get("desc") or ""
+    m = YEARS.search(desc)
+    if m:  # required years of experience vs ~5 yrs PM / 9+ total
+        n = int(m.group(1))
+        s += 5 if n <= 6 else -12 if n >= 10 else 0
+    title_hits = len(set(x.lower() for x in DOMAIN.findall(job["title"])))
+    desc_hits = len(set(x.lower() for x in DOMAIN.findall(desc[:4000])))
+    s += min(12, 4 * title_hits + 2 * min(desc_hits, 3))
     s += max([CFG["region_points"].get(r, 0) for r in job["regions"]] or [0])
     s += {"yes": 10, "no": -15}.get(job.get("visa"), 0)
     if PENALTY.search(job["title"]):
@@ -226,8 +242,8 @@ def write_report(jobs, health, new_keys):
         f"{len(recent)} new in the last 24h · {sum(1 for h in health.values() if h.get('ok'))}/"
         f"{len(health)} sources healthy_",
         "",
-        "Score = seniority (40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) "
-        "+ freshness (10). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). "
+        "Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) "
+        "+ freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). "
         "How to use it: [PLAYBOOK.md](PLAYBOOK.md).",
         "",
         "## New in the last 24 hours",
