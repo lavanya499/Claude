@@ -8,7 +8,7 @@
  "Adyen": {
   "matched": 8,
   "ok": true,
-  "total": 245,
+  "total": 244,
   "via": "greenhouse"
  },
  "Agoda": {
@@ -59,9 +59,10 @@
   "via": "linkedin_company"
  },
  "Canva": {
+  "matched": 0,
   "ok": true,
-  "skipped": true,
-  "via": "linkedin_company"
+  "total": 103,
+  "via": "smartrecruiters"
  },
  "Celonis": {
   "matched": 3,
@@ -102,19 +103,19 @@
  "Expedia Group": {
   "matched": 7,
   "ok": true,
-  "total": 67,
+  "total": 68,
   "via": "workday"
  },
  "GetYourGuide": {
-  "matched": 5,
+  "matched": 6,
   "ok": true,
-  "total": 71,
+  "total": 72,
   "via": "greenhouse"
  },
  "Google": {
-  "matched": 15,
+  "matched": 14,
   "ok": true,
-  "total": 65,
+  "total": 55,
   "via": "google"
  },
  "Grab": {
@@ -152,12 +153,10 @@
   "via": "smartrecruiters"
  },
  "LinkedIn (all companies)": {
-  "calls": 1,
-  "cards": 0,
-  "errors": 1,
-  "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-  "ok": true,
-  "rate_limited": true
+  "calls": 6,
+  "cards": 60,
+  "errors": 0,
+  "ok": true
  },
  "Mastercard": {
   "matched": 10,
@@ -209,7 +208,7 @@
  "PayPal": {
   "matched": 3,
   "ok": true,
-  "total": 337,
+  "total": 336,
   "via": "workday"
  },
  "Revolut": {
@@ -248,13 +247,13 @@
  "Stripe": {
   "matched": 10,
   "ok": true,
-  "total": 728,
+  "total": 727,
   "via": "greenhouse"
  },
  "SumUp": {
   "matched": 2,
   "ok": true,
-  "total": 335,
+  "total": 333,
   "via": "greenhouse"
  },
  "Tide": {
@@ -277,7 +276,7 @@
  "Wise": {
   "matched": 15,
   "ok": true,
-  "total": 408,
+  "total": 405,
   "via": "smartrecruiters"
  },
  "Xendit": {
