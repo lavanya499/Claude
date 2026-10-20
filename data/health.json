@@ -1,32 +1,31 @@
 {
  "Adobe": {
-  "matched": 1,
-  "ok": true,
-  "total": 306,
+  "error": "HTTPError: HTTP Error 502: Bad Gateway",
+  "ok": false,
   "via": "workday"
  },
  "Adyen": {
-  "matched": 8,
+  "matched": 9,
   "ok": true,
-  "total": 245,
+  "total": 242,
   "via": "greenhouse"
  },
  "Agoda": {
   "matched": 7,
   "ok": true,
-  "total": 313,
+  "total": 311,
   "via": "greenhouse"
  },
  "Airbnb": {
   "matched": 0,
   "ok": true,
-  "total": 180,
+  "total": 182,
   "via": "greenhouse"
  },
  "Airwallex": {
   "matched": 10,
   "ok": true,
-  "total": 498,
+  "total": 500,
   "via": "ashby"
  },
  "Amazon": {
@@ -49,7 +48,7 @@
  "Atlassian": {
   "matched": 4,
   "ok": true,
-  "total": 355,
+  "total": 360,
   "via": "atlassian"
  },
  "Booking.com": {
@@ -61,7 +60,7 @@
  "Canva": {
   "matched": 0,
   "ok": true,
-  "total": 103,
+  "total": 102,
   "via": "smartrecruiters"
  },
  "Cresta": {
@@ -91,19 +90,19 @@
  "Expedia Group": {
   "matched": 7,
   "ok": true,
-  "total": 66,
+  "total": 65,
   "via": "workday"
  },
  "Genesys": {
   "matched": 2,
   "ok": true,
-  "total": 194,
+  "total": 195,
   "via": "workday"
  },
  "GetYourGuide": {
   "matched": 6,
   "ok": true,
-  "total": 71,
+  "total": 72,
   "via": "greenhouse"
  },
  "Google": {
@@ -115,7 +114,7 @@
  "Grab": {
   "matched": 11,
   "ok": true,
-  "total": 427,
+  "total": 424,
   "via": "smartrecruiters"
  },
  "Intercom": {
@@ -137,17 +136,19 @@
  "LinkedIn": {
   "matched": 1,
   "ok": true,
-  "total": 223,
+  "total": 219,
   "via": "smartrecruiters"
  },
  "LinkedIn (all companies)": {
-  "calls": 6,
-  "cards": 60,
-  "errors": 0,
-  "ok": true
+  "calls": 5,
+  "cards": 40,
+  "errors": 1,
+  "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
+  "rate_limited": true
  },
  "Mastercard": {
-  "matched": 10,
+  "matched": 11,
   "ok": true,
   "total": 400,
   "via": "workday"
@@ -158,7 +159,7 @@
   "via": "linkedin_company"
  },
  "Microsoft": {
-  "matched": 10,
+  "matched": 9,
   "ok": true,
   "total": 81,
   "via": "microsoft"
@@ -184,7 +185,7 @@
  "OpenAI": {
   "matched": 0,
   "ok": true,
-  "total": 806,
+  "total": 809,
   "via": "ashby"
  },
  "Parloa": {
@@ -196,7 +197,7 @@
  "PayPal": {
   "matched": 3,
   "ok": true,
-  "total": 337,
+  "total": 340,
   "via": "workday"
  },
  "Revolut": {
@@ -205,9 +206,8 @@
   "via": "linkedin_company"
  },
  "Salesforce": {
-  "matched": 3,
-  "ok": true,
-  "total": 400,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "ServiceNow": {
@@ -224,25 +224,25 @@
  "Sierra": {
   "matched": 6,
   "ok": true,
-  "total": 187,
+  "total": 189,
   "via": "ashby"
  },
  "Spotify": {
   "matched": 8,
   "ok": true,
-  "total": 82,
+  "total": 81,
   "via": "lever"
  },
  "Stripe": {
   "matched": 10,
   "ok": true,
-  "total": 729,
+  "total": 728,
   "via": "greenhouse"
  },
  "SumUp": {
   "matched": 2,
   "ok": true,
-  "total": 331,
+  "total": 330,
   "via": "greenhouse"
  },
  "Tide": {
@@ -265,7 +265,7 @@
  "Wise": {
   "matched": 15,
   "ok": true,
-  "total": 398,
+  "total": 394,
   "via": "smartrecruiters"
  },
  "Xendit": {
@@ -282,19 +282,19 @@
  "Zego": {
   "matched": 10,
   "ok": true,
-  "total": 40,
+  "total": 41,
   "via": "ashby"
  },
  "Zendesk": {
   "matched": 3,
   "ok": true,
-  "total": 115,
+  "total": 118,
   "via": "workday"
  },
  "eBay": {
   "matched": 9,
   "ok": true,
-  "total": 194,
+  "total": 195,
   "via": "workday"
  }
 }

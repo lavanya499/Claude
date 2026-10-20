@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T15:40+00:00",
+ "updated": "2026-10-20T20:01+00:00",
  "baselined": [
   "Adobe",
   "Adyen",
@@ -195,6 +195,27 @@
    "desc": "This is Adyen \n Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.  \n For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. \n Senior Technical Product Manager - Internal Developer Platform \n The Internal Developer Platform (IDP) cluster is on a mission to create standardized, scalable, and delightful experiences across the software development life cycle (SDLC) so Adyen engineers are empowered to deliver value more efficiently and reliably for our customers.\n As a Senior Product Manager within the IDP cluster, you will manage a key stream of our platform evolution. Your goal is to transition our engineering organization from fragmented, \"tribal knowledge\" based flows to a cohesive, automated ecosystem that reduces cognitive load, minimizes manual toil, and ensures our platform scales with our global engineering footprint. 2026 is our year of deep optimization and resilience; you are a product leader who understands that scaling a platform requires balancing innovation with mandatory reliability and stability mandates\n What you’ll do: \n Optimize the SDLC: Drive initiatives to reduce SDLC friction, such as reducing CI flakiness and improving build insights, to help teams shift from centralized, manual processes to systemic, automated \"golden paths\".\n Drive Product Maturity: Take ownership of product lifecycle management by assessing the maturity of our toolset, executing on necessary deprecations, and ensuring our core products have clear adoption paths and value propositions.\n Build Technical Context: Partner with IDP engineering to bridge the gap between generic AI models and Adyen’s complex architecture. You will prioritize the rollout of AGENTS.md standards, internal RAG pipelines, and Model Context Protocol (MCP) servers for tools like GitLab and Jira.\n Foster Developer Autonomy: Work across the organization to bridge the gap between infrastructure and developer needs, building \"LEGO-block\" style abstractions that allow teams to own their pipelines and release cycles while maintaining secure, compliant guardrails.\n Validate ROI & Manage Vendors: Implement data-driven feedback loops to track adoption and measure SDLC improvements against core metrics like DXI, Change Failure Rate, and developer velocity\n Who you are: \n 10+ years of product experience ideally within Platform Engineering, Developer Experience (DevEx), or AI-enabled technical products.\n You are technically credible. You can confidently spar with engineers about system architecture, CI/CD pipeline constraints, and the balance between centralized governance and team autonomy.\n You are a master of change management. You know how to influence developer habits and drive adoption in highly opinionated technical environments.\n You are data-driven, capable of translating subjective developer feedback and system/usage data into clear impact metrics.\n You thrive in ambiguity. You can execute quickly without waiting for perfect information and adapt quickly to new information\n ***Internally the role is being called Senior Product Manager - Developer Experience \n Our Diversity, Equity and Inclusion commitments  \n Our unique approach is a product of our diverse perspectives. This diversity of backgrounds and cultures is essential in helping us maintain our momentum. Our business and technical challenges are unique, and we need as many different voices as possible to join us in solving them - voices like yours. No matter who you are or where you’re from, we welcome you to be your true self at Adyen.  \n Studies show that women and members of underrepresented communities apply for jobs only if they meet 100% of the qualifications. Does this sound like you? If so, Adyen encourages you to reconsider and apply. We look forward to your application! \n What’s next? \n Ensuring a smooth and enjoyable candidate experience is critical for us. We aim to get back to you regarding your application within 5 business days. Our interview process tends to take about 4 weeks to complete, but may fluctuate depending on the role. Learn more about our hiring process here . Don’t be afraid to let us know if you need more flexibility. \n This role is based out of our Amsterdam office. We are an office-first company and value in-person collaboration; we do not offer remote-only roles.",
    "visa": "",
    "score": 67,
+   "notified": true
+  },
+  "adyen:8244728": {
+   "first_seen": "2026-10-20",
+   "key": "adyen:8244728",
+   "company": "Adyen",
+   "tier": 2,
+   "title": "Product Manager - Interface Foundations",
+   "location": "Amsterdam",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8244728",
+   "source": "greenhouse",
+   "posted": "2026-10-20",
+   "level": "unlevelled",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "desc": "This is Adyen \n Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.  \n For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. \n Product Manager - Interface Foundations \n The world's largest businesses run on Adyen. They manage their business in our portal, embed our components in their interfaces to serve their own users, and send their shoppers through our checkout. To them, it's all one product. It's built by many teams working in parallel, and whether it feels like one product depends on the foundations they share. You'll own the design system and technical frameworks those teams build on. You'll decide what gets built next, get teams across Adyen building on it, and set the standards that keep the experience consistent without slowing anyone down. Get this right, and building a great experience at Adyen becomes the default. Teams ship faster because they aren't rebuilding the basics, and merchants get an experience that holds together wherever they meet us.\n What you'll do \n Own the design system and technical frameworks the rest of Adyen leverages to build first-class customer experiences. Decide what gets built next across UI components and the technical infrastructure that powers our customer experiences, and treat the engineers and designers who build on them as your customers.\n Sweat the details end customers see. Hold every component to a high bar, because it ends up in front of merchants, their users and their shoppers.\n Set standards that accelerate. Define what good looks like for interfaces at Adyen, and build the review and governance that teams experience as help rather than a gate.\n Drive adoption without authority. Support teams with their own roadmaps and priorities to build on the shared foundations you provide.\n Measure what matters. Set clear metrics for adoption, speed and experience quality, and use them to decide where to invest and when to reset course.\n Work across disciplines. Partner closely with engineering and design within the team, and with product, design and engineering leads across Adyen.\n Go deep with your customers. Understand the engineers and designers who build on your foundations, and the merchants and shoppers who use what they build.\n Who you are \n Platform Product Experience. You've built products whose customers are other developers or teams, and you understand what that demands: clear contracts, careful change, and not breaking the people downstream of you.\n Design Sensibility & Craft. You have a strong eye for interface quality and care about details end customers will notice. You can hold a component to a high bar and explain why it matters.\n Adoption and Influence. Demonstrated ability to get teams you don't control to adopt something, in a high-autonomy, bottom-up culture.\n Judgment on Standards. You know when a standard makes teams faster and when it's in the way, and you're comfortable holding the tension between the two.\n Product Execution. Able to take an open-ended problem, turn it into a clear plan, and ship with velocity across multiple teams.\n Analytical Rigor. Set clear metrics and use data to align on priorities, measure impact, and change course as needed.\n Customer Obsession. You want to understand both the engineers building on your platform and the merchants and shoppers at the end of it.\n Bonus \n Experience owning a design system, component library, or UI framework\n A background in frontend engineering or product design\n Experience in payments, fintech, or another regulated domain\n Our Diversity, Equity and Inclusion commitments  \n Our unique approach is a product of our diverse perspectives. This diversity of backgrounds and cultures is essential in helping us maintain our momentum. Our business and technical challenges are unique, and we need as many different voices as possible to join us in solving them - voices like yours. No matter who you are or where you’re from, we welcome you to be your true self at Adyen. \n Studies show that women and members of underrepresented communities apply for jobs only if they meet 100% of the qualifications. Does this sound like you? If so, Adyen encourages you to reconsider and apply. We look forward to your application!\n .\n What’s next? \n Ensuring a smooth and enjoyable candidate experience is critical for us. We aim to get back to you regarding your application within 5 business days. Our interview process tends to take about 4 weeks to complete, but may fluctuate depending on the role. Learn more ",
+   "visa": "",
+   "score": 73,
    "notified": true
   },
   "adyen:8280713": {
@@ -2418,6 +2439,27 @@
    "score": 89,
    "notified": true
   },
+  "amazon:10584153": {
+   "first_seen": "2026-10-20",
+   "key": "amazon:10584153",
+   "company": "Amazon",
+   "tier": 1,
+   "title": "Principal Product Manager Tech, Amazon Supply Chain Services (MCCF)",
+   "location": "London, England, GBR",
+   "url": "https://www.amazon.jobs/en/jobs/10584153/principal-product-manager-tech-amazon-supply-chain-services-mccf",
+   "source": "amazon",
+   "posted": "2026-10-20",
+   "level": "reach",
+   "regions": [
+    "UK"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "desc": "We are looking for a Principal Product Manager, Technical to join the MCCF team and lead product strategy and delivery for the UK and EU. MCF operates in the US, Canada, the UK, EU27, and Japan, with a growing presence in markets such as Mexico and Australia. International markets, led by the UK, EU, and Japan, are growing faster than the US. In this role, you will be responsible primarily for optimizing fulfillment and placement. Fulfillment covers how an order is promised, assigned to a fulfillment center, and delivered. Placement covers where inventory is positioned in the network ahead of demand. You will own the operational reliability and cost reduction goals for MCF's international markets, both of which are tracked as VP-level goals. You will define the international product roadmap, determine which problems MCCF addresses first in these markets, and lead the most complex initiatives directly.\nAmazon's Supply Chain Services (ASCS), which includes Multichannel Commerce Fulfillment (MCCF), enables every entrepreneur in the world to reach every customer in the world through every channel they can imagine. With ASCS, merchants can take advantage of fully automated supply chain services that get products from manufacturers to customers around the world, through end-to-end solutions including Multi-Channel Fulfillment (MCF), Buy With Prime (BwP), Multi-Channel Distribution (MCD), Warehousing & Logistics, and more. These services keep products in stock, deliver faster and more reliable shipping, and significantly lower costs. For over 20 years, Amazon has been empowering small and medium-sized businesses with opportunities to grow. ASCS and MCCF are an exciting next step in our mission to help merchants of all sizes grow their business, whether on Amazon or beyond.\nThe MCCF product organization is primarily based in the US. Initiatives that extend an existing US product to international markets remain with the US product owner. This role owns initiatives that are specific to international markets, such as enabling off-Amazon merchants to place a single inventory pool across EU27 countries, and initiatives whose scale or complexity exceeds what the US team can take on alongside its own roadmap. You will set the prioritization of international work across the MCCF product organization and partner with US product leaders to align roadmaps.\nKey job responsibilities\n- Define and own the international product roadmap for MCF fulfillment and placement in the UK and EU, including the rationale for sequencing and investment.\n- Own the cost reduction goal for international markets, tracked at VP level. MCF must lower its cost per unit every year through 2029. Placement is the primary lever. Inventory positioned in the region where the order ships costs less to deliver and arrives sooner.\n- Own the operational reliability goal for international markets, tracked at VP level. Marketplaces set shipping and delivery SLAs, and merchants incur penalties when MCF misses them.\n- Lead the international initiatives that are specific to the region or exceed the US team's capacity, from problem definition through launch and adoption.\n- Determine, together with US product leaders, which initiatives extend from the US and which the international team owns, and ensure international requirements are reflected in US roadmaps.\n- Partner with the engineering teams that own placement, forecasting, promise, and fulfillment planning systems. Evaluate design proposals, assess trade-offs, and identify when a decision requires principal engineer review.\n- Author the documents that drive decisions, including PR-FAQs, strategy narratives, and annual planning inputs for international markets. Present regularly to Directors and VPs.\n- Evaluate new international opportunities, such as cross-border fulfillment, and bring recommendations to leadership.\n- Experience owning/driving roadmap strategy and definition\n- Experience with feature delivery and tradeoffs of a product\n- Experience in technical product management, program management or engineering\n- Experience with end to end product delivery\n- Experience leading engineering discussions around technology decisions and strategy related to a product\n- Experience in transportation and supply chain\nAmazon is an equal opportunities employer. We believe passionately that employing a diverse workforce is central to our success. We make recruiting decisions based on your experience and skills. We value your passion to discover, invent, simplify and build. Protecting your privacy and the security of your data is a longstanding top priority for Amazon. Please consult our Privacy Notice ( https://www.amazon.jobs/en/privacy_page ) to know more about how we collect, use and transfer the personal data of our candidates.\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\nOur inclusive culture empowers Amazon",
+   "visa": "",
+   "score": 84,
+   "notified": true
+  },
   "amazon:3193772": {
    "first_seen": "2026-10-20",
    "key": "amazon:3193772",
@@ -4467,6 +4509,26 @@
    "score": 54,
    "notified": true
   },
+  "linkedin:4436910046": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4436910046",
+   "company": "Roche",
+   "tier": 3,
+   "title": "Technical Product Owner - Legal - RDT Group Functions",
+   "location": "Warsaw, Mazowieckie, Poland",
+   "url": "https://www.linkedin.com/jobs/view/4436910046/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "unlevelled",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 54,
+   "notified": true
+  },
   "linkedin:4454210599": {
    "first_seen": "2026-10-20",
    "key": "linkedin:4454210599",
@@ -4667,6 +4729,26 @@
    "score": 74,
    "notified": true
   },
+  "linkedin:4472375296": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4472375296",
+   "company": "Mozilla",
+   "tier": 3,
+   "title": "Senior Product Manager, Mobile",
+   "location": "Paris, Île-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4472375296/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
   "linkedin:4472733569": {
    "first_seen": "2026-10-20",
    "key": "linkedin:4472733569",
@@ -4727,6 +4809,86 @@
    "score": 54,
    "notified": true
   },
+  "linkedin:4473204571": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4473204571",
+   "company": "GitGuardian",
+   "tier": 3,
+   "title": "Senior Product Manager Platform",
+   "location": "Paris, Île-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4473204571/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
+  "linkedin:4473206695": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4473206695",
+   "company": "Sabre",
+   "tier": 3,
+   "title": "Principal Product Owner - Order Management Systems (OMS)",
+   "location": "Cracow, Małopolskie, Poland",
+   "url": "https://www.linkedin.com/jobs/view/4473206695/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "reach",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 54,
+   "notified": true
+  },
+  "linkedin:4477659946": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4477659946",
+   "company": "LAPP Group",
+   "tier": 3,
+   "title": "Product Owner Business IT (m/f/d)",
+   "location": "Wrocław, Dolnośląskie, Poland",
+   "url": "https://www.linkedin.com/jobs/view/4477659946/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "unlevelled",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 54,
+   "notified": true
+  },
+  "linkedin:4478118076": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4478118076",
+   "company": "Decathlon Digital",
+   "tier": 3,
+   "title": "Digital Senior Product Manager - Supply Pricing (f/m/d)",
+   "location": "Lille, Hauts-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4478118076/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
   "linkedin:4478267815": {
    "first_seen": "2026-10-20",
    "key": "linkedin:4478267815",
@@ -4765,6 +4927,26 @@
    "active": true,
    "visa": "",
    "score": 70,
+   "notified": true
+  },
+  "linkedin:4478542193": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4478542193",
+   "company": "Decathlon Digital",
+   "tier": 3,
+   "title": "Staff Product Manager – E-Commerce Web Upper Funnel [CDI] (f/m/d)",
+   "location": "Paris, Île-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4478542193/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "reach",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 54,
    "notified": true
   },
   "linkedin:4478601950": {
@@ -5107,6 +5289,26 @@
    "score": 70,
    "notified": true
   },
+  "linkedin:4478694729": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4478694729",
+   "company": "TPConnects Technologies",
+   "tier": 3,
+   "title": "Lead Product Manager",
+   "location": "Warsaw, Mazowieckie, Poland",
+   "url": "https://www.linkedin.com/jobs/view/4478694729/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
   "linkedin:4479191576": {
    "first_seen": "2026-10-20",
    "key": "linkedin:4479191576",
@@ -5410,6 +5612,26 @@
    "score": 70,
    "notified": true
   },
+  "linkedin:4480470161": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4480470161",
+   "company": "WorxAI",
+   "tier": 3,
+   "title": "Senior Product Manager",
+   "location": "Poland",
+   "url": "https://www.linkedin.com/jobs/view/4480470161/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
   "linkedin:4480471115": {
    "first_seen": "2026-10-20",
    "key": "linkedin:4480471115",
@@ -5443,6 +5665,106 @@
    "level": "senior",
    "regions": [
     "UK"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
+  "linkedin:4480473121": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4480473121",
+   "company": "KatchMe",
+   "tier": 3,
+   "title": "1st PM/Head of Product (CDI) - Fintech SaaS BtoB - Paris",
+   "location": "Paris, Île-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4480473121/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "stretch",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 52,
+   "notified": true
+  },
+  "linkedin:4480473173": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4480473173",
+   "company": "STATION F",
+   "tier": 3,
+   "title": "SENIOR AI PRODUCT MANAGER",
+   "location": "Paris, Île-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4480473173/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
+  "linkedin:4480703616": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4480703616",
+   "company": "Fundraise Up",
+   "tier": 3,
+   "title": "Product Manager, Campaign Pages",
+   "location": "Poland",
+   "url": "https://www.linkedin.com/jobs/view/4480703616/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "unlevelled",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 54,
+   "notified": true
+  },
+  "linkedin:4480703617": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4480703617",
+   "company": "Fundraise Up",
+   "tier": 3,
+   "title": "Group Product Manager",
+   "location": "Poland",
+   "url": "https://www.linkedin.com/jobs/view/4480703617/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "reach",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 54,
+   "notified": true
+  },
+  "linkedin:4480706373": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4480706373",
+   "company": "Fundraise Up",
+   "tier": 3,
+   "title": "Senior Product Manager, Lab",
+   "location": "Poland",
+   "url": "https://www.linkedin.com/jobs/view/4480706373/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
    ],
    "last_seen": "2026-10-20",
    "active": true,
@@ -5790,6 +6112,46 @@
    "score": 58,
    "notified": true
   },
+  "linkedin:4481588480": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4481588480",
+   "company": "Decathlon Digital",
+   "tier": 3,
+   "title": "Senior Product Manager - Membership (f/m/d)",
+   "location": "Paris, Île-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4481588480/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
+  "linkedin:4481760626": {
+   "first_seen": "2026-10-20",
+   "key": "linkedin:4481760626",
+   "company": "Voodoo",
+   "tier": 3,
+   "title": "Senior Product Manager - Real Time Bidding",
+   "location": "Paris, Île-de-France, France",
+   "url": "https://www.linkedin.com/jobs/view/4481760626/",
+   "source": "linkedin",
+   "posted": "2026-10-20",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "visa": "",
+   "score": 70,
+   "notified": true
+  },
   "linkedin:744000149001570": {
    "first_seen": "2026-10-20",
    "key": "linkedin:744000149001570",
@@ -5872,6 +6234,27 @@
    "desc": "Our Purpose \n Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. \n Title and Summary \nSenior Product Manager - Technical \nOverview: \nWe are seeking a talented and motivated Senior Product Manager - Technical to join our data engineering team. In this role, you will play a critical part in designing, developing, and optimizing data pipelines and solutions that enable efficient data processing and analysis. As a Senior Product Manager - Technical, you will collaborate with cross-functional teams to drive data-driven decision-making and contribute to the continuous improvement of our data infrastructure. \nAs a Senior PMT, you will: \n• Responsible for developing inspiring platform/product visions, derived from business needs, market opportunities, and technology trends \n• Using the Working Backwards method, decomposes business requirements and customer experiences into features and functions that drive the platform/product roadmap \n• Works with Technical Program Managers, Developers, and internal customers to define the details behind the business requirements \n• Collects and shares user stories with engineering teams \n• Acts as the voice of the business customer and accountable for the platform services \nResponsibilities \n• Collaborate with technical team and business stakeholders to understand data requirements and translate them into technical solutions \n• Owns the working backwards document and vision for one or more features \n• Elicits and decomposes business requirements into platform requirements and user stories \n• Coordinates internal forums to collect and identify feature-level development opportunities \n• Contributes near-term input (quarterly) for the platform product portfolio and roadmap, prioritizing the backlog while defining the acceptance criteria for user stories \n• Recommends trade-off decisions on platform product features/depth of features/backlog items \n• Uses runtime metrics of their services in market as a feedback loop in to the backlog and balances the priorities against new feature requests \n• Owns and manages product documentation ensuring features and associated documentation are clear and easily consumable by other engineering teams \n• Enables self-service support and/or works to reduce overhead \n• Makes use of research, user studies, metrics and competitive analysis to understand the platform and business needs for a platform product and inform the backlog \n• May participate with the business in customer research to inform platform product feature needs \n• Coordinates with interdependent teams on platform product requirements \n• Work with large datasets, ensuring data quality, accuracy, and performance \n• Continuously monitors feature development at the feature level adjusting throughout implementation as needed \n• Reviews product demo against acceptance criteria for the feature set \n• Prepares launches and monitors platform performances, adoption, and operational health for feature sets \n• Supports and participates in post-launch reviews and ensures feedback is reincorporated into the feature \n• Stays aligned with GTM plans for the feature set \n• Identifies issues that will keep the platform features from delivering on time and/or with the desired requirements and works with internal teams and customer service to identify, classify, and prioritize feature-level customer issues \n• Mentors team members \n• Assists with candidate selection and onboarding \nAll About You \n• Bachelor's or Master's degree in Computer Science, Engineering, or a related field \n• In-depth understanding of data warehousing concepts, and data modeling techniques \n• Strong knowledge of SQL and NoSQL databases, as well as data integration and transformation tools \n• Passion for and engagement with emerging trends in data, AI/ML, analytics, and digital experiences \n• Experience in data product development, analytical models, and model governance \n• Experience in anonymizing data and managing the use of data \n• Experience in data hygiene procedures, identity resolution capabilities or data management a plus \n• Ability to create strategies and plans that define how information can be utilized to support an organization's overall business strategy, and how that information and data is organized, and governed inside an organization \n• Strong project management skills and a demonstrated ability to understand complex information product constructs \n• Familiarity with industry best practices for collection and use of data \n• Outstanding problem-solving skills and the ability to nav",
    "visa": "",
    "score": 72,
+   "notified": true
+  },
+  "mastercard:R-290013": {
+   "first_seen": "2026-10-20",
+   "key": "mastercard:R-290013",
+   "company": "Mastercard",
+   "tier": 2,
+   "title": "Director, Product Management",
+   "location": "Lisbon, Portugal",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Lisbon-Portugal/Director--Product-Management_R-290013",
+   "source": "workday",
+   "posted": "2026-10-20",
+   "level": "stretch",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-10-20",
+   "active": true,
+   "desc": "Our Purpose \n Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. \n Title and Summary \nDirector, Product Management \nOverview:\nMastercard powers economies and empowers people in 200+ countries and territories worldwide. Within Mastercard Services, the Global Portfolio Optimization (GPO) team helps issuers maximize portfolio performance through data-driven strategies that improve customer activation, usage, engagement, and top-of-wallet positioning. \nThe Director, Product Management, Global Portfolio Optimization (Target) will play a critical leadership role in defining and scaling the capabilities that enable GPO to accelerate the journey from insight to action. This role sits within the Target pillar of the Portfolio Optimization framework and is responsible for driving the continued productization of GPO's end-to-end operating model (Target > Create > Execute > Measure) through close partnership with Business & Market Intelligence (B&MI), product teams, technology partners, and stakeholders across Mastercard. \nThe role will lead the evolution of how portfolio optimization insights are transformed into scalable products, recommendations, and actions through Mastercard's Intelligence Centre (MIC) platform. In addition, this leader will define and drive GPO's AI strategy, identifying opportunities to leverage emerging technologies, automation, and advanced analytics to increase team effectiveness, accelerate decision-making, and enhance issuer outcomes. \nThis is a highly cross-functional product leadership role that combines strategic thinking, technical fluency, quantitative rigor, and strong stakeholder management to deliver solutions that drive measurable business impact at scale. \nHave you successfully built and scaled products that transform complex business processes into repeatable, technology-enabled solutions? \nAre you comfortable operating at the intersection of business strategy, analytics, AI, and technology delivery? \nDo you enjoy translating insights into products that drive measurable outcomes for customers and internal stakeholders? \nAre you passionate about leveraging AI, automation, and product thinking to unlock new levels of organizational impact? \n Role:\nLead the continued productization of the Global Portfolio Optimization operational framework (Target > Create > Execute > Measure) in partnership with the Business & Market Intelligence (B&MI) team, creating scalable products and capabilities that accelerate the insights-to-action lifecycle. \nOwn and evolve the product strategy, roadmap, and requirements for capabilities that enable portfolio optimization teams to identify opportunities, generate recommendations, execute strategies, and measure business outcomes at scale. \nServe as the primary business lead and relationship manager for the Mastercard Intelligence Centre (MIC), ensuring GPO insights, recommendations, and actions are effectively productized and operationalized through the platform. \nDefine and drive GPO's AI strategy by partnering with the AI Centre of Excellence, Foundry, AI Governance teams, engineering organizations, and external technology providers to identify, prioritize, and execute proof-of-concepts and pilots that demonstrate business value and scalability. \nEvaluate emerging AI, automation, and analytics capabilities to determine their feasibility, desirability, and viability within GPO workflows and operating models. \nCollaborate closely with stakeholders across the GPO verticals (Target, Create, Execute, and Measure) to understand end-to-end workflows, identify pain points and opportunities, define product requirements, and deliver solutions that improve efficiency, automation, scalability, and business impact. \nDevelop deep understanding of Mastercard products, platforms, and capabilities that can enhance issuer portfolio performance across current and future GPO priorities, including Activation, Usage, and Top-of-Wallet initiatives. \nBuild and maintain strong partnerships with product owners, platform leaders, and cross-functional stakeholders across Mastercard to identify opportunities for integration, capability reuse, and accelerated delivery of value to issuers. \nTranslate complex business challenges into clear product requirements, business cases, prioritization frameworks, and measurable success metrics. \nEstablish KPI frameworks and measurement approaches to evaluate the effectiveness, adoption, and impact of newly deployed products and capabilities. \nLead cross-functional teams through the product lifecycle from opp",
+   "visa": "",
+   "score": 67,
    "notified": true
   },
   "mastercard:R-290092": {
