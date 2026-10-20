@@ -62,7 +62,7 @@ def main():
                      "title": j["title"], "location": j["location"][:90], "code": code_for(j),
                      "region": regs[0], "url": j["url"], "score": j["score"], "visa": j.get("visa", ""),
                      "posted": (j.get("posted") or "")[:10], "first_seen": j["first_seen"],
-                     "level": j["level"], "hasJd": bool(j.get("desc"))})
+                     "level": j["level"], "hasJd": bool(j.get("desc")), "source": j.get("source", "")})
     board = {"updated": state.get("updated"), "total_open": len(active), "jobs": rows}
     (out / "jd").mkdir(parents=True, exist_ok=True)
     (out / "batches").mkdir(exist_ok=True)

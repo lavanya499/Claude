@@ -274,6 +274,28 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
       <label class="toggle"><input type="checkbox" id="only-list"> Top-50 companies only</label>
       <label class="toggle"><input type="checkbox" id="hide-tracked" checked> Hide roles I've acted on</label>
     </div>
+    <div class="filters">
+      <label class="toggle" for="sort">Sort by</label>
+      <select class="status" id="sort">
+        <option value="best">Best match (compatibility score)</option>
+        <option value="posted">Newest posted</option>
+        <option value="found">Recently found</option>
+        <option value="fit">Resume fit (tailored roles first)</option>
+        <option value="company">Company A to Z</option>
+      </select>
+      <label class="toggle" for="age">Posted</label>
+      <select class="status" id="age">
+        <option value="any">Any time</option>
+        <option value="1">Last 24 hours</option>
+        <option value="3">Last 3 days</option>
+        <option value="7">Last 7 days</option>
+        <option value="30">Last 30 days</option>
+      </select>
+    </div>
+    <div class="filters">
+      <span class="eyebrow">Source</span>
+      <div class="seg" id="sources" role="group" aria-label="Source"></div>
+    </div>
     <div class="note" id="board-count"></div>
     <div class="rows" id="board-rows"></div>
     <button class="btn more" id="more" hidden>Show 40 more</button>
@@ -354,7 +376,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     return el;
   };
   const S = { board: null, track: {}, nights: {}, profile: null, db: null, sample: null,
-              view: "tonight", region: "All", q: "", onlyList: false, hideTracked: true, limit: 40 };
+              view: "tonight", region: "All", q: "", onlyList: false, hideTracked: true, limit: 40, packs: {}, sort: "best", age: "any", source: "All" };
   const store = { get(k, d) { try { const v = localStorage.getItem("spm:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
                   set(k, v) { try { localStorage.setItem("spm:" + k, JSON.stringify(v)); } catch {} } };
 
@@ -417,10 +439,12 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
         h("div", { class: "who" }, h("b", {}, j.company), j.tier === 1 ? h("span", { class: "chip star" }, "BIG TECH") : null,
           j.visa === "yes" ? h("span", { class: "chip good" }, "sponsorship / relocation") : null,
           j.visa === "no" ? h("span", { class: "chip bad" }, "no sponsorship") : null,
-          h("span", {}, "posted " + daysAgo(j.posted || j.first_seen))),
+          h("span", {}, j.posted ? "posted " + daysAgo(j.posted) : "found " + daysAgo(j.first_seen)),
+          h("span", { class: "chip" }, "via " + srcLabel(j.source)),
+          S.packs[j.id]?.fit != null ? h("span", { class: "chip good" }, "resume fit " + S.packs[j.id].fit) : null),
         h("div", { class: "title" }, j.title),
         h("div", { class: "note" }, j.location)),
-      h("div", { class: "score" + (j.score >= 80 ? " hi" : "") }, j.score, h("small", {}, "SCORE")),
+      h("div", { class: "score" + (j.score >= 80 ? " hi" : "") }, j.score, h("small", {}, "MATCH")),
       h("div", { class: "acts" },
         h("a", { class: "btn", href: j.url, target: "_blank", rel: "noopener" }, "Open posting ↗"),
         h("button", { class: "btn primary", onclick: () => openSheet(j) }, "Tailor with Claude"), sel));
@@ -435,17 +459,41 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
       : [h("div", { class: "notice" }, "You've acted on every new role. Use the time for referrals and the drill.")]));
   }
 
+  const SRC = { greenhouse: "Greenhouse (company pages)", lever: "Lever (company pages)", ashby: "Ashby (company pages)",
+    smartrecruiters: "SmartRecruiters (company pages)", workday: "Workday (company pages)", amazon: "Amazon Jobs", google: "Google Careers",
+    microsoft: "Microsoft Careers", eightfold: "Netflix Careers", uber: "Uber Careers", atlassian: "Atlassian Careers",
+    jibe: "Booking.com Careers", linkedin: "LinkedIn", web: "Web search" };
+  const srcLabel = (x) => SRC[x] || (x ? x[0].toUpperCase() + x.slice(1) : "Company site");
+  // Age filters use the posting date only. Roles without one (for example Google's) are hidden from them.
+  const dayAge = (j) => { const d = (j.posted || "").slice(0, 10); if (!d) return Infinity;
+    return Math.max(0, Math.floor((new Date(nightKey() + "T12:00") - new Date(d + "T12:00")) / 864e5)); };
+  const SORTS = { best: ["best match", (a, b) => b.score - a.score || (b.first_seen > a.first_seen ? 1 : -1)],
+    posted: ["newest posted (roles without a posting date last)", (a, b) => (b.posted || "").localeCompare(a.posted || "") || b.score - a.score],
+    found: ["recently found", (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || b.score - a.score],
+    fit: ["resume fit", (a, b) => ((S.packs[b.id]?.fit ?? -1) - (S.packs[a.id]?.fit ?? -1)) || b.score - a.score],
+    company: ["company A to Z", (a, b) => a.company.localeCompare(b.company) || b.score - a.score] };
+
   function renderBoard() {
     if (!S.board) return;
     $("#regions").replaceChildren(...REGIONS.map((r) => {
       const n = r === "All" ? S.board.jobs.length : S.board.jobs.filter((j) => j.region === r).length;
       return h("button", { "aria-pressed": String(S.region === r), onclick: () => { S.region = r; S.limit = 40; store.set("region", r); renderBoard(); } }, `${r} ${n}`);
     }));
-    const q = S.q.trim().toLowerCase();
-    const list = S.board.jobs.filter((j) => (S.region === "All" || j.region === S.region)
-      && (!S.onlyList || j.tier <= 2) && (!S.hideTracked || !isTracked(j))
+    const q = S.q.trim().toLowerCase(), maxAge = S.age === "any" ? Infinity : Number(S.age);
+    const base = S.board.jobs.filter((j) => (S.region === "All" || j.region === S.region)
+      && (!S.onlyList || j.tier <= 2) && (!S.hideTracked || !isTracked(j)) && dayAge(j) <= maxAge
       && (!q || `${j.company} ${j.title} ${j.location} ${j.code}`.toLowerCase().includes(q)));
-    $("#board-count").textContent = `${list.length} roles · sorted by score`;
+    const counts = {};
+    for (const j of base) counts[j.source || ""] = (counts[j.source || ""] || 0) + 1;
+    const keys = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    if (S.source !== "All" && !(S.source in counts)) keys.push(S.source);
+    $("#sources").replaceChildren(
+      h("button", { "aria-pressed": String(S.source === "All"), onclick: () => { S.source = "All"; S.limit = 40; store.set("source", "All"); renderBoard(); } }, `All ${base.length}`),
+      ...keys.map((k) => h("button", { "aria-pressed": String(S.source === k), onclick: () => { S.source = k; S.limit = 40; store.set("source", k); renderBoard(); } }, `${srcLabel(k)} ${counts[k] || 0}`)));
+    const list = base.filter((j) => S.source === "All" || (j.source || "") === S.source).sort((SORTS[S.sort] || SORTS.best)[1]);
+    $("#board-count").textContent = `${list.length} roles · sorted by ${(SORTS[S.sort] || SORTS.best)[0]}`
+      + (S.sort === "fit" ? ". Resume fit appears once you've tailored a role." : "")
+      + (S.age !== "any" ? ". Roles without a posting date are hidden by the posted filter." : "");
     $("#board-rows").replaceChildren(...list.slice(0, S.limit).map(roleRow));
     $("#more").hidden = list.length <= S.limit;
   }
@@ -972,6 +1020,8 @@ ${JSON.stringify(m)}`;
   }
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => show(t.dataset.view)));
   $("#q").addEventListener("input", (e) => { S.q = e.target.value; S.limit = 40; renderBoard(); });
+  $("#sort").addEventListener("change", (e) => { S.sort = e.target.value; store.set("sort", S.sort); S.limit = 40; renderBoard(); });
+  $("#age").addEventListener("change", (e) => { S.age = e.target.value; store.set("age", S.age); S.limit = 40; renderBoard(); });
   $("#only-list").addEventListener("change", (e) => { S.onlyList = e.target.checked; renderBoard(); });
   $("#hide-tracked").addEventListener("change", (e) => { S.hideTracked = e.target.checked; renderBoard(); });
   $("#more").addEventListener("click", () => { S.limit += 40; renderBoard(); });
@@ -987,6 +1037,9 @@ ${JSON.stringify(m)}`;
   });
 
   S.region = store.get("region", "All");
+  S.sort = store.get("sort", "best"); S.age = store.get("age", "any"); S.source = store.get("source", "All");
+  if (["best", "posted", "found", "fit", "company"].includes(S.sort)) $("#sort").value = S.sort; else S.sort = "best";
+  if (["any", "1", "3", "7", "30"].includes(S.age)) $("#age").value = S.age; else S.age = "any";
   const hash = location.hash.slice(1);
   S.city = store.get("city", "London");
   show(["tonight", "board", "pipeline", "people", "profile"].includes(hash) ? hash : store.get("view", "tonight"));
@@ -1002,12 +1055,13 @@ ${JSON.stringify(m)}`;
     const merge = () => {
       if (!radar) { $("#synced").textContent = "WAITING FOR FIRST SYNC"; return; }
       const seen = new Set(radar.jobs.map((j) => j.url));
-      S.board = { ...radar, jobs: [...radar.jobs, ...web.filter((j) => j && j.url && !seen.has(j.url))] };
+      S.board = { ...radar, jobs: [...radar.jobs, ...web.filter((j) => j && j.url && !seen.has(j.url)).map((j) => ({ source: "web", ...j }))] };
       renderAll();
     };
     db.doc("board/current").onSnapshot((s) => { radar = s.exists ? s.data() : null; merge(); }, () => {});
     db.doc("board/web").onSnapshot((s) => { web = s.exists ? (s.data().jobs || []) : []; merge(); }, () => {});
     db.collection("track").onSnapshot((snap) => { S.track = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()])); renderAll(); }, () => {});
+    db.collection("packs").onSnapshot((snap) => { S.packs = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()])); renderAll(); }, () => {});
     db.collection("nights").onSnapshot((snap) => { S.nights = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()])); renderNight(); }, () => {});
     db.doc("profile/me").onSnapshot((s) => {
       S.profile = s.exists ? s.data() : null;
