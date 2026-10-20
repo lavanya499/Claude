@@ -312,14 +312,6 @@
   "why": "Consumer marketplace; UK sponsor."
  },
  {
-  "name": "HelloFresh",
-  "tier": 2,
-  "ats": "greenhouse",
-  "token": "hellofresh",
-  "hubs": "Berlin, Dublin, Warsaw, Sydney",
-  "why": "D2C / subscription commerce — good fit for consumer/D2C PMs."
- },
- {
   "name": "GetYourGuide",
   "tier": 2,
   "ats": "greenhouse",
@@ -351,59 +343,12 @@
   "why": "Marketplace PM roles across EU + India."
  },
  {
-  "name": "Skyscanner",
-  "tier": 2,
-  "ats": "linkedin_company",
-  "hubs": "Edinburgh, London, Barcelona",
-  "why": "UK sponsor; travel search."
- },
- {
-  "name": "Datadog",
-  "tier": 2,
-  "ats": "greenhouse",
-  "token": "datadog",
-  "hubs": "Dublin, Paris, Amsterdam, Sydney, Singapore",
-  "why": "Fast-growing B2B; Dublin + Paris hubs."
- },
- {
-  "name": "Cloudflare",
-  "tier": 2,
-  "ats": "greenhouse",
-  "token": "cloudflare",
-  "hubs": "London, Lisbon, Sydney, Singapore, Bengaluru",
-  "why": "Infra PM; Lisbon/London hubs."
- },
- {
-  "name": "Databricks",
-  "tier": 2,
-  "ats": "greenhouse",
-  "token": "databricks",
-  "hubs": "Amsterdam, London, Bengaluru, Sydney, Singapore",
-  "why": "AI/data platform; Amsterdam R&D sponsors."
- },
- {
-  "name": "MongoDB",
-  "tier": 2,
-  "ats": "greenhouse",
-  "token": "mongodb",
-  "hubs": "Dublin, London, Gurugram, Sydney",
-  "why": "Dublin is a core product hub."
- },
- {
   "name": "Intercom",
   "tier": 2,
   "ats": "greenhouse",
   "token": "intercom",
   "hubs": "Dublin, London",
   "why": "Product-led SaaS; Dublin R&D HQ, sponsors."
- },
- {
-  "name": "Celonis",
-  "tier": 2,
-  "ats": "greenhouse",
-  "token": "celonis",
-  "hubs": "Munich, Madrid, Amsterdam",
-  "why": "German decacorn; Blue Card route."
  },
  {
   "name": "ServiceNow",
@@ -491,5 +436,65 @@
   ],
   "hubs": "Bangkok",
   "why": "Thailand's leading consumer tech unicorn; English-speaking product org."
+ },
+ {
+  "name": "Decagon",
+  "tier": 2,
+  "ats": "ashby",
+  "token": "decagon",
+  "hubs": "London, San Francisco, New York",
+  "why": "AI customer-service agents; 'Agent Product Manager' roles in London map directly to chatbot/LLM support work."
+ },
+ {
+  "name": "Sierra",
+  "tier": 2,
+  "ats": "ashby",
+  "token": "sierra",
+  "hubs": "London, San Francisco, New York",
+  "why": "Conversational AI agents for customer experience; London PM roles in agent development."
+ },
+ {
+  "name": "Parloa",
+  "tier": 2,
+  "ats": "ashby",
+  "token": "parloa",
+  "hubs": "Berlin, Munich",
+  "why": "Voice AI for customer service (voicebots); German Blue Card route; English-first."
+ },
+ {
+  "name": "Zego",
+  "tier": 2,
+  "ats": "ashby",
+  "token": "zego",
+  "hubs": "London, Portugal (remote)",
+  "why": "UK insurtech hiring Senior/Lead AI Product Managers; insurance + AI is an exact domain match."
+ },
+ {
+  "name": "Cresta",
+  "tier": 2,
+  "ats": "greenhouse",
+  "token": "cresta",
+  "hubs": "UK (remote, EMEA), US",
+  "why": "Contact-centre AI; forward-deployed PM roles for AI agents in EMEA."
+ },
+ {
+  "name": "Zendesk",
+  "tier": 2,
+  "ats": "workday",
+  "host": "zendesk.wd1.myworkdayjobs.com",
+  "tenant": "zendesk",
+  "site": "zendesk",
+  "hubs": "Dublin, London, Pune, Singapore, Melbourne",
+  "why": "Customer-service platform leader; ticketing + AI agents is your core domain."
+ },
+ {
+  "name": "Genesys",
+  "tier": 2,
+  "ats": "workday",
+  "host": "genesys.wd1.myworkdayjobs.com",
+  "tenant": "genesys",
+  "site": "Genesys",
+  "hubs": "Galway, London, Budapest, Hyderabad, Sydney",
+  "why": "Contact-centre and digital-engagement platform; messaging and AI engagement PM roles."
  }
 ]

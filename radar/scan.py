@@ -316,8 +316,12 @@ def main():
                     "_detail": ("linkedin", r["id"])})
         known[key] = rec
 
-    # Close jobs that vanished from a healthy source; LinkedIn rows age out after 14 days.
+    # Close jobs that vanished from a healthy source or whose company left the list;
+    # LinkedIn rows age out after 14 days.
+    listed = {c["name"] for c in COMPANIES}
     for key, rec in list(known.items()):
+        if rec["source"] != "linkedin" and rec["company"] not in listed:
+            rec["active"] = False
         if rec["last_seen"] == TODAY:
             continue
         if rec["source"] == "linkedin":
