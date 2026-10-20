@@ -42,8 +42,8 @@
   "via": "greenhouse"
  },
  "Apple": {
-  "error": "HTTPError: HTTP Error 429: Too Many Requests",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Atlassian": {
@@ -53,14 +53,14 @@
   "via": "atlassian"
  },
  "Booking.com": {
-  "matched": 0,
-  "ok": true,
-  "total": 0,
-  "via": "jibe"
+  "error": "RuntimeError: no jobs returned (LinkedIn fallback queued)",
+  "ok": false,
+  "skipped": true,
+  "via": "linkedin_company"
  },
  "Canva": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Celonis": {
@@ -70,7 +70,7 @@
   "via": "greenhouse"
  },
  "Cloudflare": {
-  "matched": 0,
+  "matched": 5,
   "ok": true,
   "total": 436,
   "via": "greenhouse"
@@ -102,7 +102,7 @@
  "Expedia Group": {
   "matched": 7,
   "ok": true,
-  "total": 66,
+  "total": 67,
   "via": "workday"
  },
  "GetYourGuide": {
@@ -114,7 +114,7 @@
  "Google": {
   "matched": 15,
   "ok": true,
-  "total": 56,
+  "total": 65,
   "via": "google"
  },
  "Grab": {
@@ -136,13 +136,13 @@
   "via": "greenhouse"
  },
  "Klarna": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "LINE MAN Wongnai": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "LinkedIn": {
@@ -152,11 +152,12 @@
   "via": "smartrecruiters"
  },
  "LinkedIn (all companies)": {
-  "calls": 30,
+  "calls": 1,
   "cards": 0,
-  "errors": 30,
-  "last_error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false
+  "errors": 1,
+  "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": true,
+  "rate_limited": true
  },
  "Mastercard": {
   "matched": 10,
@@ -165,14 +166,15 @@
   "via": "workday"
  },
  "Meta": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Microsoft": {
-  "error": "AttributeError: 'function' object has no attribute 'cookiejar' / fallback RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
-  "via": "linkedin_company"
+  "matched": 10,
+  "ok": true,
+  "total": 80,
+  "via": "microsoft"
  },
  "MongoDB": {
   "matched": 5,
@@ -211,8 +213,8 @@
   "via": "workday"
  },
  "Revolut": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Salesforce": {
@@ -228,13 +230,13 @@
   "via": "smartrecruiters"
  },
  "Shopee": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Skyscanner": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Spotify": {
@@ -262,8 +264,8 @@
   "via": "greenhouse"
  },
  "Uber": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Visa": {
@@ -285,8 +287,8 @@
   "via": "greenhouse"
  },
  "Zalando": {
-  "error": "RuntimeError: LinkedIn rate-limited earlier in this run",
-  "ok": false,
+  "ok": true,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "eBay": {
