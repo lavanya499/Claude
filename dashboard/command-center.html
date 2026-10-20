@@ -294,6 +294,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
   </div>
 </dialog>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 (() => {
   const START = "2026-10-20";
@@ -507,7 +508,8 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
       h("p", { style: "margin:0" }, "Claude reads your resume and this job's description, then writes a fit check, a tailored summary and bullets, a referral note and likely interview questions."),
       !S.profile?.resume ? h("div", { class: "notice" }, "Add your resume on the Resume tab first; tailoring needs it.") : null,
       h("div", { class: "bar-row" }, h("button", { class: "btn primary", id: "gen", disabled: !S.profile?.resume || !S.sample, onclick: () => generate(j) }, "Generate application pack"),
-        !S.sample ? h("span", { class: "note" }, "Asking Claude isn't available in this view.") : null));
+        !S.sample ? h("span", { class: "note" }, "Asking Claude isn't available in this view.") : null),
+      docsBlock(j));
   }
   async function generate(j, regenerate = false) {
     const body = $("#sheet-body");
@@ -555,7 +557,174 @@ ${S.profile.resume}`;
         h("a", { class: "btn", href: j.url, target: "_blank", rel: "noopener" }, "Open posting ↗"),
         h("button", { class: "btn primary", onclick: () => { setStatus(j, "applied"); $("#sheet").close(); toast("Marked as applied. Now ask for a referral."); } }, "I've applied"),
         S.sample && S.profile?.resume ? h("button", { class: "btn", onclick: () => generate(j, true) }, "Regenerate") : null,
-        h("span", { class: "note" }, p.jdUsed === false ? "Written without the full job description." : "")));
+        h("span", { class: "note" }, p.jdUsed === false ? "Written without the full job description." : "")),
+      docsBlock(j));
+  }
+
+  // ---------- tailored resume + cover letter ----------
+  const variantFor = (j) => (j.region === "India" ? "india" : "international");
+  const docsHead = () => h("span", { class: "eyebrow" }, "Resume and cover letter for this role");
+  function docsBlock(j) {
+    const box = h("div", { class: "block" }, docsHead(), h("div", { class: "note" }, "Loading…"));
+    (async () => {
+      let d = null;
+      try { const s = await S.db?.doc("docs/" + j.id).get(); d = s?.exists ? s.data() : null; } catch {}
+      renderDocs(box, j, d);
+    })();
+    return box;
+  }
+  function renderDocs(box, j, d) {
+    const m = S.profile?.master;
+    if (!m) { box.replaceChildren(docsHead(), h("div", { class: "note" }, "Your saved profile isn't loaded yet. Check the Resume tab.")); return; }
+    if (!d) {
+      box.replaceChildren(docsHead(),
+        h("p", { class: "note", style: "margin:0" }, `Claude rewrites your resume and drafts a cover letter for this role, using only facts from your profile (${variantFor(j) === "india" ? "India" : "international"} version).`),
+        h("div", { class: "bar-row" }, h("button", { class: "btn primary", disabled: !S.sample, onclick: () => buildDocs(box, j) }, "Build resume + cover letter")));
+      return;
+    }
+    const base = fileBase(m, j);
+    box.replaceChildren(docsHead(),
+      d.match_notes ? h("div", { class: "note" }, d.match_notes) : null,
+      h("div", { class: "bar-row" },
+        h("button", { class: "btn primary", onclick: () => saveFile(() => resumePdf(m, d), base + "_Resume.pdf") }, "Download resume (PDF)"),
+        h("button", { class: "btn", onclick: () => saveFile(() => letterPdf(m, d, j), base + "_Cover_Letter.pdf") }, "Download cover letter (PDF)"),
+        h("button", { class: "btn", onclick: () => buildDocs(box, j) }, "Rebuild")),
+      h("div", { class: "block" }, h("div", { class: "block-head" }, h("span", { class: "eyebrow" }, "Cover letter text"), copyBtn(d.cover_letter || "")),
+        h("div", { class: "copyable" }, d.cover_letter || "")));
+  }
+  const fileBase = (m, j) => [m.name, j.company, j.title].join(" ").replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "").slice(0, 90);
+  async function saveFile(make, filename) {
+    const dl = await (window.claude?.use("downloads") ?? null);
+    if (!dl) { toast("Saving files isn't available in this view. Open the page in a browser to download."); return; }
+    const blob = make();
+    if (!blob) return;
+    try { await dl.save({ filename, data: blob }); }
+    catch (e) { if (e?.code !== "declined") toast("Couldn't save the file: " + (e?.message || e?.code)); }
+  }
+  async function buildDocs(box, j) {
+    const stream = h("div", { class: "stream" }, "Reading the job description…");
+    box.replaceChildren(docsHead(), h("div", { class: "note" }, "Writing your resume and cover letter. This takes about 30 seconds."), stream);
+    let jd = "";
+    try { const s = await S.db.doc("jd/" + j.id).get(); jd = s.exists ? s.data().text || "" : ""; } catch {}
+    const variant = variantFor(j);
+    const m = S.profile.master;
+    const prompt = `You are tailoring a Senior Product Manager's resume and cover letter for one specific role.
+Use ONLY facts in MASTER (experience facts and scope, awards, certifications, skills). You may rephrase, reorder, merge or drop facts and mirror the job's language, but never invent employers, titles, dates, numbers, tools, scope or outcomes. Every number you use must appear in MASTER.
+Version: ${variant}. ${variant === "india"
+  ? "Indian MNC style: lakh/crore and Indian industry terms (POSP, RM, FOS) are fine."
+  : "International style: use international number formats (125,000; 2.5 million), never 'lakh' or 'crore', and spell out Indian terms (POSP -> insurance partners/agents, RM -> relationship manager, FOS -> field sales). Briefly explain what the employer is the first time it appears."}
+Reply with only JSON in exactly this shape:
+{"headline": "max 10 words, e.g. 'Senior Product Manager | Conversational AI & Customer Experience'",
+ "summary": "3 sentences, max 70 words, aimed at this role",
+ "skills": [{"label": "short label", "items": "comma-separated skills from MASTER most relevant to this job"}],
+ "experience": {"pbp": {"scope": "1 sentence on scope", "bullets": ["5-7 bullets"]}, "pb": {"scope": "1 sentence", "bullets": ["4-6 bullets"]}, "hcl": {"bullets": ["1-2 bullets"]}, "infy_test": {"bullets": ["0-1 bullet"]}, "infy_support": {"bullets": ["0-1 bullet"]}},
+ "cover_letter": "Starts with 'Dear Hiring Team,' then 3-4 short paragraphs separated by blank lines, max 300 words, no signature. Paragraph 1: the role and the single most relevant achievement. Paragraph 2: 2-3 achievements mapped to this job's needs. Paragraph 3: why this company and product.${variant === "india" ? "" : " Mention readiness to relocate to the role's city."}",
+ "match_notes": "one sentence: what this version emphasises and why"}
+Bullets: max 30 words each, start with a strong verb, put the measurable outcome first when MASTER has a number. Use 3-4 skills groups.
+
+JOB: ${j.title} at ${j.company} (${j.location}). Posting: ${j.url}
+JOB DESCRIPTION:
+${jd || "(not available; infer from title and company)"}
+
+MASTER:
+${JSON.stringify(m)}`;
+    try {
+      const out = await S.sample.json(prompt, { onText: ({ text }) => { stream.textContent = text.slice(-700); } });
+      if (!out || typeof out !== "object" || !out.experience) throw { code: "invalid_json" };
+      const d = { ...out, variant, created: new Date().toISOString(), jdUsed: !!jd };
+      try { await S.db.doc("docs/" + j.id).set(d); } catch {}
+      renderDocs(box, j, d);
+    } catch (e) {
+      const msg = { not_granted: "Claude access was declined for this page. Allow it from the page's permissions.",
+        rate_limited: "Claude is busy right now. Try again in a minute.", invalid_json: "Claude's answer came back in an unexpected shape. Try again." }[e?.code] || ("Couldn't build the documents: " + (e?.message || e?.code));
+      box.replaceChildren(docsHead(), h("div", { class: "notice" }, msg), h("button", { class: "btn", onclick: () => buildDocs(box, j) }, "Try again"));
+    }
+  }
+
+  // PDF layout: plain single column, standard fonts, so applicant-tracking systems read it cleanly.
+  const pdfText = (s) => String(s ?? "").replace(/[–—]/g, "-").replace(/[“”]/g, '"').replace(/[‘’]/g, "'")
+    .replace(/[•]/g, "-").replace(/→/g, "to").replace(/₹/g, "INR ").replace(/[^\x00-\xFF]/g, "");
+  function pdfKit() {
+    const J = window.jspdf?.jsPDF;
+    if (!J) { toast("The PDF tool didn't load. Check your connection and reopen the page."); return null; }
+    const doc = new J({ unit: "pt", format: "a4" });
+    const W = doc.internal.pageSize.getWidth(), H = doc.internal.pageSize.getHeight();
+    const k = { doc, L: 46, R: W - 46, H, y: 40, INK: [24, 34, 46], ACC: [14, 104, 104], MUT: [92, 102, 112] };
+    k.room = (need) => { if (k.y + need > H - 40) { doc.addPage(); k.y = 44; } };
+    k.write = (txt, o = {}) => {
+      const size = o.size || 9.5, lh = size * (o.lh || 1.34), x = o.x ?? k.L, width = o.width ?? (k.R - x);
+      doc.setFont("helvetica", o.style || "normal"); doc.setFontSize(size); doc.setTextColor(...(o.color || k.INK));
+      const first = k.y + lh;
+      for (const ln of doc.splitTextToSize(pdfText(txt), width)) { k.room(lh); k.y += lh; doc.text(ln, x, k.y); }
+      return first;
+    };
+    k.section = (title) => {
+      k.y += 9; k.room(40);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(9.5); doc.setTextColor(...k.ACC);
+      k.y += 12; doc.text(title.toUpperCase(), k.L, k.y, { charSpace: 1.1 });
+      doc.setDrawColor(...k.ACC); doc.setLineWidth(0.6); doc.line(k.L, k.y + 4, k.R, k.y + 4); k.y += 5;
+    };
+    k.bullet = (txt) => {
+      const yy = k.write(txt, { x: k.L + 12, size: 9.3 });
+      doc.setFillColor(...k.ACC); doc.circle(k.L + 4.5, yy - 3.2, 1.3, "F");
+    };
+    k.header = (m, d, showRelocation) => {
+      doc.setFont("helvetica", "bold"); doc.setFontSize(21); doc.setTextColor(...k.INK);
+      k.y += 20; doc.text(pdfText(m.name), k.L, k.y);
+      if (d.headline) k.write(d.headline, { size: 10.5, style: "bold", color: k.ACC, lh: 1.6 });
+      const c = m.contact || {};
+      k.write([c.location, c.email, c.phone, c.linkedin].filter(Boolean).join("   |   "), { size: 8.8, color: k.MUT });
+      if (showRelocation && m.relocation) k.write(m.relocation, { size: 8.8, color: k.MUT });
+    };
+    return k;
+  }
+  function resumePdf(m, d) {
+    const k = pdfKit(); if (!k) return null;
+    const { doc } = k, intl = d.variant !== "india";
+    k.header(m, d, intl);
+    k.section("Summary"); k.write(d.summary || "");
+    k.section("Experience");
+    for (const e of m.experience) {
+      const t = (d.experience || {})[e.id] || {};
+      const bullets = Array.isArray(t) ? t : (t.bullets || []);
+      if (!bullets.length && !["pbp", "pb", "hcl"].includes(e.id)) continue;
+      k.y += 5; k.room(46);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(10); doc.setTextColor(...k.INK);
+      k.y += 13; doc.text(pdfText(`${e.title}  |  ${e.company}`), k.L, k.y);
+      doc.setFont("helvetica", "normal"); doc.setFontSize(8.8); doc.setTextColor(...k.MUT);
+      doc.text(pdfText(`${e.location}  |  ${e.dates}`), k.R, k.y, { align: "right" });
+      const sub = [intl ? e.context : null, e.note].filter(Boolean).join(". ");
+      if (sub) k.write(sub, { size: 8.8, style: "italic", color: k.MUT });
+      if (t.scope) k.write(t.scope, { size: 9.2 });
+      for (const b of (bullets.length ? bullets : e.facts.slice(0, 2))) k.bullet(b);
+    }
+    if (Array.isArray(d.skills) && d.skills.length) {
+      k.section("Skills");
+      for (const g of d.skills) k.write(`${g.label}: ${g.items}`, { size: 9.2 });
+    }
+    k.section("Education");
+    for (const ed of m.education) {
+      k.room(16); doc.setFont("helvetica", "bold"); doc.setFontSize(9.5); doc.setTextColor(...k.INK);
+      k.y += 13; doc.text(pdfText(`${ed.degree}  |  ${ed.school}${intl ? "" : "  |  " + ed.grade}`), k.L, k.y);
+      doc.setFont("helvetica", "normal"); doc.setFontSize(8.8); doc.setTextColor(...k.MUT); doc.text(pdfText(ed.dates), k.R, k.y, { align: "right" });
+    }
+    k.section("Awards & certifications");
+    for (const a of m.awards) k.bullet(a);
+    k.write(m.certifications.join("   |   "), { size: 9.2 });
+    return doc.output("blob");
+  }
+  function letterPdf(m, d, j) {
+    const k = pdfKit(); if (!k) return null;
+    k.header(m, {}, false);
+    k.y += 18;
+    k.write(new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }), { size: 10.5 });
+    k.y += 8;
+    k.write(`Hiring Team, ${j.company}`, { size: 10.5 });
+    k.write(`Re: ${j.title}`, { size: 10.5, style: "bold" });
+    k.y += 10;
+    for (const para of String(d.cover_letter || "").split(/\n\s*\n/)) { if (para.trim()) { k.write(para.trim(), { size: 10.5, lh: 1.45 }); k.y += 7; } }
+    k.y += 6; k.write("Sincerely,", { size: 10.5 }); k.write(m.name, { size: 10.5, style: "bold" });
+    return k.doc.output("blob");
   }
 
   // ---------- wiring ----------
@@ -578,7 +747,7 @@ ${S.profile.resume}`;
     const text = $("#resume").value.trim();
     if (!S.db) return;
     $("#resume-status").textContent = "Saving…";
-    try { await S.db.doc("profile/me").set({ resume: text, updated: new Date().toISOString() }); $("#resume-status").textContent = "Saved. Tailoring now uses this version."; }
+    try { await S.db.doc("profile/me").set({ ...(S.profile || {}), resume: text, updated: new Date().toISOString() }); $("#resume-status").textContent = "Saved. Tailoring now uses this version."; }
     catch (e) { $("#resume-status").textContent = "Couldn't save: " + e.message; }
   });
 
@@ -608,7 +777,8 @@ ${S.profile.resume}`;
       S.profile = s.exists ? s.data() : null;
       const ta = $("#resume");
       if (S.profile?.resume && document.activeElement !== ta && !ta.value) ta.value = S.profile.resume;
-      $("#resume-status").textContent = S.profile?.updated ? "Last saved " + new Date(S.profile.updated).toLocaleString() : "Not saved yet.";
+      $("#resume-status").textContent = (S.profile?.updated ? "Last saved " + new Date(S.profile.updated).toLocaleString() : "Not saved yet.")
+        + (S.profile?.master ? ` · Profile loaded: ${S.profile.master.experience.length} roles, India and international versions.` : "");
     }, () => {});
   })();
 })();
