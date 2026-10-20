@@ -7,6 +7,7 @@ descriptions not listed in FILE (one doc id per line). Also writes OUT_DIR/batch
 ready-made ArtifactData batch `writes` lists (<=50 each) that create the new jd documents.
 """
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -77,7 +78,7 @@ def main():
         f = out / "jd" / f"{r['id']}.json"
         f.write_text(json.dumps({"company": j["company"], "title": j["title"], "url": j["url"],
                                  "text": j["desc"][:3800]}, ensure_ascii=False))
-        writes.append({"op": "set", "collection": "jd", "doc_id": r["id"], "file_path": str(f.resolve())})
+        writes.append({"op": "set", "collection": "jd", "doc_id": r["id"], "file_path": os.path.relpath(f)})
     for i in range(0, len(writes), 45):
         (out / "batches" / f"{i // 45:02d}.json").write_text(json.dumps(writes[i:i + 45], indent=0))
     print(f"board: {len(board['jobs'])} roles ({len(json.dumps(board)) // 1024} KiB); "

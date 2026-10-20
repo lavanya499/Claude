@@ -592,8 +592,16 @@ ${S.profile.resume}`;
     S.sample = sample;
     if (!db) { $("#offline").hidden = false; $("#synced").textContent = "OFFLINE"; return; }
     S.db = db;
-    db.doc("board/current").onSnapshot((s) => { S.board = s.exists ? s.data() : null;
-      if (!S.board) { $("#synced").textContent = "WAITING FOR FIRST SYNC"; return; } renderAll(); }, () => {});
+    // board/current is rebuilt nightly from the radar; board/web holds roles Claude found by web search.
+    let radar = null, web = [];
+    const merge = () => {
+      if (!radar) { $("#synced").textContent = "WAITING FOR FIRST SYNC"; return; }
+      const seen = new Set(radar.jobs.map((j) => j.url));
+      S.board = { ...radar, jobs: [...radar.jobs, ...web.filter((j) => j && j.url && !seen.has(j.url))] };
+      renderAll();
+    };
+    db.doc("board/current").onSnapshot((s) => { radar = s.exists ? s.data() : null; merge(); }, () => {});
+    db.doc("board/web").onSnapshot((s) => { web = s.exists ? (s.data().jobs || []) : []; merge(); }, () => {});
     db.collection("track").onSnapshot((snap) => { S.track = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()])); renderAll(); }, () => {});
     db.collection("nights").onSnapshot((snap) => { S.nights = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()])); renderNight(); }, () => {});
     db.doc("profile/me").onSnapshot((s) => {
