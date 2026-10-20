@@ -591,6 +591,9 @@ ${S.profile.master ? JSON.stringify(S.profile.master) : S.profile.resume}`;
         h("button", { class: "btn", onclick: () => buildDocs(box, j) }, "Rebuild")),
       h("div", { class: "block" }, h("div", { class: "block-head" }, h("span", { class: "eyebrow" }, "Cover letter text"), copyBtn(d.cover_letter || "")),
         h("div", { class: "copyable" }, d.cover_letter || "")),
+      Array.isArray(d.form_skills) && d.form_skills.length ? h("div", { class: "block" },
+        h("div", { class: "block-head" }, h("span", { class: "eyebrow" }, "Skills for application forms, most relevant first"), copyBtn(d.form_skills.join("\n"), "Copy list")),
+        h("div", { class: "who" }, ...d.form_skills.map((k) => h("span", { class: "chip" }, k)))) : null,
       Array.isArray(d.form_entries) && d.form_entries.length ? h("div", { class: "block" },
         h("span", { class: "eyebrow" }, "Work history for application forms (when the form can't read your resume)"),
         ...d.form_entries.map((f) => h("div", { class: "card" },
@@ -628,6 +631,7 @@ Reply with only JSON in exactly this shape:
  "experience": {"pbp": {"scope": "1 sentence on scope", "bullets": ["5-7 bullets"]}, "pb": {"scope": "1 sentence", "bullets": ["4-6 bullets"]}, "hcl": {"bullets": ["1-2 bullets"]}, "infy_test": {"bullets": ["0-1 bullet"]}, "infy_support": {"bullets": ["0-1 bullet"]}},
  "cover_letter": "Starts with 'Dear Hiring Team,' then 3-4 short paragraphs separated by blank lines, max 300 words, no signature. Paragraph 1: the role and the single most relevant achievement. Paragraph 2: 2-3 achievements mapped to this job's needs. Paragraph 3: why this company and product.${variant === "india" ? "" : " Mention readiness to relocate to the role's city."}",
  "match_notes": "one sentence: what this version emphasises and why",
+ "form_skills": ["12-18 skills supported by MASTER, named the way application-form skill pickers list them (e.g. 'Product Roadmapping', 'SQL'), most relevant to this job first"],
  "form_entries": [{"title": "job title as it should be typed into an application form", "company": "employer name", "location": "city, country", "from": "MM/YYYY", "to": "MM/YYYY or Present", "description": "plain text for the form's role-description box: 1-2 sentence scope, then 3-6 lines starting with '- ', tailored to this job, max 1,200 characters"}]  (one entry per MASTER experience item, newest first; both Policybazaar roles use company "Policybazaar (PB Fintech)")}
 Bullets: max 30 words each, start with a strong verb, put the measurable outcome first when MASTER has a number. Use 3-4 skills groups.
 
