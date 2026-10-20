@@ -89,59 +89,60 @@ def run(c):
         return label(c), 0, 0, [], f"{type(e).__name__}: {str(e)[:120]}"
 
 
+def raw(label, url, data=None, headers=None, find=None, n=1500):
+    try:
+        src = sources.http(url, data=data, headers=headers)
+        i = src.find(find) if find else 0
+        print(f"OK  {label}: len={len(src)} find={i}\n    {src[max(i, 0):max(i, 0) + n]!r}")
+    except Exception as e:  # noqa: BLE001
+        print(f"BAD {label}: {type(e).__name__}: {str(e)[:150]}")
+
+
 def main():
+    if "--companies" in sys.argv:  # health-check the configured top-50 list
+        cands = json.load(open(__file__.rsplit("/", 1)[0] + "/companies.json"))
+    else:
+        cands = CANDIDATES
     ok, bad = [], []
     with cf.ThreadPoolExecutor(12) as ex:
-        for lab, n, npm, sample, err in ex.map(run, CANDIDATES):
+        for lab, n, npm, sample, err in ex.map(run, cands):
             (bad if err or n == 0 else ok).append((lab, n, npm, sample, err))
-    print("\n=== WORKING ===")
     for lab, n, npm, sample, _ in sorted(ok):
-        print(f"OK  {lab:55s} jobs={n:5d} pm={npm:4d}  " + " || ".join(sample)[:400])
-    print("\n=== FAILED / EMPTY ===")
+        print(f"OK  {lab:55s} jobs={n:5d} pm={npm:4d}  " + " || ".join(sample)[:300])
     for lab, n, npm, sample, err in sorted(bad):
         print(f"BAD {lab:55s} {err or 'empty'}")
 
-    print("\n=== LINKEDIN GUEST ===")
-    for loc in ["United Kingdom", "Thailand"]:
-        try:
-            rows = list(sources.linkedin("Senior Product Manager", loc))
-            print(f"OK  linkedin {loc}: {len(rows)} cards")
-            for r in rows[:5]:
-                print("   ", json.dumps(r)[:300])
-            if rows:
-                d = sources.linkedin_desc(rows[0]["id"])
-                print(f"    desc chars={len(d)} :: {d[:200]!r}")
-        except Exception as e:  # noqa: BLE001
-            print(f"BAD linkedin {loc}: {type(e).__name__}: {e}")
-            traceback.print_exc()
-
-    print("\n=== GOOGLE RAW ===")
+    print("\n=== EXPERIMENTS: companies without a known public API ===")
+    raw("apple-html", "https://jobs.apple.com/en-gb/search?search=product%20manager&sort=newest&location=united-kingdom-GBR",
+        find="hydration")
+    raw("apple-api", "https://jobs.apple.com/api/v1/search", data={"query": "product manager", "filters": {"locations": ["postLocation-GBR"]}, "page": 1, "locale": "en-gb", "sort": "newest"}, find="")
+    raw("meta-html", "https://www.metacareers.com/jobs?q=product%20manager&offices[0]=London%2C%20UK", find="Product Manager")
+    raw("revolut", "https://www.revolut.com/careers/?query=product%20owner", find="__NEXT_DATA__")
+    raw("revolut-api", "https://www.revolut.com/api/careers/positions", find="")
+    raw("booking-jibe", "https://jobs.booking.com/api/jobs?keywords=product%20manager&page=1", find="")
+    raw("booking-careers", "https://jobs.booking.com/booking/jobs?keywords=product%20manager", find="Product Manager")
+    raw("zalando", "https://jobs.zalando.com/api/jobs/?limit=20&offset=0&query=product%20manager", find="")
+    raw("uber-html", "https://www.uber.com/global/en/careers/list/?query=product%20manager", find="Product Manager")
+    raw("canva-sr-titles", "https://api.smartrecruiters.com/v1/companies/Canva/postings?limit=100", find="product", n=600)
+    raw("shopee", "https://careers.shopee.sg/api/v1/job/list?keyword=product%20manager&limit=20&offset=0", find="")
+    for site in ["Klarna", "klarna", "External", "Klarna_Careers_External"]:
+        raw(f"klarna-wd-{site}", f"https://klarna.wd3.myworkdayjobs.com/wday/cxs/klarna/{site}/jobs",
+            data={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": "product"}, find="", n=300)
+    for t in ["skyscanner", "linemanwongnai", "lmwn", "canva", "klarna", "revolut", "uber", "booking", "zalando", "shopee"]:
+        for ats, url in [("ashby", f"https://api.ashbyhq.com/posting-api/job-board/{t}"),
+                         ("lever", f"https://api.lever.co/v0/postings/{t}?mode=json&limit=1"),
+                         ("gh", f"https://boards-api.greenhouse.io/v1/boards/{t}/jobs")]:
+            try:
+                src = sources.http(url)
+                print(f"OK  {ats}:{t} len={len(src)} {src[:120]!r}")
+            except Exception as e:  # noqa: BLE001
+                pass
+    print("\n=== LINKEDIN ===")
     try:
-        src = sources.http("https://www.google.com/about/careers/applications/jobs/results/?"
-                           "q=%22product%20manager%22&location=United%20Kingdom")
-        i = src.find("AF_initDataCallback({key: 'ds:1'")
-        print("len", len(src), "ds1 at", i)
-        print(src[i:i + 3000])
+        rows = list(sources.linkedin("Senior Product Manager", "United Kingdom"))
+        print("linkedin ok", len(rows))
     except Exception as e:  # noqa: BLE001
-        print("google raw failed", e)
-
-    print("\n=== MICROSOFT legacy ===")
-    try:
-        print(sources.http("https://gcsservices.careers.microsoft.com/search/api/v1/search?"
-                           "q=product%20manager&lc=United%20Kingdom&l=en_us&pg=1&pgSz=20&o=Recent")[:1500])
-    except Exception as e:  # noqa: BLE001
-        print("ms legacy failed", e)
-    try:
-        print(sources.http("https://apply.careers.microsoft.com/api/pcsx/search?"
-                           "domain=microsoft.com&query=product%20manager&location=United%20Kingdom")[:1500])
-    except Exception as e:  # noqa: BLE001
-        print("ms pcsx failed", e)
-
-    print("\n=== NTFY reachability ===")
-    try:
-        print(sources.http("https://ntfy.sh/v1/health")[:200])
-    except Exception as e:  # noqa: BLE001
-        print("ntfy failed", e)
+        print("linkedin", type(e).__name__, e)
 
 
 if __name__ == "__main__":
