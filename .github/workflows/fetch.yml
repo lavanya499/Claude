@@ -1,0 +1,24 @@
+name: fetch
+on:
+  workflow_dispatch:
+    inputs:
+      org:
+        description: "Ashby job-board name, e.g. loveholidays"
+        required: true
+      job_id:
+        description: "Posting id (the UUID at the end of the URL)"
+        required: true
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python radar/fetch_job.py "$ORG" "$JOB_ID"
+        continue-on-error: true
+        env:
+          ORG: ${{ github.event.inputs.org }}
+          JOB_ID: ${{ github.event.inputs.job_id }}
