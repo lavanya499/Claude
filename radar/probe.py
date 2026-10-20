@@ -14,47 +14,27 @@ import sources  # noqa: E402
 
 PM = re.compile(r"product manager|product lead|head of product", re.I)
 
-GH = ["stripe", "airbnb", "monzo", "deliveroo", "n26", "adyen", "datadog", "cloudflare",
-      "databricks", "mongodb", "elastic", "figma", "miro", "realtimeboardglobal", "celonis",
-      "getyourguide", "skyscanner", "checkoutcom", "coinbase", "intercom", "hubspot",
-      "anthropic", "dropbox", "pinterest", "reddit", "twilio", "okta", "gitlab", "rippling",
-      "deepmind", "canva", "agoda", "grab", "wise", "transferwise", "airwallex", "cultureamp",
-      "booking", "bookingcom", "klarna", "glovo", "traderepublic", "pleo", "mollie",
-      "hellofresh", "trivago", "spotify", "xero", "safetyculture", "lmwn", "traveloka",
-      "zalando", "personio", "bolt", "wayve", "synthesia", "postman", "doordash", "instacart",
-      "remote", "taxfix", "contentful", "sumup", "gocardless", "marshmallow", "cleo", "tide",
-      "paddle", "multiverse", "onfido", "truelayer", "snyk", "thoughtmachine", "zopa",
-      "employmenthero", "linktree", "carousell", "xendit", "ninjavan", "shopback", "2c2p"]
-LEVER = ["palantir", "spotify", "mistral", "lmwn", "binance", "kraken", "gojek", "traveloka",
-         "safetyculture", "canva", "klarna", "grab", "airwallex", "netflix", "shopback",
-         "carousell", "ninjavan", "xendit", "employmenthero", "linktree", "ledger",
-         "cultureamp", "atlassian", "wise", "zeller", "blinkist"]
-ASHBY = ["notion", "openai", "deel", "ramp", "linear", "synthesia", "elevenlabs", "cohere",
-         "posthog", "airwallex", "rippling", "revolut", "wise", "multiverse", "lovable",
-         "n8n", "pennylane", "qonto", "alan", "mistral", "perplexity", "harvey"]
-SR = ["Visa", "ServiceNow", "DeliveryHero", "Canva", "Wise", "Grab", "BoschGroup",
-      "BookingCom", "Booking", "Ubisoft", "LinkedIn3", "Sky", "Experian", "Equinix",
-      "Lazada", "Shopee", "foodpanda", "Agoda", "Atlassian"]
-WD = [("salesforce.wd12.myworkdayjobs.com", "salesforce", "External_Career_Site"),
-      ("adobe.wd5.myworkdayjobs.com", "adobe", "external_experienced"),
-      ("paypal.wd1.myworkdayjobs.com", "paypal", "jobs"),
-      ("mastercard.wd1.myworkdayjobs.com", "mastercard", "CorporateCareers"),
-      ("nvidia.wd5.myworkdayjobs.com", "nvidia", "NVIDIAExternalCareerSite"),
-      ("workday.wd5.myworkdayjobs.com", "workday", "Workday"),
-      ("autodesk.wd1.myworkdayjobs.com", "autodesk", "Ext"),
-      ("expedia.wd108.myworkdayjobs.com", "expedia", "search"),
-      ("bookingholdings.wd5.myworkdayjobs.com", "bookingholdings", "BookingHoldings"),
-      ("klarna.wd3.myworkdayjobs.com", "klarna", "Klarna_Careers"),
-      ("ebay.wd5.myworkdayjobs.com", "ebay", "apply"),
-      ("visa.wd5.myworkdayjobs.com", "visa", "Visa"),
-      ("wise.wd3.myworkdayjobs.com", "wise", "Wise_Careers"),
-      ("intuit.wd1.myworkdayjobs.com", "intuit", "Intuit"),
-      ("zendesk.wd1.myworkdayjobs.com", "zendesk", "zendesk"),
-      ("thomsonreuters.wd5.myworkdayjobs.com", "thomsonreuters", "External_Career_Site"),
-      ("hp.wd5.myworkdayjobs.com", "hp", "ExternalCareerSite"),
-      ("cisco.wd5.myworkdayjobs.com", "cisco", "Cisco_Careers"),
-      ("dell.wd1.myworkdayjobs.com", "dell", "External"),
-      ("spgi.wd5.myworkdayjobs.com", "spgi", "SPGI_Careers")]
+# Round 3 candidates: customer-experience / conversational-AI / insurtech companies.
+GH = ["polyai", "parloa", "cognigy", "lemonade", "wefox", "zego", "bolttech", "covergenius",
+      "freshworks", "sprinklr", "uniphore", "observeai", "yellowai", "gupshup", "haptik", "koreai",
+      "zendesk", "talkdesk", "dixa", "ada", "forethought", "sierra", "decagon", "cresta", "gorgias",
+      "kustomer", "helpscout", "aircall", "ringcentral", "five9", "genesys", "twilio", "sinch",
+      "infobip", "messagebird", "bird", "trengo", "chatbase", "assembled", "playvox", "zopa",
+      "acko", "digit", "insurify", "getsafe", "alan", "hiscox", "bupa", "ondo"]
+LEVER = ["polyai", "parloa", "cognigy", "covergenius", "bolttech", "yellowai", "yellow", "observeai",
+         "uniphore", "gupshup", "haptik", "freshworks", "dixa", "talkdesk", "aircall", "zego",
+         "wefox", "getsafe", "acko", "infobip", "sinch", "verloop", "leena", "sprinklr"]
+ASHBY = ["polyai", "parloa", "cognigy", "zego", "lemonade", "wefox", "dixa", "aircall", "sierra",
+         "decagon", "cresta", "assembled", "gorgias", "kustomer", "getsafe", "covergenius", "bolttech",
+         "talkdesk", "trengo", "yellowai", "observeai", "ada", "forethought", "intercom"]
+SR = ["Freshworks", "Sprinklr", "Talkdesk", "Infobip", "Sinch", "Genesys", "NICE", "Five9",
+      "Bolttech", "CoverGenius", "Uniphore", "Zendesk", "Gupshup", "Bupa", "Aviva", "Allianz"]
+WD = [("zendesk.wd1.myworkdayjobs.com", "zendesk", "zendesk"),
+      ("genesys.wd1.myworkdayjobs.com", "genesys", "Genesys"),
+      ("sprinklr.wd1.myworkdayjobs.com", "sprinklr", "careers"),
+      ("nice.wd3.myworkdayjobs.com", "nice", "NICE_Careers"),
+      ("five9.wd5.myworkdayjobs.com", "five9", "Five9"),
+      ("ringcentral.wd1.myworkdayjobs.com", "ringcentral", "RingCentral_Careers")]
 
 EU = ["United Kingdom", "Ireland", "Netherlands", "Germany", "Australia", "Singapore",
       "Malaysia", "Thailand", "India"]
@@ -66,12 +46,6 @@ CANDIDATES = (
     + [{"ats": "ashby", "token": t} for t in ASHBY]
     + [{"ats": "smartrecruiters", "token": t} for t in SR]
     + [{"ats": "workday", "host": h, "tenant": t, "site": s} for h, t, s in WD]
-    + [{"ats": "amazon", "countries": ["GBR", "IRL", "DEU", "AUS", "SGP", "IND"]},
-       {"ats": "google", "locations": ["United Kingdom", "Singapore", "Australia"]},
-       {"ats": "microsoft", "locations": ["United Kingdom", "Ireland", "Australia", "India"]},
-       {"ats": "eightfold", "host": "explore.jobs.netflix.net", "domain": "netflix.com"},
-       {"ats": "uber"},
-       {"ats": "atlassian"}]
 )
 
 
