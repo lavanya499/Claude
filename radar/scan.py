@@ -353,6 +353,7 @@ def main():
         for j in hot[:6]:
             ntfy(f"{j['company']}: {j['title']}"[:250],
                  f"{j['location'][:120]}\nScore {j['score']}"
+                 + (f" · posted {j['posted'][:10]}" if j.get("posted") else "")
                  + {"yes": " · sponsorship/relocation mentioned", "no": " · says no sponsorship"}
                  .get(j["visa"], ""),
                  click=j["url"], priority=5 if j["tier"] == 1 else 4,
