@@ -23,6 +23,9 @@ public repositories. The scanner:
 * reads each target company's own careers API (Greenhouse, Lever, Ashby, SmartRecruiters, Workday,
   Google, Amazon, Microsoft, Netflix, Atlassian, Booking.com), and LinkedIn's public job search in
   15 countries;
+* LinkedIn often rate-limits GitHub's servers, so LinkedIn queries rotate a few per hour and are
+  best-effort. Companies with no public jobs API (Meta, Revolut, Klarna, Zalando, Shopee and others)
+  are also covered by a nightly Claude web-search sweep (`radar/NIGHTLY.md`);
 * keeps senior-level PM roles in the target countries, removes duplicates, and flags descriptions
   that offer or rule out visa sponsorship or relocation;
 * scores each role (seniority, company tier, country, visa signal, freshness), then updates

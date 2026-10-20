@@ -174,8 +174,8 @@ def scan_linkedin():
             except Exception as e:  # noqa: BLE001
                 health["errors"] += 1
                 health["last_error"] = f"{type(e).__name__}: {str(e)[:120]}"
-                if "429" in str(e):
-                    health["rate_limited"] = True
+                if "429" in str(e) or "rate-limited" in str(e):
+                    health.update(ok=False, rate_limited=True)
                     return found, health
                 continue
             health["cards"] += len(rows)
