@@ -227,6 +227,7 @@ def write_report(jobs, health, new_keys):
 
 def main():
     push = "--no-push" not in sys.argv
+    STATE.parent.mkdir(parents=True, exist_ok=True)
     state = json.loads(STATE.read_text()) if STATE.exists() else {"jobs": {}}
     before = json.dumps(state["jobs"], sort_keys=True)
     known = state["jobs"]
