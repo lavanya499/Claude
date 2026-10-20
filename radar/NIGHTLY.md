@@ -28,7 +28,8 @@ instructions.
    `{fit: 0-100, verdict, strengths: [3], gaps: [<=3], headline (<=35 words), bullets: [3, Google X-Y-Z form,
    <=32 words each], referral_note (<280 chars, uses {name}), questions: [5], keywords: [6],
    created: ISO time, jdUsed: bool}`.
-   Use only facts, numbers and employers that are in the resume. Never invent metrics.
+   Write from `profile/me.master` (structured facts) and follow its `employment_note` exactly: both
+   Policybazaar roles sit under one employer. Use only facts, numbers and employers in the profile. Never invent metrics.
    If there is no resume, skip this step.
 7. **Coverage sweep** for companies without a public jobs API (Meta, Apple, Uber, Revolut, Klarna, Canva,
    Shopee, Zalando, Skyscanner, Booking.com, LINE MAN Wongnai). Run at most 6 `WebSearch` queries (standard

@@ -520,14 +520,14 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     const prompt = `You are a senior big-tech recruiter and resume writer helping a Senior Product Manager apply for a role.
 Compare the RESUME with the JOB and reply with only JSON in exactly this shape:
 {"fit": 0-100 integer, "verdict": "one plain sentence on fit", "strengths": ["3 short strengths that match this job"], "gaps": ["up to 3 gaps or risks, short"], "headline": "resume summary line tailored to this role, max 35 words", "bullets": ["3 resume bullets in Google's X-Y-Z form (Accomplished X as measured by Y by doing Z), max 32 words each"], "referral_note": "LinkedIn connection note under 280 characters asking a team member for a referral; use {name} for their name and mention the role", "questions": ["5 interview questions this team is likely to ask"], "keywords": ["6 keywords from the job description to mirror in the resume"]}
-Rules: use only facts, numbers and employers that appear in the resume; never invent metrics. If the job description is missing, judge from the title and company.
+Rules: use only facts, numbers and employers that appear in the resume; never invent metrics. If the resume includes an employment_note, follow it exactly when naming employers. If the job description is missing, judge from the title and company.
 
 JOB: ${j.title} at ${j.company} (${j.location}). Posting: ${j.url}
 JOB DESCRIPTION:
 ${jd || "(not available)"}
 
 RESUME:
-${S.profile.resume}`;
+${S.profile.master ? JSON.stringify(S.profile.master) : S.profile.resume}`;
     aborter?.abort(); aborter = new AbortController();
     try {
       const out = await S.sample.json(prompt, { signal: aborter.signal, onText: ({ text }) => { stream.textContent = text.slice(-900); } });
@@ -590,7 +590,14 @@ ${S.profile.resume}`;
         h("button", { class: "btn", onclick: () => saveFile(() => letterPdf(m, d, j), base + "_Cover_Letter.pdf") }, "Download cover letter (PDF)"),
         h("button", { class: "btn", onclick: () => buildDocs(box, j) }, "Rebuild")),
       h("div", { class: "block" }, h("div", { class: "block-head" }, h("span", { class: "eyebrow" }, "Cover letter text"), copyBtn(d.cover_letter || "")),
-        h("div", { class: "copyable" }, d.cover_letter || "")));
+        h("div", { class: "copyable" }, d.cover_letter || "")),
+      Array.isArray(d.form_entries) && d.form_entries.length ? h("div", { class: "block" },
+        h("span", { class: "eyebrow" }, "Work history for application forms (when the form can't read your resume)"),
+        ...d.form_entries.map((f) => h("div", { class: "card" },
+          h("div", { class: "block-head" }, h("strong", {}, `${f.title} · ${f.company}`), copyBtn(f.title, "Copy title")),
+          h("div", { class: "note" }, `${f.location} · ${f.from} – ${f.to}`),
+          h("div", { class: "block-head" }, h("span", { class: "eyebrow" }, "Role description"), copyBtn(f.description || "")),
+          h("div", { class: "copyable" }, f.description || "")))) : null);
   }
   const fileBase = (m, j) => [m.name, j.company, j.title].join(" ").replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "").slice(0, 90);
   async function saveFile(make, filename) {
@@ -609,6 +616,7 @@ ${S.profile.resume}`;
     const variant = variantFor(j);
     const m = S.profile.master;
     const prompt = `You are tailoring a Senior Product Manager's resume and cover letter for one specific role.
+Follow MASTER.employment_note exactly: both Policybazaar roles belong to one employer, never describe PB Partners as a separate company or a job change.
 Use ONLY facts in MASTER (experience facts and scope, awards, certifications, skills). You may rephrase, reorder, merge or drop facts and mirror the job's language, but never invent employers, titles, dates, numbers, tools, scope or outcomes. Every number you use must appear in MASTER.
 Version: ${variant}. ${variant === "india"
   ? "Indian MNC style: lakh/crore and Indian industry terms (POSP, RM, FOS) are fine."
@@ -619,7 +627,8 @@ Reply with only JSON in exactly this shape:
  "skills": [{"label": "short label", "items": "comma-separated skills from MASTER most relevant to this job"}],
  "experience": {"pbp": {"scope": "1 sentence on scope", "bullets": ["5-7 bullets"]}, "pb": {"scope": "1 sentence", "bullets": ["4-6 bullets"]}, "hcl": {"bullets": ["1-2 bullets"]}, "infy_test": {"bullets": ["0-1 bullet"]}, "infy_support": {"bullets": ["0-1 bullet"]}},
  "cover_letter": "Starts with 'Dear Hiring Team,' then 3-4 short paragraphs separated by blank lines, max 300 words, no signature. Paragraph 1: the role and the single most relevant achievement. Paragraph 2: 2-3 achievements mapped to this job's needs. Paragraph 3: why this company and product.${variant === "india" ? "" : " Mention readiness to relocate to the role's city."}",
- "match_notes": "one sentence: what this version emphasises and why"}
+ "match_notes": "one sentence: what this version emphasises and why",
+ "form_entries": [{"title": "job title as it should be typed into an application form", "company": "employer name", "location": "city, country", "from": "MM/YYYY", "to": "MM/YYYY or Present", "description": "plain text for the form's role-description box: 1-2 sentence scope, then 3-6 lines starting with '- ', tailored to this job, max 1,200 characters"}]  (one entry per MASTER experience item, newest first; both Policybazaar roles use company "Policybazaar (PB Fintech)")}
 Bullets: max 30 words each, start with a strong verb, put the measurable outcome first when MASTER has a number. Use 3-4 skills groups.
 
 JOB: ${j.title} at ${j.company} (${j.location}). Posting: ${j.url}
@@ -684,15 +693,24 @@ ${JSON.stringify(m)}`;
     k.header(m, d, intl);
     k.section("Summary"); k.write(d.summary || "");
     k.section("Experience");
+    let employer = null;
     for (const e of m.experience) {
       const t = (d.experience || {})[e.id] || {};
       const bullets = Array.isArray(t) ? t : (t.bullets || []);
       if (!bullets.length && !["pbp", "pb", "hcl"].includes(e.id)) continue;
-      k.y += 5; k.room(46);
-      doc.setFont("helvetica", "bold"); doc.setFontSize(10); doc.setTextColor(...k.INK);
-      k.y += 13; doc.text(pdfText(`${e.title}  |  ${e.company}`), k.L, k.y);
+      if (e.employer && e.employer !== employer) {  // one heading per employer, roles listed beneath it
+        k.y += 5; k.room(60);
+        doc.setFont("helvetica", "bold"); doc.setFontSize(10.5); doc.setTextColor(...k.INK);
+        k.y += 13; doc.text(pdfText(e.employer), k.L, k.y);
+        doc.setFont("helvetica", "normal"); doc.setFontSize(8.8); doc.setTextColor(...k.MUT);
+        doc.text(pdfText(`${e.location}  |  ${e.employer_dates}`), k.R, k.y, { align: "right" });
+      }
+      employer = e.employer || null;
+      k.y += e.employer ? 3 : 5; k.room(46);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(e.employer ? 9.8 : 10); doc.setTextColor(...(e.employer ? k.ACC : k.INK));
+      k.y += 13; doc.text(pdfText(e.employer ? e.title : `${e.title}  |  ${e.company}`), k.L, k.y);
       doc.setFont("helvetica", "normal"); doc.setFontSize(8.8); doc.setTextColor(...k.MUT);
-      doc.text(pdfText(`${e.location}  |  ${e.dates}`), k.R, k.y, { align: "right" });
+      doc.text(pdfText(e.employer ? e.dates : `${e.location}  |  ${e.dates}`), k.R, k.y, { align: "right" });
       const sub = [intl ? e.context : null, e.note].filter(Boolean).join(". ");
       if (sub) k.write(sub, { size: 8.8, style: "italic", color: k.MUT });
       if (t.scope) k.write(t.scope, { size: 9.2 });
