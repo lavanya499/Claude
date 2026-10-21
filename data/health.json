@@ -14,7 +14,7 @@
  "Agoda": {
   "matched": 7,
   "ok": true,
-  "total": 311,
+  "total": 313,
   "via": "greenhouse"
  },
  "Airbnb": {
@@ -26,7 +26,7 @@
  "Airwallex": {
   "matched": 10,
   "ok": true,
-  "total": 501,
+  "total": 500,
   "via": "ashby"
  },
  "Amazon": {
@@ -38,31 +38,30 @@
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 674,
+  "total": 675,
   "via": "greenhouse"
  },
  "Apple": {
-  "matched": 0,
   "ok": true,
-  "total": 5,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Atlassian": {
   "matched": 4,
   "ok": true,
-  "total": 362,
+  "total": 363,
   "via": "atlassian"
  },
  "Booking.com": {
-  "matched": 1,
-  "ok": true,
-  "total": 1,
+  "error": "RuntimeError: no jobs returned (LinkedIn fallback queued)",
+  "ok": false,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Canva": {
   "matched": 0,
   "ok": true,
-  "total": 102,
+  "total": 105,
   "via": "smartrecruiters"
  },
  "Cresta": {
@@ -92,7 +91,7 @@
  "Expedia Group": {
   "matched": 7,
   "ok": true,
-  "total": 66,
+  "total": 67,
   "via": "workday"
  },
  "Genesys": {
@@ -110,13 +109,13 @@
  "Google": {
   "matched": 15,
   "ok": true,
-  "total": 70,
+  "total": 69,
   "via": "google"
  },
  "Grab": {
   "matched": 11,
   "ok": true,
-  "total": 432,
+  "total": 431,
   "via": "smartrecruiters"
  },
  "Intercom": {
@@ -126,9 +125,8 @@
   "via": "greenhouse"
  },
  "Klarna": {
-  "matched": 0,
   "ok": true,
-  "total": 0,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "LINE MAN Wongnai": {
@@ -139,12 +137,12 @@
  "LinkedIn": {
   "matched": 0,
   "ok": true,
-  "total": 218,
+  "total": 220,
   "via": "smartrecruiters"
  },
  "LinkedIn (all companies)": {
-  "calls": 0,
-  "cards": 0,
+  "calls": 6,
+  "cards": 60,
   "errors": 0,
   "ok": true
  },
@@ -180,7 +178,7 @@
  "Netflix": {
   "matched": 1,
   "ok": true,
-  "total": 162,
+  "total": 161,
   "via": "eightfold"
  },
  "OpenAI": {
@@ -202,9 +200,8 @@
   "via": "workday"
  },
  "Revolut": {
-  "matched": 7,
   "ok": true,
-  "total": 10,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Salesforce": {
@@ -239,7 +236,7 @@
  "Stripe": {
   "matched": 10,
   "ok": true,
-  "total": 730,
+  "total": 731,
   "via": "greenhouse"
  },
  "SumUp": {
@@ -255,9 +252,8 @@
   "via": "greenhouse"
  },
  "Uber": {
-  "matched": 1,
   "ok": true,
-  "total": 26,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Visa": {
@@ -269,7 +265,7 @@
  "Wise": {
   "matched": 15,
   "ok": true,
-  "total": 405,
+  "total": 413,
   "via": "smartrecruiters"
  },
  "Xendit": {
@@ -279,9 +275,8 @@
   "via": "greenhouse"
  },
  "Zalando": {
-  "matched": 0,
   "ok": true,
-  "total": 0,
+  "skipped": true,
   "via": "linkedin_company"
  },
  "Zego": {
@@ -293,7 +288,7 @@
  "Zendesk": {
   "matched": 3,
   "ok": true,
-  "total": 119,
+  "total": 118,
   "via": "workday"
  },
  "eBay": {
