@@ -18,7 +18,10 @@
    "Singapore",
    "Malaysia",
    "Thailand",
-   "India"
+   "India",
+   "United Arab Emirates",
+   "Canada",
+   "New Zealand"
   ],
   "aliases": [
    "Google DeepMind",
@@ -40,7 +43,10 @@
    "Czech Republic",
    "Australia",
    "Singapore",
-   "India"
+   "India",
+   "United Arab Emirates",
+   "Canada",
+   "New Zealand"
   ],
   "fallback": {
    "ats": "linkedin_company",
@@ -57,19 +63,23 @@
   "tier": 1,
   "ats": "amazon",
   "countries": [
-   "GBR",
-   "IRL",
+   "ARE",
+   "AUS",
+   "CAN",
    "DEU",
-   "NLD",
-   "FRA",
    "ESP",
+   "FRA",
+   "GBR",
+   "IND",
+   "IRL",
    "ITA",
    "LUX",
+   "NLD",
+   "NZL",
    "POL",
-   "SWE",
-   "AUS",
+   "SAU",
    "SGP",
-   "IND"
+   "SWE"
   ],
   "aliases": [
    "Amazon Web Services (AWS)",

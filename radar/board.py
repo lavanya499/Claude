@@ -21,13 +21,15 @@ CODES = [
     (r"copenhagen", "CPH"), (r"warsaw|warszawa", "WAW"), (r"krak[oó]w", "KRK"), (r"prague", "PRG"),
     (r"tallinn", "TLL"), (r"budapest", "BUD"), (r"bucharest", "BUH"), (r"luxembourg", "LUX"),
     (r"düsseldorf|dusseldorf", "DUS"), (r"oslo", "OSL"), (r"sydney", "SYD"), (r"melbourne", "MEL"),
-    (r"brisbane", "BNE"), (r"bangkok", "BKK"), (r"kuala lumpur|petaling jaya|cyberjaya", "KUL"),
+    (r"brisbane", "BNE"), (r"dubai", "DXB"), (r"abu dhabi", "AUH"), (r"riyadh", "RUH"), (r"doha", "DOH"), (r"toronto", "YYZ"), (r"vancouver", "YVR"),
+    (r"montreal", "YUL"), (r"ottawa", "YOW"), (r"calgary", "YYC"), (r"auckland", "AKL"), (r"wellington", "WLG"),
+    (r"bangkok", "BKK"), (r"kuala lumpur|petaling jaya|cyberjaya", "KUL"),
     (r"penang", "PEN"), (r"singapore", "SIN"), (r"bengaluru|bangalore", "BLR"), (r"hyderabad", "HYD"),
     (r"gurugram|gurgaon|noida|delhi", "DEL"), (r"mumbai", "BOM"), (r"pune", "PNQ"), (r"chennai", "MAA"),
 ]
 REGION_CODES = {"UK": "GBR", "Europe": "EUR", "Australia": "AUS", "Thailand": "THA",
-                "Malaysia": "MYS", "Singapore": "SIN", "India": "IND"}
-ORDER = ["UK", "Europe", "Australia", "Thailand", "Malaysia", "Singapore", "India"]
+                "Malaysia": "MYS", "Singapore": "SIN", "India": "IND", "Gulf": "GLF", "Canada": "CAN", "New Zealand": "NZL"}
+ORDER = ["UK", "Europe", "Australia", "Thailand", "Malaysia", "Singapore", "Gulf", "Canada", "New Zealand", "India"]
 
 
 def code_for(job):

@@ -21,7 +21,10 @@
     "Thailand": "thailand|bangkok|\\btha\\b",
     "Malaysia": "malaysia|kuala lumpur|penang|cyberjaya|petaling jaya|\\bmys\\b",
     "Singapore": "singapore|\\bsgp\\b",
-    "India": "india|bengaluru|bangalore|hyderabad|gurgaon|gurugram|noida|delhi|mumbai|pune|chennai|\\bind\\b"
+    "India": "india|bengaluru|bangalore|hyderabad|gurgaon|gurugram|noida|delhi|mumbai|pune|chennai|\\bind\\b",
+    "Gulf": "united arab emirates|\\buae\\b|dubai|abu dhabi|sharjah|saudi|riyadh|jeddah|qatar|doha|bahrain|kuwait|\\boman\\b|muscat",
+    "Canada": "canada|toronto|vancouver|montreal|ottawa|calgary|waterloo",
+    "New Zealand": "new zealand|auckland|wellington|christchurch|\\bnz\\b"
   },
   "region_points": {
     "UK": 15,
@@ -30,7 +33,10 @@
     "Thailand": 15,
     "Malaysia": 15,
     "Singapore": 12,
-    "India": 8
+    "India": 8,
+    "Gulf": 15,
+    "Canada": 12,
+    "New Zealand": 15
   },
   "linkedin": {
     "keywords": [
@@ -52,7 +58,12 @@
       "Australia",
       "Singapore",
       "Malaysia",
-      "Thailand"
+      "Thailand",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Qatar",
+      "Canada",
+      "New Zealand"
     ],
     "hours": 24,
     "per_run": 6
