@@ -1,0 +1,40 @@
+name: linkedin
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes; GitHub may delay a run, the 90-minute window covers it
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "true = scan and write files but send no phone alerts"
+        default: "false"
+permissions:
+  contents: write
+concurrency:
+  group: linkedin
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    # A failed run makes GitHub email the repository owner, so runs never end red.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - id: scan
+        continue-on-error: true
+        timeout-minutes: 11
+        run: python radar/linkedin_scan.py ${{ github.event.inputs.dry == 'true' && '--no-push' || '' }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      - name: Commit results
+        if: steps.scan.outputs.changed == 'true'
+        continue-on-error: true
+        run: |
+          git config user.name "spm-radar"
+          git config user.email "spm-radar@users.noreply.github.com"
+          git add data/linkedin.json LIVE.md
+          git diff --cached --quiet && exit 0
+          git commit -m "linkedin: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase -X theirs origin "$GITHUB_REF_NAME" && git push && break; sleep 5; done

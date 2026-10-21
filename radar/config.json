@@ -66,7 +66,25 @@
       "New Zealand"
     ],
     "hours": 24,
-    "per_run": 6
+    "per_run": 0
+  },
+  "linkedin_fast": {
+    "note": "Runs every 15 minutes (linkedin.yml). Every PM posting from the last 90 minutes, all levels except junior; alerts only for target companies.",
+    "locations": ["United Kingdom", "Ireland", "Netherlands", "Germany", "Switzerland", "Sweden", "Spain",
+                  "France", "Poland", "Denmark", "Portugal", "Australia", "Singapore", "Malaysia", "Thailand",
+                  "United Arab Emirates", "Saudi Arabia", "Qatar", "Canada", "New Zealand", "India"],
+    "big": ["United Kingdom", "India", "Germany", "Canada", "Australia", "Netherlands", "Ireland",
+            "Singapore", "United Arab Emirates"],
+    "keywords": ["product manager"],
+    "big_keywords": ["senior product manager"],
+    "seconds": 5400,
+    "pages": 1,
+    "big_pages": 2,
+    "max_calls": 44,
+    "detail_limit": 6,
+    "keep_days": 7,
+    "board_hours": 72,
+    "rollup_hours_utc": [2, 17]
   },
   "profile": {
     "note": "Scoring tuned to the candidate: ~5 yrs PM / 9+ yrs total; customer experience, conversational AI, CRM, insurance/fintech.",

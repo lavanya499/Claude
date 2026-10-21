@@ -27,6 +27,7 @@ BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = NOW.date().isoformat()
+NOW_MIN = NOW.strftime("%Y-%m-%dT%H:%MZ")
 
 T = {k: re.compile(v, re.I) for k, v in CFG["titles"].items()}
 REGIONS = {k: re.compile(v, re.I) for k, v in CFG["regions"].items()}
@@ -127,6 +128,15 @@ def linkedin_plan():
 LI_PLAN = linkedin_plan()
 
 
+def li_alerted():
+    """(company, title) pairs the 15-minute LinkedIn scanner already pushed, so one role never pings twice."""
+    try:
+        d = json.loads((ROOT / "data/linkedin.json").read_text())
+    except (OSError, ValueError):
+        return set()
+    return {(slug(r["company"]), slug(r["title"])) for r in d.get("jobs", {}).values() if r.get("alerted")}
+
+
 def want(title):
     return seniority(title) is not None
 
@@ -206,7 +216,7 @@ def scan_linkedin():
 
 # --- output --------------------------------------------------------------------
 
-def ntfy(title, message, click=None, priority=3, tags=None, email=False):
+def ntfy(title, message, click=None, priority=3, tags=None, email=False, actions=None):
     topic = os.environ.get("NTFY_TOPIC") or CFG["ntfy_topic"]
     body = {"topic": topic, "title": title[:250], "message": message[:3800],
             "priority": priority, "tags": tags or ["briefcase"]}
@@ -214,8 +224,8 @@ def ntfy(title, message, click=None, priority=3, tags=None, email=False):
         body["email"] = os.environ["NTFY_EMAIL"]
     if click:
         body["click"] = click
-    body["actions"] = [{"action": "view", "label": "All jobs",
-                        "url": f"{REPO_URL}/blob/{BRANCH}/JOBS.md"}]
+    body["actions"] = actions or [{"action": "view", "label": "All jobs",
+                                   "url": f"{REPO_URL}/blob/{BRANCH}/JOBS.md"}]
     try:
         sources.http("https://ntfy.sh/", data=body, timeout=20)
     except Exception as e:  # noqa: BLE001
@@ -292,7 +302,7 @@ def main():
         from_li = r.get("_detail", ("",))[0] == "linkedin"
         key = f"linkedin:{r['id']}" if from_li else f"{slug(c['name'])}:{r['id']}"
         by_fingerprint[(slug(c["name"]), slug(r["title"]))] = key
-        rec = known.get(key) or {"first_seen": TODAY, "key": key}
+        rec = known.get(key) or {"first_seen": TODAY, "first_seen_at": NOW_MIN, "key": key}
         rec.update({"company": c["name"], "tier": c.get("tier", 2), "title": r["title"],
                     "location": r.get("location", ""), "url": r["url"],
                     "source": "linkedin" if from_li else c["ats"],
@@ -308,7 +318,7 @@ def main():
         if (slug(cname), slug(r["title"])) in by_fingerprint:
             continue  # already have it straight from the company's own site
         key = f"linkedin:{r['id']}"
-        rec = known.get(key) or {"first_seen": TODAY, "key": key}
+        rec = known.get(key) or {"first_seen": TODAY, "first_seen_at": NOW_MIN, "key": key}
         rec.update({"company": cname, "tier": c.get("tier", 2) if c else 3, "title": r["title"],
                     "location": r["location"], "url": r["url"], "source": "linkedin",
                     "posted": r.get("posted") or rec.get("posted"), "level": r["level"],
@@ -369,7 +379,9 @@ def main():
              f"{len(ok_companies)} sources. You'll get a ping when a new one appears.",
              click=f"{REPO_URL}/blob/{BRANCH}/JOBS.md", tags=["rocket"])
     elif push:
-        hot = [j for j in fresh if j["tier"] in (1, 2) and j["score"] >= CFG["push_min_score"]]
+        seen_on_li = li_alerted()
+        hot = [j for j in fresh if j["tier"] in (1, 2) and j["score"] >= CFG["push_min_score"]
+               and (slug(j["company"]), slug(j["title"])) not in seen_on_li]
         for j in hot[:6]:
             ntfy(f"{j['company']}: {j['title']}"[:250],
                  f"{j['location'][:120]}\nScore {j['score']}"

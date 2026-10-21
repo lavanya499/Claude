@@ -379,12 +379,30 @@ def _linkedin_get(url):
             _LI["last"] = time.time()
 
 
+_AGO = re.compile(r"(\d+)\s*(second|minute|hour|day|week|month)s?\s+ago", re.I)
+_AGO_SECS = {"second": 1, "minute": 60, "hour": 3600, "day": 86400, "week": 604800, "month": 2592000}
+
+
+def parse_ago(label, now=None):
+    """'20 minutes ago' -> (ISO minute timestamp, precise?). Day-level labels are not precise."""
+    m = _AGO.search(label or "")
+    if not m:
+        return "", False
+    now = now or time.time()
+    secs = int(m.group(1)) * _AGO_SECS[m.group(2).lower()]
+    ts = time.strftime("%Y-%m-%dT%H:%MZ", time.gmtime(now - secs))
+    return ts, m.group(2).lower() in ("second", "minute", "hour")
+
+
 def linkedin(keywords, location="", want=_always, hours=24, pages=1, company_id=None,
-             geo_id=None, **_):
-    """LinkedIn's public (logged-out) job search. Covers every company."""
+             geo_id=None, seconds=None, **_):
+    """LinkedIn's public (logged-out) job search. Covers every company.
+
+    `seconds` narrows the posting window below one hour granularity (f_TPR=r<seconds>)."""
     start = 0
     for _page in range(pages):
-        params = {"keywords": keywords, "f_TPR": f"r{hours * 3600}", "sortBy": "DD", "start": start}
+        params = {"keywords": keywords, "f_TPR": f"r{seconds or hours * 3600}", "sortBy": "DD",
+                  "start": start}
         if location:
             params["location"] = location
         if geo_id:
@@ -400,14 +418,17 @@ def linkedin(keywords, location="", want=_always, hours=24, pages=1, company_id=
                 continue
             g = lambda pat: (lambda mm: text(mm.group(1)) if mm else "")(re.search(pat, c, re.S))
             n += 1
+            ago = g(r'<time[^>]*>(.*?)</time>')
+            pts, precise = parse_ago(ago)
             yield {"id": m.group(1),
                    "title": g(r'base-search-card__title">(.*?)</h3>'),
                    "company": g(r'base-search-card__subtitle">.*?>(.*?)</a>') or
                               g(r'base-search-card__subtitle">(.*?)</h4>'),
                    "location": g(r'job-search-card__location">(.*?)</span>'),
                    "url": f"https://www.linkedin.com/jobs/view/{m.group(1)}/",
-                   "posted": g(r'<time[^>]*datetime="([^"]+)"')}
-        if n == 0:
+                   "posted": g(r'<time[^>]*datetime="([^"]+)"'),
+                   "posted_text": ago, "posted_ts": pts if precise else ""}
+        if n < 20:  # a short page is the last one
             break
         start += n
 
