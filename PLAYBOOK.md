@@ -26,14 +26,14 @@ likely to reach a recruiter than a cold one. Every application in this plan gets
 ```
 Every hour (GitHub Actions, free)        Every night, about 21:00 IST        Your 2 hours
 ────────────────────────────────         ─────────────────────────────       ────────────────────────
-79 target companies' career sites  ──►   ntfy digest: "Tonight's      ──►    Command Center dashboard:
+97 target companies' career sites  ──►   ntfy digest: "Tonight's      ──►    Command Center dashboard:
 + LinkedIn every 15 min, 21 countries    shortlist: N new roles"             triage → tailor → apply
 filter: SPM-level × your countries       Claude routine scores roles          → referral asks → prep
 dedupe, score, visa/relocation flags     against your resume and syncs        → log status
 instant phone push for target roles      them to the dashboard
 ```
 
-* **Instant alerts**: a new PM role on LinkedIn at one of the 79 target companies pushes to your
+* **Instant alerts**: a new PM role on LinkedIn at one of the 97 target companies pushes to your
   phone within about 15 minutes through the free **ntfy** app (see README for the 1-minute setup).
   Roles on a company's own careers page push within the hour.
 * **LIVE.md**: every PM role LinkedIn posted in the last 48 hours, newest first, to the minute.

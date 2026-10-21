@@ -8,7 +8,7 @@ Zealand. Singapore and India are tracked too.
   minute. Refreshed every 15 minutes.
 * **[JOBS.md](JOBS.md)**: every open matching role at the target companies, ranked. Refreshed every hour.
 * **[PLAYBOOK.md](PLAYBOOK.md)**: the 30-day plan and the nightly 2-hour routine.
-* **[radar/companies.json](radar/companies.json)**: the 79 target companies, with hubs and why each is on the list.
+* **[radar/companies.json](radar/companies.json)**: the 97 target companies, with hubs and why each is on the list.
 
 ## Get alerts on your phone (1 minute, free)
 
