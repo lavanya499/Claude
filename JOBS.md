@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-21 13:53 UTC · 488 open matches · 488 new in the last 24h · 51/52 sources healthy_
+_Updated 2026-10-21 18:42 UTC · 498 open matches · 498 new in the last 24h · 51/52 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -75,6 +75,7 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 83 | ⭐ Amazon | [Senior Product Manager - Tech, Global Transportation Technology Services](https://www.amazon.jobs/en/jobs/10504416/senior-product-manager-tech-global-transportation-technology-services) | Hyderabad, Telangana, IND |  | 2026-08-18 |
 | 83 | ⭐ Amazon | [Product Manager-Tech III, Finance Automation](https://www.amazon.jobs/en/jobs/10538234/product-manager-tech-iii-finance-automation) | Bengaluru, Karnataka, IND |  | 2026-09-12 |
 | 83 | ⭐ Amazon | [Senior Product Manager, Service Delivery Standard Work](https://www.amazon.jobs/en/jobs/10556408/senior-product-manager-service-delivery-standard-work) | Hyderabad, Telangana, IND |  | 2026-09-22 |
+| 83 | ⭐ Amazon | [Principle Product Manager Tech, Global Corporate Procurement Tech](https://www.amazon.jobs/en/jobs/10585524/principle-product-manager-tech-global-corporate-procurement-tech) | Bengaluru, Karnataka, IND |  | 2026-10-21 |
 | 83 | ⭐ Microsoft | [Sr Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557040189) | India, Uttar Pradesh, Noida; India, Telangana, Hyderabad |  | 2026-10-19 |
 | 83 | ⭐ Microsoft | [Senior Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557041943) | India, Uttar Pradesh, Noida |  | 2026-10-20 |
 | 83 | Wise | [Product Lead - Business Payments](https://jobs.smartrecruiters.com/Wise/744000144548894) | London, , United Kingdom |  | 2026-08-20 |
@@ -87,7 +88,6 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 82 | Expedia Group | [Senior Product Manager](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Senior-Product-Manager_R-109911) | India - Gurgaon |  | 2026-10-21 |
 | 82 | GetYourGuide | [Senior Product Manager, B2C](https://job-boards.greenhouse.io/getyourguide/jobs/7865219) | Berlin |  | 2026-04-29 |
 | 82 | Mastercard | [Lead Product Manager- Technical](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Product-Manager--Technical_R-291501) | Pune, India |  | 2026-10-21 |
-| 82 | ⭐ Spotify | [Senior Product Manager - User Platform](https://jobs.lever.co/spotify/ee45924c-894c-4ea0-9c93-c5221894063f) | London; Stockholm |  | 2026-09-23 |
 
 ## UK — 122 open
 
@@ -231,14 +231,17 @@ _…and 114 more in data/jobs.json_
 | 68 | Airwallex | [Staff Product Manager, Yield](https://jobs.ashbyhq.com/airwallex/a4c847b0-1867-4154-ab61-4dfe9a1ddaec) | AU - Sydney; Australia; Remote |  | 2026-04-09 |
 | 68 | ⭐ Google | [Group Product Manager, Google Photos Organization and Sharing](https://www.google.com/about/careers/applications/jobs/results/119675780002128582-group-product-manager-google-photos-organization-and-sharing) | Sydney NSW, Australia |  | 2026-10-20 |
 
-## Thailand — 11 open
+## Thailand — 14 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
 | 73 | Agoda | [Senior Product Manager (Japanese Speaking, Tokyo or Bangkok based)](https://job-boards.greenhouse.io/agoda/jobs/3317368) | Japan or Bangkok (One Bangkok) |  | 2021-08-16 |
 | 73 | Agoda | [Senior Product Manager (Bangkok-based)](https://job-boards.greenhouse.io/agoda/jobs/3855570) | Bangkok |  | 2022-01-24 |
 | 73 | Agoda | [Senior Product Manager (Japanese Speaking) – Bangkok or Tokyo Based](https://job-boards.greenhouse.io/agoda/jobs/8029998) | Bangkok (One Bangkok Office) or Tokyo office    |  | 2026-06-28 |
+| 70 | Xponential | [Senior Digital Product Owner](https://www.linkedin.com/jobs/view/4480755365/) | Bangkok Metropolitan Area |  | 2026-10-21 |
+| 65 | Hilti Thailand | [Product Manager - Firestop](https://www.linkedin.com/jobs/view/4478994659/) | Bangkok Metropolitan Area |  | 2026-10-21 |
 | 62 | Agoda | [Product Manager (Bangkok-based)](https://job-boards.greenhouse.io/agoda/jobs/8284146) | Bangkok |  | 2026-10-16 |
+| 58 | RentSpree | [Staff Product Manager - Bangkok](https://www.linkedin.com/jobs/view/4478990781/) | Bangkok, Bangkok City, Thailand |  | 2026-10-21 |
 | 57 | Agoda | [Principal Product Manager (Bangkok-based)](https://job-boards.greenhouse.io/agoda/jobs/4208934) | Bangkok (Central World Office) |  | 2024-06-27 |
 | 57 | Xendit | [Product Manager - Developer Experience](https://job-boards.greenhouse.io/xendit/jobs/7992374003) | Bali, Indonesia; Bangkok, Thailand; Jakarta, Indonesia; Kual |  | 2026-09-11 |
 | 54 | CJ MORE | [Product Owner](https://www.linkedin.com/jobs/view/4478652252/) | Bangkok, Bangkok City, Thailand |  | 2026-10-20 |
@@ -247,14 +250,19 @@ _…and 114 more in data/jobs.json_
 | 51 | Agoda | [Director of Product, Tax Platform (Bangkok-based)](https://job-boards.greenhouse.io/agoda/jobs/8046187) | Bangkok, Thailand |  | 2026-07-07 |
 | 51 | Agoda | [Associate Director, Product Legal (Bangkok-based, Relocation Provided)](https://job-boards.greenhouse.io/agoda/jobs/8230094) | Bangkok, Thailand |  | 2026-09-25 |
 
-## Malaysia — 10 open
+## Malaysia — 15 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
+| 76 | Mudah.my | [Senior Product Manager, Platform](https://www.linkedin.com/jobs/view/4479406716/) | Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia |  | 2026-10-21 |
 | 73 | Grab | [Lead Product Manager, Business Applications](https://jobs.smartrecruiters.com/Grab/744000144044969) | Petaling Jaya, , Malaysia |  | 2026-08-18 |
 | 73 | Grab | [Lead Product Manager, Driver In-Trip Experience](https://jobs.smartrecruiters.com/Grab/744000154351439) | Petaling Jaya, , Malaysia |  | 2026-10-08 |
+| 72 | Rosemallow Technologies Pvt Ltd | [Senior Product Manager - Smartboard](https://www.linkedin.com/jobs/view/4480786461/) | WP. Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysi |  | 2026-10-21 |
 | 70 | BTSE | [Sr Product Manager (B2B Product)](https://www.linkedin.com/jobs/view/4481546051/) | Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia |  | 2026-10-20 |
 | 70 | Bybit | [Senior Product Manager](https://www.linkedin.com/jobs/view/4480464143/) | WP. Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysi |  | 2026-10-20 |
+| 67 | Hilti Asia IT Services | [Product Owner Security Service Edge (SSE)](https://www.linkedin.com/jobs/view/4479417538/) | Petaling Jaya, Selangor, Malaysia |  | 2026-10-21 |
+| 65 | Thermo Fisher Scientific | [Product Manager](https://www.linkedin.com/jobs/view/4478980289/) | Kuala Selangor, Selangor, Malaysia |  | 2026-10-21 |
+| 60 | Otis Elevator Co. | [Product Manager, APAC](https://www.linkedin.com/jobs/view/4480789469/) | Petaling Jaya, Selangor, Malaysia |  | 2026-10-21 |
 | 55 | Grab | [Head of Product, Insurance](https://jobs.smartrecruiters.com/Grab/744000132549419) | Petaling Jaya, , Malaysia |  | 2026-06-17 |
 | 54 | Ant International | [Card Acquiring Product Manager](https://www.linkedin.com/jobs/view/4458386025/) | Federal Territory of Kuala Lumpur, Malaysia |  | 2026-10-20 |
 | 54 | Bitdeer (NASDAQ: BTDR) | [AI Cloud Platform Product Manager](https://www.linkedin.com/jobs/view/4478643856/) | Penang, Malaysia |  | 2026-10-20 |
@@ -307,7 +315,7 @@ _…and 114 more in data/jobs.json_
 | 48 | Airwallex | [Staff/Senior Product Manager (0-1 Billing)](https://jobs.ashbyhq.com/airwallex/2a471f31-9cc8-4ab5-9f6c-921fc1f137d6) | SG - Singapore; Singapore |  | 2026-01-28 |
 | 48 | Wise | [Director, Product Analytics (APAC)](https://jobs.smartrecruiters.com/Wise/744000154396550) | Singapore, , Singapore |  | 2026-10-08 |
 
-## India — 128 open
+## India — 130 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -338,6 +346,7 @@ _…and 114 more in data/jobs.json_
 | 83 | ⭐ Amazon | [Senior Product Manager - Tech, Global Transportation Technology Services](https://www.amazon.jobs/en/jobs/10504416/senior-product-manager-tech-global-transportation-technology-services) | Hyderabad, Telangana, IND |  | 2026-08-18 |
 | 83 | ⭐ Amazon | [Product Manager-Tech III, Finance Automation](https://www.amazon.jobs/en/jobs/10538234/product-manager-tech-iii-finance-automation) | Bengaluru, Karnataka, IND |  | 2026-09-12 |
 | 83 | ⭐ Amazon | [Senior Product Manager, Service Delivery Standard Work](https://www.amazon.jobs/en/jobs/10556408/senior-product-manager-service-delivery-standard-work) | Hyderabad, Telangana, IND |  | 2026-09-22 |
+| 83 | ⭐ Amazon | [Principle Product Manager Tech, Global Corporate Procurement Tech](https://www.amazon.jobs/en/jobs/10585524/principle-product-manager-tech-global-corporate-procurement-tech) | Bengaluru, Karnataka, IND |  | 2026-10-21 |
 | 83 | ⭐ Microsoft | [Sr Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557040189) | India, Uttar Pradesh, Noida; India, Telangana, Hyderabad |  | 2026-10-19 |
 | 83 | ⭐ Microsoft | [Senior Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557041943) | India, Uttar Pradesh, Noida |  | 2026-10-20 |
 | 82 | ⭐ Amazon | [Product Manager, Value added services](https://www.amazon.jobs/en/jobs/10453422/product-manager-value-added-services) | Bengaluru, Karnataka, IND |  | 2026-06-19 |
@@ -370,65 +379,64 @@ _…and 114 more in data/jobs.json_
 | 79 | ⭐ Amazon | [Senior Product Manager, Amazon - Sub Same Day](https://www.amazon.jobs/en/jobs/10551513/senior-product-manager-amazon-sub-same-day) | Bengaluru, Karnataka, IND |  | 2026-09-17 |
 | 79 | ⭐ Amazon | [Senior Product Manager Tech, EU INTech - PGX](https://www.amazon.jobs/en/jobs/10553130/senior-product-manager-tech-eu-intech-pgx) | Bengaluru, Karnataka, IND |  | 2026-09-18 |
 | 79 | ⭐ Amazon | [Senior Product Manager, Amazon Fashion](https://www.amazon.jobs/en/jobs/10554308/senior-product-manager-amazon-fashion) | Bengaluru, Karnataka, IND |  | 2026-09-21 |
-| 79 | ⭐ Amazon | [Sr. Product Manager - Tech, Just Walk Out Technology , Physical Store 3P (Just Walk Out Technology)](https://www.amazon.jobs/en/jobs/10559319/sr-product-manager-tech-just-walk-out-technology-physical-store-3p-just-walk-out-technology) | Bengaluru, Karnataka, IND |  | 2026-09-24 |
 
-_…and 68 more in data/jobs.json_
+_…and 70 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| Adobe | ok | 304 | 1 |
-| Adyen | ok | 247 | 9 |
+| Adobe | ok | 305 | 1 |
+| Adyen | ok | 248 | 9 |
 | Agoda | ok | 308 | 7 |
-| Airbnb | ok | 192 | 0 |
-| Airwallex | ok | 498 | 9 |
-| Amazon | ok | 195 | 89 |
-| Anthropic | ok | 675 | 0 |
+| Airbnb | ok | 194 | 0 |
+| Airwallex | ok | 500 | 9 |
+| Amazon | ok | 196 | 90 |
+| Anthropic | ok | 674 | 0 |
 | Apple | ok |  |  |
-| Atlassian | ok | 362 | 4 |
+| Atlassian | ok | 363 | 4 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Canva | ok | 100 | 0 |
 | Cresta | ok | 84 | 1 |
 | Decagon | ok | 134 | 2 |
-| Deliveroo | ok | 227 | 8 |
+| Deliveroo | ok | 225 | 8 |
 | Delivery Hero | ok | 600 | 3 |
-| Expedia Group | ok | 67 | 9 |
-| Genesys | ok | 198 | 2 |
+| Expedia Group | ok | 70 | 8 |
+| Genesys | ok | 195 | 2 |
 | GetYourGuide | ok | 74 | 6 |
-| Google | ok | 77 | 15 |
-| Grab | ok | 427 | 9 |
-| Intercom | ok | 107 | 5 |
-| Klarna | ok | 0 | 0 |
-| LINE MAN Wongnai | ok | 0 | 0 |
-| LinkedIn | ok | 202 | 0 |
-| LinkedIn (all companies) | ok | 20 |  |
+| Google | ok | 78 | 15 |
+| Grab | ok | 426 | 9 |
+| Intercom | ok | 106 | 5 |
+| Klarna | ok |  |  |
+| LINE MAN Wongnai | ok |  |  |
+| LinkedIn | ok | 198 | 0 |
+| LinkedIn (all companies) | ok | 40 |  |
 | Mastercard | ok | 400 | 11 |
-| Meta | ok |  |  |
-| Microsoft | ok | 79 | 12 |
-| Monzo | ok | 67 | 2 |
-| N26 | ok | 36 | 8 |
+| Meta | ok | 30 | 1 |
+| Microsoft | ok | 78 | 10 |
+| Monzo | ok | 68 | 2 |
+| N26 | ok | 34 | 6 |
 | Netflix | ok | 158 | 1 |
 | OpenAI | ok | 808 | 0 |
 | Parloa | ok | 55 | 2 |
-| PayPal | ok | 341 | 3 |
+| PayPal | ok | 329 | 3 |
 | Revolut | ok |  |  |
 | Salesforce | ok | 400 | 3 |
 | ServiceNow | ok | 600 | 7 |
-| Shopee | ok | 9 | 8 |
-| Sierra | ok | 189 | 6 |
-| Spotify | ok | 79 | 10 |
-| Stripe | ok | 730 | 10 |
-| SumUp | ok | 335 | 2 |
-| Tide | ok | 107 | 4 |
+| Shopee | ok |  |  |
+| Sierra | ok | 190 | 6 |
+| Spotify | ok | 80 | 10 |
+| Stripe | ok | 728 | 10 |
+| SumUp | ok | 337 | 2 |
+| Tide | ok | 106 | 4 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 9 |
 | Wise | ok | 418 | 14 |
 | Xendit | ok | 27 | 2 |
-| Zalando | ok | 1 | 0 |
+| Zalando | ok |  |  |
 | Zego | ok | 41 | 10 |
-| Zendesk | ok | 118 | 3 |
-| eBay | ok | 192 | 9 |
+| Zendesk | ok | 121 | 3 |
+| eBay | ok | 191 | 9 |
 | loveholidays | ok | 17 | 4 |
 
 </details>
