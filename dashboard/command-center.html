@@ -200,7 +200,8 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
 .people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 14px; align-items: start; }
 .people-grid > .card { min-width: 0; gap: 10px; }
 .btn.small { padding: 4px 10px; font-size: 12.5px; }
-.links { display: flex; flex-wrap: wrap; gap: 6px; }
+.links { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.live { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-bottom: 10px; }
 .askline { font-size: 13px; padding: 8px 10px; background: var(--raised); border-radius: 6px; overflow-wrap: anywhere; }
 .msgbox { display: grid; gap: 8px; }
 .msgbox input[type="text"] { border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 6px 9px; font-size: 13px; min-width: 0; }
@@ -269,6 +270,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     <div class="filters">
       <div class="seg" id="regions" role="group" aria-label="Region"></div>
     </div>
+    <div class="live" id="live-bar"></div>
     <div class="filters">
       <input class="search" id="q" type="search" placeholder="Search company, title or city">
       <label class="toggle"><input type="checkbox" id="only-list"> Top-50 companies only</label>
@@ -277,19 +279,23 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     <div class="filters">
       <label class="toggle" for="sort">Sort by</label>
       <select class="status" id="sort">
+        <option value="recent">Most recent first (posting time)</option>
         <option value="best">Best match (compatibility score)</option>
-        <option value="posted">Newest posted</option>
-        <option value="found">Recently found</option>
+        <option value="found">Recently found by the radar</option>
         <option value="fit">Resume fit (tailored roles first)</option>
         <option value="company">Company A to Z</option>
       </select>
       <label class="toggle" for="age">Posted</label>
       <select class="status" id="age">
         <option value="any">Any time</option>
-        <option value="1">Last 24 hours</option>
-        <option value="3">Last 3 days</option>
-        <option value="7">Last 7 days</option>
-        <option value="30">Last 30 days</option>
+        <option value="1">Last hour</option>
+        <option value="3">Last 3 hours</option>
+        <option value="6">Last 6 hours</option>
+        <option value="12">Last 12 hours</option>
+        <option value="24">Last 24 hours</option>
+        <option value="72">Last 3 days</option>
+        <option value="168">Last 7 days</option>
+        <option value="720">Last 30 days</option>
       </select>
     </div>
     <div class="filters">
@@ -342,7 +348,8 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     ["referred", "Referred"], ["screen", "Recruiter screen"], ["onsite", "Interview loop"],
     ["offer", "Offer"], ["rejected", "Rejected"], ["skipped", "Skipped"]
   ];
-  const REGIONS = ["All", "UK", "Europe", "Australia", "Thailand", "Malaysia", "Singapore", "India"];
+  const REGIONS = ["All", "UK", "Europe", "Australia", "Thailand", "Malaysia", "Singapore", "Gulf", "Canada", "New Zealand", "India"];
+  const LIVE_URL = "https://github.com/lavanya499/Claude/blob/ccr-07730f89-0s0g6o/LIVE.md";
   const PLAN = [
     ["triage", "0:00", "Triage", "Pick tonight's 3 roles from the shortlist."],
     ["apply", "0:10", "Apply × 3", "Tailor with Claude, update the resume PDF, apply on the company site."],
@@ -376,7 +383,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     return el;
   };
   const S = { board: null, track: {}, nights: {}, profile: null, db: null, sample: null,
-              view: "tonight", region: "All", q: "", onlyList: false, hideTracked: true, limit: 40, packs: {}, sort: "best", age: "any", source: "All" };
+              view: "tonight", region: "All", q: "", onlyList: false, hideTracked: true, limit: 40, packs: {}, sort: "recent", age: "any", source: "All" };
   const store = { get(k, d) { try { const v = localStorage.getItem("spm:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
                   set(k, v) { try { localStorage.setItem("spm:" + k, JSON.stringify(v)); } catch {} } };
 
@@ -385,6 +392,19 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
   const nightIndex = (key) => Math.round((new Date(key + "T12:00") - new Date(START + "T12:00")) / 864e5) + 1;
   const daysAgo = (iso) => { if (!iso) return ""; const n = Math.round((new Date(nightKey() + "T12:00") - new Date(iso.slice(0, 10) + "T12:00")) / 864e5);
     return n <= 0 ? "today" : n === 1 ? "1 day ago" : n + " days ago"; };
+  // Posting time to the minute where we have it (LinkedIn live scan), else when the radar first saw the role,
+  // else the posting day. kind: "exact" | "found" | "day".
+  const agoText = (ms) => { const m = Math.max(0, Math.round(ms / 6e4));
+    return m < 2 ? "just now" : m < 90 ? m + " min ago" : m < 48 * 60 ? Math.round(m / 60) + " h ago" : Math.round(m / 1440) + " days ago"; };
+  function whenInfo(j) {
+    const now = Date.now(), at = (v) => { const t = Date.parse(v); return Number.isNaN(t) ? null : t; };
+    if (j.pts && at(j.pts)) return { ts: at(j.pts), kind: "exact", label: "posted " + agoText(now - at(j.pts)) };
+    const f = j.fts ? at(j.fts) : null, d = j.posted ? at(j.posted.slice(0, 10) + "T23:59:59Z") : null;
+    if (f && (!d || d >= f - 6 * 36e5)) return { ts: f, kind: "found", label: "found " + agoText(now - f) };
+    if (d) return { ts: Math.min(now, at(j.posted.slice(0, 10) + "T12:00:00Z")), kind: "day", label: "posted " + daysAgo(j.posted) };
+    const fs = at((j.first_seen || "") + "T12:00:00Z");
+    return { ts: fs || 0, kind: "day", label: "found " + daysAgo(j.first_seen) };
+  }
   const stageIdx = (s) => STAGES.findIndex(([k]) => k === s);
   const reached = (t, s) => (t?.reached || []).includes(s);
 
@@ -439,7 +459,8 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
         h("div", { class: "who" }, h("b", {}, j.company), j.tier === 1 ? h("span", { class: "chip star" }, "BIG TECH") : null,
           j.visa === "yes" ? h("span", { class: "chip good" }, "sponsorship / relocation") : null,
           j.visa === "no" ? h("span", { class: "chip bad" }, "no sponsorship") : null,
-          h("span", {}, j.posted ? "posted " + daysAgo(j.posted) : "found " + daysAgo(j.first_seen)),
+          (() => { const w = whenInfo(j), fresh = Date.now() - w.ts < 3 * 36e5 && w.kind !== "day";
+            return h("span", { class: fresh ? "chip good" : "" }, (fresh ? "NEW · " : "") + w.label); })(),
           h("span", { class: "chip" }, "via " + srcLabel(j.source)),
           S.packs[j.id]?.fit != null ? h("span", { class: "chip good" }, "resume fit " + S.packs[j.id].fit) : null),
         h("div", { class: "title" }, j.title),
@@ -447,6 +468,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
       h("div", { class: "score" + (j.score >= 80 ? " hi" : "") }, j.score, h("small", {}, "MATCH")),
       h("div", { class: "acts" },
         h("a", { class: "btn", href: j.url, target: "_blank", rel: "noopener" }, "Open posting ↗"),
+        j.source === "linkedin" ? copyBtn(j.url, "Copy link") : null,
         h("button", { class: "btn primary", onclick: () => openSheet(j) }, "Tailor with Claude"), sel));
   }
 
@@ -464,11 +486,10 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     microsoft: "Microsoft Careers", eightfold: "Netflix Careers", uber: "Uber Careers", atlassian: "Atlassian Careers",
     jibe: "Booking.com Careers", linkedin: "LinkedIn", web: "Web search" };
   const srcLabel = (x) => SRC[x] || (x ? x[0].toUpperCase() + x.slice(1) : "Company site");
-  // Age filters use the posting date only. Roles without one (for example Google's) are hidden from them.
-  const dayAge = (j) => { const d = (j.posted || "").slice(0, 10); if (!d) return Infinity;
-    return Math.max(0, Math.floor((new Date(nightKey() + "T12:00") - new Date(d + "T12:00")) / 864e5)); };
+  // Age filters work in hours from the best timestamp we have (see whenInfo).
+  const hourAge = (j) => { const w = whenInfo(j); return w.ts ? Math.max(0, (Date.now() - w.ts) / 36e5) : Infinity; };
   const SORTS = { best: ["best match", (a, b) => b.score - a.score || (b.first_seen > a.first_seen ? 1 : -1)],
-    posted: ["newest posted (roles without a posting date last)", (a, b) => (b.posted || "").localeCompare(a.posted || "") || b.score - a.score],
+    recent: ["most recent first", (a, b) => whenInfo(b).ts - whenInfo(a).ts || b.score - a.score],
     found: ["recently found", (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || b.score - a.score],
     fit: ["resume fit", (a, b) => ((S.packs[b.id]?.fit ?? -1) - (S.packs[a.id]?.fit ?? -1)) || b.score - a.score],
     company: ["company A to Z", (a, b) => a.company.localeCompare(b.company) || b.score - a.score] };
@@ -481,7 +502,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     }));
     const q = S.q.trim().toLowerCase(), maxAge = S.age === "any" ? Infinity : Number(S.age);
     const base = S.board.jobs.filter((j) => (S.region === "All" || j.region === S.region)
-      && (!S.onlyList || j.tier <= 2) && (!S.hideTracked || !isTracked(j)) && dayAge(j) <= maxAge
+      && (!S.onlyList || j.tier <= 2) && (!S.hideTracked || !isTracked(j)) && hourAge(j) <= maxAge
       && (!q || `${j.company} ${j.title} ${j.location} ${j.code}`.toLowerCase().includes(q)));
     const counts = {};
     for (const j of base) counts[j.source || ""] = (counts[j.source || ""] || 0) + 1;
@@ -493,7 +514,13 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     const list = base.filter((j) => S.source === "All" || (j.source || "") === S.source).sort((SORTS[S.sort] || SORTS.best)[1]);
     $("#board-count").textContent = `${list.length} roles · sorted by ${(SORTS[S.sort] || SORTS.best)[0]}`
       + (S.sort === "fit" ? ". Resume fit appears once you've tailored a role." : "")
-      + (S.age !== "any" ? ". Roles without a posting date are hidden by the posted filter." : "");
+      + (S.age !== "any" ? ". Roles with no usable time are hidden by the posted filter." : "");
+    const liN = S.board.jobs.filter((j) => j.pts || (j.source === "linkedin" && j.fts)).length;
+    $("#live-bar").replaceChildren(
+      h("a", { class: "btn small primary", href: LIVE_URL, target: "_blank", rel: "noopener" }, "Real-time list (GitHub) ↗"),
+      h("span", { class: "note" }, `Board synced ${S.board.updated ? agoText(Date.now() - Date.parse(S.board.updated)) : "—"}`
+        + (S.liUpdated ? `, live LinkedIn data ${agoText(Date.now() - Date.parse(S.liUpdated))} (${liN} roles, last 72 hours).` : ".")
+        + " Phone alerts and the real-time list update every 15 minutes; this board updates when you say \"sync my board\"."));
     $("#board-rows").replaceChildren(...list.slice(0, S.limit).map(roleRow));
     $("#more").hidden = list.length <= S.limit;
   }
@@ -826,16 +853,17 @@ ${JSON.stringify(m)}`;
   const CITY = { LON: "London", DUB: "Dublin", ORK: "Cork", EDI: "Edinburgh", MAN: "Manchester", AMS: "Amsterdam", BER: "Berlin", MUC: "Munich",
     HAM: "Hamburg", FRA: "Frankfurt", ZRH: "Zurich", PAR: "Paris", MAD: "Madrid", BCN: "Barcelona", LIS: "Lisbon", STO: "Stockholm", CPH: "Copenhagen",
     WAW: "Warsaw", KRK: "Krakow", PRG: "Prague", TLL: "Tallinn", BUD: "Budapest", BUH: "Bucharest", LUX: "Luxembourg", DUS: "Dusseldorf", OSL: "Oslo",
-    SYD: "Sydney", MEL: "Melbourne", BNE: "Brisbane", BKK: "Bangkok", KUL: "Kuala Lumpur", PEN: "Penang", SIN: "Singapore", BLR: "Bengaluru",
+    SYD: "Sydney", MEL: "Melbourne", BNE: "Brisbane", DXB: "Dubai", AUH: "Abu Dhabi", RUH: "Riyadh", DOH: "Doha", YYZ: "Toronto", YVR: "Vancouver",
+    YUL: "Montreal", YOW: "Ottawa", YYC: "Calgary", AKL: "Auckland", WLG: "Wellington", BKK: "Bangkok", KUL: "Kuala Lumpur", PEN: "Penang", SIN: "Singapore", BLR: "Bengaluru",
     HYD: "Hyderabad", DEL: "Delhi", BOM: "Mumbai", PNQ: "Pune", MAA: "Chennai" };
-  const CITY_CHOICES = ["London", "Dublin", "Amsterdam", "Berlin", "Stockholm", "Zurich", "Sydney", "Singapore", "Bangkok", "Kuala Lumpur"];
-  const CITIES_OR = "(" + CITY_CHOICES.map((c) => (c.includes(" ") ? '"' + c + '"' : c)).join(" OR ") + ")";
+  const CITY_CHOICES = ["London", "Dublin", "Amsterdam", "Berlin", "Stockholm", "Zurich", "Dubai", "Toronto", "Sydney", "Singapore", "Bangkok", "Kuala Lumpur"];
+  const CITIES_OR = "(London OR Dublin OR Amsterdam OR Berlin OR Dubai OR Toronto OR Sydney OR Singapore)";
   const cityOf = (j) => CITY[j.code] || String(j.location || "").split(/[,;]/)[0].trim() || "abroad";
   const liPeople = (kw, mine) => "https://www.linkedin.com/search/results/people/?keywords=" + encodeURIComponent(kw)
     + (mine ? "&network=" + encodeURIComponent('["F","S"]') : "") + "&origin=GLOBAL_SEARCH_HEADER";
   const gX = (q) => "https://www.google.com/search?q=" + encodeURIComponent(q);
-  const INDIA_BG = "(Policybazaar OR Flipkart OR Paytm OR Zomato OR Swiggy OR PhonePe OR Razorpay OR CRED OR Meesho OR Airtel OR Infosys OR HCLTech OR IIM OR IIT OR ISB OR BITS)";
-  const INDIA_PRODUCT_COS = "(Policybazaar OR Flipkart OR Paytm OR Zomato OR Swiggy OR PhonePe OR Razorpay OR CRED OR Meesho OR Airtel OR Ola OR Myntra)";
+  const INDIA_BG = "(Policybazaar OR Flipkart OR Paytm OR Zomato OR Swiggy OR PhonePe OR Razorpay OR IIM)";
+  const INDIA_PRODUCT_COS = "(Policybazaar OR Flipkart OR Paytm OR Zomato OR Swiggy OR PhonePe OR Razorpay)";
   const KINDS = [["india", "Indian PM who moved abroad"], ["pb", "Ex-Policybazaar colleague"], ["iimn", "IIM Nagpur alum"], ["hm", "Hiring manager"], ["rec", "Recruiter"]];
   let uidn = 0; const uid = () => "u" + (++uidn);
   const shortRole = (t, max = 48) => { const x = String(t || "").replace(/\s+/g, " ").trim(); return x.length <= max ? x : x.slice(0, max).replace(/\s+\S*$/, "") + "…"; };
@@ -902,8 +930,14 @@ ${JSON.stringify(m)}`;
     return wrap;
   }
 
+  // Some phones open links inside an in-app browser that cannot hand off to the LinkedIn app.
+  // "Copy search" gives the same query to paste into the app's own search bar (choose People).
+  const searchText = (href) => { try { const u = new URL(href); return /(^|\.)linkedin\.com$/.test(u.hostname) ? (u.searchParams.get("keywords") || "") : ""; } catch { return ""; } };
   function linkButtons(items) {
-    return h("div", { class: "links" }, ...items.map(([label, href]) => h("a", { class: "btn small", href, target: "_blank", rel: "noopener" }, label + " ↗")));
+    return h("div", { class: "links" }, ...items.flatMap(([label, href]) => {
+      const q = searchText(href);
+      return [h("a", { class: "btn small", href, target: "_blank", rel: "noopener" }, label + " ↗"), q ? copyBtn(q, "Copy search") : null];
+    }));
   }
 
   function topTargets(n) {
@@ -955,7 +989,8 @@ ${JSON.stringify(m)}`;
     box.replaceChildren(h("div", { class: "stack" },
       h("p", { class: "note", style: "margin:0;max-width:70ch" }, "Ten outreach slots: four from your own network and six at the companies where you have the best-fit roles. Each one opens a LinkedIn search that returns real people. Pick two or three who look right, send the connection note, and send the longer message after they accept. Aim for four or five asks a night and change the wording a little each time."),
       h("div", { class: "bar-row" }, h("label", { class: "toggle", for: "city-sel" }, "City for the first four"), sel),
-      h("div", { class: "note" }, "LinkedIn search needs you signed in, and a free account limits searches and personal notes each month.")),
+      h("div", { class: "note" }, "LinkedIn search needs you signed in, and a free account limits searches and personal notes each month."),
+      h("div", { class: "note" }, "On your phone: if a link opens a login page instead of the LinkedIn app, tap Copy search, open the LinkedIn app, tap its search bar, paste, and choose People. Long-pressing a link and choosing Open in browser also works.")),
       h("div", { class: "eyebrow" }, "Start with your own network and people who made the same move"),
       h("div", { class: "people-grid" }, ...community.map(card)),
       h("div", { class: "eyebrow" }, "At the companies with your best-fit roles"),
@@ -1021,7 +1056,7 @@ ${JSON.stringify(m)}`;
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => show(t.dataset.view)));
   $("#q").addEventListener("input", (e) => { S.q = e.target.value; S.limit = 40; renderBoard(); });
   $("#sort").addEventListener("change", (e) => { S.sort = e.target.value; store.set("sort", S.sort); S.limit = 40; renderBoard(); });
-  $("#age").addEventListener("change", (e) => { S.age = e.target.value; store.set("age", S.age); S.limit = 40; renderBoard(); });
+  $("#age").addEventListener("change", (e) => { S.age = e.target.value; store.set("ageh", S.age); S.limit = 40; renderBoard(); });
   $("#only-list").addEventListener("change", (e) => { S.onlyList = e.target.checked; renderBoard(); });
   $("#hide-tracked").addEventListener("change", (e) => { S.hideTracked = e.target.checked; renderBoard(); });
   $("#more").addEventListener("click", () => { S.limit += 40; renderBoard(); });
@@ -1037,9 +1072,10 @@ ${JSON.stringify(m)}`;
   });
 
   S.region = store.get("region", "All");
-  S.sort = store.get("sort", "best"); S.age = store.get("age", "any"); S.source = store.get("source", "All");
-  if (["best", "posted", "found", "fit", "company"].includes(S.sort)) $("#sort").value = S.sort; else S.sort = "best";
-  if (["any", "1", "3", "7", "30"].includes(S.age)) $("#age").value = S.age; else S.age = "any";
+  S.sort = store.get("sort", "recent"); S.age = store.get("ageh", "any"); S.source = store.get("source", "All");
+  if (S.sort === "posted") S.sort = "recent";
+  if (["recent", "best", "found", "fit", "company"].includes(S.sort)) $("#sort").value = S.sort; else S.sort = "recent";
+  if (["any", "1", "3", "6", "12", "24", "72", "168", "720"].includes(S.age)) $("#age").value = S.age; else S.age = "any";
   const hash = location.hash.slice(1);
   S.city = store.get("city", "London");
   show(["tonight", "board", "pipeline", "people", "profile"].includes(hash) ? hash : store.get("view", "tonight"));
@@ -1051,13 +1087,20 @@ ${JSON.stringify(m)}`;
     if (!db) { $("#offline").hidden = false; $("#synced").textContent = "OFFLINE"; return; }
     S.db = db;
     // board/current is rebuilt nightly from the radar; board/web holds roles Claude found by web search.
-    let radar = null, web = [];
+    // board/li holds the last 72 hours from the 15-minute LinkedIn scan.
+    let radar = null, web = [], live = [];
     const merge = () => {
       if (!radar) { $("#synced").textContent = "WAITING FOR FIRST SYNC"; return; }
-      const seen = new Set(radar.jobs.map((j) => j.url));
-      S.board = { ...radar, jobs: [...radar.jobs, ...web.filter((j) => j && j.url && !seen.has(j.url)).map((j) => ({ source: "web", ...j }))] };
+      const seen = new Set(radar.jobs.map((j) => j.url)), ids = new Set(radar.jobs.map((j) => j.id));
+      const add = [];
+      for (const j of [...live, ...web.map((w) => (w ? { source: "web", ...w } : w))]) {
+        if (!j || !j.url || seen.has(j.url) || ids.has(j.id)) continue;
+        seen.add(j.url); ids.add(j.id); add.push(j);
+      }
+      S.board = { ...radar, jobs: [...radar.jobs, ...add] };
       renderAll();
     };
+    db.doc("board/li").onSnapshot((s) => { live = s.exists ? (s.data().jobs || []) : []; S.liUpdated = s.exists ? s.data().updated : null; merge(); }, () => {});
     db.doc("board/current").onSnapshot((s) => { radar = s.exists ? s.data() : null; merge(); }, () => {});
     db.doc("board/web").onSnapshot((s) => { web = s.exists ? (s.data().jobs || []) : []; merge(); }, () => {});
     db.collection("track").onSnapshot((snap) => { S.track = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()])); renderAll(); }, () => {});

@@ -2,10 +2,12 @@
 
     python radar/board.py OUT_DIR [--known-jd FILE]
 
-Writes OUT_DIR/board.json (the 'board/current' document) and OUT_DIR/jd/<id>.json for job
+Writes OUT_DIR/board.json (the 'board/current' document), OUT_DIR/board_li.json (the live LinkedIn
+roles from data/linkedin.json, the 'board/li' document) and OUT_DIR/jd/<id>.json for job
 descriptions not listed in FILE (one doc id per line). Also writes OUT_DIR/batches/NN.json:
 ready-made ArtifactData batch `writes` lists (<=50 each) that create the new jd documents.
 """
+import datetime as dt
 import json
 import os
 import re
@@ -42,8 +44,52 @@ def code_for(job):
     return REGION_CODES.get(job["regions"][0], "—")
 
 
+def fp(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
 def doc_id(key):
     return re.sub(r"[^A-Za-z0-9_\-.~:@+]", "-", key)[:200]
+
+
+def live_board(out, taken, taken_fp, known, writes):
+    """Recent roles from the 15-minute LinkedIn scanner -> OUT_DIR/board_li.json ('board/li' document)."""
+    path = ROOT / "data/linkedin.json"
+    if not path.exists():
+        return 0
+    state = json.loads(path.read_text())
+    hours = json.loads((ROOT / "radar/config.json").read_text())["linkedin_fast"]["board_hours"]
+    cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%MZ")
+    rows, descs = [], {}
+    for j in state["jobs"].values():
+        key = doc_id(f"linkedin:{j['id']}")
+        if j["first_seen_at"] < cutoff or j.get("dup") or key in taken or "score" not in j:
+            continue
+        if (fp(j["company"]), fp(j["title"])) in taken_fp:
+            continue  # same role already on the board straight from the company's own site
+        regs = sorted(j["regions"], key=ORDER.index)
+        rows.append({"id": key, "company": j["company"], "tier": j["tier"], "title": j["title"],
+                     "location": j["location"][:70], "code": code_for(j), "region": regs[0],
+                     "url": j["url"], "score": j["score"], "visa": j.get("visa", ""),
+                     "posted": (j.get("posted") or "")[:10], "pts": j.get("posted_ts", ""),
+                     "fts": j["first_seen_at"], "first_seen": j["first_seen_at"][:10],
+                     "level": j["level"], "hasJd": bool(j.get("desc")), "source": "linkedin"})
+        if j.get("desc"):
+            descs[key] = j
+    rows.sort(key=lambda r: r["pts"] or r["fts"], reverse=True)
+    board = {"updated": state.get("updated"), "jobs": rows}
+    while len(json.dumps(board)) > 240_000:
+        board["jobs"] = board["jobs"][:-10]
+    (out / "board_li.json").write_text(json.dumps(board, ensure_ascii=False))
+    for r in board["jobs"]:
+        j = descs.get(r["id"])
+        if not j or r["id"] in known:
+            continue
+        f = out / "jd" / f"{r['id']}.json"
+        f.write_text(json.dumps({"company": j["company"], "title": j["title"], "url": j["url"],
+                                 "text": j["desc"][:3800]}, ensure_ascii=False))
+        writes.append({"op": "set", "collection": "jd", "doc_id": r["id"], "file_path": os.path.relpath(f)})
+    return len(board["jobs"])
 
 
 def main():
@@ -64,6 +110,7 @@ def main():
                      "title": j["title"], "location": j["location"][:90], "code": code_for(j),
                      "region": regs[0], "url": j["url"], "score": j["score"], "visa": j.get("visa", ""),
                      "posted": (j.get("posted") or "")[:10], "first_seen": j["first_seen"],
+                     "fts": j.get("first_seen_at", ""),
                      "level": j["level"], "hasJd": bool(j.get("desc")), "source": j.get("source", "")})
     board = {"updated": state.get("updated"), "total_open": len(active), "jobs": rows}
     (out / "jd").mkdir(parents=True, exist_ok=True)
@@ -81,9 +128,13 @@ def main():
         f.write_text(json.dumps({"company": j["company"], "title": j["title"], "url": j["url"],
                                  "text": j["desc"][:3800]}, ensure_ascii=False))
         writes.append({"op": "set", "collection": "jd", "doc_id": r["id"], "file_path": os.path.relpath(f)})
+    li = live_board(out, {r["id"] for r in board["jobs"]},
+                    {(fp(r["company"]), fp(r["title"])) for r in board["jobs"] if r["source"] != "linkedin"},
+                    known, writes)
     for i in range(0, len(writes), 45):
         (out / "batches" / f"{i // 45:02d}.json").write_text(json.dumps(writes[i:i + 45], indent=0))
     print(f"board: {len(board['jobs'])} roles ({len(json.dumps(board)) // 1024} KiB); "
+          f"live LinkedIn board: {li} roles; "
           f"new job descriptions: {len(writes)} in {len(range(0, len(writes), 45))} batch file(s)")
 
 
