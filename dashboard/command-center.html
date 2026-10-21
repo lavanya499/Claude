@@ -273,8 +273,9 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     <div class="live" id="live-bar"></div>
     <div class="filters">
       <input class="search" id="q" type="search" placeholder="Search company, title or city">
-      <label class="toggle"><input type="checkbox" id="only-list"> Top-50 companies only</label>
+      <label class="toggle"><input type="checkbox" id="only-list"> Target companies only</label>
       <label class="toggle"><input type="checkbox" id="hide-tracked" checked> Hide roles I've acted on</label>
+      <label class="toggle"><input type="checkbox" id="clear-only" checked> Hide vague titles at other companies</label>
     </div>
     <div class="filters">
       <label class="toggle" for="sort">Sort by</label>
@@ -383,7 +384,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     return el;
   };
   const S = { board: null, track: {}, nights: {}, profile: null, db: null, sample: null,
-              view: "tonight", region: "All", q: "", onlyList: false, hideTracked: true, limit: 40, packs: {}, sort: "recent", age: "any", source: "All" };
+              view: "tonight", region: "All", q: "", onlyList: false, hideTracked: true, clearOnly: true, limit: 40, packs: {}, sort: "recent", age: "any", source: "All" };
   const store = { get(k, d) { try { const v = localStorage.getItem("spm:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
                   set(k, v) { try { localStorage.setItem("spm:" + k, JSON.stringify(v)); } catch {} } };
 
@@ -502,7 +503,8 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     }));
     const q = S.q.trim().toLowerCase(), maxAge = S.age === "any" ? Infinity : Number(S.age);
     const base = S.board.jobs.filter((j) => (S.region === "All" || j.region === S.region)
-      && (!S.onlyList || j.tier <= 2) && (!S.hideTracked || !isTracked(j)) && hourAge(j) <= maxAge
+      && (!S.onlyList || j.tier <= 2) && (!S.hideTracked || !isTracked(j))
+      && (!S.clearOnly || j.tier <= 2 || ["senior", "reach", "stretch"].includes(j.level)) && hourAge(j) <= maxAge
       && (!q || `${j.company} ${j.title} ${j.location} ${j.code}`.toLowerCase().includes(q)));
     const counts = {};
     for (const j of base) counts[j.source || ""] = (counts[j.source || ""] || 0) + 1;
@@ -1059,6 +1061,7 @@ ${JSON.stringify(m)}`;
   $("#age").addEventListener("change", (e) => { S.age = e.target.value; store.set("ageh", S.age); S.limit = 40; renderBoard(); });
   $("#only-list").addEventListener("change", (e) => { S.onlyList = e.target.checked; renderBoard(); });
   $("#hide-tracked").addEventListener("change", (e) => { S.hideTracked = e.target.checked; renderBoard(); });
+  $("#clear-only").addEventListener("change", (e) => { S.clearOnly = e.target.checked; store.set("clearOnly", S.clearOnly); renderBoard(); });
   $("#more").addEventListener("click", () => { S.limit += 40; renderBoard(); });
   $("#ask-plus").addEventListener("click", () => saveNight({ asks: ((S.nights[nightKey()] || {}).asks || 0) + 1 }));
   $("#ask-minus").addEventListener("click", () => saveNight({ asks: Math.max(0, ((S.nights[nightKey()] || {}).asks || 0) - 1) }));
@@ -1074,6 +1077,7 @@ ${JSON.stringify(m)}`;
   S.region = store.get("region", "All");
   S.sort = store.get("sort", "recent"); S.age = store.get("ageh", "any"); S.source = store.get("source", "All");
   if (S.sort === "posted") S.sort = "recent";
+  S.clearOnly = store.get("clearOnly", true); $("#clear-only").checked = S.clearOnly;
   if (["recent", "best", "found", "fit", "company"].includes(S.sort)) $("#sort").value = S.sort; else S.sort = "recent";
   if (["any", "1", "3", "6", "12", "24", "72", "168", "720"].includes(S.age)) $("#age").value = S.age; else S.age = "any";
   const hash = location.hash.slice(1);

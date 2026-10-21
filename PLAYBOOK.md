@@ -1,7 +1,8 @@
 # 30-Day SPM Job Hunt Playbook
 
 Target: Senior Product Manager at Google-tier companies, in the UK, Europe, Australia,
-Thailand or Malaysia (Singapore and India hubs are tracked too). Budget: ₹0. Time: 2 hours a night.
+Thailand or Malaysia, plus the Gulf (UAE, Saudi Arabia, Qatar), Canada and New Zealand
+(Singapore and India hubs are tracked too). Budget: ₹0. Time: 2 hours a night.
 
 ## What "success in 30 days" means
 
@@ -25,16 +26,21 @@ likely to reach a recruiter than a cold one. Every application in this plan gets
 ```
 Every hour (GitHub Actions, free)        Every night, about 21:00 IST        Your 2 hours
 ────────────────────────────────         ─────────────────────────────       ────────────────────────
-50 target companies' career sites  ──►   ntfy digest: "Tonight's      ──►    Command Center dashboard:
-+ LinkedIn search in 15 countries        shortlist: N new roles"             triage → tailor → apply
+79 target companies' career sites  ──►   ntfy digest: "Tonight's      ──►    Command Center dashboard:
++ LinkedIn every 15 min, 21 countries    shortlist: N new roles"             triage → tailor → apply
 filter: SPM-level × your countries       Claude routine scores roles          → referral asks → prep
 dedupe, score, visa/relocation flags     against your resume and syncs        → log status
-instant phone push for top-50 roles      them to the dashboard
+instant phone push for target roles      them to the dashboard
 ```
 
-* **Instant alerts**: a new senior PM role at one of the 50 target companies pushes to your phone
-  through the free **ntfy** app (see README for the 1-minute setup).
-* **JOBS.md**: the full, always-current list, sorted by score.
+* **Instant alerts**: a new PM role on LinkedIn at one of the 79 target companies pushes to your
+  phone within about 15 minutes through the free **ntfy** app (see README for the 1-minute setup).
+  Roles on a company's own careers page push within the hour.
+* **LIVE.md**: every PM role LinkedIn posted in the last 48 hours, newest first, to the minute.
+* **JOBS.md**: the full, always-current list of roles at target companies, sorted by score.
+* Recency matters: roles applied to within a day or two get far more recruiter attention. In the
+  Command Center, sort All roles by *Most recent first* and use the *Posted* filter (last hour,
+  3 hours, 24 hours).
 * **Command Center** (a private claude.ai page): the shortlist, the application tracker, and a
   "Tailor with Claude" button that writes the resume bullets and answers for a specific role.
 
@@ -124,12 +130,17 @@ Rules change often. Before you rely on any detail here, check the official page 
 | Sweden | Work permit with an employer offer | [migrationsverket.se](https://www.migrationsverket.se) |
 | Australia | Employer-sponsored Skills in Demand visa | [immi.homeaffairs.gov.au](https://immi.homeaffairs.gov.au) |
 | Singapore | Employment Pass (COMPASS points) | [mom.gov.sg](https://www.mom.gov.sg/passes-and-permits/employment-pass) |
+| UAE (Dubai, Abu Dhabi) | Employer-sponsored work permit and residence visa; Golden Visa for some skilled professionals | [u.ae](https://u.ae/en/information-and-services/visa-and-emirates-id) · no personal income tax in the UAE, check each offer's package |
+| Saudi Arabia / Qatar | Employer-sponsored work visa (Saudi: through the Qiwa platform) | [qiwa.sa](https://qiwa.sa) · [hukoomi.gov.qa](https://hukoomi.gov.qa) |
+| Canada | Employer-supported work permit (the Global Talent Stream can apply to tech roles); Express Entry as the long-term route | [canada.ca](https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html) |
+| New Zealand | Accredited Employer Work Visa (employer must be accredited) | [immigration.govt.nz](https://www.immigration.govt.nz/new-zealand-visas/visas/visa/accredited-employer-work-visa) |
 | Malaysia | Employment Pass (employer applies through ESD) | [esd.imi.gov.my](https://esd.imi.gov.my) |
 | Thailand | Non-B visa + work permit, or the LTR "highly-skilled professional" visa | [ltr.boi.go.th](https://ltr.boi.go.th) |
 
 The radar flags jobs whose description mentions sponsorship or relocation (✅) or rules it out (⛔).
-Agoda (Bangkok), Booking.com, Adyen and Netflix (Amsterdam), Wise (London/Tallinn), Grab (KL/Singapore)
-and Atlassian/Canva (Sydney) are known for relocating international hires.
+Agoda (Bangkok), Booking.com, Adyen and Netflix (Amsterdam), Wise (London/Tallinn), Grab (KL/Singapore),
+Atlassian/Canva (Sydney), Okta and Cohere (Toronto) and Scale AI/Ebury (Dubai) are known for hiring
+internationally. Check each posting's wording before assuming sponsorship.
 
 ## Google SPM loop: what to expect
 

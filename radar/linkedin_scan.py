@@ -194,12 +194,12 @@ def write_live(state, now):
         return out
 
     targets = [r for r in rows if r["tier"] in (1, 2)]
-    others = [r for r in rows if r["tier"] > 2 and r["level"] != "mid"]
+    others = [r for r in rows if r["tier"] > 2]
     md = [f"# Live LinkedIn roles (last 48 hours, newest first)", "",
           f"Updated {ist(stamp(now))} IST. Scanned every 15 minutes across {len(FAST['locations'])} countries. "
           "A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.", "",
           f"## Target companies ({len(targets)})", ""] + table(targets) + \
-         ["", f"## Everyone else, senior level and above ({len(others)})", ""] + table(others) + [""]
+         ["", f"## Everyone else, every level except junior ({len(others)})", ""] + table(others) + [""]
     LIVE_MD.write_text("\n".join(md))
 
 
@@ -218,6 +218,11 @@ def main():
         new, health = collect(state, now)
         enrich(new)
         alert(new, state, now, baseline, push)
+        last = state.get("last_block_ping")
+        if push and health.get("rate_limited") and (not last or now - parse(last) >= dt.timedelta(hours=6)):
+            scan.ntfy("LinkedIn scanner paused", "LinkedIn rate-limited the scanner. It retries by itself in 40 minutes; "
+                      "company career-page alerts are unaffected.", priority=2, tags=["warning"])
+            state["last_block_ping"] = stamp(now)
     cutoff = stamp(now - dt.timedelta(days=FAST["keep_days"]))
     old_desc = stamp(now - dt.timedelta(days=3))
     for k, r in list(state["jobs"].items()):
@@ -227,7 +232,7 @@ def main():
             r.pop("desc", None)
     state["health"] = health
     prev = json.loads(before)
-    changed = bool(new) or any(state.get(k) != prev.get(k) for k in ("blocked_until", "last_rollup"))
+    changed = bool(new) or any(state.get(k) != prev.get(k) for k in ("blocked_until", "last_rollup", "last_block_ping"))
     if changed:
         state["updated"] = stamp(now)
         STATE.write_text(json.dumps(state, indent=0, ensure_ascii=False, sort_keys=True))

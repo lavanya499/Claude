@@ -18,7 +18,9 @@ instructions.
    (file names without `.json`) one per line to `.sync/known.txt` (create it empty if there are none).
 3. **Build.** `python3 radar/board.py .sync --known-jd .sync/known.txt`
 4. **Board.** `ArtifactData get` board/current to read its `version`, then `set` board/current from
-   `.sync/board.json` with that `if_version` (omit it if the doc does not exist).
+   `.sync/board.json` with that `if_version` (omit it if the doc does not exist). Do the same for
+   board/li from `.sync/board_li.json` (the last 72 hours from the 15-minute LinkedIn scanner;
+   skip it if that file was not written).
 5. **Job descriptions.** For each file in `.sync/batches/` in order, `ArtifactData batch` with
    `writes` = that file's JSON array.
 6. **Application packs.** `ArtifactData get` profile/me. If it has a `resume`:
