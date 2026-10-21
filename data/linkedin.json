@@ -1,9 +1,11 @@
 {
 "health": {
 "calls": 30,
-"cards": 194,
+"cards": 138,
 "errors": 0,
-"new": 44
+"new": 31,
+"requests": 30,
+"window_min": 90
 },
 "jobs": {
 "4417464941": {
@@ -168,6 +170,24 @@
 "url": "https://www.linkedin.com/jobs/view/4462524386/",
 "visa": ""
 },
+"4464530514": {
+"company": "Quanta",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4464530514",
+"level": "senior",
+"location": "France",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:23Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4464530514/",
+"visa": ""
+},
 "4464624884": {
 "company": "Spotify",
 "desc": "Spotify's mission is to unlock the potential of human creativity by giving a million creative artists the opportunity to live off their art and billions of fans the chance to enjoy and be passionate about these creators.\nThe Subscriptions Mission builds and evolves Spotify's subscription products and marketplace experiences to drive sustainable user and revenue growth globally. We focus on awareness, acquisition, activation, retention, and monetization strategies that help users unlock the full value of Spotify while enabling the business to scale efficiently and responsibly.\nThis role focuses on the awareness, acquisition, and activation layers of the Subscriptions Mission, making Premium feel unmissable to free users long before a purchase decision. You'll own the strategy for how users discover, understand, and develop intent for Premium value, partnering closely with product, design, engineering, research, marketing, and data science to shape the moments, surfaces, and experiences that drive consideration across markets and segments.\nWhat You Will Do\n Own the product strategy and roadmap for Premium awareness, acquisition, and activation, helping more listeners discover its value and take the next step toward subscribing.\n Lead the discovery, development, and launch of consumer-facing product experiences, from early ideas and testing through to global rollout.\n Shape how people experience Premium across Spotify and partner channels, creating engaging journeys that build consideration, encourage subscription, and support long-term retention.\n Collaborate with partnerships and commercial teams to develop, launch, and scale subscription offerings across partners, markets, and audience segments.\n Lead experimentation to understand what drives interest in Premium, using A/B testing and behavioral insights to improve the user journey and measure business impact.\n Turn customer insights, market trends, and performance data into clear product opportunities, measurable goals, and informed priorities.\n Balance user needs, business outcomes, partner requirements, and regional differences to make thoughtful product decisions that deliver sustainable growth.\n Bring teams together around a shared direction, communicating product strategy, results, and trade-offs clearly to stakeholders and senior leaders.\n Where You'll Be\n You have a strong track record in product management, building and launching consumer-facing products at scale, with experience in areas such as subscriptions, consumer growth, marketplaces, media, or partner ecosystems.\n You understand what makes a product valuable to consumers and how product experiences, positioning, and messaging influence consideration and willingness to pay.\n You know how to identify opportunities across the customer journey, from awareness and acquisition through conversion and retention, and connect product decisions to subscriber and revenue growth.\n You're confident designing experiments, interpreting A/B tests, and using funnel, cohort, and behavioral data to make informed product decisions.\n You have experience working across different markets and customer segments, balancing globally consistent experiences with local needs and opportunities.\n You bring sound product judgment, knowing when to improve an existing experience, explore a new approach, or invest in longer-term capabilities.\n You're a thoughtful communicator and collaborative partner who can bring together diverse perspectives, influence ",
@@ -277,6 +297,60 @@
 "tier": 3,
 "title": "FBS Agile Product Manager III- Guidewire",
 "url": "https://www.linkedin.com/jobs/view/4468908769/",
+"visa": ""
+},
+"4469676713": {
+"company": "Autodesk",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4469676713",
+"level": "unlevelled",
+"location": "Cracow, Małopolskie, Poland",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:46Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner, Autodesk Civil 3D",
+"url": "https://www.linkedin.com/jobs/view/4469676713/",
+"visa": ""
+},
+"4469684529": {
+"company": "Autodesk",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4469684529",
+"level": "reach",
+"location": "Vancouver, British Columbia, Canada",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:45Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Principal Product Manager, PPL Technology",
+"url": "https://www.linkedin.com/jobs/view/4469684529/",
+"visa": ""
+},
+"4470877893": {
+"company": "Tech Data APAC",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4470877893",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:36Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager, HPE",
+"url": "https://www.linkedin.com/jobs/view/4470877893/",
 "visa": ""
 },
 "4471978327": {
@@ -442,6 +516,24 @@
 "url": "https://www.linkedin.com/jobs/view/4477063904/",
 "visa": ""
 },
+"4479031919": {
+"company": "EDF",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4479031919",
+"level": "unlevelled",
+"location": "Nanterre, Île-de-France, France",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:37Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager outillage IA F/H",
+"url": "https://www.linkedin.com/jobs/view/4479031919/",
+"visa": ""
+},
 "4479435717": {
 "company": "BT Group",
 "dup": false,
@@ -494,6 +586,97 @@
 "tier": 3,
 "title": "SAMSUNG Product Owner eCommerce (gn)",
 "url": "https://www.linkedin.com/jobs/view/4479445080/",
+"visa": ""
+},
+"4479446678": {
+"company": "OSW",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4479446678",
+"level": "unlevelled",
+"location": "Northampton, England, United Kingdom",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:41Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager (Solar)",
+"url": "https://www.linkedin.com/jobs/view/4479446678/",
+"visa": ""
+},
+"4479448695": {
+"company": "Gemeenteprojecten",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4479448695",
+"level": "unlevelled",
+"location": "Velserbroek, North Holland, Netherlands",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:23Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product owner bedrijfsvoering (loondienst)",
+"url": "https://www.linkedin.com/jobs/view/4479448695/",
+"visa": ""
+},
+"4479457292": {
+"company": "Personio",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4479457292",
+"level": "reach",
+"location": "Berlin, Berlin, Germany",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:29Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager (Senior/Staff)",
+"url": "https://www.linkedin.com/jobs/view/4479457292/",
+"visa": ""
+},
+"4479459286": {
+"company": "Personio",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4479459286",
+"level": "reach",
+"location": "Munich, Bavaria, Germany",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:29Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager (Senior/Staff)",
+"url": "https://www.linkedin.com/jobs/view/4479459286/",
+"visa": ""
+},
+"4479464211": {
+"company": "Okta",
+"desc": "Secure Every Identity, from AI to Human\n Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.\nThis is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.\n Join the Okta Device Access (ODA) team as an outcome-driven and customer-focused Senior Product Manager. Okta Device Access unifies access management from any device to all applications to minimize modern security risks and improve business efficiency.\n As a Senior Product Manager for Okta Device Access, you will own key product areas and contribute to the continued evolution of ODA to meet customer and business needs. You will work closely with senior product leaders, engineering, and design to define how enterprise organizations secure and manage identity on Windows endpoints - from Okta-joined device enrollment to passwordless authentication and migration from legacy AD environments.. If you’re passionate about improving customer security and engaging with a vibrant community, we’re looking for you. Your primary responsibilities in these areas will include:\n Define and execute the roadmap for the Okta Device Access for Windows\n Own the enterprise migration story from Active Directory and Azure AD/Entra ID to Okta-managed device identities\n Drive the Okta-joined device experience end-to-end: from enrollment and provisioning to passwordless flows and partner integrations.\n Collaborate with engineering, design and research teams to define and document user stories and use-cases to guide product development. \n Conduct research and analysis to identify customer needs and pain points, and use this information to inform innovation, product decisions and prioritization\n Develop, research, and clearly communicate product strategies across different levels of stakeholders and leadership chain\n Define and communicate product requirements, including features, user experience, and technical specifications, to engineering teams.\n Leverage product data to continually get smarter about how to improve our existing products, and work across the business to drive adoption and success\n Track industry trends and think strategically to develop solutions that are differentiated from the competition\n Be the subject matter expert for your product area and help enable your counterparts in the core product, Marketing, and tech partnerships teams.\n Lead a scrum team of stellar engineers and deliver key features with high quality in the communicated timelines\n Be a thought leader for your product area, and stay on top of the latest innovations and competitive landscape\n Work with Product Marketing to clearly articulate Okta's differentiation versus market alternatives\n Minimum Knowledge, Skills, and Abilities:\n 5+ years of product management experience, preferably in Enterprise SaaS or IaaS\n Developed a phased roadmap for complex or abstract projects, and executed the roadmap to deliver a product that customers loved\n Strong knowledge of Domain or Entra joined Windows concepts\n Strong communication (presentation, verbal and written) and collaboration skills. You easily work with customers and colleagues across different functions and backgrounds.\n Dem",
+"dup": true,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4479464211",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:28Z",
+"regions": [
+"Canada"
+],
+"score": 94,
+"tier": 1,
+"title": "Senior Product Manager - Okta Device Access",
+"url": "https://www.linkedin.com/jobs/view/4479464211/",
 "visa": ""
 },
 "4481104968": {
@@ -601,6 +784,150 @@
 "tier": 3,
 "title": "Technical Product Manager - Trust & Safety",
 "url": "https://www.linkedin.com/jobs/view/4481148313/",
+"visa": ""
+},
+"4481150890": {
+"company": "Haystack",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481150890",
+"level": "unlevelled",
+"location": "United Kingdom",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:36Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4481150890/",
+"visa": ""
+},
+"4481154737": {
+"company": "tink",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481154737",
+"level": "senior",
+"location": "Berlin, Germany",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:36Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Owner:in E-Commerce (all genders)",
+"url": "https://www.linkedin.com/jobs/view/4481154737/",
+"visa": ""
+},
+"4481159627": {
+"company": "Zeppelin Group",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481159627",
+"level": "senior",
+"location": "Hamburg, Hamburg, Germany",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:36Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "(Senior) Product Manager Energy Storage & Power Conversion Solutions | BESS | PCS (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4481159627/",
+"visa": ""
+},
+"4481166482": {
+"company": "Caribou",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481166482",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:33Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4481166482/",
+"visa": ""
+},
+"4481170121": {
+"company": "Allstate Canada",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481170121",
+"level": "unlevelled",
+"location": "Canada",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:41Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Digital Product Manager (Infrastructure as Code)",
+"url": "https://www.linkedin.com/jobs/view/4481170121/",
+"visa": ""
+},
+"4481172048": {
+"company": "Zeppelin Group",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481172048",
+"level": "senior",
+"location": "Hamburg, Hamburg, Germany",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:36Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "(Senior) Product Manager Energy Management Systems | EMS (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4481172048/",
+"visa": ""
+},
+"4481173132": {
+"company": "LanceSoft, Inc.",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481173132",
+"level": "unlevelled",
+"location": "Montreal, Quebec, Canada",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:19Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4481173132/",
+"visa": ""
+},
+"4481778413": {
+"company": "Yélé Consulting",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4481778413",
+"level": "unlevelled",
+"location": "Lyon, Auvergne-Rhône-Alpes, France",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:37Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner - Secteur énergie - Lyon H/F",
+"url": "https://www.linkedin.com/jobs/view/4481778413/",
 "visa": ""
 },
 "4482118030": {
@@ -804,8 +1131,243 @@
 "title": "Produktmanager Hochspannungsschaltanlagen / Product Manager HV Switchgear / SAFe Product Manager (m/w/d)",
 "url": "https://www.linkedin.com/jobs/view/4482157130/",
 "visa": ""
+},
+"4482160968": {
+"company": "Lazer Technologies",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482160968",
+"level": "unlevelled",
+"location": "Canada",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:35Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4482160968/",
+"visa": ""
+},
+"4482160974": {
+"company": "Fundamental",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482160974",
+"level": "unlevelled",
+"location": "Eu, Normandy, France",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:37Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Data Science",
+"url": "https://www.linkedin.com/jobs/view/4482160974/",
+"visa": ""
+},
+"4482162902": {
+"company": "St. James's Place",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482162902",
+"level": "senior",
+"location": "Cirencester, England, United Kingdom",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:51Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Lead Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4482162902/",
+"visa": ""
+},
+"4482165529": {
+"company": "Crédit Agricole Group Infrastructure Platform",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482165529",
+"level": "unlevelled",
+"location": "Annecy, Auvergne-Rhône-Alpes, France",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:37Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner Crypto H/F",
+"url": "https://www.linkedin.com/jobs/view/4482165529/",
+"visa": ""
+},
+"4482166800": {
+"company": "Danfoss",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482166800",
+"level": "senior",
+"location": "Chennai, Tamil Nadu, India",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:04Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Owner, BI & Analytics",
+"url": "https://www.linkedin.com/jobs/view/4482166800/",
+"visa": ""
+},
+"4482168496": {
+"company": "Fundamental",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482168496",
+"level": "unlevelled",
+"location": "Eu, Normandy, France",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:37Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager - Inference",
+"url": "https://www.linkedin.com/jobs/view/4482168496/",
+"visa": ""
+},
+"4482168935": {
+"company": "Kuehne+Nagel",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482168935",
+"level": "unlevelled",
+"location": "Frankfurt, Hesse, Germany",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:29Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "National Semicon Product Manager (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4482168935/",
+"visa": ""
+},
+"4482170387": {
+"company": "JPMorganChase",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482170387",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:37Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Regulatory System Implementation Product Owner - Associate",
+"url": "https://www.linkedin.com/jobs/view/4482170387/",
+"visa": ""
+},
+"4482178559": {
+"company": "St. James's Place",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482178559",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:51Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Lead Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4482178559/",
+"visa": ""
+},
+"4482180483": {
+"company": "Danfoss",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482180483",
+"level": "senior",
+"location": "Pune Division, Maharashtra, India",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:04Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Owner, BI & Analytics",
+"url": "https://www.linkedin.com/jobs/view/4482180483/",
+"visa": ""
+},
+"4482181636": {
+"company": "Booking Boosters",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482181636",
+"level": "senior",
+"location": "Enschede, Overijssel, Netherlands",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:34Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4482181636/",
+"visa": ""
+},
+"4482182508": {
+"company": "Evolve",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482182508",
+"level": "unlevelled",
+"location": "Spain",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T21:59Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4482182508/",
+"visa": ""
+},
+"4482185206": {
+"company": "Ameriprise Financial Services, LLC",
+"dup": false,
+"first_seen_at": "2026-10-21T22:35Z",
+"id": "4482185206",
+"level": "reach",
+"location": "Noida, Uttar Pradesh, India",
+"posted": "2026-10-21",
+"posted_ts": "2026-10-21T22:01Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Principal Lead-Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4482185206/",
+"visa": ""
 }
 },
 "last_rollup": "2026-10-21T19:32Z",
-"updated": "2026-10-21T19:32Z"
+"last_scan": "2026-10-21T22:35Z",
+"updated": "2026-10-21T22:35Z"
 }
