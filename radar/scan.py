@@ -302,7 +302,9 @@ def main():
         from_li = r.get("_detail", ("",))[0] == "linkedin"
         key = f"linkedin:{r['id']}" if from_li else f"{slug(c['name'])}:{r['id']}"
         by_fingerprint[(slug(c["name"]), slug(r["title"]))] = key
-        rec = known.get(key) or {"first_seen": TODAY, "first_seen_at": NOW_MIN, "key": key}
+        # A company's first scan only baselines roles that were already open, so they get no "found at" time.
+        rec = known.get(key) or ({"first_seen": TODAY, "key": key}
+                                 | ({} if c["name"] in fresh_sources else {"first_seen_at": NOW_MIN}))
         rec.update({"company": c["name"], "tier": c.get("tier", 2), "title": r["title"],
                     "location": r.get("location", ""), "url": r["url"],
                     "source": "linkedin" if from_li else c["ats"],
