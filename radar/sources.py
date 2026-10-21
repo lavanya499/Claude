@@ -358,7 +358,7 @@ def atlassian(want=_always, **_):
 
 
 _LI_LOCK = threading.Lock()
-_LI = {"last": 0.0, "blocked": False}
+_LI = {"last": 0.0, "blocked": False, "calls": 0}
 
 
 def _linkedin_get(url):
@@ -369,6 +369,7 @@ def _linkedin_get(url):
         wait = 4 + 3 * random.random() - (time.time() - _LI["last"])
         if wait > 0:
             time.sleep(wait)
+        _LI["calls"] += 1
         try:
             return http(url, headers={"Accept": "text/html"})
         except urllib.error.HTTPError as e:

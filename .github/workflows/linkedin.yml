@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 14
+    timeout-minutes: 26
     # A failed run makes GitHub email the repository owner, so runs never end red.
     continue-on-error: true
     steps:
@@ -24,7 +24,7 @@ jobs:
         with: {python-version: "3.12"}
       - id: scan
         continue-on-error: true
-        timeout-minutes: 11
+        timeout-minutes: 22
         run: python radar/linkedin_scan.py ${{ github.event.inputs.dry == 'true' && '--no-push' || '' }}
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

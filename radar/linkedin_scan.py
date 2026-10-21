@@ -66,14 +66,29 @@ def ats_fingerprints():
     return {(scan.slug(j["company"]), scan.slug(j["title"])) for j in jobs if j.get("source") != "linkedin"}
 
 
+def search_window(state, now):
+    """GitHub's scheduler often runs late (hours, not minutes), so look back to the last scan, not a fixed 90 minutes."""
+    base = FAST["seconds"]
+    if not state.get("last_scan"):
+        return base
+    gap = (now - parse(state["last_scan"])).total_seconds()
+    return int(min(FAST["max_seconds"], max(base, gap + 1200)))
+
+
 def collect(state, now):
     jobs, health = state["jobs"], {"calls": 0, "errors": 0, "cards": 0, "new": 0}
+    window = search_window(state, now)
+    scale = -(-window // FAST["seconds"])  # a longer look-back needs deeper result pages
+    health["window_min"] = window // 60
     plan = query_plan(now)
     new = []
     for loc, kw, pages in plan:
+        if sources._LI["calls"] >= FAST["max_requests"]:
+            health["truncated"] = True
+            break
         health["calls"] += 1
         try:
-            cards = list(sources.linkedin(kw, loc, seconds=FAST["seconds"], pages=pages))
+            cards = list(sources.linkedin(kw, loc, seconds=window, pages=min(FAST["max_pages"], pages * scale)))
         except Exception as e:  # noqa: BLE001
             health["errors"] += 1
             health["last_error"] = f"{type(e).__name__}: {str(e)[:120]}"
@@ -101,6 +116,9 @@ def collect(state, now):
             if c["posted_ts"] and not rec.get("posted_ts"):
                 rec["posted_ts"] = c["posted_ts"]
     health["new"] = len(new)
+    health["requests"] = sources._LI["calls"]
+    if not (health.get("rate_limited") or health.get("truncated")):
+        state["last_scan"] = stamp(now)  # only a complete pass moves the look-back forward
     return new, health
 
 
@@ -232,7 +250,9 @@ def main():
             r.pop("desc", None)
     state["health"] = health
     prev = json.loads(before)
-    changed = bool(new) or any(state.get(k) != prev.get(k) for k in ("blocked_until", "last_rollup", "last_block_ping"))
+    stale = not prev.get("last_scan") or now - parse(prev["last_scan"]) >= dt.timedelta(minutes=50)
+    changed = bool(new) or any(state.get(k) != prev.get(k) for k in ("blocked_until", "last_rollup", "last_block_ping")) \
+        or (stale and state.get("last_scan") != prev.get("last_scan"))
     if changed:
         state["updated"] = stamp(now)
         STATE.write_text(json.dumps(state, indent=0, ensure_ascii=False, sort_keys=True))
