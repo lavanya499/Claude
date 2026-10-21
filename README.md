@@ -56,6 +56,12 @@ so it never collides with the hourly scan.
 * If LinkedIn answers with a rate limit (HTTP 429), the scanner stops for 40 minutes and tries again.
   `data/linkedin.json` shows the last health result.
 * To test without phone alerts, run the workflow by hand with `dry` set to `true`.
+* **GitHub's free scheduler is best-effort.** Here the hourly radar has fired every 3 to 6 hours rather
+  than hourly, and the 15-minute schedule can be delayed the same way. The scanner therefore looks back
+  to its last complete pass (not a fixed 90 minutes), so no role is lost, but a phone alert can arrive
+  hours after a posting when GitHub is slow. Saying "sync my board" in a Claude Code session starts a
+  fresh scan of both workflows first (see `radar/NIGHTLY.md`), so your nightly session always starts
+  with current data.
 
 Edit `radar/config.json` to change titles, countries or alert thresholds (`linkedin_fast` holds the 15-minute scanner's settings), and
 `radar/companies.json` to add or remove companies. Run `python radar/probe.py` (or the **probe**
