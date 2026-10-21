@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-21 19:39 UTC · 685 open matches · 685 new in the last 24h · 97/98 sources healthy_
+_Updated 2026-10-21 22:25 UTC · 685 open matches · 685 new in the last 24h · 97/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -13,11 +13,11 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 98 | ⭐ Google | [Global Product Lead, Support Tools, Global Business Applied AI, GTM](https://www.google.com/about/careers/applications/jobs/results/105449690824090310-global-product-lead-support-tools-global-business-applied-ai-gtm) | Hyderabad, Telangana, India |  | 2026-10-20 |
 | 98 | N26 | [Senior Product Manager - Conversational Banking](https://n26.com/en-eu/careers/positions/8158787?gh_jid=8158787) | Barcelona | ✅ sponsor/relocation | 2026-09-11 |
 | 96 | ⭐ Amazon | [Senior Product Manager - Tech, Global App Experience, Global App Experience Client team (Living Room and Web)](https://www.amazon.jobs/en/jobs/10582269/senior-product-manager-tech-global-app-experience-global-app-experience-client-team-living-room-and-web) | London, England, GBR |  | 2026-10-19 |
-| 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041209&gh_jid=8041209) | Hungary |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8028261&gh_jid=8028261) | Spain |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041202&gh_jid=8041202) | Greece |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041203&gh_jid=8041203) | Ireland |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041208&gh_jid=8041208) | Portugal |  | 2026-07-01 |
+| 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041209&gh_jid=8041209) | Hungary |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041211&gh_jid=8041211) | Norway |  | 2026-07-01 |
 | 95 | ⭐ Google | [Global Product Lead, Product GTM, Sellside Apps Platforms](https://www.google.com/about/careers/applications/jobs/results/91277374636597958-global-product-lead-product-gtm-sellside-apps-platforms) | Mountain View, CA, USA; Dublin, Ireland |  | 2026-10-20 |
 | 94 | ⭐ Google | [Senior Product Manager, Shopping Graph](https://www.google.com/about/careers/applications/jobs/results/100862281352389318-senior-product-manager-shopping-graph) | Zürich, Switzerland |  | 2026-10-20 |
@@ -61,10 +61,10 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 88 | ⭐ Google | [Product Manager, Google Play App Safety Platform](https://www.google.com/about/careers/applications/jobs/results/75458576293733062-product-manager-google-play-app-safety-platform) | Bengaluru, Karnataka, India |  | 2026-10-20 |
 | 88 | ⭐ Google | [Product Manager, Android Maps Reach](https://www.google.com/about/careers/applications/jobs/results/86778941854884550-product-manager-android-maps-reach) | Bengaluru, Karnataka, India |  | 2026-10-20 |
 | 88 | ⭐ Okta | [Senior Product Manager - Policies](https://www.okta.com/company/careers/opportunity/8137951?gh_jid=8137951) | Bellevue, Washington; Chicago, Illinois; New York, New York; |  | 2026-08-26 |
-| 87 | Geotab | [Senior Product Manager, Vehicle Data (Regional Growth) – EMEA](https://job-boards.greenhouse.io/geotab/jobs/5460005008) | London, England - United Kingdom; Reading, England - United  |  | 2026-10-21 |
 | 87 | Geotab | [Senior Product Manager, Vehicle Data (Regional Growth) – EMEA](https://job-boards.greenhouse.io/geotab/jobs/5369444008) | Berlin, Germany - Germany |  | 2026-10-21 |
 | 87 | Geotab | [Senior Product Manager, Vehicle Data (Regional Growth) – EMEA](https://job-boards.greenhouse.io/geotab/jobs/5369446008) | Madrid, Spain - Spain |  | 2026-10-21 |
 | 87 | Geotab | [Senior Product Manager, Vehicle Data (Regional Growth) – EMEA](https://job-boards.greenhouse.io/geotab/jobs/5459998008) | Krakow, Poland - Poland |  | 2026-10-21 |
+| 87 | Geotab | [Senior Product Manager, Vehicle Data (Regional Growth) – EMEA](https://job-boards.greenhouse.io/geotab/jobs/5460005008) | London, England - United Kingdom; Reading, England - United  |  | 2026-10-21 |
 | 87 | ⭐ GitLab | [Senior Product Manager, Agentic Source Code](https://job-boards.greenhouse.io/gitlab/jobs/8597805002) | Remote, Canada; Remote, US |  | 2026-07-07 |
 | 87 | ⭐ Okta | [Senior Product Manager - Agentic Security (Auth0)](https://www.okta.com/company/careers/opportunity/8041551?gh_jid=8041551) | Toronto, Ontario, Canada |  | 2026-07-01 |
 | 87 | Shopee | [Senior Business Product Manager - Regional Cross Border](https://www.linkedin.com/jobs/view/4480456098/) | Singapore, Singapore |  | 2026-10-20 |
@@ -163,11 +163,11 @@ _…and 87 more in data/jobs.json_
 | 100 | ⭐ Booking.com | [Senior Product Manager](https://www.linkedin.com/jobs/view/4472738955/) | Amsterdam, North Holland, Netherlands |  | 2026-10-20 |
 | 100 | ⭐ JetBrains | [Senior Product Manager – JetBrains Air (Agentic Development in IDEs)](https://job-boards.eu.greenhouse.io/jetbrains/jobs/5005323101) | Amsterdam, Netherlands |  | 2026-10-20 |
 | 98 | N26 | [Senior Product Manager - Conversational Banking](https://n26.com/en-eu/careers/positions/8158787?gh_jid=8158787) | Barcelona | ✅ sponsor/relocation | 2026-09-11 |
-| 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041209&gh_jid=8041209) | Hungary |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8028261&gh_jid=8028261) | Spain |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041202&gh_jid=8041202) | Greece |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041203&gh_jid=8041203) | Ireland |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041208&gh_jid=8041208) | Portugal |  | 2026-07-01 |
+| 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041209&gh_jid=8041209) | Hungary |  | 2026-07-01 |
 | 95 | ⭐ Elastic | [Senior Product Manager - Self service cloud](https://jobs.elastic.co/jobs?gh_jid=8041211&gh_jid=8041211) | Norway |  | 2026-07-01 |
 | 95 | ⭐ Google | [Global Product Lead, Product GTM, Sellside Apps Platforms](https://www.google.com/about/careers/applications/jobs/results/91277374636597958-global-product-lead-product-gtm-sellside-apps-platforms) | Mountain View, CA, USA; Dublin, Ireland |  | 2026-10-20 |
 | 94 | ⭐ Google | [Senior Product Manager, Shopping Graph](https://www.google.com/about/careers/applications/jobs/results/100862281352389318-senior-product-manager-shopping-graph) | Zürich, Switzerland |  | 2026-10-20 |
@@ -390,76 +390,76 @@ _…and 83 more in data/jobs.json_
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 75 | 6 |
+| 1Password | ok | 77 | 6 |
 | Adobe | ok | 308 | 1 |
 | Adyen | ok | 248 | 9 |
-| Affirm | ok | 224 | 9 |
+| Affirm | ok | 226 | 9 |
 | Agoda | ok | 308 | 7 |
 | Airbnb | ok | 194 | 0 |
 | Airwallex | ok | 501 | 9 |
 | Amazon | ok | 226 | 99 |
 | Anthropic | ok | 674 | 0 |
 | Apple | ok |  |  |
-| Asana | ok | 105 | 5 |
+| Asana | ok | 104 | 5 |
 | Atlassian | ok | 363 | 4 |
 | Bitpanda | ok | 31 | 2 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
-| Brex | ok | 261 | 2 |
-| Canva | ok | 100 | 0 |
+| Brex | ok | 265 | 2 |
+| Canva | ok | 98 | 0 |
 | Celonis | ok | 215 | 4 |
 | Cloudflare | ok | 443 | 6 |
-| Cohere | ok | 115 | 3 |
+| Cohere | ok | 114 | 3 |
 | Cresta | ok | 84 | 1 |
-| Datadog | ok | 438 | 3 |
+| Datadog | ok | 439 | 3 |
 | Decagon | ok | 134 | 2 |
 | Deliveroo | ok | 226 | 8 |
 | Delivery Hero | ok | 600 | 5 |
 | Deputy | ok | 7 | 1 |
 | Doctolib | ok | 153 | 2 |
 | Ebury | ok | 143 | 4 |
-| Elastic | ok | 371 | 18 |
+| Elastic | ok | 373 | 18 |
 | ElevenLabs | ok | 160 | 2 |
-| Expedia Group | ok | 70 | 8 |
-| Fivetran | ok | 173 | 2 |
-| Genesys | ok | 195 | 2 |
-| Geotab | ok | 65 | 5 |
+| Expedia Group | ok | 71 | 8 |
+| Fivetran | ok | 168 | 2 |
+| Genesys | ok | 196 | 2 |
+| Geotab | ok | 67 | 5 |
 | GetYourGuide | ok | 74 | 6 |
-| GitLab | ok | 230 | 6 |
+| GitLab | ok | 229 | 5 |
 | GoCardless | ok | 28 | 2 |
-| Google | ok | 81 | 15 |
+| Google | ok | 80 | 15 |
 | Grab | ok | 426 | 9 |
-| Grafana Labs | ok | 143 | 12 |
+| Grafana Labs | ok | 145 | 12 |
 | Intercom | ok | 106 | 5 |
 | JetBrains | ok | 52 | 3 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
-| LinkedIn | ok | 197 | 0 |
+| LinkedIn | ok | 196 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 78 | 4 |
 | Mastercard | ok | 400 | 14 |
 | Meesho | ok | 59 | 2 |
 | Mentimeter | ok | 16 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 87 | 11 |
+| Microsoft | ok | 86 | 11 |
 | Moneybox | ok | 20 | 1 |
-| MongoDB | ok | 395 | 6 |
+| MongoDB | ok | 393 | 6 |
 | Monzo | ok | 68 | 2 |
 | N26 | ok | 34 | 6 |
-| Netflix | ok | 158 | 1 |
+| Netflix | ok | 157 | 1 |
 | New Relic | ok | 57 | 1 |
 | Nium | ok | 19 | 2 |
-| Okta | ok | 400 | 13 |
-| OpenAI | ok | 808 | 0 |
+| Okta | ok | 397 | 13 |
+| OpenAI | ok | 809 | 0 |
 | Oyster | ok | 23 | 2 |
 | Paddle | ok | 18 | 1 |
 | Parloa | ok | 55 | 2 |
-| PayPal | ok | 328 | 3 |
+| PayPal | ok | 324 | 3 |
 | Payoneer | ok | 101 | 1 |
 | Pennylane | ok | 166 | 1 |
 | Qonto | ok | 45 | 2 |
 | Razorpay | ok | 26 | 1 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 146 | 1 |
+| Rubrik | ok | 147 | 1 |
 | Salesforce | ok | 400 | 3 |
 | Scale AI | ok | 175 | 4 |
 | ServiceNow | ok | 600 | 7 |
@@ -467,23 +467,23 @@ _…and 83 more in data/jobs.json_
 | Sierra | ok | 190 | 6 |
 | Snyk | ok | 30 | 1 |
 | Spotify | ok | 80 | 10 |
-| Stripe | ok | 729 | 13 |
-| SumUp | ok | 337 | 2 |
+| Stripe | ok | 727 | 13 |
+| SumUp | ok | 336 | 2 |
 | Synthesia | ok | 32 | 2 |
 | Tide | ok | 106 | 4 |
-| Toast | ok | 316 | 5 |
+| Toast | ok | 318 | 5 |
 | Trustpilot | ok | 49 | 6 |
-| Twilio | ok | 132 | 2 |
+| Twilio | ok | 131 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 9 |
 | Wealthsimple | ok | 39 | 3 |
-| Wise | ok | 419 | 14 |
+| Wise | ok | 418 | 14 |
 | Wolt | ok | 202 | 1 |
 | Xendit | ok | 27 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 41 | 10 |
-| Zendesk | ok | 121 | 3 |
-| Zip | ok | 115 | 2 |
+| Zendesk | ok | 120 | 3 |
+| Zip | ok | 116 | 2 |
 | Zscaler | ok | 361 | 2 |
 | eBay | ok | 189 | 11 |
 | loveholidays | ok | 17 | 4 |
