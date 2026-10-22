@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-22 18:35 UTC · 692 open matches · 286 new in the last 24h · 97/98 sources healthy_
+_Updated 2026-10-22 22:24 UTC · 693 open matches · 287 new in the last 24h · 97/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -89,7 +89,7 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 79 | Affirm | [Senior Product Manager, 1: Many Merchant Growth](https://job-boards.greenhouse.io/affirm/jobs/7818070003) | Remote Canada |  | 2026-08-10 |
 | 79 | Affirm | [Senior Product Manager](https://job-boards.greenhouse.io/affirm/jobs/8020318003) | Remote UK |  | 2026-10-13 |
 
-## UK — 150 open
+## UK — 151 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -138,6 +138,7 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 79 | IBM | [Confluent - Senior Product Manager, Cluster Linking](https://www.linkedin.com/jobs/view/4471740312/) | Markham, Wales, United Kingdom |  | 2026-10-20 |
 | 79 | Intercom | [Senior Product Manager- Messenger](https://job-boards.greenhouse.io/intercom/jobs/5663703) | London, England |  | 2026-04-22 |
 | 79 | Scale AI | [Product Leadership, Forward Deployed & Strategy](https://job-boards.greenhouse.io/scaleai/jobs/4702890005) | London, UK |  | 2026-06-19 |
+| 79 | Scale AI | [Product Leadership, Enterprise Core Platform](https://job-boards.greenhouse.io/scaleai/jobs/4714727005) | London, UK |  | 2026-09-09 |
 | 79 | Tide | [Senior Product Manager, Ongoing Monitoring](https://job-boards.greenhouse.io/tide/jobs/7863571003) | United Kingdom |  | 2026-08-13 |
 | 79 | Trustpilot | [Senior Product Manager, Growth](https://corporate.trustpilot.com/careers/job/8236566?gh_jid=8236566) | London |  | 2026-10-02 |
 | 79 | Trustpilot | [Senior Product Manager, Growth](https://corporate.trustpilot.com/careers/job/8249172?gh_jid=8249172) | Edinburgh |  | 2026-10-02 |
@@ -152,9 +153,8 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 78 | ⭐ Cloudflare | [Product Manager, Safe Change & Control Plane](https://boards.greenhouse.io/cloudflare/jobs/8242904?gh_jid=8242904) | Hybrid; Austin, TX, United States; London, United Kingdom |  | 2026-10-07 |
 | 78 | ⭐ Grafana Labs | [Staff Product Manager, Enterprise Deployment Solutions /  UK / Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6227917004) | United Kingdom (Remote) |  | 2026-10-19 |
 | 77 | Deliveroo | [Senior Product Manager, Retail](https://job-boards.greenhouse.io/deliveroo/jobs/8206035) | London, England |  | 2026-09-18 |
-| 77 | Deliveroo | [Staff Product Manager, Generative AI Platform](https://job-boards.greenhouse.io/deliveroo/jobs/8206345) | London, United Kingdom |  | 2026-10-20 |
 
-_…and 90 more in data/jobs.json_
+_…and 91 more in data/jobs.json_
 
 ## Europe — 252 open
 
@@ -388,43 +388,43 @@ _…and 83 more in data/jobs.json_
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 84 | 6 |
+| 1Password | ok | 86 | 6 |
 | Adobe | ok | 307 | 1 |
-| Adyen | ok | 244 | 11 |
+| Adyen | ok | 243 | 11 |
 | Affirm | ok | 224 | 9 |
 | Agoda | ok | 314 | 7 |
-| Airbnb | ok | 192 | 0 |
-| Airwallex | ok | 510 | 9 |
-| Amazon | ok | 220 | 99 |
-| Anthropic | ok | 679 | 0 |
+| Airbnb | ok | 190 | 0 |
+| Airwallex | ok | 509 | 9 |
+| Amazon | ok | 219 | 98 |
+| Anthropic | ok | 680 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 105 | 5 |
 | Atlassian | ok | 362 | 4 |
 | Bitpanda | ok | 36 | 4 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
-| Brex | ok | 265 | 2 |
+| Brex | ok | 261 | 2 |
 | Canva | ok | 99 | 0 |
-| Celonis | ok | 218 | 4 |
-| Cloudflare | ok | 441 | 6 |
+| Celonis | ok | 219 | 4 |
+| Cloudflare | ok | 444 | 6 |
 | Cohere | ok | 114 | 2 |
 | Cresta | ok | 87 | 1 |
-| Datadog | ok | 438 | 3 |
-| Decagon | ok | 135 | 2 |
+| Datadog | ok | 439 | 3 |
+| Decagon | ok | 133 | 2 |
 | Deliveroo | ok | 224 | 9 |
 | Delivery Hero | ok | 600 | 5 |
 | Deputy | ok | 7 | 1 |
 | Doctolib | ok | 153 | 2 |
 | Ebury | ok | 143 | 4 |
-| Elastic | ok | 391 | 24 |
+| Elastic | ok | 392 | 24 |
 | ElevenLabs | ok | 160 | 2 |
-| Expedia Group | ok | 69 | 6 |
-| Fivetran | ok | 166 | 2 |
+| Expedia Group | ok | 70 | 6 |
+| Fivetran | ok | 168 | 2 |
 | Genesys | ok | 200 | 2 |
 | Geotab | ok | 70 | 5 |
 | GetYourGuide | ok | 73 | 6 |
-| GitLab | ok | 231 | 4 |
+| GitLab | ok | 232 | 4 |
 | GoCardless | ok | 26 | 2 |
-| Google | ok | 76 | 13 |
+| Google | ok | 74 | 13 |
 | Grab | ok | 433 | 8 |
 | Grafana Labs | ok | 141 | 12 |
 | Intercom | ok | 106 | 5 |
@@ -433,57 +433,57 @@ _…and 83 more in data/jobs.json_
 | LINE MAN Wongnai | ok |  |  |
 | LinkedIn | ok | 191 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
-| Lovable | ok | 79 | 4 |
-| Mastercard | ok | 400 | 13 |
+| Lovable | ok | 78 | 4 |
+| Mastercard | ok | 400 | 12 |
 | Meesho | ok | 59 | 3 |
 | Mentimeter | ok | 14 | 1 |
 | Meta | ok |  |  |
 | Microsoft | ok | 91 | 11 |
 | Moneybox | ok | 22 | 1 |
-| MongoDB | ok | 388 | 6 |
+| MongoDB | ok | 389 | 6 |
 | Monzo | ok | 73 | 2 |
 | N26 | ok | 37 | 6 |
-| Netflix | ok | 157 | 1 |
+| Netflix | ok | 159 | 1 |
 | New Relic | ok | 57 | 1 |
 | Nium | ok | 19 | 2 |
-| Okta | ok | 397 | 13 |
-| OpenAI | ok | 809 | 0 |
+| Okta | ok | 396 | 13 |
+| OpenAI | ok | 799 | 0 |
 | Oyster | ok | 24 | 2 |
 | Paddle | ok | 18 | 1 |
 | Parloa | ok | 54 | 2 |
-| PayPal | ok | 327 | 3 |
+| PayPal | ok | 326 | 3 |
 | Payoneer | ok | 101 | 1 |
 | Pennylane | ok | 167 | 1 |
 | Qonto | ok | 49 | 2 |
 | Razorpay | ok | 25 | 1 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 147 | 1 |
+| Rubrik | ok | 148 | 1 |
 | Salesforce | ok | 400 | 3 |
-| Scale AI | ok | 173 | 4 |
+| Scale AI | ok | 173 | 5 |
 | ServiceNow | ok | 600 | 9 |
 | Shopee | ok |  |  |
-| Sierra | ok | 191 | 6 |
+| Sierra | ok | 193 | 6 |
 | Snyk | ok | 32 | 1 |
 | Spotify | ok | 80 | 10 |
-| Stripe | ok | 725 | 13 |
-| SumUp | ok | 341 | 2 |
+| Stripe | ok | 727 | 13 |
+| SumUp | ok | 342 | 2 |
 | Synthesia | ok | 33 | 3 |
 | Tide | ok | 104 | 4 |
-| Toast | ok | 318 | 4 |
+| Toast | ok | 314 | 3 |
 | Trustpilot | ok | 49 | 6 |
 | Twilio | ok | 132 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
-| Wealthsimple | ok | 40 | 3 |
-| Wise | ok | 422 | 14 |
+| Wealthsimple | ok | 42 | 3 |
+| Wise | ok | 421 | 14 |
 | Wolt | ok | 198 | 1 |
 | Xendit | ok | 26 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 40 | 10 |
-| Zendesk | ok | 124 | 3 |
-| Zip | ok | 113 | 2 |
-| Zscaler | ok | 358 | 1 |
-| eBay | ok | 187 | 11 |
+| Zendesk | ok | 127 | 3 |
+| Zip | ok | 112 | 2 |
+| Zscaler | ok | 356 | 1 |
+| eBay | ok | 188 | 11 |
 | loveholidays | ok | 18 | 4 |
 | n8n | ok | 40 | 3 |
 
