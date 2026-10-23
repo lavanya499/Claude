@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-10-23T16:07Z",
+"blocked_until": "2026-10-23T20:07Z",
 "health": {
-"calls": 29,
-"cards": 274,
+"calls": 18,
+"cards": 161,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 126,
+"new": 24,
 "rate_limited": true,
-"requests": 29,
-"window_min": 316
+"requests": 18,
+"window_min": 556
 },
 "jobs": {
 "4291843606": {
@@ -846,6 +846,24 @@
 "url": "https://www.linkedin.com/jobs/view/4437467835/",
 "visa": ""
 },
+"4437552113": {
+"company": "Snoonu",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4437552113",
+"level": "stretch",
+"location": "Lusail, Qatar",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:27Z",
+"regions": [
+"Gulf"
+],
+"score": 52,
+"tier": 3,
+"title": "Head of Product - Operations & Logistics",
+"url": "https://www.linkedin.com/jobs/view/4437552113/",
+"visa": ""
+},
 "4438072278": {
 "company": "JioStar",
 "dup": false,
@@ -898,6 +916,24 @@
 "tier": 3,
 "title": "Product Manager, Busbars",
 "url": "https://www.linkedin.com/jobs/view/4438191354/",
+"visa": ""
+},
+"4440781227": {
+"company": "Route Mobile Limited",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4440781227",
+"level": "unlevelled",
+"location": "Mumbai Metropolitan Region",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T18:28Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4440781227/",
 "visa": ""
 },
 "4441038935": {
@@ -1026,6 +1062,24 @@
 "tier": 3,
 "title": "Principal Product Manager, Matching & Monetisation",
 "url": "https://www.linkedin.com/jobs/view/4443282759/",
+"visa": ""
+},
+"4443623880": {
+"company": "Questrade Financial Group",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4443623880",
+"level": "unlevelled",
+"location": "North York, Ontario, Canada",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T18:27Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager, Credit Cards (Questbank)",
+"url": "https://www.linkedin.com/jobs/view/4443623880/",
 "visa": ""
 },
 "4443685573": {
@@ -1207,6 +1261,42 @@
 "tier": 3,
 "title": "Product Owner",
 "url": "https://www.linkedin.com/jobs/view/4445129593/",
+"visa": ""
+},
+"4445278054": {
+"company": "Warner Music Group",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4445278054",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T18:28Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4445278054/",
+"visa": ""
+},
+"4445776912": {
+"company": "MaintainX",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4445776912",
+"level": "reach",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T16:27Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Principal Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4445776912/",
 "visa": ""
 },
 "4445778475": {
@@ -1988,6 +2078,24 @@
 "url": "https://www.linkedin.com/jobs/view/4456151263/",
 "visa": ""
 },
+"4456402745": {
+"company": "Forbes Advisor",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4456402745",
+"level": "unlevelled",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:28Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager, CMS (Remote)",
+"url": "https://www.linkedin.com/jobs/view/4456402745/",
+"visa": ""
+},
 "4456411972": {
 "company": "Tribe Group",
 "dup": false,
@@ -2402,6 +2510,24 @@
 "url": "https://www.linkedin.com/jobs/view/4463428996/",
 "visa": ""
 },
+"4463451295": {
+"company": "algoleap",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4463451295",
+"level": "senior",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:28Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4463451295/",
+"visa": ""
+},
 "4463468825": {
 "company": "Intermedia Intelligent Communications",
 "dup": false,
@@ -2762,6 +2888,24 @@
 "url": "https://www.linkedin.com/jobs/view/4464207221/",
 "visa": ""
 },
+"4464505643": {
+"company": "Basware",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4464505643",
+"level": "senior",
+"location": "Knutsford, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T18:28Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4464505643/",
+"visa": ""
+},
 "4464506526": {
 "company": "Teradata",
 "dup": false,
@@ -2832,6 +2976,24 @@
 "tier": 3,
 "title": "Principal Product Owner , SMART MFG & AI",
 "url": "https://www.linkedin.com/jobs/view/4464513669/",
+"visa": ""
+},
+"4464517119": {
+"company": "Basware",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4464517119",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T18:28Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4464517119/",
 "visa": ""
 },
 "4464523151": {
@@ -3325,6 +3487,24 @@
 "url": "https://www.linkedin.com/jobs/view/4465368262/",
 "visa": ""
 },
+"4465370278": {
+"company": "MoonPay",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4465370278",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T16:28Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager, KYB - MoonPay Enterprise",
+"url": "https://www.linkedin.com/jobs/view/4465370278/",
+"visa": ""
+},
 "4465372770": {
 "company": "Magnet Forensics",
 "dup": false,
@@ -3333,6 +3513,7 @@
 "level": "senior",
 "location": "Ottawa, Ontario, Canada",
 "posted": "2026-10-23",
+"posted_ts": "2026-10-23T15:27Z",
 "regions": [
 "Canada"
 ],
@@ -4918,6 +5099,60 @@
 "url": "https://www.linkedin.com/jobs/view/4473138536/",
 "visa": ""
 },
+"4473158593": {
+"company": "Okta",
+"dup": true,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4473158593",
+"level": "reach",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:28Z",
+"regions": [
+"Europe"
+],
+"score": 74,
+"tier": 1,
+"title": "Staff Product Manager - Developer Productivity",
+"url": "https://www.linkedin.com/jobs/view/4473158593/",
+"visa": ""
+},
+"4473329776": {
+"company": "LSEG",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4473329776",
+"level": "senior",
+"location": "Exeter, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T16:28Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager, Contributions RealTime",
+"url": "https://www.linkedin.com/jobs/view/4473329776/",
+"visa": ""
+},
+"4473337490": {
+"company": "Snoonu",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4473337490",
+"level": "unlevelled",
+"location": "Lusail, Qatar",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:27Z",
+"regions": [
+"Gulf"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager (Qatari Nationals Only)",
+"url": "https://www.linkedin.com/jobs/view/4473337490/",
+"visa": ""
+},
 "4473560319": {
 "company": "Sage",
 "dup": false,
@@ -5656,6 +5891,24 @@
 "tier": 3,
 "title": "Product Manager - Hearing Aids",
 "url": "https://www.linkedin.com/jobs/view/4474360065/",
+"visa": ""
+},
+"4474367413": {
+"company": "Amazon",
+"dup": true,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4474367413",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:28Z",
+"regions": [
+"UK"
+],
+"score": 90,
+"tier": 1,
+"title": "Sr Product Manager - Technical, Tax Engine",
+"url": "https://www.linkedin.com/jobs/view/4474367413/",
 "visa": ""
 },
 "4474503697": {
@@ -8309,6 +8562,24 @@
 "url": "https://www.linkedin.com/jobs/view/4480677323/",
 "visa": ""
 },
+"4480684636": {
+"company": "Optum",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4480684636",
+"level": "senior",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T18:45Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager,",
+"url": "https://www.linkedin.com/jobs/view/4480684636/",
+"visa": ""
+},
 "4480753608": {
 "company": "Agoda",
 "desc": "About Agoda \n At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world.  \n Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every day, we connect people to destinations and experiences, with our great deals across our millions of hotels and holiday properties, flights, and experiences worldwide.\n No two days are the same at Agoda. Data and technology are at the heart of our culture, fueling our curiosity and innovation. If you’re ready to begin your best journey and help build travel for the world, join us.\n This role is open for Tokyo based or Bangkok based. For Bangkok based, Full visa and relocation support provided for you, family, etc. \n Overview: \n Based in Bangkok or Tokyo,  Agoda’s Product Owners are responsible for defining the overall strategy and goals for Agoda’s various products, including the website, mobile applications and mobile website, email marketing, as well as advanced internal products and tools such as algorithmic PPC bidding systems and pricing software.  POs drive the relentless innovation required to stay ahead in an extremely dynamic and competitive industry.  Product Owners will create and maintain a product roadmap and will be responsible for communication with all stakeholders (business heads, marketing, developers, and senior management) to ensure that Agoda’s products continue to perform at the highest possible level and serve the needs of our many customer groups.\n This role is based at Bangkok, Thailand or Tokyo Japan \n A Product Owner will see the big picture and the small detail at the same time. He or she will understand the broad needs of the business, scan the competitive landscape in which their product operates, spot trends and technical developments and update the product roadmap as needed.  At the same time, he or she will understand every detail of the product from design to functionality to usability.  They will need to understand various ecommerce metrics and concepts very well – conversion, repeat rates, ROI, site performance metrics, bounce rates, return on investment, etc.\n In summary, an Agoda Product Owner can expect to work on the cutting edge of technology, data, digital marketing, algorithmic decision-making and consumer psychology – all at a scale that very few ecommerce companies in the world today can offer.\n Responsibilities: \n Study processes and systems to analyze effectiveness of our organization to maximize our growth in identified strategic markets\n Establish performance benchmark for each business drivers that caters to the characteristics of the strategic market, according to the needs of inbound, outbound and domestic travel segments\n Develop reports to illustrate the “health level” of each business drivers and how each of them is related to the business’s bottom line\n Identify business needs through detail investigation into business practice of competition, local business practice, customer behavior\n Identify gaps between business needs and business practice to provide recommendations on solutions that results in new or changed process, technology, human resources, business partners\n Clearly illustrate the opportunity cost and upside in each initiative\n Converting strategic goals into operational tas",
@@ -10836,6 +11107,24 @@
 "url": "https://www.linkedin.com/jobs/view/4481676170/",
 "visa": ""
 },
+"4481677855": {
+"company": "Archer",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4481677855",
+"level": "unlevelled",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T13:28Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager - Cloud Infrastructure (Technology Platform)",
+"url": "https://www.linkedin.com/jobs/view/4481677855/",
+"visa": ""
+},
 "4481679087": {
 "company": "E.SUN Financial Holding Co., Ltd",
 "dup": false,
@@ -10979,6 +11268,24 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4481685093/",
+"visa": ""
+},
+"4481688052": {
+"company": "Agoda",
+"dup": true,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4481688052",
+"level": "reach",
+"location": "Bangkok, Bangkok City, Thailand",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T11:27Z",
+"regions": [
+"Thailand"
+],
+"score": 67,
+"tier": 2,
+"title": "Principal Product Manager (Bangkok-based)",
+"url": "https://www.linkedin.com/jobs/view/4481688052/",
 "visa": ""
 },
 "4481690371": {
@@ -11197,6 +11504,24 @@
 "url": "https://www.linkedin.com/jobs/view/4481903344/",
 "visa": ""
 },
+"4481904648": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4481904648",
+"level": "unlevelled",
+"location": "Ireland",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T16:28Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager Privacy",
+"url": "https://www.linkedin.com/jobs/view/4481904648/",
+"visa": ""
+},
 "4481911099": {
 "company": "OKX",
 "dup": false,
@@ -11231,6 +11556,24 @@
 "tier": 3,
 "title": "Product Owner / Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4481911410/",
+"visa": ""
+},
+"4481926667": {
+"company": "TikTok",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4481926667",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T18:27Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Consumer Financing Product Manager - Global Payment",
+"url": "https://www.linkedin.com/jobs/view/4481926667/",
 "visa": ""
 },
 "4482074881": {
@@ -13861,6 +14204,78 @@
 "url": "https://www.linkedin.com/jobs/view/4482889262/",
 "visa": ""
 },
+"4483104467": {
+"company": "GemPool Recruitment",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4483104467",
+"level": "senior",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T16:28Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4483104467/",
+"visa": ""
+},
+"4483106512": {
+"company": "Spotify",
+"dup": true,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4483106512",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T16:28Z",
+"regions": [
+"UK"
+],
+"score": 90,
+"tier": 1,
+"title": "Senior Product Manager - Spotify Connect",
+"url": "https://www.linkedin.com/jobs/view/4483106512/",
+"visa": ""
+},
+"4483115331": {
+"company": "Hyperproof",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4483115331",
+"level": "senior",
+"location": "India",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:28Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Platform Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4483115331/",
+"visa": ""
+},
+"4483116092": {
+"company": "Wells Fargo",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4483116092",
+"level": "senior",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T16:28Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Digital Product Manager - Platform Product Management",
+"url": "https://www.linkedin.com/jobs/view/4483116092/",
+"visa": ""
+},
 "4483118024": {
 "company": "Centralny Ośrodek Informatyki",
 "dup": false,
@@ -13878,10 +14293,28 @@
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4483118024/",
 "visa": ""
+},
+"4483121235": {
+"company": "PWORLD Jobs & Education",
+"dup": false,
+"first_seen_at": "2026-10-23T19:27Z",
+"id": "4483121235",
+"level": "senior",
+"location": "Delhi, Delhi, India",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-23T17:28Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager (POS, Retail)",
+"url": "https://www.linkedin.com/jobs/view/4483121235/",
+"visa": ""
 }
 },
 "last_block_ping": "2026-10-23T15:27Z",
 "last_rollup": "2026-10-23T15:27Z",
 "last_scan": "2026-10-23T10:31Z",
-"updated": "2026-10-23T15:27Z"
+"updated": "2026-10-23T19:27Z"
 }
