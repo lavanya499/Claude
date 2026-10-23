@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-23 01:35 UTC · 672 open matches · 23 new in the last 24h · 97/98 sources healthy_
+_Updated 2026-10-23 07:38 UTC · 672 open matches · 23 new in the last 24h · 97/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -331,26 +331,26 @@ _…and 75 more in data/jobs.json_
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
 | 1Password | ok | 86 | 6 |
-| Adobe | ok | 305 | 1 |
+| Adobe | ok | 303 | 1 |
 | Adyen | ok | 243 | 11 |
-| Affirm | ok | 224 | 9 |
-| Agoda | ok | 314 | 7 |
+| Affirm | ok | 225 | 9 |
+| Agoda | ok | 316 | 7 |
 | Airbnb | ok | 192 | 0 |
-| Airwallex | ok | 508 | 9 |
+| Airwallex | ok | 509 | 9 |
 | Amazon | ok | 219 | 98 |
-| Anthropic | ok | 680 | 0 |
+| Anthropic | ok | 683 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 105 | 5 |
-| Atlassian | ok | 363 | 4 |
-| Bitpanda | ok | 36 | 4 |
+| Atlassian | ok | 364 | 4 |
+| Bitpanda | ok | 37 | 4 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
-| Brex | ok | 261 | 2 |
+| Brex | ok | 257 | 2 |
 | Canva | ok | 98 | 0 |
 | Celonis | ok | 218 | 4 |
 | Cloudflare | ok | 446 | 6 |
 | Cohere | ok | 114 | 2 |
 | Cresta | ok | 88 | 1 |
-| Datadog | ok | 441 | 3 |
+| Datadog | ok | 439 | 3 |
 | Decagon | ok | 134 | 2 |
 | Deliveroo | ok | 224 | 9 |
 | Delivery Hero | ok | 600 | 5 |
@@ -359,7 +359,7 @@ _…and 75 more in data/jobs.json_
 | Ebury | ok | 143 | 4 |
 | Elastic | ok | 392 | 24 |
 | ElevenLabs | ok | 156 | 2 |
-| Expedia Group | ok | 70 | 5 |
+| Expedia Group | ok | 67 | 5 |
 | Fivetran | ok | 170 | 2 |
 | Genesys | ok | 200 | 2 |
 | Geotab | ok | 70 | 5 |
@@ -367,25 +367,25 @@ _…and 75 more in data/jobs.json_
 | GitLab | ok | 231 | 4 |
 | GoCardless | ok | 26 | 2 |
 | Google | ok | 74 | 13 |
-| Grab | ok | 433 | 8 |
+| Grab | ok | 432 | 8 |
 | Grafana Labs | ok | 141 | 12 |
 | Intercom | ok | 106 | 5 |
 | JetBrains | ok | 47 | 2 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
-| LinkedIn | ok | 190 | 0 |
+| LinkedIn | ok | 189 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 78 | 4 |
 | Mastercard | ok | 400 | 12 |
-| Meesho | ok | 59 | 3 |
+| Meesho | ok | 58 | 3 |
 | Mentimeter | ok | 14 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 91 | 11 |
+| Microsoft | ok | 89 | 10 |
 | Moneybox | ok | 22 | 1 |
-| MongoDB | ok | 387 | 6 |
+| MongoDB | ok | 388 | 6 |
 | Monzo | ok | 73 | 2 |
 | N26 | ok | 37 | 6 |
-| Netflix | ok | 162 | 1 |
+| Netflix | ok | 160 | 1 |
 | New Relic | ok | 56 | 1 |
 | Nium | ok | 19 | 2 |
 | Okta | ok | 395 | 13 |
@@ -393,38 +393,38 @@ _…and 75 more in data/jobs.json_
 | Oyster | ok | 24 | 2 |
 | Paddle | ok | 18 | 1 |
 | Parloa | ok | 54 | 2 |
-| PayPal | ok | 326 | 3 |
+| PayPal | ok | 327 | 3 |
 | Payoneer | ok | 101 | 1 |
-| Pennylane | ok | 167 | 1 |
+| Pennylane | ok | 168 | 1 |
 | Qonto | ok | 49 | 2 |
 | Razorpay | ok | 25 | 1 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 148 | 1 |
+| Rubrik | ok | 147 | 1 |
 | Salesforce | ok | 400 | 3 |
-| Scale AI | ok | 173 | 5 |
+| Scale AI | ok | 172 | 5 |
 | ServiceNow | ok | 600 | 9 |
 | Shopee | ok |  |  |
 | Sierra | ok | 213 | 6 |
 | Snyk | ok | 33 | 1 |
-| Spotify | ok | 80 | 10 |
-| Stripe | ok | 729 | 13 |
+| Spotify | ok | 78 | 10 |
+| Stripe | ok | 728 | 13 |
 | SumUp | ok | 342 | 2 |
 | Synthesia | ok | 33 | 3 |
-| Tide | ok | 104 | 4 |
+| Tide | ok | 103 | 2 |
 | Toast | ok | 315 | 3 |
 | Trustpilot | ok | 49 | 6 |
 | Twilio | ok | 131 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
 | Wealthsimple | ok | 42 | 3 |
-| Wise | ok | 421 | 14 |
+| Wise | ok | 422 | 14 |
 | Wolt | ok | 198 | 1 |
 | Xendit | ok | 26 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 40 | 10 |
-| Zendesk | ok | 127 | 3 |
+| Zendesk | ok | 128 | 3 |
 | Zip | ok | 112 | 2 |
-| Zscaler | ok | 353 | 1 |
+| Zscaler | ok | 354 | 1 |
 | eBay | ok | 188 | 11 |
 | loveholidays | ok | 18 | 4 |
 | n8n | ok | 40 | 3 |
