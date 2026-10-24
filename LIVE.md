@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 24 Oct 03:59 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 24 Oct 06:27 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (6)
 
@@ -13,15 +13,15 @@ Updated 24 Oct 03:59 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 22 Oct 20:11 | Shopee | [Product Manager, Investment Products - Monee](https://www.linkedin.com/jobs/view/4291843606/) | Singapore, Singapore | unlevelled | 64 |
 | 22 Oct 20:11 | Shopee | [Product Manager – Agentic AI & Growth Platform](https://www.linkedin.com/jobs/view/4408221694/) | Singapore, Singapore | unlevelled | 74 |
 
-## Everyone else, every level except junior (714)
+## Everyone else, every level except junior (671)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
 | 24 Oct 03:58 | D2L | [Senior Product Manager - Createspace, Canada Based](https://www.linkedin.com/jobs/view/4483148960/) | Toronto, Ontario, Canada | senior | 67 |
 | 24 Oct 03:45 | Super.com | [Senior Product Manager, Payments](https://www.linkedin.com/jobs/view/4483158703/) | Canada | senior | 71 |
 | 24 Oct 03:13 | Optum | [Data Product Manager](https://www.linkedin.com/jobs/view/4483157549/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
-| 24 Oct 03:12 | PayNet (Payments Network Malaysia) | [NGO - Product Manager](https://www.linkedin.com/jobs/view/4483153535/) | Federal Territory of Kuala Lumpur, Malaysia | unlevelled | 54 |
 | 24 Oct 03:12 | Optum India | [Senior Technical Product Manager - HealthTech Projects Experience](https://www.linkedin.com/jobs/view/4483150693/) | Bengaluru, Karnataka, India | senior | 63 |
+| 24 Oct 03:12 | PayNet (Payments Network Malaysia) | [NGO - Product Manager](https://www.linkedin.com/jobs/view/4483153535/) | Federal Territory of Kuala Lumpur, Malaysia | unlevelled | 54 |
 | 24 Oct 02:59 | Department for Education, South Australia | [ASO8 Product Manager](https://www.linkedin.com/jobs/view/4483143639/) | Adelaide, South Australia, Australia | unlevelled | 54 |
 | 24 Oct 02:01 | Enexis | [Senior product owner](https://www.linkedin.com/jobs/view/4480696324/) | Den Bosch, North Brabant, Netherlands | senior | 70 |
 | 24 Oct 02:00 | STACK Construction Technologies | [Product Manager](https://www.linkedin.com/jobs/view/4473951378/) | Toronto, Ontario, Canada | unlevelled | 51 |
@@ -37,8 +37,8 @@ Updated 24 Oct 03:59 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 23 Oct 23:58 | Basware | [Senior Product Manager](https://www.linkedin.com/jobs/view/4464517119/) | London, England, United Kingdom | senior | 70 |
 | 23 Oct 23:57 | Questrade Financial Group | [Product Manager, Credit Cards (Questbank)](https://www.linkedin.com/jobs/view/4443623880/) | North York, Ontario, Canada | unlevelled | 51 |
 | 23 Oct 23:57 | TikTok | [Consumer Financing Product Manager - Global Payment](https://www.linkedin.com/jobs/view/4481926667/) | Singapore, Singapore | unlevelled | 51 |
-| 23 Oct 23:01 | Tiqets | [Senior Product Manager](https://www.linkedin.com/jobs/view/4483112785/) | Amsterdam Area | senior | 70 |
 | 23 Oct 23:01 | Solventum | [Global Downstream Product Manager – Advanced Wound Dressings (m/f/*)](https://www.linkedin.com/jobs/view/4437862901/) | Delft, South Holland, Netherlands | unlevelled | 54 |
+| 23 Oct 23:01 | Tiqets | [Senior Product Manager](https://www.linkedin.com/jobs/view/4483112785/) | Amsterdam Area | senior | 70 |
 | 23 Oct 22:59 | Systematic | [Product Manager for Mobile Command and Control Products](https://www.linkedin.com/jobs/view/4462840812/) | Aarhus, Central Denmark Region, Denmark | unlevelled | 54 |
 | 23 Oct 22:59 | BEC Financial Technologies | [Product Owner (Senior) - Identity & Access Management](https://www.linkedin.com/jobs/view/4473756397/) | Copenhagen, Capital Region of Denmark, Denmark | senior | 70 |
 | 23 Oct 22:59 | OLX | [Principal Product Manager, Real Estate](https://www.linkedin.com/jobs/view/4479294696/) | Lisbon, Lisbon, Portugal | reach | 54 |
@@ -50,9 +50,9 @@ Updated 24 Oct 03:59 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 23 Oct 22:57 | Snoonu | [Product Manager (Qatari Nationals Only)](https://www.linkedin.com/jobs/view/4473337490/) | Lusail, Qatar | unlevelled | 54 |
 | 23 Oct 22:01 | Jobgether | [Product Manager Privacy](https://www.linkedin.com/jobs/view/4481909623/) | Netherlands | unlevelled | 54 |
 | 23 Oct 22:01 | Vesterling AG | [Senior Product Manager Promotions / Retail Media, eCouponing / Inhouse, bis 120.000 € (mwd)](https://www.linkedin.com/jobs/view/4483107293/) | Dortmund, North Rhine-Westphalia, Germany | senior | 70 |
-| 23 Oct 21:59 | Airbus Helicopters | [IT Product Manager - Quality Applications & Portfolio h/f](https://www.linkedin.com/jobs/view/4473115227/) | Marseille, Provence-Alpes-Côte d'Azur, France | unlevelled | 54 |
-| 23 Oct 21:59 | Systematic | [Product Manager, data & AI - SitaWare Insight](https://www.linkedin.com/jobs/view/4464336925/) | Copenhagen, Capital Region of Denmark, Denmark | unlevelled | 54 |
 | 23 Oct 21:59 | Ideals | [Senior Product Manager](https://www.linkedin.com/jobs/view/4423688461/) | Portugal | senior | 70 |
+| 23 Oct 21:59 | Systematic | [Product Manager, data & AI - SitaWare Insight](https://www.linkedin.com/jobs/view/4464336925/) | Copenhagen, Capital Region of Denmark, Denmark | unlevelled | 54 |
+| 23 Oct 21:59 | Airbus Helicopters | [IT Product Manager - Quality Applications & Portfolio h/f](https://www.linkedin.com/jobs/view/4473115227/) | Marseille, Provence-Alpes-Côte d'Azur, France | unlevelled | 54 |
 | 23 Oct 21:59 | Jobgether | [Product Manager Privacy](https://www.linkedin.com/jobs/view/4481902690/) | Portugal | unlevelled | 54 |
 | 23 Oct 21:58 | MoonPay | [Senior Product Manager, KYB - MoonPay Enterprise](https://www.linkedin.com/jobs/view/4465370278/) | London, England, United Kingdom | senior | 70 |
 | 23 Oct 21:58 | LSEG | [Senior Product Manager, Contributions RealTime](https://www.linkedin.com/jobs/view/4473329776/) | Exeter, England, United Kingdom | senior | 70 |

@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-10-23T23:09Z",
+"blocked_until": "2026-10-24T01:37Z",
 "health": {
-"calls": 28,
-"cards": 264,
+"calls": 11,
+"cards": 94,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 28,
+"new": 0,
 "rate_limited": true,
-"requests": 28,
-"window_min": 738
+"requests": 11,
+"window_min": 886
 },
 "jobs": {
 "4291843606": {
@@ -14821,5 +14821,5 @@
 "last_block_ping": "2026-10-23T22:29Z",
 "last_rollup": "2026-10-23T15:27Z",
 "last_scan": "2026-10-23T10:31Z",
-"updated": "2026-10-23T22:29Z"
+"updated": "2026-10-24T00:57Z"
 }
