@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-10-24T06:03Z",
+"blocked_until": "2026-10-24T10:19Z",
 "health": {
 "calls": 11,
 "cards": 99,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 2,
+"new": 1,
 "rate_limited": true,
 "requests": 11,
-"window_min": 1152
+"window_min": 1408
 },
 "jobs": {
 "4291843606": {
@@ -6161,6 +6161,24 @@
 "tier": 3,
 "title": "Director, Product - Residential Customer",
 "url": "https://www.linkedin.com/jobs/view/4474849102/",
+"visa": ""
+},
+"4475013421": {
+"company": "Salesforce",
+"dup": true,
+"first_seen_at": "2026-10-24T09:39Z",
+"id": "4475013421",
+"level": "unlevelled",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-10-24",
+"posted_ts": "2026-10-24T09:21Z",
+"regions": [
+"Europe"
+],
+"score": 84,
+"tier": 1,
+"title": "Employee Success Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4475013421/",
 "visa": ""
 },
 "4475767904": {
@@ -14733,7 +14751,7 @@
 "first_seen_at": "2026-10-23T22:29Z",
 "id": "4483148960",
 "level": "senior",
-"location": "Toronto, Ontario, Canada",
+"location": "Greater Toronto Area, Canada",
 "posted": "2026-10-23",
 "posted_ts": "2026-10-23T22:28Z",
 "regions": [
@@ -14855,7 +14873,7 @@
 }
 },
 "last_block_ping": "2026-10-24T05:23Z",
-"last_rollup": "2026-10-24T05:23Z",
+"last_rollup": "2026-10-24T09:39Z",
 "last_scan": "2026-10-23T10:31Z",
-"updated": "2026-10-24T05:23Z"
+"updated": "2026-10-24T09:39Z"
 }
