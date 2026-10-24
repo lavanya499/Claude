@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-10-24T01:37Z",
+"blocked_until": "2026-10-24T06:03Z",
 "health": {
 "calls": 11,
-"cards": 94,
+"cards": 99,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 0,
+"new": 2,
 "rate_limited": true,
 "requests": 11,
-"window_min": 886
+"window_min": 1152
 },
 "jobs": {
 "4291843606": {
@@ -347,7 +347,7 @@
 "id": "4426845615",
 "level": "senior",
 "location": "Pune Division, Maharashtra, India",
-"posted": "2026-10-22",
+"posted": "2026-10-24",
 "posted_ts": "2026-10-22T22:58Z",
 "regions": [
 "India"
@@ -14816,10 +14816,46 @@
 "title": "Senior Product Manager, Payments",
 "url": "https://www.linkedin.com/jobs/view/4483158703/",
 "visa": ""
+},
+"4483179093": {
+"company": "HelloFresh",
+"dup": false,
+"first_seen_at": "2026-10-24T05:23Z",
+"id": "4483179093",
+"level": "senior",
+"location": "Berlin, Berlin, Germany",
+"posted": "2026-10-23",
+"posted_ts": "2026-10-24T00:23Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager II, Consumer (all genders)",
+"url": "https://www.linkedin.com/jobs/view/4483179093/",
+"visa": ""
+},
+"4483309428": {
+"company": "Thales",
+"dup": false,
+"first_seen_at": "2026-10-24T05:23Z",
+"id": "4483309428",
+"level": "unlevelled",
+"location": "Amersfoort, Utrecht, Netherlands",
+"posted": "2026-10-24",
+"posted_ts": "2026-10-24T04:47Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Manager – Delivery Services",
+"url": "https://www.linkedin.com/jobs/view/4483309428/",
+"visa": ""
 }
 },
-"last_block_ping": "2026-10-23T22:29Z",
-"last_rollup": "2026-10-23T15:27Z",
+"last_block_ping": "2026-10-24T05:23Z",
+"last_rollup": "2026-10-24T05:23Z",
 "last_scan": "2026-10-23T10:31Z",
-"updated": "2026-10-24T00:57Z"
+"updated": "2026-10-24T05:23Z"
 }

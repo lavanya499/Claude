@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 24 Oct 06:27 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 24 Oct 10:53 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (6)
 
@@ -13,10 +13,12 @@ Updated 24 Oct 06:27 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 22 Oct 20:11 | Shopee | [Product Manager, Investment Products - Monee](https://www.linkedin.com/jobs/view/4291843606/) | Singapore, Singapore | unlevelled | 64 |
 | 22 Oct 20:11 | Shopee | [Product Manager – Agentic AI & Growth Platform](https://www.linkedin.com/jobs/view/4408221694/) | Singapore, Singapore | unlevelled | 74 |
 
-## Everyone else, every level except junior (671)
+## Everyone else, every level except junior (673)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 24 Oct 10:17 | Thales | [Product Manager – Delivery Services](https://www.linkedin.com/jobs/view/4483309428/) | Amersfoort, Utrecht, Netherlands | unlevelled | 58 |
+| 24 Oct 05:53 | HelloFresh | [Senior Product Manager II, Consumer (all genders)](https://www.linkedin.com/jobs/view/4483179093/) | Berlin, Berlin, Germany | senior | 70 |
 | 24 Oct 03:58 | D2L | [Senior Product Manager - Createspace, Canada Based](https://www.linkedin.com/jobs/view/4483148960/) | Toronto, Ontario, Canada | senior | 67 |
 | 24 Oct 03:45 | Super.com | [Senior Product Manager, Payments](https://www.linkedin.com/jobs/view/4483158703/) | Canada | senior | 71 |
 | 24 Oct 03:13 | Optum | [Data Product Manager](https://www.linkedin.com/jobs/view/4483157549/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
@@ -135,5 +137,3 @@ Updated 24 Oct 06:27 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 23 Oct 18:58 | Koek | [Product Owner](https://www.linkedin.com/jobs/view/4482861882/) | Uden, North Brabant, Netherlands | unlevelled | 54 |
 | 23 Oct 18:58 | Car & Classic | [Senior Product Manager (Mobile Apps) - Remote](https://www.linkedin.com/jobs/view/4482881464/) | London, England, United Kingdom | senior | 70 |
 | 23 Oct 18:00 | Rightangled | [Product Manager](https://www.linkedin.com/jobs/view/4474729609/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
-| 23 Oct 17:59 | Betclic Group | [Product Manager - Payment F/M](https://www.linkedin.com/jobs/view/4419969489/) | Bordeaux, Nouvelle-Aquitaine, France | unlevelled | 54 |
-| 23 Oct 17:59 | Macquarie Group | [Technical Product Owner](https://www.linkedin.com/jobs/view/4434528312/) | Sydney, New South Wales, Australia | unlevelled | 54 |
