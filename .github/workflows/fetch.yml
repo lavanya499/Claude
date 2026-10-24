@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       org:
-        description: "Ashby job-board name, e.g. loveholidays"
+        description: "Ashby job-board name, e.g. loveholidays, or url to fetch any careers page"
         required: true
       job_id:
-        description: "Posting id (the UUID at the end of the URL)"
+        description: "Posting id (the UUID at the end of the URL), or the full URL when org is url"
         required: true
 jobs:
   fetch:
