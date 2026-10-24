@@ -6,9 +6,30 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 import sources  # noqa: E402
 
 org, jid = sys.argv[1], sys.argv[2]
+if org == "li":  # LinkedIn search: "keywords|location|company id"; prints cards and matching descriptions
+    import re
+    kw, loc, cid = (jid.split("|") + ["", ""])[:3]
+    want = re.compile(r"whatsapp|messag|business", re.I)
+    shown = 0
+    for r in sources.linkedin(kw, loc, hours=24 * 30, pages=3, company_id=cid or None,
+                              geo_id=None if loc else "92000000"):
+        print(r["id"], "|", r["title"], "|", r["company"], "|", r["location"], "|", r["posted"])
+        if want.search(r["title"]) and shown < 3:
+            shown += 1
+            print("----- DESCRIPTION", r["id"], "-----")
+            print(sources.linkedin_desc(r["id"]))
+            print("-----")
+    sys.exit(0)
 if org == "url":  # any careers page: print its schema.org JobPosting, else the page text
     import re
-    src = sources.http(jid, headers={"Accept": "text/html", "Accept-Language": "en-US,en;q=0.9"})
+    browser = {"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+               "Accept-Language": "en-US,en;q=0.9", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate",
+               "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Upgrade-Insecure-Requests": "1"}
+    try:
+        src = sources.http(jid, headers=browser)
+    except Exception as e:  # noqa: BLE001
+        print("FETCH FAILED:", e)
+        sys.exit(0)
     posts = []
     for blob in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', src, re.S):
         try:
