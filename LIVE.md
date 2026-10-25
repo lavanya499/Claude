@@ -1,21 +1,54 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 25 Oct 12:20 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 25 Oct 17:43 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
-## Target companies (5)
+## Target companies (3)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
 | 24 Oct 18:29 | Shopee | [Product Manager - Digital Products](https://www.linkedin.com/jobs/view/4342071464/) | Singapore, Singapore | unlevelled | 73 |
 | 24 Oct 03:11 | ⭐ Booking.com | [Supplier Fraud - Technical Product Manager](https://www.linkedin.com/jobs/view/4483143946/) | Amsterdam, North Holland, Netherlands | unlevelled | 88 |
 | 23 Oct 19:58 | Moneybox | [Product Manager](https://www.linkedin.com/jobs/view/4473138536/) | London Area, United Kingdom | unlevelled | 67 |
-| 23 Oct 15:44 | ⭐ Spotify | [Principal Product Manager - Content Platform](https://www.linkedin.com/jobs/view/4482865253/) | London, England, United Kingdom | reach | 78 |
-| 23 Oct 15:43 | ⭐ Spotify | [Principal Product Manager - Content Platform](https://www.linkedin.com/jobs/view/4482846952/) | Stockholm, Stockholm County, Sweden | reach | 78 |
 
-## Everyone else, every level except junior (433)
+## Everyone else, every level except junior (346)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| ~25 Oct 17:43 | Hermès | [CDI - Data Product Manager Analytics & AI - Retail (H/F)](https://www.linkedin.com/jobs/view/4419335424/) | Pantin, Île-de-France, France | unlevelled | 54 |
+| 25 Oct 17:31 | SOCKSWEAR GmbH | [Product Manager (m/w/d) - Licensed Consumer Products & E-Commerce](https://www.linkedin.com/jobs/view/4481075912/) | Eisenberg, Rhineland-Palatinate, Germany | unlevelled | 54 |
+| 25 Oct 17:10 | Camunda | [Product Manager, Self Managed Service](https://www.linkedin.com/jobs/view/4424323051/) | Montreal, Quebec, Canada | unlevelled | 55 |
+| 25 Oct 17:10 | Riverty | [Product Manager Integration (m/w/d)](https://www.linkedin.com/jobs/view/4471435305/) | Baden-Baden, Baden-Württemberg, Germany | unlevelled | 54 |
+| 25 Oct 16:59 | Voodoo | [Product Lead - Portfolio Midcore Games](https://www.linkedin.com/jobs/view/4430799882/) | Madrid, Community of Madrid, Spain | senior | 70 |
+| 25 Oct 16:53 | Ema | [Product Manager](https://www.linkedin.com/jobs/view/4454658110/) | Bengaluru, Karnataka, India | unlevelled | 47 |
+| 25 Oct 16:45 | Snowflake | [Senior Product Manager, Streaming Platform](https://www.linkedin.com/jobs/view/4419982608/) | Berlin, Berlin, Germany | senior | 70 |
+| 25 Oct 16:45 | REWE digital | [Chief Product Owner - SAP Infrastructure (m/w/d)](https://www.linkedin.com/jobs/view/4388530452/) | Cologne, North Rhine-Westphalia, Germany | unlevelled | 54 |
+| 25 Oct 16:45 | Niji | [Product Owner Technique - F/H](https://www.linkedin.com/jobs/view/4434878879/) | Issy-les-Moulineaux, Île-de-France, France | unlevelled | 54 |
+| 25 Oct 16:45 | Nordea | [Product Owner - Cloud Landing Zone Services AWS](https://www.linkedin.com/jobs/view/4456709397/) | Gdańsk, Pomorskie, Poland | unlevelled | 58 |
+| 25 Oct 16:45 | emagine | [Product Manager](https://www.linkedin.com/jobs/view/4481083565/) | Lisbon Metropolitan Area | unlevelled | 54 |
+| 25 Oct 16:44 | Nians | [Product Manager](https://www.linkedin.com/jobs/view/4482691041/) | Gurugram, Haryana, India | unlevelled | 47 |
+| 25 Oct 16:44 | nCino | [Principal Product Manager](https://www.linkedin.com/jobs/view/4427370432/) | London, England, United Kingdom | reach | 54 |
+| 25 Oct 16:44 | RSM UK | [VAT Product Manager – Global VAT Compliance & Reporting](https://www.linkedin.com/jobs/view/4463572060/) | Manchester, England, United Kingdom | unlevelled | 54 |
+| 25 Oct 16:44 | RSM UK | [VAT Product Manager – Global VAT Compliance & Reporting](https://www.linkedin.com/jobs/view/4463568135/) | Greater London, England, United Kingdom | unlevelled | 54 |
+| 25 Oct 16:44 | TechTree | [Product Lead — Consumer Social App (AI Game Creation)](https://www.linkedin.com/jobs/view/4464205191/) | London, England, United Kingdom | senior | 70 |
+| 25 Oct 16:44 | Swap | [Staff Product Manager](https://www.linkedin.com/jobs/view/4437035911/) | Amsterdam, North Holland, Netherlands | reach | 54 |
+| 25 Oct 16:44 | Supermicro | [Product Manager - Key Components](https://www.linkedin.com/jobs/view/4447594639/) | ’s-Hertogenbosch, North Brabant, Netherlands | unlevelled | 54 |
+| 25 Oct 16:44 | Supermicro | [System Product Manager](https://www.linkedin.com/jobs/view/4389763326/) | ’s-Hertogenbosch, North Brabant, Netherlands | unlevelled | 54 |
+| 25 Oct 15:45 | NXP Semiconductors | [Senior Software Product Manager - Embedded & Real-Time Systems (Automotive) (f/m/d)](https://www.linkedin.com/jobs/view/4439085565/) | Munich, Bavaria, Germany | senior | 70 |
+| 25 Oct 15:45 | EXP Software GmbH | [Product Owner für Agentic-Twin-Plattform explore (m/w/d)](https://www.linkedin.com/jobs/view/4481092089/) | Pfaffenhofen an der Ilm, Bavaria, Germany | unlevelled | 58 |
+| 25 Oct 15:45 | Sonar | [Technical Product Manager - Code Quality](https://www.linkedin.com/jobs/view/4339860661/) | Geneva, Geneva, Switzerland | unlevelled | 54 |
+| 25 Oct 15:45 | 1GLOBAL | [Senior AI Product Manager](https://www.linkedin.com/jobs/view/4482674677/) | Lisbon, Lisbon, Portugal | senior | 70 |
+| 25 Oct 15:44 | Xsolla | [Senior Product Owner – Xsolla Money Account](https://www.linkedin.com/jobs/view/4410297902/) | Canada | senior | 67 |
+| 25 Oct 15:44 | Publicis Sapient | [Senior Product Manager](https://www.linkedin.com/jobs/view/4444183415/) | Pune Division, Maharashtra, India | senior | 63 |
+| 25 Oct 15:44 | Publicis Sapient | [Senior Product Manager](https://www.linkedin.com/jobs/view/4444189205/) | Bengaluru, Karnataka, India | senior | 63 |
+| 25 Oct 15:44 | Equinix | [Senior Product Manager, Tax](https://www.linkedin.com/jobs/view/4464257021/) | Bengaluru, Karnataka, India | senior | 63 |
+| 25 Oct 15:44 | Qualys | [Senior Product Manager, Security Research](https://www.linkedin.com/jobs/view/4456247275/) | Pune Division, Maharashtra, India | senior | 63 |
+| 25 Oct 15:44 | Getinge | [International Product Manager, Consumables](https://www.linkedin.com/jobs/view/4420101820/) | Derby, England, United Kingdom | unlevelled | 54 |
+| 25 Oct 14:45 | Hyra | [Product Manager](https://www.linkedin.com/jobs/view/4483382098/) | Rhineland-Palatinate, Germany | unlevelled | 54 |
+| 25 Oct 14:45 | EDEKABANK AG | [Product Manager/in Product Owner Corporate Banking (m/w/d)](https://www.linkedin.com/jobs/view/4481083507/) | Hamburg, Hamburg, Germany | unlevelled | 54 |
+| 25 Oct 14:43 | Dyson | [Data Product Manager](https://www.linkedin.com/jobs/view/4457097922/) | Singapore, Singapore | unlevelled | 51 |
+| 25 Oct 14:43 | Micron Technology | [Staff I4.0 Product Owner](https://www.linkedin.com/jobs/view/4429661405/) | Singapore, Singapore | reach | 51 |
+| 25 Oct 13:45 | SIGNAL IDUNA Gruppe | [Product Owner (m/w/d) SHT Lösungen](https://www.linkedin.com/jobs/view/4483373295/) | Dortmund, North Rhine-Westphalia, Germany | unlevelled | 54 |
+| 25 Oct 13:44 | TAAS Partners | [Product Manager / Sr. Product Manager (Backend)](https://www.linkedin.com/jobs/view/4482679546/) | Bengaluru, Karnataka, India | senior | 63 |
 | 25 Oct 11:31 | Tangible | [Product Manager (Evergreen - Talent Pool)](https://www.linkedin.com/jobs/view/4481088064/) | United Kingdom | unlevelled | 54 |
 | 25 Oct 11:22 | mamgo / Talente 🔗 Jobs | [Product Owner IT Service Management (m/w/d)](https://www.linkedin.com/jobs/view/4483358943/) | Bonn, North Rhine-Westphalia, Germany | unlevelled | 58 |
 | 25 Oct 11:21 | Zensar Technologies | [ESaaS - MSD -Functional - D365 ERP Product Owner/Scrum Master](https://www.linkedin.com/jobs/view/4482668694/) | Bengaluru, Karnataka, India | unlevelled | 47 |
@@ -23,8 +56,8 @@ Updated 25 Oct 12:20 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 25 Oct 11:21 | FAMU National Alumni Association | [Senior Director of Product (Head of International - Real Time Operations)](https://www.linkedin.com/jobs/view/4483375154/) | London, England, United Kingdom | stretch | 52 |
 | 25 Oct 11:20 | FAMU National Alumni Association | [Product Manager](https://www.linkedin.com/jobs/view/4483358948/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
 | 25 Oct 10:23 | Coins.ph | [Principal Product Manager - Compliance / AML / Risk Platform](https://www.linkedin.com/jobs/view/4483371164/) | Singapore, Singapore | reach | 51 |
-| 25 Oct 09:21 | Azoma | [Product Manager, New Products](https://www.linkedin.com/jobs/view/4483349975/) | Canada | unlevelled | 51 |
 | 25 Oct 09:21 | IDFC FIRST Bank | [Senior Digital Product Manager](https://www.linkedin.com/jobs/view/4481082219/) | Mumbai, Maharashtra, India | senior | 63 |
+| 25 Oct 09:21 | Azoma | [Product Manager, New Products](https://www.linkedin.com/jobs/view/4483349975/) | Canada | unlevelled | 51 |
 | 25 Oct 08:21 | Loto-Québec | [Chef(fe) de produit (Product Manager) de technologies marketing](https://www.linkedin.com/jobs/view/4483344964/) | Montreal, Quebec, Canada | unlevelled | 51 |
 | 25 Oct 07:22 | Claire Joster | [Product Manager](https://www.linkedin.com/jobs/view/4470511443/) | Greater Barcelona Metropolitan Area | unlevelled | 54 |
 | 25 Oct 06:51 | Hilti Group | [Product Owner](https://www.linkedin.com/jobs/view/4481066718/) | Boulogne-Billancourt, Île-de-France, France | unlevelled | 54 |
@@ -102,38 +135,3 @@ Updated 25 Oct 12:20 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 24 Oct 18:28 | SMA Solar | [Product Manager Mittelspannungslösungen (m/w/d)](https://www.linkedin.com/jobs/view/4473404479/) | Kassel, Hesse, Germany | unlevelled | 54 |
 | 24 Oct 18:28 | Optum | [Data Product Manager,](https://www.linkedin.com/jobs/view/4481057016/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 24 Oct 18:27 | Arctic Wolf | [Senior Product Manager - Exposure Management](https://www.linkedin.com/jobs/view/4464879109/) | Bengaluru, Karnataka, India | senior | 63 |
-| 24 Oct 18:27 | Cloudera | [Senior Product Manager - Cloudera Manager](https://www.linkedin.com/jobs/view/4482629791/) | Bengaluru, Karnataka, India | senior | 63 |
-| 24 Oct 18:05 | Group-IB | [Head of Product - Cyber Intelligence](https://www.linkedin.com/jobs/view/4474715322/) | Dubai, Dubai, United Arab Emirates | stretch | 48 |
-| 24 Oct 17:29 | Critical Software | [Senior Product Manager – Defence](https://www.linkedin.com/jobs/view/4437411762/) | Porto, Porto, Portugal | senior | 70 |
-| 24 Oct 17:29 | Frontiers | [Platform Product Manager - Platform Shared Services](https://www.linkedin.com/jobs/view/4454185701/) | Madrid, Community of Madrid, Spain | unlevelled | 58 |
-| 24 Oct 17:29 | HID | [Product Manager, Ecosystem Integration](https://www.linkedin.com/jobs/view/4463968411/) | Stockholm, Stockholm County, Sweden | unlevelled | 54 |
-| 24 Oct 17:29 | Plaud | [Product Manager, Monetization Strategy - Singapore](https://www.linkedin.com/jobs/view/4464874380/) | Singapore | unlevelled | 51 |
-| 24 Oct 17:29 | HEINEKEN Global Shared Services | [Technical Product Owner [Pricing & Promotions]](https://www.linkedin.com/jobs/view/4464876396/) | Cracow, Małopolskie, Poland | unlevelled | 54 |
-| 24 Oct 17:29 | DistroKid | [Growth Product Manager (Senior to Staff)](https://www.linkedin.com/jobs/view/4474784003/) | Sweden | reach | 54 |
-| 24 Oct 17:28 | Global Payments Inc. | [Senior Product Manager, API Propositions](https://www.linkedin.com/jobs/view/4446583705/) | Dublin, County Dublin, Ireland | senior | 70 |
-| 24 Oct 17:28 | Nscale | [Senior Product Manager, Platform](https://www.linkedin.com/jobs/view/4457398238/) | London, England, United Kingdom | senior | 70 |
-| 24 Oct 17:28 | JACK WOLFSKIN | [Senior Product Manager Apparel (m/w/d)](https://www.linkedin.com/jobs/view/4464899555/) | Eschborn, Hesse, Germany | senior | 70 |
-| 24 Oct 17:28 | Domino Printing Sciences | [Product Manager - Software and Services](https://www.linkedin.com/jobs/view/4474746965/) | Bar Hill, England, United Kingdom | unlevelled | 58 |
-| 24 Oct 17:28 | DistroKid | [Growth Product Manager (Senior to Staff)](https://www.linkedin.com/jobs/view/4474772483/) | United Kingdom | reach | 54 |
-| 24 Oct 17:28 | mamgo / Talente 🔗 Jobs | [Senior Brand / Product Manager (m/w/d)](https://www.linkedin.com/jobs/view/4483320381/) | Munich, Bavaria, Germany | senior | 70 |
-| 24 Oct 17:27 | OZi | [Product Manager](https://www.linkedin.com/jobs/view/4482631610/) | Gurugram, Haryana, India | unlevelled | 47 |
-| 24 Oct 16:29 | Critical Software | [Senior Product Manager – Space](https://www.linkedin.com/jobs/view/4437412777/) | Coimbra, Coimbra, Portugal | senior | 70 |
-| 24 Oct 16:29 | ESET | [Senior Product Manager - Identity Security (m/f/n)](https://www.linkedin.com/jobs/view/4444149429/) | Cracow, Małopolskie, Poland | senior | 70 |
-| 24 Oct 16:29 | Catawiki | [Senior Product Manager Shipping](https://www.linkedin.com/jobs/view/4451250509/) | Lisbon, Lisbon, Portugal | senior | 70 |
-| 24 Oct 16:29 | Nordea | [Product Owner - Cloud Landing Zone Services Azure](https://www.linkedin.com/jobs/view/4456709400/) | Gdańsk, Pomorskie, Poland | unlevelled | 58 |
-| 24 Oct 16:29 | Singapore Economic Development Board (EDB) | [Technical Product Manager, Singapore Global Network](https://www.linkedin.com/jobs/view/4474751950/) | Singapore, Singapore | unlevelled | 51 |
-| 24 Oct 16:29 | Iterable | [Product Manager](https://www.linkedin.com/jobs/view/4475050370/) | Lisboa, Lisbon, Portugal | unlevelled | 54 |
-| 24 Oct 16:29 | InPost | [Product Manager – Consumer Products (f/m/n)](https://www.linkedin.com/jobs/view/4481032900/) | Cracow, Małopolskie, Poland | unlevelled | 54 |
-| 24 Oct 16:28 | DistroKid | [Growth Product Manager (Senior to Staff)](https://www.linkedin.com/jobs/view/4474762944/) | Germany | reach | 54 |
-| 24 Oct 16:28 | Navan | [Senior Product Manager, Payments](https://www.linkedin.com/jobs/view/4474784936/) | London, England, United Kingdom | senior | 74 |
-| 24 Oct 16:28 | Navan | [Senior Product Manager, Payments](https://www.linkedin.com/jobs/view/4474789688/) | Berlin, Berlin, Germany | senior | 74 |
-| 24 Oct 16:27 | nesto | [Senior Product Manager](https://www.linkedin.com/jobs/view/4483329148/) | Montreal, Quebec, Canada | senior | 67 |
-| 24 Oct 16:05 | Supermicro | [(Sr.) Solution Product Manager](https://www.linkedin.com/jobs/view/4457021390/) | Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates | senior | 70 |
-| 24 Oct 15:29 | Gameloft Barcelona | [Senior Product Manager](https://www.linkedin.com/jobs/view/4438809828/) | Barcelona, Catalonia, Spain | senior | 70 |
-| 24 Oct 15:29 | Intermedia Intelligent Communications | [Senior Product Manager](https://www.linkedin.com/jobs/view/4464243491/) | Portugal | senior | 70 |
-| 24 Oct 15:29 | Intermedia Intelligent Communications | [Sr. Product Manager - AI Builder](https://www.linkedin.com/jobs/view/4464243511/) | Portugal | senior | 70 |
-| 24 Oct 15:29 | Philip Morris International | [Product Manager - People Analytics](https://www.linkedin.com/jobs/view/4474751987/) | Cracow, Małopolskie, Poland | unlevelled | 54 |
-| 24 Oct 15:28 | Just Eat Takeaway.com | [Senior Group Product Manager](https://www.linkedin.com/jobs/view/4473188865/) | Amsterdam, North Holland, Netherlands | reach | 54 |
-| 24 Oct 15:28 | Optum | [Product Manager](https://www.linkedin.com/jobs/view/4483309990/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
-| 24 Oct 15:27 | Publicis Sapient | [Senior Product Manager](https://www.linkedin.com/jobs/view/4444181501/) | Hyderabad, Telangana, India | senior | 63 |
-| 24 Oct 15:27 | Autodesk | [Principal Product Manager - Flow Studio (GenAI Products)](https://www.linkedin.com/jobs/view/4473344953/) | Montreal, Quebec, Canada | reach | 55 |
