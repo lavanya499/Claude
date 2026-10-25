@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 25 Oct 07:09 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 25 Oct 12:20 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (5)
 
@@ -12,10 +12,21 @@ Updated 25 Oct 07:09 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 23 Oct 15:44 | ⭐ Spotify | [Principal Product Manager - Content Platform](https://www.linkedin.com/jobs/view/4482865253/) | London, England, United Kingdom | reach | 78 |
 | 23 Oct 15:43 | ⭐ Spotify | [Principal Product Manager - Content Platform](https://www.linkedin.com/jobs/view/4482846952/) | Stockholm, Stockholm County, Sweden | reach | 78 |
 
-## Everyone else, every level except junior (441)
+## Everyone else, every level except junior (433)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 25 Oct 11:31 | Tangible | [Product Manager (Evergreen - Talent Pool)](https://www.linkedin.com/jobs/view/4481088064/) | United Kingdom | unlevelled | 54 |
+| 25 Oct 11:22 | mamgo / Talente 🔗 Jobs | [Product Owner IT Service Management (m/w/d)](https://www.linkedin.com/jobs/view/4483358943/) | Bonn, North Rhine-Westphalia, Germany | unlevelled | 58 |
+| 25 Oct 11:21 | Zensar Technologies | [ESaaS - MSD -Functional - D365 ERP Product Owner/Scrum Master](https://www.linkedin.com/jobs/view/4482668694/) | Bengaluru, Karnataka, India | unlevelled | 47 |
+| 25 Oct 11:21 | Zensar Technologies | [Digital Product Owner - B2B](https://www.linkedin.com/jobs/view/4482686260/) | Bengaluru, Karnataka, India | unlevelled | 47 |
+| 25 Oct 11:21 | FAMU National Alumni Association | [Senior Director of Product (Head of International - Real Time Operations)](https://www.linkedin.com/jobs/view/4483375154/) | London, England, United Kingdom | stretch | 52 |
+| 25 Oct 11:20 | FAMU National Alumni Association | [Product Manager](https://www.linkedin.com/jobs/view/4483358948/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
+| 25 Oct 10:23 | Coins.ph | [Principal Product Manager - Compliance / AML / Risk Platform](https://www.linkedin.com/jobs/view/4483371164/) | Singapore, Singapore | reach | 51 |
+| 25 Oct 09:21 | Azoma | [Product Manager, New Products](https://www.linkedin.com/jobs/view/4483349975/) | Canada | unlevelled | 51 |
+| 25 Oct 09:21 | IDFC FIRST Bank | [Senior Digital Product Manager](https://www.linkedin.com/jobs/view/4481082219/) | Mumbai, Maharashtra, India | senior | 63 |
+| 25 Oct 08:21 | Loto-Québec | [Chef(fe) de produit (Product Manager) de technologies marketing](https://www.linkedin.com/jobs/view/4483344964/) | Montreal, Quebec, Canada | unlevelled | 51 |
+| 25 Oct 07:22 | Claire Joster | [Product Manager](https://www.linkedin.com/jobs/view/4470511443/) | Greater Barcelona Metropolitan Area | unlevelled | 54 |
 | 25 Oct 06:51 | Hilti Group | [Product Owner](https://www.linkedin.com/jobs/view/4481066718/) | Boulogne-Billancourt, Île-de-France, France | unlevelled | 54 |
 | 25 Oct 06:22 | Techdome | [Product Manager (GenAI & Enterprise Software)](https://www.linkedin.com/jobs/view/4482674235/) | Hyderabad, Telangana, India | unlevelled | 51 |
 | 25 Oct 04:12 | Copeland | [Product Manager](https://www.linkedin.com/jobs/view/4481079144/) | Pune Division, Maharashtra, India | unlevelled | 47 |
@@ -126,16 +137,3 @@ Updated 25 Oct 07:09 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 24 Oct 15:28 | Optum | [Product Manager](https://www.linkedin.com/jobs/view/4483309990/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 24 Oct 15:27 | Publicis Sapient | [Senior Product Manager](https://www.linkedin.com/jobs/view/4444181501/) | Hyderabad, Telangana, India | senior | 63 |
 | 24 Oct 15:27 | Autodesk | [Principal Product Manager - Flow Studio (GenAI Products)](https://www.linkedin.com/jobs/view/4473344953/) | Montreal, Quebec, Canada | reach | 55 |
-| 24 Oct 15:05 | LanceSoft Middle East | [Product Owner – Health Insurance](https://www.linkedin.com/jobs/view/4482613962/) | Abu Dhabi Emirate, United Arab Emirates | unlevelled | 58 |
-| 24 Oct 15:05 | HireAlpha | [Senior Product Manager](https://www.linkedin.com/jobs/view/4482627139/) | Dubai, United Arab Emirates | senior | 70 |
-| 24 Oct 14:28 | GetMyInvoices | [Product Manager Kanzlei-Plattform (all genders) - 100% Homeoffice](https://www.linkedin.com/jobs/view/4481042119/) | Germany | unlevelled | 54 |
-| 24 Oct 14:04 | Thailand
- Be an early applicant
- 8 hours ago | [Product Manager](https://www.linkedin.com/jobs/view/4481904400/) | Thailand | unlevelled | 54 |
-| 24 Oct 13:04 | EBC Financial Group | [Product Manager](https://www.linkedin.com/jobs/view/4482394915/) | Federal Territory of Kuala Lumpur, Malaysia | unlevelled | 54 |
-| 24 Oct 12:29 | TRIBBU | [Product Manager – Monetización & Pagos](https://www.linkedin.com/jobs/view/4482607674/) | Madrid, Community of Madrid, Spain | unlevelled | 54 |
-| 24 Oct 12:05 | ACCEL HUMAN RESOURCE CONSULTANTS | [Product Manager](https://www.linkedin.com/jobs/view/4481021728/) | Dubai, United Arab Emirates | unlevelled | 54 |
-| 24 Oct 10:17 | Thales | [Product Manager – Delivery Services](https://www.linkedin.com/jobs/view/4483309428/) | Amersfoort, Utrecht, Netherlands | unlevelled | 58 |
-| 24 Oct 08:29 | Komforce | [Zuora Billing Product Manager](https://www.linkedin.com/jobs/view/4482350123/) | Sydney, New South Wales, Australia | unlevelled | 54 |
-| 24 Oct 07:29 | Opella | [Digital Manufacturing Product Owner - Serialization](https://www.linkedin.com/jobs/view/4483174884/) | Barcelona, Catalonia, Spain | unlevelled | 54 |
-| 24 Oct 05:53 | HelloFresh | [Senior Product Manager II, Consumer (all genders)](https://www.linkedin.com/jobs/view/4483179093/) | Berlin, Berlin, Germany | senior | 70 |
