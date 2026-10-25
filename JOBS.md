@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-25 01:17 UTC · 670 open matches · 0 new in the last 24h · 97/98 sources healthy_
+_Updated 2026-10-25 11:40 UTC · 671 open matches · 1 new in the last 24h · 97/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -8,7 +8,7 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
-| – | – | nothing new yet | – | – | – |
+| 79 | ⭐ Amazon | [Senior Product Manager, Rewards, Amazon Pay Rewards](https://www.amazon.jobs/en/jobs/10572930/senior-product-manager-rewards-amazon-pay-rewards) | Bengaluru, Karnataka, IND |  | 2026-10-08 |
 
 ## UK — 152 open
 
@@ -237,7 +237,7 @@ _…and 188 more in data/jobs.json_
 | 46 | Open Government Products | [Principal / Lead Product Manager](https://www.linkedin.com/jobs/view/4470925408/) | Singapore, Singapore |  | 2026-10-19 |
 | 42 | Adyen | [Group Product Manager, APAC [Head of Products, APAC]](https://job-boards.greenhouse.io/adyen/jobs/8185942) | Singapore |  | 2026-09-18 |
 
-## India — 131 open
+## India — 132 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -298,11 +298,11 @@ _…and 188 more in data/jobs.json_
 | 79 | ⭐ Amazon | [Sr. Product Manager, RoW ATS Tech](https://www.amazon.jobs/en/jobs/10578264/sr-product-manager-row-ats-tech) | Bengaluru, Karnataka, IND |  | 2026-10-14 |
 | 79 | ⭐ Amazon | [Sr Product Manager – Visibility, Shipment Technologies](https://www.amazon.jobs/en/jobs/10581702/sr-product-manager-visibility-shipment-technologies) | Hyderabad, Telangana, IND |  | 2026-10-16 |
 | 79 | ⭐ Amazon | [Sr. Product Manager, Progression Intelligence](https://www.amazon.jobs/en/jobs/3193772/sr-product-manager-progression-intelligence) | Bengaluru, Karnataka, IND |  | 2026-03-03 |
+| 79 | ⭐ Amazon | [Senior Product Manager, Rewards, Amazon Pay Rewards](https://www.amazon.jobs/en/jobs/10572930/senior-product-manager-rewards-amazon-pay-rewards) | Bengaluru, Karnataka, IND |  | 2026-10-08 |
 | 79 | ⭐ Google | [Product Manager, Geo, Google Maps, UGC Contributor Success](https://www.google.com/about/careers/applications/jobs/results/89061313245782726-product-manager-geo-google-maps-ugc-contributor-success) | Bengaluru, Karnataka, India |  | 2026-10-20 |
 | 79 | ⭐ Salesforce | [Senior Product Manager, Emerging Technology](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/New-York---New-York/Senior-Product-Manager--Emerging-Technology_JR355248) | New York - New York; Washington - Seattle; Indiana - Indiana |  | 2026-09-29 |
-| 78 | ⭐ Amazon | [Product Manager, Amazon Business India](https://www.amazon.jobs/en/jobs/10533854/product-manager-amazon-business-india) | Bengaluru, Karnataka, IND |  | 2026-09-09 |
 
-_…and 71 more in data/jobs.json_
+_…and 72 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
@@ -315,14 +315,14 @@ _…and 71 more in data/jobs.json_
 | Agoda | ok | 316 | 7 |
 | Airbnb | ok | 191 | 0 |
 | Airwallex | ok | 508 | 9 |
-| Amazon | ok | 215 | 97 |
-| Anthropic | ok | 681 | 0 |
+| Amazon | ok | 215 | 98 |
+| Anthropic | ok | 682 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 109 | 4 |
-| Atlassian | ok | 353 | 5 |
+| Atlassian | ok | 352 | 5 |
 | Bitpanda | ok | 35 | 3 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
-| Brex | ok | 254 | 2 |
+| Brex | ok | 259 | 2 |
 | Canva | ok | 94 | 0 |
 | Celonis | ok | 217 | 4 |
 | Cloudflare | ok | 454 | 6 |
@@ -330,21 +330,21 @@ _…and 71 more in data/jobs.json_
 | Cresta | ok | 87 | 1 |
 | Datadog | ok | 433 | 3 |
 | Decagon | ok | 134 | 2 |
-| Deliveroo | ok | 205 | 9 |
+| Deliveroo | ok | 206 | 9 |
 | Delivery Hero | ok | 600 | 5 |
 | Deputy | ok | 7 | 1 |
 | Doctolib | ok | 156 | 3 |
 | Ebury | ok | 144 | 4 |
 | Elastic | ok | 402 | 24 |
 | ElevenLabs | ok | 159 | 2 |
-| Expedia Group | ok | 69 | 5 |
+| Expedia Group | ok | 68 | 5 |
 | Fivetran | ok | 171 | 2 |
 | Genesys | ok | 198 | 2 |
 | Geotab | ok | 68 | 5 |
 | GetYourGuide | ok | 74 | 6 |
 | GitLab | ok | 239 | 4 |
 | GoCardless | ok | 26 | 2 |
-| Google | ok | 72 | 14 |
+| Google | ok | 53 | 12 |
 | Grab | ok | 429 | 8 |
 | Grafana Labs | ok | 145 | 12 |
 | Intercom | ok | 104 | 5 |
@@ -358,12 +358,12 @@ _…and 71 more in data/jobs.json_
 | Meesho | ok | 58 | 3 |
 | Mentimeter | ok | 14 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 91 | 8 |
+| Microsoft | ok | 90 | 8 |
 | Moneybox | ok | 20 | 1 |
-| MongoDB | ok | 382 | 6 |
+| MongoDB | ok | 381 | 6 |
 | Monzo | ok | 72 | 4 |
 | N26 | ok | 39 | 5 |
-| Netflix | ok | 156 | 1 |
+| Netflix | ok | 157 | 1 |
 | New Relic | ok | 55 | 1 |
 | Nium | ok | 19 | 2 |
 | Okta | ok | 390 | 13 |
@@ -372,7 +372,7 @@ _…and 71 more in data/jobs.json_
 | Paddle | ok | 17 | 1 |
 | Parloa | ok | 54 | 2 |
 | PayPal | ok | 328 | 3 |
-| Payoneer | ok | 100 | 1 |
+| Payoneer | ok | 103 | 1 |
 | Pennylane | ok | 169 | 2 |
 | Qonto | ok | 41 | 2 |
 | Razorpay | ok | 25 | 1 |
@@ -388,15 +388,15 @@ _…and 71 more in data/jobs.json_
 | Stripe | ok | 719 | 11 |
 | SumUp | ok | 349 | 2 |
 | Synthesia | ok | 34 | 3 |
-| Tide | ok | 100 | 2 |
+| Tide | ok | 102 | 2 |
 | Toast | ok | 321 | 3 |
 | Trustpilot | ok | 48 | 6 |
 | Twilio | ok | 134 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
 | Wealthsimple | ok | 43 | 3 |
-| Wise | ok | 420 | 14 |
-| Wolt | ok | 194 | 1 |
+| Wise | ok | 421 | 14 |
+| Wolt | ok | 193 | 1 |
 | Xendit | ok | 26 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 40 | 10 |
