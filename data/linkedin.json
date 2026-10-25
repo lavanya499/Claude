@@ -1,11 +1,14 @@
 {
+"blocked_until": "2026-10-26T00:14Z",
 "health": {
-"calls": 30,
-"cards": 68,
-"errors": 0,
-"new": 3,
-"requests": 30,
-"window_min": 174
+"calls": 1,
+"cards": 0,
+"errors": 1,
+"last_error": "HTTPError: HTTP Error 429: Too Many Requests",
+"new": 0,
+"rate_limited": true,
+"requests": 1,
+"window_min": 131
 },
 "jobs": {
 "3795113969": {
@@ -19883,8 +19886,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-10-25T16:19Z",
+"last_block_ping": "2026-10-25T23:34Z",
 "last_rollup": "2026-10-25T16:19Z",
 "last_scan": "2026-10-25T21:43Z",
-"updated": "2026-10-25T21:43Z"
+"updated": "2026-10-25T23:34Z"
 }

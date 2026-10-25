@@ -1,8 +1,8 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 26 Oct 03:13 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 26 Oct 05:04 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
-## Target companies (7)
+## Target companies (6)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
@@ -12,9 +12,8 @@ Updated 26 Oct 03:13 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 25 Oct 19:40 | Revolut | [Product Owner (Technical)](https://www.linkedin.com/jobs/view/3795113969/) | Portugal | unlevelled | 67 |
 | 25 Oct 19:40 | Revolut | [Product Owner (UX)](https://www.linkedin.com/jobs/view/4370665361/) | Porto, Porto, Portugal | unlevelled | 78 |
 | 24 Oct 18:29 | Shopee | [Product Manager - Digital Products](https://www.linkedin.com/jobs/view/4342071464/) | Singapore, Singapore | unlevelled | 73 |
-| 24 Oct 03:11 | ⭐ Booking.com | [Supplier Fraud - Technical Product Manager](https://www.linkedin.com/jobs/view/4483143946/) | Amsterdam, North Holland, Netherlands | unlevelled | 88 |
 
-## Everyone else, every level except junior (283)
+## Everyone else, every level except junior (257)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
