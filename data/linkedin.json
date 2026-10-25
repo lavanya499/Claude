@@ -1,11 +1,14 @@
 {
+"blocked_until": "2026-10-25T16:59Z",
 "health": {
-"calls": 30,
-"cards": 199,
-"errors": 0,
-"new": 38,
-"requests": 30,
-"window_min": 343
+"calls": 8,
+"cards": 49,
+"errors": 1,
+"last_error": "HTTPError: HTTP Error 429: Too Many Requests",
+"new": 9,
+"rate_limited": true,
+"requests": 8,
+"window_min": 266
 },
 "jobs": {
 "4291843606": {
@@ -152,6 +155,24 @@
 "tier": 3,
 "title": "e-invoice Product Lead",
 "url": "https://www.linkedin.com/jobs/view/4371949871/",
+"visa": ""
+},
+"4380928609": {
+"company": "Klook",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4380928609",
+"level": "senior",
+"location": "Singapore, Singapore",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T13:19Z",
+"regions": [
+"Singapore"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Business Data Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4380928609/",
 "visa": ""
 },
 "4386653961": {
@@ -302,7 +323,6 @@
 "4408221694": {
 "alerted": true,
 "company": "Shopee",
-"desc": "About The Team\n We are building the next generation of AI-powered promotion and growth systems that connect users through intelligent automation and data-driven insights. As a Product Manager, you’ll own the end-to-end strategy and development of our Smart Promotion Platform, working with cross-functional teams to accelerate user growth and marketing efficiency at scale.\n Job Description\n Lead the full product lifecycle from discovery and design to launch and continuous optimization for AI-enabled promotion and user growth products.\n Combine deep understanding of marketing strategy, user behavior, and AI capabilities (including machine learning, generative AI, agentic AI etc.) to identify opportunities and craft high-impact solutions \n Partner closely with data science and engineering teams to turn algorithms and insights into practical product features that drive measurable growth.\n Leverage experimentation, automation, and data feedback loops to maximize user acquisition, engagement, and retention.\n Ensure strong communication and alignment across functions, including business, marketing, operations, design, engineering, and data science.\n Requirements\n Bachelor’s degree or above in Computer Science, Data Science, Engineering, or related technical field.\n Proven analytical and problem-solving skills; experience with data analysis, system design, or AI products preferred.\n Solid experience in product management with a strong technical foundation, ideally in AI, marketing systems, or growth platforms.\n Excellent communication and stakeholder management skills, with the ability to work effectively with cross-functional teams across regions.\n Self-driven, adaptable, and passionate about using AI and data to scale user and business growth in a fast-paced, dynamic environment, and motivated by impact.",
 "dup": false,
 "first_seen_at": "2026-10-22T15:39Z",
 "id": "4408221694",
@@ -391,6 +411,24 @@
 "url": "https://www.linkedin.com/jobs/view/4417464941/",
 "visa": ""
 },
+"4418156314": {
+"company": "Vertiv",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4418156314",
+"level": "unlevelled",
+"location": "Petaling Jaya, Selangor, Malaysia",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T13:19Z",
+"regions": [
+"Malaysia"
+],
+"score": 54,
+"tier": 3,
+"title": "Thermal Management - Product Manager (SEA+NA)",
+"url": "https://www.linkedin.com/jobs/view/4418156314/",
+"visa": ""
+},
 "4418989406": {
 "company": "Vontier",
 "dup": false,
@@ -424,6 +462,24 @@
 "tier": 3,
 "title": "CDI - Data Product Manager Analytics & AI - Retail (H/F)",
 "url": "https://www.linkedin.com/jobs/view/4419335424/",
+"visa": ""
+},
+"4419374431": {
+"company": "GovTech Singapore",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4419374431",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T15:53Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager (AGC)",
+"url": "https://www.linkedin.com/jobs/view/4419374431/",
 "visa": ""
 },
 "4419969489": {
@@ -478,6 +534,24 @@
 "tier": 3,
 "title": "International Product Manager, Consumables",
 "url": "https://www.linkedin.com/jobs/view/4420101820/",
+"visa": ""
+},
+"4423509173": {
+"company": "Pixalate",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4423509173",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T15:19Z",
+"regions": [
+"Singapore"
+],
+"score": 55,
+"tier": 3,
+"title": "Product Manager - Trust & Safety",
+"url": "https://www.linkedin.com/jobs/view/4423509173/",
 "visa": ""
 },
 "4423584798": {
@@ -1225,6 +1299,24 @@
 "url": "https://www.linkedin.com/jobs/view/4437330045/",
 "visa": ""
 },
+"4437373973": {
+"company": "GovTech Singapore",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4437373973",
+"level": "senior",
+"location": "Singapore, Singapore",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T15:43Z",
+"regions": [
+"Singapore"
+],
+"score": 67,
+"tier": 3,
+"title": "Lead / Senior Product Manager, AI Programme",
+"url": "https://www.linkedin.com/jobs/view/4437373973/",
+"visa": ""
+},
 "4437408875": {
 "company": "Critical Software",
 "dup": false,
@@ -1659,7 +1751,6 @@
 },
 "4442618187": {
 "company": "Deputy",
-"desc": "Deputy is a global SaaS workforce management company with hubs in Sydney, Melbourne, San Francisco and London, plus team members working remotely across the United States. Our platform serves over 1.5 million workers and 375,000 workplaces across 100+ countries. We are backed by top global investors and recently achieved Unicorn status.\nAt Deputy, we’re improving the world of work, one shift at a time, for 80% of the world’s workforce: hourly workers. These are the dedicated employees who keep our world running – from baristas to nurses, cleaners to delivery drivers, florists to factory workers. Despite their vital role in society, most workplace technology has focused on those workers who sit behind a desk, but at Deputy, we transform the frontline. When businesses use Deputy, their workplaces thrive – the business is more profitable, compliant, and productive, while the workers are more engaged and happier at work.\nWe're becoming an AI-native company, a commitment that means you'll be empowered (and expected) to use AI tools and thinking in your day-to-day work. You'll have the training, support, and freedom to use AI responsibly and creatively to spark ideas, solve problems faster, and unlock new ways of working.\nIf you’re passionate about creating solutions that put people first and helping businesses and their teams thrive, join us at Deputy and make an impact where it matters most!\n The Role\n Scheduling has been part of Deputy since the beginning and remains at the heart of our product. It helps businesses put the right people on the right shifts, while giving workers a clearer view of their schedules and more flexibility when plans change. Deputy supports more than 1.5 million shift workers across over 100 countries, giving improvements to Scheduling the potential to make a difference at real scale.\nAs Senior Product Manager, you’ll own the Scheduling product area end to end. You’ll get close to customers, decide which problems matter most, set priorities, work with Design and Engineering to deliver solutions, and learn from how they perform. We value people who take initiative, make thoughtful decisions and take ownership of outcomes.\n Responsibilities\n Set the vision and direction for Scheduling, turning customer and business needs into a clear strategy, priorities and roadmap. \n Own product initiatives from discovery through build, launch and iteration, partnering with Design and Engineering to deliver improvements. \n Define what success looks like, use customer insight and product data to make decisions, measure impact and keep improving. \n Understand the market and competitors, and shape how Scheduling stands out and is brought to customers. \n Solve complex scheduling challenges in scalable ways across customers, industries and regions. \n Bring teams and senior stakeholders together around goals and trade-offs, communicating the reasons behind decisions and progress. \n Spot risks and blockers early, take action and adapt plans as you learn. \n Share your knowledge and mentor other product managers and team members. \n Skills & Experience\n Around 3–5 years of experience in product management, preferably in a SaaS environment, with experience owning a product or meaningful product area end to end. \n A track record of making sound product decisions and delivering outcomes for customers and the business. \n High agency and ownership: you spot opportunities, ask good questions, make decisions and follow through. \n Strong analytical ",
 "dup": true,
 "first_seen_at": "2026-10-22T15:39Z",
 "id": "4442618187",
@@ -2761,7 +2852,6 @@
 },
 "4455777878": {
 "company": "Amazon",
-"desc": "Description\n The vision for Alexa is to be the world’s best personal assistant. Alexa Smart Properties enables enterprise customers to deploy Alexa in their managed properties like hotels, senior living homes, vacation rentals, hospitals, and more, transforming how businesses engage with their customers and streamline staff processes. We’re leveraging Generative AI to reimagine how hospitality, healthcare, senior living, and other verticals deliver magical experiences to their guests, patients, residents, and staff.\nIf you’re passionate about building enterprise-grade communication and device management solutions — while applying GenAI to solve hard, complex technical problems — then this role is for you. You will operate at the intersection of large language models, content management systems, third party integrations , and enterprise SaaS platforms to deliver delightful, scalable features for our B2B customers and their end users.\nCome join us to invent the future of how millions of enterprise end users communicate and connect through Alexa-powered devices — and how businesses manage those experiences at scale.\nKey job responsibilities\nAs a Senior Product Manager — Technical in Alexa Smart Properties, you will own and drive the product vision and execution for our enterprise staff personas to make it easy for staff to manage their content, get real time insights, and engage with their end customers. You will own our enterprise console and integrations with third party systems. You will manage how staff manage content in our enterprise console including menus, events, promotions, alerts, and contacts. You will create features to deliver staff real time insights - through intelligent real time events to analytics. You will also build out capabilities to track tickets, orders, and other tasks directly in our enterprise console.\nWith Alexa Smart Properties, you can also manage your content and end customer engagement using a third party system such as a property management system or resident engagement system. You will manage the roadmap of integrations we develop as well as improvements to accelerate integration speed and scale.\nAcross both pillars, you will use all means possible — including AI capabilities — to accelerate development cycles, enable faster learning, make better decisions, and unlock new forms of innovation. You will leverage GenAI to rapidly generate prototypes, specifications, and documentation to validate customer value propositions faster. You will deeply understand your product’s business context — market dynamics, competitive landscape, pricing strategy, and profitability drivers — and articulate how product decisions impact business outcomes.\nYou will define vision (PR/FAQ), problem statements, tenets, and strategy while owning roadmap and priorities. You will influence without authority, building alignment across teams with different priorities — engineering, science, design, finance, marketing, sales, legal, and operations. You will establish key performance indicators, drive feature adoption, and measure the health of your product and business, distinguishing between output metrics such as adoption and outcome metrics such as customer satisfaction and business impact. You will create buy-in for your vision across the Alexa organization and with external partners, and conduct or commission customer research, usability studies, and competitive analysis to identify best-of-breed benchmarks and understand market op",
 "dup": true,
 "first_seen_at": "2026-10-22T15:39Z",
 "id": "4455777878",
@@ -2870,7 +2960,6 @@
 },
 "4455915305": {
 "company": "Amazon",
-"desc": "Description\n Amazon Web Services (AWS) is looking for a Senior Product Manager to join our Serverless Compute team based in Vancouver, Canada. Our team owns the products that make it radically easier for builders to build scalable, reliable, and intelligent cloud applications without managing infrastructure. Our portfolio includes some of the most widely adopted services in cloud computing: AWS Lambda, AWS Step Functions, Amazon EventBridge, and AWS Elastic Beanstalk. Together, these services power millions of customer workloads, from event-driven architectures and workflow orchestration to full application deployment. Our latest innovations are defining how customers build complex, multi-step, AI-native applications on AWS, including durable execution for AI agents and next-generation compute primitives.\nWe’re looking for a product manager that’s passionate about solving customer problems and has demonstrated success in turning ambiguous customer needs into successful products. In this role, you will help evolve our serverless services by providing new capabilities and intuitive developer experiences that make it easier to build applications without the need to become an expert in distributed systems. If you're excited by cloud computing, want to help lead from the innovative edge, and have a deep-rooted passion in the evolution of computing and application development platforms, then we want to talk to you!\nAs a Senior Product Manager, you will be a critical part of the PM organization that owns the business model and P&L, prioritization of the product roadmap, customer segmentation and pricing, and demand generation for impactful new products. You will work across engineering, business development, and marketing leads to set strategy, define the product, and make difficult, high-judgment trade-offs between features and time-to-market. You will partner with the technical leaders of the organization to ensure the programming model, scalability and reliability promises, and developer experience delight our customers. As one of the team leaders, you will play a key role in hiring additional team members, and help set the vision, values, and culture of this business.\nThe breadth of this role is what makes it unique. Depending on your interests and strengths, you could find yourself working on event-driven architectures that connect and integrate cloud-native systems at scale, workflow orchestration and durable execution for AI agents and distributed applications or developer and agent experiences that make building, deploying, and governing serverless applications effortless at any scale.\n Further Responsibilities Include\n Author documents relating to product life cycle including product roadmap, business requirements, and functional specifications\n Prototype new features and experiences\n Drive product development across teams (primarily Engineering, Operations, Product Management, Business Development, and Marketing) through business requirements, design, implementation, and deployment\n Work collaboratively with Engineering as an advocate for the needs of our customers\n Evaluate industry innovations and technology platforms and identify partnership and collaboration opportunities\n Engage directly with customers to understand their needs and learn what we can build to enable and delight our customers\n What does it take to succeed in this role? Excitement in finding new ways to help a developer do things more efficiently or faster. A deep ",
 "dup": true,
 "first_seen_at": "2026-10-22T15:39Z",
 "id": "4455915305",
@@ -2889,7 +2978,6 @@
 },
 "4455915499": {
 "company": "Amazon",
-"desc": "Description\n Prime Video is a first-stop entertainment destination offering customers a vast collection of premium programming in one app available across thousands of devices. Prime members can customize their viewing experience and find their favorite movies, series, documentaries, and live sports – including Amazon MGM Studios-produced series and movies; licensed fan favorites; and programming from Prime Video add-on subscriptions such as Apple TV+, Max, Crunchyroll and MGM+. All customers, regardless of whether they have a Prime membership or not, can rent or buy titles via the Prime Video Store, and can enjoy even more content for free with ads.\nAs a Prime Video technologist, you’ll have end-to-end ownership of the product, user experience, design, and technology required to deliver state-of-the-art experiences for our customers. You’ll get to work on projects that are fast-paced, challenging, and varied. You’ll also be able to experiment with new possibilities, take risks, and collaborate with remarkable people.\nWe’ll look for you to bring your diverse perspectives, ideas, and skill-sets to make Prime Video even better for our customers. With global opportunities for talented technologists, you can decide where a career in Prime Video Tech takes you!\nAre you excited about shaping the future of streaming TV & Video Advertising ? Are you passionate about driving innovating ways to monetize while delighting viewers?\nWe are looking for a seasoned product leader with strong domain expertise in video advertising technology. The preferred candidate will have both broad and deep understanding of the advertising ecosystem, proven ability to influence and drive vision, goals, and launch complex products across large organizations.\nIf you enjoy working with high performance teams, being part of a rapidly growing business, and inventing creative solutions to complex product problems, this role is for you.\nJoin us in our exciting journey to be the world’s best ad-supported streaming service by creating customer-obsessed ad experiences and unparalleled product innovation to deliver for our customers and advertisers.. We move fast, seek impact and don't forget to have fun on the way.\nKey job responsibilities\nAs a Sr. Product Manager - Tech and product leader in the Prime Video Ads team you will drive the vision, roadmap, and new feature requirements that power Prime Video Ads supply side tech.\n You Will\n Lead the development and execution of a bold customer-focused product strategy and vision.\nCollaborate closely with cross-functional teams, including engineering, science, legal, operations, and business stakeholders, to define and execute a product roadmap.\nWork across external vendors and industry bodies to be industry aware/influencing , but customer focused.\nWork back from our customers by learning from their feedback, measurements, and other data sources to identify pain points and ensure we are building the right features over time.\nMonitor key performance indicators (KPIs) and analyze metrics to measure the impact of addressable inventory, identify areas for improvement, and drive optimization.\nWork closely with engineering around technology decisions and strategy related to a product.\nYou will align your teams to take SMART goals that will establish and maintain Prime Video as the best ad-supported streaming service for viewers and advertisers.\n Basic Qualifications\n Master's degree\n Experience owning/driving roadmap strategy and definit",
 "dup": true,
 "first_seen_at": "2026-10-22T15:39Z",
 "id": "4455915499",
@@ -3048,6 +3136,24 @@
 "tier": 3,
 "title": "Product Manager, future Court Management System",
 "url": "https://www.linkedin.com/jobs/view/4456074554/",
+"visa": ""
+},
+"4456092696": {
+"company": "GovTech Singapore",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4456092696",
+"level": "senior",
+"location": "Singapore, Singapore",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T15:44Z",
+"regions": [
+"Singapore"
+],
+"score": 67,
+"tier": 3,
+"title": "Lead Product Manager (MLAW)",
+"url": "https://www.linkedin.com/jobs/view/4456092696/",
 "visa": ""
 },
 "4456117884": {
@@ -8482,6 +8588,24 @@
 "tier": 3,
 "title": "Product Owner",
 "url": "https://www.linkedin.com/jobs/view/4477063904/",
+"visa": ""
+},
+"4477131530": {
+"company": "Global Fashion Group",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4477131530",
+"level": "senior",
+"location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T15:19Z",
+"regions": [
+"Malaysia"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager - Global Discovery & Personalisation",
+"url": "https://www.linkedin.com/jobs/view/4477131530/",
 "visa": ""
 },
 "4477796277": {
@@ -16040,7 +16164,6 @@
 },
 "4482464818": {
 "company": "Bitpanda",
-"desc": "Who we are  We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing.\n Headquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go!\n Your mission Bitpanda serves millions of investors across Europe, and we're bringing regulated finance onchain with Vision Chain, our own OP Stack L2 blockchain. We are building the premier ecosystem for European financial institutions to issue and distribute euro-denominated tokenized assets. We're hiring a Lead Technical Product Manager to own Vision Chain as a product: the foundation that Bitpanda's onchain products run on.\n You'll own how the chain works and evolves, covering topics spanning proof systems, core protocol modifications, selecting the infrastructure providers, and more. You'll design and implement compliance, identity and privacy solutions into and on the chain, to satisfy the requirements of both financial institutions and developers. You'll work on this in collaboration with both internal and external product and engineering teams, as well as Bitpanda's Compliance, Legal and Data Protection teams, as an individual contributor reporting to the Head of Web3 Product within a small, senior team.\n What you’ll do  \n Own Vision Chain at the infrastructure level, managing configuration choices (fee mechanism, block building logic, etc.), and modifications to the OP Stack, in collaboration with the OP Labs team.\n Manage infrastructure partnerships, owning the technical relationship with providers (RPC nodes, indexing, oracles, etc.). \n Collaborate with Compliance and Legal to implement regulatorily-compliant onchain transaction screening, identity, and privacy solutions.\n Run reliability, incidents and cost, and own developer documentation and partner technical onboarding until a developer relations lead joins.\n Coordinate with the other Vision Web3 product leads to ensure the chain’s technical roadmap supports the product roadmap being built on top of it.\n Who you are  \n 6+ years of product or engineering experience, with 3+ years focused on blockchain infrastructure (e.g., L1/L2, rollup-as-a-service, node infrastructure provider, account abstraction, or an exchange protocol team).\n Deep understanding of EVM rollup mechanics, including sequencing, fees, proofs, withdrawals, bridges, upgrade keys, and account abstraction.\n Proven ability to translate complex business and regulatory needs into precise technical requirements and drive them to delivery through engineering teams and external partners without direct ma",
 "dup": true,
 "first_seen_at": "2026-10-22T15:39Z",
 "id": "4482464818",
@@ -16487,6 +16610,24 @@
 "tier": 3,
 "title": "Product Manager / Sr. Product Manager (Backend)",
 "url": "https://www.linkedin.com/jobs/view/4482679546/",
+"visa": ""
+},
+"4482679675": {
+"company": "AIA Thailand",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4482679675",
+"level": "unlevelled",
+"location": "Bangkok, Bangkok City, Thailand",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T13:19Z",
+"regions": [
+"Thailand"
+],
+"score": 54,
+"tier": 3,
+"title": "AI Product Owner, Specialist",
+"url": "https://www.linkedin.com/jobs/view/4482679675/",
 "visa": ""
 },
 "4482686260": {
@@ -18408,6 +18549,24 @@
 "url": "https://www.linkedin.com/jobs/view/4483358948/",
 "visa": ""
 },
+"4483364951": {
+"company": "Selby Jennings",
+"dup": false,
+"first_seen_at": "2026-10-25T16:19Z",
+"id": "4483364951",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T14:19Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "HR Technology Transformation Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4483364951/",
+"visa": ""
+},
 "4483371164": {
 "company": "Coins.ph",
 "dup": false,
@@ -18481,8 +18640,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-10-24T13:34Z",
-"last_rollup": "2026-10-25T12:13Z",
+"last_block_ping": "2026-10-25T16:19Z",
+"last_rollup": "2026-10-25T16:19Z",
 "last_scan": "2026-10-25T12:13Z",
-"updated": "2026-10-25T12:13Z"
+"updated": "2026-10-25T16:19Z"
 }
