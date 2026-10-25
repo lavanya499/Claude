@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 25 Oct 05:12 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 25 Oct 07:09 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (5)
 
@@ -12,10 +12,12 @@ Updated 25 Oct 05:12 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 23 Oct 15:44 | ⭐ Spotify | [Principal Product Manager - Content Platform](https://www.linkedin.com/jobs/view/4482865253/) | London, England, United Kingdom | reach | 78 |
 | 23 Oct 15:43 | ⭐ Spotify | [Principal Product Manager - Content Platform](https://www.linkedin.com/jobs/view/4482846952/) | Stockholm, Stockholm County, Sweden | reach | 78 |
 
-## Everyone else, every level except junior (443)
+## Everyone else, every level except junior (441)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 25 Oct 06:51 | Hilti Group | [Product Owner](https://www.linkedin.com/jobs/view/4481066718/) | Boulogne-Billancourt, Île-de-France, France | unlevelled | 54 |
+| 25 Oct 06:22 | Techdome | [Product Manager (GenAI & Enterprise Software)](https://www.linkedin.com/jobs/view/4482674235/) | Hyderabad, Telangana, India | unlevelled | 51 |
 | 25 Oct 04:12 | Copeland | [Product Manager](https://www.linkedin.com/jobs/view/4481079144/) | Pune Division, Maharashtra, India | unlevelled | 47 |
 | 25 Oct 03:12 | andsafe | [Product Owner (m/w/d)](https://www.linkedin.com/jobs/view/4481058814/) | Münster, North Rhine-Westphalia, Germany | unlevelled | 54 |
 | 25 Oct 03:12 | Jean&Len | [Senior ERP Product Owner (m/w/d) - Microsoft Dynamics 365 Business Central](https://www.linkedin.com/jobs/view/4481066471/) | Cologne, North Rhine-Westphalia, Germany | senior | 70 |
@@ -137,5 +139,3 @@ Updated 25 Oct 05:12 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 24 Oct 08:29 | Komforce | [Zuora Billing Product Manager](https://www.linkedin.com/jobs/view/4482350123/) | Sydney, New South Wales, Australia | unlevelled | 54 |
 | 24 Oct 07:29 | Opella | [Digital Manufacturing Product Owner - Serialization](https://www.linkedin.com/jobs/view/4483174884/) | Barcelona, Catalonia, Spain | unlevelled | 54 |
 | 24 Oct 05:53 | HelloFresh | [Senior Product Manager II, Consumer (all genders)](https://www.linkedin.com/jobs/view/4483179093/) | Berlin, Berlin, Germany | senior | 70 |
-| 24 Oct 05:29 | Ness Solution | [Product Owner/ Product Manager](https://www.linkedin.com/jobs/view/4481986888/) | Warsaw, Mazowieckie, Poland | unlevelled | 54 |
-| 24 Oct 04:29 | Kidde Global Solutions | [Product Manager - Access Control](https://www.linkedin.com/jobs/view/4480693948/) | Neuilly-Plaisance, Île-de-France, France | unlevelled | 54 |
