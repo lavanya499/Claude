@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-25 11:40 UTC · 671 open matches · 1 new in the last 24h · 97/98 sources healthy_
+_Updated 2026-10-25 19:42 UTC · 672 open matches · 1 new in the last 24h · 97/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -237,7 +237,7 @@ _…and 188 more in data/jobs.json_
 | 46 | Open Government Products | [Principal / Lead Product Manager](https://www.linkedin.com/jobs/view/4470925408/) | Singapore, Singapore |  | 2026-10-19 |
 | 42 | Adyen | [Group Product Manager, APAC [Head of Products, APAC]](https://job-boards.greenhouse.io/adyen/jobs/8185942) | Singapore |  | 2026-09-18 |
 
-## India — 132 open
+## India — 133 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -291,6 +291,7 @@ _…and 188 more in data/jobs.json_
 | 79 | ⭐ Amazon | [Sr. Product Manager - Tech, AHS](https://www.amazon.jobs/en/jobs/10560449/sr-product-manager-tech-ahs) | Bengaluru, Karnataka, IND |  | 2026-09-25 |
 | 79 | ⭐ Amazon | [Sr. Product Manager - Tech, Purchase Experience, Amazon Books](https://www.amazon.jobs/en/jobs/10568582/sr-product-manager-tech-purchase-experience-amazon-books) | Chennai, Tamil Nadu, IND |  | 2026-10-05 |
 | 79 | ⭐ Amazon | [Senior Product Manager - Tech, Amazon Finance Technology](https://www.amazon.jobs/en/jobs/10569078/senior-product-manager-tech-amazon-finance-technology) | Gurugram, Haryana, IND |  | 2026-10-05 |
+| 79 | ⭐ Amazon | [Senior Product Manager, Rewards, Amazon Pay Rewards](https://www.amazon.jobs/en/jobs/10572930/senior-product-manager-rewards-amazon-pay-rewards) | Bengaluru, Karnataka, IND |  | 2026-10-08 |
 | 79 | ⭐ Amazon | [Sr. Product Manager - Technical, WW Prime - Benefits, Pricing & Constructs, WW Prime - Benefits, Pricing & Constructs](https://www.amazon.jobs/en/jobs/10573263/sr-product-manager-technical-ww-prime-benefits-pricing-constructs-ww-prime-benefits-pricing-constructs) | Bengaluru, Karnataka, IND |  | 2026-10-08 |
 | 79 | ⭐ Amazon | [Senior Product Manager, Amazon Now](https://www.amazon.jobs/en/jobs/10576706/senior-product-manager-amazon-now) | Bengaluru, Karnataka, IND |  | 2026-10-13 |
 | 79 | ⭐ Amazon | [Sr Product Manager Tech](https://www.amazon.jobs/en/jobs/10577088/sr-product-manager-tech) | Hyderabad, Telangana, IND |  | 2026-10-13 |
@@ -298,22 +299,21 @@ _…and 188 more in data/jobs.json_
 | 79 | ⭐ Amazon | [Sr. Product Manager, RoW ATS Tech](https://www.amazon.jobs/en/jobs/10578264/sr-product-manager-row-ats-tech) | Bengaluru, Karnataka, IND |  | 2026-10-14 |
 | 79 | ⭐ Amazon | [Sr Product Manager – Visibility, Shipment Technologies](https://www.amazon.jobs/en/jobs/10581702/sr-product-manager-visibility-shipment-technologies) | Hyderabad, Telangana, IND |  | 2026-10-16 |
 | 79 | ⭐ Amazon | [Sr. Product Manager, Progression Intelligence](https://www.amazon.jobs/en/jobs/3193772/sr-product-manager-progression-intelligence) | Bengaluru, Karnataka, IND |  | 2026-03-03 |
-| 79 | ⭐ Amazon | [Senior Product Manager, Rewards, Amazon Pay Rewards](https://www.amazon.jobs/en/jobs/10572930/senior-product-manager-rewards-amazon-pay-rewards) | Bengaluru, Karnataka, IND |  | 2026-10-08 |
 | 79 | ⭐ Google | [Product Manager, Geo, Google Maps, UGC Contributor Success](https://www.google.com/about/careers/applications/jobs/results/89061313245782726-product-manager-geo-google-maps-ugc-contributor-success) | Bengaluru, Karnataka, India |  | 2026-10-20 |
 | 79 | ⭐ Salesforce | [Senior Product Manager, Emerging Technology](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/New-York---New-York/Senior-Product-Manager--Emerging-Technology_JR355248) | New York - New York; Washington - Seattle; Indiana - Indiana |  | 2026-09-29 |
 
-_…and 72 more in data/jobs.json_
+_…and 73 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 90 | 6 |
+| 1Password | ok | 91 | 6 |
 | Adobe | ok | 297 | 1 |
 | Adyen | ok | 248 | 11 |
 | Affirm | ok | 225 | 9 |
-| Agoda | ok | 316 | 7 |
-| Airbnb | ok | 191 | 0 |
+| Agoda | ok | 314 | 7 |
+| Airbnb | ok | 190 | 0 |
 | Airwallex | ok | 508 | 9 |
 | Amazon | ok | 215 | 98 |
 | Anthropic | ok | 682 | 0 |
@@ -344,9 +344,9 @@ _…and 72 more in data/jobs.json_
 | GetYourGuide | ok | 74 | 6 |
 | GitLab | ok | 239 | 4 |
 | GoCardless | ok | 26 | 2 |
-| Google | ok | 53 | 12 |
+| Google | ok | 72 | 14 |
 | Grab | ok | 429 | 8 |
-| Grafana Labs | ok | 145 | 12 |
+| Grafana Labs | ok | 146 | 12 |
 | Intercom | ok | 104 | 5 |
 | JetBrains | ok | 47 | 2 |
 | Klarna | ok |  |  |
@@ -358,7 +358,7 @@ _…and 72 more in data/jobs.json_
 | Meesho | ok | 58 | 3 |
 | Mentimeter | ok | 14 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 90 | 8 |
+| Microsoft | ok | 89 | 9 |
 | Moneybox | ok | 20 | 1 |
 | MongoDB | ok | 381 | 6 |
 | Monzo | ok | 72 | 4 |
@@ -367,12 +367,12 @@ _…and 72 more in data/jobs.json_
 | New Relic | ok | 55 | 1 |
 | Nium | ok | 19 | 2 |
 | Okta | ok | 390 | 13 |
-| OpenAI | ok | 794 | 0 |
+| OpenAI | ok | 793 | 0 |
 | Oyster | ok | 23 | 2 |
 | Paddle | ok | 17 | 1 |
 | Parloa | ok | 54 | 2 |
-| PayPal | ok | 328 | 3 |
-| Payoneer | ok | 103 | 1 |
+| PayPal | ok | 327 | 3 |
+| Payoneer | ok | 102 | 1 |
 | Pennylane | ok | 169 | 2 |
 | Qonto | ok | 41 | 2 |
 | Razorpay | ok | 25 | 1 |
@@ -391,7 +391,7 @@ _…and 72 more in data/jobs.json_
 | Tide | ok | 102 | 2 |
 | Toast | ok | 321 | 3 |
 | Trustpilot | ok | 48 | 6 |
-| Twilio | ok | 134 | 2 |
+| Twilio | ok | 133 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
 | Wealthsimple | ok | 43 | 3 |
@@ -400,11 +400,11 @@ _…and 72 more in data/jobs.json_
 | Xendit | ok | 26 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 40 | 10 |
-| Zendesk | ok | 127 | 3 |
+| Zendesk | ok | 126 | 3 |
 | Zip | ok | 109 | 2 |
 | Zscaler | ok | 352 | 1 |
 | eBay | ok | 187 | 11 |
 | loveholidays | ok | 18 | 4 |
-| n8n | ok | 41 | 3 |
+| n8n | ok | 39 | 3 |
 
 </details>
