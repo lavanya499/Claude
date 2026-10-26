@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-26 01:16 UTC · 672 open matches · 1 new in the last 24h · 97/98 sources healthy_
+_Updated 2026-10-26 06:21 UTC · 674 open matches · 3 new in the last 24h · 97/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -8,7 +8,9 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
+| 89 | ⭐ Amazon | [Sr. Product Manager, Progression Intelligence](https://www.amazon.jobs/en/jobs/10588360/sr-product-manager-progression-intelligence) | Bengaluru, Karnataka, IND |  | 2026-10-26 |
 | 79 | ⭐ Amazon | [Senior Product Manager, Rewards, Amazon Pay Rewards](https://www.amazon.jobs/en/jobs/10572930/senior-product-manager-rewards-amazon-pay-rewards) | Bengaluru, Karnataka, IND |  | 2026-10-08 |
+| 66 | ServiceNow | [Sr Staff Inbound Product Manager](https://jobs.smartrecruiters.com/ServiceNow/744000157721999) | Hyderabad, , India |  | 2026-10-26 |
 
 ## UK — 152 open
 
@@ -237,11 +239,12 @@ _…and 188 more in data/jobs.json_
 | 46 | Open Government Products | [Principal / Lead Product Manager](https://www.linkedin.com/jobs/view/4470925408/) | Singapore, Singapore |  | 2026-10-19 |
 | 42 | Adyen | [Group Product Manager, APAC [Head of Products, APAC]](https://job-boards.greenhouse.io/adyen/jobs/8185942) | Singapore |  | 2026-09-18 |
 
-## India — 133 open
+## India — 135 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
 | 93 | ⭐ Google | [Global Product Lead, Support Tools, Global Business Applied AI, GTM](https://www.google.com/about/careers/applications/jobs/results/105449690824090310-global-product-lead-support-tools-global-business-applied-ai-gtm) | Hyderabad, Telangana, India |  | 2026-10-20 |
+| 89 | ⭐ Amazon | [Sr. Product Manager, Progression Intelligence](https://www.amazon.jobs/en/jobs/10588360/sr-product-manager-progression-intelligence) | Bengaluru, Karnataka, IND |  | 2026-10-26 |
 | 88 | ⭐ Amazon | [Sr. Technical Product Manager, Trust CX Innovations](https://www.amazon.jobs/en/jobs/10566206/sr-technical-product-manager-trust-cx-innovations) | Bengaluru, Karnataka, IND |  | 2026-10-01 |
 | 87 | ⭐ Amazon | [Senior Product Manager - Tech, Shipment Technologies](https://www.amazon.jobs/en/jobs/10584847/senior-product-manager-tech-shipment-technologies) | Hyderabad, Telangana, IND |  | 2026-10-21 |
 | 87 | ⭐ Atlassian | [Senior Product Manager - Forge (Developer Platform)](https://www.atlassian.com/company/careers/details/27274) | Bengaluru - India -   Bengaluru,  560071 India; Remote - Rem |  | 2026-10-20 |
@@ -300,35 +303,34 @@ _…and 188 more in data/jobs.json_
 | 79 | ⭐ Amazon | [Sr. Product Manager, Progression Intelligence](https://www.amazon.jobs/en/jobs/3193772/sr-product-manager-progression-intelligence) | Bengaluru, Karnataka, IND |  | 2026-03-03 |
 | 79 | ⭐ Google | [Product Manager, Geo, Google Maps, UGC Contributor Success](https://www.google.com/about/careers/applications/jobs/results/89061313245782726-product-manager-geo-google-maps-ugc-contributor-success) | Bengaluru, Karnataka, India |  | 2026-10-20 |
 | 79 | ⭐ Salesforce | [Senior Product Manager, Emerging Technology](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/New-York---New-York/Senior-Product-Manager--Emerging-Technology_JR355248) | New York - New York; Washington - Seattle; Indiana - Indiana |  | 2026-09-29 |
-| 78 | ⭐ Amazon | [Product Manager, Amazon Business India](https://www.amazon.jobs/en/jobs/10533854/product-manager-amazon-business-india) | Bengaluru, Karnataka, IND |  | 2026-09-09 |
 
-_…and 73 more in data/jobs.json_
+_…and 75 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
 | 1Password | ok | 91 | 6 |
-| Adobe | ok | 297 | 1 |
-| Adyen | ok | 248 | 11 |
+| Adobe | ok | 296 | 1 |
+| Adyen | ok | 247 | 11 |
 | Affirm | ok | 225 | 9 |
 | Agoda | ok | 314 | 7 |
-| Airbnb | ok | 190 | 0 |
-| Airwallex | ok | 510 | 9 |
-| Amazon | ok | 215 | 98 |
+| Airbnb | ok | 191 | 0 |
+| Airwallex | ok | 508 | 9 |
+| Amazon | ok | 215 | 99 |
 | Anthropic | ok | 682 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 109 | 4 |
-| Atlassian | ok | 352 | 5 |
+| Atlassian | ok | 351 | 5 |
 | Bitpanda | ok | 35 | 3 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 259 | 2 |
-| Canva | ok | 94 | 0 |
+| Canva | ok | 92 | 0 |
 | Celonis | ok | 219 | 4 |
-| Cloudflare | ok | 454 | 6 |
+| Cloudflare | ok | 455 | 6 |
 | Cohere | ok | 116 | 2 |
 | Cresta | ok | 87 | 1 |
-| Datadog | ok | 433 | 3 |
+| Datadog | ok | 429 | 3 |
 | Decagon | ok | 134 | 2 |
 | Deliveroo | ok | 206 | 9 |
 | Delivery Hero | ok | 600 | 5 |
@@ -337,9 +339,9 @@ _…and 73 more in data/jobs.json_
 | Ebury | ok | 144 | 4 |
 | Elastic | ok | 402 | 24 |
 | ElevenLabs | ok | 158 | 2 |
-| Expedia Group | ok | 68 | 5 |
+| Expedia Group | ok | 61 | 5 |
 | Fivetran | ok | 172 | 2 |
-| Genesys | ok | 198 | 2 |
+| Genesys | ok | 196 | 2 |
 | Geotab | ok | 68 | 5 |
 | GetYourGuide | ok | 74 | 6 |
 | GitLab | ok | 239 | 4 |
@@ -351,7 +353,7 @@ _…and 73 more in data/jobs.json_
 | JetBrains | ok | 47 | 2 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
-| LinkedIn | ok | 193 | 0 |
+| LinkedIn | ok | 194 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 81 | 4 |
 | Mastercard | ok | 400 | 12 |
@@ -364,38 +366,38 @@ _…and 73 more in data/jobs.json_
 | Monzo | ok | 72 | 4 |
 | N26 | ok | 39 | 5 |
 | Netflix | ok | 157 | 1 |
-| New Relic | ok | 55 | 1 |
-| Nium | ok | 19 | 2 |
-| Okta | ok | 390 | 13 |
-| OpenAI | ok | 793 | 0 |
+| New Relic | ok | 51 | 0 |
+| Nium | ok | 20 | 2 |
+| Okta | ok | 389 | 13 |
+| OpenAI | ok | 791 | 0 |
 | Oyster | ok | 23 | 2 |
 | Paddle | ok | 17 | 1 |
 | Parloa | ok | 54 | 2 |
 | PayPal | ok | 327 | 3 |
-| Payoneer | ok | 102 | 1 |
+| Payoneer | ok | 101 | 1 |
 | Pennylane | ok | 169 | 2 |
 | Qonto | ok | 41 | 2 |
-| Razorpay | ok | 25 | 1 |
+| Razorpay | ok | 27 | 1 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 148 | 1 |
+| Rubrik | ok | 150 | 1 |
 | Salesforce | ok | 400 | 3 |
 | Scale AI | ok | 171 | 5 |
 | ServiceNow | ok | 600 | 9 |
 | Shopee | ok |  |  |
-| Sierra | ok | 210 | 6 |
+| Sierra | ok | 211 | 6 |
 | Snyk | ok | 33 | 1 |
 | Spotify | ok | 90 | 13 |
-| Stripe | ok | 719 | 11 |
+| Stripe | ok | 720 | 11 |
 | SumUp | ok | 349 | 2 |
 | Synthesia | ok | 34 | 3 |
 | Tide | ok | 102 | 2 |
-| Toast | ok | 321 | 3 |
+| Toast | ok | 322 | 3 |
 | Trustpilot | ok | 48 | 6 |
-| Twilio | ok | 133 | 2 |
+| Twilio | ok | 134 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
-| Wealthsimple | ok | 43 | 3 |
-| Wise | ok | 421 | 14 |
+| Wealthsimple | ok | 42 | 3 |
+| Wise | ok | 420 | 14 |
 | Wolt | ok | 193 | 1 |
 | Xendit | ok | 26 | 2 |
 | Zalando | ok |  |  |
