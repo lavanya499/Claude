@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-10-26T00:14Z",
+"blocked_until": "2026-10-26T02:21Z",
 "health": {
-"calls": 1,
-"cards": 0,
+"calls": 11,
+"cards": 65,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 0,
+"new": 9,
 "rate_limited": true,
-"requests": 1,
-"window_min": 131
+"requests": 11,
+"window_min": 258
 },
 "jobs": {
 "3795113969": {
@@ -850,7 +850,6 @@
 },
 "4426845615": {
 "company": "Zendesk",
-"desc": "Job Description\n Zendesk builds AI powered, customizable and simple to use service software crafted to improve customer relationships. Many of the world’s favorite brands leverage our products to engage you as a customer. We lead the industry with beautifully simple software, and you’ve almost certainly interacted with it without knowing it! \n We’re looking for a Senior Product Manager to lead our Strategic Integrations and Connections capabilities which are used to connect, sync, and orchestrate across Zendesk and other systems. \n In this role will have significant direct interaction with customers, partners, and executive sponsors. You will collaborate closely with cross-functional teams; engineering, design, product marketing, sales, and tech alliances to build and launch solutions. This position is well suited to an individual who has experience building partnerships to launch joint solutions. You are excellent at building relationships with stakeholders both inside and outside the org chart. Success in this role will be driven by your ability to balance priorities, manage expectations, rapidly execute on initiatives that meet customer needs, operate across many geographical distributed stakeholders, and work productively with external partners. \n As a Senior Product Manager for Strategic Integrations and Connections you’ll…\n Be capable of working without direction or regular oversight. You’re already experienced in the discipline of product management and comfortable leading product delivery teams, making decisions, and reporting back to leadership. You know what needs to be done and you’re independent and self-driven enough to do it.\n Be a subject matter expert in your product area, and work with customers to further understand their needs and develop that expertise\n Be a strategic leader for this area, setting and articulating a vision and roadmap on which integrations to invest and divest. \n Work with Tech Alliances and partners to identify opportunities to grow partnerships and build solutions that create co-marketing moments and solve joint-customer’s problems\n Drive the direction of new capabilities and enhancements with engineering and design partners, ensuring that solutions built adequately capture the opportunity and solve the customer need. You don’t own the delivery, but you drive it. \n Where necessary, interact with executives to respond to customer escalations. Attend customer meetings with those executives and de-escalate situations through your calm and controlled demeanor, bringing a plan to resolve issues and build trust and confidence with customers and executives. \n Possess exceptional written and verbal communication, with the ability to, champion and shape organizational decisions using your words and influence.\n Define OKRs, success metrics and review performance against those. \n Basic Qualifications\n Bachelor’s Degree, with 5 years of Product Management experience under your belt, delivering products that met business goals.\n Your work experience will include customer-focused SaaS, designing and shipping “full-stack” from front-end, to back-end, and APIs.\n A great collaborator that knows that to deliver anything of value is a team effort and likes to dig in with intelligent and passionate engineers to find the best solution to a problem.\n Ability to understand complex systems, and balance appropriate tradeoffs between performance, cost, and user experience. \n A self-starter with a bias for action who is moti",
 "dup": true,
 "first_seen_at": "2026-10-23T00:56Z",
 "id": "4426845615",
@@ -8114,7 +8113,7 @@
 "id": "4473756397",
 "level": "senior",
 "location": "Copenhagen, Capital Region of Denmark, Denmark",
-"posted": "2026-10-23",
+"posted": "2026-10-26",
 "posted_ts": "2026-10-23T17:29Z",
 "regions": [
 "Europe"
@@ -14198,6 +14197,24 @@
 "url": "https://www.linkedin.com/jobs/view/4481403236/",
 "visa": ""
 },
+"4481403630": {
+"company": "Hilti France",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4481403630",
+"level": "unlevelled",
+"location": "Boulogne-Billancourt, Île-de-France, France",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T22:42Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4481403630/",
+"visa": ""
+},
 "4481408150": {
 "company": "Motive",
 "dup": false,
@@ -14232,6 +14249,25 @@
 "tier": 3,
 "title": "(Senior) Product Manager GenAI & KI-Agenten (m/w/d)",
 "url": "https://www.linkedin.com/jobs/view/4481408365/",
+"visa": ""
+},
+"4481418052": {
+"company": "TAL Australia",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4481418052",
+"level": "unlevelled",
+"location": "Sydney, New South Wales, Australia",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T23:42Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - AI and Emerging Technology",
+"url": "https://www.linkedin.com/jobs/view/4481418052/",
 "visa": ""
 },
 "4481603918": {
@@ -18840,6 +18876,42 @@
 "url": "https://www.linkedin.com/jobs/view/4482901223/",
 "visa": ""
 },
+"4482902576": {
+"company": "Latitude Financial Services",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4482902576",
+"level": "senior",
+"location": "Melbourne, Victoria, Australia",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T00:42Z",
+"regions": [
+"Australia"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager - Auto Loans",
+"url": "https://www.linkedin.com/jobs/view/4482902576/",
+"visa": ""
+},
+"4482911524": {
+"company": "MYER",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4482911524",
+"level": "senior",
+"location": "Melbourne, Victoria, Australia",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T01:18Z",
+"regions": [
+"Australia"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4482911524/",
+"visa": ""
+},
 "4483104467": {
 "company": "GemPool Recruitment",
 "dup": false,
@@ -19831,6 +19903,25 @@
 "url": "https://www.linkedin.com/jobs/view/4483396349/",
 "visa": ""
 },
+"4483396922": {
+"company": "Employment Hero",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4483396922",
+"level": "unlevelled",
+"location": "Sydney, New South Wales, Australia",
+"posted": "2026-10-25",
+"posted_ts": "2026-10-25T22:42Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner - Remote",
+"url": "https://www.linkedin.com/jobs/view/4483396922/",
+"visa": ""
+},
 "4483504508": {
 "company": "Ailin.health",
 "dup": false,
@@ -19884,10 +19975,82 @@
 "title": "Responsable produit - Product Owner finance",
 "url": "https://www.linkedin.com/jobs/view/4483507330/",
 "visa": ""
+},
+"4483508564": {
+"company": "mamgo | Talente 🔗 Jobs",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4483508564",
+"level": "unlevelled",
+"location": "Sindelfingen, Baden-Württemberg, Germany",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T00:42Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical IT Product Owner (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4483508564/",
+"visa": ""
+},
+"4483511453": {
+"company": "mamgo | Talente 🔗 Jobs",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4483511453",
+"level": "unlevelled",
+"location": "Starnberg, Bavaria, Germany",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T00:42Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner Customer Service (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4483511453/",
+"visa": ""
+},
+"4483514183": {
+"company": "mamgo | Talente 🔗 Jobs",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4483514183",
+"level": "unlevelled",
+"location": "Berlin, Berlin, Germany",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T00:41Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager (m/w/d) SAFe",
+"url": "https://www.linkedin.com/jobs/view/4483514183/",
+"visa": ""
+},
+"4483516077": {
+"company": "mamgo | Talente 🔗 Jobs",
+"dup": false,
+"first_seen_at": "2026-10-26T01:41Z",
+"id": "4483516077",
+"level": "senior",
+"location": "Munich, Bavaria, Germany",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T00:41Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Brand / Product Manager (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4483516077/",
+"visa": ""
 }
 },
 "last_block_ping": "2026-10-25T23:34Z",
 "last_rollup": "2026-10-25T16:19Z",
 "last_scan": "2026-10-25T21:43Z",
-"updated": "2026-10-25T23:34Z"
+"updated": "2026-10-26T01:41Z"
 }

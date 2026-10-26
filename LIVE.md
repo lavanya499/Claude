@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 26 Oct 05:04 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 26 Oct 07:11 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (6)
 
@@ -13,10 +13,19 @@ Updated 26 Oct 05:04 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 25 Oct 19:40 | Revolut | [Product Owner (UX)](https://www.linkedin.com/jobs/view/4370665361/) | Porto, Porto, Portugal | unlevelled | 78 |
 | 24 Oct 18:29 | Shopee | [Product Manager - Digital Products](https://www.linkedin.com/jobs/view/4342071464/) | Singapore, Singapore | unlevelled | 73 |
 
-## Everyone else, every level except junior (257)
+## Everyone else, every level except junior (266)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 26 Oct 06:48 | MYER | [Senior Product Manager](https://www.linkedin.com/jobs/view/4482911524/) | Melbourne, Victoria, Australia | senior | 70 |
+| 26 Oct 06:12 | mamgo / Talente 🔗 Jobs | [Technical IT Product Owner (m/w/d)](https://www.linkedin.com/jobs/view/4483508564/) | Sindelfingen, Baden-Württemberg, Germany | unlevelled | 54 |
+| 26 Oct 06:12 | mamgo / Talente 🔗 Jobs | [Product Owner Customer Service (m/w/d)](https://www.linkedin.com/jobs/view/4483511453/) | Starnberg, Bavaria, Germany | unlevelled | 58 |
+| 26 Oct 06:12 | Latitude Financial Services | [Senior Product Manager - Auto Loans](https://www.linkedin.com/jobs/view/4482902576/) | Melbourne, Victoria, Australia | senior | 70 |
+| 26 Oct 06:11 | mamgo / Talente 🔗 Jobs | [Product Manager (m/w/d) SAFe](https://www.linkedin.com/jobs/view/4483514183/) | Berlin, Berlin, Germany | unlevelled | 54 |
+| 26 Oct 06:11 | mamgo / Talente 🔗 Jobs | [Senior Brand / Product Manager (m/w/d)](https://www.linkedin.com/jobs/view/4483516077/) | Munich, Bavaria, Germany | senior | 70 |
+| 26 Oct 05:12 | TAL Australia | [Product Manager - AI and Emerging Technology](https://www.linkedin.com/jobs/view/4481418052/) | Sydney, New South Wales, Australia | unlevelled | 54 |
+| 26 Oct 04:12 | Hilti France | [Product Owner](https://www.linkedin.com/jobs/view/4481403630/) | Boulogne-Billancourt, Île-de-France, France | unlevelled | 54 |
+| 26 Oct 04:12 | Employment Hero | [Product Owner - Remote](https://www.linkedin.com/jobs/view/4483396922/) | Sydney, New South Wales, Australia | unlevelled | 54 |
 | 26 Oct 02:49 | Würth Deutschland | [(Senior) Product Manager GenAI & KI-Agenten (m/w/d)](https://www.linkedin.com/jobs/view/4481408365/) | Heilbronn, Baden-Württemberg, Germany | senior | 74 |
 | 26 Oct 02:16 | bangr | [Responsable produit - Product Owner finance](https://www.linkedin.com/jobs/view/4483507330/) | Yverdon, Vaud, Switzerland | unlevelled | 54 |
 | 26 Oct 01:16 | Ailin.health | [Head of Product](https://www.linkedin.com/jobs/view/4483504508/) | Madrid, Community of Madrid, Spain | stretch | 48 |
@@ -128,12 +137,3 @@ Updated 26 Oct 05:04 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 25 Oct 11:20 | FAMU National Alumni Association | [Product Manager](https://www.linkedin.com/jobs/view/4483358948/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
 | 25 Oct 10:23 | Coins.ph | [Principal Product Manager - Compliance / AML / Risk Platform](https://www.linkedin.com/jobs/view/4483371164/) | Singapore, Singapore | reach | 51 |
 | 25 Oct 09:21 | IDFC FIRST Bank | [Senior Digital Product Manager](https://www.linkedin.com/jobs/view/4481082219/) | Mumbai, Maharashtra, India | senior | 63 |
-| 25 Oct 09:21 | Azoma | [Product Manager, New Products](https://www.linkedin.com/jobs/view/4483349975/) | Canada | unlevelled | 51 |
-| 25 Oct 08:21 | Loto-Québec | [Chef(fe) de produit (Product Manager) de technologies marketing](https://www.linkedin.com/jobs/view/4483344964/) | Montreal, Quebec, Canada | unlevelled | 51 |
-| 25 Oct 07:22 | Claire Joster | [Product Manager](https://www.linkedin.com/jobs/view/4470511443/) | Greater Barcelona Metropolitan Area | unlevelled | 54 |
-| 25 Oct 06:51 | Hilti Group | [Product Owner](https://www.linkedin.com/jobs/view/4481066718/) | Boulogne-Billancourt, Île-de-France, France | unlevelled | 54 |
-| 25 Oct 06:22 | Techdome | [Product Manager (GenAI & Enterprise Software)](https://www.linkedin.com/jobs/view/4482674235/) | Hyderabad, Telangana, India | unlevelled | 51 |
-| 25 Oct 04:12 | Copeland | [Product Manager](https://www.linkedin.com/jobs/view/4481079144/) | Pune Division, Maharashtra, India | unlevelled | 47 |
-| 25 Oct 03:12 | andsafe | [Product Owner (m/w/d)](https://www.linkedin.com/jobs/view/4481058814/) | Münster, North Rhine-Westphalia, Germany | unlevelled | 54 |
-| 25 Oct 03:12 | Jean&Len | [Senior ERP Product Owner (m/w/d) - Microsoft Dynamics 365 Business Central](https://www.linkedin.com/jobs/view/4481066471/) | Cologne, North Rhine-Westphalia, Germany | senior | 70 |
-| 25 Oct 02:51 | ZEISS Group | [Senior Category & Product Manager - ZEISS Camera Lenses (m/w/x)](https://www.linkedin.com/jobs/view/4481071319/) | Ulm, Baden-Württemberg, Germany | senior | 70 |
