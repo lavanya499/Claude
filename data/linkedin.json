@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-10-26T20:25Z",
+"blocked_until": "2026-10-27T00:08Z",
 "health": {
-"calls": 16,
-"cards": 150,
+"calls": 13,
+"cards": 120,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 78,
+"new": 12,
 "rate_limited": true,
-"requests": 16,
-"window_min": 787
+"requests": 13,
+"window_min": 1010
 },
 "jobs": {
 "3795113969": {
@@ -3612,6 +3612,24 @@
 "url": "https://www.linkedin.com/jobs/view/4454784323/",
 "visa": ""
 },
+"4454830721": {
+"company": "Instacart",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4454830721",
+"level": "senior",
+"location": "Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T16:29Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager, Advertiser Experience",
+"url": "https://www.linkedin.com/jobs/view/4454830721/",
+"visa": ""
+},
 "4455397106": {
 "company": "Aditya Birla Capital",
 "dup": false,
@@ -6965,6 +6983,24 @@
 "url": "https://www.linkedin.com/jobs/view/4469190584/",
 "visa": ""
 },
+"4469673746": {
+"company": "Autodesk",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4469673746",
+"level": "senior",
+"location": "Ontario, Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T23:22Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager, AI/ML Platform",
+"url": "https://www.linkedin.com/jobs/view/4469673746/",
+"visa": ""
+},
 "4469676713": {
 "company": "Autodesk",
 "dup": false,
@@ -6999,6 +7035,24 @@
 "tier": 3,
 "title": "Principal Product Manager, PPL Technology",
 "url": "https://www.linkedin.com/jobs/view/4469684529/",
+"visa": ""
+},
+"4469687413": {
+"company": "Autodesk",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4469687413",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T17:29Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager, AI/ML Platform",
+"url": "https://www.linkedin.com/jobs/view/4469687413/",
 "visa": ""
 },
 "4469736840": {
@@ -10122,6 +10176,24 @@
 "url": "https://www.linkedin.com/jobs/view/4476317668/",
 "visa": ""
 },
+"4476367151": {
+"company": "Syndesus, Inc.",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4476367151",
+"level": "senior",
+"location": "Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T21:29Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Sr Product Manager, SaaS / AI (Remote)",
+"url": "https://www.linkedin.com/jobs/view/4476367151/",
+"visa": ""
+},
 "4476410835": {
 "company": "Aignostics",
 "dup": false,
@@ -10192,6 +10264,23 @@
 "tier": 3,
 "title": "Senior Product Manager - Global Discovery & Personalisation",
 "url": "https://www.linkedin.com/jobs/view/4477131530/",
+"visa": ""
+},
+"4477711507": {
+"company": "Boeing",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4477711507",
+"level": "reach",
+"location": "Richmond, British Columbia, Canada",
+"posted": "2026-10-26",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Lead OR Principal Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4477711507/",
 "visa": ""
 },
 "4477796277": {
@@ -16936,6 +17025,24 @@
 "url": "https://www.linkedin.com/jobs/view/4481778413/",
 "visa": ""
 },
+"4481804954": {
+"company": "eBay",
+"dup": true,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4481804954",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T22:56Z",
+"regions": [
+"Canada"
+],
+"score": 80,
+"tier": 2,
+"title": "Senior Product Manager, Ad Audiences",
+"url": "https://www.linkedin.com/jobs/view/4481804954/",
+"visa": ""
+},
 "4481900546": {
 "company": "Labtician Ophthalmics Inc.",
 "dup": false,
@@ -21089,6 +21196,24 @@
 "url": "https://www.linkedin.com/jobs/view/4482975207/",
 "visa": ""
 },
+"4482991696": {
+"company": "Pontosense",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4482991696",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T14:29Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Product Lead",
+"url": "https://www.linkedin.com/jobs/view/4482991696/",
+"visa": ""
+},
 "4482996314": {
 "alerted": true,
 "company": "Google",
@@ -23400,6 +23525,24 @@
 "url": "https://www.linkedin.com/jobs/view/4483586318/",
 "visa": ""
 },
+"4483586417": {
+"company": "Loto-Québec",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4483586417",
+"level": "unlevelled",
+"location": "Montreal, Quebec, Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T17:29Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Chef(fe) de produit (Product Manager) de technologies marketing",
+"url": "https://www.linkedin.com/jobs/view/4483586417/",
+"visa": ""
+},
 "4483586948": {
 "company": "Ecolab",
 "dup": false,
@@ -23526,6 +23669,24 @@
 "url": "https://www.linkedin.com/jobs/view/4483715257/",
 "visa": ""
 },
+"4483729486": {
+"company": "Warner Music Group",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4483729486",
+"level": "unlevelled",
+"location": "Ontario, Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T22:29Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4483729486/",
+"visa": ""
+},
 "4483732022": {
 "company": "Fluke Corporation",
 "dup": false,
@@ -23543,10 +23704,65 @@
 "title": "Senior Product Manager – Certification & Analysis Software",
 "url": "https://www.linkedin.com/jobs/view/4483732022/",
 "visa": ""
+},
+"4483738811": {
+"company": "Bureau of Meteorology",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4483738811",
+"level": "senior",
+"location": "Melbourne, Victoria, Australia",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T22:28Z",
+"regions": [
+"Australia"
+],
+"score": 70,
+"tier": 3,
+"title": "Digital Product Lead",
+"url": "https://www.linkedin.com/jobs/view/4483738811/",
+"visa": ""
+},
+"4483758374": {
+"company": "Newforma",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4483758374",
+"level": "unlevelled",
+"location": "Montreal, Quebec, Canada",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T23:05Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4483758374/",
+"visa": ""
+},
+"4483764537": {
+"company": "Parity Consulting",
+"dup": false,
+"first_seen_at": "2026-10-26T23:28Z",
+"id": "4483764537",
+"level": "unlevelled",
+"location": "Sydney, New South Wales, Australia",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T23:27Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager, Home Lending",
+"url": "https://www.linkedin.com/jobs/view/4483764537/",
+"visa": ""
 }
 },
-"last_block_ping": "2026-10-26T13:58Z",
+"last_block_ping": "2026-10-26T23:28Z",
 "last_rollup": "2026-10-26T13:58Z",
 "last_scan": "2026-10-26T06:58Z",
-"updated": "2026-10-26T19:45Z"
+"updated": "2026-10-26T23:28Z"
 }
