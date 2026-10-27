@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 27 Oct 04:58 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 27 Oct 07:48 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (7)
 
@@ -14,16 +14,19 @@ Updated 27 Oct 04:58 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 25 Oct 19:40 | Revolut | [Product Owner (Technical)](https://www.linkedin.com/jobs/view/3795113969/) | Portugal | unlevelled | 67 |
 | 25 Oct 19:40 | Revolut | [Product Owner (UX)](https://www.linkedin.com/jobs/view/4370665361/) | Porto, Porto, Portugal | unlevelled | 78 |
 
-## Everyone else, every level except junior (323)
+## Everyone else, every level except junior (321)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
 | ~27 Oct 04:58 | Boeing | [Lead OR Principal Product Manager](https://www.linkedin.com/jobs/view/4477711507/) | Richmond, British Columbia, Canada | reach | 51 |
 | 27 Oct 04:57 | Parity Consulting | [Product Manager, Home Lending](https://www.linkedin.com/jobs/view/4483764537/) | Sydney, New South Wales, Australia | unlevelled | 54 |
 | 27 Oct 04:52 | Autodesk | [Senior Product Manager, AI/ML Platform](https://www.linkedin.com/jobs/view/4469673746/) | Ontario, Canada | senior | 67 |
+| 27 Oct 04:49 | Photoroom | [Senior Product Manager, Core Product](https://www.linkedin.com/jobs/view/4483741871/) | Paris, Île-de-France, France | senior | 70 |
+| 27 Oct 04:49 | Photoroom | [Staff Product Manager, Agentic & AI Platform](https://www.linkedin.com/jobs/view/4483746797/) | Paris, Île-de-France, France | reach | 58 |
 | 27 Oct 04:35 | Newforma | [Product Manager](https://www.linkedin.com/jobs/view/4483758374/) | Montreal, Quebec, Canada | unlevelled | 51 |
 | 27 Oct 03:59 | Warner Music Group | [Product Manager](https://www.linkedin.com/jobs/view/4483729486/) | Ontario, Canada | unlevelled | 51 |
 | 27 Oct 03:58 | Bureau of Meteorology | [Digital Product Lead](https://www.linkedin.com/jobs/view/4483738811/) | Melbourne, Victoria, Australia | senior | 70 |
+| 27 Oct 03:49 | Tinubu | [Platform Product Manager H/F](https://www.linkedin.com/jobs/view/4483257721/) | Issy-les-Moulineaux, Île-de-France, France | unlevelled | 54 |
 | 27 Oct 02:59 | Syndesus, Inc. | [Sr Product Manager, SaaS / AI (Remote)](https://www.linkedin.com/jobs/view/4476367151/) | Canada | senior | 67 |
 | 27 Oct 00:16 | pony | [Senior Product Manager](https://www.linkedin.com/jobs/view/4483227967/) | Bordeaux, Nouvelle-Aquitaine, France | senior | 70 |
 | 27 Oct 00:16 | Air Apps | [AI Product Manager](https://www.linkedin.com/jobs/view/4483230714/) | Lisbon, Lisbon, Portugal | unlevelled | 54 |
@@ -135,6 +138,3 @@ Updated 27 Oct 04:58 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 26 Oct 15:29 | ACO Nederland | [Product Manager Civiel en Bouw](https://www.linkedin.com/jobs/view/4483530881/) | Doetinchem, Gelderland, Netherlands | unlevelled | 54 |
 | 26 Oct 15:28 | Micron Technology | [Staff Product Manager, Finance Transformation](https://www.linkedin.com/jobs/view/4437991837/) | Batu Kawan, Penang, Malaysia | reach | 54 |
 | 26 Oct 15:28 | Xionex | [Lead Product Manager Trade Finance](https://www.linkedin.com/jobs/view/4482932779/) | Greater Kuala Lumpur | senior | 70 |
-| 26 Oct 15:16 | Theodo | [Product Manager - CDI Paris - Theodo AI-Modernisation](https://www.linkedin.com/jobs/view/4379274535/) | Greater Paris Metropolitan Region | unlevelled | 54 |
-| 26 Oct 15:16 | Theodo | [Senior Product Manager - CDI Paris - Theodo](https://www.linkedin.com/jobs/view/4434460279/) | Greater Paris Metropolitan Region | senior | 70 |
-| 26 Oct 15:16 | Singtel | [Product Manager](https://www.linkedin.com/jobs/view/4458115035/) | Singapore, Singapore | unlevelled | 51 |

@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-10-27T00:08Z",
+"blocked_until": "2026-10-27T02:58Z",
 "health": {
-"calls": 13,
-"cards": 120,
+"calls": 4,
+"cards": 30,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 12,
+"new": 3,
 "rate_limited": true,
-"requests": 13,
-"window_min": 1010
+"requests": 4,
+"window_min": 1180
 },
 "jobs": {
 "3795113969": {
@@ -21883,6 +21883,24 @@
 "url": "https://www.linkedin.com/jobs/view/4483247293/",
 "visa": ""
 },
+"4483257721": {
+"company": "Tinubu",
+"dup": false,
+"first_seen_at": "2026-10-27T02:18Z",
+"id": "4483257721",
+"level": "unlevelled",
+"location": "Issy-les-Moulineaux, Île-de-France, France",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T22:19Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Platform Product Manager H/F",
+"url": "https://www.linkedin.com/jobs/view/4483257721/",
+"visa": ""
+},
 "4483309428": {
 "company": "Thales",
 "dup": false,
@@ -23723,6 +23741,42 @@
 "url": "https://www.linkedin.com/jobs/view/4483738811/",
 "visa": ""
 },
+"4483741871": {
+"company": "Photoroom",
+"dup": false,
+"first_seen_at": "2026-10-27T02:18Z",
+"id": "4483741871",
+"level": "senior",
+"location": "Paris, Île-de-France, France",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T23:19Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager, Core Product",
+"url": "https://www.linkedin.com/jobs/view/4483741871/",
+"visa": ""
+},
+"4483746797": {
+"company": "Photoroom",
+"dup": false,
+"first_seen_at": "2026-10-27T02:18Z",
+"id": "4483746797",
+"level": "reach",
+"location": "Paris, Île-de-France, France",
+"posted": "2026-10-26",
+"posted_ts": "2026-10-26T23:19Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Staff Product Manager, Agentic & AI Platform",
+"url": "https://www.linkedin.com/jobs/view/4483746797/",
+"visa": ""
+},
 "4483758374": {
 "company": "Newforma",
 "dup": false,
@@ -23762,7 +23816,7 @@
 }
 },
 "last_block_ping": "2026-10-26T23:28Z",
-"last_rollup": "2026-10-26T13:58Z",
+"last_rollup": "2026-10-27T02:18Z",
 "last_scan": "2026-10-26T06:58Z",
-"updated": "2026-10-26T23:28Z"
+"updated": "2026-10-27T02:18Z"
 }
