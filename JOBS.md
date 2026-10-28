@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-28 13:05 UTC · 664 open matches · 23 new in the last 24h · 97/98 sources healthy_
+_Updated 2026-10-28 18:53 UTC · 675 open matches · 30 new in the last 24h · 96/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -11,28 +11,35 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 96 | ⭐ Google | [Senior Product Manager, Eval Quality, AI Data](https://www.google.com/about/careers/applications/jobs/results/81517706506838726-senior-product-manager-eval-quality-ai-data) | London, UK |  | 2026-10-27 |
 | 95 | ⭐ Google | [Product Manager, Web Builder Tooling Experience](https://www.google.com/about/careers/applications/jobs/results/132436158708622022-product-manager-web-builder-tooling-experience) | Munich, Germany |  | 2026-10-28 |
 | 89 | ⭐ Amazon | [Sr Product Manager, Listings, EM SX](https://www.amazon.jobs/en/jobs/10590851/sr-product-manager-listings-em-sx) | Bengaluru, Karnataka, IND |  | 2026-10-28 |
+| 89 | Intercom | [Senior Forward Deployed Product Manager (Dublin)](https://job-boards.greenhouse.io/intercom/jobs/8327865) | Dublin, Ireland |  | 2026-10-28 |
+| 89 | Mastercard | [Lead Technical Product Manager](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dublin-Ireland/Lead-Technical-Product-Manager_R-286709) | Dublin, Ireland |  | 2026-10-28 |
+| 89 | Pennylane | [Senior Product Manager AI -  — Studio Builder](https://jobs.ashbyhq.com/pennylane/c76653dc-805a-4406-9022-bb589bf3972c) | France; Germany (remote); Spain; France, Metropolitan; Remot |  | 2026-10-28 |
 | 89 | ⭐ Salesforce | [Product Manager / Sr. Product Manager - Mulesoft](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Product-Manager---Commerce-Platform--Hyderabad-_JR321301) | India - Bangalore; India - Hyderabad |  | 2026-10-27 |
 | 89 | ⭐ Salesforce | [Product Manager Senior Specialist](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Product-Manager-Senior-Specialist_JR365929-1) | India - Hyderabad; India - Bangalore |  | 2026-10-28 |
 | 89 | Wise | [Senior Product Manager - Wise Platform - Fincrime](https://jobs.smartrecruiters.com/Wise/744000158116172) | London, , United Kingdom |  | 2026-10-27 |
+| 88 | Doctolib | [Technical Product Manager - Production Data Storage (x/f/m)](https://job-boards.greenhouse.io/doctolib/jobs/8026502003) | Paris, Paris, France | ✅ sponsor/relocation | 2026-10-28 |
 | 87 | ⭐ Amazon | [Sr. Product Manager Tech, IN Prime](https://www.amazon.jobs/en/jobs/10589604/sr-product-manager-tech-in-prime) | Bengaluru, Karnataka, IND |  | 2026-10-27 |
 | 87 | Ebury | [Senior FX Product Manager - Hedging Conversion](https://job-boards.eu.greenhouse.io/ebury/jobs/5017203101) | London |  | 2026-10-27 |
 | 87 | Ebury | [Senior FX Product Manager - Hedging Conversion](https://job-boards.eu.greenhouse.io/ebury/jobs/5017220101) | Madrid |  | 2026-10-27 |
 | 87 | Expedia Group | [Product Manager III](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Product-Manager-III_R-109923) | India - Gurgaon |  | 2026-10-27 |
 | 84 | Delivery Hero | [Product Manager - (Logistics, Service Automations)](https://jobs.smartrecruiters.com/DeliveryHero/744000158019110) | Berlin, , Germany |  | 2026-10-27 |
+| 83 | ⭐ Microsoft | [Senior Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557040071) | India, Telangana, Hyderabad |  | 2026-10-28 |
 | 80 | Expedia Group | [Senior Product Manager](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Senior-Product-Manager_R-108701) | India - Gurgaon |  | 2026-10-27 |
 | 79 | Intercom | [Senior Forward Deployed Product Manager ](https://job-boards.greenhouse.io/intercom/jobs/7179952) | Dublin, Ireland |  | 2025-08-20 |
 | 78 | Ebury | [Product Manager - Money Flows](https://job-boards.eu.greenhouse.io/ebury/jobs/5017527101) | Madrid |  | 2026-10-27 |
 | 74 | ⭐ Microsoft | [Principal Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557046152) | Czech Republic, Prague, Prague |  | 2026-10-27 |
+| 73 | Deliveroo | [Product Manager, Pricing](https://job-boards.greenhouse.io/deliveroo/jobs/8330743) | London, United Kingdom - Deliveroo |  | 2026-10-28 |
 | 72 | SumUp | [Senior Product Manager - Customer Directory](https://sumup.com/careers/positions/8907452002?gh_jid=8907452002) | Warsaw, Poland |  | 2026-10-27 |
+| 67 | ⭐ Stripe | [Staff Product Manager, Risk](https://stripe.com/jobs/search?gh_jid=8040052) | Toronto, Canada |  | 2026-07-02 |
 | 66 | Mastercard | [Consumer Credit Analytics – Global Product Manager - Specialist](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Gurgaon-India/Consumer-Credit-Analytics---Global-Product-Manager---Specialist_R-280794-1) | Gurgaon, India |  | 2026-10-28 |
 | 66 | Visa | [Technical Product Manager](https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Technical-Product-Manager_REF087589W) | IN - Bengaluru, India |  | 2026-10-27 |
 | 61 | ⭐ Adobe | [Principal Product Manager - Firefly UI (Image/Video)](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Senior-Product-Manager_R167941) | Noida; Bangalore |  | 2026-10-28 |
 | 61 | ⭐ Microsoft | [Product Manager -II](https://apply.careers.microsoft.com/careers/job/1970393557038894) | India, Telangana, Hyderabad |  | 2026-10-13 |
-| 60 | Tide | [Head of Product, Credit Outcome](https://job-boards.greenhouse.io/tide/jobs/8047177003) | India, Delhi NCR |  | 2026-10-28 |
 | 60 | Tide | [Head of Product, Credit Outcome](https://job-boards.greenhouse.io/tide/jobs/8047176003) | India, Bengaluru |  | 2026-10-28 |
+| 60 | Tide | [Head of Product, Credit Outcome](https://job-boards.greenhouse.io/tide/jobs/8047177003) | India, Delhi NCR |  | 2026-10-28 |
 | 57 | ⭐ Microsoft | [Principal Product Manager](https://apply.careers.microsoft.com/careers/job/1970393556997831) | India, Telangana, Hyderabad; India, Karnataka, Bangalore |  | 2026-09-17 |
 
-## UK — 151 open
+## UK — 152 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -97,9 +104,9 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 77 | Trustpilot | [Senior Product Manager](https://corporate.trustpilot.com/careers/job/8249150?gh_jid=8249150) | Edinburgh |  | 2026-10-02 |
 | 76 | hims & hers | [Sr. Product Manager](https://www.linkedin.com/jobs/view/4473581089/) | London, England, United Kingdom |  | 2026-10-21 |
 
-_…and 91 more in data/jobs.json_
+_…and 92 more in data/jobs.json_
 
-## Europe — 241 open
+## Europe — 245 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -117,8 +124,12 @@ _…and 91 more in data/jobs.json_
 | 90 | ⭐ JetBrains | [Senior Product Manager – JetBrains Air (Agentic Development in IDEs)](https://job-boards.eu.greenhouse.io/jetbrains/jobs/5005323101) | Amsterdam, Netherlands |  | 2026-10-20 |
 | 89 | Doctolib | [Lead Product Manager - Patient Data Collection (x/f/m)](https://job-boards.greenhouse.io/doctolib/jobs/7988004003) | Paris, Paris, France | ✅ sponsor/relocation | 2026-09-10 |
 | 89 | Doctolib | [Senior Product Manager - Product Led Growth- Paris (x/f/m)](https://job-boards.greenhouse.io/doctolib/jobs/7996931003) | Paris, Paris, France | ✅ sponsor/relocation | 2026-09-17 |
+| 89 | Intercom | [Senior Forward Deployed Product Manager (Dublin)](https://job-boards.greenhouse.io/intercom/jobs/8327865) | Dublin, Ireland |  | 2026-10-28 |
+| 89 | Mastercard | [Lead Technical Product Manager](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dublin-Ireland/Lead-Technical-Product-Manager_R-286709) | Dublin, Ireland |  | 2026-10-28 |
 | 89 | ⭐ MongoDB | [Senior Product Manager](https://www.mongodb.com/careers/job/?gh_jid=7113803) | Dublin; Ireland |  | 2026-01-23 |
+| 89 | Pennylane | [Senior Product Manager AI -  — Studio Builder](https://jobs.ashbyhq.com/pennylane/c76653dc-805a-4406-9022-bb589bf3972c) | France; Germany (remote); Spain; France, Metropolitan; Remot |  | 2026-10-28 |
 | 88 | Adyen | [Senior Product Manager - Data, Machine Learning & GenAI Platform](https://job-boards.greenhouse.io/adyen/jobs/8164042) | Amsterdam |  | 2026-09-11 |
+| 88 | Doctolib | [Technical Product Manager - Production Data Storage (x/f/m)](https://job-boards.greenhouse.io/doctolib/jobs/8026502003) | Paris, Paris, France | ✅ sponsor/relocation | 2026-10-28 |
 | 87 | Bitpanda | [Lead Technical Product Manager, Protocol (Vision Chain)](https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009827101) | Vienna, Vienna, Austria |  | 2026-10-22 |
 | 87 | Ebury | [Senior FX Product Manager - Hedging Conversion](https://job-boards.eu.greenhouse.io/ebury/jobs/5017220101) | Madrid |  | 2026-10-27 |
 | 86 | ⭐ Amazon | [Senior Product Manager (Technical), Intelligent Cloud Hosting (ICON)](https://www.amazon.jobs/en/jobs/10576533/senior-product-manager-technical-intelligent-cloud-hosting-icon) | Dublin, IRL |  | 2026-10-12 |
@@ -159,12 +170,8 @@ _…and 91 more in data/jobs.json_
 | 79 | GetYourGuide | [Lead Product Manager, Paid Search Tech (Data Products)](https://job-boards.greenhouse.io/getyourguide/jobs/7657103) | Berlin |  | 2026-03-12 |
 | 79 | Intercom | [Senior Forward Deployed Product Manager ](https://job-boards.greenhouse.io/intercom/jobs/7179952) | Dublin, Ireland |  | 2025-08-20 |
 | 79 | N26 | [Lead Technical Product Manager — Machine Learning Platform](https://n26.com/en-eu/careers/positions/8267143?gh_jid=8267143) | Berlin |  | 2026-10-09 |
-| 79 | N26 | [Lead Technical Product Manager — Machine Learning Platform](https://n26.com/en-eu/careers/positions/8268322?gh_jid=8268322) | Barcelona |  | 2026-10-09 |
-| 79 | SumUp | [Senior Product Manager - SuperApp](https://sumup.com/careers/positions/8602383002?gh_jid=8602383002) | Berlin, Germany |  | 2026-06-30 |
-| 79 | Toast | [Senior Product Manager, Team Management](https://careers.toasttab.com/jobs?gh_jid=8258222) | Dublin |  | 2026-10-16 |
-| 79 | Wise | [Senior Product Manager - Mitigation Platform](https://jobs.smartrecruiters.com/Wise/744000155174327) | Budapest, , Hungary |  | 2026-10-13 |
 
-_…and 181 more in data/jobs.json_
+_…and 185 more in data/jobs.json_
 
 ## Australia — 4 open
 
@@ -259,7 +266,7 @@ _…and 181 more in data/jobs.json_
 | 41 | Crypto.com | [Senior/Principal Product Manager, User Onboarding & Growth (Crypto.com App)](https://www.linkedin.com/jobs/view/4470886095/) | Singapore |  | 2026-10-20 |
 | 41 | Open Government Products | [Principal / Lead Product Manager](https://www.linkedin.com/jobs/view/4470925408/) | Singapore, Singapore |  | 2026-10-19 |
 
-## India — 137 open
+## India — 142 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -286,6 +293,7 @@ _…and 181 more in data/jobs.json_
 | 83 | ⭐ Amazon | [Senior Product Manager - Tech, Global Transportation Technology Services](https://www.amazon.jobs/en/jobs/10504416/senior-product-manager-tech-global-transportation-technology-services) | Hyderabad, Telangana, IND |  | 2026-08-18 |
 | 83 | ⭐ Amazon | [Product Manager-Tech III, Finance Automation](https://www.amazon.jobs/en/jobs/10538234/product-manager-tech-iii-finance-automation) | Bengaluru, Karnataka, IND |  | 2026-09-12 |
 | 83 | ⭐ Amazon | [Senior Product Manager, Service Delivery Standard Work](https://www.amazon.jobs/en/jobs/10556408/senior-product-manager-service-delivery-standard-work) | Hyderabad, Telangana, IND |  | 2026-09-22 |
+| 83 | ⭐ Microsoft | [Senior Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557040071) | India, Telangana, Hyderabad |  | 2026-10-28 |
 | 82 | ⭐ Atlassian | [Senior Product Manager - Forge (Developer Platform)](https://www.atlassian.com/company/careers/details/27274) | Bengaluru - India -   Bengaluru,  560071 India; Remote - Rem |  | 2026-10-20 |
 | 82 | Expedia Group | [Senior Product Manager](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Senior-Product-Manager_R-109911) | India - Gurgaon |  | 2026-10-28 |
 | 82 | Mastercard | [Lead Product Manager- Technical](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Product-Manager--Technical_R-291502) | Pune, India |  | 2026-10-26 |
@@ -322,111 +330,110 @@ _…and 181 more in data/jobs.json_
 | 79 | ⭐ Amazon | [Senior Product Manager, Associate Satisfaction](https://www.amazon.jobs/en/jobs/10582807/senior-product-manager-associate-satisfaction) | Hyderabad, Telangana, IND |  | 2026-10-19 |
 | 79 | ⭐ Google | [Senior Product Manager, Geo Local Data Next Billion Users](https://www.google.com/about/careers/applications/jobs/results/76482805734744774-senior-product-manager-geo-local-data-next-billion-users) | Bengaluru, Karnataka, India |  | 2026-10-20 |
 | 79 | ⭐ Salesforce | [Senior Product Manager, Emerging Technology](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/New-York---New-York/Senior-Product-Manager--Emerging-Technology_JR355248) | New York - New York; Washington - Seattle; Indiana - Indiana |  | 2026-09-29 |
-| 78 | ⭐ Amazon | [Product Manager, Amazon Business India](https://www.amazon.jobs/en/jobs/10533854/product-manager-amazon-business-india) | Bengaluru, Karnataka, IND |  | 2026-09-09 |
 
-_…and 77 more in data/jobs.json_
+_…and 82 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 88 | 6 |
+| 1Password | ok | 87 | 6 |
 | Adobe | ok | 281 | 2 |
-| Adyen | ok | 244 | 12 |
-| Affirm | ok | 241 | 9 |
-| Agoda | ok | 311 | 6 |
-| Airbnb | ok | 196 | 0 |
-| Airwallex | ok | 506 | 10 |
-| Amazon | ok | 198 | 84 |
-| Anthropic | ok | 681 | 0 |
+| Adyen | ok | 241 | 10 |
+| Affirm | ok | 243 | 9 |
+| Agoda | ok | 313 | 6 |
+| Airbnb | ok | 194 | 0 |
+| Airwallex | ok | 505 | 10 |
+| Amazon | ok | 196 | 84 |
+| Anthropic | ok | 678 | 0 |
 | Apple | ok |  |  |
-| Asana | ok | 113 | 4 |
-| Atlassian | ok | 372 | 5 |
+| Asana | ok | 111 | 4 |
+| Atlassian | ok | 374 | 5 |
 | Bitpanda | ok | 34 | 2 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
-| Brex | ok | 261 | 2 |
+| Brex | ok | 262 | 2 |
 | Canva | ok | 70 | 0 |
-| Celonis | ok | 226 | 4 |
+| Celonis | ok | 225 | 4 |
 | Cloudflare | ok | 459 | 6 |
 | Cohere | ok | 118 | 2 |
-| Cresta | ok | 88 | 1 |
-| Datadog | ok | 410 | 2 |
-| Decagon | ok | 132 | 2 |
-| Deliveroo | ok | 205 | 9 |
+| Cresta | ok | 87 | 1 |
+| Datadog | ok | 393 | 2 |
+| Decagon | ok | 133 | 2 |
+| Deliveroo | ok | 211 | 10 |
 | Delivery Hero | ok | 600 | 7 |
 | Deputy | ok | 6 | 1 |
-| Doctolib | ok | 147 | 3 |
-| Ebury | ok | 145 | 6 |
-| Elastic | ok | 406 | 24 |
-| ElevenLabs | ok | 153 | 1 |
-| Expedia Group | ok | 61 | 9 |
-| Fivetran | ok | 160 | 2 |
-| Genesys | ok | 194 | 2 |
-| Geotab | ok | 66 | 5 |
+| Doctolib | ok | 146 | 4 |
+| Ebury | ok | 148 | 6 |
+| Elastic | ok | 408 | 24 |
+| ElevenLabs | ok | 156 | 1 |
+| Expedia Group | ok | 63 | 9 |
+| Fivetran | ok | 162 | 2 |
+| Genesys | ok | 189 | 2 |
+| Geotab | ok | 61 | 5 |
 | GetYourGuide | ok | 72 | 6 |
-| GitLab | ok | 237 | 4 |
+| GitLab | ok | 235 | 4 |
 | GoCardless | ok | 23 | 0 |
 | Google | ok | 73 | 17 |
 | Grab | ok | 430 | 8 |
-| Grafana Labs | ok | 133 | 6 |
-| Intercom | ok | 101 | 6 |
+| Grafana Labs | ok | 131 | 6 |
+| Intercom | ok | 103 | 6 |
 | JetBrains | ok | 46 | 3 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
-| LinkedIn | ok | 195 | 0 |
+| LinkedIn | ok | 191 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 82 | 4 |
-| Mastercard | ok | 400 | 10 |
-| Meesho | ok | 53 | 3 |
+| Mastercard | ok | 400 | 11 |
+| Meesho | ok | 52 | 3 |
 | Mentimeter | ok | 17 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 93 | 8 |
+| Microsoft | ok | 90 | 9 |
 | Moneybox | ok | 16 | 1 |
-| MongoDB | ok | 363 | 6 |
-| Monzo | ok | 67 | 4 |
+| MongoDB | ok | 367 | 6 |
+| Monzo | ok | 68 | 4 |
 | N26 | ok | 32 | 2 |
-| Netflix | ok | 162 | 1 |
-| New Relic | ok | 49 | 0 |
+| Netflix | ⚠️ HTTPError: HTTP Error 429: TOO MANY REQUESTS |  |  |
+| New Relic | ok | 50 | 0 |
 | Nium | ok | 21 | 2 |
-| Okta | ok | 385 | 11 |
-| OpenAI | ok | 805 | 0 |
+| Okta | ok | 384 | 11 |
+| OpenAI | ok | 808 | 0 |
 | Oyster | ok | 22 | 2 |
 | Paddle | ok | 17 | 1 |
-| Parloa | ok | 51 | 1 |
-| PayPal | ok | 325 | 1 |
+| Parloa | ok | 49 | 1 |
+| PayPal | ok | 328 | 1 |
 | Payoneer | ok | 105 | 1 |
-| Pennylane | ok | 170 | 2 |
-| Qonto | ok | 43 | 3 |
-| Razorpay | ok | 25 | 1 |
+| Pennylane | ok | 171 | 3 |
+| Qonto | ok | 44 | 3 |
+| Razorpay | ok | 24 | 1 |
 | Revolut | ok |  |  |
 | Rubrik | ok | 151 | 1 |
-| Salesforce | ok | 400 | 5 |
-| Scale AI | ok | 169 | 5 |
+| Salesforce | ok | 400 | 4 |
+| Scale AI | ok | 170 | 5 |
 | ServiceNow | ok | 600 | 7 |
 | Shopee | ok |  |  |
 | Sierra | ok | 213 | 6 |
-| Snyk | ok | 35 | 1 |
+| Snyk | ok | 37 | 1 |
 | Spotify | ok | 89 | 12 |
-| Stripe | ok | 715 | 11 |
-| SumUp | ok | 344 | 3 |
+| Stripe | ok | 720 | 12 |
+| SumUp | ok | 349 | 3 |
 | Synthesia | ok | 36 | 3 |
 | Tide | ok | 105 | 4 |
-| Toast | ok | 339 | 4 |
-| Trustpilot | ok | 44 | 6 |
+| Toast | ok | 343 | 4 |
+| Trustpilot | ok | 45 | 6 |
 | Twilio | ok | 132 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
 | Wealthsimple | ok | 41 | 2 |
-| Wise | ok | 404 | 15 |
-| Wolt | ok | 193 | 1 |
+| Wise | ok | 405 | 15 |
+| Wolt | ok | 196 | 1 |
 | Xendit | ok | 21 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 37 | 10 |
-| Zendesk | ok | 126 | 2 |
+| Zendesk | ok | 125 | 2 |
 | Zip | ok | 110 | 2 |
-| Zscaler | ok | 354 | 1 |
-| eBay | ok | 186 | 13 |
-| loveholidays | ok | 18 | 3 |
-| n8n | ok | 38 | 3 |
+| Zscaler | ok | 353 | 1 |
+| eBay | ok | 187 | 13 |
+| loveholidays | ok | 17 | 3 |
+| n8n | ok | 40 | 3 |
 
 </details>
