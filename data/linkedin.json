@@ -1,11 +1,14 @@
 {
+"blocked_until": "2026-10-28T09:05Z",
 "health": {
-"calls": 30,
-"cards": 197,
-"errors": 0,
-"new": 37,
-"requests": 30,
-"window_min": 201
+"calls": 4,
+"cards": 30,
+"errors": 1,
+"last_error": "HTTPError: HTTP Error 429: Too Many Requests",
+"new": 10,
+"rate_limited": true,
+"requests": 4,
+"window_min": 394
 },
 "jobs": {
 "3795113969": {
@@ -11150,7 +11153,7 @@
 "id": "4475767904",
 "level": "senior",
 "location": "Paris, Île-de-France, France",
-"posted": "2026-10-22",
+"posted": "2026-10-28",
 "posted_ts": "2026-10-22T17:30Z",
 "regions": [
 "Europe"
@@ -20556,6 +20559,60 @@
 "url": "https://www.linkedin.com/jobs/view/4482269103/",
 "visa": ""
 },
+"4482271564": {
+"company": "Hilti Group",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4482271564",
+"level": "unlevelled",
+"location": "Boulogne-Billancourt, Île-de-France, France",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T04:26Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner (Data & AI)",
+"url": "https://www.linkedin.com/jobs/view/4482271564/",
+"visa": ""
+},
+"4482273609": {
+"company": "Free-Work",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4482273609",
+"level": "unlevelled",
+"location": "Paris, Île-de-France, France",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T05:26Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product owner refinancement bancaire H/F",
+"url": "https://www.linkedin.com/jobs/view/4482273609/",
+"visa": ""
+},
+"4482281399": {
+"company": "CAS Training",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4482281399",
+"level": "unlevelled",
+"location": "Madrid, Community of Madrid, Spain",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T06:26Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner – Integraciones y Arquitectura Cloud",
+"url": "https://www.linkedin.com/jobs/view/4482281399/",
+"visa": ""
+},
 "4482350123": {
 "company": "Komforce",
 "dup": false,
@@ -27761,6 +27818,60 @@
 "url": "https://www.linkedin.com/jobs/view/4483835216/",
 "visa": ""
 },
+"4483851651": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4483851651",
+"level": "senior",
+"location": "France",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T08:24Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager (Finance and Account Management)",
+"url": "https://www.linkedin.com/jobs/view/4483851651/",
+"visa": ""
+},
+"4483851653": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4483851653",
+"level": "senior",
+"location": "Spain",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T08:25Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager (Finance and Account Management)",
+"url": "https://www.linkedin.com/jobs/view/4483851653/",
+"visa": ""
+},
+"4483852255": {
+"company": "Swedium Global Services",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4483852255",
+"level": "senior",
+"location": "Gothenburg, Västra Götaland County, Sweden",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T07:25Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4483852255/",
+"visa": ""
+},
 "4484000355": {
 "company": "Confidential",
 "dup": false,
@@ -28818,7 +28929,7 @@
 "id": "4484254990",
 "level": "unlevelled",
 "location": "Lyon, Auvergne-Rhône-Alpes, France",
-"posted": "2026-10-27",
+"posted": "2026-10-28",
 "posted_ts": "2026-10-27T23:00Z",
 "regions": [
 "Europe"
@@ -28854,7 +28965,7 @@
 "id": "4484256902",
 "level": "unlevelled",
 "location": "Paris, Île-de-France, France",
-"posted": "2026-10-27",
+"posted": "2026-10-28",
 "posted_ts": "2026-10-27T23:02Z",
 "regions": [
 "Europe"
@@ -29172,6 +29283,42 @@
 "url": "https://www.linkedin.com/jobs/view/4484405263/",
 "visa": ""
 },
+"4484409708": {
+"company": "Domingo Alonso Group",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4484409708",
+"level": "unlevelled",
+"location": "Las Palmas de Gran Canaria, Canary Islands, Spain",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T05:26Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager Volkswagen",
+"url": "https://www.linkedin.com/jobs/view/4484409708/",
+"visa": ""
+},
+"4484410968": {
+"company": "Rastreator",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4484410968",
+"level": "unlevelled",
+"location": "Madrid, Community of Madrid, Spain",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T06:26Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "IT Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4484410968/",
+"visa": ""
+},
 "4484411035": {
 "company": "finnova AG Bankware",
 "dup": false,
@@ -29189,10 +29336,46 @@
 "title": "Product Owner Corporate Actions (all) 100%",
 "url": "https://www.linkedin.com/jobs/view/4484411035/",
 "visa": ""
+},
+"4484424458": {
+"company": "Thales",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4484424458",
+"level": "unlevelled",
+"location": "Vélizy-Villacoublay, Île-de-France, France",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T07:26Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner Plateforme (F/H)",
+"url": "https://www.linkedin.com/jobs/view/4484424458/",
+"visa": ""
+},
+"4484432307": {
+"company": "Thales",
+"dup": false,
+"first_seen_at": "2026-10-28T08:25Z",
+"id": "4484432307",
+"level": "unlevelled",
+"location": "Vélizy-Villacoublay, Île-de-France, France",
+"posted": "2026-10-28",
+"posted_ts": "2026-10-28T07:26Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner IA (F/H)",
+"url": "https://www.linkedin.com/jobs/view/4484432307/",
+"visa": ""
 }
 },
-"last_block_ping": "2026-10-27T14:25Z",
-"last_rollup": "2026-10-28T02:11Z",
+"last_block_ping": "2026-10-28T08:25Z",
+"last_rollup": "2026-10-28T08:25Z",
 "last_scan": "2026-10-28T02:11Z",
-"updated": "2026-10-28T02:11Z"
+"updated": "2026-10-28T08:25Z"
 }
