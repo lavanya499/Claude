@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-10-28 18:53 UTC · 675 open matches · 30 new in the last 24h · 96/98 sources healthy_
+_Updated 2026-10-28 23:16 UTC · 676 open matches · 31 new in the last 24h · 97/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -27,6 +27,7 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 80 | Expedia Group | [Senior Product Manager](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Senior-Product-Manager_R-108701) | India - Gurgaon |  | 2026-10-27 |
 | 79 | Intercom | [Senior Forward Deployed Product Manager ](https://job-boards.greenhouse.io/intercom/jobs/7179952) | Dublin, Ireland |  | 2025-08-20 |
 | 78 | Ebury | [Product Manager - Money Flows](https://job-boards.eu.greenhouse.io/ebury/jobs/5017527101) | Madrid |  | 2026-10-27 |
+| 77 | ⭐ Stripe | [Staff Product Manager, Risk](https://stripe.com/jobs/search?gh_jid=8331852) | Toronto, Canada |  | 2026-10-28 |
 | 74 | ⭐ Microsoft | [Principal Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557046152) | Czech Republic, Prague, Prague |  | 2026-10-27 |
 | 73 | Deliveroo | [Product Manager, Pricing](https://job-boards.greenhouse.io/deliveroo/jobs/8330743) | London, United Kingdom - Deliveroo |  | 2026-10-28 |
 | 72 | SumUp | [Senior Product Manager - Customer Directory](https://sumup.com/careers/positions/8907452002?gh_jid=8907452002) | Warsaw, Poland |  | 2026-10-27 |
@@ -337,13 +338,13 @@ _…and 82 more in data/jobs.json_
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 87 | 6 |
-| Adobe | ok | 281 | 2 |
+| 1Password | ok | 88 | 6 |
+| Adobe | ok | 284 | 2 |
 | Adyen | ok | 241 | 10 |
-| Affirm | ok | 243 | 9 |
-| Agoda | ok | 313 | 6 |
-| Airbnb | ok | 194 | 0 |
-| Airwallex | ok | 505 | 10 |
+| Affirm | ok | 242 | 9 |
+| Agoda | ok | 311 | 6 |
+| Airbnb | ok | 190 | 0 |
+| Airwallex | ok | 506 | 10 |
 | Amazon | ok | 196 | 84 |
 | Anthropic | ok | 678 | 0 |
 | Apple | ok |  |  |
@@ -352,88 +353,88 @@ _…and 82 more in data/jobs.json_
 | Bitpanda | ok | 34 | 2 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 262 | 2 |
-| Canva | ok | 70 | 0 |
+| Canva | ok | 68 | 0 |
 | Celonis | ok | 225 | 4 |
-| Cloudflare | ok | 459 | 6 |
-| Cohere | ok | 118 | 2 |
-| Cresta | ok | 87 | 1 |
-| Datadog | ok | 393 | 2 |
+| Cloudflare | ok | 461 | 6 |
+| Cohere | ok | 119 | 2 |
+| Cresta | ok | 89 | 1 |
+| Datadog | ok | 395 | 2 |
 | Decagon | ok | 133 | 2 |
 | Deliveroo | ok | 211 | 10 |
 | Delivery Hero | ok | 600 | 7 |
 | Deputy | ok | 6 | 1 |
 | Doctolib | ok | 146 | 4 |
 | Ebury | ok | 148 | 6 |
-| Elastic | ok | 408 | 24 |
-| ElevenLabs | ok | 156 | 1 |
-| Expedia Group | ok | 63 | 9 |
-| Fivetran | ok | 162 | 2 |
-| Genesys | ok | 189 | 2 |
-| Geotab | ok | 61 | 5 |
+| Elastic | ok | 403 | 19 |
+| ElevenLabs | ok | 154 | 1 |
+| Expedia Group | ok | 64 | 9 |
+| Fivetran | ok | 160 | 2 |
+| Genesys | ok | 190 | 2 |
+| Geotab | ok | 62 | 5 |
 | GetYourGuide | ok | 72 | 6 |
-| GitLab | ok | 235 | 4 |
+| GitLab | ok | 234 | 4 |
 | GoCardless | ok | 23 | 0 |
-| Google | ok | 73 | 17 |
+| Google | ok | 74 | 17 |
 | Grab | ok | 430 | 8 |
 | Grafana Labs | ok | 131 | 6 |
 | Intercom | ok | 103 | 6 |
 | JetBrains | ok | 46 | 3 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
-| LinkedIn | ok | 191 | 0 |
+| LinkedIn | ok | 189 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 82 | 4 |
 | Mastercard | ok | 400 | 11 |
 | Meesho | ok | 52 | 3 |
 | Mentimeter | ok | 17 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 90 | 9 |
+| Microsoft | ok | 91 | 9 |
 | Moneybox | ok | 16 | 1 |
-| MongoDB | ok | 367 | 6 |
-| Monzo | ok | 68 | 4 |
+| MongoDB | ok | 370 | 6 |
+| Monzo | ok | 67 | 4 |
 | N26 | ok | 32 | 2 |
-| Netflix | ⚠️ HTTPError: HTTP Error 429: TOO MANY REQUESTS |  |  |
+| Netflix | ok | 161 | 1 |
 | New Relic | ok | 50 | 0 |
-| Nium | ok | 21 | 2 |
-| Okta | ok | 384 | 11 |
-| OpenAI | ok | 808 | 0 |
+| Nium | ok | 25 | 2 |
+| Okta | ok | 383 | 11 |
+| OpenAI | ok | 809 | 0 |
 | Oyster | ok | 22 | 2 |
 | Paddle | ok | 17 | 1 |
 | Parloa | ok | 49 | 1 |
-| PayPal | ok | 328 | 1 |
+| PayPal | ok | 326 | 1 |
 | Payoneer | ok | 105 | 1 |
 | Pennylane | ok | 171 | 3 |
 | Qonto | ok | 44 | 3 |
 | Razorpay | ok | 24 | 1 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 151 | 1 |
+| Rubrik | ok | 152 | 1 |
 | Salesforce | ok | 400 | 4 |
-| Scale AI | ok | 170 | 5 |
-| ServiceNow | ok | 600 | 7 |
+| Scale AI | ok | 171 | 5 |
+| ServiceNow | ok | 600 | 6 |
 | Shopee | ok |  |  |
 | Sierra | ok | 213 | 6 |
 | Snyk | ok | 37 | 1 |
 | Spotify | ok | 89 | 12 |
-| Stripe | ok | 720 | 12 |
-| SumUp | ok | 349 | 3 |
+| Stripe | ok | 718 | 12 |
+| SumUp | ok | 356 | 3 |
 | Synthesia | ok | 36 | 3 |
 | Tide | ok | 105 | 4 |
-| Toast | ok | 343 | 4 |
+| Toast | ok | 340 | 4 |
 | Trustpilot | ok | 45 | 6 |
-| Twilio | ok | 132 | 2 |
+| Twilio | ok | 134 | 2 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
-| Wealthsimple | ok | 41 | 2 |
+| Wealthsimple | ok | 38 | 2 |
 | Wise | ok | 405 | 15 |
-| Wolt | ok | 196 | 1 |
+| Wolt | ok | 197 | 1 |
 | Xendit | ok | 21 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 37 | 10 |
 | Zendesk | ok | 125 | 2 |
 | Zip | ok | 110 | 2 |
-| Zscaler | ok | 353 | 1 |
-| eBay | ok | 187 | 13 |
+| Zscaler | ok | 351 | 1 |
+| eBay | ok | 186 | 13 |
 | loveholidays | ok | 17 | 3 |
-| n8n | ok | 40 | 3 |
+| n8n | ok | 39 | 3 |
 
 </details>
