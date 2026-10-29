@@ -92,7 +92,7 @@ function canShowFinalReveal(){return giftState.big.locked&&giftState.little.lock
 function drawWheel(elm,arr){var svg='<svg viewBox="0 0 300 300" aria-label="Mystery gift wheel">';arr.forEach(function(d,i){var seg=360/arr.length,a0=(-90+i*seg)*Math.PI/180,a1=(-90+(i+1)*seg)*Math.PI/180,x0=150+140*Math.cos(a0),y0=150+140*Math.sin(a0),x1=150+140*Math.cos(a1),y1=150+140*Math.sin(a1);svg+='<path d="M150 150 L'+x0+' '+y0+' A140 140 0 0 1 '+x1+' '+y1+' Z" fill="'+colors[i%colors.length]+'" stroke="#f8e5dc" stroke-width="1.5"/>';var am=(a0+a1)/2,tx=150+108*Math.cos(am),ty=150+108*Math.sin(am);svg+='<circle cx="'+tx+'" cy="'+ty+'" r="3.5" fill="#fff0e8" opacity=".8"/>'});svg+='</svg>';elm.innerHTML=svg}
 
 function spinWheel(which){if(!canSpin(which))return;var s=giftState[which],arr=data[which];s.spinning=true;s.spinCount++;s.resultId=null;s.subId=null;
-  var idx=Math.floor(Math.random()*arr.length),segment=360/arr.length,center=idx*segment+segment/2,current=((s.rotation%360)+360)%360,desired=(360-center)%360,extra=(desired-current+360)%360;
+  /* The second spin never repeats the first spin's category */var pool=[];for(var k=0;k<arr.length;k++)if(s.history.indexOf(arr[k].id)<0)pool.push(k);var idx=pool[Math.floor(Math.random()*pool.length)],segment=360/arr.length,center=idx*segment+segment/2,current=((s.rotation%360)+360)%360,desired=(360-center)%360,extra=(desired-current+360)%360;
   s.rotation+=1440+extra;var wheel=el(which,'wheel');wheel.style.transition='';wheel.style.transform='rotate('+s.rotation+'deg)';
   updateWheelUI(which);
   setTimeout(function(){commitSpin(which,arr[idx].id)},SPIN_MS+100)}
