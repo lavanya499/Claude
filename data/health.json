@@ -2,7 +2,7 @@
  "1Password": {
   "matched": 6,
   "ok": true,
-  "total": 89,
+  "total": 87,
   "via": "ashby"
  },
  "Adobe": {
@@ -14,7 +14,7 @@
  "Adyen": {
   "matched": 10,
   "ok": true,
-  "total": 238,
+  "total": 239,
   "via": "greenhouse"
  },
  "Affirm": {
@@ -26,13 +26,13 @@
  "Agoda": {
   "matched": 6,
   "ok": true,
-  "total": 308,
+  "total": 310,
   "via": "greenhouse"
  },
  "Airbnb": {
   "matched": 0,
   "ok": true,
-  "total": 201,
+  "total": 202,
   "via": "greenhouse"
  },
  "Airwallex": {
@@ -50,7 +50,7 @@
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 676,
+  "total": 675,
   "via": "greenhouse"
  },
  "Apple": {
@@ -61,13 +61,13 @@
  "Asana": {
   "matched": 4,
   "ok": true,
-  "total": 112,
+  "total": 110,
   "via": "greenhouse"
  },
  "Atlassian": {
   "matched": 5,
   "ok": true,
-  "total": 358,
+  "total": 357,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -85,31 +85,31 @@
  "Brex": {
   "matched": 2,
   "ok": true,
-  "total": 268,
+  "total": 263,
   "via": "greenhouse"
  },
  "Canva": {
   "matched": 0,
   "ok": true,
-  "total": 56,
+  "total": 55,
   "via": "smartrecruiters"
  },
  "Celonis": {
   "matched": 4,
   "ok": true,
-  "total": 230,
+  "total": 236,
   "via": "greenhouse"
  },
  "Cloudflare": {
   "matched": 6,
   "ok": true,
-  "total": 462,
+  "total": 465,
   "via": "greenhouse"
  },
  "Cohere": {
   "matched": 2,
   "ok": true,
-  "total": 121,
+  "total": 122,
   "via": "ashby"
  },
  "Cresta": {
@@ -121,7 +121,7 @@
  "Datadog": {
   "matched": 2,
   "ok": true,
-  "total": 396,
+  "total": 397,
   "via": "greenhouse"
  },
  "Decagon": {
@@ -163,7 +163,7 @@
  "Elastic": {
   "matched": 20,
   "ok": true,
-  "total": 405,
+  "total": 407,
   "via": "greenhouse"
  },
  "ElevenLabs": {
@@ -175,18 +175,19 @@
  "Expedia Group": {
   "matched": 10,
   "ok": true,
-  "total": 61,
+  "total": 59,
   "via": "workday"
  },
  "Fivetran": {
   "matched": 2,
   "ok": true,
-  "total": 161,
+  "total": 164,
   "via": "greenhouse"
  },
  "Genesys": {
-  "error": "HTTPError: HTTP Error 502: Bad Gateway",
-  "ok": false,
+  "matched": 2,
+  "ok": true,
+  "total": 185,
   "via": "workday"
  },
  "Geotab": {
@@ -204,7 +205,7 @@
  "GitLab": {
   "matched": 4,
   "ok": true,
-  "total": 238,
+  "total": 237,
   "via": "greenhouse"
  },
  "GoCardless": {
@@ -214,9 +215,9 @@
   "via": "greenhouse"
  },
  "Google": {
-  "matched": 17,
+  "matched": 16,
   "ok": true,
-  "total": 74,
+  "total": 73,
   "via": "google"
  },
  "Grab": {
@@ -228,13 +229,13 @@
  "Grafana Labs": {
   "matched": 6,
   "ok": true,
-  "total": 122,
+  "total": 120,
   "via": "greenhouse"
  },
  "Intercom": {
   "matched": 6,
   "ok": true,
-  "total": 109,
+  "total": 110,
   "via": "greenhouse"
  },
  "JetBrains": {
@@ -297,7 +298,7 @@
  "Microsoft": {
   "matched": 8,
   "ok": true,
-  "total": 87,
+  "total": 84,
   "via": "microsoft"
  },
  "Moneybox": {
@@ -327,7 +328,7 @@
  "Netflix": {
   "matched": 1,
   "ok": true,
-  "total": 160,
+  "total": 162,
   "via": "eightfold"
  },
  "New Relic": {
@@ -351,7 +352,7 @@
  "OpenAI": {
   "matched": 0,
   "ok": true,
-  "total": 817,
+  "total": 815,
   "via": "ashby"
  },
  "Oyster": {
@@ -410,7 +411,7 @@
  "Rubrik": {
   "matched": 1,
   "ok": true,
-  "total": 158,
+  "total": 159,
   "via": "greenhouse"
  },
  "Salesforce": {
@@ -422,7 +423,7 @@
  "Scale AI": {
   "matched": 5,
   "ok": true,
-  "total": 169,
+  "total": 170,
   "via": "greenhouse"
  },
  "ServiceNow": {
@@ -481,7 +482,7 @@
  "Toast": {
   "matched": 4,
   "ok": true,
-  "total": 326,
+  "total": 328,
   "via": "greenhouse"
  },
  "Trustpilot": {
@@ -575,7 +576,7 @@
  "n8n": {
   "matched": 3,
   "ok": true,
-  "total": 41,
+  "total": 51,
   "via": "ashby"
  }
 }
