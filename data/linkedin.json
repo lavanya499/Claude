@@ -1,14 +1,11 @@
 {
-"blocked_until": "2026-10-31T03:15Z",
 "health": {
-"calls": 29,
-"cards": 164,
-"errors": 1,
-"last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 23,
-"rate_limited": true,
-"requests": 29,
-"window_min": 212
+"calls": 30,
+"cards": 221,
+"errors": 0,
+"new": 32,
+"requests": 30,
+"window_min": 588
 },
 "jobs": {
 "3795113969": {
@@ -7526,6 +7523,24 @@
 "url": "https://www.linkedin.com/jobs/view/4471933319/",
 "visa": ""
 },
+"4471978327": {
+"company": "Coursera",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4471978327",
+"level": "senior",
+"location": "India",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T06:51Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager, Applied AI",
+"url": "https://www.linkedin.com/jobs/view/4471978327/",
+"visa": ""
+},
 "4471997026": {
 "company": "CareSuper",
 "dup": false,
@@ -12964,7 +12979,7 @@
 "id": "4480998719",
 "level": "unlevelled",
 "location": "Gurugram, Haryana, India",
-"posted": "2026-10-25",
+"posted": "2026-10-31",
 "posted_ts": "2026-10-25T17:11Z",
 "regions": [
 "India"
@@ -13522,7 +13537,7 @@
 "id": "4481368708",
 "level": "unlevelled",
 "location": "Utrecht, Utrecht, Netherlands",
-"posted": "2026-10-30",
+"posted": "2026-10-31",
 "posted_ts": "2026-10-30T17:47Z",
 "regions": [
 "Europe"
@@ -18204,24 +18219,6 @@
 "url": "https://www.linkedin.com/jobs/view/4483174884/",
 "visa": ""
 },
-"4483179093": {
-"company": "HelloFresh",
-"dup": false,
-"first_seen_at": "2026-10-24T05:23Z",
-"id": "4483179093",
-"level": "senior",
-"location": "Berlin, Berlin, Germany",
-"posted": "2026-10-23",
-"posted_ts": "2026-10-24T00:23Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager II, Consumer (all genders)",
-"url": "https://www.linkedin.com/jobs/view/4483179093/",
-"visa": ""
-},
 "4483201460": {
 "company": "Delivery Hero",
 "dup": true,
@@ -18634,24 +18631,6 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4483298784/",
-"visa": ""
-},
-"4483309428": {
-"company": "Thales",
-"dup": false,
-"first_seen_at": "2026-10-24T05:23Z",
-"id": "4483309428",
-"level": "unlevelled",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-24T04:47Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Manager – Delivery Services",
-"url": "https://www.linkedin.com/jobs/view/4483309428/",
 "visa": ""
 },
 "4483309990": {
@@ -22904,7 +22883,7 @@
 "id": "4483861530",
 "level": "unlevelled",
 "location": "Baden, Aargau, Switzerland",
-"posted": "2026-10-30",
+"posted": "2026-10-31",
 "posted_ts": "2026-10-30T22:23Z",
 "regions": [
 "Europe"
@@ -22976,7 +22955,7 @@
 "id": "4483866189",
 "level": "unlevelled",
 "location": "Quartino, Ticino, Switzerland",
-"posted": "2026-10-30",
+"posted": "2026-10-31",
 "posted_ts": "2026-10-30T22:23Z",
 "regions": [
 "Europe"
@@ -23437,6 +23416,24 @@
 "url": "https://www.linkedin.com/jobs/view/4483904602/",
 "visa": ""
 },
+"4483910976": {
+"company": "SCIKIQ",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483910976",
+"level": "unlevelled",
+"location": "Gurgaon, Haryana, India",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T04:51Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4483910976/",
+"visa": ""
+},
 "4483914213": {
 "company": "Cogeco Connexion",
 "dup": false,
@@ -23453,6 +23450,42 @@
 "tier": 3,
 "title": "Product Owner, Internet Product Lifecycle Management",
 "url": "https://www.linkedin.com/jobs/view/4483914213/",
+"visa": ""
+},
+"4483914914": {
+"company": "Ridder",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483914914",
+"level": "unlevelled",
+"location": "Harderwijk, North Holland, Netherlands",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager Drives",
+"url": "https://www.linkedin.com/jobs/view/4483914914/",
+"visa": ""
+},
+"4483914946": {
+"company": "Johnson Controls",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483914946",
+"level": "mid",
+"location": "Pune/Pimpri-Chinchwad Area",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:51Z",
+"regions": [
+"India"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager II",
+"url": "https://www.linkedin.com/jobs/view/4483914946/",
 "visa": ""
 },
 "4483915210": {
@@ -23473,6 +23506,24 @@
 "url": "https://www.linkedin.com/jobs/view/4483915210/",
 "visa": ""
 },
+"4483917711": {
+"company": "Just Eat Takeaway.com",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483917711",
+"level": "unlevelled",
+"location": "Amsterdam, North Holland, Netherlands",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T04:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4483917711/",
+"visa": ""
+},
 "4483919191": {
 "company": "Bloomberg",
 "dup": false,
@@ -23489,6 +23540,96 @@
 "tier": 3,
 "title": "Product Manager - Funds",
 "url": "https://www.linkedin.com/jobs/view/4483919191/",
+"visa": ""
+},
+"4483920837": {
+"company": "Cherry Ventures",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483920837",
+"level": "stretch",
+"location": "Berlin, Berlin, Germany",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T06:52Z",
+"regions": [
+"Europe"
+],
+"score": 48,
+"tier": 3,
+"title": "Head of Product",
+"url": "https://www.linkedin.com/jobs/view/4483920837/",
+"visa": ""
+},
+"4483926799": {
+"company": "Futurpreneur Africa (Since 1438H)",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483926799",
+"level": "unlevelled",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T07:53Z",
+"regions": [
+"Gulf"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4483926799/",
+"visa": ""
+},
+"4483928306": {
+"company": "Hilti France",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483928306",
+"level": "unlevelled",
+"location": "Boulogne-Billancourt, Île-de-France, France",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T04:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner (Data & AI)",
+"url": "https://www.linkedin.com/jobs/view/4483928306/",
+"visa": ""
+},
+"4483928520": {
+"company": "Lebull.pt",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483928520",
+"level": "stretch",
+"location": "Lisbon, Lisbon, Portugal",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T06:53Z",
+"regions": [
+"Europe"
+],
+"score": 48,
+"tier": 3,
+"title": "Head of Product (Growth & Experience)",
+"url": "https://www.linkedin.com/jobs/view/4483928520/",
+"visa": ""
+},
+"4483929391": {
+"company": "Barclays",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4483929391",
+"level": "unlevelled",
+"location": "Pune Division, Maharashtra, India",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:51Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Technical Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4483929391/",
 "visa": ""
 },
 "4484000355": {
@@ -29333,7 +29474,7 @@
 "id": "4484990318",
 "level": "unlevelled",
 "location": "Montreal, Quebec, Canada",
-"posted": "2026-10-29",
+"posted": "2026-10-31",
 "posted_ts": "2026-10-29T16:38Z",
 "regions": [
 "Canada"
@@ -29686,6 +29827,78 @@
 "url": "https://www.linkedin.com/jobs/view/4485128064/",
 "visa": ""
 },
+"4485129815": {
+"company": "Haystack",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485129815",
+"level": "unlevelled",
+"location": "Dortmund, North Rhine-Westphalia, Germany",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T07:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4485129815/",
+"visa": ""
+},
+"4485129938": {
+"company": "Haystack",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485129938",
+"level": "unlevelled",
+"location": "London Area, United Kingdom",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T08:23Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4485129938/",
+"visa": ""
+},
+"4485130378": {
+"company": "LANXESS",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485130378",
+"level": "unlevelled",
+"location": "Cologne, North Rhine-Westphalia, Germany",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T04:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Global Product Manager Lubricants Industry (f/m/d)",
+"url": "https://www.linkedin.com/jobs/view/4485130378/",
+"visa": ""
+},
+"4485130511": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485130511",
+"level": "unlevelled",
+"location": "Portugal",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:53Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485130511/",
+"visa": ""
+},
 "4485131006": {
 "company": "STATION F",
 "dup": false,
@@ -29722,6 +29935,42 @@
 "url": "https://www.linkedin.com/jobs/view/4485131056/",
 "visa": ""
 },
+"4485132550": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485132550",
+"level": "unlevelled",
+"location": "Netherlands",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:52Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485132550/",
+"visa": ""
+},
+"4485132906": {
+"company": "Haystack",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485132906",
+"level": "senior",
+"location": "London Area, United Kingdom",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T08:24Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4485132906/",
+"visa": ""
+},
 "4485134000": {
 "company": "STATION F",
 "dup": false,
@@ -29738,6 +29987,186 @@
 "tier": 3,
 "title": "PRODUCT MANAGER - JUNO",
 "url": "https://www.linkedin.com/jobs/view/4485134000/",
+"visa": ""
+},
+"4485134487": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485134487",
+"level": "unlevelled",
+"location": "Canada",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:54Z",
+"regions": [
+"Canada"
+],
+"score": 55,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485134487/",
+"visa": ""
+},
+"4485134497": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485134497",
+"level": "unlevelled",
+"location": "Switzerland",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:52Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485134497/",
+"visa": ""
+},
+"4485137489": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485137489",
+"level": "unlevelled",
+"location": "Germany",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:52Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485137489/",
+"visa": ""
+},
+"4485139535": {
+"company": "ACCA Careers",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485139535",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:51Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager - Billing and Accounting, Amazon Shipping",
+"url": "https://www.linkedin.com/jobs/view/4485139535/",
+"visa": ""
+},
+"4485141432": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485141432",
+"level": "unlevelled",
+"location": "Australia",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:53Z",
+"regions": [
+"Australia"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485141432/",
+"visa": ""
+},
+"4485141757": {
+"company": "Haystack",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485141757",
+"level": "unlevelled",
+"location": "Baden-Württemberg, Germany",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T08:27Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4485141757/",
+"visa": ""
+},
+"4485142470": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485142470",
+"level": "unlevelled",
+"location": "Ireland",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:51Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485142470/",
+"visa": ""
+},
+"4485143441": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485143441",
+"level": "unlevelled",
+"location": "United Kingdom",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:51Z",
+"regions": [
+"UK"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485143441/",
+"visa": ""
+},
+"4485143443": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485143443",
+"level": "unlevelled",
+"location": "Spain",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:52Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485143443/",
+"visa": ""
+},
+"4485147383": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485147383",
+"level": "unlevelled",
+"location": "France",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T05:52Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner (Customer Experience)",
+"url": "https://www.linkedin.com/jobs/view/4485147383/",
 "visa": ""
 },
 "4485201795": {
@@ -30633,6 +31062,24 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4485306645/",
+"visa": ""
+},
+"4485306811": {
+"company": "Tortuga Sense",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485306811",
+"level": "unlevelled",
+"location": "Zug, Zug, Switzerland",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T08:28Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Health AI Product Owner (all genders)",
+"url": "https://www.linkedin.com/jobs/view/4485306811/",
 "visa": ""
 },
 "4485309850": {
@@ -32077,6 +32524,24 @@
 "url": "https://www.linkedin.com/jobs/view/4485652517/",
 "visa": ""
 },
+"4485653661": {
+"company": "Bloom & Wild",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485653661",
+"level": "unlevelled",
+"location": "Amsterdam, North Holland, Netherlands",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T04:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager - Delivery & Availability Management (DAM)",
+"url": "https://www.linkedin.com/jobs/view/4485653661/",
+"visa": ""
+},
 "4485654065": {
 "company": "Amazon",
 "dup": true,
@@ -32130,10 +32595,82 @@
 "title": "Experienced Technical Product Manager (all) 80-100%",
 "url": "https://www.linkedin.com/jobs/view/4485657240/",
 "visa": ""
+},
+"4485657551": {
+"company": "Tigera",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485657551",
+"level": "reach",
+"location": "Vancouver, British Columbia, Canada",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T04:54Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Senior /Staff Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4485657551/",
+"visa": ""
+},
+"4485663362": {
+"company": "DG Nexolution",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485663362",
+"level": "unlevelled",
+"location": "Wiesbaden, Hesse, Germany",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T02:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager Digitale Genossenschaft & Mitgliedschaft",
+"url": "https://www.linkedin.com/jobs/view/4485663362/",
+"visa": ""
+},
+"4485668451": {
+"company": "Bureau of Meteorology",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485668451",
+"level": "senior",
+"location": "Melbourne, Victoria, Australia",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T04:53Z",
+"regions": [
+"Australia"
+],
+"score": 70,
+"tier": 3,
+"title": "Digital Product Lead",
+"url": "https://www.linkedin.com/jobs/view/4485668451/",
+"visa": ""
+},
+"4485676289": {
+"company": "mamgo | Talente 🔗 Jobs",
+"dup": false,
+"first_seen_at": "2026-10-31T08:51Z",
+"id": "4485676289",
+"level": "unlevelled",
+"location": "Starnberg, Bavaria, Germany",
+"posted": "2026-10-31",
+"posted_ts": "2026-10-31T06:52Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner Customer Service (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4485676289/",
+"visa": ""
 }
 },
 "last_block_ping": "2026-10-31T02:35Z",
-"last_rollup": "2026-10-31T02:35Z",
-"last_scan": "2026-10-30T23:23Z",
-"updated": "2026-10-31T02:35Z"
+"last_rollup": "2026-10-31T08:51Z",
+"last_scan": "2026-10-31T08:51Z",
+"updated": "2026-10-31T08:51Z"
 }
