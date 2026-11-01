@@ -1,11 +1,14 @@
 {
+"blocked_until": "2026-11-01T15:06Z",
 "health": {
-"calls": 30,
-"cards": 162,
-"errors": 0,
-"new": 18,
-"requests": 30,
-"window_min": 403
+"calls": 2,
+"cards": 10,
+"errors": 1,
+"last_error": "HTTPError: HTTP Error 429: Too Many Requests",
+"new": 1,
+"rate_limited": true,
+"requests": 2,
+"window_min": 437
 },
 "jobs": {
 "3795113969": {
@@ -174,24 +177,6 @@
 "url": "https://www.linkedin.com/jobs/view/4297745071/",
 "visa": ""
 },
-"4297751040": {
-"company": "Databricks",
-"dup": true,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4297751040",
-"level": "reach",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Staff Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4297751040/",
-"visa": ""
-},
 "4308852091": {
 "company": "UPS",
 "dup": false,
@@ -262,24 +247,6 @@
 "tier": 3,
 "title": "Product Manager Custody CMS",
 "url": "https://www.linkedin.com/jobs/view/4337212765/",
-"visa": ""
-},
-"4339860661": {
-"company": "Sonar",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4339860661",
-"level": "unlevelled",
-"location": "Geneva, Geneva, Switzerland",
-"posted": "2026-10-27",
-"posted_ts": "2026-10-25T10:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Manager - Code Quality",
-"url": "https://www.linkedin.com/jobs/view/4339860661/",
 "visa": ""
 },
 "4361755528": {
@@ -499,24 +466,6 @@
 "url": "https://www.linkedin.com/jobs/view/4387087575/",
 "visa": ""
 },
-"4388530452": {
-"company": "REWE digital",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4388530452",
-"level": "unlevelled",
-"location": "Cologne, North Rhine-Westphalia, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Chief Product Owner - SAP Infrastructure (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4388530452/",
-"visa": ""
-},
 "4389576237": {
 "company": "Silex Microsystems",
 "dup": false,
@@ -533,24 +482,6 @@
 "tier": 3,
 "title": "Product Manager - Product Development",
 "url": "https://www.linkedin.com/jobs/view/4389576237/",
-"visa": ""
-},
-"4389763326": {
-"company": "Supermicro",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4389763326",
-"level": "unlevelled",
-"location": "’s-Hertogenbosch, North Brabant, Netherlands",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "System Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4389763326/",
 "visa": ""
 },
 "4391483762": {
@@ -913,24 +844,6 @@
 "url": "https://www.linkedin.com/jobs/view/4408801836/",
 "visa": ""
 },
-"4410297902": {
-"company": "Xsolla",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4410297902",
-"level": "senior",
-"location": "Canada",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:14Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Senior Product Owner – Xsolla Money Account",
-"url": "https://www.linkedin.com/jobs/view/4410297902/",
-"visa": ""
-},
 "4412734856": {
 "company": "Wivoo, a Wavestone Company",
 "dup": false,
@@ -1111,24 +1024,6 @@
 "url": "https://www.linkedin.com/jobs/view/4419264179/",
 "visa": ""
 },
-"4419335424": {
-"company": "Hermès",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4419335424",
-"level": "unlevelled",
-"location": "Pantin, Île-de-France, France",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T13:09Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "CDI - Data Product Manager Analytics & AI - Retail (H/F)",
-"url": "https://www.linkedin.com/jobs/view/4419335424/",
-"visa": ""
-},
 "4419374431": {
 "company": "GovTech Singapore",
 "dup": false,
@@ -1235,42 +1130,6 @@
 "tier": 3,
 "title": "Product Owner @eXalt Ouest",
 "url": "https://www.linkedin.com/jobs/view/4419754989/",
-"visa": ""
-},
-"4419982608": {
-"company": "Snowflake",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4419982608",
-"level": "senior",
-"location": "Berlin, Berlin, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:15Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, Streaming Platform",
-"url": "https://www.linkedin.com/jobs/view/4419982608/",
-"visa": ""
-},
-"4420101820": {
-"company": "Getinge",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4420101820",
-"level": "unlevelled",
-"location": "Derby, England, United Kingdom",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:14Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "International Product Manager, Consumables",
-"url": "https://www.linkedin.com/jobs/view/4420101820/",
 "visa": ""
 },
 "4420473704": {
@@ -1453,24 +1312,6 @@
 "url": "https://www.linkedin.com/jobs/view/4424238508/",
 "visa": ""
 },
-"4424323051": {
-"company": "Camunda",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4424323051",
-"level": "unlevelled",
-"location": "Montreal, Quebec, Canada",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:40Z",
-"regions": [
-"Canada"
-],
-"score": 55,
-"tier": 3,
-"title": "Product Manager, Self Managed Service",
-"url": "https://www.linkedin.com/jobs/view/4424323051/",
-"visa": ""
-},
 "4424333023": {
 "company": "Camunda",
 "dup": false,
@@ -1542,24 +1383,6 @@
 "tier": 2,
 "title": "Product Manager – Conversational AI Agent",
 "url": "https://www.linkedin.com/jobs/view/4426753221/",
-"visa": ""
-},
-"4427370432": {
-"company": "nCino",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4427370432",
-"level": "reach",
-"location": "London, England, United Kingdom",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "Principal Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4427370432/",
 "visa": ""
 },
 "4427377799": {
@@ -1724,24 +1547,6 @@
 "url": "https://www.linkedin.com/jobs/view/4429519964/",
 "visa": ""
 },
-"4429661405": {
-"company": "Micron Technology",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4429661405",
-"level": "reach",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T09:13Z",
-"regions": [
-"Singapore"
-],
-"score": 51,
-"tier": 3,
-"title": "Staff I4.0 Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4429661405/",
-"visa": ""
-},
 "4429843226": {
 "company": "Airwallex",
 "dup": true,
@@ -1776,24 +1581,6 @@
 "tier": 3,
 "title": "Country Product Manager – Ocean Freight",
 "url": "https://www.linkedin.com/jobs/view/4430629197/",
-"visa": ""
-},
-"4430799882": {
-"company": "Voodoo",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4430799882",
-"level": "senior",
-"location": "Madrid, Community of Madrid, Spain",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:29Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Product Lead - Portfolio Midcore Games",
-"url": "https://www.linkedin.com/jobs/view/4430799882/",
 "visa": ""
 },
 "4430906660": {
@@ -1848,24 +1635,6 @@
 "tier": 3,
 "title": "Product Lead - Portfolio Midcore Games",
 "url": "https://www.linkedin.com/jobs/view/4430912543/",
-"visa": ""
-},
-"4430974852": {
-"company": "Datadog",
-"dup": true,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4430974852",
-"level": "mid",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:15Z",
-"regions": [
-"Europe"
-],
-"score": 89,
-"tier": 1,
-"title": "Product Manager II, AI & Data Security",
-"url": "https://www.linkedin.com/jobs/view/4430974852/",
 "visa": ""
 },
 "4431116191": {
@@ -2138,24 +1907,6 @@
 "url": "https://www.linkedin.com/jobs/view/4434612165/",
 "visa": ""
 },
-"4434878879": {
-"company": "Niji",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4434878879",
-"level": "unlevelled",
-"location": "Issy-les-Moulineaux, Île-de-France, France",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner Technique - F/H",
-"url": "https://www.linkedin.com/jobs/view/4434878879/",
-"visa": ""
-},
 "4435421936": {
 "company": "Fiserv",
 "dup": false,
@@ -2262,24 +2013,6 @@
 "tier": 3,
 "title": "Senior Global Product Manager (Respiratory Therapy)",
 "url": "https://www.linkedin.com/jobs/view/4436843071/",
-"visa": ""
-},
-"4437035911": {
-"company": "Swap",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4437035911",
-"level": "reach",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Staff Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4437035911/",
 "visa": ""
 },
 "4437373973": {
@@ -2390,24 +2123,6 @@
 "url": "https://www.linkedin.com/jobs/view/4438213009/",
 "visa": ""
 },
-"4438270604": {
-"company": "HelloFresh",
-"dup": true,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4438270604",
-"level": "reach",
-"location": "Warsaw, Mazowieckie, Poland",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T09:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Staff Product Manager, Benefits Platform (all genders)",
-"url": "https://www.linkedin.com/jobs/view/4438270604/",
-"visa": ""
-},
 "4438367180": {
 "company": "Scotiabank",
 "dup": false,
@@ -2498,24 +2213,6 @@
 "tier": 3,
 "title": "Product Owner",
 "url": "https://www.linkedin.com/jobs/view/4439050609/",
-"visa": ""
-},
-"4439085565": {
-"company": "NXP Semiconductors",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4439085565",
-"level": "senior",
-"location": "Munich, Bavaria, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:15Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Software Product Manager - Embedded & Real-Time Systems (Automotive) (f/m/d)",
-"url": "https://www.linkedin.com/jobs/view/4439085565/",
 "visa": ""
 },
 "4439127870": {
@@ -2915,42 +2612,6 @@
 "url": "https://www.linkedin.com/jobs/view/4442910246/",
 "visa": ""
 },
-"4444183415": {
-"company": "Publicis Sapient",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4444183415",
-"level": "senior",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:14Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4444183415/",
-"visa": ""
-},
-"4444189205": {
-"company": "Publicis Sapient",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4444189205",
-"level": "senior",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:14Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4444189205/",
-"visa": ""
-},
 "4444340105": {
 "company": "Grab",
 "desc": "Company Description\n About Grab and Our Workplace\n Grab is Southeast Asia's leading superapp. From getting your favourite meals delivered to helping you manage your finances and getting around town hassle-free, we've got your back with everything. In Grab, purpose gives us joy and habits build excellence, while harnessing the power of Technology and AI to deliver the mission of driving Southeast Asia forward by economically empowering everyone, with heart, hunger, honour, and humility.\n Job Description\n Get to Know the Team\n The Deliveries team at Grab owns one of the company's largest and fastest-growing business verticals — spanning GrabFood, Southeast Asia's leading food delivery platform, and GrabExpress, our on-demand and scheduled parcel delivery service. Together, they represent Grab's core bet on everyday consumer habits: feeding people, moving things, and moving South East Asia forward.\nThe Deliveries team owns Grab's food delivery business across Southeast Asia — one of the company's largest verticals and a daily habit for millions of consumers. We operate at the intersection of Consumer Experience, Merchant & Restaurant, Fulfillment, Geo, Payments, and Platform, working closely with country teams across 8 markets including our newest expansion in Taiwan.\n Get to Know the Role\n As Lead Product Manager, you will own a high-impact product domain. This is a senior IC role for a PM who can drive strategy and execution independently, influence cross-functional decisions, and deliver measurable outcomes at regional scale.\nYou will report to the Head of Product – Deliveries and work fully on-site in our Singapore One North Office.\n The Critical Tasks You Will Perform\n Own a strategic Deliveries domain end-to-end — set the roadmap, drive execution, and deliver business impact across priority markets.\n Lead consumer product work across discovery flows, ordering experience and post-order engagement.\n Ship rigorous experiments: design hypotheses, define metrics, interpret results, and turn them into confident product decisions.\n Translate ground-level signals from countries, merchants, consumers, and support into a sharp, prioritised backlog.\n Create precise PRDs/prototypes, align engineering and design early, and hold a high bar for shipping well-instrumented, resilient products.\n Qualifications\n What Essential Skills You Will Need\n At least 7 years of product management in a high-growth consumer tech business\n AI fluency: Able to run AI-native product workflows and loops\n Strong experimentation discipline: you've run A/B tests that changed product direction.\n Experience shipping across multiple Southeast Asia markets, navigating diverse consumer needs and competitive landscapes.\n Track record of independent, end-to-end ownership — you've run a domain without close supervision and delivered measurable results.\n Strong communicator; able to influence senior business and product stakeholders with structured, evidence-backed narratives.\n What Nice-to-Have Skills Will Help\n Experience with on-demand platforms, or consumer marketplace products \n Prior work on new market launches or greenfield product builds.\n Exposure to platform or horizontal PM roles — shared infrastructure, APIs, or cross-product systems.\n Additional Information\n Life at Grab\n We care about your well-being at Grab, here are some of the global benefits we offer:\n We have your back with Term Life Insurance and comprehensive Medical Insurance.\n With GrabFlex, create a benefi",
@@ -3220,24 +2881,6 @@
 "tier": 3,
 "title": "Product Owner Modern Workplace & IA (M365) (H/F)",
 "url": "https://www.linkedin.com/jobs/view/4447519514/",
-"visa": ""
-},
-"4447594639": {
-"company": "Supermicro",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4447594639",
-"level": "unlevelled",
-"location": "’s-Hertogenbosch, North Brabant, Netherlands",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager - Key Components",
-"url": "https://www.linkedin.com/jobs/view/4447594639/",
 "visa": ""
 },
 "4447901672": {
@@ -3906,24 +3549,6 @@
 "url": "https://www.linkedin.com/jobs/view/4454139102/",
 "visa": ""
 },
-"4454658110": {
-"company": "Ema",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4454658110",
-"level": "unlevelled",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:23Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4454658110/",
-"visa": ""
-},
 "4454830721": {
 "company": "Instacart",
 "dup": false,
@@ -4030,24 +3655,6 @@
 "tier": 3,
 "title": "Lead Product Manager (MLAW)",
 "url": "https://www.linkedin.com/jobs/view/4456092696/",
-"visa": ""
-},
-"4456247275": {
-"company": "Qualys",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4456247275",
-"level": "senior",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:14Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager, Security Research",
-"url": "https://www.linkedin.com/jobs/view/4456247275/",
 "visa": ""
 },
 "4456253362": {
@@ -4158,24 +3765,6 @@
 "url": "https://www.linkedin.com/jobs/view/4456550185/",
 "visa": ""
 },
-"4456709397": {
-"company": "Nordea",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4456709397",
-"level": "unlevelled",
-"location": "Gdańsk, Pomorskie, Poland",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:15Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Owner - Cloud Landing Zone Services AWS",
-"url": "https://www.linkedin.com/jobs/view/4456709397/",
-"visa": ""
-},
 "4456722503": {
 "company": "Arrive",
 "dup": false,
@@ -4228,24 +3817,6 @@
 "tier": 3,
 "title": "Associate Insurance Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4457095278/",
-"visa": ""
-},
-"4457097922": {
-"company": "Dyson",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4457097922",
-"level": "unlevelled",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T09:13Z",
-"regions": [
-"Singapore"
-],
-"score": 51,
-"tier": 3,
-"title": "Data Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4457097922/",
 "visa": ""
 },
 "4457278463": {
@@ -4520,7 +4091,6 @@
 },
 "4457603895": {
 "company": "Expedia Group",
-"desc": "At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and travel advertising business.\nHere, you'll do meaningful work that helps millions of people discover, book, and experience travel with more ease, confidence, and joy. Our five Behaviors-Traveler First, Think Big, Operate with Excellence, Ownership Mindset, and Succeed Together-help foster a supportive environment where people can grow their careers and have the flexibility, benefits, and support to do their best work. Join us and build for travelers everywhere.\nAt Expedia Group, performance is product quality. We are looking for a Senior Product Manager, Performance to define and lead the strategy for improving user-perceived performance across our traveler facing experiences, while building the systems, operating model, and guardrails needed to prevent regressions before they reach travelers.\nIn this role, you will partner across engineering, architecture, product, UX, analytics, experimentation, and platform teams to make performance measurable, actionable, and durable. You will own the product vision and roadmap for performance across web and app, balancing near-term experience improvements with longer-term investments in instrumentation, diagnostics, release protections, and performance-by-default product development practices.\nYou will help Expedia Group deliver faster, more stable, and more resilient experiences for travelers by ensuring teams can understand performance, prioritize the right improvements, and prevent degradation at scale.\n What You Will Do\n Define and drive the product strategy, roadmap, and success metrics for performance across web and native app experiences. \n Establish a clear performance product vision spanning page and screen load speed, interaction responsiveness, visual stability, reliability of measurement, and degradation prevention. \n Partner with engineering and architecture leaders to identify and prioritize platform and product investments that improve performance at scale. \n Own the performance measurement framework across web and app, including headline metrics, driver metrics, and guardrail metrics that help teams make better prioritization decisions. \n Lead discovery across stakeholder groups to identify root causes of poor user experience, quantify business impact, and translate findings into roadmap priorities. \n Drive adoption of performance standards, budgets, and release guardrails that reduce regressions and improve consistency across teams. \n Shape the operating model for performance reviews, regression triage, escalation paths, and accountability for remediation. \n Partner with experimentation and analytics teams to evaluate how product, content, and feature changes affect performance and traveler outcomes. \n Collaborate with teams responsible for observability, monitoring, and developer tooling to improve visibility into performance bottlenecks and degradations. \n Influence roadmaps across multiple product and platform teams without direct authority, aligning leaders on shared goals, sequencing, and trade-offs. \n Serve as a key point of contact for performance strategy, progress, and outcomes with senior stakeholders across Product and Technology. \n Minimum Qualifications\n 8+ years of product management experience with",
 "dup": true,
 "first_seen_at": "2026-10-29T11:44Z",
 "id": "4457603895",
@@ -4774,7 +4344,6 @@
 },
 "4457981617": {
 "company": "Affirm",
-"desc": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n About The Product Team\n The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision.\n About The Role\n The Purchasing Experience product team owns the ‘face of Affirm’, the core checkout experience for millions of Affirm users.\nAs a Senior Product Manager on the Terms and Payments team, you will be responsible for designing both the term and payment selection experiences which drive user clarity and confidence at checkout.\nAn ideal candidate is one who has worked extensively on consumer experiences at key moments in the product flow.\nThis is a highly cross-functional role that sits at the intersection of Product, Design, Engineering, Research, and Analytics.\n What You’ll Do\n Own the core checkout experience where consumers select and review their terms and payments — with a focus on driving conversion, clarity, and confidence at the moment of commitment.\n Design and run experiments that improve how consumers understand and choose their terms\n Define and ship new UX patterns that change the way checkout looks and feels — using research insights, quantitative signals, and close collaboration with design and analytics to move from discovery to launch.\n Partner with Legal and Compliance to understand regulatory requirements and how they affect the user experience.\n Work alongside international product partners to expand the terms experience into new markets, adapting for local expectations while keeping the design system coherent.\n Develop a deep understanding of user behavior and share those insights broadly — helping the team and stakeholders stay grounded in how consumers actually experience checkout.\n Drive an ambitious roadmap — identify the highest-leverage opportunities, align cross-functional partners, and own execution from concept through launch and iteration.\n What We Look For\n 5+ years of Product Management experience\n A strong sense of taste for user experience — you have opinions about what makes an interaction feel clear, considered, and delightful.\n Analytical rigor — you're comfortable digging into data, interpreting experiment results, and turning qualitative and quantitative inputs into insights and product opportunities.\n World-class execution with high agency — you ship reliably, identify what matters without waiting to be told, and hold yourself to a high bar on quality and follow-through.\n The ability to work closely with cross-functional teams across product, design, engineering, analytics, and research — building trust and driving alignment without relying on authority.\n Strong communication skills — you can deliver results, drive narratives, and explain tradeoffs in a way that brings stakeholders along and creates clarity.\n Coachability — you seek out feedback, absorb it without defensiveness, and visibly grow from it.\n Bonus points if you've worked on checkout, e-commerce, or fintech products in the past.\n Pay Grade - N\nEquity Grad",
 "dup": true,
 "first_seen_at": "2026-10-29T11:44Z",
 "id": "4457981617",
@@ -4829,7 +4398,6 @@
 },
 "4457992535": {
 "company": "Affirm",
-"desc": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n About The Product Team\n The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision.\n About The Role\n The Purchasing Experience product team owns the ‘face of Affirm’, the core checkout experience for millions of Affirm users.\nAs a Senior Product Manager on the Terms and Payments team, you will be responsible for designing both the term and payment selection experiences which drive user clarity and confidence at checkout.\nAn ideal candidate is one who has worked extensively on consumer experiences at key moments in the product flow.\nThis is a highly cross-functional role that sits at the intersection of Product, Design, Engineering, Research, and Analytics.\n What You’ll Do\n Own the core checkout experience where consumers select and review their terms and payments — with a focus on driving conversion, clarity, and confidence at the moment of commitment.\n Design and run experiments that improve how consumers understand and choose their terms\n Define and ship new UX patterns that change the way checkout looks and feels — using research insights, quantitative signals, and close collaboration with design and analytics to move from discovery to launch.\n Partner with Legal and Compliance to understand regulatory requirements and how they affect the user experience.\n Work alongside international product partners to expand the terms experience into new markets, adapting for local expectations while keeping the design system coherent.\n Develop a deep understanding of user behavior and share those insights broadly — helping the team and stakeholders stay grounded in how consumers actually experience checkout.\n Drive an ambitious roadmap — identify the highest-leverage opportunities, align cross-functional partners, and own execution from concept through launch and iteration.\n What We Look For\n 5+ years of Product Management experience\n A strong sense of taste for user experience — you have opinions about what makes an interaction feel clear, considered, and delightful.\n Analytical rigor — you're comfortable digging into data, interpreting experiment results, and turning qualitative and quantitative inputs into insights and product opportunities.\n World-class execution with high agency — you ship reliably, identify what matters without waiting to be told, and hold yourself to a high bar on quality and follow-through.\n The ability to work closely with cross-functional teams across product, design, engineering, analytics, and research — building trust and driving alignment without relying on authority.\n Strong communication skills — you can deliver results, drive narratives, and explain tradeoffs in a way that brings stakeholders along and creates clarity.\n Coachability — you seek out feedback, absorb it without defensiveness, and visibly grow from it.\n Bonus points if you've worked on checkout, e-commerce, or fintech products in the past.\n Pay Grade - N\nEquity Grad",
 "dup": true,
 "first_seen_at": "2026-10-29T11:44Z",
 "id": "4457992535",
@@ -5712,42 +5280,6 @@
 "url": "https://www.linkedin.com/jobs/view/4463499117/",
 "visa": ""
 },
-"4463568135": {
-"company": "RSM UK",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4463568135",
-"level": "unlevelled",
-"location": "Greater London, England, United Kingdom",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "VAT Product Manager – Global VAT Compliance & Reporting",
-"url": "https://www.linkedin.com/jobs/view/4463568135/",
-"visa": ""
-},
-"4463572060": {
-"company": "RSM UK",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4463572060",
-"level": "unlevelled",
-"location": "Manchester, England, United Kingdom",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "VAT Product Manager – Global VAT Compliance & Reporting",
-"url": "https://www.linkedin.com/jobs/view/4463572060/",
-"visa": ""
-},
 "4463802132": {
 "company": "Groupe Dynamite",
 "dup": false,
@@ -5802,24 +5334,6 @@
 "url": "https://www.linkedin.com/jobs/view/4463997500/",
 "visa": ""
 },
-"4464205191": {
-"company": "TechTree",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4464205191",
-"level": "senior",
-"location": "London, England, United Kingdom",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Product Lead — Consumer Social App (AI Game Creation)",
-"url": "https://www.linkedin.com/jobs/view/4464205191/",
-"visa": ""
-},
 "4464235483": {
 "company": "LawDepot",
 "dup": false,
@@ -5872,24 +5386,6 @@
 "tier": 1,
 "title": "Senior Product Manager, Email Security",
 "url": "https://www.linkedin.com/jobs/view/4464251705/",
-"visa": ""
-},
-"4464257021": {
-"company": "Equinix",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4464257021",
-"level": "senior",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:14Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager, Tax",
-"url": "https://www.linkedin.com/jobs/view/4464257021/",
 "visa": ""
 },
 "4464261610": {
@@ -6560,7 +6056,6 @@
 },
 "4466872004": {
 "company": "Adyen",
-"desc": "This is Adyen\n Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.\nFor our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster.\n Senior Product Manager - Data, Machine Learning and GenAI Platform\n 20 years of payments data is a powerful asset. But only combined with the proper platform and solid processes, it can release its full potential. That’s why the Big Data, Machine Learning and GenAI platforms, within the Application Intelligence portfolio, are key for Adyen’s success.\nPlatform Engineering builds Adyen’s internal developer platform as a Product, enabling our internal developers to autonomously build, run and maintain secure, scalable, and reliable applications with high speed and quality. Our data platform supports the creation and evolution of different data products ( e.g. Machine Learning models, GenAI apps, data pipeline, insights dashboards), impacting both merchants and key internal processes.\nThe platform is currently serving 600+ active users including Data Engineers, Machine Learning Scientists, Applied AI Engineers or Data Analysts. All of them use data as their main asset, at the same time they all have different needs. As a Senior Product Manager, you will directly interact with this group to understand their user journeys and identify and prioritize opportunities for the platform to improve. Your goal is to bring the data developer experience (DevEx) to the next level, setting every user persona for success while keeping shared, high-quality standards.\n What You’ll Do\n Own the strategy and vision for Adyen’s Data Developer Experience, ensuring it delivers a scalable, and intuitive experience across all roles and user journeys. \n Define priorities balancing short-term needs with long-term transformation, consolidating fragmented tools and processes into a cohesive ecosystem.\n Shape and drive the platform roadmap to reduce friction for users, directly impacting the velocity of Adyen’s data and AI products delivery.\n Partner with platform teams to design developer experiences that prioritize autonomy and control, while simultaneously elevating developer accountability for system performance and output quality.\n Proactively identify emerging trends in the data domain to future-proof our platform roadmap, ensuring Adyen remains at the forefront of data developer productivity.\n Assess the needs of non-technical customers —such as product managers and second-line teams— and design capabilities that facilitate their ability to effectively interact with and utilize our data products.\n Who You Are\n 5+ years of experience as a (senior) Product Manager with a track record of delivering outcomes in the data domain.\n Strong data foundation knowledge, enabling you to collaborate effectively with users (Data Engineers, Machine Learning Scientists and GenAI Engineers) and platform teams. \n Ability to make strategic trade-offs, balancing immediate operational needs with long-term platform investments as well as competing stakeholder d",
 "dup": true,
 "first_seen_at": "2026-10-29T11:44Z",
 "id": "4466872004",
@@ -7990,24 +7485,6 @@
 "url": "https://www.linkedin.com/jobs/view/4471358055/",
 "visa": ""
 },
-"4471435305": {
-"company": "Riverty",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4471435305",
-"level": "unlevelled",
-"location": "Baden-Baden, Baden-Württemberg, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:40Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Integration (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4471435305/",
-"visa": ""
-},
 "4471462642": {
 "company": "Samsung Food",
 "dup": false,
@@ -9038,7 +8515,6 @@
 },
 "4474463752": {
 "company": "Cloudflare",
-"desc": "About Us\n At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.\nAt Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.\nAvailable Locations: London or Austin\n We are looking for a Product Manager to lead Safe Change for Cloudflare’s control plane. In this role, you will define how customers preview, stage, roll out, monitor, and recover from configuration changes. You will also shape platform foundations that enable internal teams to deploy changes with higher confidence, stronger guardrails, and lower operational risk.\nCloudflare’s control plane converts dashboard and API changes into global network configurations. Today’s enterprise customers expect robust change-management features: deployment previews, gradual rollouts, quick rollbacks, versioning, traffic segmentation, data residency, auditability, and verification of applied state.\nYou will own a high-leverage product domain spanning distributed systems, reliability, developer experience, and enterprise governance. Working closely with engineering and product leaders across the entire platform. You will help turn proven deployment safety patterns into reusable platform primitives across Cloudflare.\nThis technical, highly collaborative role requires navigating architectural tradeoffs with engineers, evaluating risk and compliance with enterprise customers, and partnering with product and go-to-market teams to drive platform adoption.\nWhat you’ll do\nAs a member of a growing team of infrastructure product managers your responsibilities include:\n Represent the customer, be it internal or external. Be the champion and voice of customers. Build intimate, personal customer relationships. Bring the customer's voice into the creation process.\n Develop the product vision for your area. Ensure that your vision can work not just for your current set of customers, but for 10 or even 100 times your current set. \n Evangelize the vision so that all stakeholders are aligned, have context and understand where we are going.\n Make data-driven roadmap decisions. Make tough tactical prioritization decision",
 "dup": true,
 "first_seen_at": "2026-10-29T11:44Z",
 "id": "4474463752",
@@ -10142,7 +9618,6 @@
 },
 "4475452634": {
 "company": "Google",
-"desc": "Minimum qualifications:\n Bachelor's degree or equivalent practical experience.\n 5 years of experience in product management or a related technical role.\n 2 years of experience taking technical products from conception to launch (e.g., ideation to execution, end-to-end, 0 to 1, etc).\n Experience integrating generative AI tools or LLM interfaces into workflows.\n Preferred qualifications:\n Master's degree in a technology or business related field.\n Experience building products for emerging markets, next billion users, or optimizing app performance for memory-constrained/low-end Android devices.\n Experience launching mobile consumer products at scale with a focus on product growth, user funnels or acquisition.\n Experience with growth product management, consumer mobile apps, referral ingress, push notification systems, or onboarding conversion.\n Understanding of mobile app architecture, client-server latency optimization, Operating System (OS) permissions (e.g., location/notifications), and API/SDK integrations.\n About The Job\n Geo's mission is to help people explore and navigate the real world wherever they are. We want to make real-world exploration and navigation seamless, intelligent, and universally accessible to all users across every hardware tier and network condition globally. At Google Maps' scale of 2B+ monthly active users, even fractional improvements in funnel conversion, latency, or feature discoverability generate massive, world-scale impact.\nAs a Product Manager, you will help drive Maps' reach towards 3B monthly active users (MAUs). You will join the International Growth team, with a focus on growing Android Maps (aka aGMM) Reach by creating new and improving existing acquisition and re-activation flywheels. You will drive sustainable, high-velocity user growth and engagement across top Android growth markets (including US, India, Indonesia, Brazil, Vietnam etc) while systematically eliminating friction in the user journey. The team operates at the intersection of product intuition, deep data analytics, and rigorous experimentation.\n Responsibilities\n Own the multi-quarter strategy and tactical execution plan for global Android Google Mobile Maps (aGMM) MAU growth, daily visits, and users on Google Maps.\n Conduct funnel analyses to pinpoint drop-offs, churn drivers, and user cohorts.\n Design, launch, and analyze high-velocity A/B tests and causal holdback experiments to validate product hypotheses.\n Partner with engineering to streamline app startup latency, payload footprints, and first-interaction times on entry-tier devices.\n Partner closely with dedicated Engineering teams, Data Science/Analytics, UX Design, Research, Legal, and Product Marketing across geographies.\n Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form .",
 "dup": true,
 "first_seen_at": "2026-10-29T11:44Z",
 "id": "4475452634",
@@ -13890,60 +13365,6 @@
 "url": "https://www.linkedin.com/jobs/view/4480998719/",
 "visa": ""
 },
-"4481075912": {
-"company": "SOCKSWEAR GmbH",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4481075912",
-"level": "unlevelled",
-"location": "Eisenberg, Rhineland-Palatinate, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T12:01Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager (m/w/d) - Licensed Consumer Products & E-Commerce",
-"url": "https://www.linkedin.com/jobs/view/4481075912/",
-"visa": ""
-},
-"4481083507": {
-"company": "EDEKABANK AG",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4481083507",
-"level": "unlevelled",
-"location": "Hamburg, Hamburg, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T09:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager/in Product Owner Corporate Banking (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4481083507/",
-"visa": ""
-},
-"4481083565": {
-"company": "emagine",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4481083565",
-"level": "unlevelled",
-"location": "Lisbon Metropolitan Area",
-"posted": "2026-10-28",
-"posted_ts": "2026-10-25T11:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4481083565/",
-"visa": ""
-},
 "4481083983": {
 "company": "bunch",
 "dup": false,
@@ -14014,24 +13435,6 @@
 "tier": 3,
 "title": "Product Owner",
 "url": "https://www.linkedin.com/jobs/view/4481088514/",
-"visa": ""
-},
-"4481092089": {
-"company": "EXP Software GmbH",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4481092089",
-"level": "unlevelled",
-"location": "Pfaffenhofen an der Ilm, Bavaria, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:15Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Owner für Agentic-Twin-Plattform explore (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4481092089/",
 "visa": ""
 },
 "4481368708": {
@@ -16901,24 +16304,6 @@
 "url": "https://www.linkedin.com/jobs/view/4482596076/",
 "visa": ""
 },
-"4482674677": {
-"company": "1GLOBAL",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4482674677",
-"level": "senior",
-"location": "Lisbon, Lisbon, Portugal",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T10:15Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior AI Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4482674677/",
-"visa": ""
-},
 "4482678854": {
 "company": "IDFC FIRST Bank",
 "dup": false,
@@ -16935,24 +16320,6 @@
 "tier": 3,
 "title": "Senior Digital Product Manager II",
 "url": "https://www.linkedin.com/jobs/view/4482678854/",
-"visa": ""
-},
-"4482679546": {
-"company": "TAAS Partners",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4482679546",
-"level": "senior",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T08:14Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Product Manager / Sr. Product Manager (Backend)",
-"url": "https://www.linkedin.com/jobs/view/4482679546/",
 "visa": ""
 },
 "4482679675": {
@@ -17007,24 +16374,6 @@
 "tier": 3,
 "title": "Product Manager Hematology & Oncology",
 "url": "https://www.linkedin.com/jobs/view/4482689273/",
-"visa": ""
-},
-"4482691041": {
-"company": "Nians",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4482691041",
-"level": "unlevelled",
-"location": "Gurugram, Haryana, India",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T11:14Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4482691041/",
 "visa": ""
 },
 "4482693330": {
@@ -18651,24 +18000,6 @@
 "url": "https://www.linkedin.com/jobs/view/4483364951/",
 "visa": ""
 },
-"4483373295": {
-"company": "SIGNAL IDUNA Gruppe",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4483373295",
-"level": "unlevelled",
-"location": "Dortmund, North Rhine-Westphalia, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T08:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner (m/w/d) SHT Lösungen",
-"url": "https://www.linkedin.com/jobs/view/4483373295/",
-"visa": ""
-},
 "4483374780": {
 "company": "Franklin Templeton",
 "dup": false,
@@ -18703,24 +18034,6 @@
 "tier": 3,
 "title": "Sr Product Manager RF Comms and Systems",
 "url": "https://www.linkedin.com/jobs/view/4483380977/",
-"visa": ""
-},
-"4483382098": {
-"company": "Hyra",
-"dup": false,
-"first_seen_at": "2026-10-25T12:13Z",
-"id": "4483382098",
-"level": "unlevelled",
-"location": "Rhineland-Palatinate, Germany",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T09:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4483382098/",
 "visa": ""
 },
 "4483382391": {
@@ -33313,10 +32626,28 @@
 "title": "Technical IT Product Owner (m/w/d)",
 "url": "https://www.linkedin.com/jobs/view/4485947105/",
 "visa": ""
+},
+"4485956041": {
+"company": "Bureau of Meteorology",
+"dup": false,
+"first_seen_at": "2026-11-01T14:26Z",
+"id": "4485956041",
+"level": "senior",
+"location": "Melbourne, Victoria, Australia",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T11:26Z",
+"regions": [
+"Australia"
+],
+"score": 70,
+"tier": 3,
+"title": "Digital Product Lead",
+"url": "https://www.linkedin.com/jobs/view/4485956041/",
+"visa": ""
 }
 },
-"last_block_ping": "2026-10-31T18:56Z",
-"last_rollup": "2026-11-01T07:29Z",
+"last_block_ping": "2026-11-01T14:26Z",
+"last_rollup": "2026-11-01T14:26Z",
 "last_scan": "2026-11-01T07:29Z",
-"updated": "2026-11-01T07:29Z"
+"updated": "2026-11-01T14:26Z"
 }
