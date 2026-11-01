@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-11-01T15:06Z",
+"blocked_until": "2026-11-01T19:41Z",
 "health": {
-"calls": 2,
-"cards": 10,
+"calls": 4,
+"cards": 30,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 1,
+"new": 21,
 "rate_limited": true,
-"requests": 2,
-"window_min": 437
+"requests": 4,
+"window_min": 712
 },
 "jobs": {
 "3795113969": {
@@ -430,24 +430,6 @@
 "url": "https://www.linkedin.com/jobs/view/4379274535/",
 "visa": ""
 },
-"4380928609": {
-"company": "Klook",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4380928609",
-"level": "senior",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T13:19Z",
-"regions": [
-"Singapore"
-],
-"score": 67,
-"tier": 3,
-"title": "Senior Business Data Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4380928609/",
-"visa": ""
-},
 "4387087575": {
 "company": "Glu Mobile",
 "dup": false,
@@ -754,6 +736,24 @@
 "url": "https://www.linkedin.com/jobs/view/4403362299/",
 "visa": ""
 },
+"4403946729": {
+"company": "Adobe",
+"dup": true,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4403946729",
+"level": "reach",
+"location": "Noida, Uttar Pradesh, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T18:01Z",
+"regions": [
+"India"
+],
+"score": 67,
+"tier": 1,
+"title": "Principal Product Manager - Firefly UI (Image/Video)",
+"url": "https://www.linkedin.com/jobs/view/4403946729/",
+"visa": ""
+},
 "4404314081": {
 "company": "Socialpoint",
 "dup": false,
@@ -970,24 +970,6 @@
 "url": "https://www.linkedin.com/jobs/view/4417916816/",
 "visa": ""
 },
-"4418156314": {
-"company": "Vertiv",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4418156314",
-"level": "unlevelled",
-"location": "Petaling Jaya, Selangor, Malaysia",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T13:19Z",
-"regions": [
-"Malaysia"
-],
-"score": 54,
-"tier": 3,
-"title": "Thermal Management - Product Manager (SEA+NA)",
-"url": "https://www.linkedin.com/jobs/view/4418156314/",
-"visa": ""
-},
 "4419258374": {
 "company": "Onepoint",
 "dup": false,
@@ -1022,24 +1004,6 @@
 "tier": 3,
 "title": "Senior Product Manager - Risk",
 "url": "https://www.linkedin.com/jobs/view/4419264179/",
-"visa": ""
-},
-"4419374431": {
-"company": "GovTech Singapore",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4419374431",
-"level": "unlevelled",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T15:53Z",
-"regions": [
-"Singapore"
-],
-"score": 51,
-"tier": 3,
-"title": "Product Manager (AGC)",
-"url": "https://www.linkedin.com/jobs/view/4419374431/",
 "visa": ""
 },
 "4419480774": {
@@ -1186,6 +1150,42 @@
 "url": "https://www.linkedin.com/jobs/view/4422210733/",
 "visa": ""
 },
+"4422457909": {
+"company": "Synthesia",
+"dup": true,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4422457909",
+"level": "reach",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T15:01Z",
+"regions": [
+"UK"
+],
+"score": 67,
+"tier": 2,
+"title": "Product Manager, Enterprise (Staff/Principal-level)",
+"url": "https://www.linkedin.com/jobs/view/4422457909/",
+"visa": ""
+},
+"4422473108": {
+"company": "Appian",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4422473108",
+"level": "mid",
+"location": "Chennai, Tamil Nadu, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T14:01Z",
+"regions": [
+"India"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager II - Cloud Infrastructure",
+"url": "https://www.linkedin.com/jobs/view/4422473108/",
+"visa": ""
+},
 "4422473567": {
 "company": "Lucanet",
 "dup": false,
@@ -1220,24 +1220,6 @@
 "tier": 3,
 "title": "APAC Product Manager - OTC/Consumer Health",
 "url": "https://www.linkedin.com/jobs/view/4422693615/",
-"visa": ""
-},
-"4423509173": {
-"company": "Pixalate",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4423509173",
-"level": "unlevelled",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T15:19Z",
-"regions": [
-"Singapore"
-],
-"score": 55,
-"tier": 3,
-"title": "Product Manager - Trust & Safety",
-"url": "https://www.linkedin.com/jobs/view/4423509173/",
 "visa": ""
 },
 "4424001120": {
@@ -1853,6 +1835,24 @@
 "url": "https://www.linkedin.com/jobs/view/4433637537/",
 "visa": ""
 },
+"4433810254": {
+"company": "Therabody",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4433810254",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T15:01Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Sr. Product Manager, Mobile",
+"url": "https://www.linkedin.com/jobs/view/4433810254/",
+"visa": ""
+},
 "4433846441": {
 "company": "ESAB Corporation",
 "dup": false,
@@ -2013,24 +2013,6 @@
 "tier": 3,
 "title": "Senior Global Product Manager (Respiratory Therapy)",
 "url": "https://www.linkedin.com/jobs/view/4436843071/",
-"visa": ""
-},
-"4437373973": {
-"company": "GovTech Singapore",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4437373973",
-"level": "senior",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T15:43Z",
-"regions": [
-"Singapore"
-],
-"score": 67,
-"tier": 3,
-"title": "Lead / Senior Product Manager, AI Programme",
-"url": "https://www.linkedin.com/jobs/view/4437373973/",
 "visa": ""
 },
 "4437699410": {
@@ -2973,6 +2955,24 @@
 "url": "https://www.linkedin.com/jobs/view/4448437528/",
 "visa": ""
 },
+"4448460694": {
+"company": "Wise",
+"dup": true,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4448460694",
+"level": "reach",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T13:01Z",
+"regions": [
+"UK"
+],
+"score": 67,
+"tier": 2,
+"title": "Principal Product Manager - Risk Assessment Platform",
+"url": "https://www.linkedin.com/jobs/view/4448460694/",
+"visa": ""
+},
 "4448554728": {
 "company": "Sendcloud",
 "dup": false,
@@ -3043,6 +3043,24 @@
 "tier": 3,
 "title": "Product Manager - Financial Apps",
 "url": "https://www.linkedin.com/jobs/view/4448559841/",
+"visa": ""
+},
+"4448749500": {
+"company": "Couchbase",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4448749500",
+"level": "senior",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T11:01Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4448749500/",
 "visa": ""
 },
 "4448752679": {
@@ -3405,6 +3423,24 @@
 "url": "https://www.linkedin.com/jobs/view/4450305841/",
 "visa": ""
 },
+"4450355108": {
+"company": "Wise",
+"dup": true,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4450355108",
+"level": "reach",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T15:01Z",
+"regions": [
+"UK"
+],
+"score": 67,
+"tier": 2,
+"title": "Principal Product Manager - Money Laundering Detection",
+"url": "https://www.linkedin.com/jobs/view/4450355108/",
+"visa": ""
+},
 "4450605124": {
 "company": "Guerlain",
 "dup": false,
@@ -3639,24 +3675,6 @@
 "url": "https://www.linkedin.com/jobs/view/4456043908/",
 "visa": ""
 },
-"4456092696": {
-"company": "GovTech Singapore",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4456092696",
-"level": "senior",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T15:44Z",
-"regions": [
-"Singapore"
-],
-"score": 67,
-"tier": 3,
-"title": "Lead Product Manager (MLAW)",
-"url": "https://www.linkedin.com/jobs/view/4456092696/",
-"visa": ""
-},
 "4456253362": {
 "company": "Murex",
 "dup": false,
@@ -3799,6 +3817,24 @@
 "tier": 3,
 "title": "Senior Product Manager, Catalog",
 "url": "https://www.linkedin.com/jobs/view/4456783611/",
+"visa": ""
+},
+"4456957637": {
+"company": "Circle",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4456957637",
+"level": "reach",
+"location": "Greater Bengaluru Area",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T14:01Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Principal Product Manager, Core Network",
+"url": "https://www.linkedin.com/jobs/view/4456957637/",
 "visa": ""
 },
 "4457095278": {
@@ -4558,6 +4594,42 @@
 "url": "https://www.linkedin.com/jobs/view/4458382143/",
 "visa": ""
 },
+"4458408069": {
+"company": "Teads",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4458408069",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T14:01Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager Performance team",
+"url": "https://www.linkedin.com/jobs/view/4458408069/",
+"visa": ""
+},
+"4458422532": {
+"company": "Quickbase",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4458422532",
+"level": "senior",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T14:01Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Sr Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4458422532/",
+"visa": ""
+},
 "4458740884": {
 "company": "Microsoft",
 "dup": true,
@@ -5009,6 +5081,24 @@
 "url": "https://www.linkedin.com/jobs/view/4459865897/",
 "visa": ""
 },
+"4459865898": {
+"company": "Proton",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4459865898",
+"level": "stretch",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T15:01Z",
+"regions": [
+"UK"
+],
+"score": 48,
+"tier": 3,
+"title": "Senior Product Manager B2B (VPN)",
+"url": "https://www.linkedin.com/jobs/view/4459865898/",
+"visa": ""
+},
 "4459875904": {
 "company": "Proton",
 "dup": false,
@@ -5151,6 +5241,24 @@
 "tier": 3,
 "title": "Principal Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4460482524/",
+"visa": ""
+},
+"4460580967": {
+"company": "Revun",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4460580967",
+"level": "senior",
+"location": "Mumbai, Maharashtra, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T13:01Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Technical Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4460580967/",
 "visa": ""
 },
 "4460955967": {
@@ -6288,6 +6396,24 @@
 "url": "https://www.linkedin.com/jobs/view/4467498608/",
 "visa": ""
 },
+"4467549504": {
+"company": "IDFC FIRST Bank",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4467549504",
+"level": "senior",
+"location": "Mumbai, Maharashtra, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T14:01Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager-Credit Cards",
+"url": "https://www.linkedin.com/jobs/view/4467549504/",
+"visa": ""
+},
 "4467560729": {
 "company": "Sulzer",
 "dup": false,
@@ -6612,6 +6738,24 @@
 "url": "https://www.linkedin.com/jobs/view/4468021586/",
 "visa": ""
 },
+"4468051320": {
+"company": "Clio",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4468051320",
+"level": "senior",
+"location": "Manchester, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T13:01Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager, France Market Expansion",
+"url": "https://www.linkedin.com/jobs/view/4468051320/",
+"visa": ""
+},
 "4468051321": {
 "company": "Clio",
 "dup": false,
@@ -6682,6 +6826,24 @@
 "tier": 2,
 "title": "Group Product Manager, APAC [Head of Products, APAC]",
 "url": "https://www.linkedin.com/jobs/view/4468075176/",
+"visa": ""
+},
+"4468079382": {
+"company": "PerkinElmer",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4468079382",
+"level": "unlevelled",
+"location": "High Wycombe, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T14:01Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Software Product Manager Material Characterization",
+"url": "https://www.linkedin.com/jobs/view/4468079382/",
 "visa": ""
 },
 "4468201483": {
@@ -6921,7 +7083,6 @@
 },
 "4468606688": {
 "company": "Amazon",
-"desc": "Description\n Across Emerging Markets (10 countries across APAC, MENA and LATAM), Amazon has an opportunity to engage the next 500MM customers and build a $100B GMS profitable business in the next 3 years. The Sub Same Day team will build for this market to deliver shopping orders to our customers within the same day in a reliable manner. The program is rapidly growing, is highly cross-functional in nature, intensive and requires a number of solutions to be built and scaled. We build extensible EM first solutions to drive SSD program’s product strategy and Improve Fulfillment Convenience for customers while reducing overall Cost to Serve.\nThis role is responsible for driving a roadmap specifically for daily essentials, grocery, perishables served from Sub Same Day network at Amazon across IES. If you like to swim in unchartered territories then this is your opportunity to solve problems that no one has attempted to solve at our scale before. We work like an high-octane startup driven by the passion to bring the Amazon experience to our customers across Emerging Marketplaces.\nAs a Senior Product Manager, you will be expected to come up with the PR/FAQ, vision, and business requirements for the some of the most impactful ideas contributing to customer experience WW. This will need you to understand pain points of various types of customers, prioritize business needs that could be different across countries, while coming up with well thought out product ideas that leverage some of the latest advancements in technology. You will launch products, and take them to market, demonstrating business impact across countries.\nThe ideal candidate will be enthusiastic about managing challenging, lengthy projects across multiple teams and locations and will run their initiatives like a business owner. They will be comfortable marshaling large amounts of data, and expert with new-age technology domains to make recommendations and build business cases. We are looking for a tenured Product leader who shares Amazon's passion for the customer—someone who understands the importance of compelling features and functionalities in driving great experience. In addition, the candidate will also be able to influence without authority and earn trust of a wide range of cross-functional, tech/non-tech stakeholders.\nKey job responsibilities\n Identify and prioritize the most impactful improvement opportunities across New and Existing customers specific to their Sub Same Day delivery experiences across all emerging markets\n Be the voice of the customer advocating for the ideal customer experience\n Build products creating meaningful long term positive impact to the business\n Align key/Senior stakeholders to a bold vision for SSD through PRFAQs and other strategy documents\n strive to build products improving the delivery experience and speed for our customers\n Benchmark competitive experiences across Emerging Countries (outside of North Americas, Japan, UK), and define and implement a roadmap of improvements in customer Experience.\n Basic Qualifications\n 5+ years of product or program management, product marketing, business development or technology experience\n Experience owning/driving roadmap strategy and definition\n Experience with end to end product delivery\n Experience with feature delivery and tradeoffs of a product\n Master's degree or equivalent\n Preferred Qualifications\n MBA\n Experience in influencing senior leadership through data driven insights\n Experience workin",
 "dup": true,
 "first_seen_at": "2026-10-29T17:33Z",
 "id": "4468606688",
@@ -7028,6 +7189,24 @@
 "tier": 1,
 "title": "Staff Product Manager, Atlas Clusters",
 "url": "https://www.linkedin.com/jobs/view/4468676886/",
+"visa": ""
+},
+"4468682630": {
+"company": "First Citizens India",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4468682630",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T12:01Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Process Manager - Product Owner, MDM",
+"url": "https://www.linkedin.com/jobs/view/4468682630/",
 "visa": ""
 },
 "4468688404": {
@@ -7194,6 +7373,24 @@
 "url": "https://www.linkedin.com/jobs/view/4469188636/",
 "visa": ""
 },
+"4469203354": {
+"company": "Esko",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4469203354",
+"level": "senior",
+"location": "Bengaluru East, Karnataka, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T17:01Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4469203354/",
+"visa": ""
+},
 "4469209922": {
 "company": "BNY",
 "dup": false,
@@ -7229,6 +7426,24 @@
 "tier": 1,
 "title": "Staff Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4469223003/",
+"visa": ""
+},
+"4469223673": {
+"company": "Nscale",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4469223673",
+"level": "unlevelled",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T12:01Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager, People Systems",
+"url": "https://www.linkedin.com/jobs/view/4469223673/",
 "visa": ""
 },
 "4469238267": {
@@ -9508,7 +9723,6 @@
 },
 "4475444137": {
 "company": "Google",
-"desc": "At Google, we have a vision of empowerment and equitable opportunity for all Aboriginal and Torres Strait Islander peoples and commit to building reconciliation through Google’s technology, platforms and people and we welcome Indigenous applicants. Please see our Reconciliation Action Plan for more information.\n Minimum qualifications:\n Bachelor's degree or equivalent practical experience.\n 10 years of experience in product management or a related technical role.\n 5 years of experience in people management, with technical leadership.\n 5 years of experience defining and delivering product roadmaps for consumer products.\n Experience designing, building, and deploying applications utilizing generative AI or Large Language Model (LLM).\n Preferred qualifications:\n Master's degree in a technology or business related field.\n 7 years of experience working cross-functionally with engineering, UX/UI, sales finance, and other stakeholders.\n 5 years of experience in software development or engineering.\n 5 years of experience in a role preparing and delivering technical presentations to executive leadership.\n Experience working in photos and video consumer product.\n Demonstrated creativity and a visionary approach to defining and bringing new product ideas to life.\n About The Job\n At Google, we put our users first. The world is always changing, so we need Product Managers who are continuously adapting and excited to work on products that affect millions of people every day.\nIn this role, you will work cross-functionally to guide products from conception to launch by connecting the technical and business worlds. You can break down complex problems into steps that drive product development.\nOne of the many reasons Google consistently brings innovative, world-changing products to market is because of the collaborative work we do in Product Management. Our team works closely with creative engineers, designers, marketers, etc. to help design and develop technologies that improve access to the world's information. We're responsible for guiding products throughout the execution cycle, focusing specifically on analyzing, positioning, packaging, promoting, and tailoring our solutions to our users.\nGoogle Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user.\n Responsibilities\n Own development and secure buy-in for a product goal that identifies, defines, and supports the overall product narrative and direction, achieving an outcome that is greater than the sum of its parts.\n Drive the evolution of Google Photos organization and sharing features to make them more personalized, proactive, and powerful.\n Define and build the next generation of helpful user experiences by utilizing Gemini and advanced Generative AI (GenAI) capabilities.\n Lead, mentor, and grow a small, high-performing team of Product Managers.\n Deliver features that actively drive user love and engagement while helping users get more out of their photo libraries.\n Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation",
 "dup": true,
 "first_seen_at": "2026-10-29T17:33Z",
 "id": "4475444137",
@@ -9903,6 +10117,24 @@
 "tier": 3,
 "title": "Principal Product Manager (Gateway, Prisma AIRS) - NetSec",
 "url": "https://www.linkedin.com/jobs/view/4475625348/",
+"visa": ""
+},
+"4475629105": {
+"company": "JioStar",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4475629105",
+"level": "reach",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T12:01Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Staff Product Manager - Search",
+"url": "https://www.linkedin.com/jobs/view/4475629105/",
 "visa": ""
 },
 "4475704069": {
@@ -11481,7 +11713,6 @@
 },
 "4476789853": {
 "company": "ElevenLabs",
-"desc": "About ElevenLabs\n ElevenLabs is an AI research and product company transforming how we interact with technology.\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.\n We Have Expanded From Voice Into Three Main Platforms\n ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n ElevenAPI gives developers access to our leading AI audio foundational models.\n Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\nHow we work\n High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n Excellence everywhere: Everything we do should match the quality of our AI models.\n Global team: We prioritize your talent, not your location.\n What we offer\n Innovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n Learning & development: ElevenLabs proactively supports professional development through an annual discretionary stipend.\n Social travel: We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n Annual team offsite: Each year, we bring your entire team together in a new location - past offsites have included Croatia, Italy and Cancún\n Co-working: If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\n About The Role\n We’re hiring a Product Manager to own the core ElevenCreative product experience for creators and marketers who sign up, subscribe, and build on their own. Self-serve users make up the majority of ElevenCreative’s user base, and they use the platform to generate and edit speech, music, image, and video across 70+ languages.\nYou’ll drive growth and adoption across the self-serve product experience, focusing on how users discover what ElevenCreative can do, how they move from a first generation into agents, video, and multi-step creative workflows, and what keeps them coming back and upgrading. There’s no shortage of things we could build. The job is defining the big bets, scoping them well, and shipping them quickly with the team.\nPMs at ElevenLabs work in small, highly collaborative teams with minimal process, alongside engineers who have room to build creativ",
 "dup": true,
 "first_seen_at": "2026-10-29T17:33Z",
 "id": "4476789853",
@@ -11519,7 +11750,6 @@
 },
 "4476795456": {
 "company": "Amazon",
-"desc": "Description\n Ready to build Amazon's next $100B business? We're not just entering shipping, we're transforming how billions of packages move around the globe. By evolving Amazon's legendary fulfillment engine into an agile, intelligent shipping network, we're creating a system that continuously optimizes to deliver on time, every time, for every business and every customer. Every shipment is more than just a box, it spins the flywheel faster, enhancing our logistics network through scale, speed, and intelligence. As we increase density and reach, we're revolutionizing shipping for all businesses while strengthening Amazon's own delivery capabilities, reducing costs and accelerating deliveries across our entire ecosystem.\nWHAT WILL YOU DO?\nWe're hiring a Senior Product Manager for Billing and Accounting in Amazon Shipping. This role exists to make getting paid effortless and trustworthy for our shippers, and predictable and well-controlled for the business, as we consolidate fragmented, region-specific billing systems into a more standardized flow.\nYou'll own execution of defined product workstreams across the invoice-to-cash lifecycle: how charges are billed, how invoices are presented, how customers pay, how disputes and adjustments are resolved, and how transactions reconcile to the ledger. You'll drive consolidation of legacy and interim billing systems, close functional gaps, and ensure accurate, compliant, and controlled financial outcomes across every marketplace we operate in. You'll turn complex billing and accounting requirements into clear product definitions, and partner across operations, pricing, payments, credit risk, accounting, tax, and engineering to deliver them.\nYou'll work at the intersection of finance, operations, and engineering, translating regulatory, accounting, and customer requirements into crisp product requirements, and turning them into billing experiences that scale as the business grows.\n You'll Collaborate Closely With\n Billing Operations teams who manage day-to-day shipper interactions on invoices, payments, and disputes\n Payments and Credit Risk product owners whose capabilities your billing workstreams depend on\n Pricing teams introducing new charges and rate structures that our systems must bill for\n Accounting teams who own the ledger and require accurate, compliant, and controlled financial records\n Tax (VAT) teams who own compliance and filings\n Engineering teams building the billing and accounting platform\n Senior leadership setting financial strategy and controls for the business\n WHO ARE YOU?\nYou're a product leader who is equally comfortable digging into an invoice reconciliation, writing a crisp product narrative, and walking an accounting or operations leader through a control tradeoff. You have strong product sense and build the right thing, not just build the thing right, within a defined charter. You bring real financial and data fluency, enough to partner credibly with accounting, tax, and finance on controls and compliance, and with engineers on data and systems, and you understand how billing, invoicing, and reconciliation actually get done day to day. You decompose an undefined problem space into a clear, sequenced set of deliverables, define the metrics that matter, and let them guide prioritization. You communicate crisply across functional, operations, and leadership audiences, and you balance a bias for action with the judgment to know a one-way door from a two-way door. You're a",
 "dup": true,
 "first_seen_at": "2026-10-29T17:33Z",
 "id": "4476795456",
@@ -11751,24 +11981,6 @@
 "tier": 3,
 "title": "Director, Product Management [RID-00708]",
 "url": "https://www.linkedin.com/jobs/view/4477105332/",
-"visa": ""
-},
-"4477131530": {
-"company": "Global Fashion Group",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4477131530",
-"level": "senior",
-"location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T15:19Z",
-"regions": [
-"Malaysia"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager - Global Discovery & Personalisation",
-"url": "https://www.linkedin.com/jobs/view/4477131530/",
 "visa": ""
 },
 "4477131739": {
@@ -16322,24 +16534,6 @@
 "url": "https://www.linkedin.com/jobs/view/4482678854/",
 "visa": ""
 },
-"4482679675": {
-"company": "AIA Thailand",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4482679675",
-"level": "unlevelled",
-"location": "Bangkok, Bangkok City, Thailand",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T13:19Z",
-"regions": [
-"Thailand"
-],
-"score": 54,
-"tier": 3,
-"title": "AI Product Owner, Specialist",
-"url": "https://www.linkedin.com/jobs/view/4482679675/",
-"visa": ""
-},
 "4482682620": {
 "company": "SoftwareOne",
 "dup": false,
@@ -17980,24 +18174,6 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4483298784/",
-"visa": ""
-},
-"4483364951": {
-"company": "Selby Jennings",
-"dup": false,
-"first_seen_at": "2026-10-25T16:19Z",
-"id": "4483364951",
-"level": "unlevelled",
-"location": "Singapore, Singapore",
-"posted": "2026-10-25",
-"posted_ts": "2026-10-25T14:19Z",
-"regions": [
-"Singapore"
-],
-"score": 51,
-"tier": 3,
-"title": "HR Technology Transformation Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4483364951/",
 "visa": ""
 },
 "4483374780": {
@@ -22853,6 +23029,24 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4483983034/",
+"visa": ""
+},
+"4483992549": {
+"company": "Candidat",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4483992549",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T18:24Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager (D2C)",
+"url": "https://www.linkedin.com/jobs/view/4483992549/",
 "visa": ""
 },
 "4484000355": {
@@ -28345,7 +28539,6 @@
 },
 "4484968841": {
 "company": "Microsoft",
-"desc": "Overview\n Dynamics 365 and Power Platform depend on a core data platform that manages business data, transactions, security, extensibility and application lifecycle at enterprise scale. As customers modernize applications and adopt AI, the platform keeps data governed, available and economically sustainable, with the controls enterprise business systems require.\nWe are looking for a Senior Product Manager to own the administrator experience and self-service workflows on the shared Dataverse + Finance & Operations platform team. You will independently set the strategy and roadmap for experiences that make environments easier to understand, manage and trust, translating platform governance policies into clear administrator controls and actionable workflows. Through customer discovery, evidence-led prioritization and close engineering partnership, you will deliver measurable improvements in service awareness, administrator control and self-service, strengthening the application foundation that connected experiences depend on.\nThis Hyderabad-based role offers meaningful product ownership at an important point in the evolution of enterprise applications: improving the administration and governance experiences that help customers operate mission-critical applications (such as their ERP) and provide dependable foundations for business applications, analytics, and AI. You will work closely with engineering, Dynamics 365 and Power Platform teams, administrators, customers, and partner teams to turn operational needs into clear product priorities and measurable customer outcomes. The role is well suited to a product leader who enjoys understanding complex customer problems, shaping a focused roadmap, and making enterprise platforms easier to manage and trust.\nMicrosoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.\n Responsibilities\n Own product strategy, roadmap and outcomes for the F&O administrator experience and self-service workflows, grounded in user research, service signals and support insight.\n Define the experience for understanding service health, data and environment status, and the actions available to keep business operations dependable.\n Translate platform governance policies into administrator controls and lifecycle workflows that help customers understand usage, apply policies and manage their data with appropriate visibility and control.\n Set product requirements for availability, performance, observability, compatibility, administrator control and successful task completion.\n Use customer discovery, support insight and product evidence to identify administrator needs and prioritize reusable platform improvements with engineering.\n Make management and environment governance clearer and more proactive, helping administrators resolve needs and manage their environments with confidence and self-service.\n Partner with Dataverse, application and agent teams so reliable F&O operations and supported business data or actions can contribute to connected experiences as capabilities evolve.\n Define and review measures such as task success, service understanding, policy completion, successful self-service, customer effort a",
 "dup": true,
 "first_seen_at": "2026-10-29T17:33Z",
 "id": "4484968841",
@@ -29680,7 +29873,6 @@
 "4485207049": {
 "alerted": true,
 "company": "Booking.com",
-"desc": "About Us: At Booking.com, data drives our decisions. Technology is at our core. And innovation is everywhere. But our company is more than datasets, lines of code or A/B tests. We’re the thrill of the first night in a new place. The excitement of the next morning. The friends you encounter. The journeys you take. The sights you see. And the memories you make. Through our products, partners and people, we make it easier for everyone to experience the world.\n About our team :\n Messaging Platform presents a unique opportunity for the tech product manager to build the platform to deal with scalability challenges both in terms of tech and the business. Work in fast moving environments driving product development with noticeable business impact potential.\n Role overview:\n The Product Manager in Messaging Platform helps teams communicate with travelers through channels such as email, push, SMS, WhatsApp, and more. You will own product direction and outcomes based on user needs and the company’s product strategy for Content Managements / Socials Messaging space. You will work with engineering partners to understand constraints and options and make sound product decisions. An engineering background or independent API troubleshooting is not required.\nThe Product Manager actively owns the product strategy and direction for the product area by understanding user, partner, and market needs and by working closely with account managers, developers, analysts, researchers, product marketing managers and others to deliver successful products.\n Key Job Responsibilities and Duties: \n Responsible for the full product dev cycle of Traveler Messaging Platform, including requirements gathering, impact assessment, prioritization, releases, QA, collaborative stakeholder management, proactive risk management.\n Be responsible for the platform performance metrics.\n Troubleshoot API issues, QA new APIs, write API documentation.\n Preparing and presenting cases for the platform improvements, business enablement and issue resolution.\n Drive alignment of projects/programs across marketing and other business units including tech stakeholders.\n Role Qualifications and Requirements:\n 3+ years of proven experience in platform Product Management capable of driving independently.\n Ability to understand implication of technical decisions to the product, contribute in a technical conversation, write technical documentation and dogfood APIs as well as troubleshoot technical API issues.\n Excellent stakeholder management skills. Past experience with managing large amounts of stakeholders.\n Excellent communication skills - being able to communicate effectively both strategic vision and specific details to various stakeholders, from leadership to individual team members and the tech. Being able to write clear and concise product requirements, status updates and product results.\n Strong analytical skills - Able to interpret data and trends, diagnose problems, and recommend effective action plans to resolve issues.\n Strong problem-solving skills demonstrated by the ability to structure issues and analyze alternative solutions.\n Strong teamwork and collaboration skills are essential.\n Benefits & Perks - Global Impact, Personal Relevance:\n Booking.com’s Total Rewards Philosophy is not only about compensation but also about benefits. We offer a competitive compensation and benefits package, as well unique-to-Booking.com benefits which include:\n Annual paid time off and generous paid leav",
 "dup": false,
 "first_seen_at": "2026-10-29T17:33Z",
 "id": "4485207049",
@@ -32627,6 +32819,24 @@
 "url": "https://www.linkedin.com/jobs/view/4485947105/",
 "visa": ""
 },
+"4485952319": {
+"company": "Uplers",
+"dup": false,
+"first_seen_at": "2026-11-01T19:01Z",
+"id": "4485952319",
+"level": "senior",
+"location": "Delhi, India",
+"posted": "2026-11-01",
+"posted_ts": "2026-11-01T13:01Z",
+"regions": [
+"India"
+],
+"score": 67,
+"tier": 3,
+"title": "Lead Product Owner – Generative AI & AI Filmmaking",
+"url": "https://www.linkedin.com/jobs/view/4485952319/",
+"visa": ""
+},
 "4485956041": {
 "company": "Bureau of Meteorology",
 "dup": false,
@@ -32649,5 +32859,5 @@
 "last_block_ping": "2026-11-01T14:26Z",
 "last_rollup": "2026-11-01T14:26Z",
 "last_scan": "2026-11-01T07:29Z",
-"updated": "2026-11-01T14:26Z"
+"updated": "2026-11-01T19:01Z"
 }
