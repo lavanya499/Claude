@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T01:38+00:00",
+ "updated": "2026-11-03T09:39+00:00",
  "baselined": [
   "1Password",
   "Adobe",
@@ -7075,6 +7075,29 @@
    "score": 78,
    "notified": true
   },
+  "google:129187054603903686": {
+   "first_seen": "2026-11-03",
+   "key": "google:129187054603903686",
+   "first_seen_at": "2026-11-03T09:39Z",
+   "company": "Google",
+   "tier": 1,
+   "title": "Senior Product Manager, AI Ecosystems, Frontier AI, DeepMind",
+   "location": "Paris, France; Zürich, Switzerland; London, UK; Mountain View, CA, USA",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/129187054603903686-senior-product-manager-ai-ecosystems-frontier-ai-deepmind",
+   "source": "google",
+   "posted": null,
+   "level": "senior",
+   "regions": [
+    "Europe",
+    "UK"
+   ],
+   "last_seen": "2026-11-03",
+   "active": true,
+   "desc": "Understand the implications of new foundational research breakthroughs—across model architectures, multimodality, on-device efficiency, reinforcement learning, interactive environments, and trainable agent harnesses—on our open-weight model family (Gemma variants) and the broader AI ecosystem.\n Build collaborations with research teams, core model development teams, and product teams to ship open-weight model variants, post-training and mid-training environment runtimes, and modular agent harnesses—creating a two-way flywheel where open-source ecosystem innovations directly accelerate internal model training and product capabilities.\n Work with Google product areas and external partners to understand customer and societal needs that are best met through customizable open-weight models, on-device deployment, and zero-data-leakage evaluation and regulatory sandboxes.\n Build a thriving open ecosystem of developer tooling, standardized environment SDKs, formal verification and safety guardrails, and day-one integrations with popular open-source frameworks, agent protocols, and inference runtimes.\n Minimum qualifications:\n Bachelor's degree in Computer Science, a related technical field, or equivalent practical experience.\n 8 years of experience in building AI products, open-source developer platforms, SDKs, or model ecosystems rooted in significant model, algorithmic, or systems advancements.\n Preferred qualifications:\n Experience building AI products, open-source developer platforms, SDKs, or model ecosystems rooted in significant model, algorithmic, or systems advancements.\n Understanding of the current open-weight model and agent landscape, including on-device and cloud inference stacks, fine-tuning and RL post-training workflows, procedural curricula, formal verification, and open-source developer tooling.\n Deep understanding of AI foundation models, reinforcement learning, post-training techniques, and autonomous agent systems (such as planning, tool use, memory, and environment interaction).\n Ability to stay up-to-speed on all relevant research in open-weight foundation models, domain-specialized variants, interactive RL environments, multi-agent simulation, and agent harnesses.\nprojects/gweb-careers-proto/tenants/60107626-8e00-0000-0000-0071646e0806/companies/5364d68d-d016-48b0-a6ec-0c6fe5032c6c",
+   "visa": "",
+   "score": 96,
+   "notified": true
+  },
   "google:129554584887534278": {
    "first_seen": "2026-10-20",
    "key": "google:129554584887534278",
@@ -7632,6 +7655,28 @@
    "last_seen": "2026-11-03",
    "active": true,
    "desc": "About Grab and Our Workplace \n Grab is Southeast Asia's leading superapp. From getting your favourite meals delivered to helping you manage your finances and getting around town hassle-free, we've got your back with everything. In Grab, purpose gives us joy and habits build excellence, while harnessing the power of Technology and AI to deliver the mission of driving Southeast Asia forward by economically empowering everyone, with heart, hunger, honour, and humility.\n Get to Know the Team \n The Data Platform team is a collective of software engineers, product managers, product designers, and technical program managers, who build the data foundation that powers Grab's business. Platforms within the team's scope encompass Grab's Data Lake and Signals Marketplace, Data Discovery and Catalog, Customer Data Platform, Experimentation, Metrics, and others. Our mission is to turn data into a growth engine within the Grab ecosystem and to enable Grabbers to work smarter, faster, and more collaboratively.\n The Data Mesh team owns Signals Marketplace, Grab's data mesh. Domain teams own their data, and we give them the platform and shared standards to model, test and secure it. We also run the catalog where analysts, data scientists and ML engineers find that data every day, increasingly through AI agents.\n Get to Know the Role \n We have certified our most-used data assets and made them easy to find. The opportunity now is to get full value from this data by moving consumers onto it and off the long tail of tables they use today. We want a data PM who has built a data mesh or a shared enterprise data model and can use that experience to shape Grab's Data Mesh. Your job is to get every team and agent at Grab building on a consistent model of the business.\n You will set the standards every producing team at Grab follows, and keep them light wherever the stakes are low. You will own the AI tools that data engineers and analysts use to build, test and query data, and drive their adoption across Grab.\n This is an individual contributor role based onsite in Grab's headquarters in Singapore, reporting to the Head of Product, Data and AI Platforms.\n The Critical Tasks You Will Perform \n You will own the strategy and roadmap for Grab's data mesh, and be responsible for data throughput over modeled data.\n You will own how Grab models its core business entities, how they map to physical data, and how they relate to each other.\n You will make modeled data products the default for analysis and for training Grab's AI models. Publishing one must take a domain team less work than publishing a raw table, and break the tradeoff with data duplication.\n You will own the data quality testing, with stricter tests for the data that matters most.\n You will decide which data Grab cannot afford to get wrong, by what breaks when it fails and what growth it drives. Consumers of that data provide inputs for the contracts that producer changes must pass.\n You will ensure Grab's data mesh is secure with proper access control and data classification.\n You will own Grab's data catalog, including lineage and the business context behind each table, and automate its upkeep.\n You will build in the open and do your own analysis through our agents.\n What Essential Skills You Will Need \n Product Management: 6+ years in technical product management, including 2+ owning data platforms. Internal platforms and commercial products both count.\n Data Mesh and Data Modeling: You have made shared definitions stick across teams that each own their data, using data mesh, a layered lakehouse, or entity and semantic modeling.\n Data Architecture: You can trace data from Kafka through Spark or Flink jobs into the Iceberg tables analysts query in Trino, and spot where an upstream change quietly breaks a consumer even when the schema holds. You use that to challenge engineering designs.\n Data Trust: You have shipped data contracts, quality checks or incident workflows, tiered by business impact so higher tiers get stricter tests and faster fixes.\n Governance and Security: You have built access control or data classification into a data platform, for example tag-based policies or column masking. You can explain how an attacker would use an AI agent against it, and how you would stop them.\n AI and Agents: You have shipped metadata or context that agents read from DataHub or a similar catalog, and shown with evals that their answers got more accurate. You build with AI coding agents yourself.\n Influence: You have moved teams or customers you do not control onto a standard you set, and retired what it replaced.\n Life at Grab \n We care about your well-being at Grab, here are some of the global benefits we offer:\n We have your back with Term Life Insurance and comprehensive Medical Insurance. \n With GrabFlex, create a benefits package that suits your needs and aspirations.\n Celebrate moments that matter in life with loved ones through Parental and Birthday leave , and give back to ",
+   "visa": "",
+   "score": 86,
+   "notified": true
+  },
+  "grab:744000159307554": {
+   "first_seen": "2026-11-03",
+   "key": "grab:744000159307554",
+   "first_seen_at": "2026-11-03T09:39Z",
+   "company": "Grab",
+   "tier": 2,
+   "title": "Lead Product Manager, Grab Support",
+   "location": "Singapore, , Singapore",
+   "url": "https://jobs.smartrecruiters.com/Grab/744000159307554",
+   "source": "smartrecruiters",
+   "posted": "2026-11-03",
+   "level": "senior",
+   "regions": [
+    "Singapore"
+   ],
+   "last_seen": "2026-11-03",
+   "active": true,
+   "desc": "Life at Grab \n At Grab, every Grabber is guided by The Grab Way, which spells out our mission, how we believe we can achieve it, and our operating principles - the 4Hs: Heart, Hunger, Honour and Humility. These principles guide and help us make decisions as we work to create economic empowerment for the people of Southeast Asia.\n Get to Know the Team \n We're looking for a Lead Product Manager to join our Grab Support team. You'll lead the charge in developing and enhancing our customer support products, driving transformation in our service offerings.\n Get to Know the Role \n As a Lead Product Manager, you'll be at the forefront of shaping our customer support solutions to align with business goals and customer needs. Your insights will steer our innovative service enhancements. You will report to the Senior Product Leader for Grab Support and work onsite at the Grab One North Office.\n The Critical Tasks You Will Perform \n Own the end-to-end product strategy for support capabilities, focusing on upstream prevention (reducing issue creation through better product, policy, and signal design).\n Partner closely with cross-functional teams to build and prioritise roadmaps that systematically improve first-contact resolution and lower reliance on manual agent handling.\n Use customer data, operational signals, and support metrics to identify root causes of issues, distinguish signal vs noise, and drive product decisions that eliminate recurring failure modes rather than treating symptoms.\n Work hand-in-hand with engineering to deliver scalable, reliable solutions that balance automation, controls, and edge-case handling, ensuring graceful fallbacks when automation or upstream systems fail.\n Act as a thought leader in redefining how support should work at Grab, shaping the move from reactive, ticket-based support to proactive, conversational, and AI-driven experiences.\n Stay ahead of industry trends in AI, automation, and customer experience, and apply these learnings pragmatically to evolve Grab's support capabilities.\n Clearly communicate product strategy, trade-offs, and performance to senior leadership and stakeholders, grounding discussions in data and consumer impact.\n What Essential Skills You Will Need \n 8+ years of product experience, with mandatory hands-on experience shipping GenAI products across any domain.\n Strong product intuition backed by data, with the ability to identify high-leverage problems and make sound trade-offs in ambiguous environments.\n Proven experience driving complex, cross-functional initiatives from problem discovery through delivery at scale.\n Ability to translate abstract strategy into clear product direction, roadmaps, and execution plans that teams can align around.\n Senior-level judgment and leadership, with a track record of influencing stakeholders, mentoring PMs, and shaping product culture.\n Life at Grab \n We care about your well-being at Grab, here are some of the global benefits we offer:\n We have your back with Term Life Insurance and comprehensive Medical Insurance. \n With GrabFlex, create a benefits package that suits your needs and aspirations.\n Celebrate moments that matter in life with loved ones through Parental and Birthday leave , and give back to your communities through Love-all-Serve-all (LASA) volunteering leave\n We have a confidential Grabber Assistance Programme to guide and uplift you and your loved ones through life's challenges.\n Balancing personal commitments and life's demands are made easier with our FlexWork arrangements such as differentiated hours\n What We Stand For At Grab \n We are committed to building an inclusive and equitable workplace that provides equal opportunity for Grabbers to grow and perform at their best. We consider all candidates fairly and equally regardless of nationality, ethnicity, race, religion, age, gender, family commitments, physical and mental impairments or disabilities, and other attributes that make them unique.",
    "visa": "",
    "score": 86,
    "notified": true
@@ -12561,8 +12606,8 @@
    "regions": [
     "India"
    ],
-   "last_seen": "2026-10-30",
-   "active": false,
+   "last_seen": "2026-11-03",
+   "active": true,
    "notified": true,
    "visa": "",
    "score": 57
@@ -12702,8 +12747,8 @@
    "regions": [
     "India"
    ],
-   "last_seen": "2026-10-22",
-   "active": false,
+   "last_seen": "2026-11-03",
+   "active": true,
    "notified": true,
    "visa": "",
    "score": 73
@@ -12825,8 +12870,8 @@
    "regions": [
     "India"
    ],
-   "last_seen": "2026-10-22",
-   "active": false,
+   "last_seen": "2026-11-03",
+   "active": true,
    "notified": true,
    "visa": "",
    "score": 73
@@ -13452,7 +13497,7 @@
    "regions": [
     "Europe"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "active": true,
    "visa": "",
    "score": 72,
@@ -14160,6 +14205,28 @@
    "notified": true,
    "visa": "",
    "score": 57
+  },
+  "qonto:7f6dff04-bf11-422c-8cee-cb0f8879872a": {
+   "first_seen": "2026-11-03",
+   "key": "qonto:7f6dff04-bf11-422c-8cee-cb0f8879872a",
+   "first_seen_at": "2026-11-03T09:39Z",
+   "company": "Qonto",
+   "tier": 2,
+   "title": "Senior Product Manager - Risk & Compliance",
+   "location": "Paris, France; Berlin, Germany; Milan, Italy; Barcelona, Spain; France; Remote",
+   "url": "https://jobs.ashbyhq.com/qonto/7f6dff04-bf11-422c-8cee-cb0f8879872a",
+   "source": "ashby",
+   "posted": "2026-10-19",
+   "level": "senior",
+   "regions": [
+    "Europe"
+   ],
+   "last_seen": "2026-11-03",
+   "active": true,
+   "desc": "\n[OUR MISSION AND CUSTOMERS] We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.7 on Trustpilot, https://www.trustpilot.com/review/qonto.com based on 60,000 reviews. Our culture https://qonto.com/en/careers/culture puts customer satisfaction at the core of what we do (more about our culture here https://medium.com/qonto-way/the-qonto-way-our-culture-is-our-strategy-90defd4895f9).\n\n\n\n[OUR JOURNEY] Founded in 2016 and launched in 2017 by Alexandre https://www.linkedin.com/in/aprot/ and Steve https://www.linkedin.com/in/steveanavi/, Qonto has grown to 1,700 Qontoers serving over 750,000 customers across 8 European countries. We have been profitable since 2023, and we are just getting started.\n\n\n\n[OUR BELIEFS] We hire for skills and potential. With 80+ nationalities, 45% women, of which 56% of women in our leadership team, diversity isn't a program; It's who we are. We've built a discrimination-free hiring process https://medium.com/qonto-way/a-recruiters-dilemma-confronting-bias-in-hiring-b78acce148eb because the best teams are built on merit.\n\n\n\n[AI AT QONTO] AI is deeply embedded in how we work (here https://medium.com/qonto-way/ai-at-qonto-vision-statement-725a7e2f659b) - Every Qontoer gets unlimited access to the best AI tools. We want people who experiment without waiting for permission, push AI beyond the obvious, know when to trust it, and when to question it.\n\n\n\n\nJoin us as a Product Manager for Risk & Compliance and help build one of the most sophisticated compliance engines in Europe. You'll own how Qonto verifies who its 600,000+ customers are — from their first sign-up to their next periodic review — under the guidance of Quentin, our Director of Product for Customer Lifecycle.\n\n\n \n\n➡️ What you'll do\n\n - Own entry-into-relationship checks: You'll shape the identity, fraud, and sanctions rules that decide who becomes a Qonto customer, across countries and business types.\n\n - Design agentic compliance workflows: You'll build AI-driven decisioning that automates routine checks end-to-end, reserving human judgment for the cases that truly need it.\n\n - Simplify periodic reviews: You'll rethink how we re-verify high-risk customers over time, cutting friction without cutting rigor.\n\n - Modernize the onboarding stack: You'll help migrate hundreds of Ops reviewers off a legacy tool onto a new, purpose-built workflow platform.\n\n - Partner daily with Ops: You'll ship changes that directly shape the daily work of a large, global operations team.\n\n \n\n➡️ What we're looking for\n\n - Compliance or risk product experience: You've shipped products in KYC, AML, fraud, or another regulated domain.\n\n - Complex rules, made simple: You know how to translate dense regulatory logic into clear, buildable workflows.\n\n - Ops-first mindset: You've partnered closely with operations teams and design for the people who use your tools every day.\n\n - AI-native workflow: You use AI to build faster, and you're excited to design agentic workflows that automate real decisions.\n\n - Fluent in English: You communicate comfortably in English.\n   \n\n \n\n➡️ What we can offer you\n\n - A domain mid-transformation: You'll join KYCB as it shifts from manual checks to agentic automation.\n\n - High-stakes impact: Your work will touch every Qonto customer, at every stage of their relationship with us.\n\n - A growing scope: As Qonto opens new markets and legal forms, your remit will keep expanding.\n\n - Direct access to leadership: You'll work closely with Quentin and the wider Customer Lifecycle product team on how Qonto builds trust at scale.\n   \n\n \n\n➡️ Your future manager\n\nYou'll report to Quentin https://www.linkedin.com/in/quentin-guironnet/?locale=en, Director of Product for Customer Lifecycle. Quentin started his career as a consultant in Paris before spending four years building products for a challenger bank in Kuala Lumpur, and he's been shaping Qonto's product org since 2021.\n\n\n\n[DIVERSITY] At Qonto, we understand that true diversity isn’t just about ticking boxes on a hiring checklist. Apply regardless of the boxes you tick - who knows? You may have the missing piece of the puzzle we’ve been searching for all along.\n\n\n\n[HIRING PROCESS DURATION] On average, our hiring process lasts 20 working days. More information on our candidate journey here https://qonto.com/en/careers/candidate-journey\n\n\n\n[DATA RETENTION] By applying, you agree that Qonto processes your personal data to assess your application. Your data is kept for up to 2 years in our candidate pool. Read our Privacy Notice https://qonto.com/en/legal-documents/privacy-notice for full details.\n\n ",
+   "visa": "",
+   "score": 79,
+   "notified": true
   },
   "qonto:cfbb1384-e651-43ef-98a7-c5a7891603bd": {
    "first_seen": "2026-10-26",
