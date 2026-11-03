@@ -8,19 +8,19 @@
  "Adobe": {
   "matched": 2,
   "ok": true,
-  "total": 276,
+  "total": 275,
   "via": "workday"
  },
  "Adyen": {
   "matched": 8,
   "ok": true,
-  "total": 241,
+  "total": 245,
   "via": "greenhouse"
  },
  "Affirm": {
   "matched": 9,
   "ok": true,
-  "total": 237,
+  "total": 238,
   "via": "greenhouse"
  },
  "Agoda": {
@@ -32,7 +32,7 @@
  "Airbnb": {
   "matched": 0,
   "ok": true,
-  "total": 212,
+  "total": 209,
   "via": "greenhouse"
  },
  "Airwallex": {
@@ -42,15 +42,15 @@
   "via": "ashby"
  },
  "Amazon": {
-  "matched": 83,
+  "matched": 84,
   "ok": true,
-  "total": 191,
+  "total": 196,
   "via": "amazon"
  },
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 676,
+  "total": 672,
   "via": "greenhouse"
  },
  "Apple": {
@@ -61,13 +61,13 @@
  "Asana": {
   "matched": 4,
   "ok": true,
-  "total": 108,
+  "total": 107,
   "via": "greenhouse"
  },
  "Atlassian": {
-  "matched": 5,
+  "matched": 4,
   "ok": true,
-  "total": 362,
+  "total": 363,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -85,31 +85,31 @@
  "Brex": {
   "matched": 2,
   "ok": true,
-  "total": 262,
+  "total": 270,
   "via": "greenhouse"
  },
  "Canva": {
   "matched": 0,
   "ok": true,
-  "total": 38,
+  "total": 36,
   "via": "smartrecruiters"
  },
  "Celonis": {
   "matched": 4,
   "ok": true,
-  "total": 226,
+  "total": 227,
   "via": "greenhouse"
  },
  "Cloudflare": {
   "matched": 6,
   "ok": true,
-  "total": 469,
+  "total": 465,
   "via": "greenhouse"
  },
  "Cohere": {
   "matched": 2,
   "ok": true,
-  "total": 120,
+  "total": 119,
   "via": "ashby"
  },
  "Cresta": {
@@ -121,7 +121,7 @@
  "Datadog": {
   "matched": 2,
   "ok": true,
-  "total": 403,
+  "total": 399,
   "via": "greenhouse"
  },
  "Decagon": {
@@ -133,7 +133,7 @@
  "Deliveroo": {
   "matched": 10,
   "ok": true,
-  "total": 201,
+  "total": 196,
   "via": "greenhouse"
  },
  "Delivery Hero": {
@@ -156,67 +156,67 @@
  "Ebury": {
   "matched": 7,
   "ok": true,
-  "total": 164,
+  "total": 162,
   "via": "greenhouse"
  },
  "Elastic": {
-  "matched": 20,
+  "matched": 21,
   "ok": true,
-  "total": 409,
+  "total": 414,
   "via": "greenhouse"
  },
  "ElevenLabs": {
   "matched": 1,
   "ok": true,
-  "total": 146,
+  "total": 150,
   "via": "ashby"
  },
  "Expedia Group": {
   "matched": 8,
   "ok": true,
-  "total": 56,
+  "total": 57,
   "via": "workday"
  },
  "Fivetran": {
   "matched": 2,
   "ok": true,
-  "total": 157,
+  "total": 158,
   "via": "greenhouse"
  },
  "Genesys": {
   "matched": 1,
   "ok": true,
-  "total": 187,
+  "total": 189,
   "via": "workday"
  },
  "Geotab": {
   "matched": 5,
   "ok": true,
-  "total": 64,
+  "total": 58,
   "via": "greenhouse"
  },
  "GetYourGuide": {
   "matched": 6,
   "ok": true,
-  "total": 68,
+  "total": 69,
   "via": "greenhouse"
  },
  "GitLab": {
-  "matched": 5,
+  "matched": 6,
   "ok": true,
-  "total": 234,
+  "total": 239,
   "via": "greenhouse"
  },
  "GoCardless": {
   "matched": 0,
   "ok": true,
-  "total": 26,
+  "total": 27,
   "via": "greenhouse"
  },
  "Google": {
-  "matched": 18,
+  "matched": 17,
   "ok": true,
-  "total": 75,
+  "total": 73,
   "via": "google"
  },
  "Grab": {
@@ -228,19 +228,19 @@
  "Grafana Labs": {
   "matched": 6,
   "ok": true,
-  "total": 124,
+  "total": 126,
   "via": "greenhouse"
  },
  "Intercom": {
   "matched": 6,
   "ok": true,
-  "total": 109,
+  "total": 108,
   "via": "greenhouse"
  },
  "JetBrains": {
   "matched": 3,
   "ok": true,
-  "total": 41,
+  "total": 40,
   "via": "greenhouse"
  },
  "Klarna": {
@@ -256,7 +256,7 @@
  "LinkedIn": {
   "matched": 0,
   "ok": true,
-  "total": 195,
+  "total": 198,
   "via": "smartrecruiters"
  },
  "LinkedIn (all companies)": {
@@ -286,7 +286,7 @@
  "Mentimeter": {
   "matched": 1,
   "ok": true,
-  "total": 16,
+  "total": 15,
   "via": "greenhouse"
  },
  "Meta": {
@@ -297,7 +297,7 @@
  "Microsoft": {
   "matched": 9,
   "ok": true,
-  "total": 83,
+  "total": 86,
   "via": "microsoft"
  },
  "Moneybox": {
@@ -309,31 +309,31 @@
  "MongoDB": {
   "matched": 7,
   "ok": true,
-  "total": 359,
+  "total": 358,
   "via": "greenhouse"
  },
  "Monzo": {
-  "matched": 3,
+  "matched": 1,
   "ok": true,
-  "total": 57,
+  "total": 56,
   "via": "greenhouse"
  },
  "N26": {
-  "matched": 2,
+  "matched": 4,
   "ok": true,
-  "total": 28,
+  "total": 32,
   "via": "greenhouse"
  },
  "Netflix": {
   "matched": 1,
   "ok": true,
-  "total": 160,
+  "total": 161,
   "via": "eightfold"
  },
  "New Relic": {
   "matched": 0,
   "ok": true,
-  "total": 48,
+  "total": 49,
   "via": "greenhouse"
  },
  "Nium": {
@@ -345,13 +345,13 @@
  "Okta": {
   "matched": 11,
   "ok": true,
-  "total": 395,
+  "total": 391,
   "via": "greenhouse"
  },
  "OpenAI": {
   "matched": 0,
   "ok": true,
-  "total": 804,
+  "total": 805,
   "via": "ashby"
  },
  "Oyster": {
@@ -369,37 +369,37 @@
  "Parloa": {
   "matched": 1,
   "ok": true,
-  "total": 46,
+  "total": 44,
   "via": "ashby"
  },
  "PayPal": {
   "matched": 1,
   "ok": true,
-  "total": 321,
+  "total": 315,
   "via": "workday"
  },
  "Payoneer": {
   "matched": 0,
   "ok": true,
-  "total": 102,
+  "total": 101,
   "via": "greenhouse"
  },
  "Pennylane": {
   "matched": 4,
   "ok": true,
-  "total": 189,
+  "total": 190,
   "via": "ashby"
  },
  "Qonto": {
   "matched": 4,
   "ok": true,
-  "total": 47,
+  "total": 51,
   "via": "ashby"
  },
  "Razorpay": {
   "matched": 2,
   "ok": true,
-  "total": 27,
+  "total": 26,
   "via": "greenhouse"
  },
  "Revolut": {
@@ -451,37 +451,37 @@
  "Spotify": {
   "matched": 12,
   "ok": true,
-  "total": 86,
+  "total": 84,
   "via": "lever"
  },
  "Stripe": {
   "matched": 13,
   "ok": true,
-  "total": 739,
+  "total": 738,
   "via": "greenhouse"
  },
  "SumUp": {
   "matched": 3,
   "ok": true,
-  "total": 356,
+  "total": 354,
   "via": "greenhouse"
  },
  "Synthesia": {
   "matched": 3,
   "ok": true,
-  "total": 31,
+  "total": 30,
   "via": "ashby"
  },
  "Tide": {
   "matched": 4,
   "ok": true,
-  "total": 88,
+  "total": 89,
   "via": "greenhouse"
  },
  "Toast": {
   "matched": 3,
   "ok": true,
-  "total": 342,
+  "total": 347,
   "via": "greenhouse"
  },
  "Trustpilot": {
@@ -493,7 +493,7 @@
  "Twilio": {
   "matched": 2,
   "ok": true,
-  "total": 133,
+  "total": 135,
   "via": "greenhouse"
  },
  "Uber": {
@@ -514,21 +514,21 @@
   "via": "ashby"
  },
  "Wise": {
-  "matched": 14,
+  "matched": 15,
   "ok": true,
-  "total": 409,
+  "total": 404,
   "via": "smartrecruiters"
  },
  "Wolt": {
   "matched": 1,
   "ok": true,
-  "total": 200,
+  "total": 193,
   "via": "greenhouse"
  },
  "Xendit": {
   "matched": 2,
   "ok": true,
-  "total": 19,
+  "total": 20,
   "via": "greenhouse"
  },
  "Zalando": {
@@ -543,9 +543,9 @@
   "via": "ashby"
  },
  "Zendesk": {
-  "matched": 4,
+  "matched": 2,
   "ok": true,
-  "total": 140,
+  "total": 118,
   "via": "workday"
  },
  "Zip": {
@@ -557,13 +557,13 @@
  "Zscaler": {
   "matched": 1,
   "ok": true,
-  "total": 364,
+  "total": 362,
   "via": "greenhouse"
  },
  "eBay": {
-  "matched": 12,
+  "matched": 13,
   "ok": true,
-  "total": 181,
+  "total": 184,
   "via": "workday"
  },
  "loveholidays": {
@@ -573,9 +573,9 @@
   "via": "ashby"
  },
  "n8n": {
-  "matched": 3,
+  "matched": 4,
   "ok": true,
-  "total": 51,
+  "total": 52,
   "via": "ashby"
  }
 }
