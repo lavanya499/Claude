@@ -64,6 +64,8 @@ h1, h2, h3 { font-family: var(--display); font-stretch: 118%; text-wrap: balance
 .brand { display: flex; align-items: baseline; gap: 10px; margin-right: auto; }
 .brand h1 { font-size: 18px; font-weight: 800; font-stretch: 125%; text-transform: uppercase; letter-spacing: 0.04em; color: var(--bg); }
 .brand .mono { font-size: 12px; color: var(--signal); letter-spacing: 0.08em; }
+.syncbtn { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--signal); background: transparent; border: 1px solid var(--signal); border-radius: 999px; padding: 3px 9px; cursor: pointer; align-self: center; }
+.syncbtn:disabled { opacity: 0.6; cursor: default; }
 .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
 .tab {
   border: 0; background: transparent; color: var(--bg); opacity: 0.72; padding: 6px 10px; border-radius: 4px; cursor: pointer;
@@ -217,7 +219,7 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
 
 <header class="sign">
   <div class="sign-in">
-    <div class="brand"><h1>SPM Departures</h1><span class="mono" id="synced">BOARD LOADING</span></div>
+    <div class="brand"><h1>SPM Departures</h1><span class="mono" id="synced">BOARD LOADING</span><button class="syncbtn" id="sync-now" hidden>Sync now</button></div>
     <nav class="tabs" role="tablist" aria-label="Sections">
       <button class="tab" role="tab" id="tab-tonight" data-view="tonight" aria-selected="true">Tonight</button>
       <button class="tab" role="tab" id="tab-board" data-view="board" aria-selected="false">All roles</button>
@@ -579,6 +581,52 @@ ul.tight { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
     saveTrack(j.id, { ...prev, status, reached: [...r], updated: new Date().toISOString(),
       job: { company: j.company, title: j.title, url: j.url, code: j.code, location: j.location, score: j.score } });
     renderAll();
+  }
+
+  // "Sync now": fires the on-demand routine that runs radar/NIGHTLY.md in a fresh Claude session.
+  // The routine writes sync/status (running, done, failed); this page only requests it.
+  const SYNC_TRIGGER = "trig_01ThFfPNcsZMFeJCvgUmeipg", SYNC_SERVER = "Claude Code Remote";
+  async function setupSync(db) {
+    const mcp = await window.claude?.use("mcp") ?? null;
+    const btn = $("#sync-now");
+    if (!mcp) return;  // no connector bridge in this view: keep the button hidden
+    let st = null;
+    const ago = (t) => { const m = Math.round((Date.now() - Date.parse(t)) / 6e4); return m < 60 ? m + " min ago" : Math.round(m / 60) + " h ago"; };
+    const busy = () => st && ["requested", "running"].includes(st.state)
+      && Date.now() - Date.parse(st.startedAt || st.requestedAt) < 45 * 6e4;
+    const draw = () => {
+      btn.hidden = false;
+      btn.disabled = busy();
+      btn.textContent = busy() ? "Syncing…" : st?.state === "failed" ? "Sync failed · retry" : "Sync now";
+      btn.title = busy() ? "A sync is running. The board updates by itself when it finishes (about 10–15 minutes)."
+        : st?.finishedAt ? `Last sync ${st.state === "done" ? "finished" : "stopped"} ${ago(st.finishedAt)}${st.summary ? ": " + st.summary : st.error ? ": " + st.error : ""}`
+        : "Pull the latest roles and job descriptions now.";
+    };
+    db.doc("sync/status").onSnapshot((s) => { st = s.exists ? s.data() : null; draw(); }, () => draw());
+    draw();
+    btn.addEventListener("click", async () => {
+      if (busy()) return;
+      btn.disabled = true; btn.textContent = "Starting…";
+      try {
+        await mcp.callTool(SYNC_SERVER, "fire_trigger", { trigger_id: SYNC_TRIGGER });
+        st = { state: "requested", requestedAt: new Date().toISOString() };
+        db.doc("sync/status").set(st).catch(() => {});
+        toast("Sync started. New roles and job descriptions land in about 10–15 minutes; this page updates by itself.");
+      } catch (e) {
+        const msg = {
+          approval_required: "Starting a sync needs your OK. Tap Sync now again and choose Allow.",
+          not_in_manifest: "Sync is turned off for this page. Turn on Claude Code Remote in the page's Permissions menu.",
+          server_not_connected: "Sync isn't available here. Open this page on claude.ai or in the Claude app while signed in.",
+          selection_required: "Choose which Claude Code Remote connector to use when claude.ai asks, then tap Sync now again.",
+          needs_reauth: "Reconnect Claude Code Remote in claude.ai Settings → Connectors, then try again.",
+          blocked_by_policy: "Your organization doesn't allow pages to start Claude sessions.",
+          tool_error: "Couldn't start the sync: " + (e.message || "the routine refused it") + ".",
+          server_unavailable: "No answer from Claude just now, so the sync may or may not have started. Check again in a few minutes before retrying.",
+        }[e?.code] || "The sync may or may not have started (" + (e?.code || "unknown error") + "). Check again in a few minutes before retrying.";
+        toast(msg);
+      }
+      draw();
+    });
   }
 
   function toast(msg) {
@@ -1104,6 +1152,7 @@ ${JSON.stringify(m)}`;
       S.board = { ...radar, jobs: [...radar.jobs, ...add] };
       renderAll();
     };
+    setupSync(db);
     db.doc("board/li").onSnapshot((s) => { live = s.exists ? (s.data().jobs || []) : []; S.liUpdated = s.exists ? s.data().updated : null; merge(); }, () => {});
     db.doc("board/current").onSnapshot((s) => { radar = s.exists ? s.data() : null; merge(); }, () => {});
     db.doc("board/web").onSnapshot((s) => { web = s.exists ? (s.data().jobs || []) : []; merge(); }, () => {});
