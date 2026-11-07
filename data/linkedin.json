@@ -1,11 +1,14 @@
 {
+"blocked_until": "2026-11-07T20:03Z",
 "health": {
-"calls": 30,
-"cards": 273,
-"errors": 0,
-"new": 92,
-"requests": 30,
-"window_min": 407
+"calls": 1,
+"cards": 0,
+"errors": 1,
+"last_error": "HTTPError: HTTP Error 429: Too Many Requests",
+"new": 0,
+"rate_limited": true,
+"requests": 1,
+"window_min": 274
 },
 "jobs": {
 "3566458861": {
@@ -173,24 +176,6 @@
 "url": "https://www.linkedin.com/jobs/view/4268408753/",
 "visa": ""
 },
-"4291614422": {
-"company": "AXA Group Operations",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4291614422",
-"level": "unlevelled",
-"location": "Madrid, Community of Madrid, Spain",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:49Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Agile Risk Operation Center Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4291614422/",
-"visa": ""
-},
 "4336811326": {
 "company": "Scale",
 "dup": false,
@@ -225,24 +210,6 @@
 "tier": 3,
 "title": "Product Manager of AI Applications, Global Public Sector",
 "url": "https://www.linkedin.com/jobs/view/4336821317/",
-"visa": ""
-},
-"4337212765": {
-"company": "YES BANK",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4337212765",
-"level": "unlevelled",
-"location": "Mumbai Metropolitan Region",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:58Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager Custody CMS",
-"url": "https://www.linkedin.com/jobs/view/4337212765/",
 "visa": ""
 },
 "4342071464": {
@@ -495,24 +462,6 @@
 "tier": 3,
 "title": "Senior Product Manager (Pass)",
 "url": "https://www.linkedin.com/jobs/view/4385578372/",
-"visa": ""
-},
-"4392484310": {
-"company": "Partly",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4392484310",
-"level": "reach",
-"location": "Auckland, Auckland, New Zealand",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:57Z",
-"regions": [
-"New Zealand"
-],
-"score": 54,
-"tier": 3,
-"title": "Senior/Staff Product Manager, NZ, Infrastructure APIs & Developer Ecosystem",
-"url": "https://www.linkedin.com/jobs/view/4392484310/",
 "visa": ""
 },
 "4392596451": {
@@ -1095,24 +1044,6 @@
 "url": "https://www.linkedin.com/jobs/view/4417982255/",
 "visa": ""
 },
-"4419258374": {
-"company": "Onepoint",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4419258374",
-"level": "unlevelled",
-"location": "Nantes, Pays de la Loire, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:50Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Data Product Owner F/H",
-"url": "https://www.linkedin.com/jobs/view/4419258374/",
-"visa": ""
-},
 "4420199071": {
 "alerted": true,
 "company": "Meta",
@@ -1276,24 +1207,6 @@
 "url": "https://www.linkedin.com/jobs/view/4423226115/",
 "visa": ""
 },
-"4424001120": {
-"company": "Eltropy",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4424001120",
-"level": "senior",
-"location": "Hyderabad, Telangana, India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:58Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager (Integrations)",
-"url": "https://www.linkedin.com/jobs/view/4424001120/",
-"visa": ""
-},
 "4424020263": {
 "company": "GovTech Singapore",
 "dup": false,
@@ -1310,24 +1223,6 @@
 "tier": 3,
 "title": "Product Manager, Data Programme (MOE)",
 "url": "https://www.linkedin.com/jobs/view/4424020263/",
-"visa": ""
-},
-"4424067307": {
-"company": "GovTech Singapore",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4424067307",
-"level": "senior",
-"location": "Singapore, Singapore",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:56Z",
-"regions": [
-"Singapore"
-],
-"score": 67,
-"tier": 3,
-"title": "Lead Product Manager, HRMS Transformation & Modernisation",
-"url": "https://www.linkedin.com/jobs/view/4424067307/",
 "visa": ""
 },
 "4424094974": {
@@ -1546,24 +1441,6 @@
 "url": "https://www.linkedin.com/jobs/view/4425920395/",
 "visa": ""
 },
-"4427557758": {
-"company": "ISA",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4427557758",
-"level": "unlevelled",
-"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:02Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4427557758/",
-"visa": ""
-},
 "4430215280": {
 "company": "Legora",
 "dup": false,
@@ -1689,24 +1566,6 @@
 "tier": 3,
 "title": "Lead Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4432641717/",
-"visa": ""
-},
-"4432644010": {
-"company": "Ingram Micro",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4432644010",
-"level": "senior",
-"location": "Petaling Jaya, Selangor, Malaysia",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:45Z",
-"regions": [
-"Malaysia"
-],
-"score": 70,
-"tier": 3,
-"title": "Sr Product Manager - Storage",
-"url": "https://www.linkedin.com/jobs/view/4432644010/",
 "visa": ""
 },
 "4433066428": {
@@ -2142,24 +2001,6 @@
 "url": "https://www.linkedin.com/jobs/view/4435184041/",
 "visa": ""
 },
-"4435465222": {
-"company": "Arcesium",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4435465222",
-"level": "unlevelled",
-"location": "Hyderabad, Telangana, India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:58Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager - Opterra - Performance & Investor Allocations (PerformA)",
-"url": "https://www.linkedin.com/jobs/view/4435465222/",
-"visa": ""
-},
 "4436737544": {
 "company": "RIB Software",
 "dup": false,
@@ -2392,24 +2233,6 @@
 "tier": 2,
 "title": "Senior Product Manager - Banking Networks Global",
 "url": "https://www.linkedin.com/jobs/view/4440796112/",
-"visa": ""
-},
-"4440848692": {
-"company": "BeyondTrust",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4440848692",
-"level": "senior",
-"location": "Canada",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:35Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Sr Product Manager- Remote",
-"url": "https://www.linkedin.com/jobs/view/4440848692/",
 "visa": ""
 },
 "4441817767": {
@@ -2718,24 +2541,6 @@
 "url": "https://www.linkedin.com/jobs/view/4446306288/",
 "visa": ""
 },
-"4446733991": {
-"company": "Groupe SII",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4446733991",
-"level": "unlevelled",
-"location": "Le Mans, Pays de la Loire, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:47Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner Data F/H",
-"url": "https://www.linkedin.com/jobs/view/4446733991/",
-"visa": ""
-},
 "4448441417": {
 "company": "Bonduelle",
 "dup": false,
@@ -2934,24 +2739,6 @@
 "url": "https://www.linkedin.com/jobs/view/4449872101/",
 "visa": ""
 },
-"4449967014": {
-"company": "Motorola Solutions",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4449967014",
-"level": "senior",
-"location": "Greater Vancouver Metropolitan Area",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:44Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Sr. Product Manager - Video Devices",
-"url": "https://www.linkedin.com/jobs/view/4449967014/",
-"visa": ""
-},
 "4450010764": {
 "company": "Docplanner",
 "dup": false,
@@ -3022,24 +2809,6 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4450245287/",
-"visa": ""
-},
-"4450305841": {
-"company": "AVEVA",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4450305841",
-"level": "senior",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:57Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4450305841/",
 "visa": ""
 },
 "4450355108": {
@@ -3710,24 +3479,6 @@
 "url": "https://www.linkedin.com/jobs/view/4458930958/",
 "visa": ""
 },
-"4458946632": {
-"company": "GovTech Singapore",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4458946632",
-"level": "senior",
-"location": "Singapore",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:56Z",
-"regions": [
-"Singapore"
-],
-"score": 67,
-"tier": 3,
-"title": "Senior Product Manager (MOH)",
-"url": "https://www.linkedin.com/jobs/view/4458946632/",
-"visa": ""
-},
 "4458961972": {
 "company": "Bolt",
 "dup": false,
@@ -3762,24 +3513,6 @@
 "tier": 2,
 "title": "Product Manager, Homepage",
 "url": "https://www.linkedin.com/jobs/view/4458975517/",
-"visa": ""
-},
-"4458998067": {
-"company": "Fortnox",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4458998067",
-"level": "unlevelled",
-"location": "Växjö, Kronoberg County, Sweden",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager - Inköp",
-"url": "https://www.linkedin.com/jobs/view/4458998067/",
 "visa": ""
 },
 "4459228865": {
@@ -3961,24 +3694,6 @@
 "tier": 3,
 "title": "Product Manager Service",
 "url": "https://www.linkedin.com/jobs/view/4459789331/",
-"visa": ""
-},
-"4459827121": {
-"company": "Polène Paris",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4459827121",
-"level": "senior",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:56Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4459827121/",
 "visa": ""
 },
 "4459861429": {
@@ -5372,24 +5087,6 @@
 "url": "https://www.linkedin.com/jobs/view/4464204269/",
 "visa": ""
 },
-"4464235483": {
-"company": "LawDepot",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4464235483",
-"level": "unlevelled",
-"location": "Edmonton, Alberta, Canada",
-"posted": "2026-11-05",
-"posted_ts": "2026-10-31T16:57Z",
-"regions": [
-"Canada"
-],
-"score": 51,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4464235483/",
-"visa": ""
-},
 "4464301856": {
 "company": "Avensys Consulting",
 "dup": false,
@@ -5460,42 +5157,6 @@
 "tier": 3,
 "title": "CDI - Product Manager - pole Monétisation- (H/F/X)",
 "url": "https://www.linkedin.com/jobs/view/4465692736/",
-"visa": ""
-},
-"4466055907": {
-"company": "Johnson & Johnson MedTech",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4466055907",
-"level": "senior",
-"location": "Mumbai Metropolitan Region",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:58Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4466055907/",
-"visa": ""
-},
-"4466675184": {
-"company": "EY",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4466675184",
-"level": "unlevelled",
-"location": "Katowice, Śląskie, Poland",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:38Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Talent Solutions Cross Functional AI Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4466675184/",
 "visa": ""
 },
 "4466995290": {
@@ -5604,42 +5265,6 @@
 "tier": 3,
 "title": "Principal Technology Product Manager (Brightflag)",
 "url": "https://www.linkedin.com/jobs/view/4468000805/",
-"visa": ""
-},
-"4468017241": {
-"company": "Jeppesen ForeFlight",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4468017241",
-"level": "senior",
-"location": "Gdańsk, Pomorskie, Poland",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T16:56Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Sr Product Manager Specialist II – GDM Tools",
-"url": "https://www.linkedin.com/jobs/view/4468017241/",
-"visa": ""
-},
-"4468021586": {
-"company": "MaintainX",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4468021586",
-"level": "reach",
-"location": "Toronto, Ontario, Canada",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:57Z",
-"regions": [
-"Canada"
-],
-"score": 51,
-"tier": 3,
-"title": "Principal Product Manager, ROI & Reporting",
-"url": "https://www.linkedin.com/jobs/view/4468021586/",
 "visa": ""
 },
 "4468030528": {
@@ -6038,24 +5663,6 @@
 "url": "https://www.linkedin.com/jobs/view/4468690360/",
 "visa": ""
 },
-"4468693353": {
-"company": "Amazon",
-"dup": true,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4468693353",
-"level": "senior",
-"location": "Vancouver, British Columbia, Canada",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:57Z",
-"regions": [
-"Canada"
-],
-"score": 87,
-"tier": 1,
-"title": "Sr. Product Manager, AICE - AI Center of Excellence",
-"url": "https://www.linkedin.com/jobs/view/4468693353/",
-"visa": ""
-},
 "4468768881": {
 "company": "Clio",
 "dup": false,
@@ -6217,24 +5824,6 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4469132874/",
-"visa": ""
-},
-"4469153433": {
-"company": "Microsoft",
-"dup": true,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4469153433",
-"level": "reach",
-"location": "Hyderabad, Telangana, India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:58Z",
-"regions": [
-"India"
-],
-"score": 67,
-"tier": 1,
-"title": "Principal Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4469153433/",
 "visa": ""
 },
 "4469154926": {
@@ -7271,7 +6860,6 @@
 },
 "4470210507": {
 "company": "Amazon",
-"desc": "Description\n Amazon Customer Service (CS) is a large and global organization, obsessed with taking care of our customers and delivering reliably fast, convenient, and helpful support when they need it. Whether customers interact with our self-serve solutions or CS Associates, we work hard to make sure they have a delightful experience with us, each and every time.\nWe are looking for an experienced customer-obsessed product leader to join us in the Customer Experience Improvement org within Customer Service. You will be a part of the Emerging Stores team of product managers, program managers and business analysts who dig deep into customer friction, trace it back to its source, and drive upstream and downstream product and programmatic improvements to improve CX. You and your team will own the roadmap of Emerging Stores CX strategic initiatives while also responding to emerging issues that need immediate attention.\nKey job responsibilities\nThe role requires someone who can use significant expertise and high judgment to distill diverse inputs from large customer segments and stakeholders to set a vision and design the right long-term solutions. You will spend your time analyzing customer friction data to identify the biggest opportunities and building compelling cases for improvements. This means diving deep into significantly complex problems where defects create friction across multiple parts of the customer journey. You will work across multiple organizations and leadership to influence and achieve consensus on priorities.\nYou will partner on product and technology solutions within and outside the Amazon Customer Service org to drive high impact innovation and improvements that can transform the service experience we offer to our customers.\nYou will create mechanisms that make defect elimination sustainable. This includes building dashboards and tools that show customer impact, designing processes that catch problems before they reach customers, and establishing metrics that keep everyone focused on goals. You will be regularly working at both tactical and strategic levels to deliver results.\n This Is The Right Role For You If\n You can handle significantly complex problems and efforts, with the ability to see both visible and not-yet-visible risks.\nYou excel at taking complex technical problems and explaining them clearly to drive consensus among stakeholders.\nYou can work strategically to determine where resources are best applied while actively working to remove bottlenecks.\nYou create scalable mechanisms and best practices while effectively influencing and force multiplying across organizations.\nYou have deep customer obsession and can translate that into measurable improvements in customer experience.\nA day in the life\nLead customer experience workstreams by proactively identifying and eliminating sources of friction.\nCreate scalable mechanisms to work across cross-functional teams and drive organizational change.\nEstablish data-driven approaches to detect issues, surface customer pain points and drive upstream action across organizations.\nUnderstand how AI is reshaping CX product architectures, product development and customer workflows; apply AI to enable faster learning cycles, accelerate development, make better decisions and unlock new forms of innovation\nInfluence strategic direction, customer adoption decisions, engineering and business approach (internally and externally if applicable), vendors, partners, and organization p",
 "dup": true,
 "first_seen_at": "2026-11-04T16:34Z",
 "id": "4470210507",
@@ -8335,24 +7923,6 @@
 "url": "https://www.linkedin.com/jobs/view/4475191988/",
 "visa": ""
 },
-"4475244414": {
-"company": "Deel",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4475244414",
-"level": "senior",
-"location": "Sweden",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:56Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager II - Tax Filling",
-"url": "https://www.linkedin.com/jobs/view/4475244414/",
-"visa": ""
-},
 "4475268212": {
 "company": "JustPlay",
 "dup": false,
@@ -8389,42 +7959,6 @@
 "url": "https://www.linkedin.com/jobs/view/4475269422/",
 "visa": ""
 },
-"4475272347": {
-"company": "Deel",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4475272347",
-"level": "unlevelled",
-"location": "Sweden",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Country Product Manager - Sweden",
-"url": "https://www.linkedin.com/jobs/view/4475272347/",
-"visa": ""
-},
-"4475274270": {
-"company": "Deel",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4475274270",
-"level": "unlevelled",
-"location": "Denmark",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Country Product Manager - Sweden",
-"url": "https://www.linkedin.com/jobs/view/4475274270/",
-"visa": ""
-},
 "4475279094": {
 "company": "Airbus",
 "dup": false,
@@ -8444,24 +7978,6 @@
 "url": "https://www.linkedin.com/jobs/view/4475279094/",
 "visa": ""
 },
-"4475297713": {
-"company": "Airbus",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4475297713",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Agnet - Responsable de Produit / Product Owner Telecoms & Solutions Critiques (f/h)",
-"url": "https://www.linkedin.com/jobs/view/4475297713/",
-"visa": ""
-},
 "4475575951": {
 "company": "Flix",
 "dup": false,
@@ -8478,24 +7994,6 @@
 "tier": 3,
 "title": "Senior Product Owner (m/f/d)",
 "url": "https://www.linkedin.com/jobs/view/4475575951/",
-"visa": ""
-},
-"4475625348": {
-"company": "Palo Alto Networks",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4475625348",
-"level": "reach",
-"location": "Bengaluru East, Karnataka, India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T16:58Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Principal Product Manager (Gateway, Prisma AIRS) - NetSec",
-"url": "https://www.linkedin.com/jobs/view/4475625348/",
 "visa": ""
 },
 "4475629105": {
@@ -8735,7 +8233,6 @@
 "4476441345": {
 "alerted": true,
 "company": "Cloudflare",
-"desc": "About Us\n At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.\nAt Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.\n Available Locations: Austin or London\n About The Role\n Workers for Platforms lets anyone build their own platform on top of Cloudflare’s Developer Platform, turning Cloudflare’s infrastructure, compute and storage primitives into a programmable foundation others can build on.\nAs a Product Manager for Workers for Platforms, you’ll define and execute the strategy that helps developers build platform businesses on top of Cloudflare. You’ll collaborate closely with engineering, partnerships, and design to make Cloudflare’s primitives — Workers, Durable Objects, Agents, AI inference, and more — composable for any company to use as their own infrastructure.\n What You’ll Do\n Drive the strategy and roadmap for Workers for Platforms\n Work hands-on directly with some of Cloudflare’s biggest customers, every day\n Define the APIs, management layers, and developer experience that make it possible for customers to extend Cloudflare’s developer platform to their own customers.\n Get in the details of APIs we provide to developers, working closely with engineers\n Represent Cloudflare externally\n Examples Of Desirable Skills, Knowledge And Experience\n The ideal candidate is entrepreneurial-minded and thrives in a fast-paced and goal-driven environment.\nYou do whatever it takes to ship and solve problems for customers — whether that means writing code, debugging with a customer, writing docs or learning how to do something new to you. Successful PMs at Cloudflare are unafraid to roll up sleeves, get into details and ask questions.\n You use AI effectively to move faster and learn faster.\n You show rather than tell — using code examples, demos, prototypes\n Developer focus — you’ll be working directly, and often be a part of the customers team in helping them get their initial implementation off the ground\n Strong technical abilities. You are capable of wading into the details & understanding engineering decisions’ impact on the product, but c",
 "dup": false,
 "first_seen_at": "2026-11-04T16:34Z",
 "id": "4476441345",
@@ -9526,42 +9023,6 @@
 "tier": 3,
 "title": "Senior Product Manager - Tech, Prime Video Commerce",
 "url": "https://www.linkedin.com/jobs/view/4477837606/",
-"visa": ""
-},
-"4477865855": {
-"company": "TD",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4477865855",
-"level": "unlevelled",
-"location": "Toronto, Ontario, Canada",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:57Z",
-"regions": [
-"Canada"
-],
-"score": 51,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4477865855/",
-"visa": ""
-},
-"4477893801": {
-"company": "FCC / FAC",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4477893801",
-"level": "senior",
-"location": "Regina, Saskatchewan, Canada",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T15:57Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Senior Product Owner, Business Enablement",
-"url": "https://www.linkedin.com/jobs/view/4477893801/",
 "visa": ""
 },
 "4477911782": {
@@ -11013,7 +10474,6 @@
 },
 "4479222672": {
 "company": "Amazon",
-"desc": "Description\n Amazon Business customers buy at a scale most retail systems were never built for: a school district ordering 2,000 chairs, a contractor ordering 900 boxes of fasteners, a hospital restocking an entire floor. Today those orders often arrive as dozens of separate boxes over many days, and we are rebuilding how Amazon fulfills them.\nYou will own the product roadmap for bulk and large order fulfillment at Amazon Business. The goal is simple to state and hard to build: a customer places one large order, picks one date, and receives it once, in the form factor that fits their dock and their crew. Getting there means changing how Amazon sources, consolidates, packs and ships large orders, working shoulder to shoulder with the engineering teams that own fulfillment planning and fulfillment center operations. This is a builder role with a funded roadmap and direct exposure to senior leaders across Amazon Business, supply chain and operations.\nKey job responsibilities\nOwn the product roadmap for bulk and large order fulfillment, from customer problem through launch and measured outcome.\nWrite the documents that get the work funded and built: PRFAQs, business requirements documents, and annual and three year planning inputs.\nAct as the requirements owner with partner engineering teams in fulfillment planning and fulfillment center technology, not a ticket filer. Negotiate scope, sequence and dependencies directly with their product and engineering leaders.\nDefine how Amazon consolidates a large order into as few deliveries as possible, including palletized delivery and customer selected delivery dates.\nDefine how a request for many individual units can be served from cases and pallets of the same product, working through the inventory, receive and pick changes that requires.\nBuild the case for dedicated bulk fulfillment capacity, including moving product from suppliers to customers without a putaway step.\nReplace manual operator work with automation across sourcing, consolidation and promise, and track the reduction.\nOwn the metrics: deliveries per order, delivery date accuracy, ship cost per unit and contribution profit per unit. Pull your own data and defend your own numbers.\nA day in the life\nYou will spend your day between customers and builders. Mornings often start in the data, checking how last week's large orders actually shipped and where they fragmented. From there it is working sessions with fulfillment planning and fulfillment center engineering teams on requirements, a review with operations leaders on the manual work still left in the flow, and time with Amazon Business sales and customer teams on what large buyers are asking for. You will write often, and you will present what you write to directors and above.\n About The Team\n Amazon Business (AB) launched in the United States in April 2015 with the vision of delivering a comprehensive procurement solution for business customers of all sizes. In the US, AB now serves Fortune 500 companies, hospital systems, local governments, and education organizations. To support AB's mission, the AB Operations team owns end to end customer experience for AB customers right from checkout to final mile delivery and sits under the broader Global Transportation Services (GTS). We are the Single Threaded WW Ops team driving B2B operations, developing products and programs unique to business customers, and enhancing the business delivery capabilities.\n Basic Qualifications\n 3+ years of pr",
 "dup": true,
 "first_seen_at": "2026-11-04T16:34Z",
 "id": "4479222672",
@@ -11355,24 +10815,6 @@
 "tier": 3,
 "title": "Product Manager — Brand Platform",
 "url": "https://www.linkedin.com/jobs/view/4479503345/",
-"visa": ""
-},
-"4479506675": {
-"company": "ELSA, Corp",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4479506675",
-"level": "unlevelled",
-"location": "India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T18:28Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager, B2C",
-"url": "https://www.linkedin.com/jobs/view/4479506675/",
 "visa": ""
 },
 "4479507276": {
@@ -12874,24 +12316,6 @@
 "url": "https://www.linkedin.com/jobs/view/4483309428/",
 "visa": ""
 },
-"4483938901": {
-"company": "Hilti Group",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4483938901",
-"level": "unlevelled",
-"location": "Boulogne-Billancourt, Île-de-France, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T16:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner (Data & AI)",
-"url": "https://www.linkedin.com/jobs/view/4483938901/",
-"visa": ""
-},
 "4483940981": {
 "company": "SMARTVÉLO",
 "dup": false,
@@ -12908,24 +12332,6 @@
 "tier": 3,
 "title": "Product Manager:in E-Bikes (m/w/d)",
 "url": "https://www.linkedin.com/jobs/view/4483940981/",
-"visa": ""
-},
-"4483941711": {
-"company": "Ria Money Transfer",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4483941711",
-"level": "unlevelled",
-"location": "Alcobendas, Community of Madrid, Spain",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T16:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager - Wallet",
-"url": "https://www.linkedin.com/jobs/view/4483941711/",
 "visa": ""
 },
 "4483944953": {
@@ -12980,24 +12386,6 @@
 "tier": 3,
 "title": "VodafoneThree - Product Manager - Identity",
 "url": "https://www.linkedin.com/jobs/view/4483953274/",
-"visa": ""
-},
-"4483956260": {
-"company": "Free-Work",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4483956260",
-"level": "unlevelled",
-"location": "St.-Cloud, Île-de-France, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager DBaaS H/F",
-"url": "https://www.linkedin.com/jobs/view/4483956260/",
 "visa": ""
 },
 "4483960832": {
@@ -16361,7 +15749,6 @@
 "4485081220": {
 "alerted": true,
 "company": "Cloudflare",
-"desc": "About Us\n At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.\nAt Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.\n Available Locations: Austin, London, or San Francisco (Hybrid)\n About The Team\n Search engines spent two decades learning what the web is worth: which pages are fresh, which sources are trusted, what people actually use. That knowledge came from watching how humans moved through the web.\nAgents break that loop. AI models are trained and grounded on the web, but they have little visibility into what's changed, what's authoritative, or what's been fabricated. Site owners have it worse: AI crawlers already request content anywhere from a hundred to tens of thousands of times for every visitor they send back, and most have no idea how, or whether, they show up in AI answers. Both sides of the market are flying blind.\nCloudflare sits in front of around 20% of the web and sees both sides of that exchange. Our team, the Agentic Internet team, is focused on making the web readable, discoverable, callable, and payable, built on open standards so no single company owns the rails. Signals & Data Products turns our network's view into products both sides can use: helping AI labs know what's fresh and trustworthy, and helping site owners see and shape how they show up in AI. Cloudflare believes in the open Internet, and we're in a position to help build the future where it thrives. Come help us make it happen! You can read more about some of our plans here and here.\n What You'll Do\n Drive the strategy for Signals, our web intelligence feed, and shape where our data products go next\n Define what makes a signal worth paying for (freshness, provenance, trust, real-world usage) using data from Cloudflare's network\n Build for both sides of the market: data products for AI labs, and visibility for site owners into how AI models find, use, and cite them\n Explore what comes next, from knowledge graphs to measuring how sites show up in AI answers\n Deliver product specifications, prototypes, product positioning, and high-impact launches\n Partne",
 "dup": false,
 "first_seen_at": "2026-11-04T16:34Z",
 "id": "4485081220",
@@ -16452,7 +15839,6 @@
 },
 "4485086997": {
 "company": "Cloudflare",
-"desc": "About Us\n At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.\nAt Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.\nRemote within: US, Canada, UK, Portugal\n About The Role\n New vulnerabilities can be exploited soon after public disclosure, leaving application owners little time to patch. Cloudflare can drastically reduce this exposure through managed WAF protections, ad-hoc emergency policies, and tools that help customers identify affected applications and remediate them.\nAs Senior Product Manager for Zero-Day Protection, your goal is to help protect more than 20% of the Internet from HTTP-exploitable vulnerabilities and attacks. You will own the strategy, roadmap, execution, and customer experience for Cloudflare’s zero-day protection products, beginning with WAF Managed Rules. The role also shapes how Cloudflare helps customers identify affected applications, deploy temporary mitigations, investigate active exploitation, and remediate vulnerable software.\n Responsibilities\n Product strategy and roadmap\n Own the strategy and roadmap for WAF Managed Rules and Cloudflare’s broader zero-day protection experience.\n Partner with other product and engineering teams to help customers identify exposure, deploy mitigations, investigate attacks, and remediate vulnerable software.\n Define how Managed Rules integrates with code scanning and exposure discovery to help customers identify applications affected by newly disclosed vulnerabilities.\n Prioritize shared security primitives, telemetry, and APIs that make emergency protections easier to automate across Cloudflare’s security products.\n Define workflows for creating, testing, deploying, and auditing ad-hoc emergency policies when a managed detection is not sufficient for a customer’s environment.\n Partner with the Cloudflare Security Research team to turn threat intelligence, vulnerability research, and detection opportunities into product priorities. Security provide technical guidance; the PM brings customer impact and product context.\n Partner with Security, Legal, and external researchers",
 "dup": true,
 "first_seen_at": "2026-11-04T16:34Z",
 "id": "4485086997",
@@ -16539,24 +15925,6 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4485158822/",
-"visa": ""
-},
-"4485161547": {
-"company": "Blackbaud India",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4485161547",
-"level": "reach",
-"location": "Hyderabad, Telangana, India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T16:58Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager, Principal",
-"url": "https://www.linkedin.com/jobs/view/4485161547/",
 "visa": ""
 },
 "4485164803": {
@@ -20381,60 +19749,6 @@
 "url": "https://www.linkedin.com/jobs/view/4485902730/",
 "visa": ""
 },
-"4485903765": {
-"company": "Docplanner",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4485903765",
-"level": "senior",
-"location": "Barcelona, Catalonia, Spain",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:58Z",
-"regions": [
-"Europe"
-],
-"score": 74,
-"tier": 3,
-"title": "Senior Product Manager – Marketplace (100% Remote within Spain)",
-"url": "https://www.linkedin.com/jobs/view/4485903765/",
-"visa": ""
-},
-"4485906629": {
-"company": "B. Braun Group",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4485906629",
-"level": "unlevelled",
-"location": "Katowice, Śląskie, Poland",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "PRODUCT MANAGER DS. ROZWIĄZAŃ CYFROWYCH W ZAKRESIE IMPLANTÓW ORTOPEDYCZNYCH I KRĘGOSŁUPOWYCH",
-"url": "https://www.linkedin.com/jobs/view/4485906629/",
-"visa": ""
-},
-"4485907520": {
-"company": "Bureau of Meteorology",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4485907520",
-"level": "senior",
-"location": "Melbourne, Victoria, Australia",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T16:56Z",
-"regions": [
-"Australia"
-],
-"score": 70,
-"tier": 3,
-"title": "Digital Product Lead",
-"url": "https://www.linkedin.com/jobs/view/4485907520/",
-"visa": ""
-},
 "4485908992": {
 "company": "Riverty",
 "dup": false,
@@ -20541,42 +19855,6 @@
 "tier": 3,
 "title": "Digital Product Owner (m/f/d)",
 "url": "https://www.linkedin.com/jobs/view/4485918873/",
-"visa": ""
-},
-"4485919347": {
-"company": "B. Braun Group",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4485919347",
-"level": "unlevelled",
-"location": "Gdańsk, Pomorskie, Poland",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:56Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "PRODUCT MANAGER DS. ROZWIĄZAŃ CYFROWYCH W ZAKRESIE IMPLANTÓW ORTOPEDYCZNYCH I KRĘGOSŁUPOWYCH",
-"url": "https://www.linkedin.com/jobs/view/4485919347/",
-"visa": ""
-},
-"4485919404": {
-"company": "Docplanner",
-"dup": false,
-"first_seen_at": "2026-10-31T18:56Z",
-"id": "4485919404",
-"level": "senior",
-"location": "Warsaw, Mazowieckie, Poland",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T17:57Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "AI Senior Product Manager, Patient Engagement (100% Remote within Poland)",
-"url": "https://www.linkedin.com/jobs/view/4485919404/",
 "visa": ""
 },
 "4485925302": {
@@ -32210,7 +31488,6 @@
 },
 "4487265393": {
 "company": "MongoDB",
-"desc": "MongoDB is seeking an exceptional Product Manager to own disaster recovery and business continuity for the world's leading developer data platform.\nIn this role, you will own the product vision, requirements, and execution plan for Standby Clusters, MongoDB's disaster recovery offering for both Atlas and Enterprise Advanced. Standby Clusters continuously replicates a production cluster to an isolated standby in a separate region, datacenter, or cloud provider, delivering sub-minute recovery time and near-zero data loss. You will work closely with engineering, customers in regulated industries, and the field to take the product from preview to GA and beyond, and to shape MongoDB's broader strategy for replication, recovery, and resilience.\nWe are looking to speak to candidates who are based in Dublin for our hybrid working model.\nResponsibilities:\n Develop and execute the product strategy and roadmap for Standby Clusters across Atlas and Enterprise Advanced, from public preview through GA and the post-GA feature set (planned failover and reverse sync, cross-cloud and multi-region topologies, scaling while linked, backup integration)\n Own the recovery objectives and the tradeoffs behind them: define and defend RTO and RPO targets, replication lag semantics, consistency guarantees across sharded clusters, and the behavior of failover, switchover, and failback\n Drive the product's position within MongoDB's resilience portfolio: when a customer should choose Standby Clusters versus multi-region clusters, backups and point-in-time restore, or Atlas Stream Processing, and how these offerings fit together\n Partner with customers in financial services, healthcare, and other regulated industries to translate compliance requirements (such as DORA and isolated-recovery-environment mandates) into product requirements, and run DR gamedays and design-partner programs with them\n Define the operator experience across the Atlas UI, Atlas Administration API, Ops Manager, CLI, and Terraform, including monitoring, alerting on replication lag and standby health, and the \"break glass\" path when the active region is unreachable\n Shape pricing and packaging for standby capacity and the associated storage and data transfer\n Collaborate with engineering on architecture decisions that affect customer-visible behavior, including replication through object storage, cluster-wide consistent timestamps, and dependencies on the Atlas control plane\n Gather and analyze usage data, failover outcomes, and customer feedback to drive improvements, and own the success metrics for adoption, standby creation time, and time-to-recovery\n Work with marketing, sales, and customer success on go-to-market, enablement, and launch readiness\n Stay current on disaster recovery, replication, and high-availability approaches across the database industry and cloud providers\n Requirements:\n Bachelor's degree or equivalent experience in Computer Science, Engineering, or a related field\n 5+ years of experience in product management or a deeply technical customer-facing role, focused on database systems, distributed systems, or infrastructure\n Deep understanding of durability, availability, and performance tradeoffs in distributed systems. Hands-on experience with replication, consensus, failover, backup and restore, or disaster recovery is strongly preferred\n Working knowledge of how production databases are operated: replica sets and sharding, consistency models, recovery objectives, maintenan",
 "dup": true,
 "first_seen_at": "2026-11-04T16:34Z",
 "id": "4487265393",
@@ -37645,8 +36922,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-11-07T02:06Z",
+"last_block_ping": "2026-11-07T19:23Z",
 "last_rollup": "2026-11-07T15:09Z",
 "last_scan": "2026-11-07T15:09Z",
-"updated": "2026-11-07T15:09Z"
+"updated": "2026-11-07T19:23Z"
 }
