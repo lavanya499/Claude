@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 08 Nov 00:53 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 08 Nov 04:21 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (3)
 
@@ -10,7 +10,7 @@ Updated 08 Nov 00:53 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 06 Nov 18:08 | Visa | [Director - Credit Product Lead, CEMEA](https://www.linkedin.com/jobs/view/4488149463/) | Dubai, Dubai, United Arab Emirates | stretch | 61 |
 | 06 Nov 13:59 | Agoda | [Senior Product Manager, Product Systems](https://www.linkedin.com/jobs/view/4486972165/) | Bangkok, Bangkok City, Thailand | senior | 83 |
 
-## Everyone else, every level except junior (601)
+## Everyone else, every level except junior (520)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
