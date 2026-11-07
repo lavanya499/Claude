@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-07 00:57 UTC · 460 open matches · 6 new in the last 24h · 96/98 sources healthy_
+_Updated 2026-11-07 07:15 UTC · 461 open matches · 7 new in the last 24h · 88/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -14,6 +14,7 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 86 | ⭐ Google | [Product Manager, GDM Robotics, DeepMind](https://www.google.com/about/careers/applications/jobs/results/88601134075126470-product-manager-gdm-robotics-deepmind) | Mountain View, CA, USA; London, UK |  | 2026-11-06 |
 | 83 | ⭐ Microsoft | [Senior Product Manager](https://apply.careers.microsoft.com/careers/job/1970393557041938) | India, Uttar Pradesh, Noida |  | 2026-11-06 |
 | 78 | Scale AI | [Product Manager, AI Applications](https://job-boards.greenhouse.io/scaleai/jobs/4751108005) | Kuwait City, Kuwait |  | 2026-11-06 |
+| 73 | ⭐ Amazon | [Principal Product Manager, Technical, Customer Anecdote Miner (CAM)](https://www.amazon.jobs/en/jobs/10599305/principal-product-manager-technical-customer-anecdote-miner-cam) | Bengaluru, Karnataka, IND |  | 2026-11-07 |
 
 ## UK — 107 open
 
@@ -202,7 +203,7 @@ _…and 74 more in data/jobs.json_
 | 48 | Airwallex | [Staff/Senior Product Manager (0-1 Billing)](https://jobs.ashbyhq.com/airwallex/2a471f31-9cc8-4ab5-9f6c-921fc1f137d6) | SG - Singapore; Singapore |  | 2026-01-28 |
 | 48 | Wise | [Director, Product Analytics (APAC)](https://jobs.smartrecruiters.com/Wise/744000154396550) | Singapore, , Singapore |  | 2026-10-08 |
 
-## India — 114 open
+## India — 115 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -267,24 +268,24 @@ _…and 74 more in data/jobs.json_
 | 76 | ⭐ Amazon | [Product Manager / Inventory Health Product, Amazon Now](https://www.amazon.jobs/en/jobs/10441689/product-manager-inventory-health-product-amazon-now) | Bengaluru, Karnataka, IND |  | 2026-06-08 |
 | 76 | ⭐ Google | [Product Manager, Google Cloud Business Platform](https://www.google.com/about/careers/applications/jobs/results/115864078936613574-product-manager-google-cloud-business-platform) | Hyderabad, Telangana, India; Bengaluru, Karnataka, India |  | 2026-10-26 |
 
-_…and 54 more in data/jobs.json_
+_…and 55 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
 | 1Password | ok | 78 | 7 |
-| Adobe | ok | 279 | 3 |
+| Adobe | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
 | Adyen | ok | 255 | 8 |
 | Affirm | ok | 223 | 9 |
 | Agoda | ok | 340 | 7 |
 | Airbnb | ok | 205 | 0 |
-| Airwallex | ok | 492 | 9 |
-| Amazon | ok | 191 | 80 |
-| Anthropic | ok | 677 | 0 |
+| Airwallex | ok | 493 | 9 |
+| Amazon | ok | 192 | 81 |
+| Anthropic | ok | 675 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 108 | 6 |
-| Atlassian | ok | 356 | 4 |
+| Atlassian | ok | 355 | 4 |
 | Bitpanda | ok | 43 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 268 | 2 |
@@ -293,7 +294,7 @@ _…and 54 more in data/jobs.json_
 | Cloudflare | ok | 464 | 5 |
 | Cohere | ok | 124 | 3 |
 | Cresta | ok | 92 | 1 |
-| Datadog | ok | 399 | 2 |
+| Datadog | ok | 400 | 2 |
 | Decagon | ok | 132 | 2 |
 | Deliveroo | ok | 199 | 10 |
 | Delivery Hero | ok | 600 | 6 |
@@ -302,9 +303,9 @@ _…and 54 more in data/jobs.json_
 | Ebury | ok | 162 | 4 |
 | Elastic | ok | 423 | 21 |
 | ElevenLabs | ok | 139 | 1 |
-| Expedia Group | ok | 54 | 7 |
+| Expedia Group | ok | 53 | 7 |
 | Fivetran | ok | 167 | 2 |
-| Genesys | ok | 199 | 1 |
+| Genesys | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
 | Geotab | ok | 62 | 5 |
 | GetYourGuide | ok | 0 | 0 |
 | GitLab | ok | 248 | 6 |
@@ -319,7 +320,7 @@ _…and 54 more in data/jobs.json_
 | LinkedIn | ok | 198 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 79 | 4 |
-| Mastercard | ok | 400 | 10 |
+| Mastercard | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
 | Meesho | ok | 53 | 3 |
 | Mentimeter | ok | 15 | 1 |
 | Meta | ok |  |  |
@@ -336,14 +337,14 @@ _…and 54 more in data/jobs.json_
 | Oyster | ok | 19 | 2 |
 | Paddle | ok | 15 | 1 |
 | Parloa | ok | 38 | 1 |
-| PayPal | ok | 314 | 1 |
+| PayPal | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
 | Payoneer | ok | 99 | 0 |
 | Pennylane | ok | 203 | 4 |
 | Qonto | ok | 53 | 3 |
 | Razorpay | ok | 22 | 3 |
 | Revolut | ok |  |  |
 | Rubrik | ok | 151 | 1 |
-| Salesforce | ok | 400 | 2 |
+| Salesforce | ⚠️ HTTPError: HTTP Error 500: Internal Server Error |  |  |
 | Scale AI | ok | 168 | 4 |
 | ServiceNow | ok | 600 | 5 |
 | Shopee | ok |  |  |
@@ -358,17 +359,17 @@ _…and 54 more in data/jobs.json_
 | Trustpilot | ok | 34 | 6 |
 | Twilio | ok | 128 | 2 |
 | Uber | ok |  |  |
-| Visa | ok | 400 | 7 |
+| Visa | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
 | Wealthsimple | ok | 42 | 1 |
 | Wise | ok | 413 | 16 |
 | Wolt | ok | 205 | 1 |
 | Xendit | ok | 17 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 35 | 10 |
-| Zendesk | ok | 125 | 2 |
+| Zendesk | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
 | Zip | ok | 96 | 2 |
 | Zscaler | ok | 375 | 0 |
-| eBay | ok | 193 | 13 |
+| eBay | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
 | loveholidays | ok | 18 | 3 |
 | n8n | ok | 48 | 4 |
 

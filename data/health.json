@@ -6,9 +6,8 @@
   "via": "ashby"
  },
  "Adobe": {
-  "matched": 3,
-  "ok": true,
-  "total": 279,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "ok": false,
   "via": "workday"
  },
  "Adyen": {
@@ -38,19 +37,19 @@
  "Airwallex": {
   "matched": 9,
   "ok": true,
-  "total": 492,
+  "total": 493,
   "via": "ashby"
  },
  "Amazon": {
-  "matched": 80,
+  "matched": 81,
   "ok": true,
-  "total": 191,
+  "total": 192,
   "via": "amazon"
  },
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 677,
+  "total": 675,
   "via": "greenhouse"
  },
  "Apple": {
@@ -67,7 +66,7 @@
  "Atlassian": {
   "matched": 4,
   "ok": true,
-  "total": 356,
+  "total": 355,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -121,7 +120,7 @@
  "Datadog": {
   "matched": 2,
   "ok": true,
-  "total": 399,
+  "total": 400,
   "via": "greenhouse"
  },
  "Decagon": {
@@ -174,7 +173,7 @@
  "Expedia Group": {
   "matched": 7,
   "ok": true,
-  "total": 54,
+  "total": 53,
   "via": "workday"
  },
  "Fivetran": {
@@ -184,9 +183,8 @@
   "via": "greenhouse"
  },
  "Genesys": {
-  "matched": 1,
-  "ok": true,
-  "total": 199,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "ok": false,
   "via": "workday"
  },
  "Geotab": {
@@ -272,9 +270,8 @@
   "via": "ashby"
  },
  "Mastercard": {
-  "matched": 10,
-  "ok": true,
-  "total": 400,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "ok": false,
   "via": "workday"
  },
  "Meesho": {
@@ -373,9 +370,8 @@
   "via": "ashby"
  },
  "PayPal": {
-  "matched": 1,
-  "ok": true,
-  "total": 314,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "ok": false,
   "via": "workday"
  },
  "Payoneer": {
@@ -414,9 +410,8 @@
   "via": "greenhouse"
  },
  "Salesforce": {
-  "matched": 2,
-  "ok": true,
-  "total": 400,
+  "error": "HTTPError: HTTP Error 500: Internal Server Error",
+  "ok": false,
   "via": "workday"
  },
  "Scale AI": {
@@ -502,9 +497,8 @@
   "via": "linkedin_company"
  },
  "Visa": {
-  "matched": 7,
-  "ok": true,
-  "total": 400,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "ok": false,
   "via": "workday"
  },
  "Wealthsimple": {
@@ -543,9 +537,8 @@
   "via": "ashby"
  },
  "Zendesk": {
-  "matched": 2,
-  "ok": true,
-  "total": 125,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "ok": false,
   "via": "workday"
  },
  "Zip": {
@@ -561,9 +554,8 @@
   "via": "greenhouse"
  },
  "eBay": {
-  "matched": 13,
-  "ok": true,
-  "total": 193,
+  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "ok": false,
   "via": "workday"
  },
  "loveholidays": {
