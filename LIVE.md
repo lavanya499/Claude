@@ -1,8 +1,8 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 08 Nov 14:02 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 08 Nov 21:04 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
-## Target companies (6)
+## Target companies (5)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
@@ -11,9 +11,8 @@ Updated 08 Nov 14:02 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 07 Nov 22:27 | ⭐ MongoDB | [Staff Product Manager, Atlas Infinite](https://www.linkedin.com/jobs/view/4480534624/) | Manitoba, Canada | reach | 71 |
 | 07 Nov 19:41 | Revolut | [Head of Product (Fraud)](https://www.linkedin.com/jobs/view/4415910264/) | Sweden | stretch | 65 |
 | 06 Nov 18:08 | Visa | [Director - Credit Product Lead, CEMEA](https://www.linkedin.com/jobs/view/4488149463/) | Dubai, Dubai, United Arab Emirates | stretch | 61 |
-| 06 Nov 13:59 | Agoda | [Senior Product Manager, Product Systems](https://www.linkedin.com/jobs/view/4486972165/) | Bangkok, Bangkok City, Thailand | senior | 83 |
 
-## Everyone else, every level except junior (498)
+## Everyone else, every level except junior (397)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
@@ -23,18 +22,18 @@ Updated 08 Nov 14:02 IST. Scanned every 15 minutes across 21 countries. A leadin
  4 hours ago | [Product Manager](https://www.linkedin.com/jobs/view/4487613650/) | Bengaluru, Karnataka, India | unlevelled | 47 |
 | 08 Nov 03:27 | Sophos | [Senior Product Manager, AI-Native Products](https://www.linkedin.com/jobs/view/4487605966/) | Canada | senior | 67 |
 | 08 Nov 00:28 | Sauce Labs | [Senior Product Manager](https://www.linkedin.com/jobs/view/4435575698/) | Gurgaon, Haryana, India | senior | 63 |
-| 08 Nov 00:02 | Capital One | [Lead Digital Product Manager](https://www.linkedin.com/jobs/view/4480554002/) | Nottingham, England, United Kingdom | senior | 70 |
 | 08 Nov 00:02 | Kainos | [Product Lead (Healthcare)](https://www.linkedin.com/jobs/view/4426569292/) | Belfast, Northern Ireland, United Kingdom | senior | 70 |
 | 08 Nov 00:02 | Capital One | [Lead Digital Product Manager](https://www.linkedin.com/jobs/view/4480551128/) | London, England, United Kingdom | senior | 70 |
+| 08 Nov 00:02 | Capital One | [Lead Digital Product Manager](https://www.linkedin.com/jobs/view/4480554002/) | Nottingham, England, United Kingdom | senior | 70 |
 | 07 Nov 23:28 | HG Insights | [Director, Data & AI Product Manager](https://www.linkedin.com/jobs/view/4429965799/) | Pune Division, Maharashtra, India | stretch | 41 |
 | 07 Nov 23:28 | Nobel Biocare | [Product Manager](https://www.linkedin.com/jobs/view/4475244388/) | Mumbai Metropolitan Region | unlevelled | 47 |
-| 07 Nov 23:02 | Ford Motor Company | [Product Manager](https://www.linkedin.com/jobs/view/4488735231/) | Chennai, Tamil Nadu, India | unlevelled | 47 |
-| 07 Nov 23:02 | Aditya Birla Capital | [Senior Product Owner (SAP)](https://www.linkedin.com/jobs/view/4463372373/) | Maharashtra, India | senior | 63 |
 | 07 Nov 23:02 | LSEG | [Product Manager, Community, Open Directory - Workspace](https://www.linkedin.com/jobs/view/4374644573/) | London, England, United Kingdom | stretch | 48 |
+| 07 Nov 23:02 | Kainos | [Product Lead (Healthcare)](https://www.linkedin.com/jobs/view/4426551414/) | Birmingham, England, United Kingdom | senior | 70 |
+| 07 Nov 23:02 | Aditya Birla Capital | [Senior Product Owner (SAP)](https://www.linkedin.com/jobs/view/4463372373/) | Maharashtra, India | senior | 63 |
+| 07 Nov 23:02 | FIS | [Product Manager Senior, Commercial](https://www.linkedin.com/jobs/view/4480528096/) | Ireland | senior | 70 |
 | 07 Nov 23:02 | Turnitin | [Product Manager, iThenticate (UK Remote)](https://www.linkedin.com/jobs/view/4480542463/) | Newcastle Upon Tyne, England, United Kingdom | unlevelled | 54 |
 | 07 Nov 23:02 | Turnitin | [Product Manager, iThenticate (UK Remote)](https://www.linkedin.com/jobs/view/4480551200/) | Leeds, England, United Kingdom | unlevelled | 54 |
-| 07 Nov 23:02 | Kainos | [Product Lead (Healthcare)](https://www.linkedin.com/jobs/view/4426551414/) | Birmingham, England, United Kingdom | senior | 70 |
-| 07 Nov 23:02 | FIS | [Product Manager Senior, Commercial](https://www.linkedin.com/jobs/view/4480528096/) | Ireland | senior | 70 |
+| 07 Nov 23:02 | Ford Motor Company | [Product Manager](https://www.linkedin.com/jobs/view/4488735231/) | Chennai, Tamil Nadu, India | unlevelled | 47 |
 | 07 Nov 22:27 | Redwood Software | [Lead Product Manager](https://www.linkedin.com/jobs/view/4470026891/) | Ontario, Canada | senior | 67 |
 | 07 Nov 22:02 | Invesco | [Sr Product Owner, BI & Analytics](https://www.linkedin.com/jobs/view/4443528051/) | Tirumalgiri, Telangana, India | senior | 63 |
 | 07 Nov 22:02 | Vendavo | [Principal Product Manager (Remote)](https://www.linkedin.com/jobs/view/4477749359/) | London, England, United Kingdom | reach | 54 |

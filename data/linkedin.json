@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-11-08T09:12Z",
+"blocked_until": "2026-11-08T16:14Z",
 "health": {
-"calls": 6,
-"cards": 50,
+"calls": 1,
+"cards": 0,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 15,
+"new": 0,
 "rate_limited": true,
-"requests": 6,
-"window_min": 1063
+"requests": 1,
+"window_min": 1440
 },
 "jobs": {
 "3566458861": {
@@ -19479,24 +19479,6 @@
 "url": "https://www.linkedin.com/jobs/view/4485952319/",
 "visa": ""
 },
-"4485956041": {
-"company": "Bureau of Meteorology",
-"dup": false,
-"first_seen_at": "2026-11-01T14:26Z",
-"id": "4485956041",
-"level": "senior",
-"location": "Melbourne, Victoria, Australia",
-"posted": "2026-11-01",
-"posted_ts": "2026-11-01T11:26Z",
-"regions": [
-"Australia"
-],
-"score": 70,
-"tier": 3,
-"title": "Digital Product Lead",
-"url": "https://www.linkedin.com/jobs/view/4485956041/",
-"visa": ""
-},
 "4485956102": {
 "company": "Riverty",
 "dup": false,
@@ -36377,8 +36359,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-11-08T08:32Z",
-"last_rollup": "2026-11-08T08:32Z",
+"last_block_ping": "2026-11-08T15:34Z",
+"last_rollup": "2026-11-08T15:34Z",
 "last_scan": "2026-11-07T15:09Z",
-"updated": "2026-11-08T08:32Z"
+"updated": "2026-11-08T15:34Z"
 }
