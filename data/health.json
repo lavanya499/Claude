@@ -6,8 +6,9 @@
   "via": "ashby"
  },
  "Adobe": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 3,
+  "ok": true,
+  "total": 278,
   "via": "workday"
  },
  "Adyen": {
@@ -19,7 +20,7 @@
  "Affirm": {
   "matched": 9,
   "ok": true,
-  "total": 223,
+  "total": 222,
   "via": "greenhouse"
  },
  "Agoda": {
@@ -43,7 +44,7 @@
  "Amazon": {
   "matched": 81,
   "ok": true,
-  "total": 192,
+  "total": 191,
   "via": "amazon"
  },
  "Anthropic": {
@@ -120,13 +121,13 @@
  "Datadog": {
   "matched": 2,
   "ok": true,
-  "total": 400,
+  "total": 401,
   "via": "greenhouse"
  },
  "Decagon": {
   "matched": 2,
   "ok": true,
-  "total": 132,
+  "total": 131,
   "via": "ashby"
  },
  "Deliveroo": {
@@ -161,7 +162,7 @@
  "Elastic": {
   "matched": 21,
   "ok": true,
-  "total": 423,
+  "total": 425,
   "via": "greenhouse"
  },
  "ElevenLabs": {
@@ -173,7 +174,7 @@
  "Expedia Group": {
   "matched": 7,
   "ok": true,
-  "total": 53,
+  "total": 54,
   "via": "workday"
  },
  "Fivetran": {
@@ -183,8 +184,9 @@
   "via": "greenhouse"
  },
  "Genesys": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 1,
+  "ok": true,
+  "total": 199,
   "via": "workday"
  },
  "Geotab": {
@@ -270,8 +272,9 @@
   "via": "ashby"
  },
  "Mastercard": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 10,
+  "ok": true,
+  "total": 400,
   "via": "workday"
  },
  "Meesho": {
@@ -294,7 +297,7 @@
  "Microsoft": {
   "matched": 9,
   "ok": true,
-  "total": 91,
+  "total": 90,
   "via": "microsoft"
  },
  "Moneybox": {
@@ -306,7 +309,7 @@
  "MongoDB": {
   "matched": 9,
   "ok": true,
-  "total": 375,
+  "total": 374,
   "via": "greenhouse"
  },
  "Monzo": {
@@ -348,7 +351,7 @@
  "OpenAI": {
   "matched": 0,
   "ok": true,
-  "total": 820,
+  "total": 818,
   "via": "ashby"
  },
  "Oyster": {
@@ -366,12 +369,13 @@
  "Parloa": {
   "matched": 1,
   "ok": true,
-  "total": 38,
+  "total": 44,
   "via": "ashby"
  },
  "PayPal": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 1,
+  "ok": true,
+  "total": 314,
   "via": "workday"
  },
  "Payoneer": {
@@ -410,8 +414,9 @@
   "via": "greenhouse"
  },
  "Salesforce": {
-  "error": "HTTPError: HTTP Error 500: Internal Server Error",
-  "ok": false,
+  "matched": 2,
+  "ok": true,
+  "total": 400,
   "via": "workday"
  },
  "Scale AI": {
@@ -452,13 +457,13 @@
  "Stripe": {
   "matched": 13,
   "ok": true,
-  "total": 765,
+  "total": 766,
   "via": "greenhouse"
  },
  "SumUp": {
   "matched": 3,
   "ok": true,
-  "total": 343,
+  "total": 342,
   "via": "greenhouse"
  },
  "Synthesia": {
@@ -497,8 +502,9 @@
   "via": "linkedin_company"
  },
  "Visa": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 7,
+  "ok": true,
+  "total": 400,
   "via": "workday"
  },
  "Wealthsimple": {
@@ -510,7 +516,7 @@
  "Wise": {
   "matched": 16,
   "ok": true,
-  "total": 413,
+  "total": 412,
   "via": "smartrecruiters"
  },
  "Wolt": {
@@ -537,8 +543,9 @@
   "via": "ashby"
  },
  "Zendesk": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 2,
+  "ok": true,
+  "total": 125,
   "via": "workday"
  },
  "Zip": {
@@ -554,8 +561,9 @@
   "via": "greenhouse"
  },
  "eBay": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 13,
+  "ok": true,
+  "total": 193,
   "via": "workday"
  },
  "loveholidays": {
