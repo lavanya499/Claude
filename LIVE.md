@@ -1,19 +1,33 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 08 Nov 04:21 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 08 Nov 07:27 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
-## Target companies (3)
+## Target companies (6)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 08 Nov 00:27 | ⭐ MongoDB | [Staff Product Manager, Atlas Infinite](https://www.linkedin.com/jobs/view/4480538350/) | Nova Scotia, Canada | reach | 71 |
+| 08 Nov 00:27 | ⭐ MongoDB | [Staff Product Manager, Atlas Infinite](https://www.linkedin.com/jobs/view/4480545004/) | Quebec, Canada | reach | 71 |
+| 07 Nov 22:27 | ⭐ MongoDB | [Staff Product Manager, Atlas Infinite](https://www.linkedin.com/jobs/view/4480534624/) | Manitoba, Canada | reach | 71 |
 | 07 Nov 19:41 | Revolut | [Head of Product (Fraud)](https://www.linkedin.com/jobs/view/4415910264/) | Sweden | stretch | 65 |
 | 06 Nov 18:08 | Visa | [Director - Credit Product Lead, CEMEA](https://www.linkedin.com/jobs/view/4488149463/) | Dubai, Dubai, United Arab Emirates | stretch | 61 |
 | 06 Nov 13:59 | Agoda | [Senior Product Manager, Product Systems](https://www.linkedin.com/jobs/view/4486972165/) | Bangkok, Bangkok City, Thailand | senior | 83 |
 
-## Everyone else, every level except junior (520)
+## Everyone else, every level except junior (529)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 08 Nov 04:28 | SCIKIQ | [Product Manager](https://www.linkedin.com/jobs/view/4486651958/) | Gurgaon, Haryana, India | unlevelled | 47 |
+| 08 Nov 03:28 | Bengaluru, Karnataka, India
+ Be an early applicant
+ 4 hours ago | [Product Manager](https://www.linkedin.com/jobs/view/4487613650/) | Bengaluru, Karnataka, India | unlevelled | 47 |
+| 08 Nov 03:27 | Sophos | [Senior Product Manager, AI-Native Products](https://www.linkedin.com/jobs/view/4487605966/) | Canada | senior | 67 |
+| 08 Nov 00:28 | Sauce Labs | [Senior Product Manager](https://www.linkedin.com/jobs/view/4435575698/) | Gurgaon, Haryana, India | senior | 63 |
+| 07 Nov 23:28 | HG Insights | [Director, Data & AI Product Manager](https://www.linkedin.com/jobs/view/4429965799/) | Pune Division, Maharashtra, India | stretch | 41 |
+| 07 Nov 23:28 | Nobel Biocare | [Product Manager](https://www.linkedin.com/jobs/view/4475244388/) | Mumbai Metropolitan Region | unlevelled | 47 |
+| 07 Nov 22:27 | Redwood Software | [Lead Product Manager](https://www.linkedin.com/jobs/view/4470026891/) | Ontario, Canada | senior | 67 |
+| 07 Nov 21:27 | EA SPORTS | [Senior Lead Game Product Manager - EA Sports FC](https://www.linkedin.com/jobs/view/4450197059/) | Vancouver, British Columbia, Canada | senior | 67 |
+| 07 Nov 21:27 | Kabam | [Senior Publishing Product Manager](https://www.linkedin.com/jobs/view/4480573670/) | Vancouver, British Columbia, Canada | senior | 67 |
 | 07 Nov 20:37 | Fever | [Senior Product Manager](https://www.linkedin.com/jobs/view/4242475871/) | Madrid, Community of Madrid, Spain | senior | 70 |
 | 07 Nov 20:37 | OpenText | [Principal Product Manager](https://www.linkedin.com/jobs/view/4460716658/) | Reading, England, United Kingdom | reach | 54 |
 | 07 Nov 20:34 | Dematic | [Product Manager, Fixed Case and Tote Storage(m/w/d)](https://www.linkedin.com/jobs/view/4470194207/) | Heusenstamm, Hesse, Germany | unlevelled | 54 |
@@ -125,12 +139,3 @@ Updated 08 Nov 04:21 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 07 Nov 10:15 | ABB | [Technical Product Owner - Embedded Systems](https://www.linkedin.com/jobs/view/4484991262/) | Västerås, Västmanland County, Sweden | unlevelled | 54 |
 | 07 Nov 10:15 | Evotym | [Card Issuing Product Owner](https://www.linkedin.com/jobs/view/4487381452/) | Poland | unlevelled | 54 |
 | 07 Nov 10:15 | EWOR | [Applied AI Co-Founder / Head of Product (100 % remote) (m/f/d)](https://www.linkedin.com/jobs/view/4487382434/) | Poland | stretch | 48 |
-| 07 Nov 10:15 | Modjo | [Technical Product Manager](https://www.linkedin.com/jobs/view/4487385389/) | Paris, Île-de-France, France | unlevelled | 54 |
-| 07 Nov 10:15 | EWOR | [Applied AI Co-Founder / Head of Product (100 % remote) (m/f/d)](https://www.linkedin.com/jobs/view/4487393273/) | Switzerland | stretch | 48 |
-| 07 Nov 10:15 | EWOR | [Applied AI Co-Founder / Head of Product (100 % remote) (m/f/d)](https://www.linkedin.com/jobs/view/4487393276/) | Sweden | stretch | 48 |
-| 07 Nov 10:15 | EWOR | [Fintech Co-Founder / Head of Product (100 % remote) (m/f/d)](https://www.linkedin.com/jobs/view/4487394228/) | Spain | stretch | 52 |
-| 07 Nov 10:15 | Modjo | [AI Product Manager](https://www.linkedin.com/jobs/view/4487600014/) | Paris, Île-de-France, France | unlevelled | 54 |
-| 07 Nov 10:15 | Lunar | [Senior Product Manager, Data Platform](https://www.linkedin.com/jobs/view/4488487238/) | Copenhagen, Capital Region of Denmark, Denmark | senior | 70 |
-| 07 Nov 10:14 | Coursera | [Staff Product Manager](https://www.linkedin.com/jobs/view/4480715115/) | Dublin, County Dublin, Ireland | reach | 54 |
-| 07 Nov 10:14 | Workday | [Principal Product Manager - Workday AI - Agent Factory](https://www.linkedin.com/jobs/view/4486604836/) | Dublin, County Dublin, Ireland | reach | 58 |
-| 07 Nov 10:14 | hireful | [Product Manager](https://www.linkedin.com/jobs/view/4486604844/) | Ladywood, England, United Kingdom | unlevelled | 54 |

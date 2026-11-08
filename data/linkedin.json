@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-11-07T23:31Z",
+"blocked_until": "2026-11-08T02:37Z",
 "health": {
-"calls": 1,
-"cards": 0,
+"calls": 11,
+"cards": 53,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 0,
+"new": 15,
 "rate_limited": true,
-"requests": 1,
-"window_min": 482
+"requests": 11,
+"window_min": 668
 },
 "jobs": {
 "3566458861": {
@@ -1423,6 +1423,24 @@
 "url": "https://www.linkedin.com/jobs/view/4425913853/",
 "visa": ""
 },
+"4429965799": {
+"company": "HG Insights",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4429965799",
+"level": "stretch",
+"location": "Pune Division, Maharashtra, India",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T17:58Z",
+"regions": [
+"India"
+],
+"score": 41,
+"tier": 3,
+"title": "Director, Data & AI Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4429965799/",
+"visa": ""
+},
 "4430215280": {
 "company": "Legora",
 "dup": false,
@@ -1945,6 +1963,24 @@
 "tier": 3,
 "title": "Product Manager - Carbon Management (m/f/x)",
 "url": "https://www.linkedin.com/jobs/view/4435184041/",
+"visa": ""
+},
+"4435575698": {
+"company": "Sauce Labs",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4435575698",
+"level": "senior",
+"location": "Gurgaon, Haryana, India",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T18:58Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4435575698/",
 "visa": ""
 },
 "4436737544": {
@@ -2719,6 +2755,24 @@
 "tier": 3,
 "title": "Staff Product Manager (Creator Platform Intelligence)",
 "url": "https://www.linkedin.com/jobs/view/4450127252/",
+"visa": ""
+},
+"4450197059": {
+"company": "EA SPORTS",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4450197059",
+"level": "senior",
+"location": "Vancouver, British Columbia, Canada",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T15:57Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Lead Game Product Manager - EA Sports FC",
+"url": "https://www.linkedin.com/jobs/view/4450197059/",
 "visa": ""
 },
 "4450355108": {
@@ -3642,6 +3696,24 @@
 "url": "https://www.linkedin.com/jobs/view/4459976580/",
 "visa": ""
 },
+"4459982242": {
+"company": "Mastercard",
+"dup": true,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4459982242",
+"level": "senior",
+"location": "Pune Division, Maharashtra, India",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T16:58Z",
+"regions": [
+"India"
+],
+"score": 76,
+"tier": 2,
+"title": "Lead Product Manager- Technical",
+"url": "https://www.linkedin.com/jobs/view/4459982242/",
+"visa": ""
+},
 "4459985308": {
 "company": "Ergon Informatik AG",
 "dup": false,
@@ -3767,6 +3839,24 @@
 "tier": 1,
 "title": "Senior Product Manager - UI Platform",
 "url": "https://www.linkedin.com/jobs/view/4460736732/",
+"visa": ""
+},
+"4460742519": {
+"company": "Mastercard",
+"dup": true,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4460742519",
+"level": "stretch",
+"location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T18:57Z",
+"regions": [
+"Malaysia"
+],
+"score": 61,
+"tier": 2,
+"title": "Director, Product Management",
+"url": "https://www.linkedin.com/jobs/view/4460742519/",
 "visa": ""
 },
 "4460767000": {
@@ -6133,6 +6223,24 @@
 "url": "https://www.linkedin.com/jobs/view/4469734225/",
 "visa": ""
 },
+"4469752039": {
+"company": "Amazon",
+"dup": true,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4469752039",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T15:58Z",
+"regions": [
+"India"
+],
+"score": 77,
+"tier": 1,
+"title": "Product Manager, Amazon Now, Amazon Now",
+"url": "https://www.linkedin.com/jobs/view/4469752039/",
+"visa": ""
+},
 "4469763425": {
 "company": "JetBrains",
 "desc": "Coding agents are only as good as the context they're given. Most explore a repository like a new hire on day one – grepping, opening files, guessing. JetBrains Context replaces that with actual knowledge of your whole codebase and resources, served to any agent that asks. If you want to own the layer that decides what an agent knows before it writes a single line, this is for you.\n About JetBrains\n We create intelligent software development tools for developers and teams. More than 15 million users, over 300,000 companies, and 88 of the Fortune Global Top 100 rely on our products to solve real, complex problems. Our mission is simple: make development teams more productive and AI adoptable at scale.\n What You’ll Do\n As agents get better at searching for themselves, what is the durable value of a managed retrieval layer? We need someone with an opinionated answer to own JetBrains Context as a product – defining what it is for, who it is for, how we measure success, and where it goes next.\nThis is a hands-on role where you'll manage the product from a terminal and agent session rather than slides. You'll bridge the technical core and cross-functional teams: collaborating closely with engineering and ML teams on indexing pipelines and retrieval quality, working with Air, IDE, and Junie teams on integrations, and partnering with marketing, developer advocacy, sales, and customer success on positioning and adoption. You'll take full ownership of defining problem statements, setting explicit trade-offs, and balancing cost, latency, and freshness across the platform.\n Day To Day, You Will\n Build and maintain a deep working understanding of chunking, embeddings, index freshness, retrieval, reranking, and agent-facing surfaces.\n Define and defend an opinionated vision for the product's evolution, including explicit target audiences, use cases, and key success metrics.\n Translate product strategy into actionable problem statements, priorities, plans, and milestones with an explicit definition of “done”.\n Communicate product direction clearly to engineering, leadership, cross-functional stakeholders, customers, and prospects.\n Analyze competing context and code-search products through direct use to establish clear differentiators and identify gaps.\n Define core operational and product metrics – index freshness, retrieval quality, agent task outcomes, adoption, retention, and unit economics – to guide decision-making.\n Represent the product externally by sharing roadmaps, publishing updates, speaking to developer audiences, and gathering community feedback.\n Partner with ML teams on model evaluation and platform teams on service scale, reliability, and cost.\n What You’ll Bring\n A well-argued point of view on where AI-first development is going and what agents genuinely need from a context layer.\n Comfort with technical depth across embeddings, retrieval quality, sub-agents, tool-calling, indexing costs, and API design.\n The habit of using the product you build daily alongside competitors' tools.\n Communication that adapts to different audiences, from staff engineers and enterprise architects to conference attendees.\n A data-informed approach that combines telemetry, evaluation results, customer conversations, and market signals.\n Comfort with ambiguity and a preference for defining a new category over copying an existing one.\n What You’ll Need\n Proven experience owning a complex developer, platform, or infrastructure product end to end, including ",
@@ -6440,6 +6548,24 @@
 "tier": 3,
 "title": "Product Manager für Niederspannungs-Leistungsschalter (w/m/d)",
 "url": "https://www.linkedin.com/jobs/view/4470010534/",
+"visa": ""
+},
+"4470026891": {
+"company": "Redwood Software",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4470026891",
+"level": "senior",
+"location": "Ontario, Canada",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T16:57Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Lead Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4470026891/",
 "visa": ""
 },
 "4470105568": {
@@ -7418,24 +7544,6 @@
 "url": "https://www.linkedin.com/jobs/view/4473086230/",
 "visa": ""
 },
-"4473756397": {
-"company": "BEC Financial Technologies",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4473756397",
-"level": "senior",
-"location": "Copenhagen, Capital Region of Denmark, Denmark",
-"posted": "2026-11-04",
-"posted_ts": "2026-11-01T00:07Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Product Owner (Senior) - Identity & Access Management",
-"url": "https://www.linkedin.com/jobs/view/4473756397/",
-"visa": ""
-},
 "4473760266": {
 "company": "Sartorius",
 "dup": false,
@@ -7596,6 +7704,24 @@
 "tier": 3,
 "title": "Product Owner – Digital Insurance Platform",
 "url": "https://www.linkedin.com/jobs/view/4475191988/",
+"visa": ""
+},
+"4475244388": {
+"company": "Nobel Biocare",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4475244388",
+"level": "unlevelled",
+"location": "Mumbai Metropolitan Region",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T17:58Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4475244388/",
 "visa": ""
 },
 "4475268212": {
@@ -11285,6 +11411,25 @@
 "url": "https://www.linkedin.com/jobs/view/4480531810/",
 "visa": ""
 },
+"4480534624": {
+"alerted": true,
+"company": "MongoDB",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4480534624",
+"level": "reach",
+"location": "Manitoba, Canada",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T16:57Z",
+"regions": [
+"Canada"
+],
+"score": 71,
+"tier": 1,
+"title": "Staff Product Manager, Atlas Infinite",
+"url": "https://www.linkedin.com/jobs/view/4480534624/",
+"visa": ""
+},
 "4480534994": {
 "company": "Turnitin",
 "dup": false,
@@ -11301,6 +11446,44 @@
 "tier": 3,
 "title": "Product Manager, iThenticate (UK Remote)",
 "url": "https://www.linkedin.com/jobs/view/4480534994/",
+"visa": ""
+},
+"4480538350": {
+"alerted": true,
+"company": "MongoDB",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4480538350",
+"level": "reach",
+"location": "Nova Scotia, Canada",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T18:57Z",
+"regions": [
+"Canada"
+],
+"score": 71,
+"tier": 1,
+"title": "Staff Product Manager, Atlas Infinite",
+"url": "https://www.linkedin.com/jobs/view/4480538350/",
+"visa": ""
+},
+"4480545004": {
+"alerted": true,
+"company": "MongoDB",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4480545004",
+"level": "reach",
+"location": "Quebec, Canada",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T18:57Z",
+"regions": [
+"Canada"
+],
+"score": 71,
+"tier": 1,
+"title": "Staff Product Manager, Atlas Infinite",
+"url": "https://www.linkedin.com/jobs/view/4480545004/",
 "visa": ""
 },
 "4480550200": {
@@ -11373,6 +11556,24 @@
 "tier": 3,
 "title": "Senior Product Manager, Analytics and Agentic Platform",
 "url": "https://www.linkedin.com/jobs/view/4480563402/",
+"visa": ""
+},
+"4480573670": {
+"company": "Kabam",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4480573670",
+"level": "senior",
+"location": "Vancouver, British Columbia, Canada",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T15:57Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Publishing Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4480573670/",
 "visa": ""
 },
 "4480658632": {
@@ -11860,42 +12061,6 @@
 "tier": 3,
 "title": "Product Manager – Delivery Services",
 "url": "https://www.linkedin.com/jobs/view/4483309428/",
-"visa": ""
-},
-"4483944953": {
-"company": "Hilti France",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4483944953",
-"level": "unlevelled",
-"location": "Boulogne-Billancourt, Île-de-France, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T23:07Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner (Data & AI)",
-"url": "https://www.linkedin.com/jobs/view/4483944953/",
-"visa": ""
-},
-"4483945947": {
-"company": "ABB",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4483945947",
-"level": "unlevelled",
-"location": "Chassieu, Auvergne-Rhône-Alpes, France",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T23:07Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Digital",
-"url": "https://www.linkedin.com/jobs/view/4483945947/",
 "visa": ""
 },
 "4483960832": {
@@ -15417,24 +15582,6 @@
 "tier": 3,
 "title": "Principal Product Manager, Model Customization & Open-Weight Models",
 "url": "https://www.linkedin.com/jobs/view/4485099802/",
-"visa": ""
-},
-"4485164803": {
-"company": "RUTRONIK Electronics Worldwide",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485164803",
-"level": "unlevelled",
-"location": "Ispringen, Baden-Württemberg, Germany",
-"posted": "2026-11-01",
-"posted_ts": "2026-11-01T00:06Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Corporate Product Manager (m/w/d) Resistors",
-"url": "https://www.linkedin.com/jobs/view/4485164803/",
 "visa": ""
 },
 "4485178404": {
@@ -19223,114 +19370,6 @@
 "url": "https://www.linkedin.com/jobs/view/4485896469/",
 "visa": ""
 },
-"4485908992": {
-"company": "Riverty",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485908992",
-"level": "senior",
-"location": "Copenhagen, Capital Region of Denmark, Denmark",
-"posted": "2026-10-31",
-"posted_ts": "2026-11-01T00:07Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "(Senior) Product Manager Consumer Touchpoints (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4485908992/",
-"visa": ""
-},
-"4485910982": {
-"company": "Flexiple",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485910982",
-"level": "senior",
-"location": "India",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T23:08Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4485910982/",
-"visa": ""
-},
-"4485915916": {
-"company": "mamgo | Talente 🔗 Jobs",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485915916",
-"level": "unlevelled",
-"location": "Bonn, North Rhine-Westphalia, Germany",
-"posted": "2026-11-01",
-"posted_ts": "2026-11-01T00:13Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Owner IT Service Management (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4485915916/",
-"visa": ""
-},
-"4485917776": {
-"company": "Bureau of Meteorology",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485917776",
-"level": "senior",
-"location": "Melbourne, Victoria, Australia",
-"posted": "2026-10-31",
-"posted_ts": "2026-10-31T23:07Z",
-"regions": [
-"Australia"
-],
-"score": 70,
-"tier": 3,
-"title": "Digital Product Lead",
-"url": "https://www.linkedin.com/jobs/view/4485917776/",
-"visa": ""
-},
-"4485918873": {
-"company": "Hager Power Station",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485918873",
-"level": "unlevelled",
-"location": "Obernai, Grand Est, France",
-"posted": "2026-11-01",
-"posted_ts": "2026-11-01T00:17Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Digital Product Owner (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4485918873/",
-"visa": ""
-},
-"4485925302": {
-"company": "mamgo | Talente 🔗 Jobs",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485925302",
-"level": "senior",
-"location": "Munich, Bavaria, Germany",
-"posted": "2026-11-01",
-"posted_ts": "2026-11-01T00:13Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Brand / Product Manager (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4485925302/",
-"visa": ""
-},
 "4485925645": {
 "company": "Brennan",
 "dup": false,
@@ -19368,24 +19407,6 @@
 "url": "https://www.linkedin.com/jobs/view/4485926989/",
 "visa": ""
 },
-"4485927407": {
-"company": "Thales",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485927407",
-"level": "unlevelled",
-"location": "Toulouse, Occitanie, France",
-"posted": "2026-11-01",
-"posted_ts": "2026-11-01T00:47Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner / Specification and Validation Engineer (Systèmes sol) - F/H",
-"url": "https://www.linkedin.com/jobs/view/4485927407/",
-"visa": ""
-},
 "4485930566": {
 "company": "Bureau of Meteorology",
 "dup": false,
@@ -19402,24 +19423,6 @@
 "tier": 3,
 "title": "Digital Product Lead",
 "url": "https://www.linkedin.com/jobs/view/4485930566/",
-"visa": ""
-},
-"4485931164": {
-"company": "mamgo | Talente 🔗 Jobs",
-"dup": false,
-"first_seen_at": "2026-11-01T01:06Z",
-"id": "4485931164",
-"level": "unlevelled",
-"location": "Starnberg, Bavaria, Germany",
-"posted": "2026-11-01",
-"posted_ts": "2026-11-01T00:12Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Owner Customer Service (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4485931164/",
 "visa": ""
 },
 "4485938305": {
@@ -26684,6 +26687,24 @@
 "url": "https://www.linkedin.com/jobs/view/4486649103/",
 "visa": ""
 },
+"4486651958": {
+"company": "SCIKIQ",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4486651958",
+"level": "unlevelled",
+"location": "Gurgaon, Haryana, India",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T22:58Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4486651958/",
+"visa": ""
+},
 "4486702442": {
 "company": "Federal Office of Sport FOSPO",
 "dup": false,
@@ -32941,6 +32962,24 @@
 "url": "https://www.linkedin.com/jobs/view/4487604321/",
 "visa": ""
 },
+"4487605966": {
+"company": "Sophos",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4487605966",
+"level": "senior",
+"location": "Canada",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T21:57Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager, AI-Native Products",
+"url": "https://www.linkedin.com/jobs/view/4487605966/",
+"visa": ""
+},
 "4487609110": {
 "company": "Bureau",
 "dup": false,
@@ -32975,6 +33014,24 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4487613347/",
+"visa": ""
+},
+"4487613650": {
+"company": "Bengaluru, Karnataka, India\n Be an early applicant\n 4 hours ago",
+"dup": false,
+"first_seen_at": "2026-11-08T01:57Z",
+"id": "4487613650",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-07",
+"posted_ts": "2026-11-07T21:58Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4487613650/",
 "visa": ""
 },
 "4487704096": {
@@ -36375,8 +36432,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-11-07T19:23Z",
+"last_block_ping": "2026-11-08T01:57Z",
 "last_rollup": "2026-11-07T15:09Z",
 "last_scan": "2026-11-07T15:09Z",
-"updated": "2026-11-07T22:51Z"
+"updated": "2026-11-08T01:57Z"
 }
