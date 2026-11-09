@@ -8,13 +8,13 @@
  "Adobe": {
   "matched": 3,
   "ok": true,
-  "total": 278,
+  "total": 277,
   "via": "workday"
  },
  "Adyen": {
   "matched": 8,
   "ok": true,
-  "total": 255,
+  "total": 253,
   "via": "greenhouse"
  },
  "Affirm": {
@@ -26,7 +26,7 @@
  "Agoda": {
   "matched": 7,
   "ok": true,
-  "total": 340,
+  "total": 341,
   "via": "greenhouse"
  },
  "Airbnb": {
@@ -42,9 +42,9 @@
   "via": "ashby"
  },
  "Amazon": {
-  "matched": 81,
+  "matched": 80,
   "ok": true,
-  "total": 191,
+  "total": 189,
   "via": "amazon"
  },
  "Anthropic": {
@@ -67,7 +67,7 @@
  "Atlassian": {
   "matched": 4,
   "ok": true,
-  "total": 355,
+  "total": 351,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -121,7 +121,7 @@
  "Datadog": {
   "matched": 2,
   "ok": true,
-  "total": 401,
+  "total": 402,
   "via": "greenhouse"
  },
  "Decagon": {
@@ -133,7 +133,7 @@
  "Deliveroo": {
   "matched": 10,
   "ok": true,
-  "total": 199,
+  "total": 200,
   "via": "greenhouse"
  },
  "Delivery Hero": {
@@ -162,19 +162,19 @@
  "Elastic": {
   "matched": 21,
   "ok": true,
-  "total": 425,
+  "total": 426,
   "via": "greenhouse"
  },
  "ElevenLabs": {
   "matched": 1,
   "ok": true,
-  "total": 139,
+  "total": 137,
   "via": "ashby"
  },
  "Expedia Group": {
-  "matched": 7,
+  "matched": 6,
   "ok": true,
-  "total": 54,
+  "total": 52,
   "via": "workday"
  },
  "Fivetran": {
@@ -222,7 +222,7 @@
  "Grab": {
   "matched": 9,
   "ok": true,
-  "total": 436,
+  "total": 434,
   "via": "smartrecruiters"
  },
  "Grafana Labs": {
@@ -327,13 +327,13 @@
  "Netflix": {
   "matched": 1,
   "ok": true,
-  "total": 161,
+  "total": 162,
   "via": "eightfold"
  },
  "New Relic": {
   "matched": 0,
   "ok": true,
-  "total": 47,
+  "total": 46,
   "via": "greenhouse"
  },
  "Nium": {
@@ -351,7 +351,7 @@
  "OpenAI": {
   "matched": 0,
   "ok": true,
-  "total": 818,
+  "total": 816,
   "via": "ashby"
  },
  "Oyster": {
@@ -369,7 +369,7 @@
  "Parloa": {
   "matched": 1,
   "ok": true,
-  "total": 44,
+  "total": 43,
   "via": "ashby"
  },
  "PayPal": {
@@ -381,7 +381,7 @@
  "Payoneer": {
   "matched": 0,
   "ok": true,
-  "total": 99,
+  "total": 98,
   "via": "greenhouse"
  },
  "Pennylane": {
@@ -481,7 +481,7 @@
  "Toast": {
   "matched": 2,
   "ok": true,
-  "total": 332,
+  "total": 333,
   "via": "greenhouse"
  },
  "Trustpilot": {
@@ -522,7 +522,7 @@
  "Wolt": {
   "matched": 1,
   "ok": true,
-  "total": 205,
+  "total": 206,
   "via": "greenhouse"
  },
  "Xendit": {
@@ -557,7 +557,7 @@
  "Zscaler": {
   "matched": 0,
   "ok": true,
-  "total": 375,
+  "total": 376,
   "via": "greenhouse"
  },
  "eBay": {
@@ -575,7 +575,7 @@
  "n8n": {
   "matched": 4,
   "ok": true,
-  "total": 48,
+  "total": 49,
   "via": "ashby"
  }
 }
