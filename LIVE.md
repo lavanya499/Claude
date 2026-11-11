@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 11 Nov 05:29 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 11 Nov 10:58 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (8)
 
@@ -15,14 +15,14 @@ Updated 11 Nov 05:29 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 09 Nov 19:03 | Shopee | [Product Manager - AI Transformation, Finance](https://www.linkedin.com/jobs/view/4480937400/) | Singapore, Singapore | unlevelled | 64 |
 | 09 Nov 19:03 | Shopee | [Product Manager - AI Transformation, People Systems](https://www.linkedin.com/jobs/view/4480942154/) | Singapore, Singapore | unlevelled | 64 |
 
-## Everyone else, every level except junior (472)
+## Everyone else, every level except junior (451)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
-| 11 Nov 04:30 | ClickHouse | [Senior Product Manager - AI/ML](https://www.linkedin.com/jobs/view/4488633423/) | London, England, United Kingdom | senior | 70 |
 | 11 Nov 04:30 | Optum | [Data Product Manager,](https://www.linkedin.com/jobs/view/4487829543/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 11 Nov 04:30 | NTT DATA North America | [Transact Platform Product Owner](https://www.linkedin.com/jobs/view/4487829809/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 11 Nov 04:30 | ClickHouse | [Senior Product Manager - AI/ML](https://www.linkedin.com/jobs/view/4488624981/) | Amsterdam, North Holland, Netherlands | senior | 70 |
+| 11 Nov 04:30 | ClickHouse | [Senior Product Manager - AI/ML](https://www.linkedin.com/jobs/view/4488633423/) | London, England, United Kingdom | senior | 70 |
 | 11 Nov 03:30 | IntelliConsult | [API Product Owner](https://www.linkedin.com/jobs/view/4487822847/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 11 Nov 00:24 | Oracle | [Senior Product Manager- SCM/Ecommerce](https://www.linkedin.com/jobs/view/4478619890/) | Hyderabad, Telangana, India | senior | 63 |
 | 11 Nov 00:20 | Nedap | [Product Owner - Business Platform .](https://www.linkedin.com/jobs/view/4464344317/) | Groenlo, Gelderland, Netherlands | unlevelled | 54 |
