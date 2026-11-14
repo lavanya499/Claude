@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-14 03:21 UTC · 467 open matches · 15 new in the last 24h · 89/98 sources healthy_
+_Updated 2026-11-14 17:11 UTC · 467 open matches · 15 new in the last 24h · 91/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -289,37 +289,37 @@ _…and 55 more in data/jobs.json_
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
 | 1Password | ok | 80 | 5 |
-| Adobe | ⚠️ HTTPError: HTTP Error 521: <none> |  |  |
+| Adobe | ok | 247 | 3 |
 | Adyen | ok | 247 | 7 |
 | Affirm | ok | 217 | 8 |
 | Agoda | ok | 356 | 8 |
 | Airbnb | ok | 214 | 0 |
 | Airwallex | ok | 484 | 11 |
-| Amazon | ok | 157 | 93 |
-| Anthropic | ok | 668 | 0 |
+| Amazon | ok | 157 | 92 |
+| Anthropic | ok | 669 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 109 | 7 |
-| Atlassian | ok | 261 | 0 |
+| Atlassian | ok | 260 | 0 |
 | Bitpanda | ok | 45 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 286 | 2 |
 | Canva | ok | 32 | 0 |
-| Celonis | ok | 264 | 4 |
+| Celonis | ok | 265 | 4 |
 | Cloudflare | ok | 479 | 4 |
 | Cohere | ok | 121 | 2 |
 | Cresta | ok | 88 | 1 |
 | Datadog | ok | 384 | 1 |
 | Decagon | ok | 124 | 2 |
-| Deliveroo | ok | 186 | 7 |
+| Deliveroo | ok | 185 | 7 |
 | Delivery Hero | ok | 600 | 6 |
 | Deputy | ok | 2 | 0 |
 | Doctolib | ⚠️ HTTPError: HTTP Error 404: Not Found |  |  |
 | Ebury | ok | 151 | 4 |
 | Elastic | ok | 400 | 21 |
 | ElevenLabs | ok | 128 | 0 |
-| Expedia Group | ok | 52 | 9 |
+| Expedia Group | ok | 51 | 9 |
 | Fivetran | ok | 197 | 2 |
-| Genesys | ⚠️ HTTPError: HTTP Error 521: <none> |  |  |
+| Genesys | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
 | Geotab | ok | 63 | 5 |
 | GetYourGuide | ok | 0 | 0 |
 | GitLab | ok | 251 | 6 |
@@ -327,35 +327,35 @@ _…and 55 more in data/jobs.json_
 | Google | ok | 69 | 15 |
 | Grab | ok | 420 | 9 |
 | Grafana Labs | ok | 140 | 6 |
-| Intercom | ok | 114 | 8 |
+| Intercom | ok | 115 | 8 |
 | JetBrains | ok | 30 | 2 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
 | LinkedIn | ok | 176 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 79 | 4 |
-| Mastercard | ⚠️ HTTPError: HTTP Error 521: <none> |  |  |
+| Mastercard | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
 | Meesho | ok | 49 | 3 |
 | Mentimeter | ok | 17 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 98 | 9 |
+| Microsoft | ok | 99 | 8 |
 | Moneybox | ok | 18 | 1 |
 | MongoDB | ok | 391 | 9 |
 | Monzo | ok | 57 | 1 |
 | N26 | ok | 34 | 2 |
-| Netflix | ok | 177 | 1 |
+| Netflix | ⚠️ HTTPError: HTTP Error 429: TOO MANY REQUESTS |  |  |
 | New Relic | ok | 44 | 0 |
 | Nium | ok | 31 | 3 |
-| Okta | ok | 363 | 9 |
-| OpenAI | ok | 838 | 0 |
+| Okta | ok | 362 | 9 |
+| OpenAI | ok | 839 | 0 |
 | Oyster | ok | 21 | 2 |
 | Paddle | ok | 13 | 1 |
 | Parloa | ok | 45 | 1 |
-| PayPal | ⚠️ HTTPError: HTTP Error 521: <none> |  |  |
-| Payoneer | ok | 101 | 0 |
+| PayPal | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
+| Payoneer | ok | 100 | 0 |
 | Pennylane | ok | 202 | 4 |
 | Qonto | ok | 55 | 2 |
-| Razorpay | ok | 26 | 7 |
+| Razorpay | ok | 25 | 7 |
 | Revolut | ok |  |  |
 | Rubrik | ok | 182 | 1 |
 | Salesforce | ok | 400 | 2 |
@@ -364,26 +364,26 @@ _…and 55 more in data/jobs.json_
 | Shopee | ok |  |  |
 | Sierra | ok | 198 | 6 |
 | Snyk | ok | 38 | 1 |
-| Spotify | ok | 85 | 11 |
+| Spotify | ok | 87 | 11 |
 | Stripe | ok | 786 | 14 |
-| SumUp | ok | 329 | 3 |
+| SumUp | ok | 328 | 3 |
 | Synthesia | ok | 31 | 3 |
 | Tide | ok | 72 | 3 |
 | Toast | ok | 355 | 3 |
-| Trustpilot | ok | 36 | 6 |
+| Trustpilot | ok | 29 | 0 |
 | Twilio | ok | 115 | 2 |
 | Uber | ok |  |  |
-| Visa | ⚠️ HTTPError: HTTP Error 521: <none> |  |  |
+| Visa | ok | 400 | 8 |
 | Wealthsimple | ok | 41 | 1 |
-| Wise | ok | 426 | 18 |
-| Wolt | ok | 192 | 1 |
+| Wise | ok | 424 | 17 |
+| Wolt | ok | 191 | 1 |
 | Xendit | ok | 19 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 33 | 10 |
-| Zendesk | ⚠️ HTTPError: HTTP Error 521: <none> |  |  |
+| Zendesk | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
 | Zip | ok | 100 | 3 |
 | Zscaler | ok | 373 | 0 |
-| eBay | ⚠️ HTTPError: HTTP Error 521: <none> |  |  |
+| eBay | ok | 197 | 14 |
 | loveholidays | ok | 18 | 3 |
 | n8n | ok | 55 | 4 |
 
