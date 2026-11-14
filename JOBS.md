@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-14 17:11 UTC · 467 open matches · 15 new in the last 24h · 91/98 sources healthy_
+_Updated 2026-11-14 21:32 UTC · 466 open matches · 15 new in the last 24h · 96/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -187,7 +187,7 @@ _…and 74 more in data/jobs.json_
 | 73 | Grab | [Lead Product Manager, Business Applications](https://jobs.smartrecruiters.com/Grab/744000144044969) | Petaling Jaya, , Malaysia |  | 2026-08-18 |
 | 55 | Grab | [Head of Product, Insurance](https://jobs.smartrecruiters.com/Grab/744000132549419) | Petaling Jaya, , Malaysia |  | 2026-06-17 |
 
-## Singapore — 25 open
+## Singapore — 24 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -208,7 +208,6 @@ _…and 74 more in data/jobs.json_
 | 70 | Grab | [Lead Product Manager, Data Platform (Measurement & BI)](https://jobs.smartrecruiters.com/Grab/744000153658660) | Singapore, , Singapore |  | 2026-10-06 |
 | 70 | Wise | [Product Lead - APAC Growth](https://jobs.smartrecruiters.com/Wise/744000154392554) | Singapore, , Singapore |  | 2026-10-08 |
 | 64 | Airwallex | [Product Lead, Issuing](https://jobs.ashbyhq.com/airwallex/897f9dc2-b3ee-4207-b60c-2db04c515a40) | SG - Singapore; Singapore |  | 2026-11-04 |
-| 64 | Mastercard | [Security Solutions (SSO) Product Lead – Southeast Asia Division East](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Singapore/SSO-Product-SEA-East-Division-Lead_R-281787) | Singapore; Manila, Philippines; Manila, Philippines |  | 2026-09-23 |
 | 60 | Nium | [Staff Product Manager  – Digital Assets](https://jobs.lever.co/nium/9b416d47-9390-4f22-8d97-727a066d307c) | Singapore |  | 2026-10-14 |
 | 54 | Airwallex | [Director of Product Design - Developer Platform](https://jobs.ashbyhq.com/airwallex/967a6fef-cfb1-4a1b-98c2-50690489bd4e) | SG - Singapore; Singapore |  | 2026-04-30 |
 | 54 | Grab | [Principal Product Manager, AI Enablement](https://jobs.smartrecruiters.com/Grab/744000141831739) | Singapore, , Singapore |  | 2026-08-06 |
@@ -288,18 +287,18 @@ _…and 55 more in data/jobs.json_
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 80 | 5 |
-| Adobe | ok | 247 | 3 |
+| 1Password | ok | 81 | 5 |
+| Adobe | ok | 246 | 3 |
 | Adyen | ok | 247 | 7 |
 | Affirm | ok | 217 | 8 |
-| Agoda | ok | 356 | 8 |
+| Agoda | ok | 355 | 8 |
 | Airbnb | ok | 214 | 0 |
-| Airwallex | ok | 484 | 11 |
+| Airwallex | ok | 485 | 11 |
 | Amazon | ok | 157 | 92 |
-| Anthropic | ok | 669 | 0 |
+| Anthropic | ok | 670 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 109 | 7 |
-| Atlassian | ok | 260 | 0 |
+| Atlassian | ok | 288 | 0 |
 | Bitpanda | ok | 45 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 286 | 2 |
@@ -317,9 +316,9 @@ _…and 55 more in data/jobs.json_
 | Ebury | ok | 151 | 4 |
 | Elastic | ok | 400 | 21 |
 | ElevenLabs | ok | 128 | 0 |
-| Expedia Group | ok | 51 | 9 |
+| Expedia Group | ok | 50 | 8 |
 | Fivetran | ok | 197 | 2 |
-| Genesys | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
+| Genesys | ok | 202 | 1 |
 | Geotab | ok | 63 | 5 |
 | GetYourGuide | ok | 0 | 0 |
 | GitLab | ok | 251 | 6 |
@@ -334,16 +333,16 @@ _…and 55 more in data/jobs.json_
 | LinkedIn | ok | 176 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 79 | 4 |
-| Mastercard | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
+| Mastercard | ok | 400 | 12 |
 | Meesho | ok | 49 | 3 |
 | Mentimeter | ok | 17 | 1 |
 | Meta | ok |  |  |
 | Microsoft | ok | 99 | 8 |
 | Moneybox | ok | 18 | 1 |
-| MongoDB | ok | 391 | 9 |
+| MongoDB | ok | 390 | 9 |
 | Monzo | ok | 57 | 1 |
 | N26 | ok | 34 | 2 |
-| Netflix | ⚠️ HTTPError: HTTP Error 429: TOO MANY REQUESTS |  |  |
+| Netflix | ok | 177 | 1 |
 | New Relic | ok | 44 | 0 |
 | Nium | ok | 31 | 3 |
 | Okta | ok | 362 | 9 |
@@ -351,7 +350,7 @@ _…and 55 more in data/jobs.json_
 | Oyster | ok | 21 | 2 |
 | Paddle | ok | 13 | 1 |
 | Parloa | ok | 45 | 1 |
-| PayPal | ⚠️ JSONDecodeError: Expecting value: line 1 column 1 (char 0) |  |  |
+| PayPal | ok | 334 | 1 |
 | Payoneer | ok | 100 | 0 |
 | Pennylane | ok | 202 | 4 |
 | Qonto | ok | 55 | 2 |
@@ -375,15 +374,15 @@ _…and 55 more in data/jobs.json_
 | Uber | ok |  |  |
 | Visa | ok | 400 | 8 |
 | Wealthsimple | ok | 41 | 1 |
-| Wise | ok | 424 | 17 |
+| Wise | ok | 426 | 17 |
 | Wolt | ok | 191 | 1 |
 | Xendit | ok | 19 | 2 |
 | Zalando | ok |  |  |
 | Zego | ok | 33 | 10 |
-| Zendesk | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
+| Zendesk | ok | 111 | 2 |
 | Zip | ok | 100 | 3 |
 | Zscaler | ok | 373 | 0 |
-| eBay | ok | 197 | 14 |
+| eBay | ok | 195 | 14 |
 | loveholidays | ok | 18 | 3 |
 | n8n | ok | 55 | 4 |
 

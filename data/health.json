@@ -2,13 +2,13 @@
  "1Password": {
   "matched": 5,
   "ok": true,
-  "total": 80,
+  "total": 81,
   "via": "ashby"
  },
  "Adobe": {
   "matched": 3,
   "ok": true,
-  "total": 247,
+  "total": 246,
   "via": "workday"
  },
  "Adyen": {
@@ -26,7 +26,7 @@
  "Agoda": {
   "matched": 8,
   "ok": true,
-  "total": 356,
+  "total": 355,
   "via": "greenhouse"
  },
  "Airbnb": {
@@ -38,7 +38,7 @@
  "Airwallex": {
   "matched": 11,
   "ok": true,
-  "total": 484,
+  "total": 485,
   "via": "ashby"
  },
  "Amazon": {
@@ -50,7 +50,7 @@
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 669,
+  "total": 670,
   "via": "greenhouse"
  },
  "Apple": {
@@ -67,7 +67,7 @@
  "Atlassian": {
   "matched": 0,
   "ok": true,
-  "total": 260,
+  "total": 288,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -172,9 +172,9 @@
   "via": "ashby"
  },
  "Expedia Group": {
-  "matched": 9,
+  "matched": 8,
   "ok": true,
-  "total": 51,
+  "total": 50,
   "via": "workday"
  },
  "Fivetran": {
@@ -184,8 +184,9 @@
   "via": "greenhouse"
  },
  "Genesys": {
-  "error": "HTTPError: HTTP Error 429: Too Many Requests",
-  "ok": false,
+  "matched": 1,
+  "ok": true,
+  "total": 202,
   "via": "workday"
  },
  "Geotab": {
@@ -271,8 +272,9 @@
   "via": "ashby"
  },
  "Mastercard": {
-  "error": "HTTPError: HTTP Error 429: Too Many Requests",
-  "ok": false,
+  "matched": 12,
+  "ok": true,
+  "total": 400,
   "via": "workday"
  },
  "Meesho": {
@@ -307,7 +309,7 @@
  "MongoDB": {
   "matched": 9,
   "ok": true,
-  "total": 391,
+  "total": 390,
   "via": "greenhouse"
  },
  "Monzo": {
@@ -323,8 +325,9 @@
   "via": "greenhouse"
  },
  "Netflix": {
-  "error": "HTTPError: HTTP Error 429: TOO MANY REQUESTS",
-  "ok": false,
+  "matched": 1,
+  "ok": true,
+  "total": 177,
   "via": "eightfold"
  },
  "New Relic": {
@@ -370,8 +373,9 @@
   "via": "ashby"
  },
  "PayPal": {
-  "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "ok": false,
+  "matched": 1,
+  "ok": true,
+  "total": 334,
   "via": "workday"
  },
  "Payoneer": {
@@ -512,7 +516,7 @@
  "Wise": {
   "matched": 17,
   "ok": true,
-  "total": 424,
+  "total": 426,
   "via": "smartrecruiters"
  },
  "Wolt": {
@@ -539,8 +543,9 @@
   "via": "ashby"
  },
  "Zendesk": {
-  "error": "HTTPError: HTTP Error 429: Too Many Requests",
-  "ok": false,
+  "matched": 2,
+  "ok": true,
+  "total": 111,
   "via": "workday"
  },
  "Zip": {
@@ -558,7 +563,7 @@
  "eBay": {
   "matched": 14,
   "ok": true,
-  "total": 197,
+  "total": 195,
   "via": "workday"
  },
  "loveholidays": {
