@@ -1,11 +1,11 @@
 {
 "health": {
 "calls": 30,
-"cards": 149,
+"cards": 231,
 "errors": 0,
-"new": 20,
+"new": 68,
 "requests": 30,
-"window_min": 252
+"window_min": 458
 },
 "jobs": {
 "4040446545": {
@@ -805,6 +805,24 @@
 "url": "https://www.linkedin.com/jobs/view/4410322843/",
 "visa": ""
 },
+"4410513110": {
+"company": "Xsolla",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4410513110",
+"level": "senior",
+"location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"Malaysia"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Owner – Xsolla Money Account",
+"url": "https://www.linkedin.com/jobs/view/4410513110/",
+"visa": ""
+},
 "4415660989": {
 "company": "OKX",
 "dup": false,
@@ -1528,6 +1546,24 @@
 "url": "https://www.linkedin.com/jobs/view/4434528312/",
 "visa": ""
 },
+"4434582963": {
+"company": "CrowdStrike",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4434582963",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:04Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Sr. Product Manager, Next-Gen SIEM (Hybrid)",
+"url": "https://www.linkedin.com/jobs/view/4434582963/",
+"visa": ""
+},
 "4435168416": {
 "company": "M3 USA",
 "dup": false,
@@ -1706,6 +1742,24 @@
 "tier": 3,
 "title": "Senior Product Manager – Defence",
 "url": "https://www.linkedin.com/jobs/view/4437412772/",
+"visa": ""
+},
+"4437412777": {
+"company": "Critical Software",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4437412777",
+"level": "senior",
+"location": "Coimbra, Coimbra, Portugal",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:44Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager – Space",
+"url": "https://www.linkedin.com/jobs/view/4437412777/",
 "visa": ""
 },
 "4437414714": {
@@ -2052,6 +2106,60 @@
 "url": "https://www.linkedin.com/jobs/view/4444140834/",
 "visa": ""
 },
+"4444169820": {
+"company": "Publicis Sapient",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4444169820",
+"level": "senior",
+"location": "Chennai, Tamil Nadu, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4444169820/",
+"visa": ""
+},
+"4444173558": {
+"company": "Publicis Sapient",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4444173558",
+"level": "unlevelled",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Energy Trading & Risk Management (Endur) - Energy & Commodities",
+"url": "https://www.linkedin.com/jobs/view/4444173558/",
+"visa": ""
+},
+"4444183414": {
+"company": "Publicis Sapient",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4444183414",
+"level": "senior",
+"location": "Gurgaon, Haryana, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4444183414/",
+"visa": ""
+},
 "4444222317": {
 "company": "N26",
 "dup": true,
@@ -2268,6 +2376,24 @@
 "url": "https://www.linkedin.com/jobs/view/4446576410/",
 "visa": ""
 },
+"4446769374": {
+"company": "ZEAL Network SE",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4446769374",
+"level": "senior",
+"location": "Hamburg, Hamburg, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:48Z",
+"regions": [
+"Europe"
+],
+"score": 74,
+"tier": 3,
+"title": "Senior Product Manager - Finance Automation (f/m/d)",
+"url": "https://www.linkedin.com/jobs/view/4446769374/",
+"visa": ""
+},
 "4449469297": {
 "company": "Riverty",
 "dup": false,
@@ -2293,7 +2419,7 @@
 "id": "4449735760",
 "level": "senior",
 "location": "London, England, United Kingdom",
-"posted": "2026-11-13",
+"posted": "2026-11-14",
 "posted_ts": "2026-11-13T10:36Z",
 "regions": [
 "UK"
@@ -3295,6 +3421,96 @@
 "url": "https://www.linkedin.com/jobs/view/4456117884/",
 "visa": ""
 },
+"4456339142": {
+"company": "MSC Cruises",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4456339142",
+"level": "stretch",
+"location": "Geneva, Geneva, Switzerland",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:32Z",
+"regions": [
+"Europe"
+],
+"score": 48,
+"tier": 3,
+"title": "Head of Product Category, Watches & Jewellery",
+"url": "https://www.linkedin.com/jobs/view/4456339142/",
+"visa": ""
+},
+"4456709400": {
+"company": "Nordea",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4456709400",
+"level": "unlevelled",
+"location": "Gdańsk, Pomorskie, Poland",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:53Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Owner - Cloud Landing Zone Services Azure",
+"url": "https://www.linkedin.com/jobs/view/4456709400/",
+"visa": ""
+},
+"4456779456": {
+"company": "HelloFresh",
+"dup": true,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4456779456",
+"level": "stretch",
+"location": "Amsterdam, North Holland, Netherlands",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"Europe"
+],
+"score": 48,
+"tier": 3,
+"title": "Director, Product (physical) (f/m/x)",
+"url": "https://www.linkedin.com/jobs/view/4456779456/",
+"visa": ""
+},
+"4457021390": {
+"company": "Supermicro",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4457021390",
+"level": "senior",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:31Z",
+"regions": [
+"Gulf"
+],
+"score": 70,
+"tier": 3,
+"title": "(Sr.) Solution Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4457021390/",
+"visa": ""
+},
+"4457927103": {
+"company": "Zinnia",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4457927103",
+"level": "unlevelled",
+"location": "Pune Division, Maharashtra, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:23Z",
+"regions": [
+"India"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager -Technical (Life Insurance & Annuity)",
+"url": "https://www.linkedin.com/jobs/view/4457927103/",
+"visa": ""
+},
 "4458210113": {
 "company": "Dalux",
 "dup": false,
@@ -4143,6 +4359,42 @@
 "url": "https://www.linkedin.com/jobs/view/4463421830/",
 "visa": ""
 },
+"4463428996": {
+"company": "Publicis Sapient",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4463428996",
+"level": "senior",
+"location": "Auckland, Auckland, New Zealand",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"New Zealand"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4463428996/",
+"visa": ""
+},
+"4463560219": {
+"company": "RSM UK",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4463560219",
+"level": "unlevelled",
+"location": "Birmingham, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:38Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "VAT Product Manager – Global VAT Compliance & Reporting",
+"url": "https://www.linkedin.com/jobs/view/4463560219/",
+"visa": ""
+},
 "4463595506": {
 "company": "Pandora",
 "dup": false,
@@ -4269,6 +4521,24 @@
 "url": "https://www.linkedin.com/jobs/view/4463915086/",
 "visa": ""
 },
+"4464119057": {
+"company": "Arvesta",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4464119057",
+"level": "unlevelled",
+"location": "Den Hoorn, South Holland, Netherlands",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:31Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4464119057/",
+"visa": ""
+},
 "4464151115": {
 "company": "Hexcel Corporation",
 "dup": false,
@@ -4303,6 +4573,24 @@
 "tier": 3,
 "title": "Product Manager - OpenData Malaysia",
 "url": "https://www.linkedin.com/jobs/view/4464185889/",
+"visa": ""
+},
+"4464243491": {
+"company": "Intermedia Intelligent Communications",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4464243491",
+"level": "senior",
+"location": "Portugal",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:55Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4464243491/",
 "visa": ""
 },
 "4464330578": {
@@ -4576,6 +4864,24 @@
 "tier": 3,
 "title": "Staff Product Manager (Attribution)",
 "url": "https://www.linkedin.com/jobs/view/4464668913/",
+"visa": ""
+},
+"4464848311": {
+"company": "Manulife",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4464848311",
+"level": "stretch",
+"location": "Singapore, Singapore",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:56Z",
+"regions": [
+"Singapore"
+],
+"score": 45,
+"tier": 3,
+"title": "Senior Manager/Director, Product Transformation",
+"url": "https://www.linkedin.com/jobs/view/4464848311/",
 "visa": ""
 },
 "4464876893": {
@@ -4936,6 +5242,24 @@
 "tier": 2,
 "title": "Senior AI Product Manager - Platform, Portugal",
 "url": "https://www.linkedin.com/jobs/view/4469424515/",
+"visa": ""
+},
+"4469725414": {
+"company": "ALTEN",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4469725414",
+"level": "unlevelled",
+"location": "Kiel, Schleswig-Holstein, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Requirements Engineer / Product Manager IT-Infrastruktur Defence (all gender) 100",
+"url": "https://www.linkedin.com/jobs/view/4469725414/",
 "visa": ""
 },
 "4469752039": {
@@ -6346,6 +6670,25 @@
 "url": "https://www.linkedin.com/jobs/view/4472785245/",
 "visa": ""
 },
+"4472800691": {
+"company": "Affirm",
+"desc": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n About The Product Team\n The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision.\nAs a Staff Product Manager on Affirm’s Credit & Pricing team, you’ll shape how consumers discover, understand, and use available credit. You’ll own the strategy for credit experiences spanning shopping, repayment, and marketing, turning complex credit capabilities into intuitive products that build trust and drive activation, conversion, and repeat engagement.\n What You'll Do\n Set the product direction. Define a cohesive vision for consumer credit experiences, identify the most valuable problems to solve, and translate your strategy into priorities across multiple teams.\n Build experiences that make credit understandable. Help consumers explore potential financing options before checkout, discover where they have purchasing power, and understand when credit becomes available again after repayment.\n Create more relevant consumer journeys. Develop personalized experiences for new and returning consumers, using research and experimentation to determine what information, guidance, and next steps best meet their needs.\n Connect platform capabilities to consumer outcomes. Own merchant prequalification and purchasing power experiences, partnering with core purchasing power and credit decisioning teams to translate underlying capabilities into clear, consistent experiences.\n Lead consequential product decisions. Bring Engineering, Design, Analytics, Credit, Marketing, Commercial, and Legal partners together to resolve tradeoffs across consumer needs, growth, risk, and partner commitments. Influence senior leaders through clear recommendations and sound judgment.\n Own measurable results. Define success, lead discovery and experimentation, and use funnel analysis and consumer feedback to improve activation, purchase conversion, repeat engagement, and comprehension while supporting responsible access to credit. \n What We Look For\n A record of building impactful consumer products. 7+ years of product management experience, with demonstrated success taking products from discovery through launch and scaling adoption in fintech, e-commerce, marketplaces, or similarly complex environments.\n Leadership across teams. Experience independently setting direction for a substantial product area, influencing senior stakeholders, and aligning multiple teams around priorities and measurable outcomes.\n Strong consumer product judgment. An ability to translate complex systems into intuitive experiences, with a high bar for interaction design, clear communication, and consumer trust.\n Strategic and technical depth. You connect long-term opportunities to practical product and platform decisions, and work effectively with engineers on capabilities that serve multiple experiences.\n Analytical and experimental rigor. You combine customer research, behavioral data, and well-designed experiments to prior",
+"dup": true,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4472800691",
+"level": "reach",
+"location": "Victoria, British Columbia, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:56Z",
+"regions": [
+"Canada"
+],
+"score": 70,
+"tier": 2,
+"title": "Staff Product Manager, Credit & Pricing",
+"url": "https://www.linkedin.com/jobs/view/4472800691/",
+"visa": ""
+},
 "4472804566": {
 "company": "Affirm",
 "dup": true,
@@ -6362,6 +6705,25 @@
 "tier": 2,
 "title": "Staff Product Manager, Credit & Pricing",
 "url": "https://www.linkedin.com/jobs/view/4472804566/",
+"visa": ""
+},
+"4472805587": {
+"company": "Affirm",
+"desc": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n About The Product Team\n The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision.\nAs a Staff Product Manager on Affirm’s Credit & Pricing team, you’ll shape how consumers discover, understand, and use available credit. You’ll own the strategy for credit experiences spanning shopping, repayment, and marketing, turning complex credit capabilities into intuitive products that build trust and drive activation, conversion, and repeat engagement.\n What You'll Do\n Set the product direction. Define a cohesive vision for consumer credit experiences, identify the most valuable problems to solve, and translate your strategy into priorities across multiple teams.\n Build experiences that make credit understandable. Help consumers explore potential financing options before checkout, discover where they have purchasing power, and understand when credit becomes available again after repayment.\n Create more relevant consumer journeys. Develop personalized experiences for new and returning consumers, using research and experimentation to determine what information, guidance, and next steps best meet their needs.\n Connect platform capabilities to consumer outcomes. Own merchant prequalification and purchasing power experiences, partnering with core purchasing power and credit decisioning teams to translate underlying capabilities into clear, consistent experiences.\n Lead consequential product decisions. Bring Engineering, Design, Analytics, Credit, Marketing, Commercial, and Legal partners together to resolve tradeoffs across consumer needs, growth, risk, and partner commitments. Influence senior leaders through clear recommendations and sound judgment.\n Own measurable results. Define success, lead discovery and experimentation, and use funnel analysis and consumer feedback to improve activation, purchase conversion, repeat engagement, and comprehension while supporting responsible access to credit. \n What We Look For\n A record of building impactful consumer products. 7+ years of product management experience, with demonstrated success taking products from discovery through launch and scaling adoption in fintech, e-commerce, marketplaces, or similarly complex environments.\n Leadership across teams. Experience independently setting direction for a substantial product area, influencing senior stakeholders, and aligning multiple teams around priorities and measurable outcomes.\n Strong consumer product judgment. An ability to translate complex systems into intuitive experiences, with a high bar for interaction design, clear communication, and consumer trust.\n Strategic and technical depth. You connect long-term opportunities to practical product and platform decisions, and work effectively with engineers on capabilities that serve multiple experiences.\n Analytical and experimental rigor. You combine customer research, behavioral data, and well-designed experiments to prior",
+"dup": true,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4472805587",
+"level": "reach",
+"location": "Winnipeg, Manitoba, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:05Z",
+"regions": [
+"Canada"
+],
+"score": 70,
+"tier": 2,
+"title": "Staff Product Manager, Credit & Pricing",
+"url": "https://www.linkedin.com/jobs/view/4472805587/",
 "visa": ""
 },
 "4472816113": {
@@ -6529,6 +6891,24 @@
 "url": "https://www.linkedin.com/jobs/view/4473086230/",
 "visa": ""
 },
+"4473174489": {
+"company": "Databricks",
+"dup": true,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4473174489",
+"level": "unlevelled",
+"location": "Amsterdam, North Holland, Netherlands",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:49Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager, New Grad (2027) - Amsterdam",
+"url": "https://www.linkedin.com/jobs/view/4473174489/",
+"visa": ""
+},
 "4473278524": {
 "company": "easyJet",
 "dup": false,
@@ -6581,6 +6961,24 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4473297091/",
+"visa": ""
+},
+"4473344953": {
+"company": "Autodesk",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4473344953",
+"level": "reach",
+"location": "Montreal, Quebec, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:56Z",
+"regions": [
+"Canada"
+],
+"score": 55,
+"tier": 3,
+"title": "Principal Product Manager, Flow Studio (GenAI Products)",
+"url": "https://www.linkedin.com/jobs/view/4473344953/",
 "visa": ""
 },
 "4473363461": {
@@ -6907,6 +7305,42 @@
 "url": "https://www.linkedin.com/jobs/view/4474322654/",
 "visa": ""
 },
+"4474331129": {
+"company": "SimCorp",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4474331129",
+"level": "reach",
+"location": "Warsaw, Mazowieckie, Poland",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:58Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Principal Product Manager - Portfolio Management",
+"url": "https://www.linkedin.com/jobs/view/4474331129/",
+"visa": ""
+},
+"4474531116": {
+"company": "JPMorganChase",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4474531116",
+"level": "stretch",
+"location": "Greater London, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"UK"
+],
+"score": 48,
+"tier": 3,
+"title": "Product Manager - Global Banking - Deal Lifecycle Vice President",
+"url": "https://www.linkedin.com/jobs/view/4474531116/",
+"visa": ""
+},
 "4474765602": {
 "company": "Basler Kantonalbank",
 "dup": false,
@@ -6925,6 +7359,24 @@
 "url": "https://www.linkedin.com/jobs/view/4474765602/",
 "visa": ""
 },
+"4475027579": {
+"company": "Christian Dior Couture",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4475027579",
+"level": "senior",
+"location": "Paris, Île-de-France, France",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:58Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "CDI - Senior Product Owner (F/H)",
+"url": "https://www.linkedin.com/jobs/view/4475027579/",
+"visa": ""
+},
 "4475244388": {
 "company": "Nobel Biocare",
 "dup": false,
@@ -6941,6 +7393,24 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4475244388/",
+"visa": ""
+},
+"4475305002": {
+"company": "Hager",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4475305002",
+"level": "unlevelled",
+"location": "Obernai, Grand Est, France",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:25Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Proxy Product Owner H/F/X",
+"url": "https://www.linkedin.com/jobs/view/4475305002/",
 "visa": ""
 },
 "4475767904": {
@@ -8876,6 +9346,24 @@
 "url": "https://www.linkedin.com/jobs/view/4480658632/",
 "visa": ""
 },
+"4480693948": {
+"company": "Kidde Global Solutions",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4480693948",
+"level": "unlevelled",
+"location": "Neuilly-Plaisance, Île-de-France, France",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:52Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Access Control",
+"url": "https://www.linkedin.com/jobs/view/4480693948/",
+"visa": ""
+},
 "4480714178": {
 "company": "Fundraise Up",
 "dup": false,
@@ -8892,24 +9380,6 @@
 "tier": 3,
 "title": "Product Manager, Campaign Pages",
 "url": "https://www.linkedin.com/jobs/view/4480714178/",
-"visa": ""
-},
-"4480715115": {
-"company": "Coursera",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4480715115",
-"level": "reach",
-"location": "Dublin, County Dublin, Ireland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-07T04:44Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Staff Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4480715115/",
 "visa": ""
 },
 "4480715715": {
@@ -9957,6 +10427,24 @@
 "url": "https://www.linkedin.com/jobs/view/4481679109/",
 "visa": ""
 },
+"4481683287": {
+"company": "VISEO",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4481683287",
+"level": "unlevelled",
+"location": "Lyon, Auvergne-Rhône-Alpes, France",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:58Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner Technique F/H",
+"url": "https://www.linkedin.com/jobs/view/4481683287/",
+"visa": ""
+},
 "4481688052": {
 "company": "Agoda",
 "dup": true,
@@ -10045,6 +10533,80 @@
 "tier": 3,
 "title": "Product Owner / Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4481911410/",
+"visa": ""
+},
+"4481919374": {
+"company": "Nelly Solutions",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4481919374",
+"level": "reach",
+"location": "Berlin, Berlin, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:30Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Staff Product Manager - Platform",
+"url": "https://www.linkedin.com/jobs/view/4481919374/",
+"visa": ""
+},
+"4481943716": {
+"company": "Thomson Reuters",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4481943716",
+"level": "unlevelled",
+"location": "Gothenburg, Västra Götaland County, Sweden",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:19Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4481943716/",
+"visa": ""
+},
+"4481994981": {
+"company": "Affirm",
+"desc": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n About The Product Team\n The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision.\n About The Role\n The ZT1 Labs group is a small, senior team of product and engineering experts working directly with the CEO on the company’s most important new bets. This team takes on highly ambiguous, cross-functional problems where the upside is company-defining.\nWe are looking for a Group Product Manager to lead a portfolio of ZT1 initiatives in a hands-on builder role, with direct product ownership and with no direct people management responsibilities. You will own the vision, strategy, and roadmap for new products and platforms, partnering closely with engineers, analysts, and designers to build and launch, and with revenue and business teams to bring new products to market and scale.\nYou’ll work closely with the CEO and executive team to turn high-level ideas into durable, scalable businesses.\n What You Will Do\n Understand Customers & Strategic Context:\n Build a deep understanding of Affirm’s global network of users, merchants, and partners. \n Connect customer insights and market trends to long-term company strategy to identify where zero-to-one innovation can drive outsized impact. \n Track relevant product, technology, and industry shifts and use them to inform product direction. \n Set Vision, Strategy, and Roadmap\n Partner with the CEO and senior leaders to define problem spaces and opportunity areas that matter most for Affirm’s future. \n Craft a clear product vision and strategic narrative for the innovation portfolio, translating that into a focused and prioritized roadmap. \n Define crisp outcomes and success metrics tied directly to business impact (GMV, profitability, conversion, retention, long-term moat). \n Lead Zero-to-One Product Development\n Drive the full lifecycle for new products and platforms: discovery, validation, MVP definition, launch, and iteration. \n Own the full UI/UX, using AI tools to build and iterate on working prototypes that make product ideas tangible and testable. \n Write and refine customer-facing copy across the product experience, from onboarding to in-product guidance. \n Independently analyze customer behavior, build funnels, and use data to identify opportunities and guide product decisions. \n Own experimentation end to end, including hypotheses, test design, success metrics, results analysis, and iteration. \n Collaborate closely with cross-functional teams to sync ZT1 roadmaps with core product roadmaps, ensuring high product quality, an aligned user experience, and cohesive business results. \n Cross-Functional & Executive Leadership\n Lead a cross-functional group (engineering, design, data, risk, capital, operations, revenue, legal and compliance) through ambiguous and complex work. \n Serve as a thought partner to the CEO and executive team on new product bets, tradeoffs, and prioritization. \n Communicate clearly and often -",
+"dup": true,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4481994981",
+"level": "reach",
+"location": "Calgary, Alberta, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:56Z",
+"regions": [
+"Canada"
+],
+"score": 68,
+"tier": 2,
+"title": "Group Product Manager - Zero to One Labs",
+"url": "https://www.linkedin.com/jobs/view/4481994981/",
+"visa": ""
+},
+"4481995979": {
+"company": "Affirm",
+"desc": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n About The Product Team\n The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision.\n About The Role\n The ZT1 Labs group is a small, senior team of product and engineering experts working directly with the CEO on the company’s most important new bets. This team takes on highly ambiguous, cross-functional problems where the upside is company-defining.\nWe are looking for a Group Product Manager to lead a portfolio of ZT1 initiatives in a hands-on builder role, with direct product ownership and with no direct people management responsibilities. You will own the vision, strategy, and roadmap for new products and platforms, partnering closely with engineers, analysts, and designers to build and launch, and with revenue and business teams to bring new products to market and scale.\nYou’ll work closely with the CEO and executive team to turn high-level ideas into durable, scalable businesses.\n What You Will Do\n Understand Customers & Strategic Context:\n Build a deep understanding of Affirm’s global network of users, merchants, and partners. \n Connect customer insights and market trends to long-term company strategy to identify where zero-to-one innovation can drive outsized impact. \n Track relevant product, technology, and industry shifts and use them to inform product direction. \n Set Vision, Strategy, and Roadmap\n Partner with the CEO and senior leaders to define problem spaces and opportunity areas that matter most for Affirm’s future. \n Craft a clear product vision and strategic narrative for the innovation portfolio, translating that into a focused and prioritized roadmap. \n Define crisp outcomes and success metrics tied directly to business impact (GMV, profitability, conversion, retention, long-term moat). \n Lead Zero-to-One Product Development\n Drive the full lifecycle for new products and platforms: discovery, validation, MVP definition, launch, and iteration. \n Own the full UI/UX, using AI tools to build and iterate on working prototypes that make product ideas tangible and testable. \n Write and refine customer-facing copy across the product experience, from onboarding to in-product guidance. \n Independently analyze customer behavior, build funnels, and use data to identify opportunities and guide product decisions. \n Own experimentation end to end, including hypotheses, test design, success metrics, results analysis, and iteration. \n Collaborate closely with cross-functional teams to sync ZT1 roadmaps with core product roadmaps, ensuring high product quality, an aligned user experience, and cohesive business results. \n Cross-Functional & Executive Leadership\n Lead a cross-functional group (engineering, design, data, risk, capital, operations, revenue, legal and compliance) through ambiguous and complex work. \n Serve as a thought partner to the CEO and executive team on new product bets, tradeoffs, and prioritization. \n Communicate clearly and often -",
+"dup": true,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4481995979",
+"level": "reach",
+"location": "Edmonton, Alberta, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:24Z",
+"regions": [
+"Canada"
+],
+"score": 68,
+"tier": 2,
+"title": "Group Product Manager - Zero to One Labs",
+"url": "https://www.linkedin.com/jobs/view/4481995979/",
 "visa": ""
 },
 "4482060456": {
@@ -10370,6 +10932,42 @@
 "tier": 3,
 "title": "Technical Product Manager - Inference",
 "url": "https://www.linkedin.com/jobs/view/4482168496/",
+"visa": ""
+},
+"4482321625": {
+"company": "Scribd, Inc.",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4482321625",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:56Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Lead Product Manager, Everand",
+"url": "https://www.linkedin.com/jobs/view/4482321625/",
+"visa": ""
+},
+"4482325636": {
+"company": "Scribd, Inc.",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4482325636",
+"level": "senior",
+"location": "Vancouver, British Columbia, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:56Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Lead Product Manager, Everand",
+"url": "https://www.linkedin.com/jobs/view/4482325636/",
 "visa": ""
 },
 "4482406432": {
@@ -11059,6 +11657,42 @@
 "url": "https://www.linkedin.com/jobs/view/4482871748/",
 "visa": ""
 },
+"4482884081": {
+"company": "Canopee Group",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4482884081",
+"level": "unlevelled",
+"location": "Paris, Île-de-France, France",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner Authentification & Sécurité Digitale",
+"url": "https://www.linkedin.com/jobs/view/4482884081/",
+"visa": ""
+},
+"4482885709": {
+"company": "SEGULA Technologies",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4482885709",
+"level": "unlevelled",
+"location": "Gothenburg, Västra Götaland County, Sweden",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:28Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner – Automotive Infotainment",
+"url": "https://www.linkedin.com/jobs/view/4482885709/",
+"visa": ""
+},
 "4482898760": {
 "company": "Spotify",
 "dup": true,
@@ -11313,24 +11947,6 @@
 "url": "https://www.linkedin.com/jobs/view/4484951331/",
 "visa": ""
 },
-"4484991262": {
-"company": "ABB",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4484991262",
-"level": "unlevelled",
-"location": "Västerås, Västmanland County, Sweden",
-"posted": "2026-11-08",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Owner - Embedded Systems",
-"url": "https://www.linkedin.com/jobs/view/4484991262/",
-"visa": ""
-},
 "4485214317": {
 "company": "Seccl",
 "dup": false,
@@ -11546,402 +12162,6 @@
 "tier": 3,
 "title": "Product Owner Cluster IT-Zorg UMC Utrecht",
 "url": "https://www.linkedin.com/jobs/view/4486519094/",
-"visa": ""
-},
-"4486604836": {
-"company": "Workday",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486604836",
-"level": "reach",
-"location": "Dublin, County Dublin, Ireland",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:44Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Principal Product Manager - Workday AI - Agent Factory",
-"url": "https://www.linkedin.com/jobs/view/4486604836/",
-"visa": ""
-},
-"4486604844": {
-"company": "hireful",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486604844",
-"level": "unlevelled",
-"location": "Ladywood, England, United Kingdom",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:44Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4486604844/",
-"visa": ""
-},
-"4486608666": {
-"company": "Workday",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486608666",
-"level": "senior",
-"location": "Vancouver, British Columbia, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:43Z",
-"regions": [
-"Canada"
-],
-"score": 47,
-"tier": 3,
-"title": "Sr Product Manager, Contract to Cash",
-"url": "https://www.linkedin.com/jobs/view/4486608666/",
-"visa": ""
-},
-"4486619589": {
-"company": "Söring GmbH",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486619589",
-"level": "unlevelled",
-"location": "Quickborn, Schleswig-Holstein, Germany",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T06:44Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager (m/w/d) - Ultrasonic Surgery",
-"url": "https://www.linkedin.com/jobs/view/4486619589/",
-"visa": ""
-},
-"4486621148": {
-"company": "Bajaj Broking",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486621148",
-"level": "unlevelled",
-"location": "Pune District, Maharashtra, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:44Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4486621148/",
-"visa": ""
-},
-"4486622790": {
-"company": "transferz",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486622790",
-"level": "senior",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:53Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, Platform & AI | Global Mobility",
-"url": "https://www.linkedin.com/jobs/view/4486622790/",
-"visa": ""
-},
-"4486622945": {
-"company": "AANPAK PEOPLE SOLUTIONS",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486622945",
-"level": "unlevelled",
-"location": "Greater Madrid Metropolitan Area",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T08:12Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Sector Nutracéutico",
-"url": "https://www.linkedin.com/jobs/view/4486622945/",
-"visa": ""
-},
-"4486624531": {
-"company": "padoa",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486624531",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:47Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager HealthTech SaaS – Drive Impact",
-"url": "https://www.linkedin.com/jobs/view/4486624531/",
-"visa": ""
-},
-"4486625477": {
-"company": "Monta",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486625477",
-"level": "unlevelled",
-"location": "Gorinchem, South Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:47Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Internationale IT Product Manager: Verbinder Business & IT",
-"url": "https://www.linkedin.com/jobs/view/4486625477/",
-"visa": ""
-},
-"4486626134": {
-"company": "Remarcable",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486626134",
-"level": "unlevelled",
-"location": "Vancouver, British Columbia, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T06:43Z",
-"regions": [
-"Canada"
-],
-"score": 51,
-"tier": 3,
-"title": "Product Manager (Accounting & ERP)",
-"url": "https://www.linkedin.com/jobs/view/4486626134/",
-"visa": ""
-},
-"4486627446": {
-"company": "Delta Solutions",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486627446",
-"level": "unlevelled",
-"location": "The Hague, South Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:47Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner BeRG & Datakwaliteit",
-"url": "https://www.linkedin.com/jobs/view/4486627446/",
-"visa": ""
-},
-"4486628402": {
-"company": "transferz",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486628402",
-"level": "unlevelled",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:47Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product manager for ground transportation",
-"url": "https://www.linkedin.com/jobs/view/4486628402/",
-"visa": ""
-},
-"4486628444": {
-"company": "transferz",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486628444",
-"level": "unlevelled",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:48Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Amsterdam-Based Product Manager — AI-First Travel Platform",
-"url": "https://www.linkedin.com/jobs/view/4486628444/",
-"visa": ""
-},
-"4486628468": {
-"company": "STATION F",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486628468",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:49Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager: AI & Energy Modeling for SaaS Impact",
-"url": "https://www.linkedin.com/jobs/view/4486628468/",
-"visa": ""
-},
-"4486628674": {
-"company": "Fin",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486628674",
-"level": "senior",
-"location": "Dublin, County Dublin, Ireland",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:56Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Forward Deployed Product Manager (Dublin)",
-"url": "https://www.linkedin.com/jobs/view/4486628674/",
-"visa": ""
-},
-"4486629093": {
-"company": "Nova Financial Corporation",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486629093",
-"level": "unlevelled",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T06:43Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4486629093/",
-"visa": ""
-},
-"4486629393": {
-"company": "Purse",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486629393",
-"level": "unlevelled",
-"location": "Lille, Hauts-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:50Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Manager - Orchestration Paiement Fintech",
-"url": "https://www.linkedin.com/jobs/view/4486629393/",
-"visa": ""
-},
-"4486631261": {
-"company": "padoa",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486631261",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:46Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager HealthTech - Remote & High Impact",
-"url": "https://www.linkedin.com/jobs/view/4486631261/",
-"visa": ""
-},
-"4486633389": {
-"company": "Openprovider",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486633389",
-"level": "unlevelled",
-"location": "Rotterdam, South Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:55Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Domains & DNS Product Manager | Remote & AI-Driven",
-"url": "https://www.linkedin.com/jobs/view/4486633389/",
-"visa": ""
-},
-"4486636168": {
-"company": "Openprovider",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486636168",
-"level": "unlevelled",
-"location": "Rotterdam, South Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:53Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager (Domains & DNS) - Fully Remote job",
-"url": "https://www.linkedin.com/jobs/view/4486636168/",
-"visa": ""
-},
-"4486636190": {
-"company": "Monta",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486636190",
-"level": "unlevelled",
-"location": "Gorinchem, South Holland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:54Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "IT Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4486636190/",
-"visa": ""
-},
-"4486638079": {
-"company": "ISAGRI",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4486638079",
-"level": "senior",
-"location": "Beauvais, Hauts-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:52Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Owner - SaaS Growth & Strategy Lead",
-"url": "https://www.linkedin.com/jobs/view/4486638079/",
 "visa": ""
 },
 "4486640626": {
@@ -13365,240 +13585,6 @@
 "url": "https://www.linkedin.com/jobs/view/4487285434/",
 "visa": ""
 },
-"4487286307": {
-"company": "M Group",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487286307",
-"level": "unlevelled",
-"location": "Newcastle Upon Tyne, England, United Kingdom",
-"posted": "2026-11-08",
-"posted_ts": "2026-11-07T04:44Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4487286307/",
-"visa": ""
-},
-"4487353501": {
-"company": "Adecco",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487353501",
-"level": "unlevelled",
-"location": "London, England, United Kingdom",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T00:44Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4487353501/",
-"visa": ""
-},
-"4487376533": {
-"company": "STATION F",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487376533",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T00:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "PRODUCT MANAGER",
-"url": "https://www.linkedin.com/jobs/view/4487376533/",
-"visa": ""
-},
-"4487379422": {
-"company": "EWOR",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487379422",
-"level": "stretch",
-"location": "Ireland",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:44Z",
-"regions": [
-"Europe"
-],
-"score": 48,
-"tier": 3,
-"title": "Applied AI Co-Founder / Head of Product (100 % remote) (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4487379422/",
-"visa": ""
-},
-"4487381452": {
-"company": "Evotym",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487381452",
-"level": "unlevelled",
-"location": "Poland",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Card Issuing Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4487381452/",
-"visa": ""
-},
-"4487382434": {
-"company": "EWOR",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487382434",
-"level": "stretch",
-"location": "Poland",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 48,
-"tier": 3,
-"title": "Applied AI Co-Founder / Head of Product (100 % remote) (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4487382434/",
-"visa": ""
-},
-"4487385389": {
-"company": "Modjo",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487385389",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4487385389/",
-"visa": ""
-},
-"4487388544": {
-"company": "Housr",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487388544",
-"level": "stretch",
-"location": "Manchester, England, United Kingdom",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T05:44Z",
-"regions": [
-"UK"
-],
-"score": 48,
-"tier": 3,
-"title": "Head of Product",
-"url": "https://www.linkedin.com/jobs/view/4487388544/",
-"visa": ""
-},
-"4487389310": {
-"company": "AIMLEAP",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487389310",
-"level": "unlevelled",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:44Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager - AI/ SaaS Products",
-"url": "https://www.linkedin.com/jobs/view/4487389310/",
-"visa": ""
-},
-"4487393273": {
-"company": "EWOR",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487393273",
-"level": "stretch",
-"location": "Switzerland",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 48,
-"tier": 3,
-"title": "Applied AI Co-Founder / Head of Product (100 % remote) (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4487393273/",
-"visa": ""
-},
-"4487393276": {
-"company": "EWOR",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487393276",
-"level": "stretch",
-"location": "Sweden",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 48,
-"tier": 3,
-"title": "Applied AI Co-Founder / Head of Product (100 % remote) (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4487393276/",
-"visa": ""
-},
-"4487394228": {
-"company": "EWOR",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487394228",
-"level": "stretch",
-"location": "Spain",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 52,
-"tier": 3,
-"title": "Fintech Co-Founder / Head of Product (100 % remote) (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4487394228/",
-"visa": ""
-},
-"4487399416": {
-"company": "Jobster",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487399416",
-"level": "unlevelled",
-"location": "Zwolle, Overijssel, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T06:44Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Manager Battery Chargers and DC Distribution - YER",
-"url": "https://www.linkedin.com/jobs/view/4487399416/",
-"visa": ""
-},
 "4487403521": {
 "company": "ING Wholesale Banking",
 "dup": false,
@@ -14050,6 +14036,24 @@
 "url": "https://www.linkedin.com/jobs/view/4487465975/",
 "visa": ""
 },
+"4487466453": {
+"company": "True Blue HR Consultants",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4487466453",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T05:57Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Owner -RCM US Healthcare",
+"url": "https://www.linkedin.com/jobs/view/4487466453/",
+"visa": ""
+},
 "4487473379": {
 "company": "JobCloud SA | jobup.ch - jobs.ch",
 "dup": false,
@@ -14264,24 +14268,6 @@
 "tier": 3,
 "title": "Product Manager - Compliance (SG)",
 "url": "https://www.linkedin.com/jobs/view/4487587937/",
-"visa": ""
-},
-"4487600014": {
-"company": "Modjo",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487600014",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "AI Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4487600014/",
 "visa": ""
 },
 "4487604321": {
@@ -14950,24 +14936,6 @@
 "tier": 1,
 "title": "Principal Product Manager - Firefly UI (Image/Video)",
 "url": "https://www.linkedin.com/jobs/view/4487697490/",
-"visa": ""
-},
-"4487739249": {
-"company": "Niantic Spatial, Inc.",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4487739249",
-"level": "stretch",
-"location": "London, England, United Kingdom",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T22:44Z",
-"regions": [
-"UK"
-],
-"score": 48,
-"tier": 3,
-"title": "Senior Director of Product Management, Models and Data",
-"url": "https://www.linkedin.com/jobs/view/4487739249/",
 "visa": ""
 },
 "4487800558": {
@@ -16886,6 +16854,24 @@
 "url": "https://www.linkedin.com/jobs/view/4488389271/",
 "visa": ""
 },
+"4488391083": {
+"company": "ABB",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4488391083",
+"level": "senior",
+"location": "Minden, North Rhine-Westphalia, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:58Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "R&D Senior Engineer (m/w/d) - Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4488391083/",
+"visa": ""
+},
 "4488394255": {
 "company": "Vitamin Well Group",
 "dup": false,
@@ -16940,60 +16926,6 @@
 "url": "https://www.linkedin.com/jobs/view/4488399504/",
 "visa": ""
 },
-"4488427935": {
-"company": "VELUX",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488427935",
-"level": "unlevelled",
-"location": "Kolding, Region of Southern Denmark, Denmark",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T23:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Owner (Manufacturing Applications)",
-"url": "https://www.linkedin.com/jobs/view/4488427935/",
-"visa": ""
-},
-"4488430805": {
-"company": "VELUX",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488430805",
-"level": "unlevelled",
-"location": "Østbirk, Central Denmark Region, Denmark",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T23:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Owner (Manufacturing Applications)",
-"url": "https://www.linkedin.com/jobs/view/4488430805/",
-"visa": ""
-},
-"4488434862": {
-"company": "Fidectus",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488434862",
-"level": "senior",
-"location": "Zurich, Zurich, Switzerland",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T23:45Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager- Fidectus (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4488434862/",
-"visa": ""
-},
 "4488435952": {
 "company": "BMO",
 "dup": false,
@@ -17010,312 +16942,6 @@
 "tier": 3,
 "title": "Digital Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4488435952/",
-"visa": ""
-},
-"4488439439": {
-"company": "VELUX",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488439439",
-"level": "unlevelled",
-"location": "Hørsholm, Capital Region of Denmark, Denmark",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T23:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Owner (Manufacturing Applications)",
-"url": "https://www.linkedin.com/jobs/view/4488439439/",
-"visa": ""
-},
-"4488439814": {
-"company": "Mettle",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488439814",
-"level": "unlevelled",
-"location": "London, England, United Kingdom",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T23:44Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4488439814/",
-"visa": ""
-},
-"4488445400": {
-"company": "Wellington Management",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488445400",
-"level": "unlevelled",
-"location": "London Area, United Kingdom",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T22:44Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner - Client Data & Analytics",
-"url": "https://www.linkedin.com/jobs/view/4488445400/",
-"visa": ""
-},
-"4488450151": {
-"company": "Parallel",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488450151",
-"level": "unlevelled",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T22:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488450151/",
-"visa": ""
-},
-"4488451080": {
-"company": "Vocca",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488451080",
-"level": "senior",
-"location": "Paris, Île-de-France, France",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T22:45Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488451080/",
-"visa": ""
-},
-"4488456359": {
-"company": "Snyk",
-"dup": true,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488456359",
-"level": "reach",
-"location": "Zurich, Zurich, Switzerland",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T23:45Z",
-"regions": [
-"Europe"
-],
-"score": 73,
-"tier": 2,
-"title": "Staff Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488456359/",
-"visa": ""
-},
-"4488457266": {
-"company": "LaFinteca",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488457266",
-"level": "unlevelled",
-"location": "Barcelona, Catalonia, Spain",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-06T23:45Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Manager (Payments and Crypto)",
-"url": "https://www.linkedin.com/jobs/view/4488457266/",
-"visa": ""
-},
-"4488467048": {
-"company": "IGG Bouweconomie",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488467048",
-"level": "unlevelled",
-"location": "The Hague, South Holland, Netherlands",
-"posted": "2026-11-06",
-"posted_ts": "2026-11-07T00:44Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner Database & Tools",
-"url": "https://www.linkedin.com/jobs/view/4488467048/",
-"visa": ""
-},
-"4488470477": {
-"company": "GamblingCareers.com",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488470477",
-"level": "unlevelled",
-"location": "Barcelona, Catalonia, Spain",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T00:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4488470477/",
-"visa": ""
-},
-"4488476908": {
-"company": "Sycle",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488476908",
-"level": "senior",
-"location": "Vancouver, British Columbia, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T05:43Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Sr Product Manager - Patient Experience - SaaS, Clinical Healthcare",
-"url": "https://www.linkedin.com/jobs/view/4488476908/",
-"visa": ""
-},
-"4488477371": {
-"company": "Assurity Trusted Solutions Pte Ltd",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488477371",
-"level": "unlevelled",
-"location": "Singapore, Singapore",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-07T03:43Z",
-"regions": [
-"Singapore"
-],
-"score": 51,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488477371/",
-"visa": ""
-},
-"4488486906": {
-"company": "mamgo | Talente 🔗 Jobs",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488486906",
-"level": "unlevelled",
-"location": "Ahrensburg, Schleswig-Holstein, Germany",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T06:44Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner (m/w/d) Softwareprodukt",
-"url": "https://www.linkedin.com/jobs/view/4488486906/",
-"visa": ""
-},
-"4488487238": {
-"company": "Lunar",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488487238",
-"level": "senior",
-"location": "Copenhagen, Capital Region of Denmark, Denmark",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:45Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, Data Platform",
-"url": "https://www.linkedin.com/jobs/view/4488487238/",
-"visa": ""
-},
-"4488493110": {
-"company": "Bureau of Meteorology",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488493110",
-"level": "senior",
-"location": "Melbourne, Victoria, Australia",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T04:42Z",
-"regions": [
-"Australia"
-],
-"score": 70,
-"tier": 3,
-"title": "Digital Product Lead",
-"url": "https://www.linkedin.com/jobs/view/4488493110/",
-"visa": ""
-},
-"4488495679": {
-"company": "HP",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488495679",
-"level": "unlevelled",
-"location": "Sant Cugat del Vallès, Catalonia, Spain",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T06:45Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Data Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488495679/",
-"visa": ""
-},
-"4488497499": {
-"company": "HireRight",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488497499",
-"level": "unlevelled",
-"location": "London, England, United Kingdom",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T06:44Z",
-"regions": [
-"UK"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488497499/",
-"visa": ""
-},
-"4488499544": {
-"company": "The Greater Change",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488499544",
-"level": "unlevelled",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T07:43Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager (Multi-Modal Experience & Perception)",
-"url": "https://www.linkedin.com/jobs/view/4488499544/",
 "visa": ""
 },
 "4488504329": {
@@ -18166,24 +17792,6 @@
 "tier": 3,
 "title": "Digital Product Lead",
 "url": "https://www.linkedin.com/jobs/view/4488715207/",
-"visa": ""
-},
-"4488717041": {
-"company": "KGS DIAMOND USA",
-"dup": false,
-"first_seen_at": "2026-11-07T08:42Z",
-"id": "4488717041",
-"level": "unlevelled",
-"location": "Elburg, Gelderland, Netherlands",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T08:40Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488717041/",
 "visa": ""
 },
 "4488726006": {
@@ -20262,6 +19870,24 @@
 "url": "https://www.linkedin.com/jobs/view/4488980976/",
 "visa": ""
 },
+"4488984762": {
+"company": "Jobber",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4488984762",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T05:56Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager, New Starts",
+"url": "https://www.linkedin.com/jobs/view/4488984762/",
+"visa": ""
+},
 "4488990783": {
 "company": "Virtuozzo",
 "dup": false,
@@ -20287,7 +19913,7 @@
 "id": "4488994492",
 "level": "senior",
 "location": "Edmonton, Alberta, Canada",
-"posted": "2026-11-13",
+"posted": "2026-11-14",
 "posted_ts": "2026-11-13T23:25Z",
 "regions": [
 "Canada"
@@ -20314,6 +19940,24 @@
 "tier": 3,
 "title": "Product Manager, Aperture",
 "url": "https://www.linkedin.com/jobs/view/4488995591/",
+"visa": ""
+},
+"4488997995": {
+"company": "Just Eat Takeaway.com",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4488997995",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager - Design System",
+"url": "https://www.linkedin.com/jobs/view/4488997995/",
 "visa": ""
 },
 "4488998448": {
@@ -22103,6 +21747,24 @@
 "url": "https://www.linkedin.com/jobs/view/4489297679/",
 "visa": ""
 },
+"4489302855": {
+"company": "4AT CONSULTING",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489302855",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T05:57Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Owner Web (Techno Functional) 8 to 14 Years exp.",
+"url": "https://www.linkedin.com/jobs/view/4489302855/",
+"visa": ""
+},
 "4489303208": {
 "company": "Aubay Spain",
 "dup": false,
@@ -22119,6 +21781,132 @@
 "tier": 3,
 "title": "Product Owner & Release Manager",
 "url": "https://www.linkedin.com/jobs/view/4489303208/",
+"visa": ""
+},
+"4489310391": {
+"company": "Just Eat Takeaway.com",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489310391",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4489310391/",
+"visa": ""
+},
+"4489313702": {
+"company": "The Greater Change",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489313702",
+"level": "stretch",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T07:56Z",
+"regions": [
+"Gulf"
+],
+"score": 48,
+"tier": 3,
+"title": "Head of Product, UX & Design (Product Owners, Experience & Creative)",
+"url": "https://www.linkedin.com/jobs/view/4489313702/",
+"visa": ""
+},
+"4489319844": {
+"company": "Hilti Group",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489319844",
+"level": "unlevelled",
+"location": "Boulogne-Billancourt, Île-de-France, France",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:10Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner (Data & AI)",
+"url": "https://www.linkedin.com/jobs/view/4489319844/",
+"visa": ""
+},
+"4489321763": {
+"company": "National Bank of Canada",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489321763",
+"level": "unlevelled",
+"location": "Montreal, Quebec, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:06Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Commercial digital Product owner",
+"url": "https://www.linkedin.com/jobs/view/4489321763/",
+"visa": ""
+},
+"4489322581": {
+"company": "Luna Technologies Pvt. Ltd.",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489322581",
+"level": "unlevelled",
+"location": "Navi Mumbai, Maharashtra, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:13Z",
+"regions": [
+"India"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager – Automation",
+"url": "https://www.linkedin.com/jobs/view/4489322581/",
+"visa": ""
+},
+"4489324246": {
+"company": "Luna Technologies Pvt. Ltd.",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489324246",
+"level": "unlevelled",
+"location": "Mumbai, Maharashtra, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T07:57Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager – Flexem",
+"url": "https://www.linkedin.com/jobs/view/4489324246/",
+"visa": ""
+},
+"4489328415": {
+"company": "Etihad",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489328415",
+"level": "unlevelled",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:56Z",
+"regions": [
+"Gulf"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager - Guest Experience - UAE Nationals Only",
+"url": "https://www.linkedin.com/jobs/view/4489328415/",
 "visa": ""
 },
 "4489402796": {
@@ -23222,6 +23010,24 @@
 "url": "https://www.linkedin.com/jobs/view/4489496388/",
 "visa": ""
 },
+"4489496673": {
+"company": "ABB",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489496673",
+"level": "senior",
+"location": "Minden, North Rhine-Westphalia, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:58Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "R&D Senior Engineer (f/m/d) - Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4489496673/",
+"visa": ""
+},
 "4489502597": {
 "company": "Kraken",
 "dup": false,
@@ -23689,6 +23495,24 @@
 "tier": 3,
 "title": "CDI - Consultant - Product Manager IA (H/F)",
 "url": "https://www.linkedin.com/jobs/view/4489545864/",
+"visa": ""
+},
+"4489546859": {
+"company": "WRISE",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489546859",
+"level": "unlevelled",
+"location": "Singapore",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:12Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager (Wealth Management)",
+"url": "https://www.linkedin.com/jobs/view/4489546859/",
 "visa": ""
 },
 "4489557012": {
@@ -24524,6 +24348,24 @@
 "url": "https://www.linkedin.com/jobs/view/4489844230/",
 "visa": ""
 },
+"4489847913": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489847913",
+"level": "unlevelled",
+"location": "India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager, Analytics (Call Intelligence)",
+"url": "https://www.linkedin.com/jobs/view/4489847913/",
+"visa": ""
+},
 "4489848078": {
 "company": "Fundraise Up",
 "dup": false,
@@ -24540,6 +24382,187 @@
 "tier": 3,
 "title": "Product Manager, Integrations & Exports",
 "url": "https://www.linkedin.com/jobs/view/4489848078/",
+"visa": ""
+},
+"4489848810": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489848810",
+"level": "unlevelled",
+"location": "India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager, Global Learning & Knowledge Platforms",
+"url": "https://www.linkedin.com/jobs/view/4489848810/",
+"visa": ""
+},
+"4489852933": {
+"company": "DACHSER",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489852933",
+"level": "unlevelled",
+"location": "Kempten, Bavaria, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T05:57Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Digital Product Owner (m/w/d)",
+"url": "https://www.linkedin.com/jobs/view/4489852933/",
+"visa": ""
+},
+"4489853639": {
+"company": "Forest",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489853639",
+"level": "unlevelled",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager – B2B Products",
+"url": "https://www.linkedin.com/jobs/view/4489853639/",
+"visa": ""
+},
+"4489856422": {
+"company": "Forest",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489856422",
+"level": "unlevelled",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Fleet",
+"url": "https://www.linkedin.com/jobs/view/4489856422/",
+"visa": ""
+},
+"4489857347": {
+"company": "MR MARVIS",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489857347",
+"level": "unlevelled",
+"location": "Amsterdam, North Holland, Netherlands",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Freelance Digital Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4489857347/",
+"visa": ""
+},
+"4489862575": {
+"company": "HireAlpha",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489862575",
+"level": "unlevelled",
+"location": "Belāpur, Maharashtra, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T06:57Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4489862575/",
+"visa": ""
+},
+"4489868442": {
+"company": "Kanan.co",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489868442",
+"level": "unlevelled",
+"location": "Vadodara, Gujarat, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T06:57Z",
+"regions": [
+"India"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager – CRM",
+"url": "https://www.linkedin.com/jobs/view/4489868442/",
+"visa": ""
+},
+"4489871762": {
+"company": "Erekrut... Recruitment Made Easy",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489871762",
+"level": "unlevelled",
+"location": "Karnataka, India",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:57Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager - Healthcare",
+"url": "https://www.linkedin.com/jobs/view/4489871762/",
+"visa": ""
+},
+"4489874242": {
+"company": "Expedia Group",
+"desc": "At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and travel advertising business.\nHere, you'll do meaningful work that helps millions of people discover, book, and experience travel with more ease, confidence, and joy. Our five Behaviors-Traveler First, Think Big, Operate with Excellence, Ownership Mindset, and Succeed Together-help foster a supportive environment where people can grow their careers and have the flexibility, benefits, and support to do their best work. Join us and build for travelers everywhere.\n Senior Technical Product Manager, Bidding & Optimization\n Introduction to the Team\n We create and deliver tailored marketing strategies for Expedia Group’s brands, focusing on establishing strong connections and cohesive experiences for travelers and partners. We leverage our functional expertise and creative excellence to build trust and loyalty for our brands through innovative marketing approaches and technology.\n Make an impact!\n Within Marketing, the Search Product & Optimization team builds the decision systems behind Expedia Group’s performance-marketing investments across Search, Metasearch, and other channels. We are evolving beyond manual bidding toward a more automated system that allocates investment against business goals. In this role, you’ll own the bidding product domain end to end and shape a high-impact platform in close partnership with Product, Data Science, Engineering, and Marketing.\n In This Role, You Will\n Own the product vision, strategy, roadmap, and delivery for Expedia Group’s bidding and optimization platform across Search, Metasearch, and other performance channels.\n Translate business goals and financial constraints into product decisions: define what the system should optimize, how it should handle budgets and targets, and how bidding should adapt as performance and market conditions change.\n Partner with Data Science and Engineering to build and evolve production decision systems, including data pipelines, predictive models, optimization logic, partner integrations, execution workflows, and monitoring.\n Guide model and system trade-offs, experimentation, and performance evaluation so decisions are grounded in measurable business impact and the system can improve over time.\n Define the controls, transparency, reliability, and operating practices needed to make automated decisions understandable, trustworthy, and effective at scale.\n Experience And Qualifications\n You have 7+ years of product management experience, including end-to-end ownership of technical or platform products from strategy through production launch and scaled adoption.\n You have built or materially evolved a production product powered by machine learning, optimization, forecasting, or algorithmic decisioning, and can explain how its key components work together.\n You can partner credibly with Data Science and Engineering on system design, data quality, model evaluation, experimentation, integrations, monitoring, and production trade-offs. You do not need to build models yourself, but you are comfortable challenging assumptions and helping teams choose a path.\n You use analytical judgment to frame objectives and constraints, weigh trade-offs, connect product and model metrics to measurable business outcomes, an",
+"dup": true,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489874242",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T06:57Z",
+"regions": [
+"UK"
+],
+"score": 87,
+"tier": 2,
+"title": "Senior Technical Product Manager, Bidding & Optimization",
+"url": "https://www.linkedin.com/jobs/view/4489874242/",
+"visa": ""
+},
+"4489875646": {
+"company": "Client Server",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4489875646",
+"level": "unlevelled",
+"location": "West Berkshire, England, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:22Z",
+"regions": [
+"UK"
+],
+"score": 58,
+"tier": 3,
+"title": "Technical Product Manager - FinTech",
+"url": "https://www.linkedin.com/jobs/view/4489875646/",
 "visa": ""
 },
 "4489900180": {
@@ -27925,10 +27948,136 @@
 "title": "Technical Product Owner (m/w/d) - Konstanz, Berlin oder remote",
 "url": "https://www.linkedin.com/jobs/view/4491038179/",
 "visa": ""
+},
+"4491038320": {
+"company": "Bloom & Wild",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4491038320",
+"level": "unlevelled",
+"location": "London Area, United Kingdom",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T04:57Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager - Delivery & Availability Management (DAM)",
+"url": "https://www.linkedin.com/jobs/view/4491038320/",
+"visa": ""
+},
+"4491045382": {
+"company": "Riverty",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4491045382",
+"level": "senior",
+"location": "Copenhagen, Capital Region of Denmark, Denmark",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T05:55Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "(Senior) Product Manager Consumer Touchpoints (m/f/d)",
+"url": "https://www.linkedin.com/jobs/view/4491045382/",
+"visa": ""
+},
+"4491047720": {
+"company": "SIGNAL IDUNA Gruppe",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4491047720",
+"level": "unlevelled",
+"location": "Hamburg, Hamburg, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T06:57Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner (m/w/d) - (gewerbliche) Gebäudeversicherung",
+"url": "https://www.linkedin.com/jobs/view/4491047720/",
+"visa": ""
+},
+"4491050780": {
+"company": "Afori",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4491050780",
+"level": "senior",
+"location": "Barcelona, Catalonia, Spain",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T09:58Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Founding Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4491050780/",
+"visa": ""
+},
+"4491052053": {
+"company": "JPMorganChase",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4491052053",
+"level": "unlevelled",
+"location": "Berlin, Berlin, Germany",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T05:57Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Insurance Product Manager (All Genders)",
+"url": "https://www.linkedin.com/jobs/view/4491052053/",
+"visa": ""
+},
+"4491069030": {
+"company": "PIP Global Safety",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4491069030",
+"level": "unlevelled",
+"location": "Roissy, Île-de-France, France",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:09Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager PPE M/F/X",
+"url": "https://www.linkedin.com/jobs/view/4491069030/",
+"visa": ""
+},
+"4491069031": {
+"company": "PIP Canada",
+"dup": false,
+"first_seen_at": "2026-11-14T10:55Z",
+"id": "4491069031",
+"level": "unlevelled",
+"location": "Laval, Quebec, Canada",
+"posted": "2026-11-14",
+"posted_ts": "2026-11-14T10:01Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Gestionnaire de produits / Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4491069031/",
+"visa": ""
 }
 },
 "last_block_ping": "2026-11-13T18:18Z",
-"last_rollup": "2026-11-14T03:37Z",
-"last_scan": "2026-11-14T03:37Z",
-"updated": "2026-11-14T03:37Z"
+"last_rollup": "2026-11-14T10:55Z",
+"last_scan": "2026-11-14T10:55Z",
+"updated": "2026-11-14T10:55Z"
 }
