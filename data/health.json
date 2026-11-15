@@ -14,7 +14,7 @@
  "Adyen": {
   "matched": 7,
   "ok": true,
-  "total": 247,
+  "total": 246,
   "via": "greenhouse"
  },
  "Affirm": {
@@ -65,9 +65,9 @@
   "via": "greenhouse"
  },
  "Atlassian": {
-  "matched": 0,
+  "matched": 1,
   "ok": true,
-  "total": 288,
+  "total": 280,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -174,7 +174,7 @@
  "Expedia Group": {
   "matched": 8,
   "ok": true,
-  "total": 50,
+  "total": 48,
   "via": "workday"
  },
  "Fivetran": {
@@ -493,7 +493,7 @@
  "Twilio": {
   "matched": 2,
   "ok": true,
-  "total": 115,
+  "total": 114,
   "via": "greenhouse"
  },
  "Uber": {
@@ -516,7 +516,7 @@
  "Wise": {
   "matched": 17,
   "ok": true,
-  "total": 426,
+  "total": 425,
   "via": "smartrecruiters"
  },
  "Wolt": {
@@ -561,9 +561,9 @@
   "via": "greenhouse"
  },
  "eBay": {
-  "matched": 14,
+  "matched": 16,
   "ok": true,
-  "total": 195,
+  "total": 196,
   "via": "workday"
  },
  "loveholidays": {
