@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-15 01:58 UTC · 459 open matches · 3 new in the last 24h · 96/98 sources healthy_
+_Updated 2026-11-15 21:51 UTC · 460 open matches · 4 new in the last 24h · 96/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -11,6 +11,7 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 86 | eBay | [Senior Product Manager, Ad Relevance](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Toronto/Senior-Product-Manager--Ad-Relevance_R0077351) | Toronto |  | 2026-11-14 |
 | 82 | eBay | [Senior Product Manager, Ad Ranking](https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Toronto/Senior-Product-Manager--Ad-Ranking_R0077321) | Toronto |  | 2026-11-14 |
 | 80 | ⭐ Atlassian | [Principal Product Manager, Enterprise Platform](https://www.atlassian.com/company/careers/details/28956) | Gdańsk - Poland -   Gdańsk,  80-280 Poland; Remote - Remote |  | 2026-11-15 |
+| 72 | Mastercard | [Lead Product Manager- Technical](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Product-Manager--Technical_R-289419) | Pune, India |  | 2026-09-02 |
 
 ## UK — 102 open
 
@@ -204,7 +205,7 @@ _…and 73 more in data/jobs.json_
 | 48 | Airwallex | [Staff/Senior Product Manager (0-1 Billing)](https://jobs.ashbyhq.com/airwallex/2a471f31-9cc8-4ab5-9f6c-921fc1f137d6) | SG - Singapore; Singapore |  | 2026-01-28 |
 | 48 | Wise | [Director, Product Analytics (APAC)](https://jobs.smartrecruiters.com/Wise/744000154396550) | Singapore, , Singapore |  | 2026-10-08 |
 
-## India — 113 open
+## India — 114 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -269,47 +270,47 @@ _…and 73 more in data/jobs.json_
 | 76 | ⭐ Amazon | [Product Manager / Inventory Health Product, Amazon Now](https://www.amazon.jobs/en/jobs/10441689/product-manager-inventory-health-product-amazon-now) | Bengaluru, Karnataka, IND |  | 2026-06-08 |
 | 76 | ⭐ Google | [Product Manager, Google Cloud Business Platform](https://www.google.com/about/careers/applications/jobs/results/115864078936613574-product-manager-google-cloud-business-platform) | Hyderabad, Telangana, India; Bengaluru, Karnataka, India |  | 2026-10-26 |
 
-_…and 53 more in data/jobs.json_
+_…and 54 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
 | 1Password | ok | 81 | 5 |
-| Adobe | ok | 246 | 3 |
+| Adobe | ok | 247 | 3 |
 | Adyen | ok | 246 | 7 |
 | Affirm | ok | 217 | 8 |
-| Agoda | ok | 355 | 8 |
-| Airbnb | ok | 214 | 0 |
-| Airwallex | ok | 485 | 11 |
-| Amazon | ok | 157 | 92 |
-| Anthropic | ok | 670 | 0 |
+| Agoda | ok | 354 | 8 |
+| Airbnb | ok | 213 | 0 |
+| Airwallex | ok | 483 | 11 |
+| Amazon | ok | 158 | 92 |
+| Anthropic | ok | 666 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 109 | 7 |
-| Atlassian | ok | 280 | 1 |
+| Atlassian | ok | 306 | 1 |
 | Bitpanda | ok | 45 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 286 | 2 |
 | Canva | ok | 32 | 0 |
-| Celonis | ok | 265 | 4 |
+| Celonis | ok | 262 | 4 |
 | Cloudflare | ok | 479 | 4 |
 | Cohere | ok | 121 | 2 |
 | Cresta | ok | 88 | 1 |
 | Datadog | ok | 384 | 1 |
 | Decagon | ok | 124 | 2 |
-| Deliveroo | ok | 185 | 7 |
+| Deliveroo | ok | 186 | 7 |
 | Delivery Hero | ok | 600 | 6 |
 | Deputy | ok | 2 | 0 |
 | Doctolib | ⚠️ HTTPError: HTTP Error 404: Not Found |  |  |
 | Ebury | ok | 151 | 4 |
 | Elastic | ok | 400 | 21 |
-| ElevenLabs | ok | 128 | 0 |
-| Expedia Group | ok | 48 | 8 |
+| ElevenLabs | ok | 127 | 0 |
+| Expedia Group | ok | 47 | 8 |
 | Fivetran | ok | 197 | 2 |
 | Genesys | ok | 202 | 1 |
 | Geotab | ok | 63 | 5 |
 | GetYourGuide | ok | 0 | 0 |
-| GitLab | ok | 251 | 6 |
+| GitLab | ok | 254 | 6 |
 | GoCardless | ok | 29 | 0 |
 | Google | ok | 69 | 15 |
 | Grab | ok | 420 | 9 |
@@ -321,30 +322,30 @@ _…and 53 more in data/jobs.json_
 | LinkedIn | ok | 176 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 79 | 4 |
-| Mastercard | ok | 400 | 12 |
+| Mastercard | ok | 400 | 13 |
 | Meesho | ok | 49 | 3 |
 | Mentimeter | ok | 17 | 1 |
 | Meta | ok |  |  |
 | Microsoft | ok | 99 | 8 |
 | Moneybox | ok | 18 | 1 |
-| MongoDB | ok | 390 | 9 |
+| MongoDB | ok | 392 | 9 |
 | Monzo | ok | 57 | 1 |
 | N26 | ok | 34 | 2 |
 | Netflix | ok | 177 | 1 |
 | New Relic | ok | 44 | 0 |
 | Nium | ok | 31 | 3 |
-| Okta | ok | 362 | 9 |
-| OpenAI | ok | 839 | 0 |
+| Okta | ok | 361 | 9 |
+| OpenAI | ok | 838 | 0 |
 | Oyster | ok | 21 | 2 |
 | Paddle | ok | 13 | 1 |
 | Parloa | ok | 45 | 1 |
-| PayPal | ok | 334 | 1 |
+| PayPal | ok | 335 | 1 |
 | Payoneer | ok | 100 | 0 |
 | Pennylane | ok | 202 | 4 |
 | Qonto | ok | 55 | 2 |
 | Razorpay | ok | 25 | 7 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 182 | 1 |
+| Rubrik | ok | 183 | 1 |
 | Salesforce | ok | 400 | 2 |
 | Scale AI | ok | 170 | 3 |
 | ServiceNow | ok | 600 | 2 |
@@ -352,17 +353,17 @@ _…and 53 more in data/jobs.json_
 | Sierra | ok | 198 | 6 |
 | Snyk | ok | 38 | 1 |
 | Spotify | ok | 87 | 11 |
-| Stripe | ok | 786 | 14 |
-| SumUp | ok | 328 | 3 |
+| Stripe | ok | 785 | 14 |
+| SumUp | ok | 326 | 3 |
 | Synthesia | ok | 31 | 3 |
 | Tide | ok | 72 | 3 |
-| Toast | ok | 355 | 3 |
+| Toast | ok | 354 | 3 |
 | Trustpilot | ok | 29 | 0 |
 | Twilio | ok | 114 | 2 |
 | Uber | ok |  |  |
-| Visa | ok | 400 | 8 |
+| Visa | ok | 400 | 6 |
 | Wealthsimple | ok | 41 | 1 |
-| Wise | ok | 425 | 17 |
+| Wise | ok | 424 | 17 |
 | Wolt | ok | 191 | 1 |
 | Xendit | ok | 19 | 2 |
 | Zalando | ok |  |  |
