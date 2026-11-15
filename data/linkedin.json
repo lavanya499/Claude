@@ -1,11 +1,11 @@
 {
 "health": {
 "calls": 30,
-"cards": 104,
+"cards": 131,
 "errors": 0,
-"new": 16,
+"new": 17,
 "requests": 30,
-"window_min": 259
+"window_min": 420
 },
 "jobs": {
 "4289338969": {
@@ -1257,24 +1257,6 @@
 "url": "https://www.linkedin.com/jobs/view/4429944374/",
 "visa": ""
 },
-"4429965799": {
-"company": "HG Insights",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4429965799",
-"level": "stretch",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T17:58Z",
-"regions": [
-"India"
-],
-"score": 41,
-"tier": 3,
-"title": "Director, Data & AI Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4429965799/",
-"visa": ""
-},
 "4429967609": {
 "company": "Sibros",
 "dup": false,
@@ -1454,24 +1436,6 @@
 "tier": 3,
 "title": "Data Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4435168416/",
-"visa": ""
-},
-"4435575698": {
-"company": "Sauce Labs",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4435575698",
-"level": "senior",
-"location": "Gurgaon, Haryana, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T18:58Z",
-"regions": [
-"India"
-],
-"score": 63,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4435575698/",
 "visa": ""
 },
 "4435739944": {
@@ -2411,24 +2375,6 @@
 "tier": 3,
 "title": "Senior Product Manager (m|w|d) Search & Recommendation",
 "url": "https://www.linkedin.com/jobs/view/4449780843/",
-"visa": ""
-},
-"4450197059": {
-"company": "EA SPORTS",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4450197059",
-"level": "senior",
-"location": "Vancouver, British Columbia, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T15:57Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Senior Lead Game Product Manager - EA Sports FC",
-"url": "https://www.linkedin.com/jobs/view/4450197059/",
 "visa": ""
 },
 "4450823697": {
@@ -3786,24 +3732,6 @@
 "url": "https://www.linkedin.com/jobs/view/4458748515/",
 "visa": ""
 },
-"4459982242": {
-"company": "Mastercard",
-"dup": true,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4459982242",
-"level": "senior",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T16:58Z",
-"regions": [
-"India"
-],
-"score": 76,
-"tier": 2,
-"title": "Lead Product Manager- Technical",
-"url": "https://www.linkedin.com/jobs/view/4459982242/",
-"visa": ""
-},
 "4459996328": {
 "company": "Olympus Corporation",
 "dup": false,
@@ -3856,24 +3784,6 @@
 "tier": 3,
 "title": "Senior Product Manager, Digital Assets Squad",
 "url": "https://www.linkedin.com/jobs/view/4460420135/",
-"visa": ""
-},
-"4460742519": {
-"company": "Mastercard",
-"dup": true,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4460742519",
-"level": "stretch",
-"location": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T18:57Z",
-"regions": [
-"Malaysia"
-],
-"score": 61,
-"tier": 2,
-"title": "Director, Product Management",
-"url": "https://www.linkedin.com/jobs/view/4460742519/",
 "visa": ""
 },
 "4461037887": {
@@ -5230,6 +5140,42 @@
 "url": "https://www.linkedin.com/jobs/view/4467039769/",
 "visa": ""
 },
+"4467521861": {
+"company": "Aurora Energy Research",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4467521861",
+"level": "unlevelled",
+"location": "Oxford, England, United Kingdom",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T03:40Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager – Asset Dispatch Modelling",
+"url": "https://www.linkedin.com/jobs/view/4467521861/",
+"visa": ""
+},
+"4467522766": {
+"company": "Aurora Energy Research",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4467522766",
+"level": "unlevelled",
+"location": "Oxford, England, United Kingdom",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T03:40Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager – Chronos – Model",
+"url": "https://www.linkedin.com/jobs/view/4467522766/",
+"visa": ""
+},
 "4467522770": {
 "company": "Aurora Energy Research",
 "dup": false,
@@ -5237,7 +5183,7 @@
 "id": "4467522770",
 "level": "unlevelled",
 "location": "Oxford, England, United Kingdom",
-"posted": "2026-11-12",
+"posted": "2026-11-15",
 "posted_ts": "2026-11-12T14:26Z",
 "regions": [
 "UK"
@@ -5255,7 +5201,7 @@
 "id": "4467524792",
 "level": "unlevelled",
 "location": "Oxford, England, United Kingdom",
-"posted": "2026-11-09",
+"posted": "2026-11-15",
 "posted_ts": "2026-11-09T08:42Z",
 "regions": [
 "UK"
@@ -5273,7 +5219,7 @@
 "id": "4467524796",
 "level": "unlevelled",
 "location": "Oxford, England, United Kingdom",
-"posted": "2026-11-12",
+"posted": "2026-11-15",
 "posted_ts": "2026-11-12T14:26Z",
 "regions": [
 "UK"
@@ -5428,24 +5374,6 @@
 "url": "https://www.linkedin.com/jobs/view/4469725414/",
 "visa": ""
 },
-"4469752039": {
-"company": "Amazon",
-"dup": true,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4469752039",
-"level": "unlevelled",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T15:58Z",
-"regions": [
-"India"
-],
-"score": 77,
-"tier": 1,
-"title": "Product Manager, Amazon Now, Amazon Now",
-"url": "https://www.linkedin.com/jobs/view/4469752039/",
-"visa": ""
-},
 "4469851937": {
 "company": "Wivoo, a Wavestone Company",
 "dup": false,
@@ -5498,24 +5426,6 @@
 "tier": 3,
 "title": "Senior Product Manager - Value Creation",
 "url": "https://www.linkedin.com/jobs/view/4469941080/",
-"visa": ""
-},
-"4470026891": {
-"company": "Redwood Software",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4470026891",
-"level": "senior",
-"location": "Ontario, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T16:57Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Lead Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4470026891/",
 "visa": ""
 },
 "4470142314": {
@@ -7671,24 +7581,6 @@
 "url": "https://www.linkedin.com/jobs/view/4475027579/",
 "visa": ""
 },
-"4475244388": {
-"company": "Nobel Biocare",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4475244388",
-"level": "unlevelled",
-"location": "Mumbai Metropolitan Region",
-"posted": "2026-11-12",
-"posted_ts": "2026-11-07T17:58Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4475244388/",
-"visa": ""
-},
 "4475305002": {
 "company": "Hager",
 "dup": false,
@@ -9007,44 +8899,6 @@
 "url": "https://www.linkedin.com/jobs/view/4480528096/",
 "visa": ""
 },
-"4480534624": {
-"alerted": true,
-"company": "MongoDB",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4480534624",
-"level": "reach",
-"location": "Manitoba, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T16:57Z",
-"regions": [
-"Canada"
-],
-"score": 71,
-"tier": 1,
-"title": "Staff Product Manager, Atlas Infinite",
-"url": "https://www.linkedin.com/jobs/view/4480534624/",
-"visa": ""
-},
-"4480538350": {
-"alerted": true,
-"company": "MongoDB",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4480538350",
-"level": "reach",
-"location": "Nova Scotia, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T18:57Z",
-"regions": [
-"Canada"
-],
-"score": 71,
-"tier": 1,
-"title": "Staff Product Manager, Atlas Infinite",
-"url": "https://www.linkedin.com/jobs/view/4480538350/",
-"visa": ""
-},
 "4480542463": {
 "company": "Turnitin",
 "dup": false,
@@ -9061,25 +8915,6 @@
 "tier": 3,
 "title": "Product Manager, iThenticate (UK Remote)",
 "url": "https://www.linkedin.com/jobs/view/4480542463/",
-"visa": ""
-},
-"4480545004": {
-"alerted": true,
-"company": "MongoDB",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4480545004",
-"level": "reach",
-"location": "Quebec, Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T18:57Z",
-"regions": [
-"Canada"
-],
-"score": 71,
-"tier": 1,
-"title": "Staff Product Manager, Atlas Infinite",
-"url": "https://www.linkedin.com/jobs/view/4480545004/",
 "visa": ""
 },
 "4480551128": {
@@ -9134,24 +8969,6 @@
 "tier": 3,
 "title": "Lead Digital Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4480554002/",
-"visa": ""
-},
-"4480573670": {
-"company": "Kabam",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4480573670",
-"level": "senior",
-"location": "Vancouver, British Columbia, Canada",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-07T15:57Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Senior Publishing Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4480573670/",
 "visa": ""
 },
 "4480608170": {
@@ -12568,24 +12385,6 @@
 "url": "https://www.linkedin.com/jobs/view/4486648795/",
 "visa": ""
 },
-"4486651958": {
-"company": "SCIKIQ",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4486651958",
-"level": "unlevelled",
-"location": "Gurgaon, Haryana, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T22:58Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4486651958/",
-"visa": ""
-},
 "4486654513": {
 "company": "Rabot Energy",
 "dup": false,
@@ -14621,24 +14420,6 @@
 "url": "https://www.linkedin.com/jobs/view/4487587937/",
 "visa": ""
 },
-"4487605966": {
-"company": "Sophos",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4487605966",
-"level": "senior",
-"location": "Canada",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T21:57Z",
-"regions": [
-"Canada"
-],
-"score": 67,
-"tier": 3,
-"title": "Senior Product Manager, AI-Native Products",
-"url": "https://www.linkedin.com/jobs/view/4487605966/",
-"visa": ""
-},
 "4487610864": {
 "company": "RxPx",
 "dup": false,
@@ -14655,24 +14436,6 @@
 "tier": 3,
 "title": "Senior Product Manager, Delivery",
 "url": "https://www.linkedin.com/jobs/view/4487610864/",
-"visa": ""
-},
-"4487613650": {
-"company": "Bengaluru, Karnataka, India\n Be an early applicant\n 4 hours ago",
-"dup": false,
-"first_seen_at": "2026-11-08T01:57Z",
-"id": "4487613650",
-"level": "unlevelled",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-11-07",
-"posted_ts": "2026-11-07T21:58Z",
-"regions": [
-"India"
-],
-"score": 47,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4487613650/",
 "visa": ""
 },
 "4487630941": {
@@ -22278,6 +22041,25 @@
 "url": "https://www.linkedin.com/jobs/view/4489359214/",
 "visa": ""
 },
+"4489361971": {
+"company": "eBay",
+"desc": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts.\nOur customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet.\nJoin a team of passionate thinkers, innovators, and dreamers — and help us connect people and build communities to create economic opportunity for all.\n About The Team And The Role\n The Search advertising team is responsible for the search page that drives a large part of eBay’s core marketplace business. The Search team strives to build an experience that enables users to easily explore, find, and buy what they want at the best value through an engaging, frictionless, and trusted Search experience, helping them make confident purchase decisions.\nIn this role, you will be responsible for efficient ad ranking that optimizes for monetization and user engagement. Your expertise will drive the development of AI-driven features that improve product discovery, engagement, and user experience. The ideal candidate will have a strong background in AI/ML technologies, along with a passion for applying these skills to redefine the way customers interact with our platform.\n What You Will Accomplish\n Lead the product strategy and roadmap for improving upper funnel experience on search\n Be a strategic problem solver and able to synthesize data from multiple sources (including analytics, user research, marketing research, and design) to identify key customer unmet needs, key solutions that can address the needs and build product vision with search item tiles \n You will work closely with a cross-functional team of applied science, engineering, analytics, product marketing, and user research to deliver these products for key customer segments.\n You will lead the execution of your roadmap by working with data science, engineering, and analytics teams\n Build MVPs, iterate fast and be the champion of execution excellence\n Conduct AB tests for launch candidates and work with analytics teams to measure the impact on success metrics\n What You Will Bring\n 7+ years of Product Management experience\n Experience with search and discovery systems, including familiarity with ranking models, search algorithms, and semantic search\n Experience in pay-per-click search advertising.\n Strong analytic skills and ability to synthesize data from multiple sources\n Passionate advocate for user, and has confirmed results in achieving superb user experience within tight constraints\n Demonstrated leadership ability, self-motivated and directed, entrepreneurial ability to innovate quickly\n Additional Details\n This job posting relates to an existing vacancy within eBay.\neBay is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, and disability, or other legally protected status. If you have a need that requires accommodation, please contact us at talent@ebay.com. We will make every effort to respond to your request for accommodation as soon as possible. View our accessibility statement to learn more ab",
+"dup": true,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489361971",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T05:40Z",
+"regions": [
+"Canada"
+],
+"score": 82,
+"tier": 2,
+"title": "Senior Product Manager, Ad Ranking",
+"url": "https://www.linkedin.com/jobs/view/4489361971/",
+"visa": ""
+},
 "4489363341": {
 "company": "ABB",
 "dup": false,
@@ -22312,6 +22094,97 @@
 "tier": 3,
 "title": "Product Owner (Data & AI)",
 "url": "https://www.linkedin.com/jobs/view/4489364351/",
+"visa": ""
+},
+"4489364502": {
+"company": "Stannah Group",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489364502",
+"level": "unlevelled",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T01:40Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager (Lift Industry)",
+"url": "https://www.linkedin.com/jobs/view/4489364502/",
+"visa": ""
+},
+"4489366843": {
+"company": "eBay",
+"desc": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts.\nOur customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet.\nJoin a team of passionate thinkers, innovators, and dreamers — and help us connect people and build communities to create economic opportunity for all.\n About The Team And The Role\n We have built one of the largest Ad marketplaces in e-commerce, and one of the fastest-growing businesses within the company. We are on a mission to help sellers and brands of all sizes use advertising to drive meaningful impact for their businesses. We are accomplishing this by developing one of the most data-enhanced ad marketplaces in the world.\nAs the Senior Product Manager, Ad Relevance you will lead key advertising technologies within our stack and make them outstanding in delivering speed for advertisers. You will identify and improve key levers of ad quality including Ad Relevance and quality. You will drive innovation in billion-dollar products by investing in new growth opportunities.\n What You Will Accomplish\n Drive Product and Business Strategy\n Develop deep understanding of our advertisers and their needs.\n Lead the roadmap for critical components of ad serving and user targeting.\n Champion innovation in AI, generative models, automation, and intelligent defaults to transform the advertiser journey\n Partner closely with commercial and finance teams to align technical roadmaps with overarching business strategy\n Complete relentlessly on product requirements with engineering and analytics teams\n Push product and engineering teams to pioneer breakthroughs and lead innovations within the broader ad tech community\n Cultivate a culture of progress driven by applying rigorous experimentation, A/B testing, and deep data analysis\n Represent your product area in senior leadership forums, seamlessly translating complex technical strategies into clear business impacts\n Collaborate with program and operations teams to guarantee flawless roadmap execution and timely delivery\n What You Will Bring\n 7 + years of experience in technology product management, with 3–5 years of dedicated experience in pay-per-click search advertising, preferably in ad relevance. \n Hands-on experience developing products working with Applied Science researchers and ML engineers.\n Understanding of ad serving infrastructure, and core ad stack architecture within marketplaces, e-commerce, or high-scale consumer platforms\n Knowledge of industry standards in relevance measurement and techniques for improvement. \n Strong technical proficiency with a confirmed ability to understand how brand-new backend systems advance product metrics\n Deep analytical capability with a data-first approach and outstanding experimentation skills\n Outstanding storytelling and collaboration skills, with the ability to influence senior collaborators and cross-functional partners\n Additional Details\n This job posting relates to an existing vacancy within eBay.\neBay is an equal opportunity employer. All qualified applicants will receive consideration for employment without reg",
+"dup": true,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489366843",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T05:40Z",
+"regions": [
+"Canada"
+],
+"score": 86,
+"tier": 2,
+"title": "Senior Product Manager, Ad Relevance",
+"url": "https://www.linkedin.com/jobs/view/4489366843/",
+"visa": ""
+},
+"4489368642": {
+"company": "lululemon",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489368642",
+"level": "senior",
+"location": "Vancouver, British Columbia, Canada",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T05:40Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager - Omni Channel Fulfillment",
+"url": "https://www.linkedin.com/jobs/view/4489368642/",
+"visa": ""
+},
+"4489371489": {
+"company": "Talent",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489371489",
+"level": "unlevelled",
+"location": "Auckland, Auckland, New Zealand",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T04:40Z",
+"regions": [
+"New Zealand"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner - Web and Digital",
+"url": "https://www.linkedin.com/jobs/view/4489371489/",
+"visa": ""
+},
+"4489373467": {
+"company": "Oracle",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489373467",
+"level": "reach",
+"location": "Hyderabad, Telangana, India",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T05:40Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Principal Product Manager (Oracle APEX Technical Evangelist) - Hyderabad & Bangalore",
+"url": "https://www.linkedin.com/jobs/view/4489373467/",
 "visa": ""
 },
 "4489402796": {
@@ -24879,6 +24752,24 @@
 "url": "https://www.linkedin.com/jobs/view/4489857347/",
 "visa": ""
 },
+"4489859340": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489859340",
+"level": "unlevelled",
+"location": "Canada",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T03:40Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager - Veeva Training",
+"url": "https://www.linkedin.com/jobs/view/4489859340/",
+"visa": ""
+},
 "4489862575": {
 "company": "HireAlpha",
 "dup": false,
@@ -25058,6 +24949,24 @@
 "tier": 3,
 "title": "ServiceNow Product Owner",
 "url": "https://www.linkedin.com/jobs/view/4489896568/",
+"visa": ""
+},
+"4489898979": {
+"company": "Haystack",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4489898979",
+"level": "senior",
+"location": "Canada",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T02:40Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4489898979/",
 "visa": ""
 },
 "4489900180": {
@@ -25909,6 +25818,24 @@
 "url": "https://www.linkedin.com/jobs/view/4490099257/",
 "visa": ""
 },
+"4490205710": {
+"company": "Jobster",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4490205710",
+"level": "unlevelled",
+"location": "Dordrecht, South Holland, Netherlands",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T06:40Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Consumer Electronics - Undutchables",
+"url": "https://www.linkedin.com/jobs/view/4490205710/",
+"visa": ""
+},
 "4490206220": {
 "company": "Chrome Technologies",
 "dup": false,
@@ -25925,6 +25852,42 @@
 "tier": 3,
 "title": "PRODUCT OWNER",
 "url": "https://www.linkedin.com/jobs/view/4490206220/",
+"visa": ""
+},
+"4490217225": {
+"company": "MWS Company Limited",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4490217225",
+"level": "unlevelled",
+"location": "Bangkok City, Thailand",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T02:42Z",
+"regions": [
+"Thailand"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4490217225/",
+"visa": ""
+},
+"4490220244": {
+"company": "Haystack",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4490220244",
+"level": "senior",
+"location": "Canada",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T04:40Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4490220244/",
 "visa": ""
 },
 "4490302759": {
@@ -28804,6 +28767,24 @@
 "url": "https://www.linkedin.com/jobs/view/4491205587/",
 "visa": ""
 },
+"4491205918": {
+"company": "ZynnexAI",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4491205918",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T05:40Z",
+"regions": [
+"India"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager – Voice AI | BFSI",
+"url": "https://www.linkedin.com/jobs/view/4491205918/",
+"visa": ""
+},
 "4491206174": {
 "company": "Hyra",
 "dup": false,
@@ -28875,10 +28856,65 @@
 "title": "Product Owner Data Analytics & Data Product (m/w/d)",
 "url": "https://www.linkedin.com/jobs/view/4491214129/",
 "visa": ""
+},
+"4491223175": {
+"company": "Kaluza",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4491223175",
+"level": "unlevelled",
+"location": "Paris, Île-de-France, France",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T04:41Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager / Chef de produit F/H - Facturation Énergie (Bilingue Français & Anglais)",
+"url": "https://www.linkedin.com/jobs/view/4491223175/",
+"visa": ""
+},
+"4491226345": {
+"company": "Atlassian",
+"desc": "Overview\n Working at Atlassian\n Atlassians can choose where they work – whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity.\n Your Future Org\n At Atlassian, Product Management is a team sport. We work closely with engineering, design, and go-to-market teams to build products that help millions of people do their best work. We care deeply about solving real customer problems, and we’re energized by the possibilities AI and new technology bring. If you're someone who loves turning insight into impact - and wants to shape the future of modern work - we’d love to meet you.\n Your Future Team\n You’ll join a team helping the world’s largest and most complex enterprises thrive on Atlassian Cloud - modernizing business-critical workflows, continuously optimizing their environments, and unlocking cloud-native and AI capabilities. Building on existing foundations, you’ll discover and validate the next high-value platform opportunities, establish an evolving area of product ownership, and partner with engineering and design to turn shared customer needs into scalable products.\n Responsibilities\n Shape an emerging platform opportunity. Explore how complex enterprises modernize, optimize, and scale on Atlassian Cloud. Establish a product vision and progressively define the scope, priorities, and roadmap for an evolving area of ownership.\n Discover the problems worth solving. Work directly with enterprise customers and customer-facing teams to uncover unmet needs, challenge assumptions, and distinguish recurring platform opportunities from customer-specific requests.\n Turn ambiguity into product direction. Form hypotheses, assess customer and business value, and partner with engineering and design to test potential solutions. Make evidence-based recommendations about where to invest, and where not to.\n Translate insight into scalable capabilities. Develop promising opportunities into reusable platform capabilities, automation, and cloud-native reference patterns that address shared enterprise and industry needs, helping customers continuously improve without depending on bespoke intervention.\n Take validated opportunities from discovery into delivery. Own product decisions, prioritization, and outcomes as the opportunity matures, working with engineering, design, and architecture to launch, learn, and iterate.\n Build alignment. Earn support across product, engineering, and customer-facing teams, clarify boundaries with adjacent products, and establish shared ownership where solutions span teams.\n Define what success looks like. Establish meaningful outcomes as the product direction takes shape, using customer evidence and product adoption to refine the strategy and guide further investment.\n Compensation\n At Atlassian, we strive to design equitable, explainable, and competitive compensation programs. We follow consistent hiring practices and account for each candidate's skills, knowledge, and experience when setting base pay within the range.\nThis role may also be eligible for benefits, bonuses, commissions, and equity.\n Pay Ranges\n In Poland , for this role, our current base pay range for new hires is:\n Poland : 322.200 zł - 420.650 zł\n Qualifications\n Minimum Qualifications\n 8+ years of product management experience leading complex B2B enterprise platforms, cloud infrastru",
+"dup": true,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4491226345",
+"level": "reach",
+"location": "Gdańsk, Pomorskie, Poland",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T05:41Z",
+"regions": [
+"Europe"
+],
+"score": 80,
+"tier": 1,
+"title": "Principal Product Manager, Enterprise Platform",
+"url": "https://www.linkedin.com/jobs/view/4491226345/",
+"visa": ""
+},
+"4491226473": {
+"company": "TOP-electronics",
+"dup": false,
+"first_seen_at": "2026-11-15T07:39Z",
+"id": "4491226473",
+"level": "unlevelled",
+"location": "The Randstad, Netherlands",
+"posted": "2026-11-15",
+"posted_ts": "2026-11-15T06:40Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager IoT & Wireless",
+"url": "https://www.linkedin.com/jobs/view/4491226473/",
+"visa": ""
 }
 },
 "last_block_ping": "2026-11-13T18:18Z",
-"last_rollup": "2026-11-14T16:48Z",
-"last_scan": "2026-11-15T00:59Z",
-"updated": "2026-11-15T00:59Z"
+"last_rollup": "2026-11-15T07:39Z",
+"last_scan": "2026-11-15T07:39Z",
+"updated": "2026-11-15T07:39Z"
 }

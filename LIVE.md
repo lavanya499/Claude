@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 15 Nov 06:29 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 15 Nov 13:09 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (2)
 
@@ -9,26 +9,40 @@ Updated 15 Nov 06:29 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 14 Nov 06:09 | Mastercard | [Director, Product Management – Digital Credentials Global Product & Authentication Lead](https://www.linkedin.com/jobs/view/4488998448/) | Lisbon Metropolitan Area | stretch | 67 |
 | 13 Nov 15:59 | Shopee | [Senior Product Manager, AI Products & Solutions - Monee](https://www.linkedin.com/jobs/view/4490585979/) | Singapore, Singapore | senior | 91 |
 
-## Everyone else, every level except junior (479)
+## Everyone else, every level except junior (493)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 15 Nov 12:10 | Jobster | [Product Manager - Consumer Electronics - Undutchables](https://www.linkedin.com/jobs/view/4490205710/) | Dordrecht, South Holland, Netherlands | unlevelled | 54 |
+| 15 Nov 12:10 | TOP-electronics | [Product Manager IoT & Wireless](https://www.linkedin.com/jobs/view/4491226473/) | The Randstad, Netherlands | unlevelled | 54 |
+| 15 Nov 11:10 | lululemon | [Senior Product Manager - Omni Channel Fulfillment](https://www.linkedin.com/jobs/view/4489368642/) | Vancouver, British Columbia, Canada | senior | 67 |
+| 15 Nov 11:10 | ZynnexAI | [Product Manager – Voice AI / BFSI](https://www.linkedin.com/jobs/view/4491205918/) | Bengaluru, Karnataka, India | unlevelled | 51 |
+| 15 Nov 11:10 | Oracle | [Principal Product Manager (Oracle APEX Technical Evangelist) - Hyderabad & Bangalore](https://www.linkedin.com/jobs/view/4489373467/) | Hyderabad, Telangana, India | reach | 47 |
+| 15 Nov 10:11 | Kaluza | [Product Manager / Chef de produit F/H - Facturation Énergie (Bilingue Français & Anglais)](https://www.linkedin.com/jobs/view/4491223175/) | Paris, Île-de-France, France | unlevelled | 54 |
+| 15 Nov 10:10 | Haystack | [Senior Product Manager](https://www.linkedin.com/jobs/view/4490220244/) | Canada | senior | 67 |
+| 15 Nov 10:10 | Talent | [Product Owner - Web and Digital](https://www.linkedin.com/jobs/view/4489371489/) | Auckland, Auckland, New Zealand | unlevelled | 54 |
+| 15 Nov 09:10 | Jobgether | [Product Manager - Veeva Training](https://www.linkedin.com/jobs/view/4489859340/) | Canada | unlevelled | 51 |
+| 15 Nov 09:10 | Aurora Energy Research | [Product Manager – Chronos – Model](https://www.linkedin.com/jobs/view/4467522766/) | Oxford, England, United Kingdom | unlevelled | 54 |
+| 15 Nov 09:10 | Aurora Energy Research | [Technical Product Manager – Asset Dispatch Modelling](https://www.linkedin.com/jobs/view/4467521861/) | Oxford, England, United Kingdom | unlevelled | 54 |
+| 15 Nov 08:12 | MWS Company Limited | [Product Owner](https://www.linkedin.com/jobs/view/4490217225/) | Bangkok City, Thailand | unlevelled | 54 |
+| 15 Nov 08:10 | Haystack | [Senior Product Manager](https://www.linkedin.com/jobs/view/4489898979/) | Canada | senior | 67 |
+| 15 Nov 07:10 | Stannah Group | [Technical Product Manager (Lift Industry)](https://www.linkedin.com/jobs/view/4489364502/) | London, England, United Kingdom | unlevelled | 54 |
 | 15 Nov 06:06 | Commonwealth Bank | [Technology Product Owner](https://www.linkedin.com/jobs/view/4491205587/) | Bengaluru East, Karnataka, India | unlevelled | 47 |
 | 15 Nov 06:04 | State Street | [Fund Accounting and Administration Product Owner - Insurance Accounting, Vice President](https://www.linkedin.com/jobs/view/4485227130/) | Bengaluru, Karnataka, India | stretch | 45 |
 | 15 Nov 06:03 | GamblingCareers.com | [Technical Product Owner](https://www.linkedin.com/jobs/view/4491206517/) | Barcelona, Catalonia, Spain | unlevelled | 54 |
-| 15 Nov 05:43 | mamgo / Talente 🔗 Jobs | [Product Owner Data Analytics & Data Product (m/w/d)](https://www.linkedin.com/jobs/view/4491214129/) | Stuttgart, Baden-Württemberg, Germany | unlevelled | 54 |
 | 15 Nov 05:43 | mamgo / Talente 🔗 Jobs | [Technical IT Product Owner (m/w/d)](https://www.linkedin.com/jobs/view/4491094988/) | Sindelfingen, Baden-Württemberg, Germany | unlevelled | 54 |
+| 15 Nov 05:43 | mamgo / Talente 🔗 Jobs | [Product Owner Data Analytics & Data Product (m/w/d)](https://www.linkedin.com/jobs/view/4491214129/) | Stuttgart, Baden-Württemberg, Germany | unlevelled | 54 |
 | 15 Nov 05:32 | Riverty | [(Senior) Product Manager Consumer Touchpoints (m/f/d)](https://www.linkedin.com/jobs/view/4491096812/) | Stockholm, Stockholm County, Sweden | senior | 70 |
 | 15 Nov 05:31 | Riverty | [Product Manager Integration (m/w/d)](https://www.linkedin.com/jobs/view/4491094903/) | Berlin, Berlin, Germany | unlevelled | 54 |
 | 15 Nov 04:32 | ABB | [Global Product Manager – Physical AI Engineering & Simulation](https://www.linkedin.com/jobs/view/4489363341/) | Mölndal, Västra Götaland County, Sweden | unlevelled | 54 |
 | 15 Nov 04:32 | Hilti Group | [Product Owner (Data & AI)](https://www.linkedin.com/jobs/view/4489364351/) | Boulogne-Billancourt, Île-de-France, France | unlevelled | 54 |
 | 15 Nov 04:30 | Chrome Technologies | [PRODUCT OWNER](https://www.linkedin.com/jobs/view/4490206220/) | Montreal, Quebec, Canada | unlevelled | 51 |
 | 15 Nov 03:32 | Bring! Labs | [Head of Product (m/f/x)](https://www.linkedin.com/jobs/view/4489352713/) | Zurich, Zurich, Switzerland | stretch | 48 |
-| 15 Nov 03:31 | Spore N Sprouts | [AI Product Manager](https://www.linkedin.com/jobs/view/4491203298/) | Bengaluru, Karnataka, India | unlevelled | 47 |
-| 15 Nov 03:31 | Spore N Sprouts | [Senior Product Manager - AI](https://www.linkedin.com/jobs/view/4491209028/) | Bengaluru, Karnataka, India | senior | 63 |
-| 15 Nov 03:31 | Spore N Sprouts | [Sr. Product Manager, Digital Services AI](https://www.linkedin.com/jobs/view/4491097537/) | Bengaluru, Karnataka, India | senior | 67 |
-| 15 Nov 03:31 | Hyra | [Product Manager](https://www.linkedin.com/jobs/view/4491206174/) | Germany | unlevelled | 54 |
 | 15 Nov 03:31 | Superchat | [Technical Product Owner / Integrations (m/f/d)](https://www.linkedin.com/jobs/view/4489355527/) | Berlin, Berlin, Germany | unlevelled | 54 |
+| 15 Nov 03:31 | Spore N Sprouts | [Sr. Product Manager, Digital Services AI](https://www.linkedin.com/jobs/view/4491097537/) | Bengaluru, Karnataka, India | senior | 67 |
+| 15 Nov 03:31 | Spore N Sprouts | [AI Product Manager](https://www.linkedin.com/jobs/view/4491203298/) | Bengaluru, Karnataka, India | unlevelled | 47 |
+| 15 Nov 03:31 | Hyra | [Product Manager](https://www.linkedin.com/jobs/view/4491206174/) | Germany | unlevelled | 54 |
+| 15 Nov 03:31 | Spore N Sprouts | [Senior Product Manager - AI](https://www.linkedin.com/jobs/view/4491209028/) | Bengaluru, Karnataka, India | senior | 63 |
 | 15 Nov 01:31 | SEITENBAU GmbH | [Technical Product Owner (m/w/d) - Konstanz, Berlin oder remote gesucht](https://www.linkedin.com/jobs/view/4489357354/) | Constance, Baden-Württemberg, Germany | unlevelled | 54 |
 | 15 Nov 01:31 | SEITENBAU GmbH | [Wir suchen: Technical Product Owner (m/w/d) - Konstanz, Berlin oder remote](https://www.linkedin.com/jobs/view/4489359214/) | Constance, Baden-Württemberg, Germany | unlevelled | 54 |
 | 15 Nov 00:33 | BNY | [Vice President, POM Product Owner](https://www.linkedin.com/jobs/view/4455954085/) | Pune/Pimpri-Chinchwad Area | stretch | 41 |
@@ -119,17 +133,3 @@ Updated 15 Nov 06:29 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 14 Nov 17:21 | Orbit Verify | [Product Manager](https://www.linkedin.com/jobs/view/4489338329/) | Hyderabad, Telangana, India | unlevelled | 47 |
 | 14 Nov 17:20 | Rightangled | [Product Manager](https://www.linkedin.com/jobs/view/4474729609/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
 | 14 Nov 17:19 | Voodoo | [Product Lead - Portfolio Midcore Games](https://www.linkedin.com/jobs/view/4430904698/) | Stockholm, Stockholm County, Sweden | senior | 70 |
-| 14 Nov 17:19 | Critical Software | [Senior Product Manager – Space](https://www.linkedin.com/jobs/view/4437422465/) | Viseu, Viseu, Portugal | senior | 70 |
-| 14 Nov 17:19 | OKX | [Senior Product Manager / Director, Trading Products](https://www.linkedin.com/jobs/view/4472571417/) | Singapore, Singapore | stretch | 45 |
-| 14 Nov 17:19 | FYUL | [Product Manager - Production](https://www.linkedin.com/jobs/view/4474346817/) | Poland | unlevelled | 54 |
-| 14 Nov 17:19 | DistroKid | [Growth Product Manager (Senior to Staff)](https://www.linkedin.com/jobs/view/4474784003/) | Sweden | reach | 54 |
-| 14 Nov 17:19 | Syfe | [Product Lead, Wealth Management Product - Singapore](https://www.linkedin.com/jobs/view/4475811458/) | Singapore, Singapore | senior | 67 |
-| 14 Nov 17:19 | BETWEEN Group | [Product Manager (Cybersecurity & AI)](https://www.linkedin.com/jobs/view/4481945934/) | Madrid, Community of Madrid, Spain | unlevelled | 54 |
-| 14 Nov 17:19 | Lexroom | [Product Manager (BCN)](https://www.linkedin.com/jobs/view/4483139748/) | Barcelona, Catalonia, Spain | unlevelled | 54 |
-| 14 Nov 17:18 | Bolt | [Senior Product Manager, Supply Incentives](https://www.linkedin.com/jobs/view/4436598829/) | Berlin, Berlin, Germany | senior | 70 |
-| 14 Nov 17:18 | Swap | [Senior Product Manager](https://www.linkedin.com/jobs/view/4437047508/) | London, England, United Kingdom | senior | 70 |
-| 14 Nov 17:18 | Vertiv | [Product Manager, Busbars](https://www.linkedin.com/jobs/view/4438183804/) | Clachan Of Campsie, Scotland, United Kingdom | unlevelled | 54 |
-| 14 Nov 17:18 | Impala Terminals | [IT Product Owner](https://www.linkedin.com/jobs/view/4444580489/) | Rotterdam, South Holland, Netherlands | unlevelled | 54 |
-| 14 Nov 17:18 | DistroKid | [Growth Product Manager (Senior to Staff)](https://www.linkedin.com/jobs/view/4474762944/) | Germany | reach | 54 |
-| 14 Nov 17:18 | SIXT | [Tech Lead & Product Owner - AI Platform (m/f/d)](https://www.linkedin.com/jobs/view/4483107750/) | Munich, Bavaria, Germany | senior | 70 |
-| 14 Nov 16:23 | Nordea | [Product Owner - Cloud Landing Zone Services Azure](https://www.linkedin.com/jobs/view/4456709400/) | Gdańsk, Pomorskie, Poland | unlevelled | 58 |
