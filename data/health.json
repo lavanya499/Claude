@@ -26,13 +26,13 @@
  "Agoda": {
   "matched": 8,
   "ok": true,
-  "total": 354,
+  "total": 355,
   "via": "greenhouse"
  },
  "Airbnb": {
   "matched": 0,
   "ok": true,
-  "total": 213,
+  "total": 212,
   "via": "greenhouse"
  },
  "Airwallex": {
@@ -50,7 +50,7 @@
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 666,
+  "total": 663,
   "via": "greenhouse"
  },
  "Apple": {
@@ -67,7 +67,7 @@
  "Atlassian": {
   "matched": 1,
   "ok": true,
-  "total": 306,
+  "total": 276,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -145,7 +145,7 @@
  "Deputy": {
   "matched": 0,
   "ok": true,
-  "total": 2,
+  "total": 3,
   "via": "lever"
  },
  "Doctolib": {
@@ -168,13 +168,12 @@
  "ElevenLabs": {
   "matched": 0,
   "ok": true,
-  "total": 127,
+  "total": 125,
   "via": "ashby"
  },
  "Expedia Group": {
-  "matched": 8,
-  "ok": true,
-  "total": 47,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Fivetran": {
@@ -186,7 +185,7 @@
  "Genesys": {
   "matched": 1,
   "ok": true,
-  "total": 202,
+  "total": 201,
   "via": "workday"
  },
  "Geotab": {
@@ -222,7 +221,7 @@
  "Grab": {
   "matched": 9,
   "ok": true,
-  "total": 420,
+  "total": 419,
   "via": "smartrecruiters"
  },
  "Grafana Labs": {
@@ -297,7 +296,7 @@
  "Microsoft": {
   "matched": 8,
   "ok": true,
-  "total": 99,
+  "total": 96,
   "via": "microsoft"
  },
  "Moneybox": {
@@ -309,7 +308,7 @@
  "MongoDB": {
   "matched": 9,
   "ok": true,
-  "total": 392,
+  "total": 391,
   "via": "greenhouse"
  },
  "Monzo": {
@@ -343,9 +342,9 @@
   "via": "lever"
  },
  "Okta": {
-  "matched": 9,
+  "matched": 8,
   "ok": true,
-  "total": 361,
+  "total": 360,
   "via": "greenhouse"
  },
  "OpenAI": {
@@ -410,13 +409,12 @@
  "Rubrik": {
   "matched": 1,
   "ok": true,
-  "total": 183,
+  "total": 184,
   "via": "greenhouse"
  },
  "Salesforce": {
-  "matched": 2,
-  "ok": true,
-  "total": 400,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Scale AI": {
@@ -439,7 +437,7 @@
  "Sierra": {
   "matched": 6,
   "ok": true,
-  "total": 198,
+  "total": 197,
   "via": "ashby"
  },
  "Snyk": {
@@ -516,7 +514,7 @@
  "Wise": {
   "matched": 17,
   "ok": true,
-  "total": 424,
+  "total": 425,
   "via": "smartrecruiters"
  },
  "Wolt": {
@@ -561,9 +559,9 @@
   "via": "greenhouse"
  },
  "eBay": {
-  "matched": 16,
+  "matched": 15,
   "ok": true,
-  "total": 196,
+  "total": 194,
   "via": "workday"
  },
  "loveholidays": {
