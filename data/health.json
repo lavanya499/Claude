@@ -6,15 +6,14 @@
   "via": "ashby"
  },
  "Adobe": {
-  "matched": 3,
-  "ok": true,
-  "total": 247,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Adyen": {
   "matched": 7,
   "ok": true,
-  "total": 246,
+  "total": 245,
   "via": "greenhouse"
  },
  "Affirm": {
@@ -26,31 +25,31 @@
  "Agoda": {
   "matched": 8,
   "ok": true,
-  "total": 355,
+  "total": 354,
   "via": "greenhouse"
  },
  "Airbnb": {
   "matched": 0,
   "ok": true,
-  "total": 212,
+  "total": 211,
   "via": "greenhouse"
  },
  "Airwallex": {
-  "matched": 11,
+  "matched": 12,
   "ok": true,
-  "total": 483,
+  "total": 492,
   "via": "ashby"
  },
  "Amazon": {
-  "matched": 92,
+  "matched": 94,
   "ok": true,
-  "total": 158,
+  "total": 160,
   "via": "amazon"
  },
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 663,
+  "total": 661,
   "via": "greenhouse"
  },
  "Apple": {
@@ -65,15 +64,15 @@
   "via": "greenhouse"
  },
  "Atlassian": {
-  "matched": 1,
+  "matched": 4,
   "ok": true,
-  "total": 276,
+  "total": 305,
   "via": "atlassian"
  },
  "Bitpanda": {
   "matched": 6,
   "ok": true,
-  "total": 45,
+  "total": 44,
   "via": "greenhouse"
  },
  "Booking.com": {
@@ -97,13 +96,13 @@
  "Celonis": {
   "matched": 4,
   "ok": true,
-  "total": 262,
+  "total": 258,
   "via": "greenhouse"
  },
  "Cloudflare": {
   "matched": 4,
   "ok": true,
-  "total": 479,
+  "total": 473,
   "via": "greenhouse"
  },
  "Cohere": {
@@ -156,19 +155,19 @@
  "Ebury": {
   "matched": 4,
   "ok": true,
-  "total": 151,
+  "total": 152,
   "via": "greenhouse"
  },
  "Elastic": {
   "matched": 21,
   "ok": true,
-  "total": 400,
+  "total": 401,
   "via": "greenhouse"
  },
  "ElevenLabs": {
   "matched": 0,
   "ok": true,
-  "total": 125,
+  "total": 124,
   "via": "ashby"
  },
  "Expedia Group": {
@@ -179,19 +178,18 @@
  "Fivetran": {
   "matched": 2,
   "ok": true,
-  "total": 197,
+  "total": 196,
   "via": "greenhouse"
  },
  "Genesys": {
-  "matched": 1,
-  "ok": true,
-  "total": 201,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Geotab": {
   "matched": 5,
   "ok": true,
-  "total": 63,
+  "total": 64,
   "via": "greenhouse"
  },
  "GetYourGuide": {
@@ -203,7 +201,7 @@
  "GitLab": {
   "matched": 6,
   "ok": true,
-  "total": 254,
+  "total": 256,
   "via": "greenhouse"
  },
  "GoCardless": {
@@ -213,21 +211,21 @@
   "via": "greenhouse"
  },
  "Google": {
-  "matched": 15,
+  "matched": 14,
   "ok": true,
-  "total": 69,
+  "total": 60,
   "via": "google"
  },
  "Grab": {
-  "matched": 9,
+  "matched": 8,
   "ok": true,
-  "total": 419,
+  "total": 412,
   "via": "smartrecruiters"
  },
  "Grafana Labs": {
   "matched": 6,
   "ok": true,
-  "total": 140,
+  "total": 136,
   "via": "greenhouse"
  },
  "Intercom": {
@@ -255,7 +253,7 @@
  "LinkedIn": {
   "matched": 0,
   "ok": true,
-  "total": 176,
+  "total": 173,
   "via": "smartrecruiters"
  },
  "LinkedIn (all companies)": {
@@ -271,15 +269,14 @@
   "via": "ashby"
  },
  "Mastercard": {
-  "matched": 13,
-  "ok": true,
-  "total": 400,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Meesho": {
   "matched": 3,
   "ok": true,
-  "total": 49,
+  "total": 48,
   "via": "lever"
  },
  "Mentimeter": {
@@ -294,9 +291,9 @@
   "via": "linkedin_company"
  },
  "Microsoft": {
-  "matched": 8,
+  "matched": 7,
   "ok": true,
-  "total": 96,
+  "total": 95,
   "via": "microsoft"
  },
  "Moneybox": {
@@ -308,7 +305,7 @@
  "MongoDB": {
   "matched": 9,
   "ok": true,
-  "total": 391,
+  "total": 392,
   "via": "greenhouse"
  },
  "Monzo": {
@@ -326,7 +323,7 @@
  "Netflix": {
   "matched": 1,
   "ok": true,
-  "total": 177,
+  "total": 179,
   "via": "eightfold"
  },
  "New Relic": {
@@ -344,13 +341,13 @@
  "Okta": {
   "matched": 8,
   "ok": true,
-  "total": 360,
+  "total": 361,
   "via": "greenhouse"
  },
  "OpenAI": {
   "matched": 0,
   "ok": true,
-  "total": 838,
+  "total": 839,
   "via": "ashby"
  },
  "Oyster": {
@@ -372,13 +369,12 @@
   "via": "ashby"
  },
  "PayPal": {
-  "matched": 1,
-  "ok": true,
-  "total": 335,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Payoneer": {
-  "matched": 0,
+  "matched": 1,
   "ok": true,
   "total": 100,
   "via": "greenhouse"
@@ -386,13 +382,13 @@
  "Pennylane": {
   "matched": 4,
   "ok": true,
-  "total": 202,
+  "total": 203,
   "via": "ashby"
  },
  "Qonto": {
   "matched": 2,
   "ok": true,
-  "total": 55,
+  "total": 54,
   "via": "ashby"
  },
  "Razorpay": {
@@ -409,7 +405,7 @@
  "Rubrik": {
   "matched": 1,
   "ok": true,
-  "total": 184,
+  "total": 182,
   "via": "greenhouse"
  },
  "Salesforce": {
@@ -455,13 +451,13 @@
  "Stripe": {
   "matched": 14,
   "ok": true,
-  "total": 785,
+  "total": 786,
   "via": "greenhouse"
  },
  "SumUp": {
   "matched": 3,
   "ok": true,
-  "total": 326,
+  "total": 324,
   "via": "greenhouse"
  },
  "Synthesia": {
@@ -473,13 +469,13 @@
  "Tide": {
   "matched": 3,
   "ok": true,
-  "total": 72,
+  "total": 74,
   "via": "greenhouse"
  },
  "Toast": {
-  "matched": 3,
+  "matched": 2,
   "ok": true,
-  "total": 354,
+  "total": 353,
   "via": "greenhouse"
  },
  "Trustpilot": {
@@ -491,7 +487,7 @@
  "Twilio": {
   "matched": 2,
   "ok": true,
-  "total": 114,
+  "total": 113,
   "via": "greenhouse"
  },
  "Uber": {
@@ -500,33 +496,32 @@
   "via": "linkedin_company"
  },
  "Visa": {
-  "matched": 6,
-  "ok": true,
-  "total": 400,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Wealthsimple": {
   "matched": 1,
   "ok": true,
-  "total": 41,
+  "total": 40,
   "via": "ashby"
  },
  "Wise": {
   "matched": 17,
   "ok": true,
-  "total": 425,
+  "total": 424,
   "via": "smartrecruiters"
  },
  "Wolt": {
   "matched": 1,
   "ok": true,
-  "total": 191,
+  "total": 190,
   "via": "greenhouse"
  },
  "Xendit": {
-  "matched": 2,
+  "matched": 4,
   "ok": true,
-  "total": 19,
+  "total": 22,
   "via": "greenhouse"
  },
  "Zalando": {
@@ -541,9 +536,8 @@
   "via": "ashby"
  },
  "Zendesk": {
-  "matched": 2,
-  "ok": true,
-  "total": 111,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "Zip": {
@@ -555,13 +549,12 @@
  "Zscaler": {
   "matched": 0,
   "ok": true,
-  "total": 373,
+  "total": 377,
   "via": "greenhouse"
  },
  "eBay": {
-  "matched": 15,
-  "ok": true,
-  "total": 194,
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "ok": false,
   "via": "workday"
  },
  "loveholidays": {
@@ -573,7 +566,7 @@
  "n8n": {
   "matched": 4,
   "ok": true,
-  "total": 55,
+  "total": 57,
   "via": "ashby"
  }
 }
