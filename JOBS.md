@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-17 13:33 UTC · 460 open matches · 14 new in the last 24h · 86/98 sources healthy_
+_Updated 2026-11-17 22:27 UTC · 462 open matches · 16 new in the last 24h · 87/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -14,12 +14,14 @@ Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa
 | 94 | Xendit | [Senior Product Manager - Cards](https://job-boards.greenhouse.io/xendit/jobs/8204620003) | India; Jakarta, Indonesia; Kuala Lumpur, Malaysia; Singapore |  | 2026-11-16 |
 | 93 | ⭐ Amazon | [Sr. Product Manager- Tech, Amazon Compliance Safety Services ](https://www.amazon.jobs/en/jobs/10586021/sr-product-manager-tech-amazon-compliance-safety-services) | Bengaluru, Karnataka, IND |  | 2026-11-16 |
 | 93 | ⭐ Google | [Product Manager II, YouTube Ads Agentic Buyflows](https://www.google.com/about/careers/applications/jobs/results/118460461828973254-product-manager-ii-youtube-ads-agentic-buyflows) | Zürich, Switzerland |  | 2026-11-17 |
+| 92 | ⭐ Stripe | [Product Manager, Financial Connections](https://stripe.com/jobs/search?gh_jid=8384434) | SSF, Seattle, NYC, Chicago, Toronto |  | 2026-11-17 |
 | 91 | Airwallex | [Senior Product Manager, GTPN](https://jobs.ashbyhq.com/airwallex/859e5457-e5ec-4d78-9a83-e6a0eec270bc) | SG - Singapore; Singapore |  | 2026-11-16 |
 | 89 | ⭐ Amazon | [Sr. Product Manager - Tech, Amazon Business Onsite Buying Experience](https://www.amazon.jobs/en/jobs/10601872/sr-product-manager-tech-amazon-business-onsite-buying-experience) | Hyderabad, Telangana, IND |  | 2026-11-16 |
 | 86 | ⭐ Google | [Product Manager, GPay](https://www.google.com/about/careers/applications/jobs/results/87621290973635270-product-manager-gpay) | Bengaluru, Karnataka, India |  | 2026-11-17 |
 | 83 | ⭐ Amazon | [Product Manager - IN Private Brands, IN Private Brands](https://www.amazon.jobs/en/jobs/10606887/product-manager-in-private-brands-in-private-brands) | Bengaluru, Karnataka, IND |  | 2026-11-17 |
 | 82 | Payoneer | [Senior Data Product Manager](https://www.payoneer.com/careers/position/8330248/?gh_jid=8330248) | Gurugram, India |  | 2026-11-16 |
 | 80 | Meesho | [Senior Product Manager](https://jobs.lever.co/meesho/19954b1f-3bbc-44b6-b836-65c0f854953b) | Bangalore, Karnataka |  | 2026-11-17 |
+| 75 | Affirm | [IT Product Manager](https://job-boards.greenhouse.io/affirm/jobs/8075414003) | Remote Canada |  | 2026-11-17 |
 | 73 | ⭐ Stripe | [Product Manager, Card Networks](https://stripe.com/jobs/search?gh_jid=8199593) | Singapore |  | 2026-11-16 |
 | 66 | ServiceNow | [Staff Inbound Product Manager](https://jobs.smartrecruiters.com/ServiceNow/744000161990071) | Hyderabad, Telangana, India |  | 2026-11-17 |
 
@@ -288,103 +290,103 @@ _…and 62 more in data/jobs.json_
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 79 | 5 |
+| 1Password | ok | 76 | 4 |
 | Adobe | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
 | Adyen | ok | 238 | 7 |
-| Affirm | ok | 213 | 8 |
-| Agoda | ok | 349 | 8 |
-| Airbnb | ok | 205 | 0 |
-| Airwallex | ok | 485 | 10 |
-| Amazon | ok | 155 | 89 |
-| Anthropic | ok | 661 | 0 |
+| Affirm | ok | 220 | 9 |
+| Agoda | ok | 348 | 8 |
+| Airbnb | ok | 200 | 0 |
+| Airwallex | ok | 487 | 10 |
+| Amazon | ok | 156 | 89 |
+| Anthropic | ok | 658 | 0 |
 | Apple | ok |  |  |
-| Asana | ok | 113 | 8 |
-| Atlassian | ok | 266 | 4 |
+| Asana | ok | 114 | 8 |
+| Atlassian | ok | 269 | 4 |
 | Bitpanda | ok | 49 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
-| Brex | ok | 277 | 2 |
+| Brex | ok | 264 | 2 |
 | Canva | ok | 33 | 0 |
-| Celonis | ok | 263 | 4 |
-| Cloudflare | ok | 475 | 4 |
-| Cohere | ok | 125 | 2 |
-| Cresta | ok | 87 | 1 |
-| Datadog | ok | 380 | 1 |
-| Decagon | ok | 114 | 2 |
-| Deliveroo | ok | 181 | 7 |
+| Celonis | ok | 259 | 4 |
+| Cloudflare | ok | 478 | 4 |
+| Cohere | ok | 127 | 2 |
+| Cresta | ok | 85 | 1 |
+| Datadog | ok | 382 | 1 |
+| Decagon | ok | 112 | 2 |
+| Deliveroo | ok | 183 | 7 |
 | Delivery Hero | ok | 600 | 5 |
 | Deputy | ok | 3 | 0 |
 | Doctolib | ⚠️ HTTPError: HTTP Error 404: Not Found |  |  |
-| Ebury | ok | 153 | 4 |
-| Elastic | ok | 384 | 21 |
-| ElevenLabs | ok | 122 | 0 |
+| Ebury | ok | 152 | 4 |
+| Elastic | ok | 382 | 21 |
+| ElevenLabs | ok | 128 | 0 |
 | Expedia Group | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
-| Fivetran | ok | 186 | 2 |
+| Fivetran | ok | 188 | 2 |
 | Genesys | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
-| Geotab | ok | 64 | 5 |
+| Geotab | ok | 63 | 5 |
 | GetYourGuide | ok | 0 | 0 |
-| GitLab | ok | 254 | 6 |
+| GitLab | ok | 255 | 6 |
 | GoCardless | ok | 31 | 0 |
-| Google | ok | 66 | 15 |
+| Google | ok | 67 | 15 |
 | Grab | ok | 411 | 8 |
-| Grafana Labs | ok | 134 | 6 |
+| Grafana Labs | ok | 135 | 6 |
 | Intercom | ok | 115 | 8 |
-| JetBrains | ok | 29 | 2 |
+| JetBrains | ok | 28 | 2 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
-| LinkedIn | ok | 185 | 0 |
+| LinkedIn | ok | 192 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
-| Lovable | ok | 77 | 4 |
+| Lovable | ok | 79 | 4 |
 | Mastercard | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
 | Meesho | ok | 47 | 4 |
 | Mentimeter | ok | 16 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 94 | 4 |
+| Microsoft | ok | 94 | 3 |
 | Moneybox | ok | 18 | 1 |
-| MongoDB | ok | 399 | 9 |
+| MongoDB | ok | 394 | 9 |
 | Monzo | ok | 59 | 1 |
 | N26 | ok | 28 | 2 |
-| Netflix | ⚠️ HTTPError: HTTP Error 429: TOO MANY REQUESTS |  |  |
-| New Relic | ok | 41 | 0 |
+| Netflix | ok | 181 | 1 |
+| New Relic | ok | 42 | 0 |
 | Nium | ok | 32 | 3 |
-| Okta | ok | 360 | 7 |
-| OpenAI | ok | 840 | 0 |
+| Okta | ok | 359 | 7 |
+| OpenAI | ok | 839 | 0 |
 | Oyster | ok | 21 | 2 |
 | Paddle | ok | 15 | 1 |
 | Parloa | ok | 45 | 1 |
 | PayPal | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
-| Payoneer | ok | 101 | 1 |
+| Payoneer | ok | 100 | 1 |
 | Pennylane | ok | 212 | 3 |
-| Qonto | ok | 54 | 2 |
+| Qonto | ok | 53 | 2 |
 | Razorpay | ok | 25 | 7 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 188 | 1 |
+| Rubrik | ok | 196 | 1 |
 | Salesforce | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
-| Scale AI | ok | 169 | 3 |
+| Scale AI | ok | 167 | 3 |
 | ServiceNow | ok | 600 | 2 |
 | Shopee | ok |  |  |
-| Sierra | ok | 197 | 6 |
+| Sierra | ok | 196 | 6 |
 | Snyk | ok | 39 | 1 |
 | Spotify | ok | 87 | 11 |
-| Stripe | ok | 794 | 16 |
-| SumUp | ok | 313 | 3 |
+| Stripe | ok | 791 | 16 |
+| SumUp | ok | 317 | 3 |
 | Synthesia | ok | 29 | 3 |
-| Tide | ok | 78 | 3 |
-| Toast | ok | 331 | 2 |
-| Trustpilot | ok | 31 | 0 |
-| Twilio | ok | 115 | 1 |
+| Tide | ok | 81 | 3 |
+| Toast | ok | 327 | 1 |
+| Trustpilot | ok | 29 | 0 |
+| Twilio | ok | 109 | 1 |
 | Uber | ok |  |  |
 | Visa | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
-| Wealthsimple | ok | 42 | 1 |
-| Wise | ok | 422 | 14 |
+| Wealthsimple | ok | 41 | 1 |
+| Wise | ok | 423 | 14 |
 | Wolt | ok | 184 | 1 |
 | Xendit | ok | 22 | 4 |
 | Zalando | ok |  |  |
 | Zego | ok | 29 | 10 |
 | Zendesk | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
-| Zip | ok | 98 | 3 |
-| Zscaler | ok | 378 | 0 |
+| Zip | ok | 100 | 3 |
+| Zscaler | ok | 375 | 0 |
 | eBay | ⚠️ HTTPError: HTTP Error 429: Too Many Requests |  |  |
-| loveholidays | ok | 18 | 3 |
+| loveholidays | ok | 17 | 3 |
 | n8n | ok | 60 | 4 |
 
 </details>
