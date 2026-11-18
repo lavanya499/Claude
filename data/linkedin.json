@@ -1,14 +1,14 @@
 {
-"blocked_until": "2026-11-18T04:21Z",
+"blocked_until": "2026-11-18T12:56Z",
 "health": {
-"calls": 10,
-"cards": 83,
+"calls": 9,
+"cards": 80,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 20,
+"new": 34,
 "rate_limited": true,
-"requests": 10,
-"window_min": 356
+"requests": 9,
+"window_min": 871
 },
 "jobs": {
 "3795113969": {
@@ -2765,7 +2765,7 @@
 "id": "4454530748",
 "level": "senior",
 "location": "Singapore, Singapore",
-"posted": "2026-11-17",
+"posted": "2026-11-18",
 "posted_ts": "2026-11-12T21:50Z",
 "regions": [
 "Singapore"
@@ -3713,6 +3713,24 @@
 "url": "https://www.linkedin.com/jobs/view/4457927103/",
 "visa": ""
 },
+"4458116046": {
+"company": "Singtel",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4458116046",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T10:16Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4458116046/",
+"visa": ""
+},
 "4458210113": {
 "company": "Dalux",
 "dup": false,
@@ -4431,6 +4449,24 @@
 "tier": 3,
 "title": "Sr. Product Manager - AI Builder",
 "url": "https://www.linkedin.com/jobs/view/4464243511/",
+"visa": ""
+},
+"4464251705": {
+"company": "Cloudflare",
+"dup": true,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4464251705",
+"level": "senior",
+"location": "Lisbon, Portugal",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:16Z",
+"regions": [
+"Europe"
+],
+"score": 90,
+"tier": 1,
+"title": "Senior Product Manager, Email Security",
+"url": "https://www.linkedin.com/jobs/view/4464251705/",
 "visa": ""
 },
 "4464330578": {
@@ -6764,6 +6800,25 @@
 "url": "https://www.linkedin.com/jobs/view/4474060835/",
 "visa": ""
 },
+"4474148424": {
+"company": "Syfe",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4474148424",
+"level": "senior",
+"location": "Sydney, New South Wales, Australia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:32Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager (Growth) – Sydney or Melbourne",
+"url": "https://www.linkedin.com/jobs/view/4474148424/",
+"visa": ""
+},
 "4474151777": {
 "company": "NMI",
 "dup": false,
@@ -7412,6 +7467,24 @@
 "url": "https://www.linkedin.com/jobs/view/4474934759/",
 "visa": ""
 },
+"4474971309": {
+"company": "Kraken",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4474971309",
+"level": "senior",
+"location": "Portugal",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:40Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager - Social Networking",
+"url": "https://www.linkedin.com/jobs/view/4474971309/",
+"visa": ""
+},
 "4475007261": {
 "company": "GitLab",
 "desc": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software.\n Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.\n An Overview Of This Role\n Credit-based and consumption-based offerings are becoming central to how GitLab monetizes. The systems that meter, rate, and bill that consumption sit underneath all of it. You'll own the backend usage billing pipeline and its product direction while supporting the Monetization Platform and Infrastructure team as it modernizes the foundations underneath it.\nWhen another GitLab team launches a credit-consuming capability, you'll help them make it billable across GitLab.com, self-managed, and GitLab Dedicated. This is a technical, systems-oriented product role: success means building a monetization platform other teams can launch on quickly and correctly, rather than shipping customer-facing UI.\n What You’ll Do\n Own the product direction for metering, aggregation, and rating in GitLab's usage billing pipeline, including the Zuora and CustomersDot integrations that turn usage into invoiced revenue.\n Make onboarding a new credit-consuming capability a repeatable process rather than a bespoke project each time.\n Partner with product teams on what to instrument, how to meter and price usage across GitLab.com, self-managed, and GitLab Dedicated, and what it takes to be billable on launch day. Stay ahead of their roadmaps so billing doesn't delay launches.\n Prioritize pipeline scalability, performance, and reliability as consumption grows, balancing those investments against new capability enablement.\n Own billing defect detection and remediation so errors surface before they reach a customer's invoice and billing outcomes remain auditable.\n Support the Monetization Platform and Infrastructure team by framing problems, explaining the value of platform investments, and prioritizing them against operational risk.\n Define and track measures of billing accuracy, pipeline reliability, cost to serve per capability, and time to monetize so teams can make informed pricing decisions.\n What You’ll Bring\n Experience owning the product direction of consumption- or usage-based billing systems.\n Experience with Zuora or a comparable billing and revenue platform, and an understanding of how product and",
@@ -7665,6 +7738,24 @@
 "url": "https://www.linkedin.com/jobs/view/4476134742/",
 "visa": ""
 },
+"4476158891": {
+"company": "Critical Software",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4476158891",
+"level": "senior",
+"location": "Coimbra, Coimbra, Portugal",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:16Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager – Railway",
+"url": "https://www.linkedin.com/jobs/view/4476158891/",
+"visa": ""
+},
 "4476166746": {
 "company": "Critical Software",
 "dup": false,
@@ -7702,6 +7793,24 @@
 "url": "https://www.linkedin.com/jobs/view/4476176932/",
 "visa": ""
 },
+"4476180136": {
+"company": "Critical Software",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4476180136",
+"level": "senior",
+"location": "Porto, Porto, Portugal",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:16Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager – Railway",
+"url": "https://www.linkedin.com/jobs/view/4476180136/",
+"visa": ""
+},
 "4476410835": {
 "company": "Aignostics",
 "dup": false,
@@ -7718,6 +7827,24 @@
 "tier": 3,
 "title": "Senior Product Manager - Clinical AI (d/f/m)",
 "url": "https://www.linkedin.com/jobs/view/4476410835/",
+"visa": ""
+},
+"4476700170": {
+"company": "Specsavers",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4476700170",
+"level": "unlevelled",
+"location": "Melbourne, Victoria, Australia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:16Z",
+"regions": [
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4476700170/",
 "visa": ""
 },
 "4477304653": {
@@ -9038,6 +9165,24 @@
 "tier": 3,
 "title": "Product Manager Data-Driven Underwriting Solutions (80 - 100% working degree)",
 "url": "https://www.linkedin.com/jobs/view/4481314745/",
+"visa": ""
+},
+"4481315775": {
+"company": "HATA",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4481315775",
+"level": "unlevelled",
+"location": "Damansara, Selangor, Malaysia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T04:16Z",
+"regions": [
+"Malaysia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4481315775/",
 "visa": ""
 },
 "4481318497": {
@@ -11674,6 +11819,43 @@
 "url": "https://www.linkedin.com/jobs/view/4483771382/",
 "visa": ""
 },
+"4483830823": {
+"company": "Fiserv",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4483830823",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T09:16Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Regional Product Manager, APAC – Financial Solutions",
+"url": "https://www.linkedin.com/jobs/view/4483830823/",
+"visa": ""
+},
+"4483842203": {
+"company": "Fiserv",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4483842203",
+"level": "unlevelled",
+"location": "North Sydney, New South Wales, Australia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T09:16Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Regional Product Manager, APAC – Financial Solutions",
+"url": "https://www.linkedin.com/jobs/view/4483842203/",
+"visa": ""
+},
 "4484004042": {
 "company": "Flare",
 "dup": false,
@@ -11819,6 +12001,80 @@
 "tier": 1,
 "title": "Sr. Product Manager Tech, IN Prime",
 "url": "https://www.linkedin.com/jobs/view/4484074130/",
+"visa": ""
+},
+"4484228266": {
+"company": "Singtel",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4484228266",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T10:16Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "5G Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4484228266/",
+"visa": ""
+},
+"4484422293": {
+"company": "IMDA",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4484422293",
+"level": "unlevelled",
+"location": "Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:16Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager, Gen AI",
+"url": "https://www.linkedin.com/jobs/view/4484422293/",
+"visa": ""
+},
+"4484422579": {
+"company": "Arrotex Pharmaceuticals",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4484422579",
+"level": "unlevelled",
+"location": "Sydney, New South Wales, Australia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:24Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4484422579/",
+"visa": ""
+},
+"4484424413": {
+"company": "Arrotex Pharmaceuticals",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4484424413",
+"level": "unlevelled",
+"location": "Sydney, New South Wales, Australia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:18Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4484424413/",
 "visa": ""
 },
 "4484464238": {
@@ -15922,7 +16178,6 @@
 },
 "4489361971": {
 "company": "eBay",
-"desc": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts.\nOur customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet.\nJoin a team of passionate thinkers, innovators, and dreamers — and help us connect people and build communities to create economic opportunity for all.\n About The Team And The Role\n The Search advertising team is responsible for the search page that drives a large part of eBay’s core marketplace business. The Search team strives to build an experience that enables users to easily explore, find, and buy what they want at the best value through an engaging, frictionless, and trusted Search experience, helping them make confident purchase decisions.\nIn this role, you will be responsible for efficient ad ranking that optimizes for monetization and user engagement. Your expertise will drive the development of AI-driven features that improve product discovery, engagement, and user experience. The ideal candidate will have a strong background in AI/ML technologies, along with a passion for applying these skills to redefine the way customers interact with our platform.\n What You Will Accomplish\n Lead the product strategy and roadmap for improving upper funnel experience on search\n Be a strategic problem solver and able to synthesize data from multiple sources (including analytics, user research, marketing research, and design) to identify key customer unmet needs, key solutions that can address the needs and build product vision with search item tiles \n You will work closely with a cross-functional team of applied science, engineering, analytics, product marketing, and user research to deliver these products for key customer segments.\n You will lead the execution of your roadmap by working with data science, engineering, and analytics teams\n Build MVPs, iterate fast and be the champion of execution excellence\n Conduct AB tests for launch candidates and work with analytics teams to measure the impact on success metrics\n What You Will Bring\n 7+ years of Product Management experience\n Experience with search and discovery systems, including familiarity with ranking models, search algorithms, and semantic search\n Experience in pay-per-click search advertising.\n Strong analytic skills and ability to synthesize data from multiple sources\n Passionate advocate for user, and has confirmed results in achieving superb user experience within tight constraints\n Demonstrated leadership ability, self-motivated and directed, entrepreneurial ability to innovate quickly\n Additional Details\n This job posting relates to an existing vacancy within eBay.\neBay is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, and disability, or other legally protected status. If you have a need that requires accommodation, please contact us at talent@ebay.com. We will make every effort to respond to your request for accommodation as soon as possible. View our accessibility statement to learn more ab",
 "dup": true,
 "first_seen_at": "2026-11-15T07:39Z",
 "id": "4489361971",
@@ -15995,7 +16250,6 @@
 },
 "4489366843": {
 "company": "eBay",
-"desc": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts.\nOur customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet.\nJoin a team of passionate thinkers, innovators, and dreamers — and help us connect people and build communities to create economic opportunity for all.\n About The Team And The Role\n We have built one of the largest Ad marketplaces in e-commerce, and one of the fastest-growing businesses within the company. We are on a mission to help sellers and brands of all sizes use advertising to drive meaningful impact for their businesses. We are accomplishing this by developing one of the most data-enhanced ad marketplaces in the world.\nAs the Senior Product Manager, Ad Relevance you will lead key advertising technologies within our stack and make them outstanding in delivering speed for advertisers. You will identify and improve key levers of ad quality including Ad Relevance and quality. You will drive innovation in billion-dollar products by investing in new growth opportunities.\n What You Will Accomplish\n Drive Product and Business Strategy\n Develop deep understanding of our advertisers and their needs.\n Lead the roadmap for critical components of ad serving and user targeting.\n Champion innovation in AI, generative models, automation, and intelligent defaults to transform the advertiser journey\n Partner closely with commercial and finance teams to align technical roadmaps with overarching business strategy\n Complete relentlessly on product requirements with engineering and analytics teams\n Push product and engineering teams to pioneer breakthroughs and lead innovations within the broader ad tech community\n Cultivate a culture of progress driven by applying rigorous experimentation, A/B testing, and deep data analysis\n Represent your product area in senior leadership forums, seamlessly translating complex technical strategies into clear business impacts\n Collaborate with program and operations teams to guarantee flawless roadmap execution and timely delivery\n What You Will Bring\n 7 + years of experience in technology product management, with 3–5 years of dedicated experience in pay-per-click search advertising, preferably in ad relevance. \n Hands-on experience developing products working with Applied Science researchers and ML engineers.\n Understanding of ad serving infrastructure, and core ad stack architecture within marketplaces, e-commerce, or high-scale consumer platforms\n Knowledge of industry standards in relevance measurement and techniques for improvement. \n Strong technical proficiency with a confirmed ability to understand how brand-new backend systems advance product metrics\n Deep analytical capability with a data-first approach and outstanding experimentation skills\n Outstanding storytelling and collaboration skills, with the ability to influence senior collaborators and cross-functional partners\n Additional Details\n This job posting relates to an existing vacancy within eBay.\neBay is an equal opportunity employer. All qualified applicants will receive consideration for employment without reg",
 "dup": true,
 "first_seen_at": "2026-11-15T07:39Z",
 "id": "4489366843",
@@ -25055,6 +25309,186 @@
 "url": "https://www.linkedin.com/jobs/view/4490814029/",
 "visa": ""
 },
+"4490815849": {
+"company": "Consortium for Clinical Research and Innovation, Singapore (CRIS)",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490815849",
+"level": "senior",
+"location": "Singapore, Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T01:16Z",
+"regions": [
+"Singapore"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Technical Project & Product Manager, SIMFONI",
+"url": "https://www.linkedin.com/jobs/view/4490815849/",
+"visa": ""
+},
+"4490827936": {
+"company": "Novo Nordisk",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490827936",
+"level": "mid",
+"location": "Taastrup, Capital Region of Denmark, Denmark",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T05:16Z",
+"regions": [
+"Europe"
+],
+"score": 38,
+"tier": 3,
+"title": "BMS Product Owner, 2-Year Maternity Cover",
+"url": "https://www.linkedin.com/jobs/view/4490827936/",
+"visa": ""
+},
+"4490849618": {
+"company": "Exness",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490849618",
+"level": "unlevelled",
+"location": "Federal Territory of Kuala Lumpur, Malaysia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T06:16Z",
+"regions": [
+"Malaysia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager (Product Development)",
+"url": "https://www.linkedin.com/jobs/view/4490849618/",
+"visa": ""
+},
+"4490853012": {
+"company": "Shopee",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490853012",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T05:16Z",
+"regions": [
+"Singapore"
+],
+"score": 64,
+"tier": 2,
+"title": "Product Manager - Promotion, Buyer & Marketing",
+"url": "https://www.linkedin.com/jobs/view/4490853012/",
+"visa": ""
+},
+"4490853529": {
+"company": "Binance",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490853529",
+"level": "unlevelled",
+"location": "Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T08:16Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "VIP & Institutional Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4490853529/",
+"visa": ""
+},
+"4490854058": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490854058",
+"level": "unlevelled",
+"location": "Portugal",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T05:16Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager – AI-First EdTech (PO / Technical BA welcome)",
+"url": "https://www.linkedin.com/jobs/view/4490854058/",
+"visa": ""
+},
+"4490859055": {
+"company": "HESTA",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490859055",
+"level": "unlevelled",
+"location": "Melbourne, Victoria, Australia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T06:16Z",
+"regions": [
+"Australia"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Manager - Accumulation & Insurance",
+"url": "https://www.linkedin.com/jobs/view/4490859055/",
+"visa": ""
+},
+"4490861731": {
+"company": "JustLogin",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490861731",
+"level": "unlevelled",
+"location": "WP. Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T08:16Z",
+"regions": [
+"Malaysia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager, Growth & GTM (AI-First SaaS)",
+"url": "https://www.linkedin.com/jobs/view/4490861731/",
+"visa": ""
+},
+"4490873855": {
+"company": "Hudson Talent Solutions",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490873855",
+"level": "unlevelled",
+"location": "Malaysia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:16Z",
+"regions": [
+"Malaysia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4490873855/",
+"visa": ""
+},
+"4490879848": {
+"company": "Standard Chartered",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4490879848",
+"level": "unlevelled",
+"location": "Singapore, Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T11:46Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Owner, Client Self Administration",
+"url": "https://www.linkedin.com/jobs/view/4490879848/",
+"visa": ""
+},
 "4490901832": {
 "company": "Nomilk2day",
 "dup": false,
@@ -27185,7 +27619,6 @@
 },
 "4491226345": {
 "company": "Atlassian",
-"desc": "Overview\n Working at Atlassian\n Atlassians can choose where they work – whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity.\n Your Future Org\n At Atlassian, Product Management is a team sport. We work closely with engineering, design, and go-to-market teams to build products that help millions of people do their best work. We care deeply about solving real customer problems, and we’re energized by the possibilities AI and new technology bring. If you're someone who loves turning insight into impact - and wants to shape the future of modern work - we’d love to meet you.\n Your Future Team\n You’ll join a team helping the world’s largest and most complex enterprises thrive on Atlassian Cloud - modernizing business-critical workflows, continuously optimizing their environments, and unlocking cloud-native and AI capabilities. Building on existing foundations, you’ll discover and validate the next high-value platform opportunities, establish an evolving area of product ownership, and partner with engineering and design to turn shared customer needs into scalable products.\n Responsibilities\n Shape an emerging platform opportunity. Explore how complex enterprises modernize, optimize, and scale on Atlassian Cloud. Establish a product vision and progressively define the scope, priorities, and roadmap for an evolving area of ownership.\n Discover the problems worth solving. Work directly with enterprise customers and customer-facing teams to uncover unmet needs, challenge assumptions, and distinguish recurring platform opportunities from customer-specific requests.\n Turn ambiguity into product direction. Form hypotheses, assess customer and business value, and partner with engineering and design to test potential solutions. Make evidence-based recommendations about where to invest, and where not to.\n Translate insight into scalable capabilities. Develop promising opportunities into reusable platform capabilities, automation, and cloud-native reference patterns that address shared enterprise and industry needs, helping customers continuously improve without depending on bespoke intervention.\n Take validated opportunities from discovery into delivery. Own product decisions, prioritization, and outcomes as the opportunity matures, working with engineering, design, and architecture to launch, learn, and iterate.\n Build alignment. Earn support across product, engineering, and customer-facing teams, clarify boundaries with adjacent products, and establish shared ownership where solutions span teams.\n Define what success looks like. Establish meaningful outcomes as the product direction takes shape, using customer evidence and product adoption to refine the strategy and guide further investment.\n Compensation\n At Atlassian, we strive to design equitable, explainable, and competitive compensation programs. We follow consistent hiring practices and account for each candidate's skills, knowledge, and experience when setting base pay within the range.\nThis role may also be eligible for benefits, bonuses, commissions, and equity.\n Pay Ranges\n In Poland , for this role, our current base pay range for new hires is:\n Poland : 322.200 zł - 420.650 zł\n Qualifications\n Minimum Qualifications\n 8+ years of product management experience leading complex B2B enterprise platforms, cloud infrastru",
 "dup": true,
 "first_seen_at": "2026-11-15T07:39Z",
 "id": "4491226345",
@@ -28132,6 +28565,79 @@
 "tier": 3,
 "title": "Senior Product Manager - Broker Platform & Partner Products",
 "url": "https://www.linkedin.com/jobs/view/4491471225/",
+"visa": ""
+},
+"4491482277": {
+"company": "GovTech Singapore",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491482277",
+"level": "senior",
+"location": "Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T03:16Z",
+"regions": [
+"Singapore"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager, Ministry of Social and Family Development (MSF)",
+"url": "https://www.linkedin.com/jobs/view/4491482277/",
+"visa": ""
+},
+"4491487524": {
+"company": "OxygenAI",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491487524",
+"level": "unlevelled",
+"location": "Bangkok Metropolitan Area",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T04:16Z",
+"regions": [
+"Thailand"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner (AI Retail)",
+"url": "https://www.linkedin.com/jobs/view/4491487524/",
+"visa": ""
+},
+"4491493004": {
+"company": "LH BANK",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491493004",
+"level": "unlevelled",
+"location": "Bangkok Metropolitan Area",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T04:16Z",
+"regions": [
+"Thailand"
+],
+"score": 54,
+"tier": 3,
+"title": "Bancassurance Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4491493004/",
+"visa": ""
+},
+"4491493227": {
+"company": "UNSW",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491493227",
+"level": "unlevelled",
+"location": "Sydney, New South Wales, Australia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T05:16Z",
+"regions": [
+"UK",
+"Australia"
+],
+"score": 58,
+"tier": 3,
+"title": "Product Manager - IT Services",
+"url": "https://www.linkedin.com/jobs/view/4491493227/",
 "visa": ""
 },
 "4491500789": {
@@ -29324,10 +29830,118 @@
 "title": "Global Head of Product (Land and Cruise) - South Bank, QLD",
 "url": "https://www.linkedin.com/jobs/view/4491787004/",
 "visa": ""
+},
+"4491800030": {
+"company": "BC Game",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491800030",
+"level": "unlevelled",
+"location": "Greater Melbourne Area",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T05:16Z",
+"regions": [
+"Australia"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager, Casino",
+"url": "https://www.linkedin.com/jobs/view/4491800030/",
+"visa": ""
+},
+"4491801082": {
+"company": "Bluesky HR Consultancy Inc.",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491801082",
+"level": "unlevelled",
+"location": "WP. Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T05:16Z",
+"regions": [
+"Malaysia"
+],
+"score": 54,
+"tier": 3,
+"title": "AI Native Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4491801082/",
+"visa": ""
+},
+"4491806360": {
+"company": "GovTech Singapore",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491806360",
+"level": "unlevelled",
+"location": "Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T07:16Z",
+"regions": [
+"Singapore"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager (CIO)",
+"url": "https://www.linkedin.com/jobs/view/4491806360/",
+"visa": ""
+},
+"4491815793": {
+"company": "Binance",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491815793",
+"level": "unlevelled",
+"location": "Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T10:16Z",
+"regions": [
+"Singapore"
+],
+"score": 55,
+"tier": 3,
+"title": "Product Manager (marketplace - order flow)",
+"url": "https://www.linkedin.com/jobs/view/4491815793/",
+"visa": ""
+},
+"4491818628": {
+"company": "NETS",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4491818628",
+"level": "unlevelled",
+"location": "Toa Payoh, Central Singapore Community Development Council, Singapore",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T10:16Z",
+"regions": [
+"Singapore"
+],
+"score": 55,
+"tier": 3,
+"title": "Business Product Manager, Online Payments",
+"url": "https://www.linkedin.com/jobs/view/4491818628/",
+"visa": ""
+},
+"4492020252": {
+"company": "GAMING1",
+"dup": false,
+"first_seen_at": "2026-11-18T12:16Z",
+"id": "4492020252",
+"level": "unlevelled",
+"location": "Lisbon Metropolitan Area",
+"posted": "2026-11-18",
+"posted_ts": "2026-11-18T12:10Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "PRODUCT MANAGER (LISBON - PORTUGAL)",
+"url": "https://www.linkedin.com/jobs/view/4492020252/",
+"visa": ""
 }
 },
-"last_block_ping": "2026-11-18T03:41Z",
-"last_rollup": "2026-11-18T03:41Z",
+"last_block_ping": "2026-11-18T12:16Z",
+"last_rollup": "2026-11-18T12:16Z",
 "last_scan": "2026-11-17T22:05Z",
-"updated": "2026-11-18T03:41Z"
+"updated": "2026-11-18T12:16Z"
 }
