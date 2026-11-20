@@ -1,13 +1,13 @@
 {
-"blocked_until": "2026-11-20T17:55Z",
+"blocked_until": "2026-11-20T23:53Z",
 "health": {
-"calls": 2,
-"cards": 10,
+"calls": 3,
+"cards": 20,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 5,
+"new": 17,
 "rate_limited": true,
-"requests": 2,
+"requests": 3,
 "window_min": 1440
 },
 "jobs": {
@@ -2124,6 +2124,24 @@
 "url": "https://www.linkedin.com/jobs/view/4448557957/",
 "visa": ""
 },
+"4448559841": {
+"company": "Digital Asset",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4448559841",
+"level": "unlevelled",
+"location": "Zurich, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T16:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Financial Apps",
+"url": "https://www.linkedin.com/jobs/view/4448559841/",
+"visa": ""
+},
 "4449047343": {
 "company": "Distribusion Technologies",
 "dup": false,
@@ -2140,24 +2158,6 @@
 "tier": 3,
 "title": "Senior Technical Product Manager, Rail Integrations (all genders)",
 "url": "https://www.linkedin.com/jobs/view/4449047343/",
-"visa": ""
-},
-"4451279031": {
-"company": "JustPlay",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4451279031",
-"level": "senior",
-"location": "Berlin, Berlin, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T12:18Z",
-"regions": [
-"Europe"
-],
-"score": 74,
-"tier": 3,
-"title": "Senior Product Manager - Fraud (all genders)",
-"url": "https://www.linkedin.com/jobs/view/4451279031/",
 "visa": ""
 },
 "4453108245": {
@@ -3711,60 +3711,6 @@
 "url": "https://www.linkedin.com/jobs/view/4464251705/",
 "visa": ""
 },
-"4464505643": {
-"company": "Basware",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4464505643",
-"level": "senior",
-"location": "Knutsford, England, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T18:00Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4464505643/",
-"visa": ""
-},
-"4464517119": {
-"company": "Basware",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4464517119",
-"level": "senior",
-"location": "London, England, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T18:04Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4464517119/",
-"visa": ""
-},
-"4464524069": {
-"company": "Basware",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4464524069",
-"level": "senior",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T15:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4464524069/",
-"visa": ""
-},
 "4464526041": {
 "company": "Basware",
 "dup": false,
@@ -4052,24 +3998,6 @@
 "tier": 3,
 "title": "Senior Product Manager, Wealth Management",
 "url": "https://www.linkedin.com/jobs/view/4465355714/",
-"visa": ""
-},
-"4465368262": {
-"company": "MoonPay",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4465368262",
-"level": "senior",
-"location": "United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T16:18Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, KYB - MoonPay Enterprise",
-"url": "https://www.linkedin.com/jobs/view/4465368262/",
 "visa": ""
 },
 "4465370278": {
@@ -4703,24 +4631,6 @@
 "url": "https://www.linkedin.com/jobs/view/4472300901/",
 "visa": ""
 },
-"4472306666": {
-"company": "Kraken",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4472306666",
-"level": "mid",
-"location": "Switzerland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T12:18Z",
-"regions": [
-"Europe"
-],
-"score": 62,
-"tier": 3,
-"title": "Product Manager II - Financial Crime Operations",
-"url": "https://www.linkedin.com/jobs/view/4472306666/",
-"visa": ""
-},
 "4472306671": {
 "company": "Kraken",
 "dup": false,
@@ -4755,24 +4665,6 @@
 "tier": 3,
 "title": "Product Manager II - Financial Crime Operations",
 "url": "https://www.linkedin.com/jobs/view/4472306673/",
-"visa": ""
-},
-"4472319172": {
-"company": "Kraken",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4472319172",
-"level": "mid",
-"location": "Ireland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T12:18Z",
-"regions": [
-"Europe"
-],
-"score": 62,
-"tier": 3,
-"title": "Product Manager II - Financial Crime Operations",
-"url": "https://www.linkedin.com/jobs/view/4472319172/",
 "visa": ""
 },
 "4472320038": {
@@ -4811,24 +4703,6 @@
 "url": "https://www.linkedin.com/jobs/view/4472320042/",
 "visa": ""
 },
-"4472565250": {
-"company": "Wolters Kluwer",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4472565250",
-"level": "senior",
-"location": "Alphen aan Den Rijn, South Holland, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T15:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4472565250/",
-"visa": ""
-},
 "4472571417": {
 "company": "OKX",
 "dup": false,
@@ -4845,24 +4719,6 @@
 "tier": 3,
 "title": "Senior Product Manager / Director, Trading Products",
 "url": "https://www.linkedin.com/jobs/view/4472571417/",
-"visa": ""
-},
-"4472583821": {
-"company": "Kwalee",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4472583821",
-"level": "senior",
-"location": "Royal Leamington Spa, England, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T15:18Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4472583821/",
 "visa": ""
 },
 "4472585580": {
@@ -5189,6 +5045,24 @@
 "url": "https://www.linkedin.com/jobs/view/4473673310/",
 "visa": ""
 },
+"4473788586": {
+"company": "Basler Kantonalbank",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4473788586",
+"level": "senior",
+"location": "Basel, Basel, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T13:13Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Lead Product Managerin Lending Solutions (w/m)",
+"url": "https://www.linkedin.com/jobs/view/4473788586/",
+"visa": ""
+},
 "4473846726": {
 "company": "Veeva Systems",
 "dup": false,
@@ -5476,24 +5350,6 @@
 "tier": 3,
 "title": "Product Manager Business Lending",
 "url": "https://www.linkedin.com/jobs/view/4474293510/",
-"visa": ""
-},
-"4474304773": {
-"company": "Datavant Ireland",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4474304773",
-"level": "unlevelled",
-"location": "Galway, County Galway, Ireland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T14:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager, Unstructured Data Privacy",
-"url": "https://www.linkedin.com/jobs/view/4474304773/",
 "visa": ""
 },
 "4474331129": {
@@ -6090,6 +5946,24 @@
 "url": "https://www.linkedin.com/jobs/view/4475562876/",
 "visa": ""
 },
+"4475785691": {
+"company": "Hitachi Energy",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4475785691",
+"level": "unlevelled",
+"location": "Stockholm, Stockholm County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T13:13Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Global Product Manager - Automation (m/f/d)",
+"url": "https://www.linkedin.com/jobs/view/4475785691/",
+"visa": ""
+},
 "4475811458": {
 "company": "Syfe",
 "dup": false,
@@ -6487,6 +6361,24 @@
 "url": "https://www.linkedin.com/jobs/view/4477304653/",
 "visa": ""
 },
+"4477470835": {
+"company": "Spotify",
+"dup": true,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4477470835",
+"level": "reach",
+"location": "Stockholm, Stockholm County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T19:13Z",
+"regions": [
+"Europe"
+],
+"score": 74,
+"tier": 1,
+"title": "Principal Product Manager - Format Foundations",
+"url": "https://www.linkedin.com/jobs/view/4477470835/",
+"visa": ""
+},
 "4477641476": {
 "company": "Cover Genius",
 "dup": false,
@@ -6796,42 +6688,6 @@
 "url": "https://www.linkedin.com/jobs/view/4480614530/",
 "visa": ""
 },
-"4480644132": {
-"company": "Zürcher Kantonalbank",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4480644132",
-"level": "unlevelled",
-"location": "Zurich, Zurich, Switzerland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T14:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Workplace Client Engineering (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4480644132/",
-"visa": ""
-},
-"4480646737": {
-"company": "Meyn Food Processing Technology B.V.",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4480646737",
-"level": "unlevelled",
-"location": "Oostzaan, North Holland, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T13:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4480646737/",
-"visa": ""
-},
 "4480691551": {
 "company": "SD Worx",
 "dup": false,
@@ -6958,42 +6814,6 @@
 "url": "https://www.linkedin.com/jobs/view/4481079144/",
 "visa": ""
 },
-"4481159627": {
-"company": "Zeppelin Group",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4481159627",
-"level": "senior",
-"location": "Hamburg, Hamburg, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T13:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "(Senior) Product Manager Energy Storage & Power Conversion Solutions | BESS | PCS (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4481159627/",
-"visa": ""
-},
-"4481172048": {
-"company": "Zeppelin Group",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4481172048",
-"level": "senior",
-"location": "Hamburg, Hamburg, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T13:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "(Senior) Product Manager Energy Management Systems | EMS (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4481172048/",
-"visa": ""
-},
 "4481315775": {
 "company": "HATA",
 "dup": false,
@@ -7100,24 +6920,6 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4481564272/",
-"visa": ""
-},
-"4481606253": {
-"company": "The Trade Desk",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4481606253",
-"level": "senior",
-"location": "London Area, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T15:18Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, Reporting Experiences",
-"url": "https://www.linkedin.com/jobs/view/4481606253/",
 "visa": ""
 },
 "4481654077": {
@@ -7787,24 +7589,6 @@
 "url": "https://www.linkedin.com/jobs/view/4482325636/",
 "visa": ""
 },
-"4482439981": {
-"company": "Kite Human Capital",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482439981",
-"level": "senior",
-"location": "Greater London, England, United Kingdom",
-"posted": "2026-11-17",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Lead Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4482439981/",
-"visa": ""
-},
 "4482486065": {
 "company": "Lucanet",
 "dup": false,
@@ -7821,25 +7605,6 @@
 "tier": 3,
 "title": "Senior AI Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4482486065/",
-"visa": ""
-},
-"4482497311": {
-"company": "Apex Fintech Solutions",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482497311",
-"level": "senior",
-"location": "Belfast, Northern Ireland, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T13:18Z",
-"regions": [
-"UK",
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager - Platform",
-"url": "https://www.linkedin.com/jobs/view/4482497311/",
 "visa": ""
 },
 "4482542619": {
@@ -7932,60 +7697,6 @@
 "url": "https://www.linkedin.com/jobs/view/4482713529/",
 "visa": ""
 },
-"4482720373": {
-"company": "On",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482720373",
-"level": "senior",
-"location": "Zurich, Zurich, Switzerland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T13:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Lead AI Product Manager – Inventory Optimization & ML Allocation",
-"url": "https://www.linkedin.com/jobs/view/4482720373/",
-"visa": ""
-},
-"4482750858": {
-"company": "Rabobank",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482750858",
-"level": "unlevelled",
-"location": "Utrecht, Utrecht, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T15:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager - Software Delivery Platform",
-"url": "https://www.linkedin.com/jobs/view/4482750858/",
-"visa": ""
-},
-"4482798616": {
-"company": "Telnyx",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482798616",
-"level": "unlevelled",
-"location": "Dublin, County Dublin, Ireland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T15:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Manager, Developer Experience & Product-Led Growth",
-"url": "https://www.linkedin.com/jobs/view/4482798616/",
-"visa": ""
-},
 "4482805800": {
 "company": "RACQ",
 "dup": false,
@@ -8004,24 +7715,6 @@
 "url": "https://www.linkedin.com/jobs/view/4482805800/",
 "visa": ""
 },
-"4482827845": {
-"company": "Mollie",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482827845",
-"level": "senior",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T12:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager - Business Banking",
-"url": "https://www.linkedin.com/jobs/view/4482827845/",
-"visa": ""
-},
 "4482829718": {
 "company": "Mollie",
 "dup": false,
@@ -8038,24 +7731,6 @@
 "tier": 3,
 "title": "Senior Product Manager - Business Banking",
 "url": "https://www.linkedin.com/jobs/view/4482829718/",
-"visa": ""
-},
-"4482841666": {
-"company": "Mollie",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482841666",
-"level": "senior",
-"location": "Bernau, Brandenburg, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T14:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager - Business Banking",
-"url": "https://www.linkedin.com/jobs/view/4482841666/",
 "visa": ""
 },
 "4482841814": {
@@ -8092,24 +7767,6 @@
 "tier": 3,
 "title": "Senior Product Manager - Business Banking",
 "url": "https://www.linkedin.com/jobs/view/4482842433/",
-"visa": ""
-},
-"4482852571": {
-"company": "Sonova Group",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482852571",
-"level": "senior",
-"location": "Berlin, Berlin, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T14:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Technical Product Manager (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4482852571/",
 "visa": ""
 },
 "4482853837": {
@@ -8183,24 +7840,6 @@
 "tier": 3,
 "title": "Product Manager, Digital Assets - CSD & Settlement",
 "url": "https://www.linkedin.com/jobs/view/4482868525/",
-"visa": ""
-},
-"4482871748": {
-"company": "Kanton Luzern",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4482871748",
-"level": "unlevelled",
-"location": "Emmenbrücke, Lucerne, Switzerland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T16:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Microsoft 365 Plattform & Digitale Zusammenarbeit (a)",
-"url": "https://www.linkedin.com/jobs/view/4482871748/",
 "visa": ""
 },
 "4482884081": {
@@ -9253,7 +8892,6 @@
 },
 "4484074130": {
 "company": "Amazon",
-"desc": "Description\n Sr. Product Manager, (Level 6), IN Prime Acquisitions\nHow often have you had an opportunity to build the acquisition growth engine for Prime - one of the largest and loved subscription programs in India? We are looking for someone who is passionate and obsessed about customers, understands their needs and is looking for opportunities to build world class products that will help customers join Prime and get the best of benefits across shopping, shipping, entertainment, music and more. If you are someone who thrives in ambiguity, and balances dive deep with high judgement, looking around the corners to invent around constraints - we have the role for you. The Senior Product Manager for India Prime Acquisitions will manage and define the end to end roadmap of who, how and when we upsell Prime to customers on the Amazon app. Not only will the role play a defining role in devising the growth strategy for Prime in India, the role is expected to influence other worldwide locales with worldwide first innovations.\nIn this context, India Prime is looking for an experienced Product leader for Prime member Acquisitions. You will lead the product vision ,strategy and own the product portfolio for this business in India. You will deliver a multi-year product charter for sampling and trials across different plans and channels. Role offers an exciting intellectual opportunity to solve for multiple whitespaces and steer your career pace as we scale.\n Responsibilities\n Responsible for defining a customer insight , data driven product vision, roadmap , write BRDs, user stories , technical design reviews, prioritizing and executing in a high expectation environment.\n Work with technology (IN and global) to build exceptional products. Anticipating bottlenecks, independently drive tradeoffs decisions balancing business needs versus technical or operational constraints.\n Collaborate/influence various stakeholders at multiple levels , local/global , functions- tech, UX, Marketing , Legal , Finance , Machine Learnings, Data sciences, Amazon wide business teams.\n Own reporting to leadership through launch announcements, monthly updates, status updates.\n Develop the long-term strategy for your portfolio, aligning it to the goals of the organization and translate them into an achievable multi – year roadmap.\n Basic Qualifications\n Bachelor's degree\n Experience owning/driving roadmap strategy and definition\n Experience with feature delivery and tradeoffs of a product\n Experience contributing to engineering discussions around technology decisions and strategy related to a product\n Experience managing technical products or online services\n Experience in representing and advocating for a variety of critical customers and stakeholders during executive-level prioritization and planning\n Preferred Qualifications\n Experience in using analytical tools, such as Tableau, Qlikview, QuickSight\n Experience in building and driving adoption of new tools\n Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\n Company - ADCI - Karnataka\nJob ID: A10589604",
 "dup": true,
 "first_seen_at": "2026-11-17T22:05Z",
 "id": "4484074130",
@@ -9920,24 +9558,6 @@
 "url": "https://www.linkedin.com/jobs/view/4488119454/",
 "visa": ""
 },
-"4488229902": {
-"company": "Robert Walters",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4488229902",
-"level": "unlevelled",
-"location": "Dublin, County Dublin, Ireland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner (Deposits)",
-"url": "https://www.linkedin.com/jobs/view/4488229902/",
-"visa": ""
-},
 "4488391083": {
 "company": "ABB",
 "dup": false,
@@ -10010,42 +9630,6 @@
 "url": "https://www.linkedin.com/jobs/view/4488927564/",
 "visa": ""
 },
-"4488933573": {
-"company": "carbmee",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4488933573",
-"level": "unlevelled",
-"location": "Munich, Bavaria, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T13:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Sustainability | Carbmee",
-"url": "https://www.linkedin.com/jobs/view/4488933573/",
-"visa": ""
-},
-"4488936020": {
-"company": "KATHREIN Solutions GmbH",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4488936020",
-"level": "senior",
-"location": "Stephanskirchen, Bavaria, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T11:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "(Senior) Product Manager (m/w/d)",
-"url": "https://www.linkedin.com/jobs/view/4488936020/",
-"visa": ""
-},
 "4488936638": {
 "company": "Comfi.ai",
 "dup": false,
@@ -10062,24 +9646,6 @@
 "tier": 3,
 "title": "Product Owner – Partnerships & Integrations | FinTech | Dubai, On-site",
 "url": "https://www.linkedin.com/jobs/view/4488936638/",
-"visa": ""
-},
-"4488941734": {
-"company": "INFORM GmbH - Optimization Software",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4488941734",
-"level": "senior",
-"location": "Aachen, North Rhine-Westphalia, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T16:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager (all genders) - Supply & Inventory Planning",
-"url": "https://www.linkedin.com/jobs/view/4488941734/",
 "visa": ""
 },
 "4488942438": {
@@ -10118,24 +9684,6 @@
 "url": "https://www.linkedin.com/jobs/view/4488942454/",
 "visa": ""
 },
-"4488944902": {
-"company": "Opencast | B Corp™",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4488944902",
-"level": "senior",
-"location": "Newcastle Upon Tyne, England, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488944902/",
-"visa": ""
-},
 "4488945403": {
 "company": "Calamatta Cuschieri",
 "dup": false,
@@ -10152,42 +9700,6 @@
 "tier": 3,
 "title": "Product Manager | Payments & Cards",
 "url": "https://www.linkedin.com/jobs/view/4488945403/",
-"visa": ""
-},
-"4488945900": {
-"company": "Opencast | B Corp™",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4488945900",
-"level": "senior",
-"location": "Manchester, England, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"UK"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4488945900/",
-"visa": ""
-},
-"4488946766": {
-"company": "Kolibri Games",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4488946766",
-"level": "senior",
-"location": "Berlin, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, LiveOps – Idle Bank Tycoon (f/m/d)",
-"url": "https://www.linkedin.com/jobs/view/4488946766/",
 "visa": ""
 },
 "4488947238": {
@@ -11219,42 +10731,6 @@
 "url": "https://www.linkedin.com/jobs/view/4489564777/",
 "visa": ""
 },
-"4489567384": {
-"company": "Fruition Group Ireland",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4489567384",
-"level": "unlevelled",
-"location": "Dublin, County Dublin, Ireland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T12:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4489567384/",
-"visa": ""
-},
-"4489567512": {
-"company": "Vaudoise Assurances",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4489567512",
-"level": "unlevelled",
-"location": "Lausanne, Vaud, Switzerland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T12:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager P&C (h/f/x) – 80-100%",
-"url": "https://www.linkedin.com/jobs/view/4489567512/",
-"visa": ""
-},
 "4489577217": {
 "company": "Jobgether",
 "dup": false,
@@ -11271,78 +10747,6 @@
 "tier": 3,
 "title": "Senior Product Manager, AI-Powered Workflows",
 "url": "https://www.linkedin.com/jobs/view/4489577217/",
-"visa": ""
-},
-"4489583586": {
-"company": "GlobalFoundries",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4489583586",
-"level": "unlevelled",
-"location": "Eindhoven, North Brabant, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager, Quantum Technology Solutions",
-"url": "https://www.linkedin.com/jobs/view/4489583586/",
-"visa": ""
-},
-"4489586403": {
-"company": "AllSolutions",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4489586403",
-"level": "unlevelled",
-"location": "Woerden, Utrecht, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T16:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4489586403/",
-"visa": ""
-},
-"4489586409": {
-"company": "Doghouse Recruitment",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4489586409",
-"level": "unlevelled",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T16:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4489586409/",
-"visa": ""
-},
-"4489595503": {
-"company": "IQM Quantum Computers",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4489595503",
-"level": "senior",
-"location": "Munich, Bavaria, Germany",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T16:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, HPC",
-"url": "https://www.linkedin.com/jobs/view/4489595503/",
 "visa": ""
 },
 "4489598664": {
@@ -15959,24 +15363,6 @@
 "url": "https://www.linkedin.com/jobs/view/4490706586/",
 "visa": ""
 },
-"4490707513": {
-"company": "Roche",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4490707513",
-"level": "unlevelled",
-"location": "Rotkreuz, Zug, Switzerland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T12:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Martech & AI",
-"url": "https://www.linkedin.com/jobs/view/4490707513/",
-"visa": ""
-},
 "4490707839": {
 "company": "Dr. Reddy's Laboratories",
 "dup": false,
@@ -16067,24 +15453,6 @@
 "url": "https://www.linkedin.com/jobs/view/4490722057/",
 "visa": ""
 },
-"4490722147": {
-"company": "Amazon",
-"dup": true,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4490722147",
-"level": "senior",
-"location": "London, England, United Kingdom",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T15:18Z",
-"regions": [
-"UK"
-],
-"score": 90,
-"tier": 1,
-"title": "Sr Product Manager, Technical, AWS Forward Deployed Engineering (FDE)",
-"url": "https://www.linkedin.com/jobs/view/4490722147/",
-"visa": ""
-},
 "4490722177": {
 "company": "PERI",
 "dup": false,
@@ -16139,24 +15507,6 @@
 "url": "https://www.linkedin.com/jobs/view/4490740486/",
 "visa": ""
 },
-"4490744182": {
-"company": "Client Server",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4490744182",
-"level": "unlevelled",
-"location": "Alkmaar, North Holland, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T16:18Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Manager - Energy Optimisation",
-"url": "https://www.linkedin.com/jobs/view/4490744182/",
-"visa": ""
-},
 "4490747401": {
 "company": "Soda",
 "dup": false,
@@ -16175,24 +15525,6 @@
 "url": "https://www.linkedin.com/jobs/view/4490747401/",
 "visa": ""
 },
-"4490747434": {
-"company": "Soda",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4490747434",
-"level": "senior",
-"location": "Amsterdam, North Holland, Netherlands",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Growth Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4490747434/",
-"visa": ""
-},
 "4490747741": {
 "company": "Wrike",
 "dup": false,
@@ -16209,42 +15541,6 @@
 "tier": 3,
 "title": "Senior Product Manager, AI Platform & Ecosystem",
 "url": "https://www.linkedin.com/jobs/view/4490747741/",
-"visa": ""
-},
-"4490748237": {
-"company": "Nexthink",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4490748237",
-"level": "senior",
-"location": "Lausanne, Vaud, Switzerland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"Europe"
-],
-"score": 74,
-"tier": 3,
-"title": "Senior Product Manager - AI Agent",
-"url": "https://www.linkedin.com/jobs/view/4490748237/",
-"visa": ""
-},
-"4490748435": {
-"company": "Soda",
-"dup": false,
-"first_seen_at": "2026-11-13T18:18Z",
-"id": "4490748435",
-"level": "senior",
-"location": "Dublin, County Dublin, Ireland",
-"posted": "2026-11-13",
-"posted_ts": "2026-11-13T17:18Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Growth Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4490748435/",
 "visa": ""
 },
 "4490752678": {
@@ -20146,7 +19442,6 @@
 "4491420897": {
 "alerted": true,
 "company": "Revolut",
-"desc": "About Revolut\n People deserve more from their money. More visibility, more control, and more freedom. Since 2015, Revolut has been on a mission to deliver just that. Our powerhouse of products — including spending, saving, investing, exchanging, travelling, and more — help our 80+ million customers get more from their money every day.\nAs we continue our lightning-fast growth,‌ 2 things are essential to our success: our people and our culture. In recognition of our outstanding employee experience, we've been certified as a Great Place to Work™. So far, we have 15,000+ people working around the world, from our offices and remotely, to help us achieve our mission. And we're looking for more brilliant people. People who love building great products, redefining success, and turning the complexity of a chaotic world into the simplicity of a beautiful solution.\n About The Role\n The Credit team at Revolut creates and scales lending features that power global growth. They manage the entire product lifecycle, from backend systems to customer-facing experiences. By combining market insight, risk expertise, and technical precision, they deliver safe, forward-thinking solutions tailored to each region.\nWe’re looking for a Product Owner to lead our unsecured personal loan roadmap, including day-to-day operations, project execution, and risk assessment.\nYou’ll collaborate cross-functionally and communicate with senior management to be the go-to person for these features.\nUp to shape what's next in finance? Let's get in touch.\n What You'll Be Doing\n Setting your team's goals, success metrics, and roadmap to align with company goals\n Driving maximum impact based on data analysis, market research, and company strategy\n Owning your team's products, from ideation through development, to launch, growth, and maintenance\n Working closely with Design and UX teams to define the customer journey and create an outstanding customer experience\n Liaising with Engineering to ensure effective delivery\n Partnering with other stakeholders, such as Marketing, Legal, and Strategy teams\n What You'll Need\n 3+ years of experience at a high-growth tech company or in banking/finance-related business areas (acquiring, payments, investments, cryptocurrency, insurance, etc.)\n 2+ years of proven success leading loan products\n 1+ years of experience managing people\n Outstanding communication skills\n An eye for great UX/UI and an impeccable understanding of design best practices\n High analytical acumen along with solid business sense that guides ROI-based prioritisation\n Experience formulating and driving a focused product vision, and owning the narrative with leadership, customers, and partners\n Experience leading product development and launch from scratch\n A readiness to provide insight and deliver measurable results under ambiguous situations in a fast-paced environment\n An entrepreneurial drive to never settle\n Nice to have\n A STEM degree\n Building a global financial super app isn’t enough. Our Revoluters are a priority, and that’s why in 2021 we launched our inaugural D&I Framework, designed to help us thrive and grow everyday. We're not just doing this because it's the right thing to do. We’re doing it because we know that seeking out diverse talent and creating an inclusive workplace is the way to create exceptional, innovative products and services for our customers. That’s why we encourage applications from people with diverse backgrounds and experiences to join this multi",
 "dup": false,
 "first_seen_at": "2026-11-17T22:05Z",
 "id": "4491420897",
@@ -20238,7 +19533,6 @@
 "4491424639": {
 "alerted": true,
 "company": "Revolut",
-"desc": "About Revolut\n People deserve more from their money. More visibility, more control, and more freedom. Since 2015, Revolut has been on a mission to deliver just that. Our powerhouse of products — including spending, saving, investing, exchanging, travelling, and more — help our 80+ million customers get more from their money every day.\nAs we continue our lightning-fast growth,‌ 2 things are essential to our success: our people and our culture. In recognition of our outstanding employee experience, we've been certified as a Great Place to Work™. So far, we have 15,000+ people working around the world, from our offices and remotely, to help us achieve our mission. And we're looking for more brilliant people. People who love building great products, redefining success, and turning the complexity of a chaotic world into the simplicity of a beautiful solution.\n About The Role\n The Credit team at Revolut creates and scales lending features that power global growth. They manage the entire product lifecycle, from backend systems to customer-facing experiences. By combining market insight, risk expertise, and technical precision, they deliver safe, forward-thinking solutions tailored to each region.\nWe’re looking for a Product Owner to lead our unsecured personal loan roadmap, including day-to-day operations, project execution, and risk assessment.\nYou’ll collaborate cross-functionally and communicate with senior management to be the go-to person for these features.\nUp to shape what's next in finance? Let's get in touch.\n What You'll Be Doing\n Setting your team's goals, success metrics, and roadmap to align with company goals\n Driving maximum impact based on data analysis, market research, and company strategy\n Owning your team's products, from ideation through development, to launch, growth, and maintenance\n Working closely with Design and UX teams to define the customer journey and create an outstanding customer experience\n Liaising with Engineering to ensure effective delivery\n Partnering with other stakeholders, such as Marketing, Legal, and Strategy teams\n What You'll Need\n 3+ years of experience at a high-growth tech company or in banking/finance-related business areas (acquiring, payments, investments, cryptocurrency, insurance, etc.)\n 2+ years of proven success leading loan products\n 1+ years of experience managing people\n Outstanding communication skills\n An eye for great UX/UI and an impeccable understanding of design best practices\n High analytical acumen along with solid business sense that guides ROI-based prioritisation\n Experience formulating and driving a focused product vision, and owning the narrative with leadership, customers, and partners\n Experience leading product development and launch from scratch\n A readiness to provide insight and deliver measurable results under ambiguous situations in a fast-paced environment\n An entrepreneurial drive to never settle\n Nice to have\n A STEM degree\n Building a global financial super app isn’t enough. Our Revoluters are a priority, and that’s why in 2021 we launched our inaugural D&I Framework, designed to help us thrive and grow everyday. We're not just doing this because it's the right thing to do. We’re doing it because we know that seeking out diverse talent and creating an inclusive workplace is the way to create exceptional, innovative products and services for our customers. That’s why we encourage applications from people with diverse backgrounds and experiences to join this multi",
 "dup": false,
 "first_seen_at": "2026-11-17T22:05Z",
 "id": "4491424639",
@@ -20258,7 +19552,6 @@
 "4491429313": {
 "alerted": true,
 "company": "Revolut",
-"desc": "About Revolut\n People deserve more from their money. More visibility, more control, and more freedom. Since 2015, Revolut has been on a mission to deliver just that. Our powerhouse of products — including spending, saving, investing, exchanging, travelling, and more — help our 80+ million customers get more from their money every day.\nAs we continue our lightning-fast growth,‌ 2 things are essential to our success: our people and our culture. In recognition of our outstanding employee experience, we've been certified as a Great Place to Work™. So far, we have 15,000+ people working around the world, from our offices and remotely, to help us achieve our mission. And we're looking for more brilliant people. People who love building great products, redefining success, and turning the complexity of a chaotic world into the simplicity of a beautiful solution.\n About The Role\n The Credit team at Revolut creates and scales lending features that power global growth. They manage the entire product lifecycle, from backend systems to customer-facing experiences. By combining market insight, risk expertise, and technical precision, they deliver safe, forward-thinking solutions tailored to each region.\nWe’re looking for a Product Owner to lead our unsecured personal loan roadmap, including day-to-day operations, project execution, and risk assessment.\nYou’ll collaborate cross-functionally and communicate with senior management to be the go-to person for these features.\nUp to shape what's next in finance? Let's get in touch.\n What You'll Be Doing\n Setting your team's goals, success metrics, and roadmap to align with company goals\n Driving maximum impact based on data analysis, market research, and company strategy\n Owning your team's products, from ideation through development, to launch, growth, and maintenance\n Working closely with Design and UX teams to define the customer journey and create an outstanding customer experience\n Liaising with Engineering to ensure effective delivery\n Partnering with other stakeholders, such as Marketing, Legal, and Strategy teams\n What You'll Need\n 3+ years of experience at a high-growth tech company or in banking/finance-related business areas (acquiring, payments, investments, cryptocurrency, insurance, etc.)\n 2+ years of proven success leading loan products\n 1+ years of experience managing people\n Outstanding communication skills\n An eye for great UX/UI and an impeccable understanding of design best practices\n High analytical acumen along with solid business sense that guides ROI-based prioritisation\n Experience formulating and driving a focused product vision, and owning the narrative with leadership, customers, and partners\n Experience leading product development and launch from scratch\n A readiness to provide insight and deliver measurable results under ambiguous situations in a fast-paced environment\n An entrepreneurial drive to never settle\n Nice to have\n A STEM degree\n Building a global financial super app isn’t enough. Our Revoluters are a priority, and that’s why in 2021 we launched our inaugural D&I Framework, designed to help us thrive and grow everyday. We're not just doing this because it's the right thing to do. We’re doing it because we know that seeking out diverse talent and creating an inclusive workplace is the way to create exceptional, innovative products and services for our customers. That’s why we encourage applications from people with diverse backgrounds and experiences to join this multi",
 "dup": false,
 "first_seen_at": "2026-11-17T22:05Z",
 "id": "4491429313",
@@ -20278,7 +19571,6 @@
 "4491431249": {
 "alerted": true,
 "company": "Revolut",
-"desc": "About Revolut\n People deserve more from their money. More visibility, more control, and more freedom. Since 2015, Revolut has been on a mission to deliver just that. Our powerhouse of products — including spending, saving, investing, exchanging, travelling, and more — help our 80+ million customers get more from their money every day.\nAs we continue our lightning-fast growth,‌ 2 things are essential to our success: our people and our culture. In recognition of our outstanding employee experience, we've been certified as a Great Place to Work™. So far, we have 15,000+ people working around the world, from our offices and remotely, to help us achieve our mission. And we're looking for more brilliant people. People who love building great products, redefining success, and turning the complexity of a chaotic world into the simplicity of a beautiful solution.\n About The Role\n The Credit team at Revolut creates and scales lending features that power global growth. They manage the entire product lifecycle, from backend systems to customer-facing experiences. By combining market insight, risk expertise, and technical precision, they deliver safe, forward-thinking solutions tailored to each region.\nWe’re looking for a Product Owner to lead our unsecured personal loan roadmap, including day-to-day operations, project execution, and risk assessment.\nYou’ll collaborate cross-functionally and communicate with senior management to be the go-to person for these features.\nUp to shape what's next in finance? Let's get in touch.\n What You'll Be Doing\n Setting your team's goals, success metrics, and roadmap to align with company goals\n Driving maximum impact based on data analysis, market research, and company strategy\n Owning your team's products, from ideation through development, to launch, growth, and maintenance\n Working closely with Design and UX teams to define the customer journey and create an outstanding customer experience\n Liaising with Engineering to ensure effective delivery\n Partnering with other stakeholders, such as Marketing, Legal, and Strategy teams\n What You'll Need\n 3+ years of experience at a high-growth tech company or in banking/finance-related business areas (acquiring, payments, investments, cryptocurrency, insurance, etc.)\n 2+ years of proven success leading loan products\n 1+ years of experience managing people\n Outstanding communication skills\n An eye for great UX/UI and an impeccable understanding of design best practices\n High analytical acumen along with solid business sense that guides ROI-based prioritisation\n Experience formulating and driving a focused product vision, and owning the narrative with leadership, customers, and partners\n Experience leading product development and launch from scratch\n A readiness to provide insight and deliver measurable results under ambiguous situations in a fast-paced environment\n An entrepreneurial drive to never settle\n Nice to have\n A STEM degree\n Building a global financial super app isn’t enough. Our Revoluters are a priority, and that’s why in 2021 we launched our inaugural D&I Framework, designed to help us thrive and grow everyday. We're not just doing this because it's the right thing to do. We’re doing it because we know that seeking out diverse talent and creating an inclusive workplace is the way to create exceptional, innovative products and services for our customers. That’s why we encourage applications from people with diverse backgrounds and experiences to join this multi",
 "dup": false,
 "first_seen_at": "2026-11-17T22:05Z",
 "id": "4491431249",
@@ -21541,7 +20833,6 @@
 },
 "4491723365": {
 "company": "Amazon",
-"desc": "Description\n At Amazon Private Brands (PB), we work backwards from customers to develop innovative, high-quality products that deliver exceptional value. Our mission is to build trusted brands that customers love and keep coming back to. We combine deep customer insights, advanced analytics, and Amazon's operational excellence to create products that delight customers and drive business growth.\nThe PB organization operates through multiple business models including Amazon brands, third-party partnerships through our Accelerator program, and licensing arrangements. We leverage a data-driven approach to identify customer needs and whitespaces, while maintaining high standards for quality, sustainability and social responsibility across our portfolio.\nAs we continue to scale and innovate, we're looking for passionate product leaders who can help shape the future of Private Brands at Amazon. The ideal candidate will have a strong track record of delivering results in a fast-paced, complex and ambiguous environment and possess excellent strategic thinking, analytical, and leadership skills.\nKey job responsibilities\n Drive end-to-end product strategy and development, while ensuring alignment with business objectives and marketplace compliance\n Own technical solutions across a wide spectrum - inventory management, selection, speed, quality, pricing to drive improvements in key operational metrics\n Partner with business, tech and IN & WW teams to drive alignment, build parity and maximise outcomes for INPB\n Experience in building AI/ML based core capabilities, identify opportunities & deliver on automation and process improvements using ML/AI solutions\n Ensure adoption and impact of launched capabilities & seek opportunities for ongoing improvements\n Basic Qualifications\n 5+ years of product or program management, product marketing, business development or technology experience\n Experience with feature delivery and tradeoffs of a product\n Experience owning/driving roadmap strategy and definition\n Experience with end to end product delivery\n Experience as a product manager or owner\n Experience owning technology products\n Preferred Qualifications\n Experience in influencing senior leadership through data driven insights\n Experience working across functional teams and senior stakeholders\n Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\nnull\n Company - ASSPL - Karnataka\nJob ID: A10606887",
 "dup": true,
 "first_seen_at": "2026-11-17T22:05Z",
 "id": "4491723365",
@@ -22477,6 +21768,78 @@
 "url": "https://www.linkedin.com/jobs/view/4491893038/",
 "visa": ""
 },
+"4491930347": {
+"company": "Avy",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4491930347",
+"level": "senior",
+"location": "Stockholm, Stockholm County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T15:13Z",
+"regions": [
+"Europe"
+],
+"score": 74,
+"tier": 3,
+"title": "Senior Product Manager (AI Platform - Agent OS)",
+"url": "https://www.linkedin.com/jobs/view/4491930347/",
+"visa": ""
+},
+"4491937967": {
+"company": "Sandvik",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4491937967",
+"level": "unlevelled",
+"location": "Sandviken, Gävleborg County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T18:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner, Finance",
+"url": "https://www.linkedin.com/jobs/view/4491937967/",
+"visa": ""
+},
+"4491950422": {
+"company": "Sandvik",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4491950422",
+"level": "unlevelled",
+"location": "Stockholm, Stockholm County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T18:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner, Finance",
+"url": "https://www.linkedin.com/jobs/view/4491950422/",
+"visa": ""
+},
+"4491953293": {
+"company": "Sandvik Coromant",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4491953293",
+"level": "unlevelled",
+"location": "Stockholm, Stockholm County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T18:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner, Finance",
+"url": "https://www.linkedin.com/jobs/view/4491953293/",
+"visa": ""
+},
 "4492001315": {
 "company": "Recruited",
 "dup": false,
@@ -23380,6 +22743,24 @@
 "url": "https://www.linkedin.com/jobs/view/4492426328/",
 "visa": ""
 },
+"4492435865": {
+"company": "Tamedia",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492435865",
+"level": "unlevelled",
+"location": "Zurich, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T11:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager 80–100%",
+"url": "https://www.linkedin.com/jobs/view/4492435865/",
+"visa": ""
+},
 "4492438618": {
 "alerted": true,
 "company": "Doctolib",
@@ -23397,6 +22778,24 @@
 "tier": 2,
 "title": "Senior Product Manager - Connect (x/f/m)",
 "url": "https://www.linkedin.com/jobs/view/4492438618/",
+"visa": ""
+},
+"4492455283": {
+"company": "Tamedia",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492455283",
+"level": "unlevelled",
+"location": "Zurich, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T11:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager Finanz und Wirtschaft 80–100%",
+"url": "https://www.linkedin.com/jobs/view/4492455283/",
 "visa": ""
 },
 "4492460268": {
@@ -23453,6 +22852,132 @@
 "url": "https://www.linkedin.com/jobs/view/4492539250/",
 "visa": ""
 },
+"4492594635": {
+"company": "Vernetzt",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492594635",
+"level": "unlevelled",
+"location": "Aargau, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T16:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Technical Product Manager 100% (m/w)",
+"url": "https://www.linkedin.com/jobs/view/4492594635/",
+"visa": ""
+},
+"4492812652": {
+"company": "Ericsson",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492812652",
+"level": "unlevelled",
+"location": "Stockholm, Stockholm County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T18:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager, People Digital Solutions, AI and Analytics",
+"url": "https://www.linkedin.com/jobs/view/4492812652/",
+"visa": ""
+},
+"4492813228": {
+"company": "Digital Asset",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492813228",
+"level": "reach",
+"location": "Zurich, Zurich, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T17:13Z",
+"regions": [
+"Europe"
+],
+"score": 58,
+"tier": 3,
+"title": "Principal Product Manager - Stablecoins & Payments",
+"url": "https://www.linkedin.com/jobs/view/4492813228/",
+"visa": ""
+},
+"4492841580": {
+"company": "Otherwise Enterprises Pty Ltd",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492841580",
+"level": "unlevelled",
+"location": "Zurich, Zurich, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T22:15Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager 80–100%",
+"url": "https://www.linkedin.com/jobs/view/4492841580/",
+"visa": ""
+},
+"4492846341": {
+"company": "Otherwise Enterprises Pty Ltd",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492846341",
+"level": "unlevelled",
+"location": "Zurich, Zurich, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T22:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager Finanz und Wirtschaft 80–100%",
+"url": "https://www.linkedin.com/jobs/view/4492846341/",
+"visa": ""
+},
+"4492908201": {
+"company": "Nexthink",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492908201",
+"level": "senior",
+"location": "Lausanne, Vaud, Switzerland",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T10:13Z",
+"regions": [
+"Europe"
+],
+"score": 74,
+"tier": 3,
+"title": "Senior Product Manager - AI Agent",
+"url": "https://www.linkedin.com/jobs/view/4492908201/",
+"visa": ""
+},
+"4492921801": {
+"company": "Xylem",
+"dup": false,
+"first_seen_at": "2026-11-20T23:13Z",
+"id": "4492921801",
+"level": "unlevelled",
+"location": "Sundbyberg, Stockholm County, Sweden",
+"posted": "2026-11-20",
+"posted_ts": "2026-11-20T13:13Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner, Drive Control Systems",
+"url": "https://www.linkedin.com/jobs/view/4492921801/",
+"visa": ""
+},
 "4492939922": {
 "company": "IAG",
 "dup": false,
@@ -23475,5 +23000,5 @@
 "last_block_ping": "2026-11-20T17:15Z",
 "last_rollup": "2026-11-20T17:15Z",
 "last_scan": "2026-11-17T22:05Z",
-"updated": "2026-11-20T17:15Z"
+"updated": "2026-11-20T23:13Z"
 }
