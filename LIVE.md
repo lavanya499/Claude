@@ -1,8 +1,8 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 20 Nov 14:04 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 20 Nov 22:45 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
-## Target companies (6)
+## Target companies (5)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
@@ -10,13 +10,17 @@ Updated 20 Nov 14:04 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 19 Nov 05:38 | ⭐ Spotify | [Senior Product Manager - Free](https://www.linkedin.com/jobs/view/4492216978/) | Stockholm, Stockholm County, Sweden | senior | 90 |
 | 18 Nov 21:39 | LINE MAN Wongnai | [Product Manager (Senior to Lead Level) - Food User](https://www.linkedin.com/jobs/view/4461622207/) | Bangkok, Bangkok City, Thailand | senior | 83 |
 | 18 Nov 19:38 | Revolut | [Product Owner (Technical)](https://www.linkedin.com/jobs/view/4370657656/) | Porto, Porto, Portugal | unlevelled | 67 |
-| 18 Nov 10:46 | Shopee | [Product Manager - Promotion, Buyer & Marketing](https://www.linkedin.com/jobs/view/4490853012/) | Singapore, Singapore | unlevelled | 64 |
 | 18 Nov 10:40 | ⭐ Stripe | [Staff Product Manager, Connect](https://www.linkedin.com/jobs/view/4454533463/) | Toronto, Ontario, Canada | reach | 71 |
 
-## Everyone else, every level except junior (212)
+## Everyone else, every level except junior (185)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 20 Nov 21:51 | IAG | [Product Owner, Technology](https://www.linkedin.com/jobs/view/4492939922/) | Auckland, Auckland, New Zealand | unlevelled | 54 |
+| 20 Nov 21:45 | Randstad New Zealand | [Product Manager - Cards and Payments](https://www.linkedin.com/jobs/view/4484821130/) | Auckland, Auckland, New Zealand | unlevelled | 58 |
+| 20 Nov 09:45 | ASB Bank | [Product Owner](https://www.linkedin.com/jobs/view/4491690309/) | Auckland, New Zealand | unlevelled | 54 |
+| 20 Nov 09:45 | Kiwibank | [Product Lead - 2x Roles](https://www.linkedin.com/jobs/view/4489075319/) | Wellington, Wellington, New Zealand | senior | 70 |
+| 20 Nov 07:45 | Bunzl Australasia | [Clinical Product Lead - Obex NZ Auckland](https://www.linkedin.com/jobs/view/4492539250/) | Auckland, Auckland, New Zealand | senior | 70 |
 | 20 Nov 05:44 | Abbott | [Oncology Sr Product Manager](https://www.linkedin.com/jobs/view/4489103560/) | Dubai, Dubai, United Arab Emirates | senior | 70 |
 | 19 Nov 22:34 | Workwize | [Product Manager / internal tooling and automation](https://www.linkedin.com/jobs/view/4492460268/) | Amsterdam, North Holland, Netherlands | unlevelled | 58 |
 | 19 Nov 22:34 | Workwize | [Product Manager (SaaS - Onboarding & Integrations team)](https://www.linkedin.com/jobs/view/4492466168/) | Amsterdam, North Holland, Netherlands | unlevelled | 54 |
@@ -134,8 +138,3 @@ Updated 20 Nov 14:04 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 18 Nov 19:38 | Jobgether | [Senior Product Manager, Self-Serve](https://www.linkedin.com/jobs/view/4491829957/) | Sweden | senior | 70 |
 | 18 Nov 19:38 | Jobgether | [Senior Product Manager, Self-Serve](https://www.linkedin.com/jobs/view/4491831876/) | Switzerland | senior | 70 |
 | 18 Nov 19:38 | Jobgether | [Senior Product Manager, Self-Serve](https://www.linkedin.com/jobs/view/4491848322/) | Portugal | senior | 70 |
-| 18 Nov 19:38 | PanzerGlass® | [Senior Product Manager, Screen Protection](https://www.linkedin.com/jobs/view/4491851219/) | Aarhus, Central Denmark Region, Denmark | senior | 70 |
-| 18 Nov 19:38 | REVEL / Renting de Coches | [Product Manager](https://www.linkedin.com/jobs/view/4492024826/) | Madrid, Community of Madrid, Spain | unlevelled | 54 |
-| 18 Nov 19:16 | Voodoo | [Product Lead - Portfolio Midcore Games](https://www.linkedin.com/jobs/view/4430921331/) | Warsaw, Mazowieckie, Poland | senior | 70 |
-| 18 Nov 19:16 | Jobgether | [Senior Product Manager, Self-Serve](https://www.linkedin.com/jobs/view/4491837785/) | Poland | senior | 70 |
-| 18 Nov 18:46 | Distribusion Technologies | [Senior Technical Product Manager, Rail Integrations (all genders)](https://www.linkedin.com/jobs/view/4449047343/) | Berlin, Germany | senior | 70 |
