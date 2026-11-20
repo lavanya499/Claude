@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 20 Nov 06:44 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 20 Nov 14:04 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (6)
 
@@ -13,7 +13,7 @@ Updated 20 Nov 06:44 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 18 Nov 10:46 | Shopee | [Product Manager - Promotion, Buyer & Marketing](https://www.linkedin.com/jobs/view/4490853012/) | Singapore, Singapore | unlevelled | 64 |
 | 18 Nov 10:40 | ⭐ Stripe | [Staff Product Manager, Connect](https://www.linkedin.com/jobs/view/4454533463/) | Toronto, Ontario, Canada | reach | 71 |
 
-## Everyone else, every level except junior (231)
+## Everyone else, every level except junior (212)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
@@ -27,13 +27,13 @@ Updated 20 Nov 06:44 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 19 Nov 19:44 | Qiddiya / القدية | [Senior Manager - Product Owner](https://www.linkedin.com/jobs/view/4447901672/) | Riyadh, Riyadh, Saudi Arabia | senior | 70 |
 | 19 Nov 18:44 | Hays | [Senior Product Manager (Mortgage)](https://www.linkedin.com/jobs/view/4491619210/) | Abu Dhabi Emirate, United Arab Emirates | senior | 70 |
 | 19 Nov 18:34 | Redcare Pharmacy | [Senior Product Manager – Retail Media Data, Measurement & Auction Strategy (m/f/d)](https://www.linkedin.com/jobs/view/4483014944/) | Sevenum, Limburg, Netherlands | senior | 70 |
-| 19 Nov 17:44 | CNTXT AI | [Senior Technical Product Manager - Physical AI Deployment](https://www.linkedin.com/jobs/view/4492426328/) | Abu Dhabi Emirate, United Arab Emirates | senior | 70 |
-| 19 Nov 17:44 | Standard Chartered | [Product Manager - Structured Products](https://www.linkedin.com/jobs/view/4492159137/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
 | 19 Nov 17:44 | NeoStats | [Senior Product Manager](https://www.linkedin.com/jobs/view/4492144601/) | Riyadh, Saudi Arabia | senior | 70 |
+| 19 Nov 17:44 | Standard Chartered | [Product Manager - Structured Products](https://www.linkedin.com/jobs/view/4492159137/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
+| 19 Nov 17:44 | CNTXT AI | [Senior Technical Product Manager - Physical AI Deployment](https://www.linkedin.com/jobs/view/4492426328/) | Abu Dhabi Emirate, United Arab Emirates | senior | 70 |
 | 19 Nov 17:34 | Philips | [Sr. Clinical Product Manager – Neurology](https://www.linkedin.com/jobs/view/4484117230/) | Best, North Brabant, Netherlands | senior | 70 |
 | 19 Nov 16:44 | MI Technologies | [Product Manager](https://www.linkedin.com/jobs/view/4492407967/) | Dhahran, Eastern, Saudi Arabia | unlevelled | 54 |
-| 19 Nov 15:44 | QAD | [Sr. Product Manager](https://www.linkedin.com/jobs/view/4492417123/) | Pimpri Chinchwad, Maharashtra, India | senior | 63 |
 | 19 Nov 15:44 | Abu Dhabi Commercial Bank | [Digital Product Owner - SME Onboarding](https://www.linkedin.com/jobs/view/4491389720/) | Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates | unlevelled | 54 |
+| 19 Nov 15:44 | QAD | [Sr. Product Manager](https://www.linkedin.com/jobs/view/4492417123/) | Pimpri Chinchwad, Maharashtra, India | senior | 63 |
 | 19 Nov 15:30 | Bentley Systems | [Senior Product Manager](https://www.linkedin.com/jobs/view/4483888822/) | Dublin, County Dublin, Ireland | senior | 70 |
 | 19 Nov 15:30 | enmacc | [Senior Product Manager- Fidectus (m/f/d)](https://www.linkedin.com/jobs/view/4489926842/) | Munich, Bavaria, Germany | senior | 70 |
 | 19 Nov 15:26 | NBCUniversal | [Product Manager, Experience Tooling (Global Streaming)](https://www.linkedin.com/jobs/view/4484731281/) | Brentford, England, United Kingdom | unlevelled | 54 |
