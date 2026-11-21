@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-21 02:24 UTC · 446 open matches · 14 new in the last 24h · 96/98 sources healthy_
+_Updated 2026-11-21 11:16 UTC · 447 open matches · 14 new in the last 24h · 96/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -214,7 +214,7 @@ _…and 69 more in data/jobs.json_
 | 48 | Airwallex | [Staff/Senior Product Manager (0-1 Billing)](https://jobs.ashbyhq.com/airwallex/2a471f31-9cc8-4ab5-9f6c-921fc1f137d6) | SG - Singapore; Singapore |  | 2026-01-28 |
 | 48 | Wise | [Director, Product Analytics (APAC)](https://jobs.smartrecruiters.com/Wise/744000154396550) | Singapore, , Singapore |  | 2026-10-08 |
 
-## India — 115 open
+## India — 116 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -279,7 +279,7 @@ _…and 69 more in data/jobs.json_
 | 77 | Expedia Group | [Senior Product Manager](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Senior-Product-Manager_R-109912) | India - Gurgaon |  | 2026-11-18 |
 | 77 | Mastercard | [Senior Specialist Product Manager](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Specialist-Product-Manager_R-290092) | Pune, India |  | 2026-10-08 |
 
-_…and 55 more in data/jobs.json_
+_…and 56 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
@@ -289,14 +289,14 @@ _…and 55 more in data/jobs.json_
 | Adobe | ok | 253 | 3 |
 | Adyen | ok | 241 | 9 |
 | Affirm | ok | 222 | 9 |
-| Agoda | ok | 345 | 8 |
-| Airbnb | ok | 203 | 0 |
+| Agoda | ok | 344 | 7 |
+| Airbnb | ok | 202 | 0 |
 | Airwallex | ok | 495 | 9 |
 | Amazon | ok | 172 | 92 |
-| Anthropic | ok | 634 | 0 |
+| Anthropic | ok | 633 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 111 | 9 |
-| Atlassian | ok | 234 | 4 |
+| Atlassian | ok | 233 | 4 |
 | Bitpanda | ok | 42 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 249 | 2 |
@@ -314,9 +314,9 @@ _…and 55 more in data/jobs.json_
 | Ebury | ok | 162 | 4 |
 | Elastic | ok | 382 | 21 |
 | ElevenLabs | ok | 122 | 0 |
-| Expedia Group | ok | 62 | 9 |
+| Expedia Group | ok | 63 | 10 |
 | Fivetran | ok | 196 | 2 |
-| Genesys | ok | 202 | 2 |
+| Genesys | ok | 199 | 2 |
 | Geotab | ok | 60 | 5 |
 | GetYourGuide | ok | 0 | 0 |
 | GitLab | ok | 246 | 2 |
@@ -339,11 +339,11 @@ _…and 55 more in data/jobs.json_
 | Moneybox | ok | 18 | 1 |
 | MongoDB | ok | 417 | 8 |
 | Monzo | ok | 59 | 1 |
-| N26 | ok | 24 | 2 |
-| Netflix | ok | 180 | 1 |
+| N26 | ok | 23 | 2 |
+| Netflix | ok | 179 | 1 |
 | New Relic | ok | 42 | 0 |
 | Nium | ok | 31 | 3 |
-| Okta | ok | 374 | 8 |
+| Okta | ok | 372 | 8 |
 | OpenAI | ok | 852 | 0 |
 | Oyster | ok | 20 | 2 |
 | Paddle | ok | 16 | 0 |
@@ -354,7 +354,7 @@ _…and 55 more in data/jobs.json_
 | Qonto | ok | 56 | 2 |
 | Razorpay | ok | 29 | 7 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 207 | 1 |
+| Rubrik | ok | 208 | 1 |
 | Salesforce | ok | 400 | 3 |
 | Scale AI | ok | 169 | 3 |
 | ServiceNow | ok | 600 | 1 |
@@ -366,7 +366,7 @@ _…and 55 more in data/jobs.json_
 | SumUp | ok | 318 | 3 |
 | Synthesia | ok | 27 | 3 |
 | Tide | ok | 84 | 3 |
-| Toast | ok | 327 | 1 |
+| Toast | ok | 326 | 1 |
 | Trustpilot | ok | 35 | 0 |
 | Twilio | ok | 109 | 0 |
 | Uber | ok |  |  |
