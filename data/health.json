@@ -8,13 +8,13 @@
  "Adobe": {
   "matched": 3,
   "ok": true,
-  "total": 253,
+  "total": 252,
   "via": "workday"
  },
  "Adyen": {
   "matched": 9,
   "ok": true,
-  "total": 241,
+  "total": 243,
   "via": "greenhouse"
  },
  "Affirm": {
@@ -38,7 +38,7 @@
  "Airwallex": {
   "matched": 9,
   "ok": true,
-  "total": 495,
+  "total": 497,
   "via": "ashby"
  },
  "Amazon": {
@@ -50,7 +50,7 @@
  "Anthropic": {
   "matched": 0,
   "ok": true,
-  "total": 633,
+  "total": 635,
   "via": "greenhouse"
  },
  "Apple": {
@@ -67,7 +67,7 @@
  "Atlassian": {
   "matched": 4,
   "ok": true,
-  "total": 233,
+  "total": 234,
   "via": "atlassian"
  },
  "Bitpanda": {
@@ -103,7 +103,7 @@
  "Cloudflare": {
   "matched": 4,
   "ok": true,
-  "total": 503,
+  "total": 504,
   "via": "greenhouse"
  },
  "Cohere": {
@@ -133,7 +133,7 @@
  "Deliveroo": {
   "matched": 7,
   "ok": true,
-  "total": 189,
+  "total": 190,
   "via": "greenhouse"
  },
  "Delivery Hero": {
@@ -168,13 +168,13 @@
  "ElevenLabs": {
   "matched": 0,
   "ok": true,
-  "total": 122,
+  "total": 121,
   "via": "ashby"
  },
  "Expedia Group": {
-  "matched": 10,
+  "matched": 9,
   "ok": true,
-  "total": 63,
+  "total": 62,
   "via": "workday"
  },
  "Fivetran": {
@@ -295,7 +295,7 @@
   "via": "linkedin_company"
  },
  "Microsoft": {
-  "matched": 6,
+  "matched": 7,
   "ok": true,
   "total": 93,
   "via": "microsoft"
@@ -325,9 +325,8 @@
   "via": "greenhouse"
  },
  "Netflix": {
-  "matched": 1,
-  "ok": true,
-  "total": 179,
+  "error": "HTTPError: HTTP Error 429: TOO MANY REQUESTS",
+  "ok": false,
   "via": "eightfold"
  },
  "New Relic": {
@@ -422,7 +421,7 @@
  "Scale AI": {
   "matched": 3,
   "ok": true,
-  "total": 169,
+  "total": 166,
   "via": "greenhouse"
  },
  "ServiceNow": {
@@ -516,13 +515,13 @@
  "Wise": {
   "matched": 17,
   "ok": true,
-  "total": 414,
+  "total": 415,
   "via": "smartrecruiters"
  },
  "Wolt": {
   "matched": 1,
   "ok": true,
-  "total": 186,
+  "total": 181,
   "via": "greenhouse"
  },
  "Xendit": {
@@ -557,7 +556,7 @@
  "Zscaler": {
   "matched": 0,
   "ok": true,
-  "total": 386,
+  "total": 387,
   "via": "greenhouse"
  },
  "eBay": {

@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-21 11:16 UTC · 447 open matches · 14 new in the last 24h · 96/98 sources healthy_
+_Updated 2026-11-21 23:25 UTC · 448 open matches · 14 new in the last 24h · 95/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -214,7 +214,7 @@ _…and 69 more in data/jobs.json_
 | 48 | Airwallex | [Staff/Senior Product Manager (0-1 Billing)](https://jobs.ashbyhq.com/airwallex/2a471f31-9cc8-4ab5-9f6c-921fc1f137d6) | SG - Singapore; Singapore |  | 2026-01-28 |
 | 48 | Wise | [Director, Product Analytics (APAC)](https://jobs.smartrecruiters.com/Wise/744000154396550) | Singapore, , Singapore |  | 2026-10-08 |
 
-## India — 116 open
+## India — 117 open
 
 | Score | Company | Role | Location | Visa | Posted |
 |---:|---|---|---|---|---|
@@ -279,42 +279,42 @@ _…and 69 more in data/jobs.json_
 | 77 | Expedia Group | [Senior Product Manager](https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Senior-Product-Manager_R-109912) | India - Gurgaon |  | 2026-11-18 |
 | 77 | Mastercard | [Senior Specialist Product Manager](https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Specialist-Product-Manager_R-290092) | Pune, India |  | 2026-10-08 |
 
-_…and 56 more in data/jobs.json_
+_…and 57 more in data/jobs.json_
 
 <details><summary>Source health</summary>
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
 | 1Password | ok | 81 | 4 |
-| Adobe | ok | 253 | 3 |
-| Adyen | ok | 241 | 9 |
+| Adobe | ok | 252 | 3 |
+| Adyen | ok | 243 | 9 |
 | Affirm | ok | 222 | 9 |
 | Agoda | ok | 344 | 7 |
 | Airbnb | ok | 202 | 0 |
-| Airwallex | ok | 495 | 9 |
+| Airwallex | ok | 497 | 9 |
 | Amazon | ok | 172 | 92 |
-| Anthropic | ok | 633 | 0 |
+| Anthropic | ok | 635 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 111 | 9 |
-| Atlassian | ok | 233 | 4 |
+| Atlassian | ok | 234 | 4 |
 | Bitpanda | ok | 42 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
 | Brex | ok | 249 | 2 |
 | Canva | ok | 31 | 0 |
 | Celonis | ok | 262 | 3 |
-| Cloudflare | ok | 503 | 4 |
+| Cloudflare | ok | 504 | 4 |
 | Cohere | ok | 124 | 2 |
 | Cresta | ok | 84 | 1 |
 | Datadog | ok | 382 | 1 |
 | Decagon | ok | 109 | 2 |
-| Deliveroo | ok | 189 | 7 |
+| Deliveroo | ok | 190 | 7 |
 | Delivery Hero | ok | 600 | 6 |
 | Deputy | ok | 3 | 0 |
 | Doctolib | ⚠️ HTTPError: HTTP Error 404: Not Found |  |  |
 | Ebury | ok | 162 | 4 |
 | Elastic | ok | 382 | 21 |
-| ElevenLabs | ok | 122 | 0 |
-| Expedia Group | ok | 63 | 10 |
+| ElevenLabs | ok | 121 | 0 |
+| Expedia Group | ok | 62 | 9 |
 | Fivetran | ok | 196 | 2 |
 | Genesys | ok | 199 | 2 |
 | Geotab | ok | 60 | 5 |
@@ -335,12 +335,12 @@ _…and 56 more in data/jobs.json_
 | Meesho | ok | 48 | 5 |
 | Mentimeter | ok | 14 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 93 | 6 |
+| Microsoft | ok | 93 | 7 |
 | Moneybox | ok | 18 | 1 |
 | MongoDB | ok | 417 | 8 |
 | Monzo | ok | 59 | 1 |
 | N26 | ok | 23 | 2 |
-| Netflix | ok | 179 | 1 |
+| Netflix | ⚠️ HTTPError: HTTP Error 429: TOO MANY REQUESTS |  |  |
 | New Relic | ok | 42 | 0 |
 | Nium | ok | 31 | 3 |
 | Okta | ok | 372 | 8 |
@@ -356,7 +356,7 @@ _…and 56 more in data/jobs.json_
 | Revolut | ok |  |  |
 | Rubrik | ok | 208 | 1 |
 | Salesforce | ok | 400 | 3 |
-| Scale AI | ok | 169 | 3 |
+| Scale AI | ok | 166 | 3 |
 | ServiceNow | ok | 600 | 1 |
 | Shopee | ok |  |  |
 | Sierra | ok | 194 | 6 |
@@ -372,14 +372,14 @@ _…and 56 more in data/jobs.json_
 | Uber | ok |  |  |
 | Visa | ok | 400 | 6 |
 | Wealthsimple | ok | 38 | 1 |
-| Wise | ok | 414 | 17 |
-| Wolt | ok | 186 | 1 |
+| Wise | ok | 415 | 17 |
+| Wolt | ok | 181 | 1 |
 | Xendit | ok | 19 | 4 |
 | Zalando | ok |  |  |
 | Zego | ok | 29 | 10 |
 | Zendesk | ok | 122 | 2 |
 | Zip | ok | 111 | 3 |
-| Zscaler | ok | 386 | 0 |
+| Zscaler | ok | 387 | 0 |
 | eBay | ok | 200 | 16 |
 | loveholidays | ok | 17 | 3 |
 | n8n | ok | 68 | 5 |
