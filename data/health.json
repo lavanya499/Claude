@@ -174,7 +174,7 @@
  "Expedia Group": {
   "matched": 9,
   "ok": true,
-  "total": 62,
+  "total": 61,
   "via": "workday"
  },
  "Fivetran": {
@@ -222,7 +222,7 @@
  "Grab": {
   "matched": 8,
   "ok": true,
-  "total": 420,
+  "total": 422,
   "via": "smartrecruiters"
  },
  "Grafana Labs": {
@@ -274,7 +274,7 @@
  "Mastercard": {
   "matched": 8,
   "ok": true,
-  "total": 377,
+  "total": 375,
   "via": "workday"
  },
  "Meesho": {
@@ -297,7 +297,7 @@
  "Microsoft": {
   "matched": 7,
   "ok": true,
-  "total": 93,
+  "total": 92,
   "via": "microsoft"
  },
  "Moneybox": {
@@ -325,8 +325,9 @@
   "via": "greenhouse"
  },
  "Netflix": {
-  "error": "HTTPError: HTTP Error 429: TOO MANY REQUESTS",
-  "ok": false,
+  "matched": 1,
+  "ok": true,
+  "total": 179,
   "via": "eightfold"
  },
  "New Relic": {
@@ -456,7 +457,7 @@
  "Stripe": {
   "matched": 17,
   "ok": true,
-  "total": 778,
+  "total": 777,
   "via": "greenhouse"
  },
  "SumUp": {
@@ -480,7 +481,7 @@
  "Toast": {
   "matched": 1,
   "ok": true,
-  "total": 326,
+  "total": 325,
   "via": "greenhouse"
  },
  "Trustpilot": {
