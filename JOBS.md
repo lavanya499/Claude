@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-22 06:59 UTC · 446 open matches · 0 new in the last 24h · 96/98 sources healthy_
+_Updated 2026-11-22 15:25 UTC · 446 open matches · 0 new in the last 24h · 96/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -271,15 +271,15 @@ _…and 56 more in data/jobs.json_
 
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
-| 1Password | ok | 81 | 4 |
-| Adobe | ok | 252 | 3 |
+| 1Password | ok | 80 | 4 |
+| Adobe | ok | 251 | 3 |
 | Adyen | ok | 243 | 9 |
 | Affirm | ok | 222 | 9 |
 | Agoda | ok | 344 | 7 |
 | Airbnb | ok | 202 | 0 |
 | Airwallex | ok | 497 | 9 |
 | Amazon | ok | 172 | 92 |
-| Anthropic | ok | 635 | 0 |
+| Anthropic | ok | 633 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 111 | 9 |
 | Atlassian | ok | 234 | 4 |
@@ -299,16 +299,16 @@ _…and 56 more in data/jobs.json_
 | Doctolib | ⚠️ HTTPError: HTTP Error 404: Not Found |  |  |
 | Ebury | ok | 162 | 4 |
 | Elastic | ok | 382 | 21 |
-| ElevenLabs | ok | 121 | 0 |
+| ElevenLabs | ok | 122 | 0 |
 | Expedia Group | ok | 61 | 9 |
 | Fivetran | ok | 196 | 2 |
-| Genesys | ok | 199 | 2 |
+| Genesys | ok | 200 | 2 |
 | Geotab | ok | 60 | 5 |
 | GetYourGuide | ok | 0 | 0 |
 | GitLab | ok | 246 | 2 |
 | GoCardless | ok | 29 | 0 |
 | Google | ok | 65 | 15 |
-| Grab | ok | 422 | 8 |
+| Grab | ok | 424 | 8 |
 | Grafana Labs | ok | 140 | 6 |
 | Intercom | ok | 120 | 6 |
 | JetBrains | ok | 4 | 1 |
@@ -318,24 +318,24 @@ _…and 56 more in data/jobs.json_
 | LinkedIn (all companies) | ok | 0 |  |
 | Lovable | ok | 78 | 4 |
 | Mastercard | ok | 375 | 8 |
-| Meesho | ok | 48 | 5 |
+| Meesho | ok | 47 | 5 |
 | Mentimeter | ok | 14 | 1 |
 | Meta | ok |  |  |
 | Microsoft | ok | 92 | 7 |
 | Moneybox | ok | 18 | 1 |
 | MongoDB | ok | 417 | 8 |
-| Monzo | ok | 59 | 1 |
+| Monzo | ok | 58 | 1 |
 | N26 | ok | 23 | 2 |
 | Netflix | ok | 179 | 1 |
 | New Relic | ok | 42 | 0 |
 | Nium | ok | 31 | 3 |
-| Okta | ok | 372 | 8 |
+| Okta | ok | 373 | 8 |
 | OpenAI | ok | 852 | 0 |
 | Oyster | ok | 20 | 2 |
 | Paddle | ok | 16 | 0 |
 | Parloa | ok | 46 | 1 |
 | PayPal | ok | 369 | 0 |
-| Payoneer | ok | 100 | 1 |
+| Payoneer | ok | 101 | 1 |
 | Pennylane | ok | 203 | 2 |
 | Qonto | ok | 56 | 2 |
 | Razorpay | ok | 29 | 7 |
@@ -352,14 +352,14 @@ _…and 56 more in data/jobs.json_
 | SumUp | ok | 318 | 3 |
 | Synthesia | ok | 27 | 3 |
 | Tide | ok | 84 | 3 |
-| Toast | ok | 325 | 1 |
+| Toast | ok | 324 | 1 |
 | Trustpilot | ok | 35 | 0 |
 | Twilio | ok | 109 | 0 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 6 |
 | Wealthsimple | ok | 38 | 1 |
 | Wise | ok | 415 | 17 |
-| Wolt | ok | 181 | 1 |
+| Wolt | ok | 178 | 1 |
 | Xendit | ok | 19 | 4 |
 | Zalando | ok |  |  |
 | Zego | ok | 29 | 10 |
