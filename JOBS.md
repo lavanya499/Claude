@@ -1,6 +1,6 @@
 # SPM Job Radar
 
-_Updated 2026-11-24 00:58 UTC · 438 open matches · 10 new in the last 24h · 96/98 sources healthy_
+_Updated 2026-11-24 11:03 UTC · 438 open matches · 10 new in the last 24h · 96/98 sources healthy_
 
 Score = level fit (up to 40) + company tier (25/18) + target country (15) + visa/relocation signal (±10) + freshness (10) + required experience (±) + domain fit with your background (up to 12). ⭐ = Tier-1 big tech. Full data: [`data/jobs.json`](data/jobs.json). How to use it: [PLAYBOOK.md](PLAYBOOK.md).
 
@@ -127,7 +127,7 @@ _…and 35 more in data/jobs.json_
 | 84 | Delivery Hero | [Product Manager - (Logistics, Service Automations)](https://jobs.smartrecruiters.com/DeliveryHero/744000163274814) | Berlin, , Germany |  | 2026-11-23 |
 | 84 | Oyster | [Lead Product Manager](https://jobs.ashbyhq.com/oyster/20b0c812-255e-433b-99bb-2d1f399f0c7a) | EMEA; Romania; Bulgaria; Portugal; Canada; United Kingdom; S |  | 2026-10-06 |
 | 84 | Wise | [Senior Product Manager - Finance Master Data Management](https://jobs.smartrecruiters.com/Wise/744000132867569) | Tallinn, , Estonia |  | 2026-06-18 |
-| 84 | n8n | [Senior Product Manager - Core Experience](https://jobs.ashbyhq.com/n8n/98d8bc2f-ee58-4732-8977-61a761aac8b0) | Berlin, Germany; Bosnia; Romania; Norway; Estonia; Latvia; S |  | 2026-11-19 |
+| 84 | n8n | [Senior Product Manager - Core Experience](https://jobs.ashbyhq.com/n8n/98d8bc2f-ee58-4732-8977-61a761aac8b0) | Germany; Bosnia; Romania; Norway; Estonia; Latvia; Slovenia; |  | 2026-11-19 |
 | 82 | Bitpanda | [Lead Technical Product Manager, Protocol (Vision Chain)](https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009827101) | Vienna, Vienna, Austria |  | 2026-10-22 |
 | 82 | Bitpanda | [Lead Technical Product Manager, Protocol (Vision Chain)](https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027189101) | Berlin, Berlin, Germany |  | 2026-11-04 |
 | 82 | Bitpanda | [Lead Technical Product Manager, Protocol (Vision Chain)](https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027192101) | Barcelona, Spain |  | 2026-11-04 |
@@ -280,101 +280,101 @@ _…and 50 more in data/jobs.json_
 | Source | Status | Jobs scanned | Matches |
 |---|---|---:|---:|
 | 1Password | ok | 80 | 4 |
-| Adobe | ok | 262 | 3 |
-| Adyen | ok | 243 | 10 |
+| Adobe | ok | 264 | 3 |
+| Adyen | ok | 241 | 10 |
 | Affirm | ok | 220 | 9 |
-| Agoda | ok | 333 | 7 |
-| Airbnb | ok | 198 | 0 |
-| Airwallex | ok | 498 | 8 |
-| Amazon | ok | 171 | 92 |
-| Anthropic | ok | 631 | 0 |
+| Agoda | ok | 338 | 7 |
+| Airbnb | ok | 199 | 0 |
+| Airwallex | ok | 501 | 8 |
+| Amazon | ok | 170 | 92 |
+| Anthropic | ok | 630 | 0 |
 | Apple | ok |  |  |
 | Asana | ok | 109 | 9 |
-| Atlassian | ok | 230 | 4 |
+| Atlassian | ok | 231 | 4 |
 | Bitpanda | ok | 39 | 6 |
 | Booking.com | ⚠️ RuntimeError: no jobs returned (LinkedIn fallback queued) |  |  |
-| Brex | ok | 260 | 2 |
-| Canva | ok | 26 | 0 |
+| Brex | ok | 263 | 2 |
+| Canva | ok | 25 | 0 |
 | Celonis | ok | 260 | 2 |
-| Cloudflare | ok | 504 | 4 |
-| Cohere | ok | 125 | 2 |
+| Cloudflare | ok | 503 | 4 |
+| Cohere | ok | 124 | 2 |
 | Cresta | ok | 82 | 1 |
-| Datadog | ok | 384 | 1 |
-| Decagon | ok | 114 | 2 |
-| Deliveroo | ok | 188 | 7 |
+| Datadog | ok | 383 | 1 |
+| Decagon | ok | 113 | 2 |
+| Deliveroo | ok | 189 | 7 |
 | Delivery Hero | ok | 600 | 5 |
 | Deputy | ok | 2 | 0 |
 | Doctolib | ⚠️ HTTPError: HTTP Error 404: Not Found |  |  |
-| Ebury | ok | 166 | 4 |
+| Ebury | ok | 167 | 4 |
 | Elastic | ok | 384 | 21 |
-| ElevenLabs | ok | 122 | 0 |
-| Expedia Group | ok | 63 | 8 |
+| ElevenLabs | ok | 120 | 0 |
+| Expedia Group | ok | 62 | 8 |
 | Fivetran | ok | 206 | 2 |
-| Genesys | ok | 201 | 2 |
-| Geotab | ok | 57 | 5 |
+| Genesys | ok | 202 | 2 |
+| Geotab | ok | 56 | 5 |
 | GetYourGuide | ok | 0 | 0 |
-| GitLab | ok | 250 | 2 |
-| GoCardless | ok | 29 | 0 |
-| Google | ok | 59 | 14 |
-| Grab | ok | 430 | 8 |
+| GitLab | ok | 251 | 1 |
+| GoCardless | ok | 28 | 0 |
+| Google | ok | 38 | 11 |
+| Grab | ok | 432 | 8 |
 | Grafana Labs | ok | 139 | 6 |
 | Intercom | ok | 122 | 6 |
 | JetBrains | ok | 3 | 0 |
 | Klarna | ok |  |  |
 | LINE MAN Wongnai | ok |  |  |
-| LinkedIn | ok | 211 | 0 |
+| LinkedIn | ok | 212 | 0 |
 | LinkedIn (all companies) | ok | 0 |  |
-| Lovable | ok | 78 | 4 |
-| Mastercard | ok | 361 | 7 |
+| Lovable | ok | 77 | 4 |
+| Mastercard | ok | 360 | 7 |
 | Meesho | ok | 48 | 5 |
 | Mentimeter | ok | 13 | 1 |
 | Meta | ok |  |  |
-| Microsoft | ok | 91 | 6 |
+| Microsoft | ok | 92 | 6 |
 | Moneybox | ok | 17 | 1 |
-| MongoDB | ok | 421 | 8 |
+| MongoDB | ok | 420 | 8 |
 | Monzo | ok | 53 | 1 |
 | N26 | ok | 23 | 0 |
-| Netflix | ok | 181 | 1 |
-| New Relic | ok | 43 | 0 |
+| Netflix | ok | 182 | 1 |
+| New Relic | ok | 44 | 0 |
 | Nium | ok | 31 | 3 |
-| Okta | ok | 371 | 8 |
-| OpenAI | ok | 854 | 0 |
-| Oyster | ok | 21 | 2 |
+| Okta | ok | 372 | 8 |
+| OpenAI | ok | 863 | 0 |
+| Oyster | ok | 17 | 2 |
 | Paddle | ok | 15 | 0 |
-| Parloa | ok | 46 | 1 |
-| PayPal | ok | 375 | 0 |
+| Parloa | ok | 40 | 1 |
+| PayPal | ok | 376 | 0 |
 | Payoneer | ok | 100 | 0 |
 | Pennylane | ok | 205 | 3 |
-| Qonto | ok | 54 | 2 |
-| Razorpay | ok | 29 | 7 |
+| Qonto | ok | 55 | 2 |
+| Razorpay | ok | 25 | 5 |
 | Revolut | ok |  |  |
-| Rubrik | ok | 218 | 1 |
+| Rubrik | ok | 220 | 1 |
 | Salesforce | ok | 400 | 3 |
-| Scale AI | ok | 160 | 3 |
+| Scale AI | ok | 159 | 3 |
 | ServiceNow | ok | 600 | 2 |
 | Shopee | ok |  |  |
 | Sierra | ok | 199 | 6 |
-| Snyk | ok | 39 | 1 |
+| Snyk | ok | 38 | 1 |
 | Spotify | ok | 88 | 9 |
-| Stripe | ok | 770 | 17 |
+| Stripe | ok | 768 | 17 |
 | SumUp | ok | 320 | 3 |
 | Synthesia | ok | 26 | 3 |
-| Tide | ok | 86 | 3 |
-| Toast | ok | 312 | 1 |
+| Tide | ok | 88 | 3 |
+| Toast | ok | 313 | 1 |
 | Trustpilot | ok | 38 | 0 |
 | Twilio | ok | 115 | 0 |
 | Uber | ok |  |  |
 | Visa | ok | 400 | 6 |
-| Wealthsimple | ok | 38 | 1 |
-| Wise | ok | 406 | 17 |
-| Wolt | ok | 182 | 1 |
+| Wealthsimple | ok | 37 | 1 |
+| Wise | ok | 404 | 15 |
+| Wolt | ok | 186 | 1 |
 | Xendit | ok | 19 | 4 |
 | Zalando | ok |  |  |
-| Zego | ok | 27 | 10 |
-| Zendesk | ok | 114 | 2 |
+| Zego | ok | 28 | 10 |
+| Zendesk | ok | 115 | 2 |
 | Zip | ok | 112 | 3 |
-| Zscaler | ok | 389 | 0 |
-| eBay | ok | 196 | 16 |
+| Zscaler | ok | 388 | 0 |
+| eBay | ok | 194 | 16 |
 | loveholidays | ok | 17 | 3 |
 | n8n | ok | 69 | 5 |
 
