@@ -1,6 +1,6 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 26 Nov 07:15 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 26 Nov 15:44 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (7)
 
@@ -14,12 +14,12 @@ Updated 26 Nov 07:15 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 24 Nov 17:28 | Shopee | [AI Product Manager](https://www.linkedin.com/jobs/view/4434061987/) | Singapore | unlevelled | 64 |
 | 24 Nov 16:28 | Shopee | [Product Manager - User, Buyer & Marketing](https://www.linkedin.com/jobs/view/4494341161/) | Singapore, Singapore | unlevelled | 64 |
 
-## Everyone else, every level except junior (128)
+## Everyone else, every level except junior (123)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
-| 26 Nov 05:15 | Fresche Solutions | [Senior Product Manager, Cloud – Remote – FS470](https://www.linkedin.com/jobs/view/4493470400/) | Montreal, Quebec, Canada | senior | 67 |
 | 26 Nov 05:15 | Fresche Solutions | [Senior Product Manager, IBM i Modernization – Remote - FS469](https://www.linkedin.com/jobs/view/4493461675/) | Montreal, Quebec, Canada | senior | 67 |
+| 26 Nov 05:15 | Fresche Solutions | [Senior Product Manager, Cloud – Remote – FS470](https://www.linkedin.com/jobs/view/4493470400/) | Montreal, Quebec, Canada | senior | 67 |
 | 25 Nov 21:36 | GovTech Singapore | [Lead Product Manager, Digital Academy](https://www.linkedin.com/jobs/view/4486332218/) | Singapore | senior | 67 |
 | 25 Nov 21:15 | Litera | [Senior Product Manager](https://www.linkedin.com/jobs/view/4476442548/) | Greater Toronto Area, Canada | senior | 67 |
 | 25 Nov 19:36 | GovTech Singapore | [Senior / Lead Product Manager (Data Programme)](https://www.linkedin.com/jobs/view/4468490279/) | Singapore | senior | 67 |
@@ -122,16 +122,11 @@ Updated 26 Nov 07:15 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 24 Nov 09:57 | Optum | [Senior Technical Product Manager,](https://www.linkedin.com/jobs/view/4492665689/) | Noida, Uttar Pradesh, India | senior | 63 |
 | 24 Nov 09:28 | ST Engineering | [Product Manager - DS/EZ](https://www.linkedin.com/jobs/view/4488656968/) | Singapore, Singapore | unlevelled | 51 |
 | 24 Nov 07:57 | Haystack | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494306064/) | Canada | senior | 67 |
-| 24 Nov 06:16 | Mircom Group of Companies | [Product Manager-Fire Devices](https://www.linkedin.com/jobs/view/4492659554/) | Vaughan, Ontario, Canada | unlevelled | 51 |
 | 24 Nov 05:58 | Deel | [Senior Product Manager, Deel Security](https://www.linkedin.com/jobs/view/4492663434/) | Sweden | senior | 70 |
 | 24 Nov 05:57 | Deel | [Senior Product Manager, Deel Security](https://www.linkedin.com/jobs/view/4492664400/) | Ireland | senior | 70 |
 | 24 Nov 05:57 | Deel | [Senior Product Manager, Deel Security](https://www.linkedin.com/jobs/view/4492671194/) | United Kingdom | senior | 70 |
 | 24 Nov 05:57 | Deel | [Staff Product Manager, FinTech](https://www.linkedin.com/jobs/view/4492675044/) | Ireland | reach | 58 |
 | 24 Nov 05:56 | Deel | [Staff Product Manager, FinTech](https://www.linkedin.com/jobs/view/4492666362/) | United Arab Emirates | reach | 58 |
-| 24 Nov 05:16 | Rivian and Volkswagen Group Technologies | [Sr. Product Manager, Mobile App](https://www.linkedin.com/jobs/view/4469657951/) | Vancouver, British Columbia, Canada | senior | 67 |
-| 24 Nov 05:16 | Equinix | [Network Infrastructure Product Manager](https://www.linkedin.com/jobs/view/4492653604/) | Toronto, Ontario, Canada | unlevelled | 51 |
-| 24 Nov 05:16 | Equinix | [Senior Product Manager](https://www.linkedin.com/jobs/view/4492668042/) | Toronto, Ontario, Canada | senior | 67 |
-| 24 Nov 05:16 | Aptiv | [Product Manager, VxWorks Automotive](https://www.linkedin.com/jobs/view/4493928720/) | Ottawa, Ontario, Canada | unlevelled | 51 |
 | 24 Nov 04:57 | DataSnipper | [Senior Product Manager, Identity and Access Management](https://www.linkedin.com/jobs/view/4477810637/) | Amsterdam, North Holland, Netherlands | senior | 70 |
 | 24 Nov 04:57 | STX Group | [Group Product Manager: Markets & Risk](https://www.linkedin.com/jobs/view/4493926637/) | Amsterdam, North Holland, Netherlands | reach | 54 |
 | 24 Nov 04:57 | Alpaca | [Lead Product Manager, Multimodal Clearing](https://www.linkedin.com/jobs/view/4493940027/) | London, England, United Kingdom | senior | 70 |
@@ -139,3 +134,8 @@ Updated 26 Nov 07:15 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 24 Nov 03:57 | Kiwibank | [Product Manager - Unsecured Lending](https://www.linkedin.com/jobs/view/4490254437/) | Wellington, Wellington, New Zealand | unlevelled | 54 |
 | 24 Nov 03:57 | Purolator Inc. | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494062830/) | Mississauga, Ontario, Canada | senior | 67 |
 | 24 Nov 00:58 | Openbank España | [Product Manager for Digital Lending, Payments & AI – Openbank Pay](https://www.linkedin.com/jobs/view/4493902507/) | Madrid, Community of Madrid, Spain | unlevelled | 58 |
+| 23 Nov 23:58 | Kureos | [Product Manager - Delivery](https://www.linkedin.com/jobs/view/4493689421/) | Greater Madrid Metropolitan Area | unlevelled | 54 |
+| 23 Nov 23:58 | Instabee | [Product Manager – Terminal Operations, Hardware & Insights](https://www.linkedin.com/jobs/view/4494041297/) | Stockholm, Stockholm County, Sweden | unlevelled | 58 |
+| 23 Nov 22:58 | Enginy | [Senior Product Manager](https://www.linkedin.com/jobs/view/4493681166/) | Barcelona, Catalonia, Spain | senior | 70 |
+| 23 Nov 22:57 | lemon.markets | [Senior Product Manager - Investing (f/m/x)](https://www.linkedin.com/jobs/view/4493680058/) | Berlin, Berlin, Germany | senior | 70 |
+| 23 Nov 21:58 | Saab | [Product Manager PU Fighter EW](https://www.linkedin.com/jobs/view/4493650886/) | Solna, Stockholm County, Sweden | unlevelled | 54 |
