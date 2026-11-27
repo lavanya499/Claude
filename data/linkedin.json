@@ -1,13 +1,13 @@
 {
-"blocked_until": "2026-11-27T03:03Z",
+"blocked_until": "2026-11-27T11:45Z",
 "health": {
-"calls": 21,
-"cards": 200,
+"calls": 7,
+"cards": 60,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 115,
+"new": 16,
 "rate_limited": true,
-"requests": 21,
+"requests": 7,
 "window_min": 1440
 },
 "jobs": {
@@ -408,6 +408,24 @@
 "url": "https://www.linkedin.com/jobs/view/4434061987/",
 "visa": ""
 },
+"4434192386": {
+"company": "Affirm",
+"dup": true,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4434192386",
+"level": "senior",
+"location": "Oshawa, Ontario, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:05Z",
+"regions": [
+"Canada"
+],
+"score": 80,
+"tier": 2,
+"title": "Senior Product Manager, Credit & Pricing",
+"url": "https://www.linkedin.com/jobs/view/4434192386/",
+"visa": ""
+},
 "4434198323": {
 "company": "Affirm",
 "dup": true,
@@ -424,6 +442,24 @@
 "tier": 2,
 "title": "Senior Product Manager, Credit & Pricing",
 "url": "https://www.linkedin.com/jobs/view/4434198323/",
+"visa": ""
+},
+"4434199272": {
+"company": "Affirm",
+"dup": true,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4434199272",
+"level": "senior",
+"location": "Kitchener, Ontario, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:12Z",
+"regions": [
+"Canada"
+],
+"score": 80,
+"tier": 2,
+"title": "Senior Product Manager, Credit & Pricing",
+"url": "https://www.linkedin.com/jobs/view/4434199272/",
 "visa": ""
 },
 "4434301163": {
@@ -1072,6 +1108,24 @@
 "tier": 2,
 "title": "Product Manager, Discovery",
 "url": "https://www.linkedin.com/jobs/view/4458988293/",
+"visa": ""
+},
+"4459228865": {
+"company": "eBay",
+"dup": true,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4459228865",
+"level": "senior",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:05Z",
+"regions": [
+"India"
+],
+"score": 76,
+"tier": 2,
+"title": "Sr. Product Manager - Case Management",
+"url": "https://www.linkedin.com/jobs/view/4459228865/",
 "visa": ""
 },
 "4459955290": {
@@ -2100,6 +2154,42 @@
 "url": "https://www.linkedin.com/jobs/view/4476022301/",
 "visa": ""
 },
+"4476216289": {
+"company": "Autodesk",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4476216289",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T06:05Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4476216289/",
+"visa": ""
+},
+"4476218193": {
+"company": "Autodesk",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4476218193",
+"level": "senior",
+"location": "Montreal, Quebec, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T06:05Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4476218193/",
+"visa": ""
+},
 "4476275833": {
 "company": "Teradata",
 "dup": false,
@@ -2208,6 +2298,24 @@
 "url": "https://www.linkedin.com/jobs/view/4476806974/",
 "visa": ""
 },
+"4477087769": {
+"company": "eBay",
+"dup": true,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4477087769",
+"level": "senior",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:05Z",
+"regions": [
+"India"
+],
+"score": 76,
+"tier": 2,
+"title": "Senior Product Manager II",
+"url": "https://www.linkedin.com/jobs/view/4477087769/",
+"visa": ""
+},
 "4477201986": {
 "company": "Clio",
 "dup": false,
@@ -2224,6 +2332,24 @@
 "tier": 3,
 "title": "Senior Product Manager - Fintech",
 "url": "https://www.linkedin.com/jobs/view/4477201986/",
+"visa": ""
+},
+"4477340526": {
+"company": "Skip",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4477340526",
+"level": "senior",
+"location": "Edmonton, Alberta, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:45Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4477340526/",
 "visa": ""
 },
 "4477437289": {
@@ -4535,6 +4661,24 @@
 "url": "https://www.linkedin.com/jobs/view/4490254437/",
 "visa": ""
 },
+"4490467959": {
+"company": "RLDatix North America",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4490467959",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:05Z",
+"regions": [
+"Canada"
+],
+"score": 67,
+"tier": 3,
+"title": "Senior Product Manager, RLD Intelligence",
+"url": "https://www.linkedin.com/jobs/view/4490467959/",
+"visa": ""
+},
 "4490585948": {
 "company": "SAS - Scandinavian Airlines",
 "dup": false,
@@ -4569,6 +4713,24 @@
 "tier": 3,
 "title": "Lead Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4490690311/",
+"visa": ""
+},
+"4490806337": {
+"company": "RLDatix UK & Ireland",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4490806337",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:06Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4490806337/",
 "visa": ""
 },
 "4490812609": {
@@ -7703,6 +7865,78 @@
 "url": "https://www.linkedin.com/jobs/view/4493851252/",
 "visa": ""
 },
+"4493872427": {
+"company": "Coupa",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4493872427",
+"level": "senior",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T08:05Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Sr. Product Manager - Supply Chain Data Platform",
+"url": "https://www.linkedin.com/jobs/view/4493872427/",
+"visa": ""
+},
+"4493875835": {
+"company": "EY",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4493875835",
+"level": "senior",
+"location": "Kolkata, West Bengal, India",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:40Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Tech S and T-Product Manager-Senior-GDSF02",
+"url": "https://www.linkedin.com/jobs/view/4493875835/",
+"visa": ""
+},
+"4493877657": {
+"company": "Amagi",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4493877657",
+"level": "unlevelled",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:15Z",
+"regions": [
+"India"
+],
+"score": 47,
+"tier": 3,
+"title": "Product Manager - AgentHelix",
+"url": "https://www.linkedin.com/jobs/view/4493877657/",
+"visa": ""
+},
+"4493894017": {
+"company": "EY",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4493894017",
+"level": "senior",
+"location": "Trivandrum, Kerala, India",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T10:40Z",
+"regions": [
+"India"
+],
+"score": 63,
+"tier": 3,
+"title": "Tech S and T-Product Manager-Senior-GDSF02",
+"url": "https://www.linkedin.com/jobs/view/4493894017/",
+"visa": ""
+},
 "4493902507": {
 "company": "Openbank España",
 "dup": false,
@@ -9038,6 +9272,24 @@
 "url": "https://www.linkedin.com/jobs/view/4495029716/",
 "visa": ""
 },
+"4495031759": {
+"company": "Kraken",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4495031759",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-26",
+"posted_ts": "2026-11-26T17:06Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Sr Product Manager - Quantitative Growth",
+"url": "https://www.linkedin.com/jobs/view/4495031759/",
+"visa": ""
+},
 "4495032867": {
 "company": "Qatar Airways",
 "dup": false,
@@ -9325,6 +9577,24 @@
 "tier": 3,
 "title": "Senior Product Manager (Insurance)",
 "url": "https://www.linkedin.com/jobs/view/4495052231/",
+"visa": ""
+},
+"4495063968": {
+"company": "Archer",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4495063968",
+"level": "unlevelled",
+"location": "Glasgow, Scotland, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T07:05Z",
+"regions": [
+"UK"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Identity & Access Management (Commercial & Investment Bank)",
+"url": "https://www.linkedin.com/jobs/view/4495063968/",
 "visa": ""
 },
 "4495204722": {
@@ -9688,6 +9958,24 @@
 "url": "https://www.linkedin.com/jobs/view/4495501782/",
 "visa": ""
 },
+"4495511781": {
+"company": "Orbis Group",
+"dup": false,
+"first_seen_at": "2026-11-27T11:05Z",
+"id": "4495511781",
+"level": "senior",
+"location": "London Area, United Kingdom",
+"posted": "2026-11-26",
+"posted_ts": "2026-11-26T17:05Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Product Manager / Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4495511781/",
+"visa": ""
+},
 "4495515114": {
 "company": "Nicoll Curtin",
 "dup": false,
@@ -9869,8 +10157,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-11-27T02:23Z",
-"last_rollup": "2026-11-27T02:23Z",
+"last_block_ping": "2026-11-27T11:05Z",
+"last_rollup": "2026-11-27T11:05Z",
 "last_scan": "2026-11-17T22:05Z",
-"updated": "2026-11-27T02:23Z"
+"updated": "2026-11-27T11:05Z"
 }
