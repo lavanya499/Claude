@@ -1,13 +1,13 @@
 {
-"blocked_until": "2026-11-27T11:45Z",
+"blocked_until": "2026-11-27T20:35Z",
 "health": {
-"calls": 7,
-"cards": 60,
+"calls": 4,
+"cards": 30,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
 "new": 16,
 "rate_limited": true,
-"requests": 7,
+"requests": 4,
 "window_min": 1440
 },
 "jobs": {
@@ -388,6 +388,24 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4430215280/",
+"visa": ""
+},
+"4433899095": {
+"company": "HelloFresh",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4433899095",
+"level": "senior",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T09:55Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4433899095/",
 "visa": ""
 },
 "4434061987": {
@@ -1200,6 +1218,24 @@
 "url": "https://www.linkedin.com/jobs/view/4460315996/",
 "visa": ""
 },
+"4461235880": {
+"company": "Amazon",
+"dup": true,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4461235880",
+"level": "unlevelled",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T14:55Z",
+"regions": [
+"Europe"
+],
+"score": 84,
+"tier": 1,
+"title": "Product Manager – Compliance Digital Tools, AWS Environmental",
+"url": "https://www.linkedin.com/jobs/view/4461235880/",
+"visa": ""
+},
 "4461785604": {
 "company": "Reconomy",
 "dup": false,
@@ -1846,6 +1882,24 @@
 "tier": 3,
 "title": "Senior Software Product Manager (Radio Spectrum sensor systems)",
 "url": "https://www.linkedin.com/jobs/view/4470451062/",
+"visa": ""
+},
+"4470906612": {
+"company": "Matillion",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4470906612",
+"level": "senior",
+"location": "Manchester, England, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T11:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4470906612/",
 "visa": ""
 },
 "4470980469": {
@@ -2749,6 +2803,24 @@
 "url": "https://www.linkedin.com/jobs/view/4479042277/",
 "visa": ""
 },
+"4479155137": {
+"company": "NaturalMotion Games",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4479155137",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T13:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager - Unannounced Project",
+"url": "https://www.linkedin.com/jobs/view/4479155137/",
+"visa": ""
+},
 "4479258036": {
 "company": "ComPsych",
 "dup": false,
@@ -3090,24 +3162,6 @@
 "tier": 3,
 "title": "Product Owner Group Digital Product",
 "url": "https://www.linkedin.com/jobs/view/4484651684/",
-"visa": ""
-},
-"4484821130": {
-"company": "Randstad New Zealand",
-"dup": false,
-"first_seen_at": "2026-11-20T17:15Z",
-"id": "4484821130",
-"level": "unlevelled",
-"location": "Auckland, Auckland, New Zealand",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T16:15Z",
-"regions": [
-"New Zealand"
-],
-"score": 58,
-"tier": 3,
-"title": "Product Manager - Cards and Payments",
-"url": "https://www.linkedin.com/jobs/view/4484821130/",
 "visa": ""
 },
 "4484832846": {
@@ -4211,6 +4265,24 @@
 "url": "https://www.linkedin.com/jobs/view/4486850567/",
 "visa": ""
 },
+"4486981127": {
+"company": "Product Madness 📱🎮",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4486981127",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T16:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4486981127/",
+"visa": ""
+},
 "4487254537": {
 "company": "Bitpanda",
 "dup": true,
@@ -4409,6 +4481,24 @@
 "url": "https://www.linkedin.com/jobs/view/4487576324/",
 "visa": ""
 },
+"4487727806": {
+"company": "Legal & General",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4487727806",
+"level": "unlevelled",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T09:55Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Manager - Multi Asset Class Solutions",
+"url": "https://www.linkedin.com/jobs/view/4487727806/",
+"visa": ""
+},
 "4487727971": {
 "company": "Luzia",
 "dup": false,
@@ -4481,6 +4571,24 @@
 "url": "https://www.linkedin.com/jobs/view/4487765897/",
 "visa": ""
 },
+"4488038283": {
+"company": "MongoDB",
+"dup": true,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4488038283",
+"level": "senior",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T19:09Z",
+"regions": [
+"Europe"
+],
+"score": 90,
+"tier": 1,
+"title": "Senior Product Manager, Marketing AI",
+"url": "https://www.linkedin.com/jobs/view/4488038283/",
+"visa": ""
+},
 "4488656968": {
 "company": "ST Engineering",
 "dup": false,
@@ -4515,24 +4623,6 @@
 "tier": 3,
 "title": "Technischer Product Manager/in Kassensysteme",
 "url": "https://www.linkedin.com/jobs/view/4488687866/",
-"visa": ""
-},
-"4489075319": {
-"company": "Kiwibank",
-"dup": false,
-"first_seen_at": "2026-11-20T17:15Z",
-"id": "4489075319",
-"level": "senior",
-"location": "Wellington, Wellington, New Zealand",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T04:15Z",
-"regions": [
-"New Zealand"
-],
-"score": 70,
-"tier": 3,
-"title": "Product Lead - 2x Roles",
-"url": "https://www.linkedin.com/jobs/view/4489075319/",
 "visa": ""
 },
 "4489161183": {
@@ -4767,24 +4857,6 @@
 "tier": 3,
 "title": "Product Manager - Consumer Lending",
 "url": "https://www.linkedin.com/jobs/view/4491574184/",
-"visa": ""
-},
-"4491690309": {
-"company": "ASB Bank",
-"dup": false,
-"first_seen_at": "2026-11-20T17:15Z",
-"id": "4491690309",
-"level": "unlevelled",
-"location": "Auckland, New Zealand",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T04:15Z",
-"regions": [
-"New Zealand"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner",
-"url": "https://www.linkedin.com/jobs/view/4491690309/",
 "visa": ""
 },
 "4491913914": {
@@ -5271,24 +5343,6 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4492506939/",
-"visa": ""
-},
-"4492539250": {
-"company": "Bunzl Australasia",
-"dup": false,
-"first_seen_at": "2026-11-20T17:15Z",
-"id": "4492539250",
-"level": "senior",
-"location": "Auckland, Auckland, New Zealand",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T02:15Z",
-"regions": [
-"New Zealand"
-],
-"score": 70,
-"tier": 3,
-"title": "Clinical Product Lead - Obex NZ Auckland",
-"url": "https://www.linkedin.com/jobs/view/4492539250/",
 "visa": ""
 },
 "4492573860": {
@@ -5988,24 +6042,6 @@
 "tier": 3,
 "title": "Product Manager - Technologia Push",
 "url": "https://www.linkedin.com/jobs/view/4492939804/",
-"visa": ""
-},
-"4492939922": {
-"company": "IAG",
-"dup": false,
-"first_seen_at": "2026-11-20T17:15Z",
-"id": "4492939922",
-"level": "unlevelled",
-"location": "Auckland, Auckland, New Zealand",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T16:21Z",
-"regions": [
-"New Zealand"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner, Technology",
-"url": "https://www.linkedin.com/jobs/view/4492939922/",
 "visa": ""
 },
 "4492943997": {
@@ -8678,6 +8714,60 @@
 "url": "https://www.linkedin.com/jobs/view/4494160101/",
 "visa": ""
 },
+"4494208319": {
+"company": "Netcompany",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4494208319",
+"level": "senior",
+"location": "Edinburgh, Scotland, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T16:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4494208319/",
+"visa": ""
+},
+"4494211114": {
+"company": "Pay.UK",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4494211114",
+"level": "senior",
+"location": "London Area, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T15:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4494211114/",
+"visa": ""
+},
+"4494216068": {
+"company": "Netcompany",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4494216068",
+"level": "senior",
+"location": "Birmingham, England, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T16:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4494216068/",
+"visa": ""
+},
 "4494306064": {
 "company": "Haystack",
 "dup": false,
@@ -9597,6 +9687,42 @@
 "url": "https://www.linkedin.com/jobs/view/4495063968/",
 "visa": ""
 },
+"4495072842": {
+"company": "Jobgether",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4495072842",
+"level": "senior",
+"location": "Ireland",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T07:55Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Sr Product Manager - Quantitative Growth",
+"url": "https://www.linkedin.com/jobs/view/4495072842/",
+"visa": ""
+},
+"4495079657": {
+"company": "Fruition Group Ireland",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4495079657",
+"level": "unlevelled",
+"location": "Dublin, County Dublin, Ireland",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T08:55Z",
+"regions": [
+"Europe"
+],
+"score": 54,
+"tier": 3,
+"title": "Product Owner",
+"url": "https://www.linkedin.com/jobs/view/4495079657/",
+"visa": ""
+},
 "4495204722": {
 "company": "Philip Morris International",
 "dup": false,
@@ -9940,6 +10066,24 @@
 "url": "https://www.linkedin.com/jobs/view/4495294398/",
 "visa": ""
 },
+"4495326435": {
+"company": "LSEG",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4495326435",
+"level": "senior",
+"location": "City Of London, England, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T18:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager, AI Core Platform",
+"url": "https://www.linkedin.com/jobs/view/4495326435/",
+"visa": ""
+},
 "4495501782": {
 "company": "Weekday AI (YC W21)",
 "dup": false,
@@ -10155,10 +10299,64 @@
 "title": "Sr. Product Manager, WW MFN CSBA",
 "url": "https://www.linkedin.com/jobs/view/4495559568/",
 "visa": ""
+},
+"4495822857": {
+"company": "RoomPriceGenie",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4495822857",
+"level": "senior",
+"location": "United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T16:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Remote Sr. Product Manager (m/f/d)",
+"url": "https://www.linkedin.com/jobs/view/4495822857/",
+"visa": ""
+},
+"4495834446": {
+"company": "RoomPriceGenie",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4495834446",
+"level": "senior",
+"location": "Ireland",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T16:55Z",
+"regions": [
+"Europe"
+],
+"score": 70,
+"tier": 3,
+"title": "Remote Sr. Product Manager (m/f/d)",
+"url": "https://www.linkedin.com/jobs/view/4495834446/",
+"visa": ""
+},
+"4495859081": {
+"company": "Entain",
+"dup": false,
+"first_seen_at": "2026-11-27T19:55Z",
+"id": "4495859081",
+"level": "senior",
+"location": "London, England, United Kingdom",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T18:55Z",
+"regions": [
+"UK"
+],
+"score": 70,
+"tier": 3,
+"title": "Senior Product Manager - Missions",
+"url": "https://www.linkedin.com/jobs/view/4495859081/",
+"visa": ""
 }
 },
-"last_block_ping": "2026-11-27T11:05Z",
+"last_block_ping": "2026-11-27T19:55Z",
 "last_rollup": "2026-11-27T11:05Z",
 "last_scan": "2026-11-17T22:05Z",
-"updated": "2026-11-27T11:05Z"
+"updated": "2026-11-27T19:55Z"
 }

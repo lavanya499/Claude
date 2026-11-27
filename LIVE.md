@@ -1,27 +1,40 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 27 Nov 16:35 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 28 Nov 01:25 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
-## Target companies (1)
-
-| Posted (IST) | Company | Role | Where | Level | Score |
-|---|---|---|---|---|---|
-| 25 Nov 18:36 | ⭐ Google | [Outbound Product Manager, Gemini Enterprise](https://www.linkedin.com/jobs/view/4486367567/) | Singapore | unlevelled | 81 |
-
-## Everyone else, every level except junior (162)
+## Target companies (0)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+
+## Everyone else, every level except junior (173)
+
+| Posted (IST) | Company | Role | Where | Level | Score |
+|---|---|---|---|---|---|
+| 28 Nov 00:25 | LSEG | [Senior Product Manager, AI Core Platform](https://www.linkedin.com/jobs/view/4495326435/) | City Of London, England, United Kingdom | senior | 70 |
+| 28 Nov 00:25 | Entain | [Senior Product Manager - Missions](https://www.linkedin.com/jobs/view/4495859081/) | London, England, United Kingdom | senior | 70 |
+| 27 Nov 22:25 | Netcompany | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494208319/) | Edinburgh, Scotland, United Kingdom | senior | 70 |
+| 27 Nov 22:25 | Product Madness 📱🎮 | [Senior Product Manager](https://www.linkedin.com/jobs/view/4486981127/) | London, England, United Kingdom | senior | 70 |
+| 27 Nov 22:25 | Netcompany | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494216068/) | Birmingham, England, United Kingdom | senior | 70 |
+| 27 Nov 22:25 | RoomPriceGenie | [Remote Sr. Product Manager (m/f/d)](https://www.linkedin.com/jobs/view/4495822857/) | United Kingdom | senior | 70 |
+| 27 Nov 22:25 | RoomPriceGenie | [Remote Sr. Product Manager (m/f/d)](https://www.linkedin.com/jobs/view/4495834446/) | Ireland | senior | 70 |
+| 27 Nov 21:25 | Pay.UK | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494211114/) | London Area, United Kingdom | senior | 70 |
+| 27 Nov 19:25 | NaturalMotion Games | [Senior Product Manager - Unannounced Project](https://www.linkedin.com/jobs/view/4479155137/) | London, England, United Kingdom | senior | 70 |
+| 27 Nov 17:25 | Matillion | [Senior Product Manager](https://www.linkedin.com/jobs/view/4470906612/) | Manchester, England, United Kingdom | senior | 70 |
 | 27 Nov 16:15 | Skip | [Senior Product Manager](https://www.linkedin.com/jobs/view/4477340526/) | Edmonton, Alberta, Canada | senior | 67 |
 | 27 Nov 16:10 | EY | [Tech S and T-Product Manager-Senior-GDSF02](https://www.linkedin.com/jobs/view/4493875835/) | Kolkata, West Bengal, India | senior | 63 |
 | 27 Nov 16:10 | EY | [Tech S and T-Product Manager-Senior-GDSF02](https://www.linkedin.com/jobs/view/4493894017/) | Trivandrum, Kerala, India | senior | 63 |
 | 27 Nov 15:45 | Amagi | [Product Manager - AgentHelix](https://www.linkedin.com/jobs/view/4493877657/) | Bengaluru, Karnataka, India | unlevelled | 47 |
 | 27 Nov 15:36 | RLDatix UK & Ireland | [Senior Product Manager](https://www.linkedin.com/jobs/view/4490806337/) | London, England, United Kingdom | senior | 70 |
 | 27 Nov 15:35 | RLDatix North America | [Senior Product Manager, RLD Intelligence](https://www.linkedin.com/jobs/view/4490467959/) | Toronto, Ontario, Canada | senior | 67 |
+| 27 Nov 15:25 | Legal & General | [Product Manager - Multi Asset Class Solutions](https://www.linkedin.com/jobs/view/4487727806/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
+| 27 Nov 15:25 | HelloFresh | [Senior Product Manager](https://www.linkedin.com/jobs/view/4433899095/) | Dublin, County Dublin, Ireland | senior | 70 |
+| 27 Nov 14:25 | Fruition Group Ireland | [Product Owner](https://www.linkedin.com/jobs/view/4495079657/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 27 Nov 13:35 | Coupa | [Sr. Product Manager - Supply Chain Data Platform](https://www.linkedin.com/jobs/view/4493872427/) | Bengaluru, Karnataka, India | senior | 63 |
+| 27 Nov 13:25 | Jobgether | [Sr Product Manager - Quantitative Growth](https://www.linkedin.com/jobs/view/4495072842/) | Ireland | senior | 70 |
 | 27 Nov 12:35 | Archer | [Product Manager - Identity & Access Management (Commercial & Investment Bank)](https://www.linkedin.com/jobs/view/4495063968/) | Glasgow, Scotland, United Kingdom | unlevelled | 54 |
-| 27 Nov 11:35 | Autodesk | [Senior Product Manager](https://www.linkedin.com/jobs/view/4476218193/) | Montreal, Quebec, Canada | senior | 67 |
 | 27 Nov 11:35 | Autodesk | [Senior Product Manager](https://www.linkedin.com/jobs/view/4476216289/) | Toronto, Ontario, Canada | senior | 67 |
+| 27 Nov 11:35 | Autodesk | [Senior Product Manager](https://www.linkedin.com/jobs/view/4476218193/) | Montreal, Quebec, Canada | senior | 67 |
 | 27 Nov 05:55 | properti | [Product Manager – Lead Buyer/ Demand Engine – Marketplaces/ PropTech – Zürich](https://www.linkedin.com/jobs/view/4486425401/) | Zurich, Zurich, Switzerland | senior | 74 |
 | 27 Nov 05:54 | Dialogue | [Senior Product Manager](https://www.linkedin.com/jobs/view/4492506939/) | Montreal, Quebec, Canada | senior | 67 |
 | 27 Nov 04:54 | Hopper | [Growth Product Manager, HTS Media](https://www.linkedin.com/jobs/view/4495044807/) | Toronto, Ontario, Canada | unlevelled | 51 |
@@ -118,17 +131,3 @@ Updated 27 Nov 16:35 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 26 Nov 17:53 | Kite Human Capital | [Senior Product Manager – Institutional Crypto Trading Systems](https://www.linkedin.com/jobs/view/4495282645/) | Dubai, United Arab Emirates | senior | 70 |
 | 26 Nov 17:53 | Al-Futtaim | [Product Manager - Commercial Vehicles / Al-Futtaim Automotive / Industrial Equipment / Dubai](https://www.linkedin.com/jobs/view/4495293455/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
 | 26 Nov 16:55 | Instabee | [Product Manager / Delivery Execution](https://www.linkedin.com/jobs/view/4478140254/) | Stockholm, Stockholm County, Sweden | unlevelled | 54 |
-| 26 Nov 16:55 | Luzia | [Product Manager (AI)](https://www.linkedin.com/jobs/view/4487727971/) | Madrid, Community of Madrid, Spain | unlevelled | 54 |
-| 26 Nov 16:55 | QA Ltd | [Senior Product Manager](https://www.linkedin.com/jobs/view/4495277618/) | Mendrisio, Ticino, Switzerland | senior | 70 |
-| 26 Nov 16:54 | Thomson Reuters | [Product Manager](https://www.linkedin.com/jobs/view/4478801293/) | Toronto, Ontario, Canada | unlevelled | 51 |
-| 26 Nov 16:54 | Gallagher Security | [Product Owner](https://www.linkedin.com/jobs/view/4478848444/) | Hamilton, Waikato, New Zealand | unlevelled | 54 |
-| 26 Nov 16:54 | Morgan McKinley | [Product Manager - Platform Applications](https://www.linkedin.com/jobs/view/4495023024/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
-| 26 Nov 15:55 | Alstom | [Product Manager](https://www.linkedin.com/jobs/view/4485093778/) | Uppvidinge kommun, Kronoberg County, Sweden | unlevelled | 54 |
-| 26 Nov 15:55 | Logitech | [Senior Product Manager – PWS New Ventures](https://www.linkedin.com/jobs/view/4487258477/) | Lausanne, Vaud, Switzerland | senior | 70 |
-| 26 Nov 15:55 | Logifuture | [Product Manager](https://www.linkedin.com/jobs/view/4495264839/) | Málaga, Andalusia, Spain | unlevelled | 54 |
-| 26 Nov 15:55 | Axfood | [Tech Product Owner - Indirekta inköp och avtal till Axfood IT, Stockholm](https://www.linkedin.com/jobs/view/4495285084/) | Stockholm, Stockholm County, Sweden | unlevelled | 54 |
-| 26 Nov 15:54 | CrowdStrike | [Sr. Product Manager - Next-Gen SIEM (Hybrid)](https://www.linkedin.com/jobs/view/4468907778/) | London, England, United Kingdom | senior | 70 |
-| 26 Nov 15:54 | PAR Technology | [Senior Product Manager](https://www.linkedin.com/jobs/view/4478858506/) | Jaipur, Rajasthan, India | senior | 63 |
-| 26 Nov 15:54 | Thomson Reuters | [Senior Product Manager](https://www.linkedin.com/jobs/view/4486507067/) | Toronto, Ontario, Canada | senior | 67 |
-| 26 Nov 15:54 | Fin | [Senior Product Manager (Growth)](https://www.linkedin.com/jobs/view/4487504082/) | Dublin, County Dublin, Ireland | senior | 70 |
-| 26 Nov 15:54 | OneAdvanced | [Senior Product Manager – Healthcare](https://www.linkedin.com/jobs/view/4487507416/) | Birmingham, England, United Kingdom | senior | 70 |
