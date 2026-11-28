@@ -1,13 +1,13 @@
 {
-"blocked_until": "2026-11-28T11:21Z",
+"blocked_until": "2026-11-28T19:09Z",
 "health": {
-"calls": 3,
-"cards": 16,
+"calls": 1,
+"cards": 0,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 8,
+"new": 0,
 "rate_limited": true,
-"requests": 3,
+"requests": 1,
 "window_min": 1440
 },
 "jobs": {
@@ -677,24 +677,6 @@
 "url": "https://www.linkedin.com/jobs/view/4446695635/",
 "visa": ""
 },
-"4448056459": {
-"company": "Netflix",
-"dup": true,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4448056459",
-"level": "reach",
-"location": "Warsaw, Mazowieckie, Poland",
-"posted": "2026-11-21",
-"posted_ts": "2026-11-21T10:11Z",
-"regions": [
-"Europe"
-],
-"score": 82,
-"tier": 1,
-"title": "Staff Technical Product Manager 6 - Partner Device Tools and Services",
-"url": "https://www.linkedin.com/jobs/view/4448056459/",
-"visa": ""
-},
 "4448089997": {
 "company": "InPost",
 "dup": false,
@@ -963,24 +945,6 @@
 "tier": 3,
 "title": "Senior Product Manager, Partner Solutions & Ecosystem",
 "url": "https://www.linkedin.com/jobs/view/4451551300/",
-"visa": ""
-},
-"4456266388": {
-"company": "Tatari",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4456266388",
-"level": "senior",
-"location": "Poland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T16:11Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager - Upstream",
-"url": "https://www.linkedin.com/jobs/view/4456266388/",
 "visa": ""
 },
 "4457235867": {
@@ -1595,24 +1559,6 @@
 "url": "https://www.linkedin.com/jobs/view/4468572520/",
 "visa": ""
 },
-"4468689345": {
-"company": "Worldline",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4468689345",
-"level": "unlevelled",
-"location": "Warsaw, Mazowieckie, Poland",
-"posted": "2026-11-21",
-"posted_ts": "2026-11-21T11:11Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4468689345/",
-"visa": ""
-},
 "4468768881": {
 "company": "Clio",
 "dup": false,
@@ -2115,42 +2061,6 @@
 "tier": 3,
 "title": "Principal Product Manager (Gateway, Prisma AIRS) - NetSec",
 "url": "https://www.linkedin.com/jobs/view/4475625348/",
-"visa": ""
-},
-"4475984626": {
-"company": "Brown Brothers Harriman",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4475984626",
-"level": "unlevelled",
-"location": "Cracow, Małopolskie, Poland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T19:11Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Technical Product Manager - Fund Services",
-"url": "https://www.linkedin.com/jobs/view/4475984626/",
-"visa": ""
-},
-"4475985530": {
-"company": "Brown Brothers Harriman",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4475985530",
-"level": "unlevelled",
-"location": "Cracow, Małopolskie, Poland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T15:11Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Manager - ETF",
-"url": "https://www.linkedin.com/jobs/view/4475985530/",
 "visa": ""
 },
 "4476022301": {
@@ -3449,24 +3359,6 @@
 "tier": 3,
 "title": "Product Manager-Debit Cards",
 "url": "https://www.linkedin.com/jobs/view/4485148905/",
-"visa": ""
-},
-"4485322774": {
-"company": "Fundraise Up",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4485322774",
-"level": "senior",
-"location": "Poland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T17:11Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager, API & Billing",
-"url": "https://www.linkedin.com/jobs/view/4485322774/",
 "visa": ""
 },
 "4485332844": {
@@ -4858,60 +4750,6 @@
 "url": "https://www.linkedin.com/jobs/view/4491574184/",
 "visa": ""
 },
-"4491914291": {
-"company": "Sii Poland",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4491914291",
-"level": "senior",
-"location": "Warsaw, Mazowieckie, Poland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T17:11Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager (f/m/x)",
-"url": "https://www.linkedin.com/jobs/view/4491914291/",
-"visa": ""
-},
-"4491920117": {
-"company": "the LEGO Group",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4491920117",
-"level": "senior",
-"location": "Billund, Region of Southern Denmark, Denmark",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T17:11Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Sr Product Manager, Moulding Technologi",
-"url": "https://www.linkedin.com/jobs/view/4491920117/",
-"visa": ""
-},
-"4491924544": {
-"company": "JYSK",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4491924544",
-"level": "unlevelled",
-"location": "Central Denmark Region, Denmark",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T14:11Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner, JYSK Logistics",
-"url": "https://www.linkedin.com/jobs/view/4491924544/",
-"visa": ""
-},
 "4492008940": {
 "company": "Ebury",
 "dup": true,
@@ -5180,23 +5018,6 @@
 "tier": 3,
 "title": "Senior Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4492506939/",
-"visa": ""
-},
-"4492573860": {
-"company": "EG",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4492573860",
-"level": "unlevelled",
-"location": "Aarhus, Central Denmark Region, Denmark",
-"posted": "2026-11-20",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Commercial Product Manager, Product Management - Healthcare",
-"url": "https://www.linkedin.com/jobs/view/4492573860/",
 "visa": ""
 },
 "4492612924": {
@@ -5683,42 +5504,6 @@
 "url": "https://www.linkedin.com/jobs/view/4492905039/",
 "visa": ""
 },
-"4492939804": {
-"company": "Vercom S.A.",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4492939804",
-"level": "unlevelled",
-"location": "Poznań, Wielkopolskie, Poland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T16:11Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager - Technologia Push",
-"url": "https://www.linkedin.com/jobs/view/4492939804/",
-"visa": ""
-},
-"4492943997": {
-"company": "Kvik A/S",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4492943997",
-"level": "unlevelled",
-"location": "Aarhus, Central Denmark Region, Denmark",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T17:11Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Projektkoordinator & Product Owner – ERP (Business Central)",
-"url": "https://www.linkedin.com/jobs/view/4492943997/",
-"visa": ""
-},
 "4492985490": {
 "company": "Amazon",
 "dup": true,
@@ -5987,24 +5772,6 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4493207499/",
-"visa": ""
-},
-"4493215454": {
-"company": "Philip Morris International",
-"dup": false,
-"first_seen_at": "2026-11-21T12:11Z",
-"id": "4493215454",
-"level": "senior",
-"location": "Cracow, Małopolskie, Poland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T23:11Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Sr Tech Product Manager AI - Enterprise AI Products",
-"url": "https://www.linkedin.com/jobs/view/4493215454/",
 "visa": ""
 },
 "4493216476": {
@@ -10030,8 +9797,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-11-28T10:41Z",
+"last_block_ping": "2026-11-28T18:29Z",
 "last_rollup": "2026-11-28T10:41Z",
 "last_scan": "2026-11-17T22:05Z",
-"updated": "2026-11-28T10:41Z"
+"updated": "2026-11-28T18:29Z"
 }
