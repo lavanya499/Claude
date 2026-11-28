@@ -1,16 +1,20 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 28 Nov 07:54 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 28 Nov 16:11 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (0)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
 
-## Everyone else, every level except junior (166)
+## Everyone else, every level except junior (172)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
+| 28 Nov 15:11 | Thumbtack | [Product Manager, Pro Integrations & Foundations](https://www.linkedin.com/jobs/view/4461112459/) | Victoria, British Columbia, Canada | unlevelled | 51 |
+| 28 Nov 15:11 | Kinaxis | [Senior Product Manager, AI Innovation Team, Operations Orchestration](https://www.linkedin.com/jobs/view/4488433392/) | Calgary, Alberta, Canada | senior | 71 |
+| 28 Nov 15:11 | Kinaxis | [Senior Product Manager, AI Innovation Team, Operations Orchestration](https://www.linkedin.com/jobs/view/4488438161/) | Halifax, Nova Scotia, Canada | senior | 71 |
+| 28 Nov 11:11 | Hopper | [Senior Product Manager, Offers & Loyalty Partnerships](https://www.linkedin.com/jobs/view/4495346882/) | Toronto, Ontario, Canada | senior | 71 |
 | 28 Nov 00:25 | LSEG | [Senior Product Manager, AI Core Platform](https://www.linkedin.com/jobs/view/4495326435/) | City Of London, England, United Kingdom | senior | 70 |
 | 28 Nov 00:25 | Entain | [Senior Product Manager - Missions](https://www.linkedin.com/jobs/view/4495859081/) | London, England, United Kingdom | senior | 70 |
 | 27 Nov 22:25 | Product Madness 📱🎮 | [Senior Product Manager](https://www.linkedin.com/jobs/view/4486981127/) | London, England, United Kingdom | senior | 70 |
@@ -19,8 +23,10 @@ Updated 28 Nov 07:54 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 27 Nov 22:25 | RoomPriceGenie | [Remote Sr. Product Manager (m/f/d)](https://www.linkedin.com/jobs/view/4495822857/) | United Kingdom | senior | 70 |
 | 27 Nov 22:25 | RoomPriceGenie | [Remote Sr. Product Manager (m/f/d)](https://www.linkedin.com/jobs/view/4495834446/) | Ireland | senior | 70 |
 | 27 Nov 21:25 | Pay.UK | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494211114/) | London Area, United Kingdom | senior | 70 |
+| 27 Nov 20:11 | Blue J | [Product Manager](https://www.linkedin.com/jobs/view/4484491378/) | Toronto, Ontario, Canada | unlevelled | 51 |
 | 27 Nov 19:25 | NaturalMotion Games | [Senior Product Manager - Unannounced Project](https://www.linkedin.com/jobs/view/4479155137/) | London, England, United Kingdom | senior | 70 |
 | 27 Nov 17:25 | Matillion | [Senior Product Manager](https://www.linkedin.com/jobs/view/4470906612/) | Manchester, England, United Kingdom | senior | 70 |
+| 27 Nov 17:11 | RR | [Senior Product Manager – AI Agents – Global Legal Tech SaaS. Remote. – 20449](https://www.linkedin.com/jobs/view/4495284339/) | Toronto, Ontario, Canada | senior | 71 |
 | 27 Nov 16:15 | Skip | [Senior Product Manager](https://www.linkedin.com/jobs/view/4477340526/) | Edmonton, Alberta, Canada | senior | 67 |
 | 27 Nov 16:10 | EY | [Tech S and T-Product Manager-Senior-GDSF02](https://www.linkedin.com/jobs/view/4493875835/) | Kolkata, West Bengal, India | senior | 63 |
 | 27 Nov 16:10 | EY | [Tech S and T-Product Manager-Senior-GDSF02](https://www.linkedin.com/jobs/view/4493894017/) | Trivandrum, Kerala, India | senior | 63 |
@@ -125,9 +131,3 @@ Updated 28 Nov 07:54 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 26 Nov 18:07 | Norlys | [Product Owner til forretningskritiske backend-services hos Norlys](https://www.linkedin.com/jobs/view/4495293576/) | Aarhus, Central Denmark Region, Denmark | unlevelled | 58 |
 | 26 Nov 18:07 | SoGal Ventures | [Product Manager - GPU Performance Benchmarking](https://www.linkedin.com/jobs/view/4495294398/) | Olsztyn, Warmińsko-mazurskie, Poland | unlevelled | 54 |
 | 26 Nov 17:55 | JustPlay | [Senior Product Manager - Platform Experience (all genders)](https://www.linkedin.com/jobs/view/4475268212/) | Berlin, Berlin, Germany | senior | 70 |
-| 26 Nov 17:54 | Reconomy | [Senior Product Manager](https://www.linkedin.com/jobs/view/4461785604/) | London Area, United Kingdom | senior | 70 |
-| 26 Nov 17:54 | Al-Futtaim | [Product Manager - Maxus / Al-Futtaim Automotive / FAMCO](https://www.linkedin.com/jobs/view/4495289493/) | Saudi Arabia | unlevelled | 54 |
-| 26 Nov 17:54 | CodeNinja Inc. | [Product Manager - Digital Enterprise Solutions Governance](https://www.linkedin.com/jobs/view/4495290459/) | Riyadh, Riyadh, Saudi Arabia | unlevelled | 54 |
-| 26 Nov 17:53 | Kite Human Capital | [Senior Product Manager – Institutional Crypto Trading Systems](https://www.linkedin.com/jobs/view/4495282645/) | Dubai, United Arab Emirates | senior | 70 |
-| 26 Nov 17:53 | Al-Futtaim | [Product Manager - Commercial Vehicles / Al-Futtaim Automotive / Industrial Equipment / Dubai](https://www.linkedin.com/jobs/view/4495293455/) | Dubai, Dubai, United Arab Emirates | unlevelled | 54 |
-| 26 Nov 16:55 | Instabee | [Product Manager / Delivery Execution](https://www.linkedin.com/jobs/view/4478140254/) | Stockholm, Stockholm County, Sweden | unlevelled | 54 |

@@ -1,13 +1,13 @@
 {
-"blocked_until": "2026-11-28T03:04Z",
+"blocked_until": "2026-11-28T11:21Z",
 "health": {
-"calls": 1,
-"cards": 0,
+"calls": 3,
+"cards": 16,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 0,
+"new": 8,
 "rate_limited": true,
-"requests": 1,
+"requests": 3,
 "window_min": 1440
 },
 "jobs": {
@@ -478,6 +478,23 @@
 "tier": 2,
 "title": "Senior Product Manager, Credit & Pricing",
 "url": "https://www.linkedin.com/jobs/view/4434199272/",
+"visa": ""
+},
+"4434301157": {
+"company": "Affirm",
+"dup": true,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4434301157",
+"level": "senior",
+"location": "Kelowna, British Columbia, Canada",
+"posted": "2026-11-27",
+"regions": [
+"Canada"
+],
+"score": 80,
+"tier": 2,
+"title": "Senior Product Manager, Credit & Pricing",
+"url": "https://www.linkedin.com/jobs/view/4434301157/",
 "visa": ""
 },
 "4434301163": {
@@ -1198,6 +1215,24 @@
 "tier": 3,
 "title": "Senior Technical Product Owner — Revenue Management (m/f/d)",
 "url": "https://www.linkedin.com/jobs/view/4460315996/",
+"visa": ""
+},
+"4461112459": {
+"company": "Thumbtack",
+"dup": false,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4461112459",
+"level": "unlevelled",
+"location": "Victoria, British Columbia, Canada",
+"posted": "2026-11-28",
+"posted_ts": "2026-11-28T09:41Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager, Pro Integrations & Foundations",
+"url": "https://www.linkedin.com/jobs/view/4461112459/",
 "visa": ""
 },
 "4461235880": {
@@ -2082,24 +2117,6 @@
 "url": "https://www.linkedin.com/jobs/view/4475625348/",
 "visa": ""
 },
-"4475773983": {
-"company": "Air Arabia",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4475773983",
-"level": "unlevelled",
-"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T18:58Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4475773983/",
-"visa": ""
-},
 "4475984626": {
 "company": "Brown Brothers Harriman",
 "dup": false,
@@ -2929,24 +2946,6 @@
 "url": "https://www.linkedin.com/jobs/view/4483050951/",
 "visa": ""
 },
-"4483456136": {
-"company": "Deel",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4483456136",
-"level": "reach",
-"location": "United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T16:58Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Staff Accounting Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4483456136/",
-"visa": ""
-},
 "4483480237": {
 "company": "Skattestyrelsen",
 "dup": false,
@@ -3054,6 +3053,24 @@
 "tier": 3,
 "title": "Senior Data Product Manager – Finance & Procurement (m/f/d)",
 "url": "https://www.linkedin.com/jobs/view/4484351839/",
+"visa": ""
+},
+"4484491378": {
+"company": "Blue J",
+"dup": false,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4484491378",
+"level": "unlevelled",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T14:41Z",
+"regions": [
+"Canada"
+],
+"score": 51,
+"tier": 3,
+"title": "Product Manager",
+"url": "https://www.linkedin.com/jobs/view/4484491378/",
 "visa": ""
 },
 "4484650536": {
@@ -3721,6 +3738,24 @@
 "tier": 3,
 "title": "Principal Product Manager - Onboarding",
 "url": "https://www.linkedin.com/jobs/view/4485821205/",
+"visa": ""
+},
+"4485882030": {
+"company": "Asana",
+"dup": true,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4485882030",
+"level": "senior",
+"location": "Vancouver, British Columbia, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T13:41Z",
+"regions": [
+"Canada"
+],
+"score": 87,
+"tier": 1,
+"title": "Lead Product Manager, APIs and MCP",
+"url": "https://www.linkedin.com/jobs/view/4485882030/",
 "visa": ""
 },
 "4486001926": {
@@ -4517,6 +4552,42 @@
 "url": "https://www.linkedin.com/jobs/view/4488038283/",
 "visa": ""
 },
+"4488433392": {
+"company": "Kinaxis",
+"dup": false,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4488433392",
+"level": "senior",
+"location": "Calgary, Alberta, Canada",
+"posted": "2026-11-28",
+"posted_ts": "2026-11-28T09:41Z",
+"regions": [
+"Canada"
+],
+"score": 71,
+"tier": 3,
+"title": "Senior Product Manager, AI Innovation Team, Operations Orchestration",
+"url": "https://www.linkedin.com/jobs/view/4488433392/",
+"visa": ""
+},
+"4488438161": {
+"company": "Kinaxis",
+"dup": false,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4488438161",
+"level": "senior",
+"location": "Halifax, Nova Scotia, Canada",
+"posted": "2026-11-28",
+"posted_ts": "2026-11-28T09:41Z",
+"regions": [
+"Canada"
+],
+"score": 71,
+"tier": 3,
+"title": "Senior Product Manager, AI Innovation Team, Operations Orchestration",
+"url": "https://www.linkedin.com/jobs/view/4488438161/",
+"visa": ""
+},
 "4488656968": {
 "company": "ST Engineering",
 "dup": false,
@@ -4787,24 +4858,6 @@
 "url": "https://www.linkedin.com/jobs/view/4491574184/",
 "visa": ""
 },
-"4491913914": {
-"company": "oryxsearch.io",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4491913914",
-"level": "senior",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T14:58Z",
-"regions": [
-"Gulf"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager - Artificial intelligence",
-"url": "https://www.linkedin.com/jobs/view/4491913914/",
-"visa": ""
-},
 "4491914291": {
 "company": "Sii Poland",
 "dup": false,
@@ -4823,24 +4876,6 @@
 "url": "https://www.linkedin.com/jobs/view/4491914291/",
 "visa": ""
 },
-"4491915537": {
-"company": "Landmark Group",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4491915537",
-"level": "unlevelled",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T11:58Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner - Buying",
-"url": "https://www.linkedin.com/jobs/view/4491915537/",
-"visa": ""
-},
 "4491920117": {
 "company": "the LEGO Group",
 "dup": false,
@@ -4857,24 +4892,6 @@
 "tier": 3,
 "title": "Sr Product Manager, Moulding Technologi",
 "url": "https://www.linkedin.com/jobs/view/4491920117/",
-"visa": ""
-},
-"4491920650": {
-"company": "Housecall",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4491920650",
-"level": "unlevelled",
-"location": "Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T13:58Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager",
-"url": "https://www.linkedin.com/jobs/view/4491920650/",
 "visa": ""
 },
 "4491924544": {
@@ -5559,24 +5576,6 @@
 "url": "https://www.linkedin.com/jobs/view/4492699888/",
 "visa": ""
 },
-"4492798058": {
-"company": "ICAN MENA",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4492798058",
-"level": "stretch",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T06:58Z",
-"regions": [
-"Gulf"
-],
-"score": 48,
-"tier": 3,
-"title": "Head of Product",
-"url": "https://www.linkedin.com/jobs/view/4492798058/",
-"visa": ""
-},
 "4492798895": {
 "company": "CodeAnalytiqa Consultancy and Services",
 "dup": false,
@@ -5684,42 +5683,6 @@
 "url": "https://www.linkedin.com/jobs/view/4492905039/",
 "visa": ""
 },
-"4492906063": {
-"company": "ADIB - Abu Dhabi Islamic Bank",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4492906063",
-"level": "senior",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T08:58Z",
-"regions": [
-"Gulf"
-],
-"score": 70,
-"tier": 3,
-"title": "Senior Product Manager - Real Estate & Home Finance",
-"url": "https://www.linkedin.com/jobs/view/4492906063/",
-"visa": ""
-},
-"4492931107": {
-"company": "HSBC",
-"dup": false,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4492931107",
-"level": "unlevelled",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T13:58Z",
-"regions": [
-"Gulf"
-],
-"score": 54,
-"tier": 3,
-"title": "Digital Product Manager, Open Finance (UAE Nationals Only)",
-"url": "https://www.linkedin.com/jobs/view/4492931107/",
-"visa": ""
-},
 "4492939804": {
 "company": "Vercom S.A.",
 "dup": false,
@@ -5772,24 +5735,6 @@
 "tier": 1,
 "title": "Senior Product Manager Technical, EU INTech - PGX",
 "url": "https://www.linkedin.com/jobs/view/4492985490/",
-"visa": ""
-},
-"4492989213": {
-"company": "Amazon",
-"dup": true,
-"first_seen_at": "2026-11-21T03:58Z",
-"id": "4492989213",
-"level": "unlevelled",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T21:58Z",
-"regions": [
-"Gulf"
-],
-"score": 84,
-"tier": 1,
-"title": "Product Manager - Pricing, MEA Pricing",
-"url": "https://www.linkedin.com/jobs/view/4492989213/",
 "visa": ""
 },
 "4493000731": {
@@ -9616,6 +9561,24 @@
 "url": "https://www.linkedin.com/jobs/view/4495282645/",
 "visa": ""
 },
+"4495284339": {
+"company": "RR",
+"dup": false,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4495284339",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-27",
+"posted_ts": "2026-11-27T11:41Z",
+"regions": [
+"Canada"
+],
+"score": 71,
+"tier": 3,
+"title": "Senior Product Manager – AI Agents – Global Legal Tech SaaS. Remote. – 20449",
+"url": "https://www.linkedin.com/jobs/view/4495284339/",
+"visa": ""
+},
 "4495285084": {
 "company": "Axfood",
 "dup": false,
@@ -9776,6 +9739,24 @@
 "tier": 3,
 "title": "Senior Product Manager, AI Core Platform",
 "url": "https://www.linkedin.com/jobs/view/4495326435/",
+"visa": ""
+},
+"4495346882": {
+"company": "Hopper",
+"dup": false,
+"first_seen_at": "2026-11-28T10:41Z",
+"id": "4495346882",
+"level": "senior",
+"location": "Toronto, Ontario, Canada",
+"posted": "2026-11-28",
+"posted_ts": "2026-11-28T05:41Z",
+"regions": [
+"Canada"
+],
+"score": 71,
+"tier": 3,
+"title": "Senior Product Manager, Offers & Loyalty Partnerships",
+"url": "https://www.linkedin.com/jobs/view/4495346882/",
 "visa": ""
 },
 "4495501782": {
@@ -10049,8 +10030,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-11-28T02:24Z",
-"last_rollup": "2026-11-28T02:24Z",
+"last_block_ping": "2026-11-28T10:41Z",
+"last_rollup": "2026-11-28T10:41Z",
 "last_scan": "2026-11-17T22:05Z",
-"updated": "2026-11-28T02:24Z"
+"updated": "2026-11-28T10:41Z"
 }
