@@ -1,13 +1,13 @@
 {
-"blocked_until": "2026-11-27T20:35Z",
+"blocked_until": "2026-11-28T03:04Z",
 "health": {
-"calls": 4,
-"cards": 30,
+"calls": 1,
+"cards": 0,
 "errors": 1,
 "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
-"new": 16,
+"new": 0,
 "rate_limited": true,
-"requests": 4,
+"requests": 1,
 "window_min": 1440
 },
 "jobs": {
@@ -748,24 +748,6 @@
 "tier": 3,
 "title": "Technical Product Manager - SDK",
 "url": "https://www.linkedin.com/jobs/view/4448559839/",
-"visa": ""
-},
-"4448559841": {
-"company": "Digital Asset",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4448559841",
-"level": "unlevelled",
-"location": "Zurich, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T16:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager - Financial Apps",
-"url": "https://www.linkedin.com/jobs/view/4448559841/",
 "visa": ""
 },
 "4448749500": {
@@ -1956,24 +1938,6 @@
 "url": "https://www.linkedin.com/jobs/view/4473104770/",
 "visa": ""
 },
-"4473788586": {
-"company": "Basler Kantonalbank",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4473788586",
-"level": "senior",
-"location": "Basel, Basel, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T13:13Z",
-"regions": [
-"Europe"
-],
-"score": 70,
-"tier": 3,
-"title": "Lead Product Managerin Lending Solutions (w/m)",
-"url": "https://www.linkedin.com/jobs/view/4473788586/",
-"visa": ""
-},
 "4473789616": {
 "company": "Fluxon",
 "dup": false,
@@ -2134,24 +2098,6 @@
 "tier": 3,
 "title": "Product Manager",
 "url": "https://www.linkedin.com/jobs/view/4475773983/",
-"visa": ""
-},
-"4475785691": {
-"company": "Hitachi Energy",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4475785691",
-"level": "unlevelled",
-"location": "Stockholm, Stockholm County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T13:13Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Global Product Manager - Automation (m/f/d)",
-"url": "https://www.linkedin.com/jobs/view/4475785691/",
 "visa": ""
 },
 "4475984626": {
@@ -2422,24 +2368,6 @@
 "tier": 1,
 "title": "Product Manager, IN P3P",
 "url": "https://www.linkedin.com/jobs/view/4477437289/",
-"visa": ""
-},
-"4477470835": {
-"company": "Spotify",
-"dup": true,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4477470835",
-"level": "reach",
-"location": "Stockholm, Stockholm County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T19:13Z",
-"regions": [
-"Europe"
-],
-"score": 74,
-"tier": 1,
-"title": "Principal Product Manager - Format Foundations",
-"url": "https://www.linkedin.com/jobs/view/4477470835/",
 "visa": ""
 },
 "4477507539": {
@@ -4967,78 +4895,6 @@
 "url": "https://www.linkedin.com/jobs/view/4491924544/",
 "visa": ""
 },
-"4491930347": {
-"company": "Avy",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4491930347",
-"level": "senior",
-"location": "Stockholm, Stockholm County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T15:13Z",
-"regions": [
-"Europe"
-],
-"score": 74,
-"tier": 3,
-"title": "Senior Product Manager (AI Platform - Agent OS)",
-"url": "https://www.linkedin.com/jobs/view/4491930347/",
-"visa": ""
-},
-"4491937967": {
-"company": "Sandvik",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4491937967",
-"level": "unlevelled",
-"location": "Sandviken, Gävleborg County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T18:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner, Finance",
-"url": "https://www.linkedin.com/jobs/view/4491937967/",
-"visa": ""
-},
-"4491950422": {
-"company": "Sandvik",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4491950422",
-"level": "unlevelled",
-"location": "Stockholm, Stockholm County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T18:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner, Finance",
-"url": "https://www.linkedin.com/jobs/view/4491950422/",
-"visa": ""
-},
-"4491953293": {
-"company": "Sandvik Coromant",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4491953293",
-"level": "unlevelled",
-"location": "Stockholm, Stockholm County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T18:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner, Finance",
-"url": "https://www.linkedin.com/jobs/view/4491953293/",
-"visa": ""
-},
 "4492008940": {
 "company": "Ebury",
 "dup": true,
@@ -5291,42 +5147,6 @@
 "url": "https://www.linkedin.com/jobs/view/4492394994/",
 "visa": ""
 },
-"4492435865": {
-"company": "Tamedia",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492435865",
-"level": "unlevelled",
-"location": "Zurich, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T11:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager 80–100%",
-"url": "https://www.linkedin.com/jobs/view/4492435865/",
-"visa": ""
-},
-"4492455283": {
-"company": "Tamedia",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492455283",
-"level": "unlevelled",
-"location": "Zurich, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T11:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Finanz und Wirtschaft 80–100%",
-"url": "https://www.linkedin.com/jobs/view/4492455283/",
-"visa": ""
-},
 "4492506939": {
 "company": "Dialogue",
 "dup": false,
@@ -5360,24 +5180,6 @@
 "tier": 3,
 "title": "Commercial Product Manager, Product Management - Healthcare",
 "url": "https://www.linkedin.com/jobs/view/4492573860/",
-"visa": ""
-},
-"4492594635": {
-"company": "Vernetzt",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492594635",
-"level": "unlevelled",
-"location": "Aargau, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T16:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Technical Product Manager 100% (m/w)",
-"url": "https://www.linkedin.com/jobs/view/4492594635/",
 "visa": ""
 },
 "4492612924": {
@@ -5810,78 +5612,6 @@
 "url": "https://www.linkedin.com/jobs/view/4492801657/",
 "visa": ""
 },
-"4492812652": {
-"company": "Ericsson",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492812652",
-"level": "unlevelled",
-"location": "Stockholm, Stockholm County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T18:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager, People Digital Solutions, AI and Analytics",
-"url": "https://www.linkedin.com/jobs/view/4492812652/",
-"visa": ""
-},
-"4492813228": {
-"company": "Digital Asset",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492813228",
-"level": "reach",
-"location": "Zurich, Zurich, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T17:13Z",
-"regions": [
-"Europe"
-],
-"score": 58,
-"tier": 3,
-"title": "Principal Product Manager - Stablecoins & Payments",
-"url": "https://www.linkedin.com/jobs/view/4492813228/",
-"visa": ""
-},
-"4492841580": {
-"company": "Otherwise Enterprises Pty Ltd",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492841580",
-"level": "unlevelled",
-"location": "Zurich, Zurich, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T22:15Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager 80–100%",
-"url": "https://www.linkedin.com/jobs/view/4492841580/",
-"visa": ""
-},
-"4492846341": {
-"company": "Otherwise Enterprises Pty Ltd",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492846341",
-"level": "unlevelled",
-"location": "Zurich, Zurich, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T22:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Manager Finanz und Wirtschaft 80–100%",
-"url": "https://www.linkedin.com/jobs/view/4492846341/",
-"visa": ""
-},
 "4492853807": {
 "company": "Kanbios",
 "dup": false,
@@ -5970,42 +5700,6 @@
 "tier": 3,
 "title": "Senior Product Manager - Real Estate & Home Finance",
 "url": "https://www.linkedin.com/jobs/view/4492906063/",
-"visa": ""
-},
-"4492908201": {
-"company": "Nexthink",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492908201",
-"level": "senior",
-"location": "Lausanne, Vaud, Switzerland",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T10:13Z",
-"regions": [
-"Europe"
-],
-"score": 74,
-"tier": 3,
-"title": "Senior Product Manager - AI Agent",
-"url": "https://www.linkedin.com/jobs/view/4492908201/",
-"visa": ""
-},
-"4492921801": {
-"company": "Xylem",
-"dup": false,
-"first_seen_at": "2026-11-20T23:13Z",
-"id": "4492921801",
-"level": "unlevelled",
-"location": "Sundbyberg, Stockholm County, Sweden",
-"posted": "2026-11-20",
-"posted_ts": "2026-11-20T13:13Z",
-"regions": [
-"Europe"
-],
-"score": 54,
-"tier": 3,
-"title": "Product Owner, Drive Control Systems",
-"url": "https://www.linkedin.com/jobs/view/4492921801/",
 "visa": ""
 },
 "4492931107": {
@@ -10355,8 +10049,8 @@
 "visa": ""
 }
 },
-"last_block_ping": "2026-11-27T19:55Z",
-"last_rollup": "2026-11-27T11:05Z",
+"last_block_ping": "2026-11-28T02:24Z",
+"last_rollup": "2026-11-28T02:24Z",
 "last_scan": "2026-11-17T22:05Z",
-"updated": "2026-11-27T19:55Z"
+"updated": "2026-11-28T02:24Z"
 }

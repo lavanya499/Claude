@@ -1,20 +1,20 @@
 # Live LinkedIn roles (last 48 hours, newest first)
 
-Updated 28 Nov 01:25 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
+Updated 28 Nov 07:54 IST. Scanned every 15 minutes across 21 countries. A leading `~` means LinkedIn only gave a day, so the time shown is when we first saw it.
 
 ## Target companies (0)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
 
-## Everyone else, every level except junior (173)
+## Everyone else, every level except junior (166)
 
 | Posted (IST) | Company | Role | Where | Level | Score |
 |---|---|---|---|---|---|
 | 28 Nov 00:25 | LSEG | [Senior Product Manager, AI Core Platform](https://www.linkedin.com/jobs/view/4495326435/) | City Of London, England, United Kingdom | senior | 70 |
 | 28 Nov 00:25 | Entain | [Senior Product Manager - Missions](https://www.linkedin.com/jobs/view/4495859081/) | London, England, United Kingdom | senior | 70 |
-| 27 Nov 22:25 | Netcompany | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494208319/) | Edinburgh, Scotland, United Kingdom | senior | 70 |
 | 27 Nov 22:25 | Product Madness 📱🎮 | [Senior Product Manager](https://www.linkedin.com/jobs/view/4486981127/) | London, England, United Kingdom | senior | 70 |
+| 27 Nov 22:25 | Netcompany | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494208319/) | Edinburgh, Scotland, United Kingdom | senior | 70 |
 | 27 Nov 22:25 | Netcompany | [Senior Product Manager](https://www.linkedin.com/jobs/view/4494216068/) | Birmingham, England, United Kingdom | senior | 70 |
 | 27 Nov 22:25 | RoomPriceGenie | [Remote Sr. Product Manager (m/f/d)](https://www.linkedin.com/jobs/view/4495822857/) | United Kingdom | senior | 70 |
 | 27 Nov 22:25 | RoomPriceGenie | [Remote Sr. Product Manager (m/f/d)](https://www.linkedin.com/jobs/view/4495834446/) | Ireland | senior | 70 |
@@ -27,8 +27,8 @@ Updated 28 Nov 01:25 IST. Scanned every 15 minutes across 21 countries. A leadin
 | 27 Nov 15:45 | Amagi | [Product Manager - AgentHelix](https://www.linkedin.com/jobs/view/4493877657/) | Bengaluru, Karnataka, India | unlevelled | 47 |
 | 27 Nov 15:36 | RLDatix UK & Ireland | [Senior Product Manager](https://www.linkedin.com/jobs/view/4490806337/) | London, England, United Kingdom | senior | 70 |
 | 27 Nov 15:35 | RLDatix North America | [Senior Product Manager, RLD Intelligence](https://www.linkedin.com/jobs/view/4490467959/) | Toronto, Ontario, Canada | senior | 67 |
-| 27 Nov 15:25 | Legal & General | [Product Manager - Multi Asset Class Solutions](https://www.linkedin.com/jobs/view/4487727806/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 27 Nov 15:25 | HelloFresh | [Senior Product Manager](https://www.linkedin.com/jobs/view/4433899095/) | Dublin, County Dublin, Ireland | senior | 70 |
+| 27 Nov 15:25 | Legal & General | [Product Manager - Multi Asset Class Solutions](https://www.linkedin.com/jobs/view/4487727806/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 27 Nov 14:25 | Fruition Group Ireland | [Product Owner](https://www.linkedin.com/jobs/view/4495079657/) | Dublin, County Dublin, Ireland | unlevelled | 54 |
 | 27 Nov 13:35 | Coupa | [Sr. Product Manager - Supply Chain Data Platform](https://www.linkedin.com/jobs/view/4493872427/) | Bengaluru, Karnataka, India | senior | 63 |
 | 27 Nov 13:25 | Jobgether | [Sr Product Manager - Quantitative Growth](https://www.linkedin.com/jobs/view/4495072842/) | Ireland | senior | 70 |
